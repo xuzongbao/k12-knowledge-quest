@@ -1,0 +1,1143 @@
+{
+  "map_id": "pm-g1-numbers",
+  "nodes": [
+    {
+      "id": "pm-g1-n001",
+      "title": "数一数（10以内）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "count",
+        "ch-start",
+        "within-10"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能手口一致地点数 10 个以内的物体，并说出一共有几个。"
+    },
+    {
+      "id": "pm-g1-n002",
+      "title": "同样多、多、少",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-n001"
+      ],
+      "tags": [
+        "compare",
+        "ch-start",
+        "within-10"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "会用一一对应比较两组物体，说出谁多、谁少或同样多。"
+    },
+    {
+      "id": "pm-g1-n003",
+      "title": "认识1～5",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-n001"
+      ],
+      "tags": [
+        "number-sense",
+        "ch-1to5"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识数字 1 到 5，能把数字、数量和实物对应起来。"
+    },
+    {
+      "id": "pm-g1-n004",
+      "title": "第几：基数与序数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-n003"
+      ],
+      "tags": [
+        "ordinal",
+        "ch-1to5"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "区分「有几个」和「排第几」，会在简单排队情境里指出第几个。"
+    },
+    {
+      "id": "pm-g1-n005",
+      "title": "5以内数的分与合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n003"
+      ],
+      "tags": [
+        "compose",
+        "ch-1to5"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把 5 以内的数拆成两份，也能把两份合回原来的数。"
+    },
+    {
+      "id": "pm-g1-n006",
+      "title": "认识0",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-n003"
+      ],
+      "tags": [
+        "zero",
+        "ch-1to5"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道 0 表示没有，也知道它在数数顺序里紧挨着 1。"
+    },
+    {
+      "id": "pm-g1-n007",
+      "title": "5以内加法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n005",
+        "pm-g1-n006"
+      ],
+      "tags": [
+        "add",
+        "ch-1to5",
+        "within-5"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「合起来」的意思计算 5 以内加法，并写出加法算式。"
+    },
+    {
+      "id": "pm-g1-n008",
+      "title": "5以内减法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n007"
+      ],
+      "tags": [
+        "subtract",
+        "ch-1to5",
+        "within-5"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「去掉」的意思计算 5 以内减法，并写出减法算式。"
+    },
+    {
+      "id": "pm-g1-n009",
+      "title": "认识6～10",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n003"
+      ],
+      "tags": [
+        "number-sense",
+        "ch-6to10"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识 6 到 10，能按顺序数、认读和书写这些数字。"
+    },
+    {
+      "id": "pm-g1-n010",
+      "title": "10的分与合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n005",
+        "pm-g1-n009"
+      ],
+      "tags": [
+        "compose",
+        "ch-6to10",
+        "make-10"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "熟练说出 10 可以分成哪两数、哪两数能合成 10，为凑十做准备。"
+    },
+    {
+      "id": "pm-g1-n011",
+      "title": "10以内加法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n007",
+        "pm-g1-n010"
+      ],
+      "tags": [
+        "add",
+        "ch-6to10",
+        "within-10"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能正确计算 10 以内加法，并初步用分与合想得数。"
+    },
+    {
+      "id": "pm-g1-n012",
+      "title": "10以内减法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n008",
+        "pm-g1-n011"
+      ],
+      "tags": [
+        "subtract",
+        "ch-6to10",
+        "within-10"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能正确计算 10 以内减法，会用想加算减检查得数。"
+    },
+    {
+      "id": "pm-g1-n013",
+      "title": "连加与连减（10以内）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n011",
+        "pm-g1-n012"
+      ],
+      "tags": [
+        "chain",
+        "ch-6to10",
+        "within-10"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能从左往右计算 10 以内连加、连减，知道先算前面一步。"
+    },
+    {
+      "id": "pm-g1-n014",
+      "title": "加减混合（10以内）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n013"
+      ],
+      "tags": [
+        "mixed",
+        "ch-6to10",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能计算 10 以内加减混合式，并在「先合再去」的情境中选对运算。"
+    },
+    {
+      "id": "pm-g1-n015",
+      "title": "认识11～20",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n009"
+      ],
+      "tags": [
+        "number-sense",
+        "ch-11to20"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识 11 到 20 各数，能数、读、写，并知道 10 后面接着 11。"
+    },
+    {
+      "id": "pm-g1-n016",
+      "title": "十几的组成",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n010",
+        "pm-g1-n015"
+      ],
+      "tags": [
+        "place-value",
+        "ch-11to20",
+        "teen"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道十几是 1 个十和几个一合起来的，能用小棒说明组成。"
+    },
+    {
+      "id": "pm-g1-n017",
+      "title": "20以内不进位加法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n011",
+        "pm-g1-n016"
+      ],
+      "tags": [
+        "add",
+        "ch-11to20",
+        "no-carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "计算个位相加不满十的加法，如 12+3，先把几个一加起来。"
+    },
+    {
+      "id": "pm-g1-n018",
+      "title": "20以内不退位减法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n012",
+        "pm-g1-n016"
+      ],
+      "tags": [
+        "subtract",
+        "ch-11to20",
+        "no-borrow"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "计算个位够减的减法，如 15−4，从几个一里去掉，十不动。"
+    },
+    {
+      "id": "pm-g1-n019",
+      "title": "凑十法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n010",
+        "pm-g1-n016"
+      ],
+      "tags": [
+        "strategy",
+        "ch-carry",
+        "make-10"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "遇到个位相加满十时，会把其中一个数凑成 10，再加剩下的。"
+    },
+    {
+      "id": "pm-g1-n020",
+      "title": "9加几",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n017",
+        "pm-g1-n019"
+      ],
+      "tags": [
+        "add",
+        "ch-carry",
+        "9-plus"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "用凑十法计算 9 加几，体会「9 再凑 1 就成 10」。"
+    },
+    {
+      "id": "pm-g1-n021",
+      "title": "8、7、6加几",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n020"
+      ],
+      "tags": [
+        "add",
+        "ch-carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "把凑十法推广到 8、7、6 加几，个位满十就向十位进 1。"
+    },
+    {
+      "id": "pm-g1-n022",
+      "title": "20以内进位加法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n020",
+        "pm-g1-n021"
+      ],
+      "tags": [
+        "add",
+        "ch-carry",
+        "within-20"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合计算 20 以内进位加法，能口算并说清怎样凑十。"
+    },
+    {
+      "id": "pm-g1-n023",
+      "title": "破十法与想加算减",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-n018",
+        "pm-g1-n022"
+      ],
+      "tags": [
+        "strategy",
+        "ch-borrow"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "个位不够减时，会破开 1 个十再减，或用加法想对应的减。"
+    },
+    {
+      "id": "pm-g1-n024",
+      "title": "十几减9",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-n023"
+      ],
+      "tags": [
+        "subtract",
+        "ch-borrow",
+        "minus-9"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "计算十几减 9，能把它和「9 加几」对应起来验算。"
+    },
+    {
+      "id": "pm-g1-n025",
+      "title": "十几减8、7、6",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-n024"
+      ],
+      "tags": [
+        "subtract",
+        "ch-borrow"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "把退位减法推广到减 8、7、6，能选破十或想加算减。"
+    },
+    {
+      "id": "pm-g1-n026",
+      "title": "20以内退位减法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-n025"
+      ],
+      "tags": [
+        "subtract",
+        "ch-borrow",
+        "within-20",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合计算 20 以内退位减法，并会用加法验算。"
+    },
+    {
+      "id": "pm-g1-n027",
+      "title": "加减法的关系",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n022",
+        "pm-g1-n026"
+      ],
+      "tags": [
+        "relation",
+        "ch-apply"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道加减互逆：知道两个加数与和，就能写出相关减法。"
+    },
+    {
+      "id": "pm-g1-n028",
+      "title": "解决问题：一共与还剩",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n014",
+        "pm-g1-n026"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-apply",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "在「合起来一共」「去掉还剩」的短故事里，正确选择加或减。"
+    },
+    {
+      "id": "pm-g1-n029",
+      "title": "整十数（到100）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-n015"
+      ],
+      "tags": [
+        "tens",
+        "ch-to100"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识 10、20、…、100，能十个十个地数，知道 10 个十是 100。"
+    },
+    {
+      "id": "pm-g1-n030",
+      "title": "100以内数的读与写",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n029"
+      ],
+      "tags": [
+        "read-write",
+        "ch-to100"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能读、写 100 以内各数，避免「二十五」写成 205 这类位数错误。"
+    },
+    {
+      "id": "pm-g1-n031",
+      "title": "100以内数的组成",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n016",
+        "pm-g1-n030"
+      ],
+      "tags": [
+        "place-value",
+        "ch-to100"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说出一个两位数是几个十和几个一，建立十位、个位观念。"
+    },
+    {
+      "id": "pm-g1-n032",
+      "title": "100以内数的大小比较",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n002",
+        "pm-g1-n031"
+      ],
+      "tags": [
+        "compare",
+        "ch-to100"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会先看十位再看个位比较 100 以内数的大小，并用＞＜＝表示。"
+    },
+    {
+      "id": "pm-g1-n033",
+      "title": "整十数加、减整十数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n011",
+        "pm-g1-n012",
+        "pm-g1-n029"
+      ],
+      "tags": [
+        "add",
+        "subtract",
+        "ch-to100",
+        "tens"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "把整十数加减转化成几个十加减，如 30+20 想成 3 个十加 2 个十。"
+    },
+    {
+      "id": "pm-g1-n034",
+      "title": "两位数加、减一位数（不进退位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n017",
+        "pm-g1-n018",
+        "pm-g1-n031"
+      ],
+      "tags": [
+        "add",
+        "subtract",
+        "ch-to100",
+        "no-carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "计算个位不进位、不退位的两位数加减一位数，十位保持不变。"
+    },
+    {
+      "id": "pm-g1-n035",
+      "title": "两位数加、减整十数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-n033",
+        "pm-g1-n034"
+      ],
+      "tags": [
+        "add",
+        "subtract",
+        "ch-to100"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "两位数加减整十数时只动十位、个位不动，能口算并说理。"
+    },
+    {
+      "id": "pm-g1-n036",
+      "title": "解决问题：比多与比少",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-n028",
+        "pm-g1-n032"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-apply",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "理解「比一个数多几 / 少几」，能从短故事里列出正确算式。"
+    },
+    {
+      "id": "pm-g1-n037",
+      "title": "20以内加减口算熟练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-n022",
+        "pm-g1-n026"
+      ],
+      "tags": [
+        "fluency",
+        "within-20",
+        "ch-apply"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "20 以内加减能较熟练口算，并自觉用互逆关系验算。"
+    },
+    {
+      "id": "pm-g1-n038",
+      "title": "数与运算入门综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g1-n027",
+        "pm-g1-n035",
+        "pm-g1-n036",
+        "pm-g1-n037"
+      ],
+      "tags": [
+        "synthesis",
+        "ch-final",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合运用一年级数的认识、组成、比较与 20 以内及整十加减解决问题。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pm-g1-numbers",
+  "title": "一年级 · 数与运算入门",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 1,
+  "strand": "数与代数",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g1-n001"
+  ],
+  "recommended_path_note": "从「数一数」进入，先打通 10 以内，再 20 以内进退位，最后衔接 100 以内数与整十加减。序数（n004）为软锁支线。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g1-boss-10",
+      "pm-g1-boss-20",
+      "pm-g1-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：十以内加减、二十以内进退位、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学一年级「数与代数」入门地图：10 以内认识与加减 → 20 以内进退位 → 100 以内数的认识与简单加减。适合作为点亮知识点 RPG 的第一张可通关样例。"
+}
