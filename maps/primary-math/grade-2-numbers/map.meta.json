@@ -1,0 +1,26 @@
+{
+  "id": "pm-g2-numbers",
+  "title": "二年级 · 数与运算",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 2,
+  "strand": "数与代数",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g2-n001"
+  ],
+  "recommended_path_note": "从「100以内组成复习」进入：先打通 100 以内进退位加减，再表内乘法、表内除法（含有余数），然后两步混合运算与小括号，最后衔接万以内数与简单估算。奇数与偶数（n022）为软锁支线。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g2-boss-100",
+      "pm-g2-boss-times",
+      "pm-g2-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：一百以内进退位、表内乘除大闯关、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学二年级「数与代数」地图：100 以内加减巩固 → 表内乘除入门 → 混合运算意识 → 万以内数认识与简单估算。与一年级地图概念衔接，但各自独立通关。"
+}
