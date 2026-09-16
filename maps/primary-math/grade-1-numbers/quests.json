@@ -1,0 +1,526 @@
+{
+  "map_id": "pm-g1-numbers",
+  "quests": [
+    {
+      "id": "pm-g1-n001-explain",
+      "node_id": "pm-g1-n001",
+      "title": "边指边数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "任选桌上不超过 10 件物品，边指边数，最后大声说「一共有几个」。",
+      "success_hint": "手指、口说、眼睛看同一件物品。"
+    },
+    {
+      "id": "pm-g1-n002-explain",
+      "node_id": "pm-g1-n002",
+      "title": "一对一比一比",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "摆两排物品，用一一对应说明谁多、谁少，或同样多。",
+      "success_hint": "多出来的没有「朋友」配对。"
+    },
+    {
+      "id": "pm-g1-n003-explain",
+      "node_id": "pm-g1-n003",
+      "title": "数字找朋友",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看到 1～5 的数字，拿出同样多的小圆片，再说出这个数。",
+      "success_hint": "数字、数量、实物要能对上。"
+    },
+    {
+      "id": "pm-g1-n003-practice",
+      "node_id": "pm-g1-n003",
+      "title": "认读1～5",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "打乱顺序出示数字卡片 1～5，正确认读并按从小到大排好。",
+      "success_hint": "先找到最小的 1，再一个一个往后排。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-n004-explain",
+      "node_id": "pm-g1-n004",
+      "title": "有几个和第几",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "五个小朋友排队。说清「一共有 5 人」和「从左数第 3 个是谁」有什么不同。",
+      "success_hint": "「有几个」问总数，「第几」问位置。"
+    },
+    {
+      "id": "pm-g1-n005-explain",
+      "node_id": "pm-g1-n005",
+      "title": "5可以怎么分",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 5 根小棒分成两堆，至少说出三种分法，再说怎样合回去。",
+      "success_hint": "一边说「几和几」，一边把两堆再合在一起。"
+    },
+    {
+      "id": "pm-g1-n005-practice",
+      "node_id": "pm-g1-n005",
+      "title": "分与合卡片",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "完成 5 以内分与合：如 4 可以分成 1 和 □。",
+      "success_hint": "两份加起来要回到原来的数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-n006-explain",
+      "node_id": "pm-g1-n006",
+      "title": "没有就是0",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "盘子里原来有 2 块糖，吃完了。用 0 说明现在有几块，并指出 0 在 1 的前面。",
+      "success_hint": "0 既表示没有，也是一个数。"
+    },
+    {
+      "id": "pm-g1-n007-explain",
+      "node_id": "pm-g1-n007",
+      "title": "合起来用加法",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "左边 2 个、右边 3 个，用手势表示合起来，并写出加法算式。",
+      "success_hint": "加号表示把两部分合在一起。"
+    },
+    {
+      "id": "pm-g1-n007-practice",
+      "node_id": "pm-g1-n007",
+      "title": "5以内加法练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算一组 5 以内加法，如 2+2、1+4、0+5。",
+      "success_hint": "想分与合，或接着数。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-n008-explain",
+      "node_id": "pm-g1-n008",
+      "title": "去掉用减法",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "有 5 个桃子，吃掉 2 个，用「去掉」说明还剩几个，并写出减法算式。",
+      "success_hint": "减号表示从总数里去掉一部分。"
+    },
+    {
+      "id": "pm-g1-n008-practice",
+      "node_id": "pm-g1-n008",
+      "title": "5以内减法练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算一组 5 以内减法，如 5−1、4−0、3−3。",
+      "success_hint": "可以用对应的加法想得数。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-n008-quiz",
+      "node_id": "pm-g1-n008",
+      "title": "5以内加减小测",
+      "type": "mini_quiz",
+      "xp": 25,
+      "prompt": "混合出现 5 以内加减，看算式选对运算并算出得数。",
+      "success_hint": "先看是合起来还是去掉。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-n009-explain",
+      "node_id": "pm-g1-n009",
+      "title": "接着数到10",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "从 1 数到 10，再倒着数回 1，指出 6、7、8、9、10 各是多少个小棒。",
+      "success_hint": "10 要用一捆（10 根）来表示更清楚。"
+    },
+    {
+      "id": "pm-g1-n010-explain",
+      "node_id": "pm-g1-n010",
+      "title": "10的好朋友",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说出 10 的分与合（1 和 9、2 和 8…），并说明为什么以后常要用到「凑十」。",
+      "success_hint": "两数合起来是 10，就是一对好朋友。"
+    },
+    {
+      "id": "pm-g1-n010-practice",
+      "node_id": "pm-g1-n010",
+      "title": "凑十对对碰",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给出一个 10 以内的数，迅速说出再加几是 10。",
+      "success_hint": "想 10 的分与合。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-n011-practice",
+      "node_id": "pm-g1-n011",
+      "title": "10以内加法练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算 10 以内加法，包含加 0 和得数是 10 的题。",
+      "success_hint": "得数不要超过 10。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-n012-practice",
+      "node_id": "pm-g1-n012",
+      "title": "10以内减法练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算 10 以内减法，并用加法验算其中两题。",
+      "success_hint": "减数和差加起来应等于被减数。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-n013-explain",
+      "node_id": "pm-g1-n013",
+      "title": "先算哪一步",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用「先放进 2 个，再放进 3 个」说明 2+3+1 要先算前面的加法。",
+      "success_hint": "连加连减都从左边开始，一步一步算。"
+    },
+    {
+      "id": "pm-g1-n013-practice",
+      "node_id": "pm-g1-n013",
+      "title": "连加连减练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算若干 10 以内连加、连减式，写出中间一步的得数。",
+      "success_hint": "可以在第一步下面标出小得数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-n014-practice",
+      "node_id": "pm-g1-n014",
+      "title": "加减混合练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算 10 以内加减混合，如 6+2−3。先判断每一步是加还是减。",
+      "success_hint": "仍然从左往右。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-n014-quiz",
+      "node_id": "pm-g1-n014",
+      "title": "10以内混合小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "既有口算也有「先来了几个、又走了几个」的短故事。",
+      "success_hint": "故事里的「又来」多半用加，「走了」多半用减。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-boss-10",
+      "node_id": "pm-g1-n014",
+      "title": "关主：十以内加减大闯关",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "闯过三关：①10 的分与合抢答 ②10 以内加减口算 ③一个「一共/还剩」短故事。全部通过才算击败关主。",
+      "success_hint": "分与合熟练了，口算和应用题都会轻松很多。",
+      "items_suggested": 15
+    },
+    {
+      "id": "pm-g1-n015-explain",
+      "node_id": "pm-g1-n015",
+      "title": "数到20",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "从 10 接着数到 20，指出 11、15、20，并正确书写这几个数。",
+      "success_hint": "10 后面是 11，不是「101」。"
+    },
+    {
+      "id": "pm-g1-n016-explain",
+      "node_id": "pm-g1-n016",
+      "title": "一个十和几个一",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 1 捆小棒（10 根）加几根零散小棒表示一个十几，说出它的组成。",
+      "success_hint": "左边一捆是十，右边几根是一。"
+    },
+    {
+      "id": "pm-g1-n016-practice",
+      "node_id": "pm-g1-n016",
+      "title": "十几组成练习",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "说出 11～19 各是几个十和几个一，并写出如 13=10+3。",
+      "success_hint": "十几里一定有 1 个十。",
+      "items_suggested": 9
+    },
+    {
+      "id": "pm-g1-n017-practice",
+      "node_id": "pm-g1-n017",
+      "title": "不进位加法练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算个位相加不满十的题，如 12+4、10+7、16+2。",
+      "success_hint": "只把几个一加起来，十先不动。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-n018-practice",
+      "node_id": "pm-g1-n018",
+      "title": "不退位减法练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算个位够减的题，如 18−3、15−5、12−2。",
+      "success_hint": "个位够减就不用破十。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-n019-explain",
+      "node_id": "pm-g1-n019",
+      "title": "怎样凑成10",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用小棒说明 9+5：先从 5 里拿出 1 给 9 凑成 10，再加剩下的 4。",
+      "success_hint": "先凑十，再加剩下的部分。"
+    },
+    {
+      "id": "pm-g1-n020-practice",
+      "node_id": "pm-g1-n020",
+      "title": "9加几练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算 9+2 到 9+9，每题用一句话说出凑十过程。",
+      "success_hint": "9 再要 1 个就变成 10。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-n021-practice",
+      "node_id": "pm-g1-n021",
+      "title": "8、7、6加几练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算 8、7、6 加几（得数在 20 以内），标明凑了几成十。",
+      "success_hint": "8 凑 2，7 凑 3，6 凑 4。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-n022-practice",
+      "node_id": "pm-g1-n022",
+      "title": "进位加法综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合 9、8、7、6 加几以及 5 加几，全部为 20 以内进位加法。",
+      "success_hint": "先看个位够不够十。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-n022-quiz",
+      "node_id": "pm-g1-n022",
+      "title": "进位加法小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "判断哪些加法要进位，再计算。夹一道「9 加几」与「12+3」的对比。",
+      "success_hint": "不满十不进位，满十才凑十。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-n023-explain",
+      "node_id": "pm-g1-n023",
+      "title": "个位不够减怎么办",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用小棒说明 13−5：打开一捆十，变成 10 和 3，再减 5。或用「5 加几等于 13」来想。",
+      "success_hint": "破十和想加算减都可以，选自己更清楚的一种。"
+    },
+    {
+      "id": "pm-g1-n024-practice",
+      "node_id": "pm-g1-n024",
+      "title": "十几减9练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算 11−9 到 18−9，并用对应的 9 加几验算两题。",
+      "success_hint": "减 9 常常想「再加 1 就是减 10」。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-n025-practice",
+      "node_id": "pm-g1-n025",
+      "title": "十几减8、7、6练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算十几减 8、7、6，每类至少 3 题。",
+      "success_hint": "可以先想加算减：减数 + 差 = 被减数。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-n026-practice",
+      "node_id": "pm-g1-n026",
+      "title": "退位减法综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合 20 以内退位减法，并指出哪几题个位本来就够减（干扰项）。",
+      "success_hint": "先看个位够不够减。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-n026-quiz",
+      "node_id": "pm-g1-n026",
+      "title": "退位减法小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "进位加、退位减混排，要先判断类型再计算。",
+      "success_hint": "加往「满十」走，减往「破十」走。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-boss-20",
+      "node_id": "pm-g1-n026",
+      "title": "关主：二十以内进退位",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主条件：①说出凑十或破十过程 ②正确完成进位加与退位减各 5 题 ③用加减互逆验算 1 题。",
+      "success_hint": "这一关之后，20 以内计算就打通了。",
+      "items_suggested": 15
+    },
+    {
+      "id": "pm-g1-n027-explain",
+      "node_id": "pm-g1-n027",
+      "title": "加减是一对好朋友",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "由 8+6=14 写出两道相关减法，并说明为什么得数互相「认识」。",
+      "success_hint": "和减去一个加数，得到另一个加数。"
+    },
+    {
+      "id": "pm-g1-n028-practice",
+      "node_id": "pm-g1-n028",
+      "title": "一共还是还剩",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读三则短故事：来了几个 / 走了几个 / 合在一起，选择加或减并列式。",
+      "success_hint": "「一共、合起来」用加；「还剩、去掉、吃了」用减。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g1-n029-explain",
+      "node_id": "pm-g1-n029",
+      "title": "十个十个地数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 10 根小棒捆成一捆，数十捆到 100，说出 40、70、100 各是几十。",
+      "success_hint": "整十数的十位上是几，就有几个十。"
+    },
+    {
+      "id": "pm-g1-n030-practice",
+      "node_id": "pm-g1-n030",
+      "title": "读一读写一写",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "听数写数、看数读数（100 以内），特别注意 13、30、100。",
+      "success_hint": "13 是 1 个十和 3 个一；30 是 3 个十。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-n031-explain",
+      "node_id": "pm-g1-n031",
+      "title": "几个十几个一",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "任意说一个两位数，用「几个十、几个一」说明它的组成，并对照 十几 的组成。",
+      "success_hint": "十位上的数字表示几个十。"
+    },
+    {
+      "id": "pm-g1-n032-practice",
+      "node_id": "pm-g1-n032",
+      "title": "比大小",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较 100 以内两个数的大小，先比十位再比个位，填 ＞＜＝。",
+      "success_hint": "十位大的数就大；十位相同再比个位。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-n033-practice",
+      "node_id": "pm-g1-n033",
+      "title": "整十加减",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算 20+30、50−10、100−40 等，用「几个十」来想。",
+      "success_hint": "只算十位上的数，个位都是 0。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-n034-practice",
+      "node_id": "pm-g1-n034",
+      "title": "两位数加减一位数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算不进位、不退位的两位数加减一位数，如 34+5、48−2。",
+      "success_hint": "个位算个位，十位先原样写下来。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-n035-practice",
+      "node_id": "pm-g1-n035",
+      "title": "加减整十数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算 45+20、67−30 等，说清哪一位发生了变化。",
+      "success_hint": "加减整十数时个位不变。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-n036-explain",
+      "node_id": "pm-g1-n036",
+      "title": "多几少几是什么意思",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "小明有 8 支笔，小红比他多 3 支。用图或学具说明「多 3 支」该怎样算。",
+      "success_hint": "比一个数多几，就在这个数上再加几。"
+    },
+    {
+      "id": "pm-g1-n036-practice",
+      "node_id": "pm-g1-n036",
+      "title": "比多比少练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成「比多」「比少」短故事各两则，并列式计算。",
+      "success_hint": "先找到「以谁为标准」，再决定加还是减。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g1-n037-practice",
+      "node_id": "pm-g1-n037",
+      "title": "口算小跑",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "限时口算 20 以内加减混合，错题用互逆关系当场验算。",
+      "success_hint": "又快又对才算熟练，不要只图快。",
+      "items_suggested": 16
+    },
+    {
+      "id": "pm-g1-n037-quiz",
+      "node_id": "pm-g1-n037",
+      "title": "口算过关小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "20 以内加减混排，正确率达到掌握标准才算过关。",
+      "success_hint": "遇到进退位先在心里想凑十或破十。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-n038-practice",
+      "node_id": "pm-g1-n038",
+      "title": "地图综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：读数写数、比较大小、20 以内进退位、整十加减、比多比少故事。",
+      "success_hint": "先判断这题在考哪一个已点亮的知识点。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-boss-map",
+      "node_id": "pm-g1-n038",
+      "title": "关主：一年级数与运算通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①正确读写并比较两个两位数 ②20 以内进退位各 4 题 ③整十加减 2 题 ④「还剩」与「比多」故事各 1 则。全部通过即通关本地图。",
+      "success_hint": "通关后这张地图记入已通关列表，节点保持点亮，过一段时间会邀请复习。",
+      "items_suggested": 16
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k12-knowledge-quest.local/schema/player-progress.schema.json",
+  "title": "PlayerProgress",
+  "description": "Save data for one learner on one or more maps. Node keys are knowledge-node ids.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["player_id", "xp_total", "cleared_map_ids", "nodes"],
+  "properties": {
+    "player_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Opaque learner id (do not put real-name PII here in shared samples)."
+    },
+    "display_name": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "xp_total": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "current_map_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cleared_map_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "description": "Maps whose win condition has been met."
+    },
+    "nodes": {
+      "type": "object",
+      "description": "Map of node id → progress. Missing keys are treated as locked (unless they are start nodes, which default to available).",
+      "additionalProperties": {
+        "$ref": "#/$defs/nodeProgress"
+      }
+    }
+  },
+  "$defs": {
+    "nodeProgress": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state"],
+      "properties": {
+        "state": {
+          "type": "string",
+          "enum": ["locked", "available", "learning", "lit", "needs_review"],
+          "description": "locked = grey; available = can enter; learning = quests in progress; lit = mastered; needs_review = was lit, due for a refresh."
+        },
+        "xp_earned": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 0
+        },
+        "cleared_quest_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "default": []
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

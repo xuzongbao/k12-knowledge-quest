@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k12-knowledge-quest.local/schema/knowledge-node.schema.json",
+  "title": "KnowledgeNode",
+  "description": "A single knowledge point (知识点) on a learning map. Learner-facing strings are Chinese. Ids are stable English-ish tokens such as pm-g1-n001.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "subject",
+    "stage",
+    "grade",
+    "strand",
+    "difficulty",
+    "prerequisites",
+    "tags",
+    "unlock_rule",
+    "mastery_criteria",
+    "description"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)+$",
+      "description": "Stable id, e.g. pm-g1-n001 (primary-math, grade 1, node 001)."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40,
+      "description": "Short Chinese title shown on the map node."
+    },
+    "subject": {
+      "type": "string",
+      "enum": [
+        "数学",
+        "语文",
+        "英语",
+        "科学",
+        "道德与法治",
+        "历史",
+        "地理",
+        "物理",
+        "化学",
+        "生物"
+      ],
+      "description": "Phase 1 uses 数学 only; other values are reserved for later maps."
+    },
+    "stage": {
+      "type": "string",
+      "enum": ["小学", "初中", "高中"]
+    },
+    "grade": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12,
+      "description": "Grade year. For 小学 use 1–6."
+    },
+    "strand": {
+      "type": "string",
+      "enum": ["数与代数", "图形与几何", "统计与概率", "综合与实践"],
+      "description": "Phase 1 math strands from the national curriculum outline. Other subjects will extend this enum later."
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "1 = first contact; 5 = chapter-end / easily confused synthesis."
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)+$"
+      },
+      "uniqueItems": true,
+      "description": "Direct prerequisite node ids. Must match incoming prerequisite edges."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "unlock_rule": {
+      "$ref": "#/$defs/unlockRule"
+    },
+    "mastery_criteria": {
+      "$ref": "#/$defs/masteryCriteria"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 160,
+      "description": "One or two original pedagogical sentences. Not textbook page text."
+    }
+  },
+  "$defs": {
+    "unlockRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["hard_all_prereqs", "soft_recommended"],
+          "description": "hard_all_prereqs: all listed prerequisites must be lit. soft_recommended: node can open early; UI still shows recommended order."
+        },
+        "allow_teacher_override": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "masteryCriteria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min_quests_cleared"],
+      "properties": {
+        "min_quests_cleared": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "How many bound quests must be cleared to light this node."
+        },
+        "min_quiz_accuracy": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "require_quest_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["explain", "practice", "mini_quiz", "boss"]
+          },
+          "uniqueItems": true
+        },
+        "review_after_days": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "After this many days without practice, state may become needs_review."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k12-knowledge-quest.local/schema/quest.schema.json",
+  "title": "Quest",
+  "description": "A task bound to one knowledge node. Completing enough quests lights the node.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "node_id", "title", "type", "xp", "prompt"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)+$",
+      "description": "Stable quest id, e.g. pm-g1-n007-practice."
+    },
+    "node_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)+$",
+      "description": "The knowledge node this quest belongs to."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40
+    },
+    "type": {
+      "type": "string",
+      "enum": ["explain", "practice", "mini_quiz", "boss"],
+      "description": "explain = say it in your own words; practice = short drills; mini_quiz = mixed check; boss = chapter gate."
+    },
+    "xp": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 200
+    },
+    "prompt": {
+      "type": "string",
+      "minLength": 4,
+      "maxLength": 400,
+      "description": "Learner-facing Chinese prompt. Original pedagogical wording, not copied textbook exercises."
+    },
+    "success_hint": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "items_suggested": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 30,
+      "description": "Suggested number of practice/quiz items when a live item bank exists."
+    }
+  }
+}

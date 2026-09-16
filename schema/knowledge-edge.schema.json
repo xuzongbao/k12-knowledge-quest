@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k12-knowledge-quest.local/schema/knowledge-edge.schema.json",
+  "title": "KnowledgeEdge",
+  "description": "A directed relation between two knowledge nodes. Prerequisite edges form the unlock DAG.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["from", "to", "type"],
+  "properties": {
+    "from": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)+$",
+      "description": "Source node id. For type=prerequisite, this node must be lit before `to` unlocks (hard rule) or is recommended (soft rule)."
+    },
+    "to": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)+$",
+      "description": "Target node id."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["prerequisite", "related", "easily_confused", "application"],
+      "description": "prerequisite = unlock order; related = sibling topic; easily_confused = common mix-up; application = word-problem / use of the skill."
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 120,
+      "description": "Optional Chinese hint for authors or UI tooltips."
+    }
+  }
+}
