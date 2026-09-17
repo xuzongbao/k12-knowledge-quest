@@ -1,0 +1,26 @@
+{
+  "id": "jm-g9-algebra",
+  "title": "九年级 · 数与代数",
+  "subject": "数学",
+  "stage": "初中",
+  "grade": 9,
+  "strand": "数与代数",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "jm-g9-alg-n001"
+  ],
+  "recommended_path_note": "二次根式（关主 1）→ 一元二次方程（关主 2）→ 二次函数。韦达入门（n029）、Δ 与开口对照（n030）、有意义条件（n031）、配方对照（n032）为软锁。锐角三角比见九年级图形图。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "jm-g9-alg-boss-radical",
+      "jm-g9-alg-boss-quadratic",
+      "jm-g9-alg-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：二次根式化简官、一元二次方程考官、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "初中九年级「数与代数」地图：二次根式、一元二次方程、二次函数。独立通关。"
+}

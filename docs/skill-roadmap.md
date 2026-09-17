@@ -36,7 +36,7 @@ Phase 1 只把「地图数据 + 规则」放进仓库。以后可以包成 Curso
 
 ## 多学科怎么长
 
-- 数学：继续按年级填 `maps/primary-math/`（见该目录 OVERVIEW）
+- 数学：小学见 `maps/primary-math/`，初中见 `maps/junior-math/`（两套 OVERVIEW；schema 相同）
 - 语文：字、词、句、段、篇；阅读策略单独成图
 - 英语：把 **word-knowledge-map**（词义、搭配、主题词簇）做成另一张图，节点 id 如 `pe-g3-w012`  
   - 英语单词节点可以用 `related` 连到语文的语素或主题单元  

@@ -1,0 +1,287 @@
+{
+  "map_id": "jm-g8-algebra",
+  "edges": [
+    {
+      "from": "jm-g8-alg-n001",
+      "to": "jm-g8-alg-n002",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n001 需先于 jm-g8-alg-n002"
+    },
+    {
+      "from": "jm-g8-alg-n002",
+      "to": "jm-g8-alg-n003",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n002 需先于 jm-g8-alg-n003"
+    },
+    {
+      "from": "jm-g8-alg-n002",
+      "to": "jm-g8-alg-n004",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n002 需先于 jm-g8-alg-n004"
+    },
+    {
+      "from": "jm-g8-alg-n003",
+      "to": "jm-g8-alg-n005",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n003 需先于 jm-g8-alg-n005"
+    },
+    {
+      "from": "jm-g8-alg-n004",
+      "to": "jm-g8-alg-n005",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n004 需先于 jm-g8-alg-n005"
+    },
+    {
+      "from": "jm-g8-alg-n005",
+      "to": "jm-g8-alg-n006",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n005 需先于 jm-g8-alg-n006"
+    },
+    {
+      "from": "jm-g8-alg-n006",
+      "to": "jm-g8-alg-n007",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n006 需先于 jm-g8-alg-n007"
+    },
+    {
+      "from": "jm-g8-alg-n007",
+      "to": "jm-g8-alg-n008",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n007 需先于 jm-g8-alg-n008"
+    },
+    {
+      "from": "jm-g8-alg-n008",
+      "to": "jm-g8-alg-n009",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n008 需先于 jm-g8-alg-n009"
+    },
+    {
+      "from": "jm-g8-alg-n009",
+      "to": "jm-g8-alg-n010",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n009 需先于 jm-g8-alg-n010"
+    },
+    {
+      "from": "jm-g8-alg-n010",
+      "to": "jm-g8-alg-n011",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n010 需先于 jm-g8-alg-n011"
+    },
+    {
+      "from": "jm-g8-alg-n011",
+      "to": "jm-g8-alg-n012",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n011 需先于 jm-g8-alg-n012"
+    },
+    {
+      "from": "jm-g8-alg-n011",
+      "to": "jm-g8-alg-n013",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n011 需先于 jm-g8-alg-n013"
+    },
+    {
+      "from": "jm-g8-alg-n012",
+      "to": "jm-g8-alg-n014",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n012 需先于 jm-g8-alg-n014"
+    },
+    {
+      "from": "jm-g8-alg-n013",
+      "to": "jm-g8-alg-n014",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n013 需先于 jm-g8-alg-n014"
+    },
+    {
+      "from": "jm-g8-alg-n014",
+      "to": "jm-g8-alg-n015",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n014 需先于 jm-g8-alg-n015"
+    },
+    {
+      "from": "jm-g8-alg-n015",
+      "to": "jm-g8-alg-n016",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n015 需先于 jm-g8-alg-n016"
+    },
+    {
+      "from": "jm-g8-alg-n016",
+      "to": "jm-g8-alg-n017",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n016 需先于 jm-g8-alg-n017"
+    },
+    {
+      "from": "jm-g8-alg-n017",
+      "to": "jm-g8-alg-n018",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n017 需先于 jm-g8-alg-n018"
+    },
+    {
+      "from": "jm-g8-alg-n018",
+      "to": "jm-g8-alg-n019",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n018 需先于 jm-g8-alg-n019"
+    },
+    {
+      "from": "jm-g8-alg-n019",
+      "to": "jm-g8-alg-n020",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n019 需先于 jm-g8-alg-n020"
+    },
+    {
+      "from": "jm-g8-alg-n020",
+      "to": "jm-g8-alg-n021",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n020 需先于 jm-g8-alg-n021"
+    },
+    {
+      "from": "jm-g8-alg-n021",
+      "to": "jm-g8-alg-n022",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n021 需先于 jm-g8-alg-n022"
+    },
+    {
+      "from": "jm-g8-alg-n022",
+      "to": "jm-g8-alg-n023",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n022 需先于 jm-g8-alg-n023"
+    },
+    {
+      "from": "jm-g8-alg-n007",
+      "to": "jm-g8-alg-n024",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n007 需先于 jm-g8-alg-n024"
+    },
+    {
+      "from": "jm-g8-alg-n024",
+      "to": "jm-g8-alg-n025",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n024 需先于 jm-g8-alg-n025"
+    },
+    {
+      "from": "jm-g8-alg-n025",
+      "to": "jm-g8-alg-n026",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n025 需先于 jm-g8-alg-n026"
+    },
+    {
+      "from": "jm-g8-alg-n026",
+      "to": "jm-g8-alg-n027",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n026 需先于 jm-g8-alg-n027"
+    },
+    {
+      "from": "jm-g8-alg-n027",
+      "to": "jm-g8-alg-n028",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n027 需先于 jm-g8-alg-n028"
+    },
+    {
+      "from": "jm-g8-alg-n028",
+      "to": "jm-g8-alg-n029",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n028 需先于 jm-g8-alg-n029"
+    },
+    {
+      "from": "jm-g8-alg-n005",
+      "to": "jm-g8-alg-n029",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n005 需先于 jm-g8-alg-n029"
+    },
+    {
+      "from": "jm-g8-alg-n029",
+      "to": "jm-g8-alg-n030",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n029 需先于 jm-g8-alg-n030"
+    },
+    {
+      "from": "jm-g8-alg-n030",
+      "to": "jm-g8-alg-n031",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n030 需先于 jm-g8-alg-n031"
+    },
+    {
+      "from": "jm-g8-alg-n023",
+      "to": "jm-g8-alg-n031",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n023 需先于 jm-g8-alg-n031"
+    },
+    {
+      "from": "jm-g8-alg-n031",
+      "to": "jm-g8-alg-n032",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n031 需先于 jm-g8-alg-n032"
+    },
+    {
+      "from": "jm-g8-alg-n032",
+      "to": "jm-g8-alg-n033",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n032 需先于 jm-g8-alg-n033"
+    },
+    {
+      "from": "jm-g8-alg-n016",
+      "to": "jm-g8-alg-n034",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n016 需先于 jm-g8-alg-n034"
+    },
+    {
+      "from": "jm-g8-alg-n023",
+      "to": "jm-g8-alg-n035",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n023 需先于 jm-g8-alg-n035"
+    },
+    {
+      "from": "jm-g8-alg-n026",
+      "to": "jm-g8-alg-n036",
+      "type": "prerequisite",
+      "note": "jm-g8-alg-n026 需先于 jm-g8-alg-n036"
+    },
+    {
+      "from": "jm-g8-alg-n003",
+      "to": "jm-g8-alg-n004",
+      "type": "related",
+      "note": "代入和加减都是消元，系数整齐时加减往往更快。"
+    },
+    {
+      "from": "jm-g8-alg-n012",
+      "to": "jm-g8-alg-n013",
+      "type": "easily_confused",
+      "note": "平方差没有中间项；完全平方有 2ab。"
+    },
+    {
+      "from": "jm-g8-alg-n011",
+      "to": "jm-g8-alg-n014",
+      "type": "easily_confused",
+      "note": "乘法是展开，因式分解是反过来写成乘积。"
+    },
+    {
+      "from": "jm-g8-alg-n018",
+      "to": "jm-g8-alg-n023",
+      "type": "application",
+      "note": "分母不为 0 的约定，在解分式方程时变成检验。"
+    },
+    {
+      "from": "jm-g8-alg-n023",
+      "to": "jm-g8-alg-n035",
+      "type": "easily_confused",
+      "note": "使分母为 0 的数不是原方程的解，即使它满足去分母后的整式方程。"
+    },
+    {
+      "from": "jm-g8-alg-n026",
+      "to": "jm-g8-alg-n027",
+      "type": "related",
+      "note": "正比例是 b=0 的一次函数。"
+    },
+    {
+      "from": "jm-g8-alg-n026",
+      "to": "jm-g8-alg-n036",
+      "type": "easily_confused",
+      "note": "正比例是直线过原点；反比例是双曲线，不要画成直线。"
+    },
+    {
+      "from": "jm-g8-alg-n005",
+      "to": "jm-g8-alg-n029",
+      "type": "application",
+      "note": "方程组的解可以看成两条直线的交点。"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "map_id": "jm-g8-geometry",
+  "quests": [
+    {
+      "id": "jm-g8-geo-n001-explain",
+      "node_id": "jm-g8-geo-n001",
+      "title": "什么叫完全重合",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用纸片或想象说明全等：对应边、对应角分别相等。",
+      "success_hint": "全等比「形状相同」要求更严：大小也要一样。"
+    },
+    {
+      "id": "jm-g8-geo-n002-practice",
+      "node_id": "jm-g8-geo-n002",
+      "title": "写出对应",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据顶点对应顺序写出对应边和对应角，共 6 题。",
+      "success_hint": "对应顶点的顺序决定对应。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-geo-n003-practice",
+      "node_id": "jm-g8-geo-n003",
+      "title": "用 SSS",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断能否用 SSS 判定，并写出对应边。",
+      "success_hint": "三边都要对应相等。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-geo-n004-practice",
+      "node_id": "jm-g8-geo-n004",
+      "title": "用 SAS",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断角是不是两边的夹角。",
+      "success_hint": "夹角夹在两边中间。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-geo-n005-practice",
+      "node_id": "jm-g8-geo-n005",
+      "title": "用 ASA 或 AAS",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 题选择 ASA 还是 AAS。",
+      "success_hint": "有夹边用 ASA；有对角的边用 AAS。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-geo-n006-practice",
+      "node_id": "jm-g8-geo-n006",
+      "title": "直角里的 HL",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道直角三角形全等，指出斜边和直角边。",
+      "success_hint": "HL 只用于直角三角形。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-geo-n007-practice",
+      "node_id": "jm-g8-geo-n007",
+      "title": "选判定",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 题根据已知选择判定方法，缺条件则写不能判定。",
+      "success_hint": "先标已知再对号入座。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-geo-n008-practice",
+      "node_id": "jm-g8-geo-n008",
+      "title": "先全等再求值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 题证全等后求对应边或角。",
+      "success_hint": "对应关系写错，后面全错。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-geo-n008-mini-quiz",
+      "node_id": "jm-g8-geo-n008",
+      "title": "全等小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "对应、五种判定、简单推理。夹一道 SSA。",
+      "success_hint": "SSA 不是判定定理。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g8-geo-boss-congruent",
+      "node_id": "jm-g8-geo-n008",
+      "title": "关主：全等判定官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①写出对应 ②选对判定 ③用全等求一条边或一个角。",
+      "success_hint": "对应正确比套口诀更重要。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g8-geo-n009-practice",
+      "node_id": "jm-g8-geo-n009",
+      "title": "找对称轴",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个图形判断是否轴对称并画出对称轴。",
+      "success_hint": "对折能重合才是轴对称。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-geo-n010-practice",
+      "node_id": "jm-g8-geo-n010",
+      "title": "作对称图形",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "作出两个简单图形关于直线的对称图形。",
+      "success_hint": "对应点连线被对称轴垂直平分。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g8-geo-n011-practice",
+      "node_id": "jm-g8-geo-n011",
+      "title": "三线合一求角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在等腰三角形中求角或说明三条线重合。",
+      "success_hint": "底边上的高、中线、顶角平分线同一条。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-geo-n012-practice",
+      "node_id": "jm-g8-geo-n012",
+      "title": "对称找最短路",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用轴对称作出直线另一侧的对称点，连接求最短折线示意。",
+      "success_hint": "两点之间线段最短。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g8-geo-n013-explain",
+      "node_id": "jm-g8-geo-n013",
+      "title": "对称产生全等",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明一个图形和它的轴对称图形全等，对应关系由对称给出。",
+      "success_hint": "对称是得到全等的一种办法。"
+    },
+    {
+      "id": "jm-g8-geo-n014-practice",
+      "node_id": "jm-g8-geo-n014",
+      "title": "用勾股求边",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知两直角边求斜边，或已知斜边和一直角边求另一边，共 8 题。",
+      "success_hint": "先确认哪条是斜边。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-geo-n015-practice",
+      "node_id": "jm-g8-geo-n015",
+      "title": "由边判断直角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组三边判断是否直角三角形。",
+      "success_hint": "最大边当斜边去检验平方和。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-geo-n016-practice",
+      "node_id": "jm-g8-geo-n016",
+      "title": "情境中的勾股",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对角线、梯子、格点距离等 6 题。",
+      "success_hint": "构造出直角三角形再套定理。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-geo-n016-mini-quiz",
+      "node_id": "jm-g8-geo-n016",
+      "title": "勾股小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "求边、逆定理、简单应用。",
+      "success_hint": "不是直角三角形，不能直接用勾股。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-geo-boss-pythagoras",
+      "node_id": "jm-g8-geo-n016",
+      "title": "关主：勾股测量员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①求直角三角形一边 ②用三边判断是否直角 ③在一个情境中求距离。",
+      "success_hint": "先找直角，再平方和。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g8-geo-n017-explain",
+      "node_id": "jm-g8-geo-n017",
+      "title": "两组对边平行",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用定义说明平行四边形，并在图上标出平行记号。",
+      "success_hint": "定义是判定的起点。"
+    },
+    {
+      "id": "jm-g8-geo-n018-practice",
+      "node_id": "jm-g8-geo-n018",
+      "title": "用性质求值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知平行四边形求边或角或对角线被分成的段，共 6 题。",
+      "success_hint": "对边相等、对角相等、对角线互相平分。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-geo-n019-practice",
+      "node_id": "jm-g8-geo-n019",
+      "title": "判定平行四边形",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 题选择用哪条判定，缺条件则不能判定。",
+      "success_hint": "一组对边平行且相等也可以。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-geo-n020-practice",
+      "node_id": "jm-g8-geo-n020",
+      "title": "矩形的性质",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求矩形对角线或角，共 4 题。",
+      "success_hint": "四个角都是直角，对角线相等。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-geo-n021-practice",
+      "node_id": "jm-g8-geo-n021",
+      "title": "菱形的性质",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求菱形边或对角线，共 4 题。",
+      "success_hint": "四边相等，对角线互相垂直平分。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-geo-n022-explain",
+      "node_id": "jm-g8-geo-n022",
+      "title": "正方形的两面身份",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明正方形为什么既是矩形又是菱形，列出它可以用的性质。",
+      "success_hint": "角的性质来自矩形，边的性质来自菱形。"
+    },
+    {
+      "id": "jm-g8-geo-n023-practice",
+      "node_id": "jm-g8-geo-n023",
+      "title": "特殊四边形闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合矩形菱形正方形求值 6 题。",
+      "success_hint": "先命名图形，再选性质。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-geo-n023-mini-quiz",
+      "node_id": "jm-g8-geo-n023",
+      "title": "平行四边形小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "定义、性质、判定、特殊情形。",
+      "success_hint": "性质和判定方向相反。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-geo-n024-practice",
+      "node_id": "jm-g8-geo-n024",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "全等、勾股、平行四边形短推理。",
+      "success_hint": "每步写理由。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-geo-n025-practice",
+      "node_id": "jm-g8-geo-n025",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判定全等、用勾股、在平行四边形中求值。",
+      "success_hint": "对应、直角、平行，三件抓手。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g8-geo-boss-map",
+      "node_id": "jm-g8-geo-n025",
+      "title": "关主：八年级几何通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①选全等判定 ②勾股求边或判定直角 ③平行四边形或矩形菱形求值。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 14
+    },
+    {
+      "id": "jm-g8-geo-n026-explain",
+      "node_id": "jm-g8-geo-n026",
+      "title": "为什么 SSA 不行",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画示意图或用语言说明：两边及一边的对角对应相等，三角形可能摆出两种样子。",
+      "success_hint": "夹角对了才是 SAS。"
+    },
+    {
+      "id": "jm-g8-geo-n027-practice",
+      "node_id": "jm-g8-geo-n027",
+      "title": "把隐藏条件标出",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在 3 张等腰图中标出隐含的等边或等角。",
+      "success_hint": "等腰会「白送」条件。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g8-geo-n028-explain",
+      "node_id": "jm-g8-geo-n028",
+      "title": "中位线像一把尺",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明梯形中位线与两底的关系，并画一个示意。",
+      "success_hint": "平行两底，长度是两底和的一半。"
+    },
+    {
+      "id": "jm-g8-geo-n029-practice",
+      "node_id": "jm-g8-geo-n029",
+      "title": "数格求斜线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在方格纸上求 4 条斜线段长。",
+      "success_hint": "横格竖格当作直角边。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-geo-n030-explain",
+      "node_id": "jm-g8-geo-n030",
+      "title": "对角线条件对照",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一张表对照：平分 / 垂直 / 相等 分别把平行四边形推向哪里。",
+      "success_hint": "条件加得越多，图形越特殊。"
+    }
+  ]
+}

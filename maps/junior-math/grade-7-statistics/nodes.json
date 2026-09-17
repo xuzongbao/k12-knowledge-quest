@@ -1,0 +1,809 @@
+{
+  "map_id": "jm-g7-statistics",
+  "nodes": [
+    {
+      "id": "jm-g7-stat-n001",
+      "title": "先把问题问清楚",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "data",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把模糊兴趣改写成可以收集数据的问题，并说明调查对象是谁。"
+    },
+    {
+      "id": "jm-g7-stat-n002",
+      "title": "数据从哪来",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-stat-n001"
+      ],
+      "tags": [
+        "data",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分自己测量、询问、公开记录三种来源，并写下来源说明。"
+    },
+    {
+      "id": "jm-g7-stat-n003",
+      "title": "全面调查与抽样入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-stat-n002"
+      ],
+      "tags": [
+        "data",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明什么时候可以问所有人，什么时候只能问一部分，并指出样本要尽量有代表性。"
+    },
+    {
+      "id": "jm-g7-stat-n004",
+      "title": "记录表怎么设计",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n003"
+      ],
+      "tags": [
+        "data",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能设计简单记录表：项目、单位、时间、记录人，避免事后补不回来。"
+    },
+    {
+      "id": "jm-g7-stat-n005",
+      "title": "整理：分类与计数",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n004"
+      ],
+      "tags": [
+        "data",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把原始记录分类划记，得到各类的个数。"
+    },
+    {
+      "id": "jm-g7-stat-n006",
+      "title": "频数是什么",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-stat-n005"
+      ],
+      "tags": [
+        "freq",
+        "ch-freq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把某一类出现的次数叫做频数，并说明频数要对应明确的类。"
+    },
+    {
+      "id": "jm-g7-stat-n007",
+      "title": "频率与百分数",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n006"
+      ],
+      "tags": [
+        "freq",
+        "ch-freq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用频数除以总数得到频率，并改写成百分数，核对合计是否接近 1。"
+    },
+    {
+      "id": "jm-g7-stat-n008",
+      "title": "条形图深化",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n007"
+      ],
+      "tags": [
+        "chart",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能读复式条形图：比较同一项目在两组中的高低，并读出刻度。"
+    },
+    {
+      "id": "jm-g7-stat-n009",
+      "title": "折线图看变化",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n008"
+      ],
+      "tags": [
+        "chart",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明折线图适合看随时间（或顺序）的升降，而不是看各部分占整体。"
+    },
+    {
+      "id": "jm-g7-stat-n010",
+      "title": "扇形图看结构",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n007"
+      ],
+      "tags": [
+        "chart",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能读扇形图中各部分占总体的多少，并说明它不适合描述趋势。"
+    },
+    {
+      "id": "jm-g7-stat-n011",
+      "title": "选择统计图",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-stat-n009",
+        "jm-g7-stat-n010"
+      ],
+      "tags": [
+        "chart",
+        "ch-chart",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能按问题选择条形、折线或扇形，并说明理由。"
+    },
+    {
+      "id": "jm-g7-stat-n012",
+      "title": "平均数复习",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-stat-n005"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能计算一组数据的平均数，并说明它表示「拉齐」后每份一样多。"
+    },
+    {
+      "id": "jm-g7-stat-n013",
+      "title": "众数复习",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-stat-n005"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能找出出现次数最多的数，并说明一组数据可能没有众数或有多个众数。"
+    },
+    {
+      "id": "jm-g7-stat-n014",
+      "title": "中位数复习",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n012"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把数据排序后找中位数，区分奇数个与偶数个。"
+    },
+    {
+      "id": "jm-g7-stat-n015",
+      "title": "三种统计量对照",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-stat-n013",
+        "jm-g7-stat-n014"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对同一组数据求平均、众数、中位数，各用一句话说用途。"
+    },
+    {
+      "id": "jm-g7-stat-n016",
+      "title": "极端值会拉动平均",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n015"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能发现特别大或特别小的数会拉动平均数，中位数往往更稳。"
+    },
+    {
+      "id": "jm-g7-stat-n017",
+      "title": "读图写结论",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n011",
+        "jm-g7-stat-n016"
+      ],
+      "tags": [
+        "chart",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据图表写一句不超过数据范围的结论，避免「所有人一定」。"
+    },
+    {
+      "id": "jm-g7-stat-n018",
+      "title": "简单随机事件",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-stat-n011"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明有些事情在相同条件下可能发生也可能不发生，叫做随机事件。"
+    },
+    {
+      "id": "jm-g7-stat-n019",
+      "title": "必然、不可能、随机",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n018"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能给事件分类：必然发生、不可能发生、随机发生。"
+    },
+    {
+      "id": "jm-g7-stat-n020",
+      "title": "同样可能吗",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n019"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能判断一个简单试验里各结果是否可以当作同样可能。"
+    },
+    {
+      "id": "jm-g7-stat-n021",
+      "title": "列出全部结果",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n020"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能列出简单试验的全部结果，作为以后算可能性的分母。"
+    },
+    {
+      "id": "jm-g7-stat-n022",
+      "title": "用几分之几描述",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-stat-n021"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在等可能前提下，用有利结果数除以全部结果数表示可能性。"
+    },
+    {
+      "id": "jm-g7-stat-n023",
+      "title": "频率与可能性对照",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n007",
+        "jm-g7-stat-n022"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把试验得到的频率和理论上的几分之几对照，说明次数少时会对不齐。"
+    },
+    {
+      "id": "jm-g7-stat-n024",
+      "title": "统计与可能性合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-stat-n017",
+        "jm-g7-stat-n023"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在同一课题里整理频数、选图、选统计量，并描述一个简单随机事件。"
+    },
+    {
+      "id": "jm-g7-stat-n025",
+      "title": "七年级统计通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g7-stat-n024"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成七年级统计与概率线的收束检查。"
+    },
+    {
+      "id": "jm-g7-stat-n026",
+      "title": "问卷题目别诱导",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n004"
+      ],
+      "tags": [
+        "data",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能改写带暗示的问句，使选项中立，并说明诱导会让数据偏向。"
+    },
+    {
+      "id": "jm-g7-stat-n027",
+      "title": "刻度截断会骗人",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n008"
+      ],
+      "tags": [
+        "chart",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出纵轴没有从 0 开始时，高低差看起来会被放大。"
+    },
+    {
+      "id": "jm-g7-stat-n028",
+      "title": "校园小调查报告",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-stat-n024"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能围绕一个校园问题写出：对象、表或图、一个统计量、一句谨慎结论。"
+    }
+  ]
+}

@@ -1,0 +1,1044 @@
+{
+  "map_id": "jm-g8-algebra",
+  "nodes": [
+    {
+      "id": "jm-g8-alg-n001",
+      "title": "二元一次方程",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "sys",
+        "ch-sys"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别含两个未知数且每个未知数次数都是 1 的方程，并说明一组解是一对有序数。"
+    },
+    {
+      "id": "jm-g8-alg-n002",
+      "title": "方程组的解",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-alg-n001"
+      ],
+      "tags": [
+        "sys",
+        "ch-sys"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明二元一次方程组的解是同时满足两个方程的未知数取值。"
+    },
+    {
+      "id": "jm-g8-alg-n003",
+      "title": "代入消元",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n002"
+      ],
+      "tags": [
+        "sys",
+        "ch-sys"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能从一个方程解出用另一个未知数表示的式子，代入另一方程消元。"
+    },
+    {
+      "id": "jm-g8-alg-n004",
+      "title": "加减消元",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n002"
+      ],
+      "tags": [
+        "sys",
+        "ch-sys"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把两个方程适当变形后相加或相减，消去一个未知数。"
+    },
+    {
+      "id": "jm-g8-alg-n005",
+      "title": "选择消元方法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n003",
+        "jm-g8-alg-n004"
+      ],
+      "tags": [
+        "sys",
+        "ch-sys"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据系数特点选择代入或加减，使计算更简单。"
+    },
+    {
+      "id": "jm-g8-alg-n006",
+      "title": "方程组简单应用",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n005"
+      ],
+      "tags": [
+        "sys",
+        "ch-sys",
+        "word"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能设两个未知数，根据两个等量关系列出方程组并求解、写答。"
+    },
+    {
+      "id": "jm-g8-alg-n007",
+      "title": "方程组综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n006"
+      ],
+      "tags": [
+        "sys",
+        "ch-sys",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能解较整洁的二元一次方程组，并检查是否同时满足两个方程。"
+    },
+    {
+      "id": "jm-g8-alg-n008",
+      "title": "同底数幂相乘",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-alg-n007"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用 a^m · a^n = a^(m+n) 计算，底数相同才可直接加指数。"
+    },
+    {
+      "id": "jm-g8-alg-n009",
+      "title": "幂的乘方与积的乘方",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n008"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 (a^m)^n = a^(mn) 和 (ab)^n = a^n b^n 化简。"
+    },
+    {
+      "id": "jm-g8-alg-n010",
+      "title": "同底数幂相除",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n009"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 a^m / a^n = a^(m-n)（a≠0）计算，并理解负整数指数与倒数的关系入门。"
+    },
+    {
+      "id": "jm-g8-alg-n011",
+      "title": "整式乘法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n010"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能计算单项式乘多项式、多项式乘多项式（分配律展开）。"
+    },
+    {
+      "id": "jm-g8-alg-n012",
+      "title": "平方差公式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n011"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别并使用 (a+b)(a-b)=a²-b²。"
+    },
+    {
+      "id": "jm-g8-alg-n013",
+      "title": "完全平方公式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n011"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别并使用 (a±b)²=a²±2ab+b²，注意中间项。"
+    },
+    {
+      "id": "jm-g8-alg-n014",
+      "title": "因式分解的意义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-alg-n012",
+        "jm-g8-alg-n013"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明因式分解是把一个多项式写成几个整式相乘，与整式乘法方向相反。"
+    },
+    {
+      "id": "jm-g8-alg-n015",
+      "title": "提公因式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n014"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能提出各项的公因式，包括数字系数与字母。"
+    },
+    {
+      "id": "jm-g8-alg-n016",
+      "title": "公式法因式分解",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n015"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用平方差、完全平方把多项式因式分解，必要时先提公因式。"
+    },
+    {
+      "id": "jm-g8-alg-n017",
+      "title": "整式乘除综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n016"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在展开与因式分解之间切换，说明何时该乘开、何时该分解。"
+    },
+    {
+      "id": "jm-g8-alg-n018",
+      "title": "分式的意义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-alg-n017"
+      ],
+      "tags": [
+        "frac",
+        "ch-frac"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明分式是整式相除、分母含字母，并指出分母不能为 0。"
+    },
+    {
+      "id": "jm-g8-alg-n019",
+      "title": "分式的基本性质",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n018"
+      ],
+      "tags": [
+        "frac",
+        "ch-frac"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把分子分母同乘或同除以同一个不为 0 的整式，分式值不变。"
+    },
+    {
+      "id": "jm-g8-alg-n020",
+      "title": "约分与通分",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n019"
+      ],
+      "tags": [
+        "frac",
+        "ch-frac"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能约去分子分母的公因式，也能通分后准备加减。"
+    },
+    {
+      "id": "jm-g8-alg-n021",
+      "title": "分式乘除",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n020"
+      ],
+      "tags": [
+        "frac",
+        "ch-frac"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把分式乘法写成分子分母分别相乘，除法转化为乘倒数。"
+    },
+    {
+      "id": "jm-g8-alg-n022",
+      "title": "分式加减",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n021"
+      ],
+      "tags": [
+        "frac",
+        "ch-frac"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能先通分再加减，结果要约成最简。"
+    },
+    {
+      "id": "jm-g8-alg-n023",
+      "title": "分式方程入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n022"
+      ],
+      "tags": [
+        "frac",
+        "ch-frac"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能去分母把分式方程化为整式方程，并检验是否使分母为 0。"
+    },
+    {
+      "id": "jm-g8-alg-n024",
+      "title": "变量与函数",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-alg-n007"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明在一个变化过程中，一个量随另一个量变化，可以用函数来描述。"
+    },
+    {
+      "id": "jm-g8-alg-n025",
+      "title": "函数的表示",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-alg-n024"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用解析式、表格、图象三种方式表示简单函数关系。"
+    },
+    {
+      "id": "jm-g8-alg-n026",
+      "title": "正比例函数",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n025"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能识别 y=kx（k≠0），说明图象是过原点的直线，k 决定倾斜。"
+    },
+    {
+      "id": "jm-g8-alg-n027",
+      "title": "一次函数解析式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n026"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别 y=kx+b（k≠0），说明它是正比例函数向上或向下平移。"
+    },
+    {
+      "id": "jm-g8-alg-n028",
+      "title": "一次函数的图象",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n027"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据 k、b 画出直线：k 是斜率意识，b 是与 y 轴交点。"
+    },
+    {
+      "id": "jm-g8-alg-n029",
+      "title": "一次函数与方程",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n028",
+        "jm-g8-alg-n005"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明直线与 x 轴交点对应方程 kx+b=0 的解；两条直线交点对应方程组的解。"
+    },
+    {
+      "id": "jm-g8-alg-n030",
+      "title": "一次函数简单应用",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n029"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn",
+        "word"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在简单计费、行程等情境中写出一次函数并读图回答问题。"
+    },
+    {
+      "id": "jm-g8-alg-n031",
+      "title": "一次函数综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n030",
+        "jm-g8-alg-n023"
+      ],
+      "tags": [
+        "fn",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把方程组、分式检验与一次函数读图放在同一张检查里切换。"
+    },
+    {
+      "id": "jm-g8-alg-n032",
+      "title": "八年级代数合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n031"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能解方程组、做因式分解、化简分式、读一次函数图象。"
+    },
+    {
+      "id": "jm-g8-alg-n033",
+      "title": "八年级代数通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g8-alg-n032"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成八年级数与代数线的收束检查。"
+    },
+    {
+      "id": "jm-g8-alg-n034",
+      "title": "十字相乘入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n016"
+      ],
+      "tags": [
+        "poly",
+        "ch-factor"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能对简单二次三项式尝试十字相乘因式分解，并说明不是所有式子都能这样拆。"
+    },
+    {
+      "id": "jm-g8-alg-n035",
+      "title": "分式方程的增根",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-alg-n023"
+      ],
+      "tags": [
+        "frac",
+        "ch-frac"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举出「去分母后得到的解使原分母为 0」的例子，说明必须检验。"
+    },
+    {
+      "id": "jm-g8-alg-n036",
+      "title": "反比例函数对照",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-alg-n026"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别 y=k/x（k≠0），说明图象是双曲线，并与正比例函数对照：一个过原点直线，一个不经过原点。"
+    }
+  ]
+}

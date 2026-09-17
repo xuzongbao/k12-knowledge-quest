@@ -1,0 +1,26 @@
+{
+  "id": "jm-g7-statistics",
+  "title": "七年级 · 统计与概率",
+  "subject": "数学",
+  "stage": "初中",
+  "grade": 7,
+  "strand": "统计与概率",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "jm-g7-stat-n001"
+  ],
+  "recommended_path_note": "收集整理与频数主线（关主 1）；平均数等统计量从整理后并行；简单随机事件在选图后并行（关主 2）。问卷诱导（n026）、截轴（n027）、小报告（n028）为软锁。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "jm-g7-stat-boss-chart",
+      "jm-g7-stat-boss-chance",
+      "jm-g7-stat-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：图表翻译官、随机事件讲解员、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "初中七年级「统计与概率」地图：数据收集整理、统计图深化、三个统计量、频数与简单随机事件。独立通关。"
+}

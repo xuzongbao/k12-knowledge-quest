@@ -1,0 +1,370 @@
+{
+  "map_id": "jm-g9-algebra",
+  "quests": [
+    {
+      "id": "jm-g9-alg-n001-explain",
+      "node_id": "jm-g9-alg-n001",
+      "title": "非负的那一个",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 √9=3 而不是 ±3，±3 是平方根。",
+      "success_hint": "算术平方根带根号时表示非负数。"
+    },
+    {
+      "id": "jm-g9-alg-n002-practice",
+      "node_id": "jm-g9-alg-n002",
+      "title": "求平方根",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 个数的平方根，含 0 和正数。",
+      "success_hint": "正数两个，0 一个，负数没有实数平方根。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-alg-n003-practice",
+      "node_id": "jm-g9-alg-n003",
+      "title": "求立方根",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 6 个数的立方根，含负数。",
+      "success_hint": "负数的立方根是负的。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n004-explain",
+      "node_id": "jm-g9-alg-n004",
+      "title": "无理数举例",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举两个无理数，说明它们不能写成两整数之比，并说出实数包括哪些。",
+      "success_hint": "无限不循环是直观特征。"
+    },
+    {
+      "id": "jm-g9-alg-n005-practice",
+      "node_id": "jm-g9-alg-n005",
+      "title": "识别二次根式",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断哪些是二次根式，并指出被开方数的要求。",
+      "success_hint": "被开方数≥0。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-alg-n006-practice",
+      "node_id": "jm-g9-alg-n006",
+      "title": "化成最简",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 8 个二次根式化成最简。",
+      "success_hint": "开得尽的因数要开出来。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-alg-n007-practice",
+      "node_id": "jm-g9-alg-n007",
+      "title": "根式乘除",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道乘除，结果最简。",
+      "success_hint": "先乘除被开方数，再化简。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-alg-n008-practice",
+      "node_id": "jm-g9-alg-n008",
+      "title": "根式加减",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道，先化最简再合并同类项。",
+      "success_hint": "被开方数相同才能合并。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n009-practice",
+      "node_id": "jm-g9-alg-n009",
+      "title": "根式闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "化简、乘除、加减混合，并写有意义条件。",
+      "success_hint": "先有意义，再运算。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-alg-n009-mini-quiz",
+      "node_id": "jm-g9-alg-n009",
+      "title": "二次根式小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "算术平方根与平方根、化简、加减陷阱。",
+      "success_hint": "加减最容易乱合并。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g9-alg-boss-radical",
+      "node_id": "jm-g9-alg-n009",
+      "title": "关主：二次根式化简官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①区分算术平方根与平方根 ②化简并运算 ③指出有意义的条件。",
+      "success_hint": "被开方数非负是底线。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g9-alg-n010-practice",
+      "node_id": "jm-g9-alg-n010",
+      "title": "识别一元二次方程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "从一列方程里挑出一元二次方程，并写成一般形式。",
+      "success_hint": "二次项系数不能为 0。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n011-practice",
+      "node_id": "jm-g9-alg-n011",
+      "title": "开平方求解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道 (x+p)²=q。",
+      "success_hint": "q<0 无实根；记得 ±。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n012-practice",
+      "node_id": "jm-g9-alg-n012",
+      "title": "配方",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 5 道方程配成完全平方。",
+      "success_hint": "一次项系数一半再平方。",
+      "items_suggested": 5
+    },
+    {
+      "id": "jm-g9-alg-n013-practice",
+      "node_id": "jm-g9-alg-n013",
+      "title": "用公式求根",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道用公式，先写 Δ。",
+      "success_hint": "Δ<0 不要硬开平方。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n014-practice",
+      "node_id": "jm-g9-alg-n014",
+      "title": "分解求解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道左边能分解的方程。",
+      "success_hint": "积为 0 则因子之一为 0。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n015-practice",
+      "node_id": "jm-g9-alg-n015",
+      "title": "只判断根的个数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道只求 Δ 并判断个数，不必求出根。",
+      "success_hint": "先算 Δ。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-alg-n016-practice",
+      "node_id": "jm-g9-alg-n016",
+      "title": "选方法再解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道先写方法再解。",
+      "success_hint": "能分解就分解，一般用公式。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n017-practice",
+      "node_id": "jm-g9-alg-n017",
+      "title": "列方程取根",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "3 个情境，注意边长为正等限制。",
+      "success_hint": "求出的根要回头看题意。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g9-alg-n018-practice",
+      "node_id": "jm-g9-alg-n018",
+      "title": "方程闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求解并说明舍根或无实根。",
+      "success_hint": "检验和题意两道关。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n018-mini-quiz",
+      "node_id": "jm-g9-alg-n018",
+      "title": "一元二次方程小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "识别、Δ、公式、分解、应用。",
+      "success_hint": "先看 a 是否为 0。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g9-alg-boss-quadratic",
+      "node_id": "jm-g9-alg-n018",
+      "title": "关主：一元二次方程考官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断根的个数 ②用一种方法求根 ③在应用中取符合题意的根。",
+      "success_hint": "Δ 先说话。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g9-alg-n019-explain",
+      "node_id": "jm-g9-alg-n019",
+      "title": "二次关系",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个 y 随 x 二次变化的例子，对照一次函数。",
+      "success_hint": "最高次是 2。"
+    },
+    {
+      "id": "jm-g9-alg-n020-practice",
+      "node_id": "jm-g9-alg-n020",
+      "title": "开口方向与宽窄",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据 a 判断开口和宽窄，共 6 题。",
+      "success_hint": "a 的符号管方向，绝对值管宽窄。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n021-practice",
+      "node_id": "jm-g9-alg-n021",
+      "title": "说出顶点",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据顶点式写出顶点坐标，共 6 题。",
+      "success_hint": "注意 (x-h) 里 h 的符号。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n022-practice",
+      "node_id": "jm-g9-alg-n022",
+      "title": "两种形式转换",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "一般式配方成顶点式，或顶点式展开，共 4 题。",
+      "success_hint": "配方找顶点。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-alg-n023-practice",
+      "node_id": "jm-g9-alg-n023",
+      "title": "求最值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求对称轴和最大值或最小值，共 6 题。",
+      "success_hint": "开口向上有最低点。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-alg-n024-practice",
+      "node_id": "jm-g9-alg-n024",
+      "title": "交点与根",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据图象或 Δ 判断交点个数，并求交点横坐标。",
+      "success_hint": "交点横坐标就是根。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-alg-n025-practice",
+      "node_id": "jm-g9-alg-n025",
+      "title": "读顶点含义",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在面积或利润示意中解释顶点。",
+      "success_hint": "顶点常常是最大或最小。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g9-alg-n026-practice",
+      "node_id": "jm-g9-alg-n026",
+      "title": "画抛物线草图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "标开口、顶点、与轴交点，画 3 个草图。",
+      "success_hint": "先顶点后开口，再找交点。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g9-alg-n027-practice",
+      "node_id": "jm-g9-alg-n027",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根式、方程、二次函数各几题。",
+      "success_hint": "先辨题型。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g9-alg-n028-practice",
+      "node_id": "jm-g9-alg-n028",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "化简根式、解方程、读抛物线。",
+      "success_hint": "有意义条件、Δ、顶点，三件抓手。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g9-alg-boss-map",
+      "node_id": "jm-g9-alg-n028",
+      "title": "关主：九年级代数通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①二次根式化简 ②解一元二次方程 ③读二次函数顶点或交点。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "jm-g9-alg-n029-practice",
+      "node_id": "jm-g9-alg-n029",
+      "title": "两根之和与积",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知方程写出两根之和、积，或用来检验所求的根。",
+      "success_hint": "和是 -b/a，积是 c/a。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-alg-n030-explain",
+      "node_id": "jm-g9-alg-n030",
+      "title": "三种穿轴情形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照 Δ 与抛物线和 x 轴的位置关系。",
+      "success_hint": "不相交不是图坏了，是没有实根。"
+    },
+    {
+      "id": "jm-g9-alg-n031-practice",
+      "node_id": "jm-g9-alg-n031",
+      "title": "有意义条件",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "列出 4 个含字母根式有意义的不等式。",
+      "success_hint": "被开方数≥0。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-alg-n032-explain",
+      "node_id": "jm-g9-alg-n032",
+      "title": "同一种配方",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照解方程的配方和求顶点的配方，指出相同步骤。",
+      "success_hint": "都是凑成完全平方。"
+    }
+  ]
+}

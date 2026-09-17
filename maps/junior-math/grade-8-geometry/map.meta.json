@@ -1,0 +1,26 @@
+{
+  "id": "jm-g8-geometry",
+  "title": "八年级 · 图形与几何",
+  "subject": "数学",
+  "stage": "初中",
+  "grade": 8,
+  "strand": "图形与几何",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "jm-g8-geo-n001"
+  ],
+  "recommended_path_note": "全等（关主 1）；轴对称从起点并行，在等腰处与全等汇合；勾股（关主 2）与平行四边形从全等后并行，终章汇合。SSA（n026）等为软锁。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "jm-g8-geo-boss-congruent",
+      "jm-g8-geo-boss-pythagoras",
+      "jm-g8-geo-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：全等判定官、勾股测量员、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "初中八年级「图形与几何」地图：全等三角形、轴对称、勾股定理、平行四边形。独立通关。"
+}

@@ -1,0 +1,161 @@
+{
+  "map_id": "jm-g7-practice",
+  "edges": [
+    {
+      "from": "jm-g7-prac-n001",
+      "to": "jm-g7-prac-n002",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n001 需先于 jm-g7-prac-n002"
+    },
+    {
+      "from": "jm-g7-prac-n002",
+      "to": "jm-g7-prac-n003",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n002 需先于 jm-g7-prac-n003"
+    },
+    {
+      "from": "jm-g7-prac-n003",
+      "to": "jm-g7-prac-n004",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n003 需先于 jm-g7-prac-n004"
+    },
+    {
+      "from": "jm-g7-prac-n004",
+      "to": "jm-g7-prac-n005",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n004 需先于 jm-g7-prac-n005"
+    },
+    {
+      "from": "jm-g7-prac-n005",
+      "to": "jm-g7-prac-n006",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n005 需先于 jm-g7-prac-n006"
+    },
+    {
+      "from": "jm-g7-prac-n006",
+      "to": "jm-g7-prac-n007",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n006 需先于 jm-g7-prac-n007"
+    },
+    {
+      "from": "jm-g7-prac-n007",
+      "to": "jm-g7-prac-n008",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n007 需先于 jm-g7-prac-n008"
+    },
+    {
+      "from": "jm-g7-prac-n008",
+      "to": "jm-g7-prac-n009",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n008 需先于 jm-g7-prac-n009"
+    },
+    {
+      "from": "jm-g7-prac-n009",
+      "to": "jm-g7-prac-n010",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n009 需先于 jm-g7-prac-n010"
+    },
+    {
+      "from": "jm-g7-prac-n010",
+      "to": "jm-g7-prac-n011",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n010 需先于 jm-g7-prac-n011"
+    },
+    {
+      "from": "jm-g7-prac-n011",
+      "to": "jm-g7-prac-n012",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n011 需先于 jm-g7-prac-n012"
+    },
+    {
+      "from": "jm-g7-prac-n006",
+      "to": "jm-g7-prac-n013",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n006 需先于 jm-g7-prac-n013"
+    },
+    {
+      "from": "jm-g7-prac-n013",
+      "to": "jm-g7-prac-n014",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n013 需先于 jm-g7-prac-n014"
+    },
+    {
+      "from": "jm-g7-prac-n012",
+      "to": "jm-g7-prac-n015",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n012 需先于 jm-g7-prac-n015"
+    },
+    {
+      "from": "jm-g7-prac-n014",
+      "to": "jm-g7-prac-n015",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n014 需先于 jm-g7-prac-n015"
+    },
+    {
+      "from": "jm-g7-prac-n015",
+      "to": "jm-g7-prac-n016",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n015 需先于 jm-g7-prac-n016"
+    },
+    {
+      "from": "jm-g7-prac-n016",
+      "to": "jm-g7-prac-n017",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n016 需先于 jm-g7-prac-n017"
+    },
+    {
+      "from": "jm-g7-prac-n017",
+      "to": "jm-g7-prac-n018",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n017 需先于 jm-g7-prac-n018"
+    },
+    {
+      "from": "jm-g7-prac-n018",
+      "to": "jm-g7-prac-n019",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n018 需先于 jm-g7-prac-n019"
+    },
+    {
+      "from": "jm-g7-prac-n006",
+      "to": "jm-g7-prac-n020",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n006 需先于 jm-g7-prac-n020"
+    },
+    {
+      "from": "jm-g7-prac-n011",
+      "to": "jm-g7-prac-n021",
+      "type": "prerequisite",
+      "note": "jm-g7-prac-n011 需先于 jm-g7-prac-n021"
+    },
+    {
+      "from": "jm-g7-prac-n002",
+      "to": "jm-g7-prac-n004",
+      "type": "application",
+      "note": "规则决定结余怎么加：符号约定错了，总数就会反。"
+    },
+    {
+      "from": "jm-g7-prac-n005",
+      "to": "jm-g7-prac-n020",
+      "type": "related",
+      "note": "分类合并之后，更容易发现一笔记录该不该拆开。"
+    },
+    {
+      "from": "jm-g7-prac-n008",
+      "to": "jm-g7-prac-n011",
+      "type": "application",
+      "note": "比较方案时要回到约束清单，不能只看「好看」。"
+    },
+    {
+      "from": "jm-g7-prac-n009",
+      "to": "jm-g7-prac-n010",
+      "type": "related",
+      "note": "草图是模型，两种方案是对模型的两次求解。"
+    },
+    {
+      "from": "jm-g7-prac-n011",
+      "to": "jm-g7-prac-n021",
+      "type": "application",
+      "note": "选完方案，还要承认尺子和步测都不完美。"
+    }
+  ]
+}

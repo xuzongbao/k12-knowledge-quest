@@ -1,0 +1,155 @@
+{
+  "map_id": "jm-g8-practice",
+  "edges": [
+    {
+      "from": "jm-g8-prac-n001",
+      "to": "jm-g8-prac-n002",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n001 需先于 jm-g8-prac-n002"
+    },
+    {
+      "from": "jm-g8-prac-n002",
+      "to": "jm-g8-prac-n003",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n002 需先于 jm-g8-prac-n003"
+    },
+    {
+      "from": "jm-g8-prac-n003",
+      "to": "jm-g8-prac-n004",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n003 需先于 jm-g8-prac-n004"
+    },
+    {
+      "from": "jm-g8-prac-n004",
+      "to": "jm-g8-prac-n005",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n004 需先于 jm-g8-prac-n005"
+    },
+    {
+      "from": "jm-g8-prac-n005",
+      "to": "jm-g8-prac-n006",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n005 需先于 jm-g8-prac-n006"
+    },
+    {
+      "from": "jm-g8-prac-n006",
+      "to": "jm-g8-prac-n007",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n006 需先于 jm-g8-prac-n007"
+    },
+    {
+      "from": "jm-g8-prac-n007",
+      "to": "jm-g8-prac-n008",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n007 需先于 jm-g8-prac-n008"
+    },
+    {
+      "from": "jm-g8-prac-n008",
+      "to": "jm-g8-prac-n009",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n008 需先于 jm-g8-prac-n009"
+    },
+    {
+      "from": "jm-g8-prac-n009",
+      "to": "jm-g8-prac-n010",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n009 需先于 jm-g8-prac-n010"
+    },
+    {
+      "from": "jm-g8-prac-n010",
+      "to": "jm-g8-prac-n011",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n010 需先于 jm-g8-prac-n011"
+    },
+    {
+      "from": "jm-g8-prac-n011",
+      "to": "jm-g8-prac-n012",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n011 需先于 jm-g8-prac-n012"
+    },
+    {
+      "from": "jm-g8-prac-n006",
+      "to": "jm-g8-prac-n013",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n006 需先于 jm-g8-prac-n013"
+    },
+    {
+      "from": "jm-g8-prac-n013",
+      "to": "jm-g8-prac-n014",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n013 需先于 jm-g8-prac-n014"
+    },
+    {
+      "from": "jm-g8-prac-n012",
+      "to": "jm-g8-prac-n015",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n012 需先于 jm-g8-prac-n015"
+    },
+    {
+      "from": "jm-g8-prac-n014",
+      "to": "jm-g8-prac-n015",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n014 需先于 jm-g8-prac-n015"
+    },
+    {
+      "from": "jm-g8-prac-n015",
+      "to": "jm-g8-prac-n016",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n015 需先于 jm-g8-prac-n016"
+    },
+    {
+      "from": "jm-g8-prac-n016",
+      "to": "jm-g8-prac-n017",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n016 需先于 jm-g8-prac-n017"
+    },
+    {
+      "from": "jm-g8-prac-n017",
+      "to": "jm-g8-prac-n018",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n017 需先于 jm-g8-prac-n018"
+    },
+    {
+      "from": "jm-g8-prac-n018",
+      "to": "jm-g8-prac-n019",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n018 需先于 jm-g8-prac-n019"
+    },
+    {
+      "from": "jm-g8-prac-n006",
+      "to": "jm-g8-prac-n020",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n006 需先于 jm-g8-prac-n020"
+    },
+    {
+      "from": "jm-g8-prac-n012",
+      "to": "jm-g8-prac-n021",
+      "type": "prerequisite",
+      "note": "jm-g8-prac-n012 需先于 jm-g8-prac-n021"
+    },
+    {
+      "from": "jm-g8-prac-n002",
+      "to": "jm-g8-prac-n005",
+      "type": "application",
+      "note": "没有操作定义，就无法判断哪一次调整更好。"
+    },
+    {
+      "from": "jm-g8-prac-n004",
+      "to": "jm-g8-prac-n020",
+      "type": "related",
+      "note": "平均接近只是一种公平，还可以加别的约束。"
+    },
+    {
+      "from": "jm-g8-prac-n008",
+      "to": "jm-g8-prac-n011",
+      "type": "application",
+      "note": "模型把河岸看成直线之后，对称才合法。"
+    },
+    {
+      "from": "jm-g8-prac-n011",
+      "to": "jm-g8-prac-n021",
+      "type": "easily_confused",
+      "note": "直线假设不成立时，最短折点不必在对称连线上。"
+    }
+  ]
+}

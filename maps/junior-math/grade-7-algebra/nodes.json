@@ -1,0 +1,1103 @@
+{
+  "map_id": "jm-g7-algebra",
+  "nodes": [
+    {
+      "id": "jm-g7-alg-n001",
+      "title": "正数、负数和 0",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "rational",
+        "ch-rational"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用正负表示相反意义的量，并说明 0 既不是正数也不是负数。本图从这里系统学习有理数。"
+    },
+    {
+      "id": "jm-g7-alg-n002",
+      "title": "有理数的意义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n001"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说出整数和分数（含小数）合起来叫做有理数，并举出正负分数的例子。"
+    },
+    {
+      "id": "jm-g7-alg-n003",
+      "title": "数轴",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n002"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational",
+        "axis"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在数轴上标出给定有理数，并说明原点、正方向、单位长度三要素。"
+    },
+    {
+      "id": "jm-g7-alg-n004",
+      "title": "相反数",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n003"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能求一个有理数的相反数，并说明数轴上关于原点对称。"
+    },
+    {
+      "id": "jm-g7-alg-n005",
+      "title": "绝对值",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n004"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能求有理数的绝对值：到原点的距离；知道绝对值是非负数。"
+    },
+    {
+      "id": "jm-g7-alg-n006",
+      "title": "有理数比大小",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n005"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能借助数轴或「右边的数更大」比较有理数，包括两个负数。"
+    },
+    {
+      "id": "jm-g7-alg-n007",
+      "title": "有理数加法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n006"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational",
+        "add"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能按同号相加、异号相减的法则计算有理数加法，并说明和的符号。"
+    },
+    {
+      "id": "jm-g7-alg-n008",
+      "title": "有理数减法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n007"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational",
+        "sub"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把减法转化成加上相反数，完成有理数减法。"
+    },
+    {
+      "id": "jm-g7-alg-n009",
+      "title": "加减混合与运算律",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n008"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在有理数加减混合中使用交换律、结合律，合理凑整。"
+    },
+    {
+      "id": "jm-g7-alg-n010",
+      "title": "有理数乘法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n009"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational",
+        "mul"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用「负负得正、异号得负」计算有理数乘法，并说明 0 乘任何数得 0。"
+    },
+    {
+      "id": "jm-g7-alg-n011",
+      "title": "有理数除法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n010"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational",
+        "div"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把除法转化成乘倒数；除数不能为 0。"
+    },
+    {
+      "id": "jm-g7-alg-n012",
+      "title": "乘方",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n011"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational",
+        "power"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能计算有理数的乘方，注意负数的偶次方为正、奇次方为负，括号不能丢。"
+    },
+    {
+      "id": "jm-g7-alg-n013",
+      "title": "有理数混合运算",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-alg-n012"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能按乘方、乘除、加减的顺序完成有理数混合运算，有括号先算括号。"
+    },
+    {
+      "id": "jm-g7-alg-n014",
+      "title": "用字母表示数",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n013"
+      ],
+      "tags": [
+        "poly",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用字母表示变化的量或一般规律，并说明字母可以取有理数。"
+    },
+    {
+      "id": "jm-g7-alg-n015",
+      "title": "代数式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n014"
+      ],
+      "tags": [
+        "poly",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别代数式，说出其中的运算，并与「只含数字的算式」区分。"
+    },
+    {
+      "id": "jm-g7-alg-n016",
+      "title": "代数式的值",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n015"
+      ],
+      "tags": [
+        "poly",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把字母换成指定有理数，求出代数式的值。"
+    },
+    {
+      "id": "jm-g7-alg-n017",
+      "title": "单项式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n016"
+      ],
+      "tags": [
+        "poly",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出单项式的系数和次数，注意系数含前面的符号。"
+    },
+    {
+      "id": "jm-g7-alg-n018",
+      "title": "多项式与整式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n017"
+      ],
+      "tags": [
+        "poly",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把几个单项式的和叫做多项式，整式包括单项式和多项式。"
+    },
+    {
+      "id": "jm-g7-alg-n019",
+      "title": "同类项",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n018"
+      ],
+      "tags": [
+        "poly",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能判断两个单项式所含字母及相同字母的次数是否都相同。"
+    },
+    {
+      "id": "jm-g7-alg-n020",
+      "title": "合并同类项",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n019"
+      ],
+      "tags": [
+        "poly",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把同类项的系数相加、字母部分不变，完成合并。"
+    },
+    {
+      "id": "jm-g7-alg-n021",
+      "title": "去括号",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n020"
+      ],
+      "tags": [
+        "poly",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按括号前是正号或负号正确去括号：负号改变每一项的符号。"
+    },
+    {
+      "id": "jm-g7-alg-n022",
+      "title": "整式加减",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-alg-n021"
+      ],
+      "tags": [
+        "poly",
+        "ch-poly",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能去括号、合并同类项，完成整式加减，并按某个字母降幂排列。"
+    },
+    {
+      "id": "jm-g7-alg-n023",
+      "title": "等式的性质",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n022"
+      ],
+      "tags": [
+        "eq",
+        "ch-eq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明等式两边同时加（或减、乘、除以不为 0 的数）后仍相等。"
+    },
+    {
+      "id": "jm-g7-alg-n024",
+      "title": "方程与方程的解",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n023"
+      ],
+      "tags": [
+        "eq",
+        "ch-eq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出含未知数的等式叫做方程，并使方程成立的未知数的值叫做解。"
+    },
+    {
+      "id": "jm-g7-alg-n025",
+      "title": "一元一次方程",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n024"
+      ],
+      "tags": [
+        "eq",
+        "ch-eq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别只含一个未知数且未知数次数是 1 的方程。"
+    },
+    {
+      "id": "jm-g7-alg-n026",
+      "title": "移项",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n025"
+      ],
+      "tags": [
+        "eq",
+        "ch-eq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把方程中的项改变符号后移到另一边，这是等式两边同时加减的简便写法。"
+    },
+    {
+      "id": "jm-g7-alg-n027",
+      "title": "去分母与去括号",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n026"
+      ],
+      "tags": [
+        "eq",
+        "ch-eq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能先去分母（两边同乘最简公分母）、再去括号，为解方程做准备。"
+    },
+    {
+      "id": "jm-g7-alg-n028",
+      "title": "解一元一次方程",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-alg-n027"
+      ],
+      "tags": [
+        "eq",
+        "ch-eq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能按去分母、去括号、移项、合并、系数化为 1 的步骤求解，并检验。"
+    },
+    {
+      "id": "jm-g7-alg-n029",
+      "title": "列方程解决简单问题",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-alg-n028"
+      ],
+      "tags": [
+        "eq",
+        "ch-eq",
+        "word"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能设未知数、找等量关系、列出一元一次方程并求解、写答。"
+    },
+    {
+      "id": "jm-g7-alg-n030",
+      "title": "不等式的意义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-alg-n028"
+      ],
+      "tags": [
+        "ineq",
+        "ch-ineq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用不等号表示数量关系，并说明不等式的解通常是一个范围。"
+    },
+    {
+      "id": "jm-g7-alg-n031",
+      "title": "不等式的性质",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n030"
+      ],
+      "tags": [
+        "ineq",
+        "ch-ineq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明两边同乘（或除以）负数时，不等号方向要改变。"
+    },
+    {
+      "id": "jm-g7-alg-n032",
+      "title": "解一元一次不等式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-alg-n031"
+      ],
+      "tags": [
+        "ineq",
+        "ch-ineq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能模仿解方程的步骤解一元一次不等式，特别注意乘除负数。"
+    },
+    {
+      "id": "jm-g7-alg-n033",
+      "title": "解集在数轴上表示",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n032",
+        "jm-g7-alg-n003"
+      ],
+      "tags": [
+        "ineq",
+        "ch-ineq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在数轴上用空心点或实心点、射线表示不等式的解集。"
+    },
+    {
+      "id": "jm-g7-alg-n034",
+      "title": "方程与不等式对照",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n029",
+        "jm-g7-alg-n033"
+      ],
+      "tags": [
+        "eq",
+        "ineq",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能对照「等于某个数」和「大于或小于某个数」，说明解是点还是范围。"
+    },
+    {
+      "id": "jm-g7-alg-n035",
+      "title": "七年级代数合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-alg-n034"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在有理数运算、整式加减、解方程与解不等式之间切换，不混用法则。"
+    },
+    {
+      "id": "jm-g7-alg-n036",
+      "title": "七年级代数通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g7-alg-n035"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成七年级数与代数线的收束检查。"
+    },
+    {
+      "id": "jm-g7-alg-n037",
+      "title": "科学记数法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n012"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把很大或很小的正数写成 a×10^n（1≤a<10）的形式，并读出数量级。"
+    },
+    {
+      "id": "jm-g7-alg-n038",
+      "title": "近似计算入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-alg-n013"
+      ],
+      "tags": [
+        "rational",
+        "ch-rational"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能按指定精确度对有理数运算结果取近似值，并说明为什么有时不必算得过细。"
+    }
+  ]
+}

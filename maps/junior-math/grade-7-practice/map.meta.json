@@ -1,0 +1,25 @@
+{
+  "id": "jm-g7-practice",
+  "title": "七年级 · 综合与实践",
+  "subject": "数学",
+  "stage": "初中",
+  "grade": 7,
+  "strand": "综合与实践",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "jm-g7-prac-n001"
+  ],
+  "recommended_path_note": "课间小账本为主线（关主 1）；教室过道布置在账本交流后展开；综合课题与成果卡收束。规则冲突（n020）、尺子不准（n021）为软锁。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "jm-g7-prac-boss-ledger",
+      "jm-g7-prac-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败两名关主：小账本审计员、地图通关试炼。"
+  },
+  "content_disclaimer": "活动骨架为课标综合与实践风格的原创设计，不是教材课题或练习页的摘录。",
+  "description": "初中七年级「综合与实践」地图：正负记账小账本、教室过道布置。独立通关，不引用跨图节点。"
+}

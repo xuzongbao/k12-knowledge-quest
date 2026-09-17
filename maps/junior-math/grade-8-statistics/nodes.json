@@ -1,0 +1,810 @@
+{
+  "map_id": "jm-g8-statistics",
+  "nodes": [
+    {
+      "id": "jm-g8-stat-n001",
+      "title": "平均数还不够",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举出各组人数不同时，直接把组平均数再平均会不公平，从而感到需要加权。"
+    },
+    {
+      "id": "jm-g8-stat-n002",
+      "title": "权的意义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-stat-n001"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明权表示这一组占的份量，如人数、学分或时长。"
+    },
+    {
+      "id": "jm-g8-stat-n003",
+      "title": "加权平均数",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n002"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能计算加权平均数：各数据乘以权后相加，再除以权的总和。"
+    },
+    {
+      "id": "jm-g8-stat-n004",
+      "title": "权变了结果变",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n003"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较同一组数据在不同权下的加权平均，说明权大的组更能拉动结果。"
+    },
+    {
+      "id": "jm-g8-stat-n005",
+      "title": "加权平均应用",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n004"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在成绩、单价、平均速度等简单情境中选用加权平均。"
+    },
+    {
+      "id": "jm-g8-stat-n006",
+      "title": "数据的波动",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-stat-n005"
+      ],
+      "tags": [
+        "var",
+        "ch-var"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明两组平均数相近时，仍可能一组更「散」、一组更「挤」。"
+    },
+    {
+      "id": "jm-g8-stat-n007",
+      "title": "极差",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-stat-n006"
+      ],
+      "tags": [
+        "var",
+        "ch-var"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用最大值减最小值得到极差，并说明它只看两端、不管中间。"
+    },
+    {
+      "id": "jm-g8-stat-n008",
+      "title": "方差入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-stat-n007"
+      ],
+      "tags": [
+        "var",
+        "ch-var"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能理解方差用「每个数据与平均数差的平方的平均」刻画整体偏离程度。"
+    },
+    {
+      "id": "jm-g8-stat-n009",
+      "title": "方差小表示更整齐",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n008"
+      ],
+      "tags": [
+        "var",
+        "ch-var"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较两组方差，说明方差小的一组更整齐（在平均数相近时）。"
+    },
+    {
+      "id": "jm-g8-stat-n010",
+      "title": "波动量综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-stat-n009"
+      ],
+      "tags": [
+        "var",
+        "ch-var",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对同一组数据求加权平均或算术平均、极差，并解释方差大小的含义。"
+    },
+    {
+      "id": "jm-g8-stat-n011",
+      "title": "把数据分组",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-stat-n006"
+      ],
+      "tags": [
+        "hist",
+        "ch-hist"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把一组数值数据分成若干组，说明组距要适当。"
+    },
+    {
+      "id": "jm-g8-stat-n012",
+      "title": "频数分布表",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n011"
+      ],
+      "tags": [
+        "hist",
+        "ch-hist"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能填写各组频数，必要时加频率。"
+    },
+    {
+      "id": "jm-g8-stat-n013",
+      "title": "直方图长什么样",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n012"
+      ],
+      "tags": [
+        "hist",
+        "ch-hist"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明直方图用矩形面积（组距相等时用高度）表示频数，矩形之间通常不留缝。"
+    },
+    {
+      "id": "jm-g8-stat-n014",
+      "title": "读直方图",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n013"
+      ],
+      "tags": [
+        "hist",
+        "ch-hist"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能读出哪一组人数最多、大约集中在哪一段。"
+    },
+    {
+      "id": "jm-g8-stat-n015",
+      "title": "直方图与条形图",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n014"
+      ],
+      "tags": [
+        "hist",
+        "ch-hist"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分：条形图的类是名称，直方图的横轴是数值分段。"
+    },
+    {
+      "id": "jm-g8-stat-n016",
+      "title": "直方图综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-stat-n015",
+        "jm-g8-stat-n010"
+      ],
+      "tags": [
+        "hist",
+        "ch-hist"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据问题选择直方图或条形图，并结合平均数或方差读数据。"
+    },
+    {
+      "id": "jm-g8-stat-n017",
+      "title": "随机事件再认识",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-stat-n010"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在较复杂的校园情境中指出随机事件，并说明条件。"
+    },
+    {
+      "id": "jm-g8-stat-n018",
+      "title": "概率的意义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n017"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把概率理解为刻画随机事件发生可能性大小的数，它在 0 和 1 之间。"
+    },
+    {
+      "id": "jm-g8-stat-n019",
+      "title": "等可能与古典概型入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n018"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在结果有限且等可能时，用有利结果数除以全部结果数求概率。"
+    },
+    {
+      "id": "jm-g8-stat-n020",
+      "title": "列表法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n019"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用表格列出两个一步试验的全部结果，再数有利格。"
+    },
+    {
+      "id": "jm-g8-stat-n021",
+      "title": "树状图入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n019"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能画简单树状图表示分步结果，再求概率。"
+    },
+    {
+      "id": "jm-g8-stat-n022",
+      "title": "概率计算综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-stat-n020",
+        "jm-g8-stat-n021"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能选择列表或树状图求简单概率，并检查是否等可能。"
+    },
+    {
+      "id": "jm-g8-stat-n023",
+      "title": "频率稳定趋势",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n018"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明大量重复试验时频率会靠近概率，但有限次不必相等。"
+    },
+    {
+      "id": "jm-g8-stat-n024",
+      "title": "统计与概率合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-stat-n016",
+        "jm-g8-stat-n022",
+        "jm-g8-stat-n023"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在同一课题里用直方图或加权平均描述数据，并用概率描述尚未发生的等可能结果。"
+    },
+    {
+      "id": "jm-g8-stat-n025",
+      "title": "八年级统计通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g8-stat-n024"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成八年级统计与概率线的收束检查。"
+    },
+    {
+      "id": "jm-g8-stat-n026",
+      "title": "权不是分数本身",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n003"
+      ],
+      "tags": [
+        "avg",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能纠正「权必须是百分数」的误解：权是份量，可以是人数。"
+    },
+    {
+      "id": "jm-g8-stat-n027",
+      "title": "组距不等的提醒",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n013"
+      ],
+      "tags": [
+        "hist",
+        "ch-hist"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明组距不等时不能只比矩形高度，而要看面积（本图只提醒，不要求复杂计算）。"
+    },
+    {
+      "id": "jm-g8-stat-n028",
+      "title": "不是等可能就别硬除",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-stat-n019"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举出图钉落地等结果不等可能的例子，说明此时不能用古典概型硬除。"
+    }
+  ]
+}

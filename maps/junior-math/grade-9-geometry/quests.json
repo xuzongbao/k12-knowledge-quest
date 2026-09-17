@@ -1,0 +1,328 @@
+{
+  "map_id": "jm-g9-geometry",
+  "quests": [
+    {
+      "id": "jm-g9-geo-n001-practice",
+      "node_id": "jm-g9-geo-n001",
+      "title": "求线段比",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 6 组线段比，能化简的化简。",
+      "success_hint": "比的前后项单位要一致。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-geo-n002-explain",
+      "node_id": "jm-g9-geo-n002",
+      "title": "相似不是全等",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照相似与全等：哪些必须相等，哪些只需成比例。",
+      "success_hint": "全等是相似比为 1 的相似。"
+    },
+    {
+      "id": "jm-g9-geo-n003-practice",
+      "node_id": "jm-g9-geo-n003",
+      "title": "判定相似",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 题选择判定方法，缺条件则不能。",
+      "success_hint": "先标对应角。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-geo-n004-practice",
+      "node_id": "jm-g9-geo-n004",
+      "title": "用相似求边",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 题求对应边。",
+      "success_hint": "对应边是对应顶点的边。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-geo-n005-explain",
+      "node_id": "jm-g9-geo-n005",
+      "title": "位似中心",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明位似图形对应点连线交于一点。",
+      "success_hint": "位似是带中心的相似。"
+    },
+    {
+      "id": "jm-g9-geo-n006-practice",
+      "node_id": "jm-g9-geo-n006",
+      "title": "找相似求线段",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在稍复杂图中找出一对相似三角形并求边。",
+      "success_hint": "先找角再写比例。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-geo-n006-mini-quiz",
+      "node_id": "jm-g9-geo-n006",
+      "title": "相似小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "判定、性质、对应。",
+      "success_hint": "对应写错比例就反。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-geo-boss-similar",
+      "node_id": "jm-g9-geo-n006",
+      "title": "关主：相似测绘员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①说明相似与全等差别 ②用一种判定 ③求一条对应边。",
+      "success_hint": "先对应，再比例。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g9-geo-n007-practice",
+      "node_id": "jm-g9-geo-n007",
+      "title": "写出正弦",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在直角三角形中写出指定锐角的正弦，共 6 题。",
+      "success_hint": "对边 / 斜边。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-geo-n008-practice",
+      "node_id": "jm-g9-geo-n008",
+      "title": "三种比",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一角写出正弦、余弦、正切。",
+      "success_hint": "先标对边邻边斜边。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-geo-n009-practice",
+      "node_id": "jm-g9-geo-n009",
+      "title": "特殊角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "默写并使用 30°、45°、60° 的三角比，共 8 题。",
+      "success_hint": "30° 正弦是 1/2。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-geo-n010-practice",
+      "node_id": "jm-g9-geo-n010",
+      "title": "解直角三角形",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 题选用三角比或勾股。",
+      "success_hint": "已知斜边和对边就用正弦。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-geo-n011-practice",
+      "node_id": "jm-g9-geo-n011",
+      "title": "仰角俯角坡度",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个测量情境列出三角比并求解。",
+      "success_hint": "先画直角三角形，再标角。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-geo-n011-mini-quiz",
+      "node_id": "jm-g9-geo-n011",
+      "title": "三角比小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "定义、特殊角、解直角三角形。",
+      "success_hint": "对边邻边不要对调。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-geo-boss-trig",
+      "node_id": "jm-g9-geo-n011",
+      "title": "关主：解直角三角形向导",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①写出一个锐角的三种比 ②用特殊角求值 ③在测量情境中求解。",
+      "success_hint": "先画图再选比。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g9-geo-n012-practice",
+      "node_id": "jm-g9-geo-n012",
+      "title": "给圆的零件起名",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在图中指出半径、直径、弦、弧。",
+      "success_hint": "直径过圆心，弦不必。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-geo-n013-practice",
+      "node_id": "jm-g9-geo-n013",
+      "title": "用垂径求长度",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 题用垂径定理求弦长或距圆心距离。",
+      "success_hint": "垂直于弦的直径平分弦。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-geo-n014-practice",
+      "node_id": "jm-g9-geo-n014",
+      "title": "圆心角圆周角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 题求同弧所对的圆周角或圆心角。",
+      "success_hint": "圆周角是圆心角的一半。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-geo-n015-practice",
+      "node_id": "jm-g9-geo-n015",
+      "title": "直径与直角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 题判断或求直角、直径。",
+      "success_hint": "直径所对圆周角是直角。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-geo-n016-practice",
+      "node_id": "jm-g9-geo-n016",
+      "title": "切线求角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 题用切线垂直半径。",
+      "success_hint": "切点处半径与切线垂直。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-geo-n017-practice",
+      "node_id": "jm-g9-geo-n017",
+      "title": "弧长扇形意识",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "3 题按圆心角占周角的份数求弧长或扇形面积。",
+      "success_hint": "先看圆心角是周角的几分之几。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g9-geo-n018-practice",
+      "node_id": "jm-g9-geo-n018",
+      "title": "圆闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合垂径、圆周角、切线。",
+      "success_hint": "先标已知半径、切线、直径。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-geo-n018-mini-quiz",
+      "node_id": "jm-g9-geo-n018",
+      "title": "圆小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "概念、垂径、圆周角、切线。",
+      "success_hint": "同弧才能用一半。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-geo-n019-explain",
+      "node_id": "jm-g9-geo-n019",
+      "title": "两种投影",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照平行投影与中心投影，各举一例。",
+      "success_hint": "阳光下的影子常常当作平行投影。"
+    },
+    {
+      "id": "jm-g9-geo-n020-practice",
+      "node_id": "jm-g9-geo-n020",
+      "title": "三视图配对",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "组合体与三视图配对或补画一个视图，共 6 题。",
+      "success_hint": "长对正、高平齐、宽相等。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g9-geo-n021-explain",
+      "node_id": "jm-g9-geo-n021",
+      "title": "视图还是展开",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明什么时候画三视图、什么时候画展开图。",
+      "success_hint": "看外形用视图，算表面用展开。"
+    },
+    {
+      "id": "jm-g9-geo-n022-practice",
+      "node_id": "jm-g9-geo-n022",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "相似求边、解直角三角形、圆中求角、读三视图。",
+      "success_hint": "先辨图形类型。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-geo-n023-practice",
+      "node_id": "jm-g9-geo-n023",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "四块各一题并写理由。",
+      "success_hint": "对应、对边邻边、同弧、从哪边看。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g9-geo-boss-map",
+      "node_id": "jm-g9-geo-n023",
+      "title": "关主：九年级几何通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①相似求边 ②解一个直角三角形 ③圆中求角或用切线 ④认三视图。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 14
+    },
+    {
+      "id": "jm-g9-geo-n024-explain",
+      "node_id": "jm-g9-geo-n024",
+      "title": "面积比是平方",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明相似比为 2 时面积比为 4，并举网格示意。",
+      "success_hint": "边是一次，面积是二次。"
+    },
+    {
+      "id": "jm-g9-geo-n025-practice",
+      "node_id": "jm-g9-geo-n025",
+      "title": "互余两角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "写出 sin 30° 与 cos 60° 等对照，共 4 题。",
+      "success_hint": "互余则正弦余弦互换。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-geo-n026-explain",
+      "node_id": "jm-g9-geo-n026",
+      "title": "必须同弧",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画一个不同弧的圆周角与圆心角，说明不能用一半。",
+      "success_hint": "先找它们对着的是不是同一段弧。"
+    },
+    {
+      "id": "jm-g9-geo-n027-explain",
+      "node_id": "jm-g9-geo-n027",
+      "title": "两条切线一样长",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "从圆外一点画两条切线，说明切线长相等。",
+      "success_hint": "两个直角三角形全等可以解释。"
+    }
+  ]
+}

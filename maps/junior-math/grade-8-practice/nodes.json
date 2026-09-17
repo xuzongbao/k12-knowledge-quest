@@ -1,0 +1,605 @@
+{
+  "map_id": "jm-g8-practice",
+  "nodes": [
+    {
+      "id": "jm-g8-prac-n001",
+      "title": "发现：分组总被嫌不公",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-fair"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从「强队分到一起」感到：公平需要可检查的规则，而不是感觉。"
+    },
+    {
+      "id": "jm-g8-prac-n002",
+      "title": "计划：公平的操作定义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-prac-n001"
+      ],
+      "tags": [
+        "plan",
+        "ch-fair"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把公平写成可计算的目标，例如各组平均分接近、极差不要太大。"
+    },
+    {
+      "id": "jm-g8-prac-n003",
+      "title": "实施：收集能力数据",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n002"
+      ],
+      "tags": [
+        "do",
+        "ch-fair"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用已有测验或自报项目整理一张能力表（可用合理假设数据）。"
+    },
+    {
+      "id": "jm-g8-prac-n004",
+      "title": "实施：试分两组",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n003"
+      ],
+      "tags": [
+        "do",
+        "ch-fair"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能给出一种分组，计算两组平均与极差。"
+    },
+    {
+      "id": "jm-g8-prac-n005",
+      "title": "实施：调整再比",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n004"
+      ],
+      "tags": [
+        "do",
+        "ch-fair"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能交换两名成员后重新计算，说明哪一种更接近目标。"
+    },
+    {
+      "id": "jm-g8-prac-n006",
+      "title": "交流：公平方案答辩",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n005"
+      ],
+      "tags": [
+        "share",
+        "ch-fair",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能讲清目标函数、一次调整的理由，以及方案仍不完美之处。"
+    },
+    {
+      "id": "jm-g8-prac-n007",
+      "title": "发现：取水要绕路",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-path"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出「从营地到河边取水再送到灶台」的最短路径问题。"
+    },
+    {
+      "id": "jm-g8-prac-n008",
+      "title": "计划：把河岸看成直线",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-prac-n007"
+      ],
+      "tags": [
+        "plan",
+        "ch-path"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把河岸抽象成直线，营地和灶台抽象成直线同侧两点。"
+    },
+    {
+      "id": "jm-g8-prac-n009",
+      "title": "实施：作出对称点",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n008"
+      ],
+      "tags": [
+        "do",
+        "ch-path"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能作其中一点关于直线的对称点。"
+    },
+    {
+      "id": "jm-g8-prac-n010",
+      "title": "实施：连线得折点",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n009"
+      ],
+      "tags": [
+        "do",
+        "ch-path"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能连接对称点与另一点，与直线交点即为取水点。"
+    },
+    {
+      "id": "jm-g8-prac-n011",
+      "title": "实施：说明为什么最短",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n010"
+      ],
+      "tags": [
+        "do",
+        "ch-path"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「对称后变成两点一线」说明这条折线最短。"
+    },
+    {
+      "id": "jm-g8-prac-n012",
+      "title": "交流：路径说明会",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-prac-n011"
+      ],
+      "tags": [
+        "share",
+        "ch-path"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能向同学讲解作图步骤，并回答「如果两点在直线两侧呢」。"
+    },
+    {
+      "id": "jm-g8-prac-n013",
+      "title": "发现：公平和路径能一起出现吗",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出一个同时用到分组数据和路线的问题，例如后勤取水点怎么选。"
+    },
+    {
+      "id": "jm-g8-prac-n014",
+      "title": "计划：课题说明书",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-prac-n013"
+      ],
+      "tags": [
+        "plan",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能写问题、模型（表或对称作图）、步骤、交流时展示什么。"
+    },
+    {
+      "id": "jm-g8-prac-n015",
+      "title": "实施：走完四步",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n012",
+        "jm-g8-prac-n014"
+      ],
+      "tags": [
+        "do",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按说明书完成计算或作图，并写下局限。"
+    },
+    {
+      "id": "jm-g8-prac-n016",
+      "title": "交流：成果卡",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n015"
+      ],
+      "tags": [
+        "share",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用四句话写成果卡：问题、模型、结果、局限。"
+    },
+    {
+      "id": "jm-g8-prac-n017",
+      "title": "实践工具箱",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n016"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出四步以及「把公平或最短写成可操作的目标」这件事。"
+    },
+    {
+      "id": "jm-g8-prac-n018",
+      "title": "八年级实践合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-prac-n017"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能抽签完成分组或最短路径中的完整流程。"
+    },
+    {
+      "id": "jm-g8-prac-n019",
+      "title": "八年级实践通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g8-prac-n018"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成八年级综合与实践线的收束检查。"
+    },
+    {
+      "id": "jm-g8-prac-n020",
+      "title": "公平还有别的定义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n006"
+      ],
+      "tags": [
+        "fair",
+        "ch-fair"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出另一种公平，例如最强的两人必须分开，并说明与「平均接近」可能冲突。"
+    },
+    {
+      "id": "jm-g8-prac-n021",
+      "title": "河岸不是直线时",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-prac-n012"
+      ],
+      "tags": [
+        "path",
+        "ch-path"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明河岸弯曲时对称法只是近似，结论要降级。"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "map_id": "jm-g7-geometry",
+  "edges": [
+    {
+      "from": "jm-g7-geo-n001",
+      "to": "jm-g7-geo-n002",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n001 需先于 jm-g7-geo-n002"
+    },
+    {
+      "from": "jm-g7-geo-n002",
+      "to": "jm-g7-geo-n003",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n002 需先于 jm-g7-geo-n003"
+    },
+    {
+      "from": "jm-g7-geo-n003",
+      "to": "jm-g7-geo-n004",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n003 需先于 jm-g7-geo-n004"
+    },
+    {
+      "from": "jm-g7-geo-n004",
+      "to": "jm-g7-geo-n005",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n004 需先于 jm-g7-geo-n005"
+    },
+    {
+      "from": "jm-g7-geo-n005",
+      "to": "jm-g7-geo-n006",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n005 需先于 jm-g7-geo-n006"
+    },
+    {
+      "from": "jm-g7-geo-n006",
+      "to": "jm-g7-geo-n007",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n006 需先于 jm-g7-geo-n007"
+    },
+    {
+      "from": "jm-g7-geo-n007",
+      "to": "jm-g7-geo-n008",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n007 需先于 jm-g7-geo-n008"
+    },
+    {
+      "from": "jm-g7-geo-n008",
+      "to": "jm-g7-geo-n009",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n008 需先于 jm-g7-geo-n009"
+    },
+    {
+      "from": "jm-g7-geo-n008",
+      "to": "jm-g7-geo-n010",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n008 需先于 jm-g7-geo-n010"
+    },
+    {
+      "from": "jm-g7-geo-n010",
+      "to": "jm-g7-geo-n011",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n010 需先于 jm-g7-geo-n011"
+    },
+    {
+      "from": "jm-g7-geo-n006",
+      "to": "jm-g7-geo-n011",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n006 需先于 jm-g7-geo-n011"
+    },
+    {
+      "from": "jm-g7-geo-n011",
+      "to": "jm-g7-geo-n012",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n011 需先于 jm-g7-geo-n012"
+    },
+    {
+      "from": "jm-g7-geo-n012",
+      "to": "jm-g7-geo-n013",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n012 需先于 jm-g7-geo-n013"
+    },
+    {
+      "from": "jm-g7-geo-n013",
+      "to": "jm-g7-geo-n014",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n013 需先于 jm-g7-geo-n014"
+    },
+    {
+      "from": "jm-g7-geo-n005",
+      "to": "jm-g7-geo-n015",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n005 需先于 jm-g7-geo-n015"
+    },
+    {
+      "from": "jm-g7-geo-n015",
+      "to": "jm-g7-geo-n016",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n015 需先于 jm-g7-geo-n016"
+    },
+    {
+      "from": "jm-g7-geo-n013",
+      "to": "jm-g7-geo-n016",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n013 需先于 jm-g7-geo-n016"
+    },
+    {
+      "from": "jm-g7-geo-n016",
+      "to": "jm-g7-geo-n017",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n016 需先于 jm-g7-geo-n017"
+    },
+    {
+      "from": "jm-g7-geo-n017",
+      "to": "jm-g7-geo-n018",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n017 需先于 jm-g7-geo-n018"
+    },
+    {
+      "from": "jm-g7-geo-n018",
+      "to": "jm-g7-geo-n019",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n018 需先于 jm-g7-geo-n019"
+    },
+    {
+      "from": "jm-g7-geo-n016",
+      "to": "jm-g7-geo-n020",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n016 需先于 jm-g7-geo-n020"
+    },
+    {
+      "from": "jm-g7-geo-n019",
+      "to": "jm-g7-geo-n021",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n019 需先于 jm-g7-geo-n021"
+    },
+    {
+      "from": "jm-g7-geo-n020",
+      "to": "jm-g7-geo-n021",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n020 需先于 jm-g7-geo-n021"
+    },
+    {
+      "from": "jm-g7-geo-n001",
+      "to": "jm-g7-geo-n022",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n001 需先于 jm-g7-geo-n022"
+    },
+    {
+      "from": "jm-g7-geo-n022",
+      "to": "jm-g7-geo-n023",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n022 需先于 jm-g7-geo-n023"
+    },
+    {
+      "from": "jm-g7-geo-n023",
+      "to": "jm-g7-geo-n024",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n023 需先于 jm-g7-geo-n024"
+    },
+    {
+      "from": "jm-g7-geo-n024",
+      "to": "jm-g7-geo-n025",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n024 需先于 jm-g7-geo-n025"
+    },
+    {
+      "from": "jm-g7-geo-n014",
+      "to": "jm-g7-geo-n026",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n014 需先于 jm-g7-geo-n026"
+    },
+    {
+      "from": "jm-g7-geo-n021",
+      "to": "jm-g7-geo-n026",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n021 需先于 jm-g7-geo-n026"
+    },
+    {
+      "from": "jm-g7-geo-n026",
+      "to": "jm-g7-geo-n027",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n026 需先于 jm-g7-geo-n027"
+    },
+    {
+      "from": "jm-g7-geo-n025",
+      "to": "jm-g7-geo-n027",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n025 需先于 jm-g7-geo-n027"
+    },
+    {
+      "from": "jm-g7-geo-n027",
+      "to": "jm-g7-geo-n028",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n027 需先于 jm-g7-geo-n028"
+    },
+    {
+      "from": "jm-g7-geo-n007",
+      "to": "jm-g7-geo-n029",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n007 需先于 jm-g7-geo-n029"
+    },
+    {
+      "from": "jm-g7-geo-n008",
+      "to": "jm-g7-geo-n030",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n008 需先于 jm-g7-geo-n030"
+    },
+    {
+      "from": "jm-g7-geo-n010",
+      "to": "jm-g7-geo-n031",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n010 需先于 jm-g7-geo-n031"
+    },
+    {
+      "from": "jm-g7-geo-n021",
+      "to": "jm-g7-geo-n032",
+      "type": "prerequisite",
+      "note": "jm-g7-geo-n021 需先于 jm-g7-geo-n032"
+    },
+    {
+      "from": "jm-g7-geo-n006",
+      "to": "jm-g7-geo-n007",
+      "type": "easily_confused",
+      "note": "对顶角相等；邻补角互补。位置不同，结论也不同。"
+    },
+    {
+      "from": "jm-g7-geo-n007",
+      "to": "jm-g7-geo-n029",
+      "type": "easily_confused",
+      "note": "邻补角是位置关系，互补是数量关系。"
+    },
+    {
+      "from": "jm-g7-geo-n012",
+      "to": "jm-g7-geo-n013",
+      "type": "easily_confused",
+      "note": "判定是「由角推平行」；性质是「由平行推角」。方向不能反着用而不说明。"
+    },
+    {
+      "from": "jm-g7-geo-n011",
+      "to": "jm-g7-geo-n012",
+      "type": "related",
+      "note": "先认清同位、内错、同旁内，再谈判定。"
+    },
+    {
+      "from": "jm-g7-geo-n018",
+      "to": "jm-g7-geo-n019",
+      "type": "related",
+      "note": "等边是等腰的特殊情形，三边都相等。"
+    },
+    {
+      "from": "jm-g7-geo-n020",
+      "to": "jm-g7-geo-n016",
+      "type": "application",
+      "note": "直角三角形两锐角互余，来自内角和 180°。"
+    },
+    {
+      "from": "jm-g7-geo-n022",
+      "to": "jm-g7-geo-n023",
+      "type": "related",
+      "note": "三视图看「从哪边看」；展开图看「拆开哪面」。"
+    },
+    {
+      "from": "jm-g7-geo-n008",
+      "to": "jm-g7-geo-n030",
+      "type": "application",
+      "note": "理解垂直之后，动手作出垂线。"
+    }
+  ]
+}

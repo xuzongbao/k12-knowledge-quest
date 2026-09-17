@@ -1,0 +1,366 @@
+{
+  "map_id": "jm-g7-geometry",
+  "quests": [
+    {
+      "id": "jm-g7-geo-n001-explain",
+      "node_id": "jm-g7-geo-n001",
+      "title": "从物体到模型",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指着教室里的一样东西，说出哪是当作点、哪是当作面、哪是当作体。",
+      "success_hint": "几何图形是抽象出来的，可以忽略厚度或大小。"
+    },
+    {
+      "id": "jm-g7-geo-n002-practice",
+      "node_id": "jm-g7-geo-n002",
+      "title": "三种线怎么表示",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出直线、射线、线段，并用字母标注，说明它们的端点个数。",
+      "success_hint": "直线没有端点，射线一个，线段两个。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g7-geo-n003-explain",
+      "node_id": "jm-g7-geo-n003",
+      "title": "两点一线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明为什么过两点只能画一条直线，过一点可以画无数条。",
+      "success_hint": "两点把方向完全定死。"
+    },
+    {
+      "id": "jm-g7-geo-n004-practice",
+      "node_id": "jm-g7-geo-n004",
+      "title": "读角写角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用三种方式表示图中的角，避免只写顶点导致分不清。",
+      "success_hint": "三个字母时顶点写在中间。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-geo-n005-practice",
+      "node_id": "jm-g7-geo-n005",
+      "title": "语句与图形互译",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 6 句几何话画成图，再把 4 张图写成语句。",
+      "success_hint": "相交、平行、在……上，用词要准。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-geo-n006-practice",
+      "node_id": "jm-g7-geo-n006",
+      "title": "找出对顶角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在相交线图中标出对顶角，并填写相等关系。",
+      "success_hint": "对顶角面对面，不相邻。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-geo-n007-practice",
+      "node_id": "jm-g7-geo-n007",
+      "title": "找出邻补角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "标出邻补角并计算未知角。",
+      "success_hint": "邻补角拼起来是一条直线。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-geo-n008-explain",
+      "node_id": "jm-g7-geo-n008",
+      "title": "什么叫垂直",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话定义互相垂直，并说明过一点作垂线为什么是唯一的。",
+      "success_hint": "夹角是直角。"
+    },
+    {
+      "id": "jm-g7-geo-n009-practice",
+      "node_id": "jm-g7-geo-n009",
+      "title": "量点到直线距离",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在图上作出垂线段，读出点到直线的距离（可用格点）。",
+      "success_hint": "斜着连过去不是距离。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g7-geo-n010-explain",
+      "node_id": "jm-g7-geo-n010",
+      "title": "平行是不相交",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明同一平面内不相交才叫平行，并解释「过直线外一点只有一条平行线」。",
+      "success_hint": "先强调在同一平面内。"
+    },
+    {
+      "id": "jm-g7-geo-n011-practice",
+      "node_id": "jm-g7-geo-n011",
+      "title": "给八角起名",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在标准「三线八角」图中指出指定的同位角、内错角、同旁内角。",
+      "success_hint": "先看哪两条被截，再看角的位置。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-geo-n012-practice",
+      "node_id": "jm-g7-geo-n012",
+      "title": "判定两直线平行",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给出角的条件，判断能否判定平行，并写理由。",
+      "success_hint": "同位角相等就可以判定。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-geo-n013-practice",
+      "node_id": "jm-g7-geo-n013",
+      "title": "由平行推角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知平行，求图中未知角，每步写下用了哪条性质。",
+      "success_hint": "平行 → 同位角相等，是性质不是判定。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-geo-n014-practice",
+      "node_id": "jm-g7-geo-n014",
+      "title": "判定还是性质",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合题：有的要证平行，有的已知平行求角。",
+      "success_hint": "先问：现在已经知道平行了吗？",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-geo-n014-mini-quiz",
+      "node_id": "jm-g7-geo-n014",
+      "title": "平行线小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "认八角、判定、性质、对顶角邻补角混用。",
+      "success_hint": "先标已知，再选定理。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-geo-boss-parallel",
+      "node_id": "jm-g7-geo-n014",
+      "title": "关主：平行线调度员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①认出同位角内错角 ②用判定说明平行 ③用性质求角并写理由。",
+      "success_hint": "判定和性质方向相反。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-geo-n015-practice",
+      "node_id": "jm-g7-geo-n015",
+      "title": "三边能不能围成",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断 8 组三边能否围成三角形。",
+      "success_hint": "任意两边之和大于第三边，差小于第三边。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-geo-n016-practice",
+      "node_id": "jm-g7-geo-n016",
+      "title": "求未知角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用内角和求 8 个三角形中的未知角。",
+      "success_hint": "三个角加起来是 180°。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-geo-n017-practice",
+      "node_id": "jm-g7-geo-n017",
+      "title": "画三条重要线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在锐角三角形中画出一条高、一条中线、一条角平分线并标注。",
+      "success_hint": "高要垂直；中线平分对边；角平分线平分角。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g7-geo-n018-practice",
+      "node_id": "jm-g7-geo-n018",
+      "title": "等腰里求角求边",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知等腰的底角或顶角、腰或底，求其余。",
+      "success_hint": "两底角相等；三线合一可在需要时用。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-geo-n019-practice",
+      "node_id": "jm-g7-geo-n019",
+      "title": "等边三角形",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求等边三角形中与 60° 有关的角，并说明它为什么也是等腰。",
+      "success_hint": "三个角都是 60°。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g7-geo-n020-practice",
+      "node_id": "jm-g7-geo-n020",
+      "title": "直角三角形求锐角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知一个锐角求另一个，说明互余。",
+      "success_hint": "两个锐角加起来是 90°。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-geo-n021-practice",
+      "node_id": "jm-g7-geo-n021",
+      "title": "三角形闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合：三边关系、内角和、等腰、直角。",
+      "success_hint": "先分类：这是什么三角形？",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-geo-n021-mini-quiz",
+      "node_id": "jm-g7-geo-n021",
+      "title": "三角形小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "夹一道「两边之和等于第三边」的陷阱。",
+      "success_hint": "等于就退化成线段，围不成。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-geo-boss-triangle",
+      "node_id": "jm-g7-geo-n021",
+      "title": "关主：三角形鉴定官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断能否围成 ②求角 ③在等腰或直角中写清所用性质。",
+      "success_hint": "边的不等关系和角的 180° 是两条底线。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-geo-n022-practice",
+      "node_id": "jm-g7-geo-n022",
+      "title": "三视图配对",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把简单组合体与三视图配对。",
+      "success_hint": "先约定从哪一面看是正面。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-geo-n023-practice",
+      "node_id": "jm-g7-geo-n023",
+      "title": "哪些能折成正方体",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断 8 个平面图能否折成正方体。",
+      "success_hint": "相对的面折起来不能重叠错位。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-geo-n024-explain",
+      "node_id": "jm-g7-geo-n024",
+      "title": "棱柱长什么样",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照棱柱、圆柱、圆锥、球，指出棱柱的底面是多边形。",
+      "success_hint": "棱柱两个底面平行且全等。"
+    },
+    {
+      "id": "jm-g7-geo-n025-explain",
+      "node_id": "jm-g7-geo-n025",
+      "title": "给生活物品分类",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "列出五种生活物品，说明更适合用展开图还是三视图来描述。",
+      "success_hint": "包装盒常用展开图；堆叠积木常用三视图。"
+    },
+    {
+      "id": "jm-g7-geo-n026-practice",
+      "node_id": "jm-g7-geo-n026",
+      "title": "写两步推理",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据平行线或三角形，写两句「因为…所以…」。",
+      "success_hint": "每句只推一步。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g7-geo-n027-practice",
+      "node_id": "jm-g7-geo-n027",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "平行线求角、三角形求边角、读一个展开图。",
+      "success_hint": "先看图再选题型。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-geo-n028-practice",
+      "node_id": "jm-g7-geo-n028",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "几何语言互译、平行线理由、三角形计算、立体直观各一题。",
+      "success_hint": "名称和理由都要写出来。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-geo-boss-map",
+      "node_id": "jm-g7-geo-n028",
+      "title": "关主：七年级几何通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①语句与图形互译 ②平行线判定或性质 ③三角形求角 ④认一个展开图或三视图。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 14
+    },
+    {
+      "id": "jm-g7-geo-n029-explain",
+      "node_id": "jm-g7-geo-n029",
+      "title": "余角补角邻补角",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用韦恩图或对照表区分这三对词。",
+      "success_hint": "邻补角一定互补；互补的两个角不一定相邻。"
+    },
+    {
+      "id": "jm-g7-geo-n030-practice",
+      "node_id": "jm-g7-geo-n030",
+      "title": "作出垂线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "过直线上一点和直线外一点各作一条垂线。",
+      "success_hint": "三角尺的直角靠在已知直线上。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g7-geo-n031-explain",
+      "node_id": "jm-g7-geo-n031",
+      "title": "平移后平行",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用栅栏或笔记本横线说明平移不改变方向，因而平行。",
+      "success_hint": "方向不变就是互相平行。"
+    },
+    {
+      "id": "jm-g7-geo-n032-explain",
+      "node_id": "jm-g7-geo-n032",
+      "title": "两套分类",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画一个表：按边分类、按角分类，并指出等腰直角可以同时属于两套。",
+      "success_hint": "分类标准不同，同一三角形可以有两个名字。"
+    }
+  ]
+}

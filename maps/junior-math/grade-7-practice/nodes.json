@@ -1,0 +1,605 @@
+{
+  "map_id": "jm-g7-practice",
+  "nodes": [
+    {
+      "id": "jm-g7-prac-n001",
+      "title": "发现：账对不上",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-ledger"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从「零花钱记完对不上」感到：收入、支出、结余需要统一的正负约定。"
+    },
+    {
+      "id": "jm-g7-prac-n002",
+      "title": "计划：正负记账规则",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-prac-n001"
+      ],
+      "tags": [
+        "plan",
+        "ch-ledger"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能约定：进账为正、出账为负（或相反），0 表示清零，并写成给同学看的规则。"
+    },
+    {
+      "id": "jm-g7-prac-n003",
+      "title": "实施：记一周流水",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n002"
+      ],
+      "tags": [
+        "do",
+        "ch-ledger"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按规则记录至少 8 笔，每笔注明日期和事由。"
+    },
+    {
+      "id": "jm-g7-prac-n004",
+      "title": "实施：求结余",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n003"
+      ],
+      "tags": [
+        "do",
+        "ch-ledger"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把流水按有理数加法汇总，得到结余，并解释负数结余的含义。"
+    },
+    {
+      "id": "jm-g7-prac-n005",
+      "title": "实施：分类看去向",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n004"
+      ],
+      "tags": [
+        "do",
+        "ch-ledger"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按类别合并同类支出，指出最大去向。"
+    },
+    {
+      "id": "jm-g7-prac-n006",
+      "title": "交流：账本答辩",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n005"
+      ],
+      "tags": [
+        "share",
+        "ch-ledger",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能讲清规则、一笔有争议的记录如何裁定，以及结余说明什么。"
+    },
+    {
+      "id": "jm-g7-prac-n007",
+      "title": "发现：过道总是堵",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-aisle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出教室课桌摆放导致过道太窄的问题，并说明要测量什么。"
+    },
+    {
+      "id": "jm-g7-prac-n008",
+      "title": "计划：约束清单",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-prac-n007"
+      ],
+      "tags": [
+        "plan",
+        "ch-aisle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出约束：过道最小宽度、桌椅数量不变、黑板要看得见。"
+    },
+    {
+      "id": "jm-g7-prac-n009",
+      "title": "实施：画平面草图",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n008"
+      ],
+      "tags": [
+        "do",
+        "ch-aisle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用简化矩形表示桌椅，画出当前布置，标出主要尺寸。"
+    },
+    {
+      "id": "jm-g7-prac-n010",
+      "title": "实施：提出两种方案",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n009"
+      ],
+      "tags": [
+        "do",
+        "ch-aisle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能给出两种不减少座位的布置，并量出最窄过道。"
+    },
+    {
+      "id": "jm-g7-prac-n011",
+      "title": "实施：比较与取舍",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n010"
+      ],
+      "tags": [
+        "do",
+        "ch-aisle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「最窄过道、是否挡视线」比较方案，选出一个并说明放弃另一个的原因。"
+    },
+    {
+      "id": "jm-g7-prac-n012",
+      "title": "交流：布置说明会",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-prac-n011"
+      ],
+      "tags": [
+        "share",
+        "ch-aisle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能向假想的同学讲解方案，回答「为什么不把桌子再挪一点」。"
+    },
+    {
+      "id": "jm-g7-prac-n013",
+      "title": "发现：两件事能合在一起吗",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出一个同时用到正负记录和平面约束的小问题，例如义卖摊位收支与通道。"
+    },
+    {
+      "id": "jm-g7-prac-n014",
+      "title": "计划：课题说明书",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-prac-n013"
+      ],
+      "tags": [
+        "plan",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能写问题、数据或尺寸从哪来、步骤、准备交流什么。"
+    },
+    {
+      "id": "jm-g7-prac-n015",
+      "title": "实施：走完四步",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n012",
+        "jm-g7-prac-n014"
+      ],
+      "tags": [
+        "do",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按说明书收集数或尺寸，算出一个结果，并写下局限。"
+    },
+    {
+      "id": "jm-g7-prac-n016",
+      "title": "交流：成果卡",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n015"
+      ],
+      "tags": [
+        "share",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用四句话写成果卡：问题、模型、结果、局限。"
+    },
+    {
+      "id": "jm-g7-prac-n017",
+      "title": "实践工具箱",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n016"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出综合与实践四步，以及每一步应留下的证据。"
+    },
+    {
+      "id": "jm-g7-prac-n018",
+      "title": "七年级实践合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-prac-n017"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能抽签完成账本或通道课题中的完整流程。"
+    },
+    {
+      "id": "jm-g7-prac-n019",
+      "title": "七年级实践通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g7-prac-n018"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成七年级综合与实践线的收束检查。"
+    },
+    {
+      "id": "jm-g7-prac-n020",
+      "title": "规则冲突时怎么办",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n006"
+      ],
+      "tags": [
+        "ledger",
+        "ch-ledger"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能假设一笔「同学垫付又还回来」的记录，讨论记两笔还是记一笔，并修订规则。"
+    },
+    {
+      "id": "jm-g7-prac-n021",
+      "title": "如果尺子不准",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-prac-n011"
+      ],
+      "tags": [
+        "aisle",
+        "ch-aisle"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明测量有误差时，过道宽度结论应怎样写得更谨慎。"
+    }
+  ]
+}

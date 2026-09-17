@@ -1,0 +1,245 @@
+{
+  "map_id": "jm-g9-algebra",
+  "edges": [
+    {
+      "from": "jm-g9-alg-n001",
+      "to": "jm-g9-alg-n002",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n001 需先于 jm-g9-alg-n002"
+    },
+    {
+      "from": "jm-g9-alg-n002",
+      "to": "jm-g9-alg-n003",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n002 需先于 jm-g9-alg-n003"
+    },
+    {
+      "from": "jm-g9-alg-n003",
+      "to": "jm-g9-alg-n004",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n003 需先于 jm-g9-alg-n004"
+    },
+    {
+      "from": "jm-g9-alg-n004",
+      "to": "jm-g9-alg-n005",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n004 需先于 jm-g9-alg-n005"
+    },
+    {
+      "from": "jm-g9-alg-n005",
+      "to": "jm-g9-alg-n006",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n005 需先于 jm-g9-alg-n006"
+    },
+    {
+      "from": "jm-g9-alg-n006",
+      "to": "jm-g9-alg-n007",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n006 需先于 jm-g9-alg-n007"
+    },
+    {
+      "from": "jm-g9-alg-n007",
+      "to": "jm-g9-alg-n008",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n007 需先于 jm-g9-alg-n008"
+    },
+    {
+      "from": "jm-g9-alg-n008",
+      "to": "jm-g9-alg-n009",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n008 需先于 jm-g9-alg-n009"
+    },
+    {
+      "from": "jm-g9-alg-n009",
+      "to": "jm-g9-alg-n010",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n009 需先于 jm-g9-alg-n010"
+    },
+    {
+      "from": "jm-g9-alg-n010",
+      "to": "jm-g9-alg-n011",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n010 需先于 jm-g9-alg-n011"
+    },
+    {
+      "from": "jm-g9-alg-n011",
+      "to": "jm-g9-alg-n012",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n011 需先于 jm-g9-alg-n012"
+    },
+    {
+      "from": "jm-g9-alg-n012",
+      "to": "jm-g9-alg-n013",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n012 需先于 jm-g9-alg-n013"
+    },
+    {
+      "from": "jm-g9-alg-n010",
+      "to": "jm-g9-alg-n014",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n010 需先于 jm-g9-alg-n014"
+    },
+    {
+      "from": "jm-g9-alg-n013",
+      "to": "jm-g9-alg-n015",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n013 需先于 jm-g9-alg-n015"
+    },
+    {
+      "from": "jm-g9-alg-n014",
+      "to": "jm-g9-alg-n016",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n014 需先于 jm-g9-alg-n016"
+    },
+    {
+      "from": "jm-g9-alg-n015",
+      "to": "jm-g9-alg-n016",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n015 需先于 jm-g9-alg-n016"
+    },
+    {
+      "from": "jm-g9-alg-n016",
+      "to": "jm-g9-alg-n017",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n016 需先于 jm-g9-alg-n017"
+    },
+    {
+      "from": "jm-g9-alg-n017",
+      "to": "jm-g9-alg-n018",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n017 需先于 jm-g9-alg-n018"
+    },
+    {
+      "from": "jm-g9-alg-n018",
+      "to": "jm-g9-alg-n019",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n018 需先于 jm-g9-alg-n019"
+    },
+    {
+      "from": "jm-g9-alg-n019",
+      "to": "jm-g9-alg-n020",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n019 需先于 jm-g9-alg-n020"
+    },
+    {
+      "from": "jm-g9-alg-n020",
+      "to": "jm-g9-alg-n021",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n020 需先于 jm-g9-alg-n021"
+    },
+    {
+      "from": "jm-g9-alg-n021",
+      "to": "jm-g9-alg-n022",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n021 需先于 jm-g9-alg-n022"
+    },
+    {
+      "from": "jm-g9-alg-n022",
+      "to": "jm-g9-alg-n023",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n022 需先于 jm-g9-alg-n023"
+    },
+    {
+      "from": "jm-g9-alg-n023",
+      "to": "jm-g9-alg-n024",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n023 需先于 jm-g9-alg-n024"
+    },
+    {
+      "from": "jm-g9-alg-n015",
+      "to": "jm-g9-alg-n024",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n015 需先于 jm-g9-alg-n024"
+    },
+    {
+      "from": "jm-g9-alg-n024",
+      "to": "jm-g9-alg-n025",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n024 需先于 jm-g9-alg-n025"
+    },
+    {
+      "from": "jm-g9-alg-n025",
+      "to": "jm-g9-alg-n026",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n025 需先于 jm-g9-alg-n026"
+    },
+    {
+      "from": "jm-g9-alg-n026",
+      "to": "jm-g9-alg-n027",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n026 需先于 jm-g9-alg-n027"
+    },
+    {
+      "from": "jm-g9-alg-n027",
+      "to": "jm-g9-alg-n028",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n027 需先于 jm-g9-alg-n028"
+    },
+    {
+      "from": "jm-g9-alg-n018",
+      "to": "jm-g9-alg-n029",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n018 需先于 jm-g9-alg-n029"
+    },
+    {
+      "from": "jm-g9-alg-n024",
+      "to": "jm-g9-alg-n030",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n024 需先于 jm-g9-alg-n030"
+    },
+    {
+      "from": "jm-g9-alg-n005",
+      "to": "jm-g9-alg-n031",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n005 需先于 jm-g9-alg-n031"
+    },
+    {
+      "from": "jm-g9-alg-n022",
+      "to": "jm-g9-alg-n032",
+      "type": "prerequisite",
+      "note": "jm-g9-alg-n022 需先于 jm-g9-alg-n032"
+    },
+    {
+      "from": "jm-g9-alg-n001",
+      "to": "jm-g9-alg-n002",
+      "type": "easily_confused",
+      "note": "算术平方根只取非负的那一个；平方根有两个。"
+    },
+    {
+      "from": "jm-g9-alg-n007",
+      "to": "jm-g9-alg-n008",
+      "type": "easily_confused",
+      "note": "乘除可以对被开方数运算；加减必须先化成同类根式。"
+    },
+    {
+      "from": "jm-g9-alg-n012",
+      "to": "jm-g9-alg-n013",
+      "type": "related",
+      "note": "求根公式可以由配方法推出来。"
+    },
+    {
+      "from": "jm-g9-alg-n014",
+      "to": "jm-g9-alg-n016",
+      "type": "related",
+      "note": "能分解时往往比套公式更快。"
+    },
+    {
+      "from": "jm-g9-alg-n015",
+      "to": "jm-g9-alg-n024",
+      "type": "application",
+      "note": "判别式决定抛物线与 x 轴有几个交点。"
+    },
+    {
+      "from": "jm-g9-alg-n018",
+      "to": "jm-g9-alg-n029",
+      "type": "related",
+      "note": "先会求根，再用两根之和与积做检验。"
+    },
+    {
+      "from": "jm-g9-alg-n012",
+      "to": "jm-g9-alg-n032",
+      "type": "related",
+      "note": "配方既解方程也找顶点。"
+    }
+  ]
+}

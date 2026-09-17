@@ -1,0 +1,870 @@
+{
+  "map_id": "jm-g8-geometry",
+  "nodes": [
+    {
+      "id": "jm-g8-geo-n001",
+      "title": "全等形的意义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "cong",
+        "ch-cong"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明能够完全重合的两个图形全等，对应边相等、对应角相等。"
+    },
+    {
+      "id": "jm-g8-geo-n002",
+      "title": "全等三角形的对应",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-geo-n001"
+      ],
+      "tags": [
+        "cong",
+        "ch-cong"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据顶点对应顺序写出对应边、对应角，避免「看起来像」就乱对应。"
+    },
+    {
+      "id": "jm-g8-geo-n003",
+      "title": "SSS 判定",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n002"
+      ],
+      "tags": [
+        "cong",
+        "ch-cong"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用三边对应相等判定两个三角形全等。"
+    },
+    {
+      "id": "jm-g8-geo-n004",
+      "title": "SAS 判定",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n002"
+      ],
+      "tags": [
+        "cong",
+        "ch-cong"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用两边及其夹角对应相等判定全等。"
+    },
+    {
+      "id": "jm-g8-geo-n005",
+      "title": "ASA 与 AAS 判定",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n002"
+      ],
+      "tags": [
+        "cong",
+        "ch-cong"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用两角及其夹边，或两角及一角的对边，判定全等。"
+    },
+    {
+      "id": "jm-g8-geo-n006",
+      "title": "HL 判定",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n005"
+      ],
+      "tags": [
+        "cong",
+        "ch-cong"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在直角三角形中用斜边和一条直角边对应相等判定全等。"
+    },
+    {
+      "id": "jm-g8-geo-n007",
+      "title": "选择判定方法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-geo-n003",
+        "jm-g8-geo-n004",
+        "jm-g8-geo-n006"
+      ],
+      "tags": [
+        "cong",
+        "ch-cong"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据已知条件选择 SSS、SAS、ASA、AAS 或 HL，并写出对应。"
+    },
+    {
+      "id": "jm-g8-geo-n008",
+      "title": "全等的简单应用",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-geo-n007"
+      ],
+      "tags": [
+        "cong",
+        "ch-cong",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能先证全等再得对应边或对应角，解决求线段或求角。"
+    },
+    {
+      "id": "jm-g8-geo-n009",
+      "title": "轴对称图形",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-geo-n001"
+      ],
+      "tags": [
+        "sym",
+        "ch-sym"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别轴对称图形并找出对称轴，说明对应点到对称轴距离相等。"
+    },
+    {
+      "id": "jm-g8-geo-n010",
+      "title": "轴对称变换",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n009"
+      ],
+      "tags": [
+        "sym",
+        "ch-sym"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能作出一个简单图形关于给定直线的对称图形。"
+    },
+    {
+      "id": "jm-g8-geo-n011",
+      "title": "等腰三角形的轴对称",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n010",
+        "jm-g8-geo-n008"
+      ],
+      "tags": [
+        "sym",
+        "ch-sym"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用轴对称理解等腰三角形三线合一，并用来求角。"
+    },
+    {
+      "id": "jm-g8-geo-n012",
+      "title": "最短路径问题入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-geo-n011"
+      ],
+      "tags": [
+        "sym",
+        "ch-sym"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用轴对称把「到直线再折返」的路径变成两点连线。"
+    },
+    {
+      "id": "jm-g8-geo-n013",
+      "title": "轴对称综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-geo-n012"
+      ],
+      "tags": [
+        "sym",
+        "ch-sym"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在全等与轴对称之间切换：对称可以产生全等。"
+    },
+    {
+      "id": "jm-g8-geo-n014",
+      "title": "勾股定理",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n008"
+      ],
+      "tags": [
+        "pyth",
+        "ch-pyth"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明直角三角形两直角边的平方和等于斜边的平方，并用来求边。"
+    },
+    {
+      "id": "jm-g8-geo-n015",
+      "title": "勾股定理的逆定理",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n014"
+      ],
+      "tags": [
+        "pyth",
+        "ch-pyth"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用三边数量关系判定一个三角形是不是直角三角形。"
+    },
+    {
+      "id": "jm-g8-geo-n016",
+      "title": "勾股定理应用",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-geo-n015"
+      ],
+      "tags": [
+        "pyth",
+        "ch-pyth",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在长方形对角线、梯子、坐标格点等情境中用勾股求距离。"
+    },
+    {
+      "id": "jm-g8-geo-n017",
+      "title": "平行四边形的定义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g8-geo-n008"
+      ],
+      "tags": [
+        "para",
+        "ch-para"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明两组对边分别平行的四边形是平行四边形。"
+    },
+    {
+      "id": "jm-g8-geo-n018",
+      "title": "平行四边形的性质",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n017"
+      ],
+      "tags": [
+        "para",
+        "ch-para"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能推出对边相等、对角相等、对角线互相平分。"
+    },
+    {
+      "id": "jm-g8-geo-n019",
+      "title": "平行四边形的判定",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-geo-n018"
+      ],
+      "tags": [
+        "para",
+        "ch-para"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用对边平行且相等、对角线互相平分等条件判定平行四边形。"
+    },
+    {
+      "id": "jm-g8-geo-n020",
+      "title": "矩形",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n019"
+      ],
+      "tags": [
+        "para",
+        "ch-para"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明矩形是有一个直角的平行四边形，对角线相等。"
+    },
+    {
+      "id": "jm-g8-geo-n021",
+      "title": "菱形",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n019"
+      ],
+      "tags": [
+        "para",
+        "ch-para"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明菱形是一组邻边相等的平行四边形，对角线互相垂直。"
+    },
+    {
+      "id": "jm-g8-geo-n022",
+      "title": "正方形",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n020",
+        "jm-g8-geo-n021"
+      ],
+      "tags": [
+        "para",
+        "ch-para"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明正方形既是矩形又是菱形，兼有两者性质。"
+    },
+    {
+      "id": "jm-g8-geo-n023",
+      "title": "特殊平行四边形综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-geo-n022"
+      ],
+      "tags": [
+        "para",
+        "ch-para",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在矩形、菱形、正方形之间选用性质求边、角、对角线。"
+    },
+    {
+      "id": "jm-g8-geo-n024",
+      "title": "八年级几何合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g8-geo-n016",
+        "jm-g8-geo-n023",
+        "jm-g8-geo-n013"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能综合全等、轴对称、勾股、平行四边形写短推理。"
+    },
+    {
+      "id": "jm-g8-geo-n025",
+      "title": "八年级几何通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g8-geo-n024"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成八年级图形与几何线的收束检查。"
+    },
+    {
+      "id": "jm-g8-geo-n026",
+      "title": "SSA 不能判定",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n007"
+      ],
+      "tags": [
+        "cong",
+        "ch-cong"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举出两边及其中一边的对角对应相等但三角形不一定全等的示意，从而记住 SSA 不是判定定理。"
+    },
+    {
+      "id": "jm-g8-geo-n027",
+      "title": "等腰中的隐藏条件",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n011"
+      ],
+      "tags": [
+        "sym",
+        "ch-sym"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在「看起来没写全等」的图里找出等腰带来的等边等角。"
+    },
+    {
+      "id": "jm-g8-geo-n028",
+      "title": "梯形的中位线入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n018"
+      ],
+      "tags": [
+        "para",
+        "ch-para"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明梯形中位线平行于两底并且等于两底和的一半（本图只作认识，不挡主线）。"
+    },
+    {
+      "id": "jm-g8-geo-n029",
+      "title": "网格上的勾股",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n016"
+      ],
+      "tags": [
+        "pyth",
+        "ch-pyth"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在方格纸上数直角边格数，用勾股求斜线段长。"
+    },
+    {
+      "id": "jm-g8-geo-n030",
+      "title": "对角线互相垂直平分",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 8,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g8-geo-n021"
+      ],
+      "tags": [
+        "para",
+        "ch-para"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能对照：互相平分是平行四边形，再垂直则到菱形，再等长则到矩形。"
+    }
+  ]
+}
