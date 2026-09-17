@@ -1,0 +1,917 @@
+{
+  "map_id": "pm-g6-geometry",
+  "nodes": [
+    {
+      "id": "pm-g6-geo-n001",
+      "title": "长方体的认识",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "prism",
+        "ch-box"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出长方体的面、棱、顶点，说出相对的面大小相等，相交于一个顶点的三条棱可以当作长、宽、高。"
+    },
+    {
+      "id": "pm-g6-geo-n002",
+      "title": "正方体的认识",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-geo-n001"
+      ],
+      "tags": [
+        "prism",
+        "ch-box",
+        "cube"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明正方体是特殊的长方体：六个面都是正方形，十二条棱都相等。"
+    },
+    {
+      "id": "pm-g6-geo-n003",
+      "title": "长方体的展开图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n001"
+      ],
+      "tags": [
+        "prism",
+        "ch-box",
+        "net"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认长方体的展开图：六个长方形怎样排才折得拢，相对的面不要重叠在错误位置。"
+    },
+    {
+      "id": "pm-g6-geo-n004",
+      "title": "正方体的展开图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n002",
+        "pm-g6-geo-n003"
+      ],
+      "tags": [
+        "prism",
+        "ch-box",
+        "net"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认正方体常见展开图（如「一」字四连、土字形），排除折起来会重叠或缺面的排法。"
+    },
+    {
+      "id": "pm-g6-geo-n005",
+      "title": "长方体的表面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n003"
+      ],
+      "tags": [
+        "prism",
+        "ch-box",
+        "surface"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把六个面的面积加起来求长方体表面积：2×（长×宽 + 长×高 + 宽×高）。"
+    },
+    {
+      "id": "pm-g6-geo-n006",
+      "title": "正方体的表面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n004",
+        "pm-g6-geo-n005"
+      ],
+      "tags": [
+        "prism",
+        "ch-box",
+        "surface"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 6×棱长×棱长 求正方体表面积，并与长方体公式对照。"
+    },
+    {
+      "id": "pm-g6-geo-n007",
+      "title": "体积表示什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-geo-n002"
+      ],
+      "tags": [
+        "volume",
+        "ch-box"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道体积表示物体所占空间的大小，能用小正方体摆一摆感受「占了几块」。"
+    },
+    {
+      "id": "pm-g6-geo-n008",
+      "title": "体积单位",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-geo-n007"
+      ],
+      "tags": [
+        "volume",
+        "ch-box",
+        "unit"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识立方厘米、立方分米、立方米，能选择量橡皮、纸箱、房间各用哪个单位。"
+    },
+    {
+      "id": "pm-g6-geo-n009",
+      "title": "长方体的体积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n008",
+        "pm-g6-geo-n001"
+      ],
+      "tags": [
+        "volume",
+        "ch-box"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用长×宽×高求长方体体积，并理解它等于底面积×高。"
+    },
+    {
+      "id": "pm-g6-geo-n010",
+      "title": "正方体的体积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n009",
+        "pm-g6-geo-n002"
+      ],
+      "tags": [
+        "volume",
+        "ch-box"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用棱长×棱长×棱长求正方体体积。"
+    },
+    {
+      "id": "pm-g6-geo-n011",
+      "title": "容积与体积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n010"
+      ],
+      "tags": [
+        "volume",
+        "ch-box",
+        "capacity"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道容积是容器里面能装多少，常用升、毫升；1 立方分米 = 1 升，1 立方厘米 = 1 毫升。"
+    },
+    {
+      "id": "pm-g6-geo-n012",
+      "title": "长方体正方体综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-geo-n006",
+        "pm-g6-geo-n011"
+      ],
+      "tags": [
+        "prism",
+        "ch-box",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能区分表面积和体积，完成展开图、求面积或体积、容积换算的章节收束。"
+    },
+    {
+      "id": "pm-g6-geo-n013",
+      "title": "圆柱的认识",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-geo-n001"
+      ],
+      "tags": [
+        "cylinder",
+        "ch-cyl"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出圆柱的两个圆形底面和一个侧面，高是两底之间的垂直距离。"
+    },
+    {
+      "id": "pm-g6-geo-n014",
+      "title": "圆柱的展开图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n013",
+        "pm-g6-geo-n003"
+      ],
+      "tags": [
+        "cylinder",
+        "ch-cyl",
+        "net"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明圆柱侧面展开是长方形：长等于底面周长，宽等于圆柱的高。"
+    },
+    {
+      "id": "pm-g6-geo-n015",
+      "title": "圆柱的表面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-geo-n014",
+        "pm-g6-geo-n005"
+      ],
+      "tags": [
+        "cylinder",
+        "ch-cyl",
+        "surface"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能求圆柱表面积：两个底面积加侧面积。侧面积 = 底面周长 × 高。"
+    },
+    {
+      "id": "pm-g6-geo-n016",
+      "title": "圆柱的体积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-geo-n015",
+        "pm-g6-geo-n009"
+      ],
+      "tags": [
+        "cylinder",
+        "ch-cyl",
+        "volume"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用底面积×高求圆柱体积，底面积是圆面积；已知直径时先求半径。"
+    },
+    {
+      "id": "pm-g6-geo-n017",
+      "title": "圆锥的认识",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-geo-n013"
+      ],
+      "tags": [
+        "cone",
+        "ch-cyl"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出圆锥有一个圆形底面和一个顶点，高是顶点到底面圆心的垂直距离。"
+    },
+    {
+      "id": "pm-g6-geo-n018",
+      "title": "圆锥的体积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-geo-n017",
+        "pm-g6-geo-n016"
+      ],
+      "tags": [
+        "cone",
+        "ch-cyl",
+        "volume"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "知道等底等高时圆锥体积是圆柱的三分之一：V = (1/3) × 底面积 × 高。"
+    },
+    {
+      "id": "pm-g6-geo-n019",
+      "title": "圆柱圆锥综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-geo-n018"
+      ],
+      "tags": [
+        "cylinder",
+        "ch-cyl",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能区分侧面积、表面积和体积，完成圆柱圆锥章节收束检查。"
+    },
+    {
+      "id": "pm-g6-geo-n020",
+      "title": "比例尺",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n001"
+      ],
+      "tags": [
+        "scale",
+        "ch-scale"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道比例尺 = 图上距离 : 实际距离，能读懂 1:10000 这类数值比例尺。"
+    },
+    {
+      "id": "pm-g6-geo-n021",
+      "title": "求图上或实际距离",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n020"
+      ],
+      "tags": [
+        "scale",
+        "ch-scale"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据比例尺在图上距离和实际距离之间换算，注意单位要先统一。"
+    },
+    {
+      "id": "pm-g6-geo-n022",
+      "title": "图形的放大",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n021"
+      ],
+      "tags": [
+        "scale",
+        "ch-scale",
+        "enlarge"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在方格纸上按指定倍数放大简单图形，对应角不变、对应边成比例。"
+    },
+    {
+      "id": "pm-g6-geo-n023",
+      "title": "图形的缩小",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n022"
+      ],
+      "tags": [
+        "scale",
+        "ch-scale",
+        "reduce"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能按指定倍数缩小图形，并说明缩小后形状不变、面积不是按同样倍数减少。"
+    },
+    {
+      "id": "pm-g6-geo-n024",
+      "title": "放大缩小与比例尺",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n023"
+      ],
+      "tags": [
+        "scale",
+        "ch-scale"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把地图、图纸上的放大缩小与比例尺联系起来：图上 1 厘米代表实际多少。"
+    },
+    {
+      "id": "pm-g6-geo-n025",
+      "title": "从上面前面左面看",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n012"
+      ],
+      "tags": [
+        "view",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能综合长方体、圆柱等，辨认从上面、前面、左面看到的轮廓。"
+    },
+    {
+      "id": "pm-g6-geo-n026",
+      "title": "立体图形关系",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-geo-n019",
+        "pm-g6-geo-n012"
+      ],
+      "tags": [
+        "solid",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用自己的话串起长方体、正方体、圆柱、圆锥：谁是谁的特例，体积怎样比。"
+    },
+    {
+      "id": "pm-g6-geo-n027",
+      "title": "展开图易混专练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-geo-n014",
+        "pm-g6-geo-n004"
+      ],
+      "tags": [
+        "net",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在长方体、正方体、圆柱展开图里指出哪一张折不拢，哪一张侧面不是长方形。"
+    },
+    {
+      "id": "pm-g6-geo-n028",
+      "title": "测量与图纸",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-geo-n024",
+        "pm-g6-geo-n011"
+      ],
+      "tags": [
+        "scale",
+        "ch-end",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在「水箱容积」和「图纸上的房间」两类问题里选择体积或比例尺。"
+    },
+    {
+      "id": "pm-g6-geo-n029",
+      "title": "小学图形总复习",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-geo-n026",
+        "pm-g6-geo-n024",
+        "pm-g6-geo-n025"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能回顾平面与立体、周长面积体积、运动与比例尺，知道遇到问题先判断在考哪一块。"
+    },
+    {
+      "id": "pm-g6-geo-n030",
+      "title": "六年级图形通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g6-geo-n029"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合长方体圆柱圆锥、比例尺与放大缩小、展开图，完成本图及小学图形线收束检查。"
+    },
+    {
+      "id": "pm-g6-geo-n031",
+      "title": "路线图与方向",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-geo-n025"
+      ],
+      "tags": [
+        "direction",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在简单平面图上用东南西北描述路线，作为位置与方向的小学收束。"
+    }
+  ]
+}

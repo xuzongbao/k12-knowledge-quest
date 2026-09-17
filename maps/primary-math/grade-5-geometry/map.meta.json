@@ -1,0 +1,26 @@
+{
+  "id": "pm-g5-geometry",
+  "title": "五年级 · 图形与几何",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 5,
+  "strand": "图形与几何",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g5-geo-n001"
+  ],
+  "recommended_path_note": "从「面积从转化来」进入：先打通多边形面积，圆的认识可与多边形主线并行，在圆面积转化处汇合；再轴对称与旋转深入。平移性质可从起点并行。扇形初步（n029）与观察物体还原（n030）为软锁支线，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g5-geo-boss-polygon",
+      "pm-g5-geo-boss-circle",
+      "pm-g5-geo-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：多边形面积工程师、圆的度量师、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学五年级「图形与几何」地图：多边形面积 → 圆的认识与周长面积 → 轴对称与旋转深入。圆在本图系统学习；长方体圆柱等立体收束见六年级图。与四年级面积公式扩展概念衔接，但各自独立通关。"
+}

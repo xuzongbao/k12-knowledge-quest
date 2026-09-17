@@ -1,0 +1,335 @@
+{
+  "map_id": "pm-g1-geometry",
+  "edges": [
+    {
+      "from": "pm-g1-geo-n001",
+      "to": "pm-g1-geo-n002",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n001 需先于 pm-g1-geo-n002"
+    },
+    {
+      "from": "pm-g1-geo-n001",
+      "to": "pm-g1-geo-n003",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n001 需先于 pm-g1-geo-n003"
+    },
+    {
+      "from": "pm-g1-geo-n002",
+      "to": "pm-g1-geo-n004",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n002 需先于 pm-g1-geo-n004"
+    },
+    {
+      "from": "pm-g1-geo-n003",
+      "to": "pm-g1-geo-n004",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n003 需先于 pm-g1-geo-n004"
+    },
+    {
+      "from": "pm-g1-geo-n004",
+      "to": "pm-g1-geo-n005",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n004 需先于 pm-g1-geo-n005"
+    },
+    {
+      "from": "pm-g1-geo-n005",
+      "to": "pm-g1-geo-n006",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n005 需先于 pm-g1-geo-n006"
+    },
+    {
+      "from": "pm-g1-geo-n006",
+      "to": "pm-g1-geo-n007",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n006 需先于 pm-g1-geo-n007"
+    },
+    {
+      "from": "pm-g1-geo-n007",
+      "to": "pm-g1-geo-n008",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n007 需先于 pm-g1-geo-n008"
+    },
+    {
+      "from": "pm-g1-geo-n008",
+      "to": "pm-g1-geo-n009",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n008 需先于 pm-g1-geo-n009"
+    },
+    {
+      "from": "pm-g1-geo-n008",
+      "to": "pm-g1-geo-n010",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n008 需先于 pm-g1-geo-n010"
+    },
+    {
+      "from": "pm-g1-geo-n009",
+      "to": "pm-g1-geo-n011",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n009 需先于 pm-g1-geo-n011"
+    },
+    {
+      "from": "pm-g1-geo-n010",
+      "to": "pm-g1-geo-n011",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n010 需先于 pm-g1-geo-n011"
+    },
+    {
+      "from": "pm-g1-geo-n008",
+      "to": "pm-g1-geo-n012",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n008 需先于 pm-g1-geo-n012"
+    },
+    {
+      "from": "pm-g1-geo-n008",
+      "to": "pm-g1-geo-n013",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n008 需先于 pm-g1-geo-n013"
+    },
+    {
+      "from": "pm-g1-geo-n012",
+      "to": "pm-g1-geo-n014",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n012 需先于 pm-g1-geo-n014"
+    },
+    {
+      "from": "pm-g1-geo-n013",
+      "to": "pm-g1-geo-n014",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n013 需先于 pm-g1-geo-n014"
+    },
+    {
+      "from": "pm-g1-geo-n011",
+      "to": "pm-g1-geo-n015",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n011 需先于 pm-g1-geo-n015"
+    },
+    {
+      "from": "pm-g1-geo-n014",
+      "to": "pm-g1-geo-n015",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n014 需先于 pm-g1-geo-n015"
+    },
+    {
+      "from": "pm-g1-geo-n015",
+      "to": "pm-g1-geo-n016",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n015 需先于 pm-g1-geo-n016"
+    },
+    {
+      "from": "pm-g1-geo-n016",
+      "to": "pm-g1-geo-n017",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n016 需先于 pm-g1-geo-n017"
+    },
+    {
+      "from": "pm-g1-geo-n016",
+      "to": "pm-g1-geo-n018",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n016 需先于 pm-g1-geo-n018"
+    },
+    {
+      "from": "pm-g1-geo-n017",
+      "to": "pm-g1-geo-n019",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n017 需先于 pm-g1-geo-n019"
+    },
+    {
+      "from": "pm-g1-geo-n018",
+      "to": "pm-g1-geo-n019",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n018 需先于 pm-g1-geo-n019"
+    },
+    {
+      "from": "pm-g1-geo-n016",
+      "to": "pm-g1-geo-n020",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n016 需先于 pm-g1-geo-n020"
+    },
+    {
+      "from": "pm-g1-geo-n016",
+      "to": "pm-g1-geo-n021",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n016 需先于 pm-g1-geo-n021"
+    },
+    {
+      "from": "pm-g1-geo-n019",
+      "to": "pm-g1-geo-n022",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n019 需先于 pm-g1-geo-n022"
+    },
+    {
+      "from": "pm-g1-geo-n020",
+      "to": "pm-g1-geo-n022",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n020 需先于 pm-g1-geo-n022"
+    },
+    {
+      "from": "pm-g1-geo-n021",
+      "to": "pm-g1-geo-n022",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n021 需先于 pm-g1-geo-n022"
+    },
+    {
+      "from": "pm-g1-geo-n015",
+      "to": "pm-g1-geo-n023",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n015 需先于 pm-g1-geo-n023"
+    },
+    {
+      "from": "pm-g1-geo-n022",
+      "to": "pm-g1-geo-n023",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n022 需先于 pm-g1-geo-n023"
+    },
+    {
+      "from": "pm-g1-geo-n022",
+      "to": "pm-g1-geo-n024",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n022 需先于 pm-g1-geo-n024"
+    },
+    {
+      "from": "pm-g1-geo-n015",
+      "to": "pm-g1-geo-n025",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n015 需先于 pm-g1-geo-n025"
+    },
+    {
+      "from": "pm-g1-geo-n024",
+      "to": "pm-g1-geo-n026",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n024 需先于 pm-g1-geo-n026"
+    },
+    {
+      "from": "pm-g1-geo-n025",
+      "to": "pm-g1-geo-n026",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n025 需先于 pm-g1-geo-n026"
+    },
+    {
+      "from": "pm-g1-geo-n024",
+      "to": "pm-g1-geo-n027",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n024 需先于 pm-g1-geo-n027"
+    },
+    {
+      "from": "pm-g1-geo-n023",
+      "to": "pm-g1-geo-n028",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n023 需先于 pm-g1-geo-n028"
+    },
+    {
+      "from": "pm-g1-geo-n022",
+      "to": "pm-g1-geo-n029",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n022 需先于 pm-g1-geo-n029"
+    },
+    {
+      "from": "pm-g1-geo-n007",
+      "to": "pm-g1-geo-n030",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n007 需先于 pm-g1-geo-n030"
+    },
+    {
+      "from": "pm-g1-geo-n026",
+      "to": "pm-g1-geo-n030",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n026 需先于 pm-g1-geo-n030"
+    },
+    {
+      "from": "pm-g1-geo-n028",
+      "to": "pm-g1-geo-n030",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n028 需先于 pm-g1-geo-n030"
+    },
+    {
+      "from": "pm-g1-geo-n030",
+      "to": "pm-g1-geo-n031",
+      "type": "prerequisite",
+      "note": "pm-g1-geo-n030 需先于 pm-g1-geo-n031"
+    },
+    {
+      "from": "pm-g1-geo-n002",
+      "to": "pm-g1-geo-n003",
+      "type": "related",
+      "note": "前后和左右都是水平方向上的位置，宜对照着说。"
+    },
+    {
+      "from": "pm-g1-geo-n001",
+      "to": "pm-g1-geo-n002",
+      "type": "easily_confused",
+      "note": "「上」不是「前」：上是头顶方向，前是脸朝的方向。"
+    },
+    {
+      "from": "pm-g1-geo-n003",
+      "to": "pm-g1-geo-n005",
+      "type": "easily_confused",
+      "note": "自己的左和「在小明左边」不是同一句话，标准不同。"
+    },
+    {
+      "from": "pm-g1-geo-n009",
+      "to": "pm-g1-geo-n010",
+      "type": "related",
+      "note": "长方体和正方体都有平平的面，先一起摸再比较。"
+    },
+    {
+      "from": "pm-g1-geo-n012",
+      "to": "pm-g1-geo-n013",
+      "type": "related",
+      "note": "圆柱和球都能滚，但球没有平平的底面。"
+    },
+    {
+      "from": "pm-g1-geo-n009",
+      "to": "pm-g1-geo-n017",
+      "type": "related",
+      "note": "长方形常常是长方体的一个面描下来的。"
+    },
+    {
+      "from": "pm-g1-geo-n010",
+      "to": "pm-g1-geo-n018",
+      "type": "related",
+      "note": "正方形常常是正方体的一个面描下来的。"
+    },
+    {
+      "from": "pm-g1-geo-n013",
+      "to": "pm-g1-geo-n021",
+      "type": "easily_confused",
+      "note": "球是立体，圆是平面；球的影子或杯口才更像圆。"
+    },
+    {
+      "from": "pm-g1-geo-n010",
+      "to": "pm-g1-geo-n018",
+      "type": "easily_confused",
+      "note": "正方体是一块，正方形是一个面，名字很像但不是同一种。"
+    },
+    {
+      "from": "pm-g1-geo-n017",
+      "to": "pm-g1-geo-n018",
+      "type": "easily_confused",
+      "note": "正方形四边一样长；长方形常常有一组对边更长。"
+    },
+    {
+      "from": "pm-g1-geo-n006",
+      "to": "pm-g1-geo-n025",
+      "type": "application",
+      "note": "搭积木时正好要用上、下、前、后来说位置。"
+    },
+    {
+      "from": "pm-g1-geo-n024",
+      "to": "pm-g1-geo-n028",
+      "type": "application",
+      "note": "生活里的图案也是平面图形拼出来的。"
+    },
+    {
+      "from": "pm-g1-geo-n021",
+      "to": "pm-g1-geo-n012",
+      "type": "related",
+      "note": "圆柱的底面看起来是圆。"
+    },
+    {
+      "from": "pm-g1-geo-n029",
+      "to": "pm-g1-geo-n024",
+      "type": "related",
+      "note": "对折剪纸和拼组都是在玩图形的合与分。"
+    }
+  ]
+}

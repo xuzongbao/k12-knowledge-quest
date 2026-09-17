@@ -1,0 +1,949 @@
+{
+  "map_id": "pm-g4-geometry",
+  "nodes": [
+    {
+      "id": "pm-g4-geo-n001",
+      "title": "直线射线线段",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "line",
+        "ch-angle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分直线（两边无限延长）、射线（一个端点，向一边延长）和线段（两个端点）。"
+    },
+    {
+      "id": "pm-g4-geo-n002",
+      "title": "角的顶点和边",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-geo-n001"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道角由顶点与两条射线组成，能在图上标出顶点和边。"
+    },
+    {
+      "id": "pm-g4-geo-n003",
+      "title": "用量角器量角",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n002"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle",
+        "measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把量角器中心对顶点、0 刻度线对一条边，读另一条边对着的刻度，得到角的度数。"
+    },
+    {
+      "id": "pm-g4-geo-n004",
+      "title": "画指定度数的角",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n003"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle",
+        "draw"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用直尺和量角器画出指定度数的角，如 60°、90°、135°。"
+    },
+    {
+      "id": "pm-g4-geo-n005",
+      "title": "平角和周角",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n004"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle",
+        "straight-round"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道平角是 180°（一条直线）、周角是 360°（转一圈），直角是平角的一半。"
+    },
+    {
+      "id": "pm-g4-geo-n006",
+      "title": "角的分类总表",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n005"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle",
+        "classify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按度数把角分成锐角、直角、钝角、平角、周角，并举例说明。"
+    },
+    {
+      "id": "pm-g4-geo-n007",
+      "title": "垂直",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n006"
+      ],
+      "tags": [
+        "line",
+        "ch-angle",
+        "perpendicular"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道两条直线相交成直角就互相垂直，会用直角三角板画垂线、认垂足。"
+    },
+    {
+      "id": "pm-g4-geo-n008",
+      "title": "平行",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n007"
+      ],
+      "tags": [
+        "line",
+        "ch-angle",
+        "parallel"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道在同一平面内不相交的两条直线互相平行，会用三角板和直尺画平行线。"
+    },
+    {
+      "id": "pm-g4-geo-n009",
+      "title": "画垂线平行线",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n008"
+      ],
+      "tags": [
+        "line",
+        "ch-angle",
+        "draw"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能过直线外一点画已知直线的垂线和平行线，并说明工具怎么摆。"
+    },
+    {
+      "id": "pm-g4-geo-n010",
+      "title": "角与线综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n009"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能综合量角、画角、垂直与平行，完成章节收束检查。"
+    },
+    {
+      "id": "pm-g4-geo-n011",
+      "title": "平行四边形的特征",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n008"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "parallelogram"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明平行四边形两组对边分别平行且相等，对角相等；用拉一拉感受它容易变形。"
+    },
+    {
+      "id": "pm-g4-geo-n012",
+      "title": "梯形的特征",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n011"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "trapezoid"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明梯形只有一组对边平行（上底和下底），另两边是腰；认识等腰梯形。"
+    },
+    {
+      "id": "pm-g4-geo-n013",
+      "title": "平行四边形和梯形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n012"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能比较平行四边形和梯形：平行边的组数不同，不要把「有一组平行」说成平行四边形。"
+    },
+    {
+      "id": "pm-g4-geo-n014",
+      "title": "四边形分类",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n013"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "classify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能整理四边形家族：平行四边形、长方形、正方形、梯形各满足哪些边角条件。"
+    },
+    {
+      "id": "pm-g4-geo-n015",
+      "title": "三角形的稳定性",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-geo-n001"
+      ],
+      "tags": [
+        "triangle",
+        "ch-tri"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能通过拉动对比：三角形不易变形，四边形容易变形，体会三角形的稳定性。"
+    },
+    {
+      "id": "pm-g4-geo-n016",
+      "title": "三角形三边关系",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n015"
+      ],
+      "tags": [
+        "triangle",
+        "ch-tri",
+        "sides"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道任意两边之和大于第三边，才能围成三角形；能判断三条线段行不行。"
+    },
+    {
+      "id": "pm-g4-geo-n017",
+      "title": "按边分类三角形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n016"
+      ],
+      "tags": [
+        "triangle",
+        "ch-tri",
+        "classify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按边分成不等边、等腰、等边三角形，并说明等边是特殊的等腰。"
+    },
+    {
+      "id": "pm-g4-geo-n018",
+      "title": "按角分类三角形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n017",
+        "pm-g4-geo-n006"
+      ],
+      "tags": [
+        "triangle",
+        "ch-tri",
+        "classify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按角分成锐角、直角、钝角三角形，一个三角形只能按「最大的那个角」归一类。"
+    },
+    {
+      "id": "pm-g4-geo-n019",
+      "title": "三角形内角和",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n018"
+      ],
+      "tags": [
+        "triangle",
+        "ch-tri",
+        "angle-sum"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能通过撕拼或测量发现三角形三个内角加起来是 180°，并用来求未知角。"
+    },
+    {
+      "id": "pm-g4-geo-n020",
+      "title": "三角形综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n019",
+        "pm-g4-geo-n014"
+      ],
+      "tags": [
+        "triangle",
+        "ch-tri",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能综合三边关系、按边按角分类和内角和，完成章节收束检查。"
+    },
+    {
+      "id": "pm-g4-geo-n021",
+      "title": "平行四边形面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n014",
+        "pm-g4-geo-n010"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "parallelogram"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把平行四边形割补成长方形，理解面积 = 底 × 高，高要垂直于底。"
+    },
+    {
+      "id": "pm-g4-geo-n022",
+      "title": "三角形面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n021",
+        "pm-g4-geo-n020"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "triangle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把两个完全一样的三角形拼成平行四边形，理解面积 = 底 × 高 ÷ 2。"
+    },
+    {
+      "id": "pm-g4-geo-n023",
+      "title": "梯形面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n022"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "trapezoid"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把梯形转化成平行四边形或三角形来理解：面积 =（上底+下底）× 高 ÷ 2。"
+    },
+    {
+      "id": "pm-g4-geo-n024",
+      "title": "等底等高",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n022"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "equal-base"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道等底等高的平行四边形（或三角形）面积相等，形状可以不同。"
+    },
+    {
+      "id": "pm-g4-geo-n025",
+      "title": "组合图形面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n023",
+        "pm-g4-geo-n024"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "composite"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把组合图形分割或补成已学图形，再加减面积。"
+    },
+    {
+      "id": "pm-g4-geo-n026",
+      "title": "面积公式扩展综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n025"
+      ],
+      "tags": [
+        "area",
+        "ch-area"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据图形选择平行四边形、三角形或梯形公式，并标出对应的底和高。"
+    },
+    {
+      "id": "pm-g4-geo-n027",
+      "title": "三个方向观察",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n014"
+      ],
+      "tags": [
+        "view",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认由几个正方体搭成的立体从前面、上面、左面看到的形状。"
+    },
+    {
+      "id": "pm-g4-geo-n028",
+      "title": "根据三视图搭",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n027"
+      ],
+      "tags": [
+        "view",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据前面、上面、左面三张图，用积木搭出符合要求的立体（块数不太多）。"
+    },
+    {
+      "id": "pm-g4-geo-n029",
+      "title": "轴对称作图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-geo-n007"
+      ],
+      "tags": [
+        "symmetry",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在方格纸上画出简单图形关于给定直线的轴对称图形。"
+    },
+    {
+      "id": "pm-g4-geo-n030",
+      "title": "旋转作图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n029"
+      ],
+      "tags": [
+        "rotation",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在方格纸上把简单图形绕一点旋转 90° 或 180°，画出旋转后的图形。"
+    },
+    {
+      "id": "pm-g4-geo-n031",
+      "title": "图形与测量合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-geo-n010",
+        "pm-g4-geo-n026",
+        "pm-g4-geo-n028"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在同一张综合练习里完成量角、四边形三角形辨认、面积公式和简单三视图。"
+    },
+    {
+      "id": "pm-g4-geo-n032",
+      "title": "四年级图形通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "图形与几何",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g4-geo-n031"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合角的度量、平行四边形梯形、三角形和面积公式扩展，完成本图收束检查。"
+    }
+  ]
+}

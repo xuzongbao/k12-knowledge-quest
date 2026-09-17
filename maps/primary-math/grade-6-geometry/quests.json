@@ -1,0 +1,384 @@
+{
+  "map_id": "pm-g6-geometry",
+  "quests": [
+    {
+      "id": "pm-g6-geo-n001-explain",
+      "node_id": "pm-g6-geo-n001",
+      "title": "面棱顶点",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "拿一个纸盒，数面、棱、顶点的个数，指出相交于一个顶点的三条棱。",
+      "success_hint": "6 个面、12 条棱、8 个顶点是长方体的基本数。"
+    },
+    {
+      "id": "pm-g6-geo-n002-explain",
+      "node_id": "pm-g6-geo-n002",
+      "title": "特殊的长方体",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明正方体为什么可以算长方体，并指出六个面都是正方形。",
+      "success_hint": "长、宽、高都相等时就是正方体。"
+    },
+    {
+      "id": "pm-g6-geo-n003-practice",
+      "node_id": "pm-g6-geo-n003",
+      "title": "哪张能折成盒子",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 6 张长方体展开图，判断哪些能折成盒子，指出失败的原因（重叠或缺面）。",
+      "success_hint": "相对的面在展开图上不能靠得「隔一张就叠上」。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-geo-n004-practice",
+      "node_id": "pm-g6-geo-n004",
+      "title": "正方体展开图辨认",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 8 张六个正方形的排法，选出能折成正方体的，排除「一」字六个连在一起等。",
+      "success_hint": "一排超过四个，或出现「凹」得太散，常常折不拢。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-geo-n005-practice",
+      "node_id": "pm-g6-geo-n005",
+      "title": "六个面加起来",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 4 个长方体表面积；其中一题缺一个面（无盖纸箱），不要乘 2 次那个面。",
+      "success_hint": "先想有几个面露在外面。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n006-practice",
+      "node_id": "pm-g6-geo-n006",
+      "title": "六个正方形",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求棱长 5 厘米、2 分米的正方体表面积，注意单位。",
+      "success_hint": "6 个相同的正方形面积相加。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n007-explain",
+      "node_id": "pm-g6-geo-n007",
+      "title": "占了多少空间",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 1 立方厘米的小正方体摆一个小长方体，数一数占了几块，说明这就是体积。",
+      "success_hint": "体积是「占地方」，不是「包外面」。"
+    },
+    {
+      "id": "pm-g6-geo-n008-practice",
+      "node_id": "pm-g6-geo-n008",
+      "title": "选体积单位",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给橡皮、词典、纸箱、教室选择立方厘米、立方分米或立方米，并完成 1 立方分米 = □ 立方厘米。",
+      "success_hint": "边长单位连乘三次，体积单位就是立方。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-geo-n009-practice",
+      "node_id": "pm-g6-geo-n009",
+      "title": "长乘宽乘高",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 4 个长方体体积，其中一题给出底面积和高，用底面积×高。",
+      "success_hint": "三个长度相乘，单位是立方。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n010-practice",
+      "node_id": "pm-g6-geo-n010",
+      "title": "棱长的三次方",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求棱长 4 厘米、1 分米的正方体体积，并与同棱长的表面积对照，说出单位不同。",
+      "success_hint": "体积是棱长×棱长×棱长。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n011-explain",
+      "node_id": "pm-g6-geo-n011",
+      "title": "瓶子能装多少",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明容积是容器里面的空间，1 升等于 1 立方分米。拿水瓶比划大约 500 毫升。",
+      "success_hint": "容积常用升、毫升来写。"
+    },
+    {
+      "id": "pm-g6-geo-n011-practice",
+      "node_id": "pm-g6-geo-n011",
+      "title": "升和毫升",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "完成 2 升 = □ 毫升、500 毫升 = □ 立方厘米，并求一个无盖长方体水箱能装多少升。",
+      "success_hint": "1 立方厘米对应 1 毫升。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n012-practice",
+      "node_id": "pm-g6-geo-n012",
+      "title": "表面积还是体积",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 道短题先判断表面积/体积/容积，再计算其中 6 道。含无盖纸箱。",
+      "success_hint": "刷油漆、包包装纸多半是表面积；装东西是体积或容积。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g6-geo-n012-quiz",
+      "node_id": "pm-g6-geo-n012",
+      "title": "长方体小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "展开图判断、表面积、体积、容积换算。夹一道单位写成平方的改错。",
+      "success_hint": "体积单位必须是立方。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-geo-boss-box",
+      "node_id": "pm-g6-geo-n012",
+      "title": "关主：长方体工匠",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①辨认一张展开图 ②求长方体或正方体表面积 ③求体积 ④完成一题容积换算。",
+      "success_hint": "先问包外面还是占里面。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-geo-n013-explain",
+      "node_id": "pm-g6-geo-n013",
+      "title": "两个圆底一个侧面",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出茶叶罐的两个底面和一个侧面，用直尺说明高是两底之间的垂直距离。",
+      "success_hint": "高不要沿着侧面斜着量。"
+    },
+    {
+      "id": "pm-g6-geo-n014-explain",
+      "node_id": "pm-g6-geo-n014",
+      "title": "侧面展开成长方形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把圆柱学具的侧面标签撕开（或想象），说明展开后的长为什么等于底面周长。",
+      "success_hint": "围一圈的那条线，拉开就是长方形的长。"
+    },
+    {
+      "id": "pm-g6-geo-n015-practice",
+      "node_id": "pm-g6-geo-n015",
+      "title": "侧面积加两个底",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 3 个圆柱表面积；另有一题只求侧面积（一圈商标纸）。π 取 3.14。",
+      "success_hint": "商标纸常常只要侧面积，不要加底。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n016-practice",
+      "node_id": "pm-g6-geo-n016",
+      "title": "底面积乘高",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 4 个圆柱体积，已知条件有的是半径、有的是直径。π 取 3.14。",
+      "success_hint": "先求底面半径，再 πr²，再乘高。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n017-explain",
+      "node_id": "pm-g6-geo-n017",
+      "title": "一个顶点一个圆底",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出圆锥的底面和顶点，说明高要垂直到底面圆心，不能沿着斜面量。",
+      "success_hint": "斜面的长度不是高。"
+    },
+    {
+      "id": "pm-g6-geo-n018-explain",
+      "node_id": "pm-g6-geo-n018",
+      "title": "三分之一",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用等底等高的圆柱和圆锥学具做装沙实验（或看图），说明圆锥体积是圆柱的三分之一。",
+      "success_hint": "公式里的 1/3 不要丢掉。"
+    },
+    {
+      "id": "pm-g6-geo-n018-practice",
+      "node_id": "pm-g6-geo-n018",
+      "title": "圆锥体积计算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 3 个圆锥体积；再给等底等高的圆柱体积，求对应圆锥体积。π 取 3.14。",
+      "success_hint": "V = (1/3)πr²h。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n019-practice",
+      "node_id": "pm-g6-geo-n019",
+      "title": "圆柱圆锥闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合：展开图、侧面积、表面积、圆柱体积、圆锥体积。夹一道漏乘 1/3 的改错。",
+      "success_hint": "先认是柱还是锥，再决定要不要 1/3。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-geo-n019-quiz",
+      "node_id": "pm-g6-geo-n019",
+      "title": "圆柱圆锥小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "侧面积与表面积、体积公式选择、等底等高比较。",
+      "success_hint": "圆锥体积是圆柱的三分之一，不是一半。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-geo-boss-cylinder",
+      "node_id": "pm-g6-geo-n019",
+      "title": "关主：圆柱圆锥工匠",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①说明侧面展开 ②求圆柱侧面积或表面积 ③求圆柱体积 ④求圆锥体积（含 1/3）。",
+      "success_hint": "底面是圆，先找半径；锥体记得三分之一。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-geo-n020-explain",
+      "node_id": "pm-g6-geo-n020",
+      "title": "图上1厘米代表什么",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "读 1:10000 的比例尺，说明图上 1 厘米代表实际 10000 厘米（合多少米）。",
+      "success_hint": "比例尺是图上比实际，单位要先相同。"
+    },
+    {
+      "id": "pm-g6-geo-n021-practice",
+      "node_id": "pm-g6-geo-n021",
+      "title": "图上实际互求",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知比例尺，由图上距离求实际、由实际求图上各 3 题，统一单位。",
+      "success_hint": "实际 = 图上 ÷ 比例尺前项 × 后项（先化成同一单位）。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-geo-n022-practice",
+      "node_id": "pm-g6-geo-n022",
+      "title": "按格放大",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在方格纸上把一个直角三角形各边放大到 2 倍，检查角有没有变。",
+      "success_hint": "对应边乘同一倍数，角保持不变。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g6-geo-n023-explain",
+      "node_id": "pm-g6-geo-n023",
+      "title": "边缩一半面积呢",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把边长 4 格的正方形缩成边长 2 格，比较面积变成几分之几。",
+      "success_hint": "边长比是 1/2，面积比是 1/4。"
+    },
+    {
+      "id": "pm-g6-geo-n024-practice",
+      "node_id": "pm-g6-geo-n024",
+      "title": "图纸上的房间",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据比例尺和房间平面图，求实际长和宽；再说这相当于把实际图形缩小了多少倍。",
+      "success_hint": "比例尺后项越大，图画得越小。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n025-practice",
+      "node_id": "pm-g6-geo-n025",
+      "title": "柱和锥的三视图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "为长方体、圆柱选出上面和前面的轮廓（圆柱上面是圆，前面常常是长方形）。",
+      "success_hint": "从上面看圆柱是圆，从侧面看是长方形。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-geo-n026-explain",
+      "node_id": "pm-g6-geo-n026",
+      "title": "立体家族说一说",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一段话串起：正方体是特殊长方体；圆柱体积用底面积×高；圆锥再乘 1/3。",
+      "success_hint": "先认形状，再选公式。"
+    },
+    {
+      "id": "pm-g6-geo-n027-practice",
+      "node_id": "pm-g6-geo-n027",
+      "title": "展开图改错",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在 6 张展开图里找出折不拢的，并指出圆柱展开图中哪一张把侧面画成了平行四边形却边长不对。",
+      "success_hint": "侧面展开的长必须等于底面周长。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-geo-n028-practice",
+      "node_id": "pm-g6-geo-n028",
+      "title": "水箱还是图纸",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "两则问题：水箱能装多少升；图纸上两村距离。先选体积还是比例尺，再计算。",
+      "success_hint": "装水想容积，看地图想比例尺。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g6-geo-n029-practice",
+      "node_id": "pm-g6-geo-n029",
+      "title": "先判断再下手",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "8 道综合题先圈：表面积 / 体积 / 比例尺 / 视图，再做其中 5 道。",
+      "success_hint": "小学图形收束：先点名这块知识，再选公式。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-geo-n029-quiz",
+      "node_id": "pm-g6-geo-n029",
+      "title": "总复习小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "覆盖展开图、圆柱或圆锥体积、比例尺、放大缩小面积比。",
+      "success_hint": "锥体 1/3、面积比是边长比的平方。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-geo-n030-practice",
+      "node_id": "pm-g6-geo-n030",
+      "title": "六年级图形综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：长方体表面积与体积、圆柱侧面积、圆锥体积、比例尺换算、一张展开图判断。",
+      "success_hint": "对回本图已点亮的灯。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-geo-boss-map",
+      "node_id": "pm-g6-geo-n030",
+      "title": "关主：六年级图形通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①长方体或正方体表面积与体积各一 ②圆柱侧面积或体积 ③圆锥体积 ④比例尺或放大缩小 ⑤一张展开图。全部通过即通关本地图。",
+      "success_hint": "通关后记入已通关列表；表面积与体积、圆柱与圆锥体积是最常回生的两对。",
+      "items_suggested": 16
+    },
+    {
+      "id": "pm-g6-geo-n031-practice",
+      "node_id": "pm-g6-geo-n031",
+      "title": "向东再向北",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在简单平面图上按比例尺走一段「向东再向北」的路线，说出两个地点的方向关系。软锁节点。",
+      "success_hint": "方向词和比例尺可以同时用。",
+      "items_suggested": 3
+    }
+  ]
+}

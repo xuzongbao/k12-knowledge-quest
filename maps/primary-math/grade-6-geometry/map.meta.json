@@ -1,0 +1,26 @@
+{
+  "id": "pm-g6-geometry",
+  "title": "六年级 · 图形与几何",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 6,
+  "strand": "图形与几何",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g6-geo-n001"
+  ],
+  "recommended_path_note": "从「长方体的认识」进入：先打通展开图、表面积、体积容积，圆柱圆锥可与长方体主线在展开图和体积处汇合；比例尺与放大缩小从起点并行。路线图与方向（n031）为软锁支线，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g6-geo-boss-box",
+      "pm-g6-geo-boss-cylinder",
+      "pm-g6-geo-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：长方体工匠、圆柱圆锥工匠、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学六年级「图形与几何」地图：长方体正方体 → 圆柱圆锥 → 比例尺与图形放大缩小 → 展开图与观察收束。圆的周长面积在五年级几何图；本图独立通关，不引用跨图节点。"
+}

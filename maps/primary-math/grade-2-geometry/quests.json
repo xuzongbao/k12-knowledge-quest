@@ -1,0 +1,389 @@
+{
+  "map_id": "pm-g2-geometry",
+  "quests": [
+    {
+      "id": "pm-g2-geo-n001-explain",
+      "node_id": "pm-g2-geo-n001",
+      "title": "一端对齐再比",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "拿两支铅笔，先随便比一次，再把一端对齐比一次。说明为什么要对齐。",
+      "success_hint": "起点不同，谁长谁短会看走眼。"
+    },
+    {
+      "id": "pm-g2-geo-n002-explain",
+      "node_id": "pm-g2-geo-n002",
+      "title": "1厘米有多长",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在直尺上指出 0 到 1 的一大格，用手指比一比，再说出还有哪些东西大约是 1 厘米。",
+      "success_hint": "1 厘米是一小段，不要把整把尺子当成 1 厘米。"
+    },
+    {
+      "id": "pm-g2-geo-n003-practice",
+      "node_id": "pm-g2-geo-n003",
+      "title": "对准0再读数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "量橡皮、卡片、铅笔的长，每样写「约几厘米」。故意把一次起点对在 1 上，说说读数该怎么改。",
+      "success_hint": "左端对 0，右端对着几就是几厘米。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g2-geo-n004-explain",
+      "node_id": "pm-g2-geo-n004",
+      "title": "1米有多长",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用米尺或绳子比出大约 1 米，和自己的身高、一步比一比。",
+      "success_hint": "1 米大约是大人的一大步，比铅笔长得多。"
+    },
+    {
+      "id": "pm-g2-geo-n005-explain",
+      "node_id": "pm-g2-geo-n005",
+      "title": "1米等于100厘米",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明量课桌面多用厘米、量教室长多用米的理由，并说出 1 米里有多少厘米。",
+      "success_hint": "单位要和物体的长短匹配。"
+    },
+    {
+      "id": "pm-g2-geo-n005-practice",
+      "node_id": "pm-g2-geo-n005",
+      "title": "选单位填一填",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给「铅笔长、操场长、指甲宽、教室门高」选择厘米或米，并完成 2 米 = □ 厘米。",
+      "success_hint": "先想物体大概有多长，再选单位。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-geo-n006-practice",
+      "node_id": "pm-g2-geo-n006",
+      "title": "先估再量",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "先估橡皮、课本、一步的长度，再量出来，比一比估得偏大还是偏小。",
+      "success_hint": "估完必须真的量一次，才能校准感觉。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g2-geo-n007-explain",
+      "node_id": "pm-g2-geo-n007",
+      "title": "手掌大约一分米",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在直尺上指出 10 厘米，说明这就是 1 分米，并用手掌比一比。",
+      "success_hint": "10 个 1 厘米连起来是 1 分米。"
+    },
+    {
+      "id": "pm-g2-geo-n008-explain",
+      "node_id": "pm-g2-geo-n008",
+      "title": "毫米在小格里",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出直尺上 1 厘米里的小格，数一数是 10 格，说明 1 厘米 = 10 毫米。",
+      "success_hint": "毫米用来量很短或要更准的东西。"
+    },
+    {
+      "id": "pm-g2-geo-n008-practice",
+      "node_id": "pm-g2-geo-n008",
+      "title": "厘米毫米换算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成 3 厘米 = □ 毫米、40 毫米 = □ 厘米，并量一枚硬币的厚度大约几毫米。",
+      "success_hint": "向毫米换要 ×10，向厘米换要 ÷10。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-geo-n009-explain",
+      "node_id": "pm-g2-geo-n009",
+      "title": "千米是路程",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明从家到公园如果要走很久，用千米更合适，并说出 1 千米 = 1000 米。",
+      "success_hint": "千米很大，不要用来量橡皮。"
+    },
+    {
+      "id": "pm-g2-geo-n010-practice",
+      "node_id": "pm-g2-geo-n010",
+      "title": "单位全家福",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 8 个情境选毫米、厘米、分米、米或千米，并完成相邻单位换算 4 题。",
+      "success_hint": "先问「这个有多长」，再选最顺口的单位。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g2-geo-n010-quiz",
+      "node_id": "pm-g2-geo-n010",
+      "title": "长度小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合：读尺、选单位、换算、先估再量。夹一道把课桌说成 2 千米的改错。",
+      "success_hint": "单位错了，数字再对也没有意义。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g2-geo-boss-length",
+      "node_id": "pm-g2-geo-n010",
+      "title": "关主：长度测量员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①正确量两件物品 ②选对 4 个情境的单位 ③完成米—厘米、厘米—毫米换算各 2 题。",
+      "success_hint": "量的时候左端一定要记住对 0。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g2-geo-n011-explain",
+      "node_id": "pm-g2-geo-n011",
+      "title": "线段有两个头",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画一条直直的线，点上两个端点，说明它和弯线、可以无限延长的线有什么不同。",
+      "success_hint": "线段直、有两个端点，长度可以量。"
+    },
+    {
+      "id": "pm-g2-geo-n012-explain",
+      "node_id": "pm-g2-geo-n012",
+      "title": "指出角的顶点",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看时钟 3 点和张开的书，指出角的顶点在哪、两条边在哪。",
+      "success_hint": "顶点是两条边的交点，边是从顶点出发的两条射线。"
+    },
+    {
+      "id": "pm-g2-geo-n013-practice",
+      "node_id": "pm-g2-geo-n013",
+      "title": "用直角比一比",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用三角板的直角去比门角、书角、任意画的角，分成「是直角」和「不是直角」。",
+      "success_hint": "三角板的直角要贴紧顶点和一条边再看另一条边。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-geo-n014-explain",
+      "node_id": "pm-g2-geo-n014",
+      "title": "比直角小还是大",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画一个比直角小的角和一个比直角大的角，分别叫出锐角、钝角。",
+      "success_hint": "先用直角当尺子，再决定小还是大。"
+    },
+    {
+      "id": "pm-g2-geo-n015-practice",
+      "node_id": "pm-g2-geo-n015",
+      "title": "角的三分类",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 10 个角贴标签：直角、锐角、钝角。其中两个边画得很长但张口很小。",
+      "success_hint": "只看张开的程度，不看边的长短。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g2-geo-n015-quiz",
+      "node_id": "pm-g2-geo-n015",
+      "title": "认角小测",
+      "type": "mini_quiz",
+      "xp": 25,
+      "prompt": "判断并分类一组角，再回答「边越长角越大吗」。",
+      "success_hint": "角的大小与边长无关。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-geo-n016-explain",
+      "node_id": "pm-g2-geo-n016",
+      "title": "长方形量一量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "量一张长方形纸的四条边、用三角板比四个角，总结长方形的边和角有什么特点。",
+      "success_hint": "四个直角，对边相等。"
+    },
+    {
+      "id": "pm-g2-geo-n017-explain",
+      "node_id": "pm-g2-geo-n017",
+      "title": "正方形量一量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "量正方形纸的四边、比四角，说明它和长方形哪里一样、哪里更「特殊」。",
+      "success_hint": "正方形是四边都相等的长方形。"
+    },
+    {
+      "id": "pm-g2-geo-n018-practice",
+      "node_id": "pm-g2-geo-n018",
+      "title": "这是什么四边形",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 8 张四边形，判断长方形、正方形或都不是，并写出判断依据（边或角）。",
+      "success_hint": "先看是不是四个直角，再看边是否都相等。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-geo-n019-practice",
+      "node_id": "pm-g2-geo-n019",
+      "title": "画指定的长方形",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在方格纸上画长 6 厘米、宽 4 厘米的长方形，再画边长 3 厘米的正方形。",
+      "success_hint": "先画一条边，再用直角把邻边画垂直。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g2-geo-n020-practice",
+      "node_id": "pm-g2-geo-n020",
+      "title": "绳子和铅笔",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解决两则短故事：两支铅笔接起来够不够 20 厘米；围一块手帕一圈大约需要多长的线。",
+      "success_hint": "围一圈要把四条边加起来。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g2-geo-n021-explain",
+      "node_id": "pm-g2-geo-n021",
+      "title": "两边一样的美",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看蝴蝶或脸谱图片，说一说左右两边哪里一样，你觉得对折后会怎样。",
+      "success_hint": "轴对称先建立「两边一样」的感觉，先不急着下定义。"
+    },
+    {
+      "id": "pm-g2-geo-n022-practice",
+      "node_id": "pm-g2-geo-n022",
+      "title": "对折找中线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把长方形、正方形、等腰三角形纸对折，画出折痕，并判断圆形对折会怎样。",
+      "success_hint": "折痕就是对称轴所在的位置。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g2-geo-n023-practice",
+      "node_id": "pm-g2-geo-n023",
+      "title": "找对称小猎人",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在教室或字母卡片里找出 4 个轴对称的例子，指出大约沿哪条线对折。",
+      "success_hint": "对折能基本重合才算。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g2-geo-n024-explain",
+      "node_id": "pm-g2-geo-n024",
+      "title": "换个方向看",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "拿一个茶杯，先从正面看再说从侧面看，说明为什么看到的形状会变。",
+      "success_hint": "眼睛换位置，被挡住的面就不同。"
+    },
+    {
+      "id": "pm-g2-geo-n025-practice",
+      "node_id": "pm-g2-geo-n025",
+      "title": "三张视图选一选",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "看两层积木，从三张图里选出正面、侧面、上面各是哪一张。",
+      "success_hint": "上面看的是「屋顶」轮廓，不要和正面搞混。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g2-geo-n026-practice",
+      "node_id": "pm-g2-geo-n026",
+      "title": "观察闯关练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成 6 组「从哪边看」匹配，并说明其中一组为什么另外两张图不对。",
+      "success_hint": "先确定观察方向，再看露出了几个面。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g2-geo-n026-quiz",
+      "node_id": "pm-g2-geo-n026",
+      "title": "观察小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "给出积木照片和三视图，判断观察方向；夹一道把上面看成正面的改错。",
+      "success_hint": "方向说错，图就会选错。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-geo-boss-angle",
+      "node_id": "pm-g2-geo-n026",
+      "title": "关主：角与观察小能手",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①把 6 个角分成直角锐角钝角 ②判断 2 个四边形 ③为积木选出正确的上面视图。",
+      "success_hint": "角看张口，视图看方向，不要互相干扰。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g2-geo-n027-explain",
+      "node_id": "pm-g2-geo-n027",
+      "title": "指出北方",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "如果老师告诉你窗那边是北，请指出南、东、西，并说明南北相对、东西相对。",
+      "success_hint": "面朝北时，右手边大约是东。"
+    },
+    {
+      "id": "pm-g2-geo-n028-practice",
+      "node_id": "pm-g2-geo-n028",
+      "title": "走一段路线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在简单方格图上从学校走到邮局：先向东 2 格，再向北 3 格。用方向词说一遍。",
+      "success_hint": "每走一段只改一个方向。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g2-geo-n029-explain",
+      "node_id": "pm-g2-geo-n029",
+      "title": "整体滑过去",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看推拉窗或电梯门，说明格子图案是怎样整体移动的，形状有没有转动。",
+      "success_hint": "平移时图形不翻转、不转动，只是换了位置。"
+    },
+    {
+      "id": "pm-g2-geo-n030-practice",
+      "node_id": "pm-g2-geo-n030",
+      "title": "长度角图形合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合：选单位、量一条边、判断角、辨认长方形正方形、选视图。",
+      "success_hint": "先看题目在问「多长」「什么角」还是「从哪看」。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g2-geo-n030-quiz",
+      "node_id": "pm-g2-geo-n030",
+      "title": "合练小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "覆盖长度换算、角的分类、长方形正方形特征和一题三视图。",
+      "success_hint": "易错：单位、边长与角的大小、视图方向。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g2-geo-n031-practice",
+      "node_id": "pm-g2-geo-n031",
+      "title": "二年级图形综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：读尺、换算、画一个正方形、对折找对称轴、看图选观察方向。",
+      "success_hint": "每一题对回本图已经点亮的那一盏灯。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g2-geo-boss-map",
+      "node_id": "pm-g2-geo-n031",
+      "title": "关主：二年级图形通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①长度单位与换算 ②角的三分类 ③长方形正方形边角特征 ④一题观察物体。全部通过即通关。",
+      "success_hint": "通关后记入已通关列表；量长度对 0 和认直角是最常回生的两处。",
+      "items_suggested": 16
+    }
+  ]
+}

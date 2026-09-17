@@ -1,0 +1,920 @@
+{
+  "map_id": "pm-g1-geometry",
+  "nodes": [
+    {
+      "id": "pm-g1-geo-n001",
+      "title": "上和下",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "position",
+        "ch-pos",
+        "up-down"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指着两件叠放的物品，说出谁在上面、谁在下面，并在自己身上指出头在上、脚在下。"
+    },
+    {
+      "id": "pm-g1-geo-n002",
+      "title": "前和后",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-geo-n001"
+      ],
+      "tags": [
+        "position",
+        "ch-pos",
+        "front-back"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据自己面向的方向，说出谁在前面、谁在后面，不把「前」说成「上」。"
+    },
+    {
+      "id": "pm-g1-geo-n003",
+      "title": "左和右",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-geo-n001"
+      ],
+      "tags": [
+        "position",
+        "ch-pos",
+        "left-right"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "会用自己的左手、右手当标准，说出左边、右边，并指出旁边同学在自己的哪一侧。"
+    },
+    {
+      "id": "pm-g1-geo-n004",
+      "title": "上下前后左右",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n002",
+        "pm-g1-geo-n003"
+      ],
+      "tags": [
+        "position",
+        "ch-pos"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在同一场景里同时使用上、下、前、后、左、右，把一件物品的位置说完整。"
+    },
+    {
+      "id": "pm-g1-geo-n005",
+      "title": "相对位置",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n004"
+      ],
+      "tags": [
+        "position",
+        "ch-pos",
+        "relative"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道「在谁的左边」要以那个人为标准；换一个标准，左右可能对调。"
+    },
+    {
+      "id": "pm-g1-geo-n006",
+      "title": "用位置说一说",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n005"
+      ],
+      "tags": [
+        "position",
+        "ch-pos",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用上下前后左右，描述教室或桌面上几件物品彼此的位置。"
+    },
+    {
+      "id": "pm-g1-geo-n007",
+      "title": "位置综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-geo-n006"
+      ],
+      "tags": [
+        "position",
+        "ch-pos",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在图上或教室里连续回答「谁在谁的哪一边」，不把上下和前后说混。"
+    },
+    {
+      "id": "pm-g1-geo-n008",
+      "title": "摸一摸物体",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-geo-n007"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid",
+        "sense"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用手摸学具，说出它是平平的面、直直的棱，还是圆滚滚的，为认立体图形做准备。"
+    },
+    {
+      "id": "pm-g1-geo-n009",
+      "title": "认识长方体",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n008"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid",
+        "cuboid"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从实物中指出长方体，并说出它有平平的面，看起来有的面长一些、有的面正一些。"
+    },
+    {
+      "id": "pm-g1-geo-n010",
+      "title": "认识正方体",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n008"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid",
+        "cube"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出正方体，并发现它的每个面看起来都一样方，像骰子或小魔方。"
+    },
+    {
+      "id": "pm-g1-geo-n011",
+      "title": "长方体和正方体",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n009",
+        "pm-g1-geo-n010"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能比较长方体和正方体：都有平平的面，正方体更「方」，长方体常常有的面更长。"
+    },
+    {
+      "id": "pm-g1-geo-n012",
+      "title": "认识圆柱",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n008"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid",
+        "cylinder"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出圆柱，发现上下两个面是圆的、旁边可以滚动，像易拉罐或一段短柱。"
+    },
+    {
+      "id": "pm-g1-geo-n013",
+      "title": "认识球",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n008"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid",
+        "sphere"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出球，发现它处处圆滚滚、没有平平的面，会向各个方向滚。"
+    },
+    {
+      "id": "pm-g1-geo-n014",
+      "title": "滚一滚堆一堆",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n012",
+        "pm-g1-geo-n013"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid",
+        "motion"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能通过滚和堆：圆柱有时能立住、有时能滚；球很难堆稳，长方体、正方体容易叠高。"
+    },
+    {
+      "id": "pm-g1-geo-n015",
+      "title": "立体图形分类",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-geo-n011",
+        "pm-g1-geo-n014"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid",
+        "classify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把一堆实物分成长方体、正方体、圆柱、球，并说出分类的理由。"
+    },
+    {
+      "id": "pm-g1-geo-n016",
+      "title": "从物体上找面",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n015"
+      ],
+      "tags": [
+        "plane",
+        "ch-plane",
+        "face"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把立体图形的一个面描在纸上，知道纸上得到的是平面图形。"
+    },
+    {
+      "id": "pm-g1-geo-n017",
+      "title": "认识长方形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n016"
+      ],
+      "tags": [
+        "plane",
+        "ch-plane",
+        "rectangle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认长方形：有四条边、四个角，看起来对边一样长，像门牌或书的封面。"
+    },
+    {
+      "id": "pm-g1-geo-n018",
+      "title": "认识正方形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n016"
+      ],
+      "tags": [
+        "plane",
+        "ch-plane",
+        "square"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认正方形：四条边看起来一样长，四个角都是直直的，像方手帕。"
+    },
+    {
+      "id": "pm-g1-geo-n019",
+      "title": "长方形和正方形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n017",
+        "pm-g1-geo-n018"
+      ],
+      "tags": [
+        "plane",
+        "ch-plane",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能比较长方形和正方形：都有四条边四个直角；正方形四边一样长，长方形常常有两边更长。"
+    },
+    {
+      "id": "pm-g1-geo-n020",
+      "title": "认识三角形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n016"
+      ],
+      "tags": [
+        "plane",
+        "ch-plane",
+        "triangle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认三角形：有三条边、三个角，三条边可以一样长也可以不一样长。"
+    },
+    {
+      "id": "pm-g1-geo-n021",
+      "title": "认识圆",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n016"
+      ],
+      "tags": [
+        "plane",
+        "ch-plane",
+        "circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认圆：周围是弯弯的一圈，没有角，像杯口印下来的痕迹。"
+    },
+    {
+      "id": "pm-g1-geo-n022",
+      "title": "平面图形分类",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-geo-n019",
+        "pm-g1-geo-n020",
+        "pm-g1-geo-n021"
+      ],
+      "tags": [
+        "plane",
+        "ch-plane",
+        "classify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把纸片分成长方形、正方形、三角形和圆，不把圆和球、正方形和正方体说成同一种。"
+    },
+    {
+      "id": "pm-g1-geo-n023",
+      "title": "立体和平面对照",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-geo-n015",
+        "pm-g1-geo-n022"
+      ],
+      "tags": [
+        "solid",
+        "plane",
+        "ch-plane",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明立体图形是「可以拿在手里的块」，平面图形是「一个面」；球不是圆，正方体不是正方形。"
+    },
+    {
+      "id": "pm-g1-geo-n024",
+      "title": "平面图形拼组",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-geo-n022"
+      ],
+      "tags": [
+        "compose",
+        "ch-compose",
+        "plane"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用几个平面图形拼出房子、小鱼等简单图案，并说出用了哪些图形。"
+    },
+    {
+      "id": "pm-g1-geo-n025",
+      "title": "积木搭一搭",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-geo-n015"
+      ],
+      "tags": [
+        "compose",
+        "ch-compose",
+        "solid"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用长方体、正方体和圆柱积木搭出小塔或小车，并说说谁在上、谁在下。"
+    },
+    {
+      "id": "pm-g1-geo-n026",
+      "title": "图形的分与合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-geo-n024",
+        "pm-g1-geo-n025"
+      ],
+      "tags": [
+        "compose",
+        "ch-compose"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道一个图形可以拆成几块再拼回去，拼法不同，看起来就不一样。"
+    },
+    {
+      "id": "pm-g1-geo-n027",
+      "title": "七巧板试试看",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-geo-n024"
+      ],
+      "tags": [
+        "compose",
+        "ch-compose",
+        "tangram"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用七巧板的几块拼出一个指定轮廓（如三角形或小房子），不要求拼出复杂图案。"
+    },
+    {
+      "id": "pm-g1-geo-n028",
+      "title": "生活中找图形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n023"
+      ],
+      "tags": [
+        "application",
+        "ch-compose"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在教室和家里指出长方体、圆柱、球、长方形、圆等，并说明是立体还是平面。"
+    },
+    {
+      "id": "pm-g1-geo-n029",
+      "title": "对折看对称",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-geo-n022"
+      ],
+      "tags": [
+        "symmetry",
+        "ch-compose"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把剪纸对折，欣赏两边重合的现象；不要求说出「轴对称」这个词的定义。"
+    },
+    {
+      "id": "pm-g1-geo-n030",
+      "title": "图形与位置合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-geo-n007",
+        "pm-g1-geo-n026",
+        "pm-g1-geo-n028"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能一边指出图形名称，一边用上下左右说明它们摆在哪里。"
+    },
+    {
+      "id": "pm-g1-geo-n031",
+      "title": "一年级图形通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-geo-n030"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合位置、立体与平面辨认、简单拼组，能独立完成一张入门地图的收束检查。"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 中小学**知识图谱** + 轻量 RPG：**点亮知识点、打关升级**。
 
-现在完成的是 **Phase 0–1**：把数据格式定下来，并做出六张可校验、可通关的样例地图——小学一至六年级「数与运算」（一年级题为「数与运算入门」）。**小学数与运算 1–6 线已完成。**
+现在完成的是 **Phase 0–2（部分）**：把数据格式定下来，并做出十二张可校验、可通关的样例地图——小学一至六年级「数与运算」（一年级题为「数与运算入门」）和一至六年级「图形与几何」。**小学数与运算 1–6 线、图形与几何 1–6 线均已完成。**
 
 > **内容边界（请先读）：**  
 > 知识点是义务教育课标四大领域 + 常见教材**目录/教学脉络**风格的**原创大纲**，用来排学习顺序。  
@@ -31,7 +31,7 @@
 | --- | --- | --- |
 | 0 | 仓库、许可证、模式（schema）、玩法文字 | ✅ 本仓库 |
 | 1 | 小学数学样例：一至六年级数与运算可通关地图 + 1–6 年级标题路书 | ✅ 本仓库（数与运算 1–6 线完成） |
-| 2 | 补全小学数学其余领域地图（图形与几何、统计与概率、综合与实践；仍是大纲，不搬书） | 未开始 |
+| 2 | 补全小学数学其余领域地图（图形与几何、统计与概率、综合与实践；仍是大纲，不搬书） | 进行中：图形与几何 1–6 已完成；统计与概率、综合与实践仍占位 |
 | 3 | 语文、英语等学科；英语可挂「单词知识图」 | 未开始 |
 | 4 | 游戏客户端或 Agent Skill：读 JSON、改存档、出题 | 未开始 |
 
@@ -48,15 +48,28 @@ maps/primary-math/grade-3-numbers/   三年级「数与运算」地图（同上�
 maps/primary-math/grade-4-numbers/   四年级「数与运算」地图（同上）
 maps/primary-math/grade-5-numbers/   五年级「数与运算」地图（同上）
 maps/primary-math/grade-6-numbers/   六年级「数与运算」地图（同上）
+maps/primary-math/grade-1-geometry/  一年级「图形与几何」地图（同上）
+maps/primary-math/grade-2-geometry/  二年级「图形与几何」地图（同上）
+maps/primary-math/grade-3-geometry/  三年级「图形与几何」地图（同上）
+maps/primary-math/grade-4-geometry/  四年级「图形与几何」地图（同上）
+maps/primary-math/grade-5-geometry/  五年级「图形与几何」地图（同上）
+maps/primary-math/grade-6-geometry/  六年级「图形与几何」地图（同上）
 docs/gameplay.md                     点亮、经验、关主、软锁/硬前置
 docs/skill-roadmap.md                以后做成 Skill 的接口设想
 scripts/validate_map.py              校验地图合法
-scripts/_build_grade1_numbers.py     重新生成一年级 JSON
-scripts/_build_grade2_numbers.py     重新生成二年级 JSON
-scripts/_build_grade3_numbers.py     重新生成三年级 JSON
-scripts/_build_grade4_numbers.py     重新生成四年级 JSON
-scripts/_build_grade5_numbers.py     重新生成五年级 JSON
-scripts/_build_grade6_numbers.py     重新生成六年级 JSON
+scripts/_geo_common.py               图形地图生成共用函数
+scripts/_build_grade1_numbers.py     重新生成一年级数与运算 JSON
+scripts/_build_grade2_numbers.py     重新生成二年级数与运算 JSON
+scripts/_build_grade3_numbers.py     重新生成三年级数与运算 JSON
+scripts/_build_grade4_numbers.py     重新生成四年级数与运算 JSON
+scripts/_build_grade5_numbers.py     重新生成五年级数与运算 JSON
+scripts/_build_grade6_numbers.py     重新生成六年级数与运算 JSON
+scripts/_build_grade1_geometry.py    重新生成一年级图形与几何 JSON
+scripts/_build_grade2_geometry.py    重新生成二年级图形与几何 JSON
+scripts/_build_grade3_geometry.py    重新生成三年级图形与几何 JSON
+scripts/_build_grade4_geometry.py    重新生成四年级图形与几何 JSON
+scripts/_build_grade5_geometry.py    重新生成五年级图形与几何 JSON
+scripts/_build_grade6_geometry.py    重新生成六年级图形与几何 JSON
 LICENSE                              MIT
 ```
 
@@ -74,7 +87,7 @@ LICENSE                              MIT
 约定：
 
 - 给学生看的字用**中文**
-- 程序 id 用英文短横线，如 `pm-g1-n001` … `pm-g6-n001`（primary math，年级，第几号节点）
+- 程序 id 用英文短横线：数与运算如 `pm-g1-n001` … `pm-g6-n001`；图形与几何如 `pm-g1-geo-n001` … `pm-g6-geo-n001`（关主如 `pm-g1-geo-boss-position`）
 - `nodes.json` 里的 `prerequisites` 必须和「指向它的 prerequisite 边」一致
 - 只有前置边参与解锁；它们必须构成**有向无环图（DAG）**
 
@@ -83,7 +96,7 @@ LICENSE                              MIT
 
 ## 怎么「玩」这些样例地图
 
-现在没有画面，按数据走即可，和以后客户端规则相同。六张图各自通关，**还没有**跨地图进度引擎。
+现在没有画面，按数据走即可，和以后客户端规则相同。十二张图各自通关，**还没有**跨地图进度引擎（数与运算图与图形图也不互相前置）。
 
 ### 一年级 · 数与运算入门
 
@@ -156,6 +169,67 @@ LICENSE                              MIT
    圆、圆柱圆锥等几何大块不在本图  
    五年级图的分数加减与简易方程与本图起点、方程巩固在概念上衔接；本图从分数乘法重新讲起，**不**引用 `pm-g5-*` 节点
 
+### 一年级 · 图形与几何
+
+1. 打开 [`maps/primary-math/grade-1-geometry/map.meta.json`](maps/primary-math/grade-1-geometry/map.meta.json)  
+   - 地图名：**一年级 · 图形与几何**  
+   - 起点：`pm-g1-geo-n001` 上和下  
+   - 通关：点亮全部节点，并打过三名关主（位置小侦探、图形分拣员、地图通关试炼）
+2. 主线建议：上下前后左右 → 关主 1 → 立体图形 → 平面图形 → 关主 2 → 拼组 → 关主 3  
+   七巧板、对折看对称为**软锁支线**  
+   与一年级数与运算图独立通关，不引用 `pm-g1-n*`
+
+### 二年级 · 图形与几何
+
+1. 打开 [`maps/primary-math/grade-2-geometry/map.meta.json`](maps/primary-math/grade-2-geometry/map.meta.json)  
+   - 地图名：**二年级 · 图形与几何**  
+   - 起点：`pm-g2-geo-n001` 比长短  
+   - 通关：三名关主（长度测量员、角与观察小能手、地图通关试炼）
+2. 主线建议：厘米米及分毫米千米 → 关主 1 → 角初步、长方形正方形边和角（可与观察物体并行）→ 轴对称欣赏 → 关主 2 → 关主 3  
+   东南西北与路线图、平移欣赏为**软锁支线**  
+   **不**引用 `pm-g1-geo-*`
+
+### 三年级 · 图形与几何
+
+1. 打开 [`maps/primary-math/grade-3-geometry/map.meta.json`](maps/primary-math/grade-3-geometry/map.meta.json)  
+   - 地图名：**三年级 · 图形与几何**  
+   - 起点：`pm-g3-geo-n001` 四边形有四条边  
+   - 通关：三名关主（周长测绘员、面积铺贴员、地图通关试炼）
+2. 主线建议：四边形家族 → 周长 → 关主 1 → 面积入门 → 关主 2 → 关主 3  
+   平移旋转可与测量主线并行；观察物体为**软锁支线**  
+   **不**引用 `pm-g2-geo-*`
+
+### 四年级 · 图形与几何
+
+1. 打开 [`maps/primary-math/grade-4-geometry/map.meta.json`](maps/primary-math/grade-4-geometry/map.meta.json)  
+   - 地图名：**四年级 · 图形与几何**  
+   - 起点：`pm-g4-geo-n001` 直线射线线段  
+   - 通关：三名关主（角的度量师、三角形与四边形鉴定官、地图通关试炼）
+2. 主线建议：角的度量与垂直平行 → 关主 1 → 平行四边形梯形与三角形（三角形可早早并行）→ 关主 2 → 面积公式扩展 → 关主 3  
+   轴对称作图、旋转作图为**软锁支线**  
+   **不**引用 `pm-g3-geo-*`
+
+### 五年级 · 图形与几何
+
+1. 打开 [`maps/primary-math/grade-5-geometry/map.meta.json`](maps/primary-math/grade-5-geometry/map.meta.json)  
+   - 地图名：**五年级 · 图形与几何**  
+   - 起点：`pm-g5-geo-n001` 面积从转化来  
+   - 通关：三名关主（多边形面积工程师、圆的度量师、地图通关试炼）
+2. 主线建议：多边形面积 → 关主 1；圆的认识可并行，在圆面积转化处汇合 → 关主 2 → 轴对称与旋转深入 → 关主 3  
+   扇形初步、观察物体还原为**软锁支线**  
+   圆放在本图（人教常见在六年级上）；长方体体积见六年级图  
+   **不**引用 `pm-g4-geo-*`
+
+### 六年级 · 图形与几何
+
+1. 打开 [`maps/primary-math/grade-6-geometry/map.meta.json`](maps/primary-math/grade-6-geometry/map.meta.json)  
+   - 地图名：**六年级 · 图形与几何**  
+   - 起点：`pm-g6-geo-n001` 长方体的认识  
+   - 通关：三名关主（长方体工匠、圆柱圆锥工匠、地图通关试炼）
+2. 主线建议：长方体正方体展开图/表面积/体积 → 关主 1；圆柱圆锥可并行 → 关主 2；比例尺与放大缩小从起点并行 → 关主 3  
+   路线图与方向为**软锁支线**  
+   五年级圆与本图圆柱「底面是圆」仅概念衔接；本图从长方体重新讲起，**不**引用 `pm-g5-geo-*`
+
 打印推荐层（从起点沿前置边展开）：
 
 ```bash
@@ -165,6 +239,12 @@ python3 scripts/validate_map.py maps/primary-math/grade-3-numbers --tree
 python3 scripts/validate_map.py maps/primary-math/grade-4-numbers --tree
 python3 scripts/validate_map.py maps/primary-math/grade-5-numbers --tree
 python3 scripts/validate_map.py maps/primary-math/grade-6-numbers --tree
+python3 scripts/validate_map.py maps/primary-math/grade-1-geometry --tree
+python3 scripts/validate_map.py maps/primary-math/grade-2-geometry --tree
+python3 scripts/validate_map.py maps/primary-math/grade-3-geometry --tree
+python3 scripts/validate_map.py maps/primary-math/grade-4-geometry --tree
+python3 scripts/validate_map.py maps/primary-math/grade-5-geometry --tree
+python3 scripts/validate_map.py maps/primary-math/grade-6-geometry --tree
 ```
 
 ## 校验命令
@@ -179,6 +259,12 @@ python3 scripts/validate_map.py maps/primary-math/grade-3-numbers
 python3 scripts/validate_map.py maps/primary-math/grade-4-numbers
 python3 scripts/validate_map.py maps/primary-math/grade-5-numbers
 python3 scripts/validate_map.py maps/primary-math/grade-6-numbers
+python3 scripts/validate_map.py maps/primary-math/grade-1-geometry
+python3 scripts/validate_map.py maps/primary-math/grade-2-geometry
+python3 scripts/validate_map.py maps/primary-math/grade-3-geometry
+python3 scripts/validate_map.py maps/primary-math/grade-4-geometry
+python3 scripts/validate_map.py maps/primary-math/grade-5-geometry
+python3 scripts/validate_map.py maps/primary-math/grade-6-geometry
 python3 scripts/validate_map.py --all
 ```
 
@@ -193,13 +279,21 @@ python3 scripts/_build_grade3_numbers.py
 python3 scripts/_build_grade4_numbers.py
 python3 scripts/_build_grade5_numbers.py
 python3 scripts/_build_grade6_numbers.py
+python3 scripts/_build_grade1_geometry.py
+python3 scripts/_build_grade2_geometry.py
+python3 scripts/_build_grade3_geometry.py
+python3 scripts/_build_grade4_geometry.py
+python3 scripts/_build_grade5_geometry.py
+python3 scripts/_build_grade6_geometry.py
 python3 scripts/validate_map.py --all --tree
 ```
 
 ## 以后多学科
 
-小学数学 1–6 年级领域标题已经列在 [maps/primary-math/OVERVIEW.md](maps/primary-math/OVERVIEW.md)，**小学数与运算 1–6 线**已做成可通关地图，其余领域（图形与几何、统计与概率、综合与实践）仍是**只占题目**。  
-六张地图概念上衔接（一年级 100 以内 → 二年级起点复习；二年级万以内读写与整百整千口算 → 三年级起点数位复习；三年级万以内数位与一位小数初步 → 四年级大数与小数意义；四年级小数加减与乘除入门 → 五年级小数乘除与分数；五年级分数加减与简易方程 → 六年级分数乘除与方程巩固），但存档和校验都按图独立，跨地图进度以后再做。  
+小学数学 1–6 年级领域标题已经列在 [maps/primary-math/OVERVIEW.md](maps/primary-math/OVERVIEW.md)，**小学数与运算 1–6 线**和**图形与几何 1–6 线**已做成可通关地图，其余领域（统计与概率、综合与实践）仍是**只占题目**。  
+数与运算六张图概念上衔接（一年级 100 以内 → 二年级起点复习；二年级万以内读写与整百整千口算 → 三年级起点数位复习；三年级万以内数位与一位小数初步 → 四年级大数与小数意义；四年级小数加减与乘除入门 → 五年级小数乘除与分数；五年级分数加减与简易方程 → 六年级分数乘除与方程巩固）。  
+图形与几何六张图概念上衔接（一年级立体平面 → 二年级边角与长度；二年级量长度 → 三年级周长面积；三年级面积入门 → 四年级面积公式扩展；四年级多边形面积 → 五年级组合面积与圆；五年级圆 → 六年级圆柱底面）。  
+存档和校验都按图独立，跨地图进度以后再做。数与运算图与图形图之间**不要**互写节点前置。  
 语文、英语将新增 `maps/<学科>/`，复用同一套 schema。英语单词知识图可以和语文语素、数学应用题用语用 `related` 边连起来（见 Skill 路线）。
 
 
@@ -207,7 +301,7 @@ python3 scripts/validate_map.py --all --tree
 
 - 还没有图形界面，状态要靠读 JSON 想象
 - 练习题只有提示语，没有自动出题器
-- 图形与几何、统计与概率、综合与实践等其它领域地图尚未填写节点
+- 统计与概率、综合与实践等其它领域地图尚未填写节点
 - `strand` 枚举目前按数学四大领域；其他学科需要扩展字段
 
 这些不挡 Phase 1：模式、样例 DAG、校验、许可证已经齐。

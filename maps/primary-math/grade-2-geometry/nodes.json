@@ -1,0 +1,914 @@
+{
+  "map_id": "pm-g2-geometry",
+  "nodes": [
+    {
+      "id": "pm-g2-geo-n001",
+      "title": "比长短",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "length",
+        "ch-len",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用一端对齐的方法比较两根小棒或两条线谁更长，知道比较要有同一个起点。"
+    },
+    {
+      "id": "pm-g2-geo-n002",
+      "title": "认识厘米",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g2-geo-n001"
+      ],
+      "tags": [
+        "length",
+        "ch-len",
+        "cm"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识长度单位厘米，能在直尺上指出 1 厘米，并知道它大约是一节手指的宽度。"
+    },
+    {
+      "id": "pm-g2-geo-n003",
+      "title": "用厘米量",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n002"
+      ],
+      "tags": [
+        "length",
+        "ch-len",
+        "measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会把物体一端对准直尺的 0 刻度，读另一端对着的数，得到大约几厘米。"
+    },
+    {
+      "id": "pm-g2-geo-n004",
+      "title": "认识米",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n002"
+      ],
+      "tags": [
+        "length",
+        "ch-len",
+        "m"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识长度单位米，能用双臂大约比划 1 米，知道米比厘米大得多。"
+    },
+    {
+      "id": "pm-g2-geo-n005",
+      "title": "米和厘米",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n003",
+        "pm-g2-geo-n004"
+      ],
+      "tags": [
+        "length",
+        "ch-len",
+        "convert"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "知道 1 米 = 100 厘米，能判断量课桌多用厘米、量教室长多用米。"
+    },
+    {
+      "id": "pm-g2-geo-n006",
+      "title": "估一估有多长",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n005"
+      ],
+      "tags": [
+        "length",
+        "ch-len",
+        "estimate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能先估再量：橡皮、铅笔、一步大约几厘米或几米，估得太离谱要重新感受单位。"
+    },
+    {
+      "id": "pm-g2-geo-n007",
+      "title": "认识分米",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n005"
+      ],
+      "tags": [
+        "length",
+        "ch-len",
+        "dm"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识分米：1 分米 = 10 厘米，大约是手掌的宽度，常常夹在厘米和米中间用。"
+    },
+    {
+      "id": "pm-g2-geo-n008",
+      "title": "认识毫米",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n007"
+      ],
+      "tags": [
+        "length",
+        "ch-len",
+        "mm"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识毫米：1 厘米 = 10 毫米，用来量很短或要更精确的长度，如一枚硬币的厚度。"
+    },
+    {
+      "id": "pm-g2-geo-n009",
+      "title": "认识千米",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n005"
+      ],
+      "tags": [
+        "length",
+        "ch-len",
+        "km"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识千米：1 千米 = 1000 米，用来量路程，如从家到学校大约几千米。"
+    },
+    {
+      "id": "pm-g2-geo-n010",
+      "title": "长度单位综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g2-geo-n006",
+        "pm-g2-geo-n008",
+        "pm-g2-geo-n009"
+      ],
+      "tags": [
+        "length",
+        "ch-len",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能选择合适的单位去量、去估，并完成米、分米、厘米、毫米之间简单的相邻换算。"
+    },
+    {
+      "id": "pm-g2-geo-n011",
+      "title": "认识线段",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n003"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle",
+        "segment"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道线段是直直的、有两个端点，能量出它的长度，并与弯弯的线区分开。"
+    },
+    {
+      "id": "pm-g2-geo-n012",
+      "title": "角是什么样",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n011"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道角由一个顶点和两条边组成，能从时钟指针、张开的圆规里指出角。"
+    },
+    {
+      "id": "pm-g2-geo-n013",
+      "title": "认识直角",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n012"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle",
+        "right"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用三角板上的直角去比，判断一个角是不是直角，并在教室里找出直角。"
+    },
+    {
+      "id": "pm-g2-geo-n014",
+      "title": "锐角和钝角",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n013"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle",
+        "acute-obtuse"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把比直角小的角叫锐角、比直角大（但还没翻成一条直线）的角叫钝角。"
+    },
+    {
+      "id": "pm-g2-geo-n015",
+      "title": "角的分类",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n014"
+      ],
+      "tags": [
+        "angle",
+        "ch-angle",
+        "classify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在一组角里分出直角、锐角、钝角，不把「张得大」和「边画得长」混为一谈。"
+    },
+    {
+      "id": "pm-g2-geo-n016",
+      "title": "长方形的边和角",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n010",
+        "pm-g2-geo-n013"
+      ],
+      "tags": [
+        "rect",
+        "ch-rect",
+        "rectangle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明长方形有四个直角，对边相等；能量出长和宽。"
+    },
+    {
+      "id": "pm-g2-geo-n017",
+      "title": "正方形的边和角",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n016"
+      ],
+      "tags": [
+        "rect",
+        "ch-rect",
+        "square"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明正方形四个角都是直角、四条边都相等；它是特殊的长方形。"
+    },
+    {
+      "id": "pm-g2-geo-n018",
+      "title": "长方形正方形初步",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n017"
+      ],
+      "tags": [
+        "rect",
+        "ch-rect"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据边和角判断一张纸是长方形、正方形还是普通四边形。"
+    },
+    {
+      "id": "pm-g2-geo-n019",
+      "title": "画长方形正方形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n018"
+      ],
+      "tags": [
+        "rect",
+        "ch-rect",
+        "draw"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在方格纸或用直尺、三角板画出指定长和宽的长方形，以及指定边长的正方形。"
+    },
+    {
+      "id": "pm-g2-geo-n020",
+      "title": "用长度解决问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n018"
+      ],
+      "tags": [
+        "length",
+        "ch-rect",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在「绳子够不够围一圈」「两支铅笔一共多长」这类短故事里选用厘米或米来算。"
+    },
+    {
+      "id": "pm-g2-geo-n021",
+      "title": "轴对称现象",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n018"
+      ],
+      "tags": [
+        "symmetry",
+        "ch-sym"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从蝴蝶、脸谱、窗花里感受到「两边一样」，知道这是轴对称现象。"
+    },
+    {
+      "id": "pm-g2-geo-n022",
+      "title": "对折找对称轴",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n021"
+      ],
+      "tags": [
+        "symmetry",
+        "ch-sym",
+        "axis"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能通过对折找出简单图形的对称轴，并说明对折后两边基本重合。"
+    },
+    {
+      "id": "pm-g2-geo-n023",
+      "title": "生活中的对称",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n022"
+      ],
+      "tags": [
+        "symmetry",
+        "ch-sym",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在叶子、建筑物、字母里找出轴对称的例子，并指出大概在哪里对折。"
+    },
+    {
+      "id": "pm-g2-geo-n024",
+      "title": "从正面看",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n015"
+      ],
+      "tags": [
+        "view",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道从正面看物体，只能看到朝向自己的那一面，形状可能和从旁边看不一样。"
+    },
+    {
+      "id": "pm-g2-geo-n025",
+      "title": "从侧面和上面看",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n024"
+      ],
+      "tags": [
+        "view",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能辨认简单积木组合从侧面、从上面看到的形状，不把三个方向的图弄混。"
+    },
+    {
+      "id": "pm-g2-geo-n026",
+      "title": "观察物体综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g2-geo-n025"
+      ],
+      "tags": [
+        "view",
+        "ch-view",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据「从哪边看」选出正确的视图，并说明换一个方向为什么会变样。"
+    },
+    {
+      "id": "pm-g2-geo-n027",
+      "title": "东、南、西、北",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n001"
+      ],
+      "tags": [
+        "direction",
+        "ch-dir"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在给出一个方向（如北方）时辨认其余三个方向，并在教室里指出大概的东、南、西、北。"
+    },
+    {
+      "id": "pm-g2-geo-n028",
+      "title": "看简单路线图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-geo-n027"
+      ],
+      "tags": [
+        "direction",
+        "ch-dir",
+        "map"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在简单平面图上按「向东走、再向北」描述从家到学校的路线。"
+    },
+    {
+      "id": "pm-g2-geo-n029",
+      "title": "平移现象欣赏",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-geo-n021"
+      ],
+      "tags": [
+        "translation",
+        "ch-sym"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从电梯、推拉窗里感受图形整体移动、方向不变的现象；不要求在方格纸上作图。"
+    },
+    {
+      "id": "pm-g2-geo-n030",
+      "title": "长度角与图形合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g2-geo-n010",
+        "pm-g2-geo-n020",
+        "pm-g2-geo-n023",
+        "pm-g2-geo-n026"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把量长度、认角、认长方形正方形、看视图放在同一张综合练习里完成。"
+    },
+    {
+      "id": "pm-g2-geo-n031",
+      "title": "二年级图形通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g2-geo-n030"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合长度单位、角的分类、长方形正方形初步和观察物体，完成本图收束检查。"
+    }
+  ]
+}

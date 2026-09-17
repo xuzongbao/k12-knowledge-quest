@@ -1,0 +1,293 @@
+{
+  "map_id": "pm-g5-geometry",
+  "edges": [
+    {
+      "from": "pm-g5-geo-n001",
+      "to": "pm-g5-geo-n002",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n001 需先于 pm-g5-geo-n002"
+    },
+    {
+      "from": "pm-g5-geo-n002",
+      "to": "pm-g5-geo-n003",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n002 需先于 pm-g5-geo-n003"
+    },
+    {
+      "from": "pm-g5-geo-n003",
+      "to": "pm-g5-geo-n004",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n003 需先于 pm-g5-geo-n004"
+    },
+    {
+      "from": "pm-g5-geo-n004",
+      "to": "pm-g5-geo-n005",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n004 需先于 pm-g5-geo-n005"
+    },
+    {
+      "from": "pm-g5-geo-n005",
+      "to": "pm-g5-geo-n006",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n005 需先于 pm-g5-geo-n006"
+    },
+    {
+      "from": "pm-g5-geo-n006",
+      "to": "pm-g5-geo-n007",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n006 需先于 pm-g5-geo-n007"
+    },
+    {
+      "from": "pm-g5-geo-n007",
+      "to": "pm-g5-geo-n008",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n007 需先于 pm-g5-geo-n008"
+    },
+    {
+      "from": "pm-g5-geo-n001",
+      "to": "pm-g5-geo-n009",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n001 需先于 pm-g5-geo-n009"
+    },
+    {
+      "from": "pm-g5-geo-n009",
+      "to": "pm-g5-geo-n010",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n009 需先于 pm-g5-geo-n010"
+    },
+    {
+      "from": "pm-g5-geo-n010",
+      "to": "pm-g5-geo-n011",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n010 需先于 pm-g5-geo-n011"
+    },
+    {
+      "from": "pm-g5-geo-n011",
+      "to": "pm-g5-geo-n012",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n011 需先于 pm-g5-geo-n012"
+    },
+    {
+      "from": "pm-g5-geo-n011",
+      "to": "pm-g5-geo-n013",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n011 需先于 pm-g5-geo-n013"
+    },
+    {
+      "from": "pm-g5-geo-n013",
+      "to": "pm-g5-geo-n014",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n013 需先于 pm-g5-geo-n014"
+    },
+    {
+      "from": "pm-g5-geo-n014",
+      "to": "pm-g5-geo-n015",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n014 需先于 pm-g5-geo-n015"
+    },
+    {
+      "from": "pm-g5-geo-n015",
+      "to": "pm-g5-geo-n016",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n015 需先于 pm-g5-geo-n016"
+    },
+    {
+      "from": "pm-g5-geo-n016",
+      "to": "pm-g5-geo-n017",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n016 需先于 pm-g5-geo-n017"
+    },
+    {
+      "from": "pm-g5-geo-n008",
+      "to": "pm-g5-geo-n017",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n008 需先于 pm-g5-geo-n017"
+    },
+    {
+      "from": "pm-g5-geo-n017",
+      "to": "pm-g5-geo-n018",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n017 需先于 pm-g5-geo-n018"
+    },
+    {
+      "from": "pm-g5-geo-n018",
+      "to": "pm-g5-geo-n019",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n018 需先于 pm-g5-geo-n019"
+    },
+    {
+      "from": "pm-g5-geo-n019",
+      "to": "pm-g5-geo-n020",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n019 需先于 pm-g5-geo-n020"
+    },
+    {
+      "from": "pm-g5-geo-n020",
+      "to": "pm-g5-geo-n021",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n020 需先于 pm-g5-geo-n021"
+    },
+    {
+      "from": "pm-g5-geo-n012",
+      "to": "pm-g5-geo-n022",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n012 需先于 pm-g5-geo-n022"
+    },
+    {
+      "from": "pm-g5-geo-n022",
+      "to": "pm-g5-geo-n023",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n022 需先于 pm-g5-geo-n023"
+    },
+    {
+      "from": "pm-g5-geo-n022",
+      "to": "pm-g5-geo-n024",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n022 需先于 pm-g5-geo-n024"
+    },
+    {
+      "from": "pm-g5-geo-n024",
+      "to": "pm-g5-geo-n025",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n024 需先于 pm-g5-geo-n025"
+    },
+    {
+      "from": "pm-g5-geo-n001",
+      "to": "pm-g5-geo-n026",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n001 需先于 pm-g5-geo-n026"
+    },
+    {
+      "from": "pm-g5-geo-n023",
+      "to": "pm-g5-geo-n027",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n023 需先于 pm-g5-geo-n027"
+    },
+    {
+      "from": "pm-g5-geo-n025",
+      "to": "pm-g5-geo-n027",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n025 需先于 pm-g5-geo-n027"
+    },
+    {
+      "from": "pm-g5-geo-n026",
+      "to": "pm-g5-geo-n027",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n026 需先于 pm-g5-geo-n027"
+    },
+    {
+      "from": "pm-g5-geo-n027",
+      "to": "pm-g5-geo-n028",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n027 需先于 pm-g5-geo-n028"
+    },
+    {
+      "from": "pm-g5-geo-n018",
+      "to": "pm-g5-geo-n029",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n018 需先于 pm-g5-geo-n029"
+    },
+    {
+      "from": "pm-g5-geo-n008",
+      "to": "pm-g5-geo-n030",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n008 需先于 pm-g5-geo-n030"
+    },
+    {
+      "from": "pm-g5-geo-n021",
+      "to": "pm-g5-geo-n031",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n021 需先于 pm-g5-geo-n031"
+    },
+    {
+      "from": "pm-g5-geo-n028",
+      "to": "pm-g5-geo-n031",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n028 需先于 pm-g5-geo-n031"
+    },
+    {
+      "from": "pm-g5-geo-n031",
+      "to": "pm-g5-geo-n032",
+      "type": "prerequisite",
+      "note": "pm-g5-geo-n031 需先于 pm-g5-geo-n032"
+    },
+    {
+      "from": "pm-g5-geo-n002",
+      "to": "pm-g5-geo-n003",
+      "type": "related",
+      "note": "三角形面积是等底等高平行四边形的一半。"
+    },
+    {
+      "from": "pm-g5-geo-n003",
+      "to": "pm-g5-geo-n005",
+      "type": "application",
+      "note": "同一条底上的等高三角形，面积一定相等。"
+    },
+    {
+      "from": "pm-g5-geo-n006",
+      "to": "pm-g5-geo-n007",
+      "type": "related",
+      "note": "规则图形用公式，不规则图形先估再数格。"
+    },
+    {
+      "from": "pm-g5-geo-n010",
+      "to": "pm-g5-geo-n011",
+      "type": "easily_confused",
+      "note": "半径是一半，直径过圆心；不要把弦都叫做直径。"
+    },
+    {
+      "from": "pm-g5-geo-n016",
+      "to": "pm-g5-geo-n018",
+      "type": "easily_confused",
+      "note": "周长用 2πr，面积用 πr²：一个与半径一次方有关，一个与平方有关。"
+    },
+    {
+      "from": "pm-g5-geo-n018",
+      "to": "pm-g5-geo-n019",
+      "type": "related",
+      "note": "圆环是大圆面积减去小圆面积。"
+    },
+    {
+      "from": "pm-g5-geo-n016",
+      "to": "pm-g5-geo-n020",
+      "type": "application",
+      "note": "车轮滚一圈走的路，就是圆周长。"
+    },
+    {
+      "from": "pm-g5-geo-n022",
+      "to": "pm-g5-geo-n024",
+      "type": "easily_confused",
+      "note": "轴对称对应点关于直线对称；旋转对应点绕点转过相同角。"
+    },
+    {
+      "from": "pm-g5-geo-n026",
+      "to": "pm-g5-geo-n024",
+      "type": "related",
+      "note": "平移、旋转、轴对称都能保持形状和大小，但对应点规则不同。"
+    },
+    {
+      "from": "pm-g5-geo-n012",
+      "to": "pm-g5-geo-n022",
+      "type": "related",
+      "note": "圆有无数条对称轴，是理解轴对称性质的好例子。"
+    },
+    {
+      "from": "pm-g5-geo-n017",
+      "to": "pm-g5-geo-n001",
+      "type": "related",
+      "note": "圆面积同样用「转化」：拼成近似长方形。"
+    },
+    {
+      "from": "pm-g5-geo-n029",
+      "to": "pm-g5-geo-n019",
+      "type": "related",
+      "note": "圆环和扇形都是圆的一部分，但一块是中间挖空，一块是切西瓜。"
+    },
+    {
+      "from": "pm-g5-geo-n008",
+      "to": "pm-g5-geo-n017",
+      "type": "related",
+      "note": "多边形面积综合过关后，再用同样的转化思想看圆。"
+    }
+  ]
+}
