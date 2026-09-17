@@ -17,7 +17,7 @@ export default function Home({ maps, progress, onOpenMap }: Props) {
   const grouped = useMemo(() => {
     const match = (m: QuestMap) => {
       if (!q) return true;
-      const hay = `${m.meta.title} ${m.meta.strand} ${m.meta.subject} ${m.meta.description}`.toLowerCase();
+      const hay = `${m.meta.title} ${m.meta.strand} ${m.meta.subject} ${m.meta.grade}年级`.toLowerCase();
       return hay.includes(q);
     };
     const groups: Record<Stage, QuestMap[]> = { 小学: [], 初中: [], 高中: [] };
