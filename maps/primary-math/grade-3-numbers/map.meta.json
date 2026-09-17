@@ -1,0 +1,26 @@
+{
+  "id": "pm-g3-numbers",
+  "title": "三年级 · 数与运算",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 3,
+  "strand": "数与代数",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g3-n001"
+  ],
+  "recommended_path_note": "从「万以内数位复习」进入：先打通万以内加减与估算，再倍的认识与多位数乘一位数、一位数除多位数（含余数），两位数乘两位数入门可与除法并行，然后分数初步。小数初步（n035）为软锁支线（三年级下/四年级衔接），不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g3-boss-add",
+      "pm-g3-boss-muldiv",
+      "pm-g3-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：万以内加减、多位数乘除大闯关、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学三年级「数与代数」地图：万以内加减巩固与估算 → 倍 → 多位数乘一位数 → 一位数除多位数 → 两位数乘两位数入门 → 分数初步；小数初步为软锁支线。与二年级地图概念衔接，但各自独立通关。"
+}

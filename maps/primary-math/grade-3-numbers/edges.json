@@ -1,0 +1,515 @@
+{
+  "map_id": "pm-g3-numbers",
+  "edges": [
+    {
+      "from": "pm-g3-n001",
+      "to": "pm-g3-n002",
+      "type": "prerequisite",
+      "note": "pm-g3-n001 需先于 pm-g3-n002"
+    },
+    {
+      "from": "pm-g3-n002",
+      "to": "pm-g3-n003",
+      "type": "prerequisite",
+      "note": "pm-g3-n002 需先于 pm-g3-n003"
+    },
+    {
+      "from": "pm-g3-n001",
+      "to": "pm-g3-n004",
+      "type": "prerequisite",
+      "note": "pm-g3-n001 需先于 pm-g3-n004"
+    },
+    {
+      "from": "pm-g3-n003",
+      "to": "pm-g3-n005",
+      "type": "prerequisite",
+      "note": "pm-g3-n003 需先于 pm-g3-n005"
+    },
+    {
+      "from": "pm-g3-n004",
+      "to": "pm-g3-n005",
+      "type": "prerequisite",
+      "note": "pm-g3-n004 需先于 pm-g3-n005"
+    },
+    {
+      "from": "pm-g3-n003",
+      "to": "pm-g3-n006",
+      "type": "prerequisite",
+      "note": "pm-g3-n003 需先于 pm-g3-n006"
+    },
+    {
+      "from": "pm-g3-n005",
+      "to": "pm-g3-n006",
+      "type": "prerequisite",
+      "note": "pm-g3-n005 需先于 pm-g3-n006"
+    },
+    {
+      "from": "pm-g3-n003",
+      "to": "pm-g3-n007",
+      "type": "prerequisite",
+      "note": "pm-g3-n003 需先于 pm-g3-n007"
+    },
+    {
+      "from": "pm-g3-n005",
+      "to": "pm-g3-n007",
+      "type": "prerequisite",
+      "note": "pm-g3-n005 需先于 pm-g3-n007"
+    },
+    {
+      "from": "pm-g3-n003",
+      "to": "pm-g3-n008",
+      "type": "prerequisite",
+      "note": "pm-g3-n003 需先于 pm-g3-n008"
+    },
+    {
+      "from": "pm-g3-n005",
+      "to": "pm-g3-n008",
+      "type": "prerequisite",
+      "note": "pm-g3-n005 需先于 pm-g3-n008"
+    },
+    {
+      "from": "pm-g3-n003",
+      "to": "pm-g3-n009",
+      "type": "prerequisite",
+      "note": "pm-g3-n003 需先于 pm-g3-n009"
+    },
+    {
+      "from": "pm-g3-n005",
+      "to": "pm-g3-n009",
+      "type": "prerequisite",
+      "note": "pm-g3-n005 需先于 pm-g3-n009"
+    },
+    {
+      "from": "pm-g3-n006",
+      "to": "pm-g3-n010",
+      "type": "prerequisite",
+      "note": "pm-g3-n006 需先于 pm-g3-n010"
+    },
+    {
+      "from": "pm-g3-n007",
+      "to": "pm-g3-n010",
+      "type": "prerequisite",
+      "note": "pm-g3-n007 需先于 pm-g3-n010"
+    },
+    {
+      "from": "pm-g3-n008",
+      "to": "pm-g3-n010",
+      "type": "prerequisite",
+      "note": "pm-g3-n008 需先于 pm-g3-n010"
+    },
+    {
+      "from": "pm-g3-n009",
+      "to": "pm-g3-n010",
+      "type": "prerequisite",
+      "note": "pm-g3-n009 需先于 pm-g3-n010"
+    },
+    {
+      "from": "pm-g3-n010",
+      "to": "pm-g3-n011",
+      "type": "prerequisite",
+      "note": "pm-g3-n010 需先于 pm-g3-n011"
+    },
+    {
+      "from": "pm-g3-n011",
+      "to": "pm-g3-n012",
+      "type": "prerequisite",
+      "note": "pm-g3-n011 需先于 pm-g3-n012"
+    },
+    {
+      "from": "pm-g3-n012",
+      "to": "pm-g3-n013",
+      "type": "prerequisite",
+      "note": "pm-g3-n012 需先于 pm-g3-n013"
+    },
+    {
+      "from": "pm-g3-n010",
+      "to": "pm-g3-n014",
+      "type": "prerequisite",
+      "note": "pm-g3-n010 需先于 pm-g3-n014"
+    },
+    {
+      "from": "pm-g3-n014",
+      "to": "pm-g3-n015",
+      "type": "prerequisite",
+      "note": "pm-g3-n014 需先于 pm-g3-n015"
+    },
+    {
+      "from": "pm-g3-n015",
+      "to": "pm-g3-n016",
+      "type": "prerequisite",
+      "note": "pm-g3-n015 需先于 pm-g3-n016"
+    },
+    {
+      "from": "pm-g3-n016",
+      "to": "pm-g3-n017",
+      "type": "prerequisite",
+      "note": "pm-g3-n016 需先于 pm-g3-n017"
+    },
+    {
+      "from": "pm-g3-n017",
+      "to": "pm-g3-n018",
+      "type": "prerequisite",
+      "note": "pm-g3-n017 需先于 pm-g3-n018"
+    },
+    {
+      "from": "pm-g3-n014",
+      "to": "pm-g3-n019",
+      "type": "prerequisite",
+      "note": "pm-g3-n014 需先于 pm-g3-n019"
+    },
+    {
+      "from": "pm-g3-n008",
+      "to": "pm-g3-n019",
+      "type": "prerequisite",
+      "note": "pm-g3-n008 需先于 pm-g3-n019"
+    },
+    {
+      "from": "pm-g3-n012",
+      "to": "pm-g3-n020",
+      "type": "prerequisite",
+      "note": "pm-g3-n012 需先于 pm-g3-n020"
+    },
+    {
+      "from": "pm-g3-n017",
+      "to": "pm-g3-n020",
+      "type": "prerequisite",
+      "note": "pm-g3-n017 需先于 pm-g3-n020"
+    },
+    {
+      "from": "pm-g3-n014",
+      "to": "pm-g3-n021",
+      "type": "prerequisite",
+      "note": "pm-g3-n014 需先于 pm-g3-n021"
+    },
+    {
+      "from": "pm-g3-n021",
+      "to": "pm-g3-n022",
+      "type": "prerequisite",
+      "note": "pm-g3-n021 需先于 pm-g3-n022"
+    },
+    {
+      "from": "pm-g3-n016",
+      "to": "pm-g3-n022",
+      "type": "prerequisite",
+      "note": "pm-g3-n016 需先于 pm-g3-n022"
+    },
+    {
+      "from": "pm-g3-n022",
+      "to": "pm-g3-n023",
+      "type": "prerequisite",
+      "note": "pm-g3-n022 需先于 pm-g3-n023"
+    },
+    {
+      "from": "pm-g3-n017",
+      "to": "pm-g3-n023",
+      "type": "prerequisite",
+      "note": "pm-g3-n017 需先于 pm-g3-n023"
+    },
+    {
+      "from": "pm-g3-n023",
+      "to": "pm-g3-n024",
+      "type": "prerequisite",
+      "note": "pm-g3-n023 需先于 pm-g3-n024"
+    },
+    {
+      "from": "pm-g3-n022",
+      "to": "pm-g3-n025",
+      "type": "prerequisite",
+      "note": "pm-g3-n022 需先于 pm-g3-n025"
+    },
+    {
+      "from": "pm-g3-n013",
+      "to": "pm-g3-n026",
+      "type": "prerequisite",
+      "note": "pm-g3-n013 需先于 pm-g3-n026"
+    },
+    {
+      "from": "pm-g3-n023",
+      "to": "pm-g3-n026",
+      "type": "prerequisite",
+      "note": "pm-g3-n023 需先于 pm-g3-n026"
+    },
+    {
+      "from": "pm-g3-n025",
+      "to": "pm-g3-n026",
+      "type": "prerequisite",
+      "note": "pm-g3-n025 需先于 pm-g3-n026"
+    },
+    {
+      "from": "pm-g3-n018",
+      "to": "pm-g3-n027",
+      "type": "prerequisite",
+      "note": "pm-g3-n018 需先于 pm-g3-n027"
+    },
+    {
+      "from": "pm-g3-n019",
+      "to": "pm-g3-n027",
+      "type": "prerequisite",
+      "note": "pm-g3-n019 需先于 pm-g3-n027"
+    },
+    {
+      "from": "pm-g3-n020",
+      "to": "pm-g3-n027",
+      "type": "prerequisite",
+      "note": "pm-g3-n020 需先于 pm-g3-n027"
+    },
+    {
+      "from": "pm-g3-n024",
+      "to": "pm-g3-n027",
+      "type": "prerequisite",
+      "note": "pm-g3-n024 需先于 pm-g3-n027"
+    },
+    {
+      "from": "pm-g3-n026",
+      "to": "pm-g3-n027",
+      "type": "prerequisite",
+      "note": "pm-g3-n026 需先于 pm-g3-n027"
+    },
+    {
+      "from": "pm-g3-n016",
+      "to": "pm-g3-n028",
+      "type": "prerequisite",
+      "note": "pm-g3-n016 需先于 pm-g3-n028"
+    },
+    {
+      "from": "pm-g3-n028",
+      "to": "pm-g3-n029",
+      "type": "prerequisite",
+      "note": "pm-g3-n028 需先于 pm-g3-n029"
+    },
+    {
+      "from": "pm-g3-n029",
+      "to": "pm-g3-n030",
+      "type": "prerequisite",
+      "note": "pm-g3-n029 需先于 pm-g3-n030"
+    },
+    {
+      "from": "pm-g3-n027",
+      "to": "pm-g3-n031",
+      "type": "prerequisite",
+      "note": "pm-g3-n027 需先于 pm-g3-n031"
+    },
+    {
+      "from": "pm-g3-n031",
+      "to": "pm-g3-n032",
+      "type": "prerequisite",
+      "note": "pm-g3-n031 需先于 pm-g3-n032"
+    },
+    {
+      "from": "pm-g3-n032",
+      "to": "pm-g3-n033",
+      "type": "prerequisite",
+      "note": "pm-g3-n032 需先于 pm-g3-n033"
+    },
+    {
+      "from": "pm-g3-n032",
+      "to": "pm-g3-n034",
+      "type": "prerequisite",
+      "note": "pm-g3-n032 需先于 pm-g3-n034"
+    },
+    {
+      "from": "pm-g3-n033",
+      "to": "pm-g3-n035",
+      "type": "prerequisite",
+      "note": "pm-g3-n033 需先于 pm-g3-n035"
+    },
+    {
+      "from": "pm-g3-n035",
+      "to": "pm-g3-n036",
+      "type": "prerequisite",
+      "note": "pm-g3-n035 需先于 pm-g3-n036"
+    },
+    {
+      "from": "pm-g3-n036",
+      "to": "pm-g3-n037",
+      "type": "prerequisite",
+      "note": "pm-g3-n036 需先于 pm-g3-n037"
+    },
+    {
+      "from": "pm-g3-n010",
+      "to": "pm-g3-n038",
+      "type": "prerequisite",
+      "note": "pm-g3-n010 需先于 pm-g3-n038"
+    },
+    {
+      "from": "pm-g3-n027",
+      "to": "pm-g3-n038",
+      "type": "prerequisite",
+      "note": "pm-g3-n027 需先于 pm-g3-n038"
+    },
+    {
+      "from": "pm-g3-n030",
+      "to": "pm-g3-n038",
+      "type": "prerequisite",
+      "note": "pm-g3-n030 需先于 pm-g3-n038"
+    },
+    {
+      "from": "pm-g3-n034",
+      "to": "pm-g3-n038",
+      "type": "prerequisite",
+      "note": "pm-g3-n034 需先于 pm-g3-n038"
+    },
+    {
+      "from": "pm-g3-n002",
+      "to": "pm-g3-n004",
+      "type": "related",
+      "note": "不进位加与不退位减都是按数位分别算。"
+    },
+    {
+      "from": "pm-g3-n002",
+      "to": "pm-g3-n003",
+      "type": "easily_confused",
+      "note": "万以内加法是否进位，只看这一位满不满十。"
+    },
+    {
+      "from": "pm-g3-n004",
+      "to": "pm-g3-n005",
+      "type": "easily_confused",
+      "note": "万以内减法是否退位，只看这一位够不够减。"
+    },
+    {
+      "from": "pm-g3-n003",
+      "to": "pm-g3-n005",
+      "type": "easily_confused",
+      "note": "连续进位与连续退位都动到「十」，方向相反。"
+    },
+    {
+      "from": "pm-g3-n007",
+      "to": "pm-g3-n008",
+      "type": "related",
+      "note": "验算查对错，估算先看是否离谱。"
+    },
+    {
+      "from": "pm-g3-n008",
+      "to": "pm-g3-n019",
+      "type": "related",
+      "note": "加减估算的「看成整百整千」同样用在乘法估算。"
+    },
+    {
+      "from": "pm-g3-n011",
+      "to": "pm-g3-n014",
+      "type": "related",
+      "note": "「几个几」既是倍，也是乘法口算的意义。"
+    },
+    {
+      "from": "pm-g3-n012",
+      "to": "pm-g3-n013",
+      "type": "easily_confused",
+      "note": "求几倍用乘；求「是几倍」用除，方向容易反。"
+    },
+    {
+      "from": "pm-g3-n014",
+      "to": "pm-g3-n021",
+      "type": "related",
+      "note": "整十整百乘一位数与除以一位数互为口算伙伴。"
+    },
+    {
+      "from": "pm-g3-n015",
+      "to": "pm-g3-n016",
+      "type": "easily_confused",
+      "note": "乘一位数是否进位，看这一位乘完满不满十。"
+    },
+    {
+      "from": "pm-g3-n018",
+      "to": "pm-g3-n024",
+      "type": "easily_confused",
+      "note": "积里的 0 和商里的 0 来源不同：一个是因数有 0，一个是这一位不够商 1。"
+    },
+    {
+      "from": "pm-g3-n020",
+      "to": "pm-g3-n026",
+      "type": "easily_confused",
+      "note": "「求一共/几倍」用乘，「求每份、份数、是几倍」用除。"
+    },
+    {
+      "from": "pm-g3-n022",
+      "to": "pm-g3-n025",
+      "type": "easily_confused",
+      "note": "正好除尽与有余数，要先看是不是还能再分一份。"
+    },
+    {
+      "from": "pm-g3-n016",
+      "to": "pm-g3-n028",
+      "type": "related",
+      "note": "乘一位数熟练后，再把「乘整十」看成乘 1 再补 0。"
+    },
+    {
+      "from": "pm-g3-n029",
+      "to": "pm-g3-n030",
+      "type": "easily_confused",
+      "note": "两层相乘时，每一层自己也可能进位，不要只加不进。"
+    },
+    {
+      "from": "pm-g3-n026",
+      "to": "pm-g3-n031",
+      "type": "related",
+      "note": "平均分的份数意识，接着用来认识几分之一。"
+    },
+    {
+      "from": "pm-g3-n031",
+      "to": "pm-g3-n032",
+      "type": "easily_confused",
+      "note": "几分之一是取 1 份；几分之几是取了若干份。"
+    },
+    {
+      "from": "pm-g3-n032",
+      "to": "pm-g3-n035",
+      "type": "easily_confused",
+      "note": "十分之几和一位小数表示同一类「十分位上的数」，写法不同。"
+    },
+    {
+      "from": "pm-g3-n001",
+      "to": "pm-g3-n035",
+      "type": "related",
+      "note": "整数数位顺序帮着理解十分位在小数点右边第一位。"
+    },
+    {
+      "from": "pm-g3-n033",
+      "to": "pm-g3-n036",
+      "type": "related",
+      "note": "分数比大小的经验可以对照一位小数比大小。"
+    },
+    {
+      "from": "pm-g3-n003",
+      "to": "pm-g3-n009",
+      "type": "application",
+      "note": "把进位加法用到「一共、比多」问题。"
+    },
+    {
+      "from": "pm-g3-n005",
+      "to": "pm-g3-n009",
+      "type": "application",
+      "note": "把退位减法用到「还剩、比少」问题。"
+    },
+    {
+      "from": "pm-g3-n017",
+      "to": "pm-g3-n020",
+      "type": "application",
+      "note": "三位数乘一位数服务于「每份同样多」的实际问题。"
+    },
+    {
+      "from": "pm-g3-n023",
+      "to": "pm-g3-n026",
+      "type": "application",
+      "note": "一位数除三位数用来解决平均分与求份数。"
+    },
+    {
+      "from": "pm-g3-n032",
+      "to": "pm-g3-n034",
+      "type": "application",
+      "note": "几分之几用到「取出几份」的生活情境。"
+    },
+    {
+      "from": "pm-g3-n019",
+      "to": "pm-g3-n027",
+      "type": "application",
+      "note": "用乘法估算判断乘除综合题的积是否合理。"
+    },
+    {
+      "from": "pm-g3-n030",
+      "to": "pm-g3-n038",
+      "type": "application",
+      "note": "两位数乘法入门进入终章综合。"
+    }
+  ]
+}

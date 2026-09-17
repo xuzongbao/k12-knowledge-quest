@@ -1,0 +1,1149 @@
+{
+  "map_id": "pm-g3-numbers",
+  "nodes": [
+    {
+      "id": "pm-g3-n001",
+      "title": "万以内数位与组成复习",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "place-value",
+        "ch-addsub",
+        "review"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出万以内一个数的千、百、十、个位，并说出各数位上的数表示几个千、几个百等。"
+    },
+    {
+      "id": "pm-g3-n002",
+      "title": "万以内加法（不进位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-n001"
+      ],
+      "tags": [
+        "add",
+        "ch-addsub",
+        "no-carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "对齐数位后，每一位都不满十时，能正确计算万以内加法。"
+    },
+    {
+      "id": "pm-g3-n003",
+      "title": "万以内加法（进位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n002"
+      ],
+      "tags": [
+        "add",
+        "ch-addsub",
+        "carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "某一位满十时会向前一位进 1，包括连续进位，完成万以内加法。"
+    },
+    {
+      "id": "pm-g3-n004",
+      "title": "万以内减法（不退位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-n001"
+      ],
+      "tags": [
+        "subtract",
+        "ch-addsub",
+        "no-borrow"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "对齐数位后，每一位都够减时，能正确计算万以内减法。"
+    },
+    {
+      "id": "pm-g3-n005",
+      "title": "万以内减法（退位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-n003",
+        "pm-g3-n004"
+      ],
+      "tags": [
+        "subtract",
+        "ch-addsub",
+        "borrow"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "某一位不够减时会向前一位借 1 当 10，包括连续退位，并能用加法想一想。"
+    },
+    {
+      "id": "pm-g3-n006",
+      "title": "连加连减与加减混合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n003",
+        "pm-g3-n005"
+      ],
+      "tags": [
+        "mixed",
+        "chain",
+        "ch-addsub"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能从左往右计算万以内连加、连减和加减混合，并记下中间得数。"
+    },
+    {
+      "id": "pm-g3-n007",
+      "title": "加减验算",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n003",
+        "pm-g3-n005"
+      ],
+      "tags": [
+        "check",
+        "ch-addsub"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "会用交换加数或「差加减数」的办法验算万以内加减，发现抄错或进退位遗漏。"
+    },
+    {
+      "id": "pm-g3-n008",
+      "title": "估算加减得数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n003",
+        "pm-g3-n005"
+      ],
+      "tags": [
+        "estimate",
+        "ch-addsub"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把加数或减数看成接近的整百、整千，先估一估再判断精确得数是否合理。"
+    },
+    {
+      "id": "pm-g3-n009",
+      "title": "解决问题：万以内加减",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n003",
+        "pm-g3-n005"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-addsub",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "在「一共、还剩、比多、比少」的短故事里选择加或减，并列万以内算式。"
+    },
+    {
+      "id": "pm-g3-n010",
+      "title": "万以内加减综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-n006",
+        "pm-g3-n007",
+        "pm-g3-n008",
+        "pm-g3-n009"
+      ],
+      "tags": [
+        "fluency",
+        "ch-addsub",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合万以内进退位加减、验算、估算和应用题，能独立完成一小节混合练习。"
+    },
+    {
+      "id": "pm-g3-n011",
+      "title": "倍的意义",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-n010"
+      ],
+      "tags": [
+        "times-as-many",
+        "ch-times",
+        "concept"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道「几倍」就是几个同样多的一份合起来，能用「几个几」说明倍。"
+    },
+    {
+      "id": "pm-g3-n012",
+      "title": "求一个数的几倍",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n011"
+      ],
+      "tags": [
+        "times-as-many",
+        "ch-times",
+        "multiply"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "已知一份是多少、求它的几倍，会用乘法计算。"
+    },
+    {
+      "id": "pm-g3-n013",
+      "title": "求一个数是另一个数的几倍",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n012"
+      ],
+      "tags": [
+        "times-as-many",
+        "ch-times",
+        "divide"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "比较两个数量时，会用除法求出一个数是另一个数的几倍。"
+    },
+    {
+      "id": "pm-g3-n014",
+      "title": "口算整十整百乘一位数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-n010"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul1",
+        "mental"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把 30×6、200×4 这类题转化成「几个十、几个百」来口算。"
+    },
+    {
+      "id": "pm-g3-n015",
+      "title": "两位数乘一位数（不进位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-n014"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul1",
+        "no-carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "用竖式计算两位数乘一位数，每一位乘完都不满十时能对齐写积。"
+    },
+    {
+      "id": "pm-g3-n016",
+      "title": "两位数乘一位数（进位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n015"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul1",
+        "carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "某一位乘完满十时会向前一位进，完成两位数乘一位数。"
+    },
+    {
+      "id": "pm-g3-n017",
+      "title": "三位数乘一位数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n016"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul1"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会用竖式计算三位数乘一位数，包括连续进位。"
+    },
+    {
+      "id": "pm-g3-n018",
+      "title": "因数中间或末尾有0",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n017"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul1",
+        "zero"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "乘数中间或末尾有 0 时，积的对应位置要写对，不漏 0、不多 0。"
+    },
+    {
+      "id": "pm-g3-n019",
+      "title": "乘法估算",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n014",
+        "pm-g3-n008"
+      ],
+      "tags": [
+        "estimate",
+        "ch-mul1"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把多位数看成接近的整十、整百再乘一位数，判断积大概落在哪一带。"
+    },
+    {
+      "id": "pm-g3-n020",
+      "title": "用乘法解决问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n012",
+        "pm-g3-n017"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-mul1",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "在「每份同样多、求一共」或「求几倍」的短故事里列出乘法算式。"
+    },
+    {
+      "id": "pm-g3-n021",
+      "title": "口算整十整百除以一位数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-n014"
+      ],
+      "tags": [
+        "divide",
+        "ch-div1",
+        "mental"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把 80÷4、600÷3 转化成几个十、几个百来口算。"
+    },
+    {
+      "id": "pm-g3-n022",
+      "title": "一位数除两位数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n021",
+        "pm-g3-n016"
+      ],
+      "tags": [
+        "divide",
+        "ch-div1"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会用竖式计算除数是一位数、被除数是两位数的除法，商写在正确的数位上。"
+    },
+    {
+      "id": "pm-g3-n023",
+      "title": "一位数除三位数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-n022",
+        "pm-g3-n017"
+      ],
+      "tags": [
+        "divide",
+        "ch-div1"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "会用竖式计算一位数除三位数，从上到下一步一步除，并写出余下的部分。"
+    },
+    {
+      "id": "pm-g3-n024",
+      "title": "商中间或末尾有0",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-n023"
+      ],
+      "tags": [
+        "divide",
+        "ch-div1",
+        "zero"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "某一位不够商 1 时会在商的这一位写 0，不把 0 漏掉或挪位。"
+    },
+    {
+      "id": "pm-g3-n025",
+      "title": "有余数的除法（多位数）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-n022"
+      ],
+      "tags": [
+        "divide",
+        "ch-div1",
+        "remainder"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "除到最后分不完时写出余数，余数必须比除数小，并能用乘加余数验算。"
+    },
+    {
+      "id": "pm-g3-n026",
+      "title": "用除法解决问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n013",
+        "pm-g3-n023",
+        "pm-g3-n025"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-div1",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "在「平均分、每份几个、能分几份、是几倍」的短故事里列出除法，并处理分不完的情况。"
+    },
+    {
+      "id": "pm-g3-n027",
+      "title": "乘除综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-n018",
+        "pm-g3-n019",
+        "pm-g3-n020",
+        "pm-g3-n024",
+        "pm-g3-n026"
+      ],
+      "tags": [
+        "fluency",
+        "ch-div1",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合多位数乘一位数、一位数除多位数、有 0 的积与商、估算和应用题。"
+    },
+    {
+      "id": "pm-g3-n028",
+      "title": "两位数乘整十",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n016"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul2",
+        "mental"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会计算两位数乘 10、20、30 等，体会「先乘再在末尾补 0」或分步乘。"
+    },
+    {
+      "id": "pm-g3-n029",
+      "title": "两位数乘两位数（不进位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n028"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul2",
+        "no-carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会分两层：用个位乘一遍、用十位乘一遍，再把两次积加起来（暂不进位）。"
+    },
+    {
+      "id": "pm-g3-n030",
+      "title": "两位数乘两位数（进位）入门",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-n029"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul2",
+        "carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "每一层相乘若进位，会把进上去的数加对，完成两位数乘两位数的入门竖式。"
+    },
+    {
+      "id": "pm-g3-n031",
+      "title": "认识几分之一",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-n027"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac",
+        "unit-fraction"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "把一个物体或一个整体平均分成几份，能指出其中一份是几分之一。"
+    },
+    {
+      "id": "pm-g3-n032",
+      "title": "认识几分之几",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n031"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "平均分之后能指出取了几份，读写几分之几，知道分子、分母各表示什么。"
+    },
+    {
+      "id": "pm-g3-n033",
+      "title": "分数的简单比较",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n032"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较同分母分数的大小，也能比较分子都是 1 的几分之一的大小。"
+    },
+    {
+      "id": "pm-g3-n034",
+      "title": "分数与平均分",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n032"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "在「把一盘、一段、一袋平均分」的短情境里，用分数说出取出的部分。"
+    },
+    {
+      "id": "pm-g3-n035",
+      "title": "认识一位小数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-n033"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "tenths"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道十分之几可以写成一位小数，能指出小数点左边是整数、右边第一位是十分位。"
+    },
+    {
+      "id": "pm-g3-n036",
+      "title": "小数的读写与大小",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n035"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会读、写一位小数，并比较两个一位小数的大小。"
+    },
+    {
+      "id": "pm-g3-n037",
+      "title": "一位小数加减入门",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-n036"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "add-sub"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "小数点对齐后，能计算简单的一位小数加减（以十分位为主）。"
+    },
+    {
+      "id": "pm-g3-n038",
+      "title": "三年级数与运算综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g3-n010",
+        "pm-g3-n027",
+        "pm-g3-n030",
+        "pm-g3-n034"
+      ],
+      "tags": [
+        "synthesis",
+        "ch-final",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合万以内加减与估算、多位数乘除、两位数乘法入门和分数初步。"
+    }
+  ]
+}
