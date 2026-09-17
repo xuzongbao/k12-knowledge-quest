@@ -1,4 +1,4 @@
-/** Load every map directory via Vite glob so the SPA works offline after build. */
+/** Load every map directory under maps/ (primary, junior, senior, …) so the SPA works offline after build. */
 import type { KnowledgeEdge, KnowledgeNode, MapMeta, Quest, QuestMap } from "./types";
 
 const metaModules = import.meta.glob("../../maps/**/map.meta.json", {
