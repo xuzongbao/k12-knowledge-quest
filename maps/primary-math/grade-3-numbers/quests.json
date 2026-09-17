@@ -1,0 +1,737 @@
+{
+  "map_id": "pm-g3-numbers",
+  "quests": [
+    {
+      "id": "pm-g3-n001-explain",
+      "node_id": "pm-g3-n001",
+      "title": "指出千百十个",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "任意说一个四位数，指出千位、百位、十位、个位，并说出每一位上的数各表示多少。",
+      "success_hint": "从右边起：个、十、百、千。"
+    },
+    {
+      "id": "pm-g3-n001-practice",
+      "node_id": "pm-g3-n001",
+      "title": "组成填空",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "完成如 4706＝□个千□个百□个十□个一；也能根据「3 个千和 8 个十」写出这个数。",
+      "success_hint": "哪一位上是 0，就表示这一位一个单位也没有。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n002-practice",
+      "node_id": "pm-g3-n002",
+      "title": "对齐数位再加",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算万以内不进位加法，如 3120+456、2503+130、1402+357。",
+      "success_hint": "相同数位对齐，从个位加起。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n003-explain",
+      "node_id": "pm-g3-n003",
+      "title": "满十向前一位进1",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用计数器或竖式说明 358+276：个位满十向十位进 1，十位再满十向百位进 1。",
+      "success_hint": "哪一位满十，就向前一位进 1。"
+    },
+    {
+      "id": "pm-g3-n003-practice",
+      "node_id": "pm-g3-n003",
+      "title": "万以内进位加法练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算含一次进位和连续进位的万以内加法，进上去的 1 要写在竖式里。",
+      "success_hint": "进上去的 1 不要忘了加到前一位。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-n003-quiz",
+      "node_id": "pm-g3-n003",
+      "title": "进位还是不进位",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合不进位与进位的万以内加法，先判断类型再计算。",
+      "success_hint": "一位一位看，满十才进。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n004-practice",
+      "node_id": "pm-g3-n004",
+      "title": "对齐数位再减",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算万以内不退位减法，如 5896−1234、4705−300、6580−250。",
+      "success_hint": "每一位都够减时，不必向前借。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n005-explain",
+      "node_id": "pm-g3-n005",
+      "title": "不够减就向前借",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 402−178：个位不够减向十位借，十位是 0 时要继续向百位借。",
+      "success_hint": "哪一位不够减，就向前一位借 1 当 10。"
+    },
+    {
+      "id": "pm-g3-n005-practice",
+      "node_id": "pm-g3-n005",
+      "title": "万以内退位减法练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算含退位和连续退位的万以内减法，并用加法验算两题。",
+      "success_hint": "差加上减数，应当等于被减数。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-n005-quiz",
+      "node_id": "pm-g3-n005",
+      "title": "退位还是不退位",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "进位加、退位减混排，要先判断类型再计算。",
+      "success_hint": "加看满十，减看够减。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-n006-explain",
+      "node_id": "pm-g3-n006",
+      "title": "从左往右一步一步",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用「先运来 1250 箱，又运来 380 箱，运走 460 箱」说明 1250+380−460 要先算哪一步。",
+      "success_hint": "连加连减和加减混合都从左边开始。"
+    },
+    {
+      "id": "pm-g3-n006-practice",
+      "node_id": "pm-g3-n006",
+      "title": "混合式中间得数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算若干万以内连加、连减、加减混合，写出每一步的中间得数。",
+      "success_hint": "可以在第一步下面标出小得数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n007-explain",
+      "node_id": "pm-g3-n007",
+      "title": "怎样知道算对了",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "各举一道加法和减法，说出用「交换加数再加一遍」或「差加减数」怎样验算。",
+      "success_hint": "加法可以交换加数；减法用差加减数看是否回到被减数。"
+    },
+    {
+      "id": "pm-g3-n007-practice",
+      "node_id": "pm-g3-n007",
+      "title": "验算找错",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给几道已算出的万以内加减，用验算判断对错，并把错题改正。",
+      "success_hint": "验算对不上，先查数位有没有对齐。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-n008-explain",
+      "node_id": "pm-g3-n008",
+      "title": "先看成整百整千",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 1980+312 看成 2000+300，说明「大约」是在找接近的整百或整千，用来估计得数大概是多少。",
+      "success_hint": "估算先看高位，不必先算得完全精确。"
+    },
+    {
+      "id": "pm-g3-n008-practice",
+      "node_id": "pm-g3-n008",
+      "title": "估一估是否合理",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给几道万以内加减，先估再算或判断别人的得数是否合理（如 3900+4100 不可能得 800）。",
+      "success_hint": "整千相加能很快看出对不对。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-n009-explain",
+      "node_id": "pm-g3-n009",
+      "title": "故事里是加还是减",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "各举一则「一共」「还剩」「比一个数多几」的短故事（数量在千以上），说明为什么用加或减。",
+      "success_hint": "先找到已知的那个数，再看是合起来还是去掉、比较。"
+    },
+    {
+      "id": "pm-g3-n009-practice",
+      "node_id": "pm-g3-n009",
+      "title": "万以内加减故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成「一共、还剩、比多、比少」短故事各一则，并列万以内算式计算。",
+      "success_hint": "「比多」在标准上再加；「比少」从标准里减。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-n010-practice",
+      "node_id": "pm-g3-n010",
+      "title": "万以内加减综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合竖式进退位、连加连减、验算、估算和一则应用题。",
+      "success_hint": "先判断这题在考进位、退位、验算还是选运算。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-n010-quiz",
+      "node_id": "pm-g3-n010",
+      "title": "万以内加减小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "限时混合检测：连续进位加、连续退位减、一道验算、一道估算、一则比多或还剩故事。",
+      "success_hint": "竖式一定对齐数位。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-boss-add",
+      "node_id": "pm-g3-n010",
+      "title": "关主：万以内加减大闯关",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主条件：①说出一次连续进位或连续退位的过程 ②正确完成进位加与退位减各 3 题 ③用验算检查一题 ④先估再算或判断一题是否合理 ⑤一则「一共/还剩」短故事列式正确。",
+      "success_hint": "这一关之后，万以内加减就打通了。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-n011-explain",
+      "node_id": "pm-g3-n011",
+      "title": "几倍就是几个几",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一盘有 6 颗草莓，三盘是 6 的 3 倍。用「3 个 6」说明「倍」是几个同样多的一份。",
+      "success_hint": "几倍就是把这一份同样地取几次。"
+    },
+    {
+      "id": "pm-g3-n012-explain",
+      "node_id": "pm-g3-n012",
+      "title": "求几倍用乘法",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一份是 8，求它的 4 倍。说明为什么写成 8×4，并求出得数。",
+      "success_hint": "已知一份的数量，求几倍，用乘法。"
+    },
+    {
+      "id": "pm-g3-n012-practice",
+      "node_id": "pm-g3-n012",
+      "title": "一个数的几倍",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成若干「求一个数的几倍」的口算或笔算，夹一则短故事。",
+      "success_hint": "先找出「一份是多少」和「是几倍」。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n013-explain",
+      "node_id": "pm-g3-n013",
+      "title": "求是几倍用除法",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "红绳 24 厘米，蓝绳 6 厘米。说明「24 是 6 的几倍」为什么用除法，并列出算式。",
+      "success_hint": "看一个数里有几个另一个数，就是求倍数。"
+    },
+    {
+      "id": "pm-g3-n013-practice",
+      "node_id": "pm-g3-n013",
+      "title": "是几倍还是几倍是多少",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合「求一个数的几倍」和「求一个数是另一个数的几倍」，先判断用乘还是用除。",
+      "success_hint": "已知倍数求数量用乘；已知两个数量求倍数用除。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n013-quiz",
+      "node_id": "pm-g3-n013",
+      "title": "倍的方向小测",
+      "type": "mini_quiz",
+      "xp": 25,
+      "prompt": "乘、除混排的「倍」问题，正确率达到掌握标准才过关。",
+      "success_hint": "先问：是在求「几倍是多少」，还是在求「是几倍」。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n014-explain",
+      "node_id": "pm-g3-n014",
+      "title": "几个十几个百",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 40×7 说成 4 个十乘 7，把 300×5 说成 3 个百乘 5，并口算出结果。",
+      "success_hint": "先算前面的数字，再在后面补上原来的 0。"
+    },
+    {
+      "id": "pm-g3-n014-practice",
+      "node_id": "pm-g3-n014",
+      "title": "整十整百口算乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算 20×6、70×8、400×3、900×5 等，写出想的过程。",
+      "success_hint": "只算有数字的那一位，0 跟着写在后面。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-n015-practice",
+      "node_id": "pm-g3-n015",
+      "title": "两位数乘一位数不进位",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算每一位乘完都不满十的两位数乘一位数，如 23×2、31×3、40×2。",
+      "success_hint": "从个位乘起，积写在对应数位下面。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n016-explain",
+      "node_id": "pm-g3-n016",
+      "title": "乘完满十怎么办",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用竖式说明 28×4：个位 8×4=32，写 2 向十位进 3，再算十位。",
+      "success_hint": "哪一位乘完满十，就把满了几个十进到前一位。"
+    },
+    {
+      "id": "pm-g3-n016-practice",
+      "node_id": "pm-g3-n016",
+      "title": "两位数乘一位数进位练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算两位数乘一位数（进位），进上去的数要标在竖式里。",
+      "success_hint": "进上去的数要和下一位的积加在一起。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-n016-quiz",
+      "node_id": "pm-g3-n016",
+      "title": "乘一位数进位小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合不进位与进位的两位数乘一位数，先判断再计算。",
+      "success_hint": "看这一位乘完满不满十。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n017-practice",
+      "node_id": "pm-g3-n017",
+      "title": "三位数乘一位数练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算三位数乘一位数，含连续进位，如 256×3、470×6。",
+      "success_hint": "从个位乘到百位，每一位的进位都要加上。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n018-explain",
+      "node_id": "pm-g3-n018",
+      "title": "0乘任何数得0",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较 205×4 和 250×4：中间的 0 与末尾的 0 在积里各出现在哪一位，并说明为什么。",
+      "success_hint": "这一位是 0，乘完这一位就是 0；末尾的 0 可以先记下再补上。"
+    },
+    {
+      "id": "pm-g3-n018-practice",
+      "node_id": "pm-g3-n018",
+      "title": "积里的0",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算因数中间有 0 或末尾有 0 的多位数乘一位数，检查积里的 0 有没有写丢。",
+      "success_hint": "中间的 0 不能跳过；末尾有几个 0 积的末尾往往也要有。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n019-explain",
+      "node_id": "pm-g3-n019",
+      "title": "先看成整十再乘",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 198×4 看成 200×4，说明积大约是 800，用来判断精确计算有没有算飞。",
+      "success_hint": "估算先看高位，再乘一位数。"
+    },
+    {
+      "id": "pm-g3-n019-practice",
+      "node_id": "pm-g3-n019",
+      "title": "乘法估一估",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给几道多位数乘一位数，先估后算，或判断别人的积是否合理。",
+      "success_hint": "198×5 接近 200×5=1000，不可能只有 200 多。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-n020-explain",
+      "node_id": "pm-g3-n020",
+      "title": "每份同样多求一共",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "每箱 125 本练习本，有 6 箱。用「几个几」或「倍」说明为什么用乘法，并列出算式。",
+      "success_hint": "每份同样多，求一共，就用乘法。"
+    },
+    {
+      "id": "pm-g3-n020-practice",
+      "node_id": "pm-g3-n020",
+      "title": "乘法故事练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成「每份同样多求一共」和「求几倍」短故事各两则，并列式计算。",
+      "success_hint": "先找出「每份几个」和「有几份」。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-n021-explain",
+      "node_id": "pm-g3-n021",
+      "title": "几个十除以几",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 80÷4 说成 8 个十平均分成 4 份，把 600÷3 说成 6 个百平均分成 3 份。",
+      "success_hint": "先算前面的数字，0 再跟上。"
+    },
+    {
+      "id": "pm-g3-n021-practice",
+      "node_id": "pm-g3-n021",
+      "title": "整十整百口算除",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算 60÷3、90÷3、800÷4、400÷2 等，并用乘法验算两题。",
+      "success_hint": "商乘除数应当回到被除数。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-n022-explain",
+      "node_id": "pm-g3-n022",
+      "title": "商写在哪一位",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用竖式说明 96÷4：先看十位够不够除，商写在十位上，再除个位。",
+      "success_hint": "除到哪一位，商就写在哪一位的上面。"
+    },
+    {
+      "id": "pm-g3-n022-practice",
+      "node_id": "pm-g3-n022",
+      "title": "一位数除两位数练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算除数是一位数、被除数是两位数的除法，商的数位要对齐。",
+      "success_hint": "不够除就看下一位，不要把商写错位。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n023-practice",
+      "node_id": "pm-g3-n023",
+      "title": "一位数除三位数练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算一位数除三位数，每一步写下乘积和余下的数。",
+      "success_hint": "从上到下，除完这一位，余下的数落下来继续除。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n023-quiz",
+      "node_id": "pm-g3-n023",
+      "title": "除法竖式小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合两位数、三位数被除数的一位数除法，正确率达到掌握标准才过关。",
+      "success_hint": "可以用乘法当场验算。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n024-explain",
+      "node_id": "pm-g3-n024",
+      "title": "这一位不够商就写0",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 812÷4：百位商 2 之后，十位上余下的数不够商 1，这一位要写 0，再除个位。",
+      "success_hint": "不够商 1 的那一位必须写 0，占住数位。"
+    },
+    {
+      "id": "pm-g3-n024-practice",
+      "node_id": "pm-g3-n024",
+      "title": "商里的0",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算商的中间或末尾有 0 的一位数除法，检查 0 有没有写丢。",
+      "success_hint": "商少写一个 0，得数会差十倍。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n025-explain",
+      "node_id": "pm-g3-n025",
+      "title": "分不完剩下的叫余数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 250 支铅笔装进每盒 6 支的盒子，说明能装满几盒、还剩几支，并写出带余数的除法。",
+      "success_hint": "余数一定要比除数小，否则还能再分一份。"
+    },
+    {
+      "id": "pm-g3-n025-practice",
+      "node_id": "pm-g3-n025",
+      "title": "有余数除法练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算若干一位数除多位数（有余数），用「商×除数+余数」验算；夹两道正好除尽的题。",
+      "success_hint": "先想这一位最多能商几，剩下的就是带到下一位的余数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n026-explain",
+      "node_id": "pm-g3-n026",
+      "title": "什么时候用除法",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "各举一则「平均分成几份求每份」和「每几个一份能分几份」的短故事，并说明分不完时余数表示什么。",
+      "success_hint": "已知一共和份数求每份，或已知一共和每份求份数，都用除法。"
+    },
+    {
+      "id": "pm-g3-n026-practice",
+      "node_id": "pm-g3-n026",
+      "title": "除法故事练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成平均分、求份数、求倍数故事，并穿插一则该用乘法的干扰故事；至少一则需要余数。",
+      "success_hint": "求一共或几倍用乘；求每份、份数或是几倍用除。",
+      "items_suggested": 5
+    },
+    {
+      "id": "pm-g3-n027-practice",
+      "node_id": "pm-g3-n027",
+      "title": "乘除综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合多位数乘一位数、一位数除多位数、积或商里有 0、有余数、估算和一则应用题。",
+      "success_hint": "先判断是求一共、求每份，还是分不完。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-n027-quiz",
+      "node_id": "pm-g3-n027",
+      "title": "乘除综合小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "乘除混排加 2 道有 0 的积或商、1 道有余数、1 则应用题，正确率达到掌握标准才过关。",
+      "success_hint": "可以用乘除互逆当场验算。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-boss-muldiv",
+      "node_id": "pm-g3-n027",
+      "title": "关主：多位数乘除大闯关",
+      "type": "boss",
+      "xp": 90,
+      "prompt": "击败关主条件：①两位数或三位数乘一位数 3 题（含一题因数有 0）②一位数除多位数 3 题（含一题商有 0）③一道有余数除法（余数小于除数）④先估再算或判断一题积是否合理 ⑤一则用乘或除的短故事。",
+      "success_hint": "竖式对齐数位，有 0 的积和商最容易写丢。",
+      "items_suggested": 14
+    },
+    {
+      "id": "pm-g3-n028-explain",
+      "node_id": "pm-g3-n028",
+      "title": "乘整十可以先乘再补0",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 24×30 看成 24×3 再在末尾补一个 0，或看成 24 个 30，说明两种想法人一样。",
+      "success_hint": "乘整十：先按乘一位数算，再按整十补 0。"
+    },
+    {
+      "id": "pm-g3-n028-practice",
+      "node_id": "pm-g3-n028",
+      "title": "两位数乘整十练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算 15×10、27×20、36×40 等，写出分步或补 0 的过程。",
+      "success_hint": "先乘前面的非零数字，0 写在积的末尾。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n029-explain",
+      "node_id": "pm-g3-n029",
+      "title": "分两层再加起来",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 12×34 说明：先用个位 4 去乘 12，再用十位 3 去乘 12（积向左错一位），最后把两层加起来。",
+      "success_hint": "个位乘的积从个位写起，十位乘的积从十位写起。"
+    },
+    {
+      "id": "pm-g3-n029-practice",
+      "node_id": "pm-g3-n029",
+      "title": "两位数乘法不进位",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算两层相乘暂不进位的两位数乘两位数，检查第二层是否错位。",
+      "success_hint": "第二层是用十位去乘，末尾要空出个位（或写 0）。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-n030-practice",
+      "node_id": "pm-g3-n030",
+      "title": "两位数乘法进位入门",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "竖式计算两位数乘两位数（含进位），每一层的进位只加在这一层里。",
+      "success_hint": "两层分别进位，最后再把两层积相加。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n030-quiz",
+      "node_id": "pm-g3-n030",
+      "title": "乘两位数入门小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合乘整十、不进位与进位的两位数乘法，先标出两层再计算。",
+      "success_hint": "先分清哪一层是个位乘、哪一层是十位乘。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n031-explain",
+      "node_id": "pm-g3-n031",
+      "title": "平均分成几份取一份",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把一张长方形纸对折再对折，指出其中一份是四分之一，并说出分母 4 表示什么。",
+      "success_hint": "平均分成几份，一份就是几分之一。"
+    },
+    {
+      "id": "pm-g3-n031-practice",
+      "node_id": "pm-g3-n031",
+      "title": "找出几分之一",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在圆形或纸条图上指出 1/2、1/3、1/4，并判断哪一份不是平均分。",
+      "success_hint": "不是平均分，就不能用几分之一来表示。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-n032-explain",
+      "node_id": "pm-g3-n032",
+      "title": "取了几份就是几分之几",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把一条彩带平均分成 8 段，涂色 3 段，说明这是八分之三，并指出分子、分母。",
+      "success_hint": "分母是平均分的份数，分子是取了几份。"
+    },
+    {
+      "id": "pm-g3-n032-practice",
+      "node_id": "pm-g3-n032",
+      "title": "读写几分之几",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "看图写分数、看分数涂色，夹两道「取了全部」或「一份都没取」的判断。",
+      "success_hint": "分子和分母同样大，表示取了整个；分子是 0 表示一份都没取。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n033-explain",
+      "node_id": "pm-g3-n033",
+      "title": "谁更大先看什么",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较 3/8 和 5/8，再比较 1/2 和 1/4。说明同分母看分子，分子都是 1 时看谁分得更细。",
+      "success_hint": "分得份数越多，每一份就越小。"
+    },
+    {
+      "id": "pm-g3-n033-practice",
+      "node_id": "pm-g3-n033",
+      "title": "分数比大小",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较同分母分数、分子是 1 的分数，填＞＜＝，并能在图上说明。",
+      "success_hint": "同分母：分子大的反而大；分子是 1：分母大的反而小。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n034-explain",
+      "node_id": "pm-g3-n034",
+      "title": "生活里的几分之几",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一盘饺子平均分成 6 份，吃了 2 份。用分数说出吃了多少，还剩多少。",
+      "success_hint": "先确认是不是平均分，再数取了几份。"
+    },
+    {
+      "id": "pm-g3-n034-practice",
+      "node_id": "pm-g3-n034",
+      "title": "分数小故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成三则「把一个整体平均分再取出几份」的短情境，写出分数并指出分子分母。",
+      "success_hint": "问取出的部分，就写几分之几；问剩下的部分，分子用总份数减去取出的份数。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g3-n035-explain",
+      "node_id": "pm-g3-n035",
+      "title": "十分之几写成小数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 3/10 写成 0.3，指出小数点右边第一位是十分位，并对照米和分米说一说。",
+      "success_hint": "一位小数表示十分之几。"
+    },
+    {
+      "id": "pm-g3-n035-practice",
+      "node_id": "pm-g3-n035",
+      "title": "分数和小数互相对照",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在 1/10 与 0.1、7/10 与 0.7 之间来回改写，并指出 0.5 是十分之五。",
+      "success_hint": "十分位上是几，就是十分之几。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n036-practice",
+      "node_id": "pm-g3-n036",
+      "title": "一位小数读读写写",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读、写一位小数，并比较大小，如 0.4 和 0.8、1.2 和 0.9。",
+      "success_hint": "先比整数部分，再比十分位。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-n037-explain",
+      "node_id": "pm-g3-n037",
+      "title": "小数点对齐再加减",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 0.5+0.3、1.2−0.4 说明：小数点对齐就是十分位对十分位，再按整数加减的办法算。",
+      "success_hint": "小数点对齐后，从十分位算起。"
+    },
+    {
+      "id": "pm-g3-n037-practice",
+      "node_id": "pm-g3-n037",
+      "title": "一位小数加减练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算简单的一位小数加减，检查小数点有没有对齐、得数的小数点有没有丢。",
+      "success_hint": "得数里的小数点要与加数、减数对齐。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-n038-practice",
+      "node_id": "pm-g3-n038",
+      "title": "地图综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：万以内进退位加减、乘一位数、一位数除多位数、有余数、两位数乘法入门、分数读写比较、一则估算。",
+      "success_hint": "先判断这题在考哪一盏已点亮的灯。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-boss-map",
+      "node_id": "pm-g3-n038",
+      "title": "关主：三年级数与运算通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①万以内进位加、退位减各 1 题 ②三位数乘一位数 1 题 ③一位数除三位数 1 题（可含余数）④两位数乘两位数入门 1 题 ⑤读写并比较两个分数 ⑥用估算判断一道计算是否合理。全部通过即通关本地图。",
+      "success_hint": "通关后这张地图记入已通关列表。二年级地图的万以内读写与整百整千口算，和本地图起点概念衔接，但存档仍按图分别计算，暂无跨地图引擎。",
+      "items_suggested": 18
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 中小学**知识图谱** + 轻量 RPG：**点亮知识点、打关升级**。
 
-现在完成的是 **Phase 0–1**：把数据格式定下来，并做出两张可校验、可通关的样例地图——**小学一年级「数与运算入门」**和**二年级「数与运算」**。
+现在完成的是 **Phase 0–1**：把数据格式定下来，并做出三张可校验、可通关的样例地图——**小学一年级「数与运算入门」**、**二年级「数与运算」**和**三年级「数与运算」**。
 
 > **内容边界（请先读）：**  
 > 知识点是义务教育课标四大领域 + 常见教材**目录/教学脉络**风格的**原创大纲**，用来排学习顺序。  
@@ -30,7 +30,7 @@
 | 阶段 | 内容 | 状态 |
 | --- | --- | --- |
 | 0 | 仓库、许可证、模式（schema）、玩法文字 | ✅ 本仓库 |
-| 1 | 小学数学样例：一、二年级数与运算可通关地图 + 1–6 年级标题路书 | ✅ 本仓库 |
+| 1 | 小学数学样例：一、二、三年级数与运算可通关地图 + 1–6 年级标题路书 | ✅ 本仓库 |
 | 2 | 补全小学数学其余年级/领域地图（仍是大纲，不搬书） | 未开始 |
 | 3 | 语文、英语等学科；英语可挂「单词知识图」 | 未开始 |
 | 4 | 游戏客户端或 Agent Skill：读 JSON、改存档、出题 | 未开始 |
@@ -44,16 +44,14 @@ schema/                              四种 JSON Schema + 短说明
 maps/primary-math/OVERVIEW.md        小学数学 1–6 年级领域标题（路书）
 maps/primary-math/grade-1-numbers/   一年级「数与运算」地图（四个 JSON + 演示存档）
 maps/primary-math/grade-2-numbers/   二年级「数与运算」地图（同上）
+maps/primary-math/grade-3-numbers/   三年级「数与运算」地图（同上）
 docs/gameplay.md                     点亮、经验、关主、软锁/硬前置
 docs/skill-roadmap.md                以后做成 Skill 的接口设想
 scripts/validate_map.py              校验地图合法
 scripts/_build_grade1_numbers.py     重新生成一年级 JSON
 scripts/_build_grade2_numbers.py     重新生成二年级 JSON
+scripts/_build_grade3_numbers.py     重新生成三年级 JSON
 LICENSE                              MIT
-docs/gameplay.md                 点亮、经验、关主、软锁/硬前置
-docs/skill-roadmap.md            以后做成 Skill 的接口设想
-scripts/validate_map.py          校验地图合法
-LICENSE                          MIT
 ```
 
 ## 模式怎么工作
@@ -70,7 +68,7 @@ LICENSE                          MIT
 约定：
 
 - 给学生看的字用**中文**
-- 程序 id 用英文短横线，如 `pm-g1-n001`、`pm-g2-n001`（primary math，年级，第几号节点）
+- 程序 id 用英文短横线，如 `pm-g1-n001`、`pm-g2-n001`、`pm-g3-n001`（primary math，年级，第几号节点）
 - `nodes.json` 里的 `prerequisites` 必须和「指向它的 prerequisite 边」一致
 - 只有前置边参与解锁；它们必须构成**有向无环图（DAG）**
 
@@ -79,7 +77,7 @@ LICENSE                          MIT
 
 ## 怎么「玩」这些样例地图
 
-现在没有画面，按数据走即可，和以后客户端规则相同。两张图各自通关，**还没有**跨地图进度引擎。
+现在没有画面，按数据走即可，和以后客户端规则相同。三张图各自通关，**还没有**跨地图进度引擎。
 
 ### 一年级 · 数与运算入门
 
@@ -105,11 +103,23 @@ LICENSE                          MIT
    「奇数与偶数」是**软锁支线**，不挡口诀，但通关前仍要点亮  
    万以内数认识可与加减主线并行，在「整百整千加减」处汇合
 
+### 三年级 · 数与运算
+
+1. 打开 [`maps/primary-math/grade-3-numbers/map.meta.json`](maps/primary-math/grade-3-numbers/map.meta.json)  
+   - 地图名：**三年级 · 数与运算**  
+   - 起点：`pm-g3-n001` 万以内数位与组成复习  
+   - 通关：点亮全部节点，并打过三名关主（万以内加减、多位数乘除、地图通关试炼）
+2. 演示存档里，起点已亮，`万以内加法（不进位）` 可学，`万以内减法（不退位）` 学到一半
+3. 主线建议：万以内加减与估算 → 关主 1 → 倍的认识 → 多位数乘一位数 → 一位数除多位数（含余数）→ 关主 2 → 分数初步 → 关主 3  
+   两位数乘两位数入门可与除法主线并行，在终章汇合  
+   「认识一位小数」是**软锁支线**（人教版三年级下常见、课标系统学习多在四年级），不挡终章关主，但通关前仍要点亮
+
 打印推荐层（从起点沿前置边展开）：
 
 ```bash
 python3 scripts/validate_map.py maps/primary-math/grade-1-numbers --tree
 python3 scripts/validate_map.py maps/primary-math/grade-2-numbers --tree
+python3 scripts/validate_map.py maps/primary-math/grade-3-numbers --tree
 ```
 
 ## 校验命令
@@ -120,6 +130,7 @@ python3 scripts/validate_map.py maps/primary-math/grade-2-numbers --tree
 pip install -r scripts/requirements.txt
 python3 scripts/validate_map.py maps/primary-math/grade-1-numbers
 python3 scripts/validate_map.py maps/primary-math/grade-2-numbers
+python3 scripts/validate_map.py maps/primary-math/grade-3-numbers
 python3 scripts/validate_map.py --all
 ```
 
@@ -130,20 +141,22 @@ python3 scripts/validate_map.py --all
 ```bash
 python3 scripts/_build_grade1_numbers.py
 python3 scripts/_build_grade2_numbers.py
+python3 scripts/_build_grade3_numbers.py
 python3 scripts/validate_map.py --all --tree
 ```
 
 ## 以后多学科
 
-小学数学 1–6 年级领域标题已经列在 [maps/primary-math/OVERVIEW.md](maps/primary-math/OVERVIEW.md)，目前一、二年级「数与运算」已做成可通关地图，其余年级/领域仍是**只占题目**。  
-两张地图概念上衔接（一年级 100 以内 → 二年级起点复习），但存档和校验都按图独立，跨地图进度以后再做。  
+小学数学 1–6 年级领域标题已经列在 [maps/primary-math/OVERVIEW.md](maps/primary-math/OVERVIEW.md)，目前一、二、三年级「数与运算」已做成可通关地图，其余年级/领域仍是**只占题目**。  
+三张地图概念上衔接（一年级 100 以内 → 二年级起点复习；二年级万以内读写与整百整千口算 → 三年级起点数位复习），但存档和校验都按图独立，跨地图进度以后再做。  
 语文、英语将新增 `maps/<学科>/`，复用同一套 schema。英语单词知识图可以和语文语素、数学应用题用语用 `related` 边连起来（见 Skill 路线）。
+
 
 ## 已知缺口（下一步）
 
 - 还没有图形界面，状态要靠读 JSON 想象
 - 练习题只有提示语，没有自动出题器
-- 三年级及以后、以及图形与几何等其它领域地图尚未填写节点
+- 四年级及以后、以及图形与几何等其它领域地图尚未填写节点
 - `strand` 枚举目前按数学四大领域；其他学科需要扩展字段
 
 这些不挡 Phase 1：模式、样例 DAG、校验、许可证已经齐。
