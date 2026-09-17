@@ -1,0 +1,920 @@
+{
+  "map_id": "pm-g3-geometry",
+  "nodes": [
+    {
+      "id": "pm-g3-geo-n001",
+      "title": "四边形有四条边",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "quad",
+        "ch-quad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出四边形有四条边、四个角，并把明显不是四边形的图形排除出去。"
+    },
+    {
+      "id": "pm-g3-geo-n002",
+      "title": "长方形再认识",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-geo-n001"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "rectangle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明长方形对边相等、四个角是直角，并在方格纸上指出它的长和宽。"
+    },
+    {
+      "id": "pm-g3-geo-n003",
+      "title": "正方形再认识",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-geo-n002"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "square"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明正方形四边相等、四个角是直角，它是特殊的长方形。"
+    },
+    {
+      "id": "pm-g3-geo-n004",
+      "title": "平行四边形长什么样",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-geo-n001"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "parallelogram"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认平行四边形：两组对边分别平行（看起来对边一样长、一样斜），角不一定是直角。"
+    },
+    {
+      "id": "pm-g3-geo-n005",
+      "title": "四边形家族",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n003",
+        "pm-g3-geo-n004"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "classify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把长方形、正方形、平行四边形放进四边形大家族里，并说出谁更「特殊」。"
+    },
+    {
+      "id": "pm-g3-geo-n006",
+      "title": "什么是周长",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-geo-n005"
+      ],
+      "tags": [
+        "perimeter",
+        "ch-peri"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道周长是封闭图形一周的长度，能用绳子围一圈再拉开来理解。"
+    },
+    {
+      "id": "pm-g3-geo-n007",
+      "title": "量一周有多长",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-geo-n006"
+      ],
+      "tags": [
+        "perimeter",
+        "ch-peri",
+        "measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能分段量出各边长度再相加，得到不规则或规则图形的周长。"
+    },
+    {
+      "id": "pm-g3-geo-n008",
+      "title": "长方形的周长",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n007",
+        "pm-g3-geo-n002"
+      ],
+      "tags": [
+        "perimeter",
+        "ch-peri",
+        "rectangle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「长+宽+长+宽」或「（长+宽）×2」求长方形周长，并说明两种算法一样。"
+    },
+    {
+      "id": "pm-g3-geo-n009",
+      "title": "正方形的周长",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n008",
+        "pm-g3-geo-n003"
+      ],
+      "tags": [
+        "perimeter",
+        "ch-peri",
+        "square"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「边长×4」求正方形周长，并与长方形周长公式对照。"
+    },
+    {
+      "id": "pm-g3-geo-n010",
+      "title": "周长公式为什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n009"
+      ],
+      "tags": [
+        "perimeter",
+        "ch-peri",
+        "formula"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用自己的话说清：对边相等所以可以先加一组邻边再乘 2，正方形四边相等所以乘 4。"
+    },
+    {
+      "id": "pm-g3-geo-n011",
+      "title": "周长实际问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n010"
+      ],
+      "tags": [
+        "perimeter",
+        "ch-peri",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能解决围篱笆、镜框边、跑道一圈等「求一周有多长」的短故事。"
+    },
+    {
+      "id": "pm-g3-geo-n012",
+      "title": "组合图形的周长",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-geo-n011"
+      ],
+      "tags": [
+        "perimeter",
+        "ch-peri",
+        "composite"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能看出拼在一起的图形，外轮廓哪些边还在、哪些边被挡住不再算进周长。"
+    },
+    {
+      "id": "pm-g3-geo-n013",
+      "title": "周长综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-geo-n012"
+      ],
+      "tags": [
+        "perimeter",
+        "ch-peri",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在规则、组合与实际问题中正确求周长，不把中间的公共边重复加进去。"
+    },
+    {
+      "id": "pm-g3-geo-n014",
+      "title": "面的大小",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-geo-n013"
+      ],
+      "tags": [
+        "area",
+        "ch-area"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道面积表示面的大小，能直观比较两张纸谁覆盖的地方更大。"
+    },
+    {
+      "id": "pm-g3-geo-n015",
+      "title": "平方厘米",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-geo-n014"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "unit"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识 1 平方厘米：边长 1 厘米的正方形的面积，用来量较小的面。"
+    },
+    {
+      "id": "pm-g3-geo-n016",
+      "title": "平方米与平方分米",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n015"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "unit"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "认识平方分米、平方米，能判断量手帕、课桌面、教室地面各用哪个单位更合适。"
+    },
+    {
+      "id": "pm-g3-geo-n017",
+      "title": "用面积单位铺一铺",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n016"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用面积单位小正方形铺满图形，数出大约有多少格，就是大约多少面积单位。"
+    },
+    {
+      "id": "pm-g3-geo-n018",
+      "title": "长方形的面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n017"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "rectangle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能发现长方形每行有几个格、有几行，面积 = 长 × 宽（单位是面积单位）。"
+    },
+    {
+      "id": "pm-g3-geo-n019",
+      "title": "正方形的面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n018"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "square"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「边长 × 边长」求正方形面积，并与长方形面积公式对照。"
+    },
+    {
+      "id": "pm-g3-geo-n020",
+      "title": "面积和周长不要混",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-geo-n019",
+        "pm-g3-geo-n013"
+      ],
+      "tags": [
+        "area",
+        "perimeter",
+        "ch-area"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能区分周长是「边走一圈」、面积是「面有多大」；同样的周长，面积不一定一样。"
+    },
+    {
+      "id": "pm-g3-geo-n021",
+      "title": "面积实际问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n020"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能解决铺地砖、给长方形纸求面积等短故事，注意单位要用平方。"
+    },
+    {
+      "id": "pm-g3-geo-n022",
+      "title": "面积入门综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-geo-n021"
+      ],
+      "tags": [
+        "area",
+        "ch-area",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能选择面积单位、求长方形正方形面积，并在易混题里指出谁在问周长、谁在问面积。"
+    },
+    {
+      "id": "pm-g3-geo-n023",
+      "title": "平移现象",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-geo-n005"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "translation"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从电梯、平移门感受图形整体移动、方向和大小不变。"
+    },
+    {
+      "id": "pm-g3-geo-n024",
+      "title": "方格纸上平移",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n023"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "translation"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在方格纸上把简单图形按「向右 3 格、向上 2 格」平移，并画出平移后的图形。"
+    },
+    {
+      "id": "pm-g3-geo-n025",
+      "title": "旋转现象",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-geo-n023"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "rotation"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从钟面指针、旋转木马感受图形绕一点转动；大小不变，方向会变。"
+    },
+    {
+      "id": "pm-g3-geo-n026",
+      "title": "轴对称图形判断",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n005"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "symmetry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能判断简单平面图形是不是轴对称图形，并画出一条对称轴。"
+    },
+    {
+      "id": "pm-g3-geo-n027",
+      "title": "图形的运动综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n024",
+        "pm-g3-geo-n025",
+        "pm-g3-geo-n026"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能分辨一道题是平移、旋转还是轴对称，不把「翻过来」说成「滑过去」。"
+    },
+    {
+      "id": "pm-g3-geo-n028",
+      "title": "从前面上面左面看",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-geo-n005"
+      ],
+      "tags": [
+        "view",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认简单物体从前面、上面、左面看到的形状；为四年级观察物体做铺垫。"
+    },
+    {
+      "id": "pm-g3-geo-n029",
+      "title": "周长面积易混专练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-geo-n020"
+      ],
+      "tags": [
+        "area",
+        "perimeter",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在成对题目里先判断问的是周长还是面积，再选择加边还是长乘宽。"
+    },
+    {
+      "id": "pm-g3-geo-n030",
+      "title": "四边形周长面积合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-geo-n022",
+        "pm-g3-geo-n027"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在同一张综合练习里完成四边形辨认、周长、面积和简单平移。"
+    },
+    {
+      "id": "pm-g3-geo-n031",
+      "title": "三年级图形通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "图形与几何",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g3-geo-n030"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合四边形、周长、面积入门与图形运动初步，完成本图收束检查。"
+    }
+  ]
+}

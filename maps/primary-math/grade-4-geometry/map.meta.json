@@ -1,0 +1,26 @@
+{
+  "id": "pm-g4-geometry",
+  "title": "四年级 · 图形与几何",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 4,
+  "strand": "图形与几何",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g4-geo-n001"
+  ],
+  "recommended_path_note": "从「直线射线线段」进入：先打通角的度量、垂直平行，再平行四边形梯形与三角形，然后面积公式扩展。三角形稳定性可与角的主线并行。轴对称作图与旋转作图（n029–n030）为软锁支线，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g4-geo-boss-angle",
+      "pm-g4-geo-boss-triangle",
+      "pm-g4-geo-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：角的度量师、三角形与四边形鉴定官、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学四年级「图形与几何」地图：角的度量 → 平行四边形与梯形 → 三角形 → 面积公式扩展。与三年级周长面积入门概念衔接，但各自独立通关。"
+}

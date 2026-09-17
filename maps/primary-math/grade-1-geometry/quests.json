@@ -1,0 +1,394 @@
+{
+  "map_id": "pm-g1-geometry",
+  "quests": [
+    {
+      "id": "pm-g1-geo-n001-explain",
+      "node_id": "pm-g1-geo-n001",
+      "title": "谁在上面",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把书放在桌上、橡皮放在书上。指着说谁在上面、谁在下面，再摸摸自己的头和脚。",
+      "success_hint": "上面靠近天花板或头顶，下面靠近地板或脚。"
+    },
+    {
+      "id": "pm-g1-geo-n002-explain",
+      "node_id": "pm-g1-geo-n002",
+      "title": "谁在前面",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "面向黑板站好。说出谁在你前面、谁在你后面，并解释为什么不说「上面」。",
+      "success_hint": "脸朝的方向是前，背对的方向是后。"
+    },
+    {
+      "id": "pm-g1-geo-n003-explain",
+      "node_id": "pm-g1-geo-n003",
+      "title": "左手右手",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举起左手和右手，再说出铅笔在你的左边还是右边。转过身后再说一次。",
+      "success_hint": "先认自己的左手右手，再说旁边的东西。"
+    },
+    {
+      "id": "pm-g1-geo-n003-practice",
+      "node_id": "pm-g1-geo-n003",
+      "title": "指一指左右",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "听口令指出：左耳、右口袋、左边的窗户。至少正确完成 6 次。",
+      "success_hint": "弄不清时先看哪只手。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-geo-n004-explain",
+      "node_id": "pm-g1-geo-n004",
+      "title": "六个方向一起说",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看一张课桌图，用上、下、前、后、左、右各说一句，把橡皮、铅笔、书的位置说清。",
+      "success_hint": "一次只说一个方向，说完六个方向再检查有没有说反。"
+    },
+    {
+      "id": "pm-g1-geo-n005-explain",
+      "node_id": "pm-g1-geo-n005",
+      "title": "以谁为标准",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "两位同学面对面站。说明「小明的左边」和「我的左边」为什么可能不是同一侧。",
+      "success_hint": "先想清楚这句话是以谁的身体当标准。"
+    },
+    {
+      "id": "pm-g1-geo-n006-practice",
+      "node_id": "pm-g1-geo-n006",
+      "title": "教室位置说一说",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "描述教室里黑板、门、自己的座位、邻座：至少用上四个不同的位置词。",
+      "success_hint": "先选定一件物品当「家」，再说别人在它的哪一边。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g1-geo-n007-practice",
+      "node_id": "pm-g1-geo-n007",
+      "title": "位置闯关练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "看图回答：谁在树上、谁在房子前面、小猫在小狗的左边还是右边。共 8 问。",
+      "success_hint": "上下看高低，前后看面向，左右先找标准。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-geo-n007-quiz",
+      "node_id": "pm-g1-geo-n007",
+      "title": "位置小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合题：听口令做动作 + 看图填位置词。正确率达到掌握标准才过关。",
+      "success_hint": "容易错的是「前」和「上」、「左」和「以谁为标准」。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-geo-boss-position",
+      "node_id": "pm-g1-geo-n007",
+      "title": "关主：位置小侦探",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主要过三关：①用上下前后左右描述一张图 ②指出面对面时左右会怎样 ③在教室里按口令站到正确位置。",
+      "success_hint": "说位置时先想「以谁为标准」。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-geo-n008-explain",
+      "node_id": "pm-g1-geo-n008",
+      "title": "摸摸面和棱",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "闭眼摸一块积木和一只皮球，说出哪个有平平的面、哪个圆滚滚、哪个有直直的棱。",
+      "success_hint": "用手当眼睛：平、直、圆滚滚是三种不同的感觉。"
+    },
+    {
+      "id": "pm-g1-geo-n009-explain",
+      "node_id": "pm-g1-geo-n009",
+      "title": "找出长方体",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "从牙膏盒、魔方、易拉罐、皮球里指出长方体，并说出你是凭什么判断的。",
+      "success_hint": "长方体有平平的面，看起来有的面比较长。"
+    },
+    {
+      "id": "pm-g1-geo-n010-explain",
+      "node_id": "pm-g1-geo-n010",
+      "title": "找出正方体",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出正方体学具或骰子，转一转，看看每个面是不是都一样方。",
+      "success_hint": "正方体每个面都是方方的，像小方块。"
+    },
+    {
+      "id": "pm-g1-geo-n011-explain",
+      "node_id": "pm-g1-geo-n011",
+      "title": "方块比一比",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把长方体和正方体放在一起，说两句相同的、两句不同的。",
+      "success_hint": "都有平的面；正方体更「匀称」，长方体常常一边更长。"
+    },
+    {
+      "id": "pm-g1-geo-n011-practice",
+      "node_id": "pm-g1-geo-n011",
+      "title": "分一分方块",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "给 8 件盒子类物品，分成「更像长方体」和「更像正方体」两组。",
+      "success_hint": "看各个面是不是差不多一样方。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-geo-n012-explain",
+      "node_id": "pm-g1-geo-n012",
+      "title": "找出圆柱",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出易拉罐、一段短蜡烛或茶叶桶，说明上下面圆圆的、侧面可以滚动。",
+      "success_hint": "圆柱能立在圆底上，侧面一滚就走。"
+    },
+    {
+      "id": "pm-g1-geo-n013-explain",
+      "node_id": "pm-g1-geo-n013",
+      "title": "找出球",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出皮球或玻璃球，试着让它停在桌面上，说说为什么它总想滚走。",
+      "success_hint": "球没有平平的面可以「坐稳」。"
+    },
+    {
+      "id": "pm-g1-geo-n014-explain",
+      "node_id": "pm-g1-geo-n014",
+      "title": "滚一滚堆一堆",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "分别滚和堆长方体、圆柱、球，记录谁容易叠高、谁容易滚走。",
+      "success_hint": "有平面更容易堆，处处圆的最会滚。"
+    },
+    {
+      "id": "pm-g1-geo-n015-practice",
+      "node_id": "pm-g1-geo-n015",
+      "title": "立体分家",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 12 件实物分成长方体、正方体、圆柱、球四类，说一类分错了会怎样。",
+      "success_hint": "先看能不能滚，再看有没有方方的面。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-geo-n016-explain",
+      "node_id": "pm-g1-geo-n016",
+      "title": "描一个面",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "选一块积木，沿一个面在纸上描一圈。说明纸上得到的是「面」，手里拿的是「块」。",
+      "success_hint": "描下来的没有厚度，是平面图形。"
+    },
+    {
+      "id": "pm-g1-geo-n017-explain",
+      "node_id": "pm-g1-geo-n017",
+      "title": "找出长方形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "从门、书本封面、三角板、杯口中指出长方形，并数一数它有几条边、几个角。",
+      "success_hint": "长方形有四条边、四个直直的角。"
+    },
+    {
+      "id": "pm-g1-geo-n018-explain",
+      "node_id": "pm-g1-geo-n018",
+      "title": "找出正方形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出手帕或方瓷砖，比一比四条边是不是一样长。",
+      "success_hint": "正方形四边一样长，角都是直的。"
+    },
+    {
+      "id": "pm-g1-geo-n019-explain",
+      "node_id": "pm-g1-geo-n019",
+      "title": "长方和正方",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用纸条摆一个长方形和一个正方形，说它们哪里像、哪里不像。",
+      "success_hint": "都是四边形；正方形四边相等，长方形常有两边更长。"
+    },
+    {
+      "id": "pm-g1-geo-n019-practice",
+      "node_id": "pm-g1-geo-n019",
+      "title": "纸片分一分",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "给一批四边形纸片，分成长方形和正方形。有一张接近正方形但有两边更长，说明该进哪一组。",
+      "success_hint": "先看四边是不是一样长。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-geo-n020-explain",
+      "node_id": "pm-g1-geo-n020",
+      "title": "找出三角形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出三角板或屋顶的轮廓，数三条边和三个角，再说一说三角形可以瘦、可以胖。",
+      "success_hint": "三条边围起来就是三角形。"
+    },
+    {
+      "id": "pm-g1-geo-n021-explain",
+      "node_id": "pm-g1-geo-n021",
+      "title": "找出圆",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出钟面、杯口或硬币的轮廓，说明圆没有角、周围是弯的。",
+      "success_hint": "圆是平面上的一圈，不是可以拿起来的球。"
+    },
+    {
+      "id": "pm-g1-geo-n022-practice",
+      "node_id": "pm-g1-geo-n022",
+      "title": "平面图形分家",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 12 张纸片，分成长方形、正方形、三角形、圆。夹两张故意画歪的干扰图。",
+      "success_hint": "先数边和角，再看是不是弯弯的一圈。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-geo-n023-explain",
+      "node_id": "pm-g1-geo-n023",
+      "title": "块和面不一样",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "拿起正方体和一张正方形纸，再说球和圆。用自己的话说明「块」和「面」的不同。",
+      "success_hint": "立体占地方、能拿在手里；平面像贴纸，是一个面。"
+    },
+    {
+      "id": "pm-g1-geo-n023-practice",
+      "node_id": "pm-g1-geo-n023",
+      "title": "对对碰：块和面",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "连线：长方体—长方形，正方体—正方形，圆柱底—圆；再指出两对容易叫错的名字。",
+      "success_hint": "名字像不等于是同一种图形。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-geo-n023-quiz",
+      "node_id": "pm-g1-geo-n023",
+      "title": "立体平面小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "既要给实物命名，也要从照片里指出平面图形。夹「球/圆」「正方体/正方形」对照题。",
+      "success_hint": "先问自己：这是一块还是一个面？",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-geo-boss-shape",
+      "node_id": "pm-g1-geo-n023",
+      "title": "关主：图形分拣员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①把立体实物分成四类 ②把纸片分成四类 ③说出两对「名字很像但不是同一种」的图形。",
+      "success_hint": "分拣时先分立体和平面，再分具体形状。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-geo-n024-practice",
+      "node_id": "pm-g1-geo-n024",
+      "title": "拼一个小房子",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用三角形和长方形拼一座小房子，再用圆和长方形拼一辆小车。说出每座用了哪些图形。",
+      "success_hint": "先想屋顶、车轮分别像什么图形。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g1-geo-n025-practice",
+      "node_id": "pm-g1-geo-n025",
+      "title": "搭一座小塔",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用积木搭一座至少三层的小塔，用上、下说出谁在谁的上面，并尽量用到圆柱。",
+      "success_hint": "下面用容易站稳的长方体或正方体。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g1-geo-n026-explain",
+      "node_id": "pm-g1-geo-n026",
+      "title": "拆开再拼回去",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把拼好的房子拆开，再用同样几块拼成另一种图案。说明图形可以分、也可以合。",
+      "success_hint": "块还是那些块，拼法变了，样子就变了。"
+    },
+    {
+      "id": "pm-g1-geo-n027-practice",
+      "node_id": "pm-g1-geo-n027",
+      "title": "七巧板小试",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "用七巧板中的两到四块，拼出一个大三角形或一个小房子轮廓。",
+      "success_hint": "先把最大的三角形放好，再补角落。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g1-geo-n028-practice",
+      "node_id": "pm-g1-geo-n028",
+      "title": "找图形小猎人",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在教室里找到立体图形和平面图形各三种，登记名称，并注明是块还是面。",
+      "success_hint": "钟面、黑板是面；粉笔盒、地球仪更像块。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g1-geo-n029-explain",
+      "node_id": "pm-g1-geo-n029",
+      "title": "对折看一看",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把一张剪纸对折，看看两边能不能基本重合。说一说你觉得「两边一样」是什么感觉。",
+      "success_hint": "对折能合上，就说明两边很像。"
+    },
+    {
+      "id": "pm-g1-geo-n030-practice",
+      "node_id": "pm-g1-geo-n030",
+      "title": "边认图形边说位置",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "看一张拼贴画：说出图中有哪些图形，再用上下左右说明太阳、房子、小车的位置。",
+      "success_hint": "先点名图形，再选一个当标准说位置。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-geo-n030-quiz",
+      "node_id": "pm-g1-geo-n030",
+      "title": "合练小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合：位置词、立体分类、平面分类、看图说拼组。",
+      "success_hint": "每一题先判断是在考位置还是在考图形名字。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-geo-n031-practice",
+      "node_id": "pm-g1-geo-n031",
+      "title": "入门地图综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：听口令做位置动作、给实物命名、给纸片分类、用三块图形拼一个指定轮廓。",
+      "success_hint": "不会时回到对应的那盏灯再看一眼。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-geo-boss-map",
+      "node_id": "pm-g1-geo-n031",
+      "title": "关主：一年级图形通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①位置图 6 问 ②立体与平面各分一类 ③说出一对容易混的名字 ④用图形拼一个小图案并说明位置。全部通过即通关本地图。",
+      "success_hint": "通关后记入已通关列表；位置和「块/面」是本图最容易回生的两处。",
+      "items_suggested": 16
+    }
+  ]
+}

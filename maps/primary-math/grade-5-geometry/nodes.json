@@ -1,0 +1,948 @@
+{
+  "map_id": "pm-g5-geometry",
+  "nodes": [
+    {
+      "id": "pm-g5-geo-n001",
+      "title": "面积从转化来",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "area",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说出：不会算的图形，常常先割补、拼成已经会算的图形，面积在转化前后不变。"
+    },
+    {
+      "id": "pm-g5-geo-n002",
+      "title": "平行四边形面积再练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-geo-n001"
+      ],
+      "tags": [
+        "area",
+        "ch-poly",
+        "parallelogram"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能熟练用底×高求平行四边形面积，并在图中排除斜边干扰，标出垂直的高。"
+    },
+    {
+      "id": "pm-g5-geo-n003",
+      "title": "三角形面积再练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-geo-n002"
+      ],
+      "tags": [
+        "area",
+        "ch-poly",
+        "triangle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能熟练用底×高÷2 求三角形面积，同一三角形可以选不同的底和高配对。"
+    },
+    {
+      "id": "pm-g5-geo-n004",
+      "title": "梯形面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n003"
+      ],
+      "tags": [
+        "area",
+        "ch-poly",
+        "trapezoid"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用（上底+下底）×高÷2 求梯形面积，并说明公式来自转化成平行四边形。"
+    },
+    {
+      "id": "pm-g5-geo-n005",
+      "title": "等底等高的面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n004"
+      ],
+      "tags": [
+        "area",
+        "ch-poly",
+        "equal-base"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能判断等底等高的三角形或平行四边形面积相等，并用来比较组合图中的块。"
+    },
+    {
+      "id": "pm-g5-geo-n006",
+      "title": "组合图形面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n005"
+      ],
+      "tags": [
+        "area",
+        "ch-poly",
+        "composite"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把多边形组合图形分割或补形，用加减求出面积。"
+    },
+    {
+      "id": "pm-g5-geo-n007",
+      "title": "不规则图形估面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n006"
+      ],
+      "tags": [
+        "area",
+        "ch-poly",
+        "estimate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在方格纸上用数格（满格、半格）估计树叶、脚印等不规则图形的面积。"
+    },
+    {
+      "id": "pm-g5-geo-n008",
+      "title": "多边形面积综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n007"
+      ],
+      "tags": [
+        "area",
+        "ch-poly",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能选择合适公式或割补策略，完成多边形面积章节收束检查。"
+    },
+    {
+      "id": "pm-g5-geo-n009",
+      "title": "圆的初步认识",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-geo-n001"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能辨认圆，知道圆是平面图形，周围是一条封闭的曲线。"
+    },
+    {
+      "id": "pm-g5-geo-n010",
+      "title": "圆心半径直径",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-geo-n009"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "parts"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出圆心、半径、直径：半径连圆心与圆上一点，直径过圆心且两端在圆上。"
+    },
+    {
+      "id": "pm-g5-geo-n011",
+      "title": "半径与直径关系",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-geo-n010"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "parts"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "知道同一圆中直径是半径的 2 倍，所有半径相等、所有直径相等。"
+    },
+    {
+      "id": "pm-g5-geo-n012",
+      "title": "圆的对称",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n011"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "symmetry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明圆是轴对称图形，任意一条直径所在直线都是对称轴；也具有旋转对称的直观。"
+    },
+    {
+      "id": "pm-g5-geo-n013",
+      "title": "用圆规画圆",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-geo-n011"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "draw"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用圆规按指定半径或直径画圆，并标出圆心。"
+    },
+    {
+      "id": "pm-g5-geo-n014",
+      "title": "周长与直径",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n013"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "circumference"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能通过滚动或绳子测量，感受圆的周长大约是直径的三倍多一点。"
+    },
+    {
+      "id": "pm-g5-geo-n015",
+      "title": "圆周率π",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n014"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "pi"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道圆周率 π 表示周长与直径的比值，计算时常用 3.14，它是一个无限不循环小数。"
+    },
+    {
+      "id": "pm-g5-geo-n016",
+      "title": "圆周长公式",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n015"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "circumference"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 C = πd 或 C = 2πr 求圆周长，并说明两个公式其实是一回事。"
+    },
+    {
+      "id": "pm-g5-geo-n017",
+      "title": "圆面积的转化",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n016",
+        "pm-g5-geo-n008"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "area"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把圆等分成若干扇形拼成近似长方形，直观理解圆面积公式从哪来。"
+    },
+    {
+      "id": "pm-g5-geo-n018",
+      "title": "圆面积公式",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n017"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "area"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 S = πr² 求圆面积，已知直径时先求出半径再代入。"
+    },
+    {
+      "id": "pm-g5-geo-n019",
+      "title": "圆环的面积",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n018"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "ring"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用两个圆的面积相减求圆环面积，注意两个半径不要用错。"
+    },
+    {
+      "id": "pm-g5-geo-n020",
+      "title": "圆的实际问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n019"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能解决车轮滚一圈、圆形花坛周长或面积、环形跑道等短故事，先判断问周长还是面积。"
+    },
+    {
+      "id": "pm-g5-geo-n021",
+      "title": "圆的周长面积综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n020"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能综合半径直径、周长面积公式和圆环，完成圆的章节收束检查。"
+    },
+    {
+      "id": "pm-g5-geo-n022",
+      "title": "轴对称的性质",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n012"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "symmetry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明对应点到对称轴距离相等、连线被对称轴垂直平分，并用来检查作图。"
+    },
+    {
+      "id": "pm-g5-geo-n023",
+      "title": "画轴对称图形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n022"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "symmetry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在方格纸上画出较复杂图形（如五边形、简单图案）关于给定直线的轴对称图形。"
+    },
+    {
+      "id": "pm-g5-geo-n024",
+      "title": "旋转的性质",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n022"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "rotation"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明旋转时对应点到旋转中心距离相等、旋转角相同，形状大小不变。"
+    },
+    {
+      "id": "pm-g5-geo-n025",
+      "title": "按要求旋转图形",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n024"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "rotation"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把图形绕指定点顺时针或逆时针旋转 90°、180°，画出旋转后的图形。"
+    },
+    {
+      "id": "pm-g5-geo-n026",
+      "title": "平移的性质",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-geo-n001"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "translation"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明平移时各点移动方向相同、距离相等，对应线段平行且相等。"
+    },
+    {
+      "id": "pm-g5-geo-n027",
+      "title": "三种运动一起看",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n023",
+        "pm-g5-geo-n025",
+        "pm-g5-geo-n026"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据对应点的关系判断图形经过了平移、轴对称还是旋转，或它们的组合。"
+    },
+    {
+      "id": "pm-g5-geo-n028",
+      "title": "用运动设计图案",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n027"
+      ],
+      "tags": [
+        "motion",
+        "ch-motion",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用平移、轴对称或旋转，由一个基本图案设计出简单花边或风车图案。"
+    },
+    {
+      "id": "pm-g5-geo-n029",
+      "title": "扇形是圆的一部分",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n018"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "sector"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出扇形由两条半径和一段圆弧围成；知道圆心角越大，扇形占圆的份儿越大。"
+    },
+    {
+      "id": "pm-g5-geo-n030",
+      "title": "观察物体与还原",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-geo-n008"
+      ],
+      "tags": [
+        "view",
+        "ch-poly"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据三个方向的视图想象简单立体的块数与摆法，为六年级展开图做铺垫。"
+    },
+    {
+      "id": "pm-g5-geo-n031",
+      "title": "多边形与圆合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-geo-n021",
+        "pm-g5-geo-n028"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在同一张综合练习里完成组合图形面积、圆的周长或面积，以及一种图形运动作图。"
+    },
+    {
+      "id": "pm-g5-geo-n032",
+      "title": "五年级图形通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "图形与几何",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g5-geo-n031"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合多边形面积、圆的周长面积与图形运动深入，完成本图收束检查。"
+    }
+  ]
+}

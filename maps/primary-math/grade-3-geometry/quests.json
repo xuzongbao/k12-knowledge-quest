@@ -1,0 +1,374 @@
+{
+  "map_id": "pm-g3-geometry",
+  "quests": [
+    {
+      "id": "pm-g3-geo-n001-explain",
+      "node_id": "pm-g3-geo-n001",
+      "title": "数四条边",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "从一组图形里指出哪些是四边形，说明你是按「四条边围起来」来判断的。",
+      "success_hint": "缺边、五条边、圆形都不是四边形。"
+    },
+    {
+      "id": "pm-g3-geo-n002-explain",
+      "node_id": "pm-g3-geo-n002",
+      "title": "长和宽在哪",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在方格纸上的长方形里标出长和宽，并用三角板确认四个角都是直角。",
+      "success_hint": "长通常指较长的那组对边。"
+    },
+    {
+      "id": "pm-g3-geo-n003-explain",
+      "node_id": "pm-g3-geo-n003",
+      "title": "正方形更特殊",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明正方形为什么可以算作长方形，但长方形不一定是正方形。",
+      "success_hint": "正方形四边相等，长方形只要对边相等。"
+    },
+    {
+      "id": "pm-g3-geo-n004-explain",
+      "node_id": "pm-g3-geo-n004",
+      "title": "斜斜的四边形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出平行四边形学具或图，拉动它让角变斜，观察对边是不是仍然一样长。",
+      "success_hint": "对边平行（一样斜）是它的关键样子。"
+    },
+    {
+      "id": "pm-g3-geo-n005-practice",
+      "node_id": "pm-g3-geo-n005",
+      "title": "四边形家族谱",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 8 个四边形贴标签：正方形 / 长方形（非正方形）/ 平行四边形（非长方形）/ 其他。",
+      "success_hint": "先看直角，再看边是否都相等。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-geo-n006-explain",
+      "node_id": "pm-g3-geo-n006",
+      "title": "围一周",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用绳子围手帕一圈，拉开绳子说明「这一圈的长」就是周长。",
+      "success_hint": "周长是边的总长，不是手帕有多大。"
+    },
+    {
+      "id": "pm-g3-geo-n007-practice",
+      "node_id": "pm-g3-geo-n007",
+      "title": "分段量再加",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "量一个三角形纸片三边（整厘米），相加得周长；再量一个不规则四边形。",
+      "success_hint": "每一段都要对准 0，最后把各边加起来。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-geo-n008-practice",
+      "node_id": "pm-g3-geo-n008",
+      "title": "两种周长算法",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对同一个长方形，用四边相加和（长+宽）×2 各算一次，核对得数。",
+      "success_hint": "两种算法只是把相同的边合并着加。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-geo-n009-practice",
+      "node_id": "pm-g3-geo-n009",
+      "title": "边长乘4",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求边长 6 厘米、8 厘米、1 分米的正方形周长，并说明为什么是乘 4。",
+      "success_hint": "四条边一样长，所以乘 4。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-geo-n010-explain",
+      "node_id": "pm-g3-geo-n010",
+      "title": "公式从哪来",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话讲清长方形周长为什么可以写成（长+宽）×2，正方形为什么是边长×4。",
+      "success_hint": "先加一组邻边，因为对面还有同样的一组。"
+    },
+    {
+      "id": "pm-g3-geo-n011-practice",
+      "node_id": "pm-g3-geo-n011",
+      "title": "篱笆和镜框",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解决两则短故事：给长方形菜地围篱笆；给正方形镜子做一圈木框。注意单位。",
+      "success_hint": "问的是「一圈有多长」，用周长。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-geo-n012-practice",
+      "node_id": "pm-g3-geo-n012",
+      "title": "公共边不算两遍",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "两个长方形拼成「L」形，求外轮廓周长，标出哪几条边被拼进去了。",
+      "success_hint": "被挡住的边不再走。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-geo-n013-practice",
+      "node_id": "pm-g3-geo-n013",
+      "title": "周长闯关练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合：长方形、正方形、三角形、L 形组合。指出其中一题如果把公共边加进去会怎样。",
+      "success_hint": "先描外轮廓，再决定加哪些边。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-geo-n013-quiz",
+      "node_id": "pm-g3-geo-n013",
+      "title": "周长小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "公式、实际问题、组合图形各有，夹一道把面积公式拿来求周长的改错。",
+      "success_hint": "周长的单位是长度单位，不是平方。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-geo-boss-perimeter",
+      "node_id": "pm-g3-geo-n013",
+      "title": "关主：周长测绘员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①说出周长含义 ②正确求长方形与正方形周长 ③求一个组合图形外轮廓周长。",
+      "success_hint": "外轮廓走一遍，公共边不要付第二次钱。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-geo-n014-explain",
+      "node_id": "pm-g3-geo-n014",
+      "title": "谁盖住的地方大",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把两张不同的纸叠一叠或铺在桌上，说明「盖住的地方」就是面的大小。",
+      "success_hint": "面积看覆盖，不看边走一圈。"
+    },
+    {
+      "id": "pm-g3-geo-n015-explain",
+      "node_id": "pm-g3-geo-n015",
+      "title": "1平方厘米",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "剪或指出边长 1 厘米的小正方形，说明它的面积是 1 平方厘米。",
+      "success_hint": "边长用厘米，面积就要说平方厘米。"
+    },
+    {
+      "id": "pm-g3-geo-n016-practice",
+      "node_id": "pm-g3-geo-n016",
+      "title": "选面积单位",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给邮票、课桌面、教室地面、操场选择平方厘米、平方分米或平方米。",
+      "success_hint": "面越大，越可能用平方米。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-geo-n017-practice",
+      "node_id": "pm-g3-geo-n017",
+      "title": "数格子",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在方格纸上数出 3 个图形大约占几格（半格按半格算），写出面积。",
+      "success_hint": "满格算 1，差不多半格算 0.5。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-geo-n018-practice",
+      "node_id": "pm-g3-geo-n018",
+      "title": "每行几个乘几行",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求几个长方形面积：先数格子验证，再用长×宽算一遍。",
+      "success_hint": "长和宽的单位相同，积的单位是平方。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-geo-n019-practice",
+      "node_id": "pm-g3-geo-n019",
+      "title": "边长乘边长",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求边长 4 厘米、7 厘米、1 分米的正方形面积，并写上正确的面积单位。",
+      "success_hint": "两个长度相乘，单位变成平方。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-geo-n020-explain",
+      "node_id": "pm-g3-geo-n020",
+      "title": "走边还是铺面",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用同一张长方形纸，先求周长再求面积，说明两个得数单位为什么不同、意思有什么不同。",
+      "success_hint": "周长用厘米，面积用平方厘米。"
+    },
+    {
+      "id": "pm-g3-geo-n020-practice",
+      "node_id": "pm-g3-geo-n020",
+      "title": "周长面积对照",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "成对题目：围篱笆 / 铺地砖；再比较两个周长相等、形状不同的图形面积是否一样。",
+      "success_hint": "先判断问的是圈还是面。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-geo-n021-practice",
+      "node_id": "pm-g3-geo-n021",
+      "title": "铺地砖短故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解决两则面积故事：给长方形桌面铺纸；给正方形手帕求面积。提醒写单位。",
+      "success_hint": "铺满问的是面积。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-geo-n022-practice",
+      "node_id": "pm-g3-geo-n022",
+      "title": "面积闯关练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合选单位、长方形正方形面积、与周长对照的易混题。",
+      "success_hint": "看到「长×宽」先问：这是在铺面吗？",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-geo-n022-quiz",
+      "node_id": "pm-g3-geo-n022",
+      "title": "面积入门小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "单位、公式、实际问题、周长面积判断各有。夹一道单位漏写「平方」的改错。",
+      "success_hint": "面积单位必须带「平方」。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-geo-boss-area",
+      "node_id": "pm-g3-geo-n022",
+      "title": "关主：面积铺贴员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①选对面积单位 ②求长方形与正方形面积 ③在一组题里指出哪几题其实在问周长。",
+      "success_hint": "先判断圈还是面，再动笔。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-geo-n023-explain",
+      "node_id": "pm-g3-geo-n023",
+      "title": "整体滑过去",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看平移门或电梯，说明图案怎样移动、有没有翻转或转动。",
+      "success_hint": "平移：位置变，方向和大小不变。"
+    },
+    {
+      "id": "pm-g3-geo-n024-practice",
+      "node_id": "pm-g3-geo-n024",
+      "title": "向右3格向上2格",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在方格纸上平移三角形和长方形各一次，标出对应点移动了几格。",
+      "success_hint": "每个点移动的格数和方向都要相同。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-geo-n025-explain",
+      "node_id": "pm-g3-geo-n025",
+      "title": "绕一点转",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看钟面指针或风车，指出旋转中心，说明转动后形状大小不变、朝向变了。",
+      "success_hint": "旋转要说清绕哪一点、转了多少。"
+    },
+    {
+      "id": "pm-g3-geo-n026-practice",
+      "node_id": "pm-g3-geo-n026",
+      "title": "对称轴画一画",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断 6 个图形是不是轴对称，给是的图形画出一条对称轴（正方形可画不止一条）。",
+      "success_hint": "对折能重合才有对称轴。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-geo-n027-practice",
+      "node_id": "pm-g3-geo-n027",
+      "title": "三种运动辨一辨",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 6 组「运动前后」的图，判断是平移、旋转还是轴对称（翻折）。",
+      "success_hint": "滑、转、翻，先用一个字抓住动作。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-geo-n028-practice",
+      "node_id": "pm-g3-geo-n028",
+      "title": "三个方向看积木",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "看两层积木，选出前面、上面、左面的视图。本节点为软锁，可先走主线再回来。",
+      "success_hint": "上面看的是俯视轮廓。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-geo-n029-practice",
+      "node_id": "pm-g3-geo-n029",
+      "title": "先判断再计算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 道短题先圈「周长/面积」，再计算其中 6 道。含周长相等面积不同的对照。",
+      "success_hint": "圈错了，公式再熟也会算错对象。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-geo-n030-practice",
+      "node_id": "pm-g3-geo-n030",
+      "title": "四边形与测量合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合：四边形分类、周长、面积、方格纸平移。",
+      "success_hint": "每题先点名这是家族、圈还是面、还是运动。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-geo-n030-quiz",
+      "node_id": "pm-g3-geo-n030",
+      "title": "合练小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "覆盖四边形、周长公式、面积公式、易混判断和一题平移。",
+      "success_hint": "（长+宽）×2 与长×宽不要对调。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-geo-n031-practice",
+      "node_id": "pm-g3-geo-n031",
+      "title": "三年级图形综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：辨认平行四边形、求周长与面积、组合图形外轮廓、平移 3 格。",
+      "success_hint": "对回已经点亮的灯再下手。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-geo-boss-map",
+      "node_id": "pm-g3-geo-n031",
+      "title": "关主：三年级图形通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①四边形家族 ②长方形正方形周长 ③长方形正方形面积 ④指出一题是周长还是面积 ⑤完成一次平移。全部通过即通关。",
+      "success_hint": "通关后记入已通关列表；周长与面积是本图最容易回生的一对。",
+      "items_suggested": 16
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "map_id": "pm-g6-geometry",
+  "edges": [
+    {
+      "from": "pm-g6-geo-n001",
+      "to": "pm-g6-geo-n002",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n001 需先于 pm-g6-geo-n002"
+    },
+    {
+      "from": "pm-g6-geo-n001",
+      "to": "pm-g6-geo-n003",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n001 需先于 pm-g6-geo-n003"
+    },
+    {
+      "from": "pm-g6-geo-n002",
+      "to": "pm-g6-geo-n004",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n002 需先于 pm-g6-geo-n004"
+    },
+    {
+      "from": "pm-g6-geo-n003",
+      "to": "pm-g6-geo-n004",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n003 需先于 pm-g6-geo-n004"
+    },
+    {
+      "from": "pm-g6-geo-n003",
+      "to": "pm-g6-geo-n005",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n003 需先于 pm-g6-geo-n005"
+    },
+    {
+      "from": "pm-g6-geo-n004",
+      "to": "pm-g6-geo-n006",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n004 需先于 pm-g6-geo-n006"
+    },
+    {
+      "from": "pm-g6-geo-n005",
+      "to": "pm-g6-geo-n006",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n005 需先于 pm-g6-geo-n006"
+    },
+    {
+      "from": "pm-g6-geo-n002",
+      "to": "pm-g6-geo-n007",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n002 需先于 pm-g6-geo-n007"
+    },
+    {
+      "from": "pm-g6-geo-n007",
+      "to": "pm-g6-geo-n008",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n007 需先于 pm-g6-geo-n008"
+    },
+    {
+      "from": "pm-g6-geo-n008",
+      "to": "pm-g6-geo-n009",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n008 需先于 pm-g6-geo-n009"
+    },
+    {
+      "from": "pm-g6-geo-n001",
+      "to": "pm-g6-geo-n009",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n001 需先于 pm-g6-geo-n009"
+    },
+    {
+      "from": "pm-g6-geo-n009",
+      "to": "pm-g6-geo-n010",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n009 需先于 pm-g6-geo-n010"
+    },
+    {
+      "from": "pm-g6-geo-n002",
+      "to": "pm-g6-geo-n010",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n002 需先于 pm-g6-geo-n010"
+    },
+    {
+      "from": "pm-g6-geo-n010",
+      "to": "pm-g6-geo-n011",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n010 需先于 pm-g6-geo-n011"
+    },
+    {
+      "from": "pm-g6-geo-n006",
+      "to": "pm-g6-geo-n012",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n006 需先于 pm-g6-geo-n012"
+    },
+    {
+      "from": "pm-g6-geo-n011",
+      "to": "pm-g6-geo-n012",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n011 需先于 pm-g6-geo-n012"
+    },
+    {
+      "from": "pm-g6-geo-n001",
+      "to": "pm-g6-geo-n013",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n001 需先于 pm-g6-geo-n013"
+    },
+    {
+      "from": "pm-g6-geo-n013",
+      "to": "pm-g6-geo-n014",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n013 需先于 pm-g6-geo-n014"
+    },
+    {
+      "from": "pm-g6-geo-n003",
+      "to": "pm-g6-geo-n014",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n003 需先于 pm-g6-geo-n014"
+    },
+    {
+      "from": "pm-g6-geo-n014",
+      "to": "pm-g6-geo-n015",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n014 需先于 pm-g6-geo-n015"
+    },
+    {
+      "from": "pm-g6-geo-n005",
+      "to": "pm-g6-geo-n015",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n005 需先于 pm-g6-geo-n015"
+    },
+    {
+      "from": "pm-g6-geo-n015",
+      "to": "pm-g6-geo-n016",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n015 需先于 pm-g6-geo-n016"
+    },
+    {
+      "from": "pm-g6-geo-n009",
+      "to": "pm-g6-geo-n016",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n009 需先于 pm-g6-geo-n016"
+    },
+    {
+      "from": "pm-g6-geo-n013",
+      "to": "pm-g6-geo-n017",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n013 需先于 pm-g6-geo-n017"
+    },
+    {
+      "from": "pm-g6-geo-n017",
+      "to": "pm-g6-geo-n018",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n017 需先于 pm-g6-geo-n018"
+    },
+    {
+      "from": "pm-g6-geo-n016",
+      "to": "pm-g6-geo-n018",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n016 需先于 pm-g6-geo-n018"
+    },
+    {
+      "from": "pm-g6-geo-n018",
+      "to": "pm-g6-geo-n019",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n018 需先于 pm-g6-geo-n019"
+    },
+    {
+      "from": "pm-g6-geo-n001",
+      "to": "pm-g6-geo-n020",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n001 需先于 pm-g6-geo-n020"
+    },
+    {
+      "from": "pm-g6-geo-n020",
+      "to": "pm-g6-geo-n021",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n020 需先于 pm-g6-geo-n021"
+    },
+    {
+      "from": "pm-g6-geo-n021",
+      "to": "pm-g6-geo-n022",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n021 需先于 pm-g6-geo-n022"
+    },
+    {
+      "from": "pm-g6-geo-n022",
+      "to": "pm-g6-geo-n023",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n022 需先于 pm-g6-geo-n023"
+    },
+    {
+      "from": "pm-g6-geo-n023",
+      "to": "pm-g6-geo-n024",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n023 需先于 pm-g6-geo-n024"
+    },
+    {
+      "from": "pm-g6-geo-n012",
+      "to": "pm-g6-geo-n025",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n012 需先于 pm-g6-geo-n025"
+    },
+    {
+      "from": "pm-g6-geo-n019",
+      "to": "pm-g6-geo-n026",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n019 需先于 pm-g6-geo-n026"
+    },
+    {
+      "from": "pm-g6-geo-n012",
+      "to": "pm-g6-geo-n026",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n012 需先于 pm-g6-geo-n026"
+    },
+    {
+      "from": "pm-g6-geo-n014",
+      "to": "pm-g6-geo-n027",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n014 需先于 pm-g6-geo-n027"
+    },
+    {
+      "from": "pm-g6-geo-n004",
+      "to": "pm-g6-geo-n027",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n004 需先于 pm-g6-geo-n027"
+    },
+    {
+      "from": "pm-g6-geo-n024",
+      "to": "pm-g6-geo-n028",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n024 需先于 pm-g6-geo-n028"
+    },
+    {
+      "from": "pm-g6-geo-n011",
+      "to": "pm-g6-geo-n028",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n011 需先于 pm-g6-geo-n028"
+    },
+    {
+      "from": "pm-g6-geo-n026",
+      "to": "pm-g6-geo-n029",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n026 需先于 pm-g6-geo-n029"
+    },
+    {
+      "from": "pm-g6-geo-n024",
+      "to": "pm-g6-geo-n029",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n024 需先于 pm-g6-geo-n029"
+    },
+    {
+      "from": "pm-g6-geo-n025",
+      "to": "pm-g6-geo-n029",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n025 需先于 pm-g6-geo-n029"
+    },
+    {
+      "from": "pm-g6-geo-n029",
+      "to": "pm-g6-geo-n030",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n029 需先于 pm-g6-geo-n030"
+    },
+    {
+      "from": "pm-g6-geo-n025",
+      "to": "pm-g6-geo-n031",
+      "type": "prerequisite",
+      "note": "pm-g6-geo-n025 需先于 pm-g6-geo-n031"
+    },
+    {
+      "from": "pm-g6-geo-n001",
+      "to": "pm-g6-geo-n002",
+      "type": "related",
+      "note": "正方体是长、宽、高都相等的长方体。"
+    },
+    {
+      "from": "pm-g6-geo-n003",
+      "to": "pm-g6-geo-n005",
+      "type": "application",
+      "note": "展开图六个面铺平，正好帮助理解和计算表面积。"
+    },
+    {
+      "from": "pm-g6-geo-n005",
+      "to": "pm-g6-geo-n009",
+      "type": "easily_confused",
+      "note": "表面积是六个面的总面积，体积是所占空间；单位一个是平方，一个是立方。"
+    },
+    {
+      "from": "pm-g6-geo-n011",
+      "to": "pm-g6-geo-n009",
+      "type": "easily_confused",
+      "note": "容积看容器里面，体积看物体本身；数字上常能换算，意思不同。"
+    },
+    {
+      "from": "pm-g6-geo-n014",
+      "to": "pm-g6-geo-n015",
+      "type": "related",
+      "note": "侧面展开成长方形，长是底面周长，所以侧面积 = 底面周长 × 高。"
+    },
+    {
+      "from": "pm-g6-geo-n015",
+      "to": "pm-g6-geo-n016",
+      "type": "easily_confused",
+      "note": "侧面积只包一圈，表面积还要加两个底；体积是底面积乘高。"
+    },
+    {
+      "from": "pm-g6-geo-n016",
+      "to": "pm-g6-geo-n018",
+      "type": "easily_confused",
+      "note": "等底等高时圆锥是圆柱的三分之一，不要漏乘 1/3，也不要除以 2。"
+    },
+    {
+      "from": "pm-g6-geo-n009",
+      "to": "pm-g6-geo-n016",
+      "type": "related",
+      "note": "柱体体积都可以看成底面积乘高，底从长方形换成圆。"
+    },
+    {
+      "from": "pm-g6-geo-n022",
+      "to": "pm-g6-geo-n023",
+      "type": "related",
+      "note": "放大与缩小都是相似变化：角不变，边成比例。"
+    },
+    {
+      "from": "pm-g6-geo-n023",
+      "to": "pm-g6-geo-n020",
+      "type": "easily_confused",
+      "note": "边长缩小到 1/2，面积缩小到 1/4，不要按同一倍数去估面积。"
+    },
+    {
+      "from": "pm-g6-geo-n020",
+      "to": "pm-g6-geo-n024",
+      "type": "application",
+      "note": "比例尺就是图纸把实际图形按倍数缩小后的记录方式。"
+    },
+    {
+      "from": "pm-g6-geo-n004",
+      "to": "pm-g6-geo-n014",
+      "type": "related",
+      "note": "展开图都是把立体的面铺到平面上，只是面的形状不同。"
+    },
+    {
+      "from": "pm-g6-geo-n025",
+      "to": "pm-g6-geo-n031",
+      "type": "related",
+      "note": "观察物体和路线图都是在用不同方向描述空间。"
+    },
+    {
+      "from": "pm-g6-geo-n027",
+      "to": "pm-g6-geo-n015",
+      "type": "application",
+      "note": "展开图看错，侧面积就会把底面周长用错。"
+    }
+  ]
+}

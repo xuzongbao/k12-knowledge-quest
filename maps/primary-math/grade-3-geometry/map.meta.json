@@ -1,0 +1,26 @@
+{
+  "id": "pm-g3-geometry",
+  "title": "三年级 · 图形与几何",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 3,
+  "strand": "图形与几何",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g3-geo-n001"
+  ],
+  "recommended_path_note": "从「四边形有四条边」进入：先认长方形正方形与平行四边形初步，再打通周长，然后面积入门。平移旋转与轴对称判断可与测量主线并行。观察物体（n028）为软锁支线，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g3-geo-boss-perimeter",
+      "pm-g3-geo-boss-area",
+      "pm-g3-geo-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：周长测绘员、面积铺贴员、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学三年级「图形与几何」地图：四边形 → 周长 → 面积入门 → 平移旋转初步。与二年级长度、角、长方形正方形初步概念衔接，但各自独立通关。"
+}

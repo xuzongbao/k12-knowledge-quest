@@ -1,0 +1,373 @@
+{
+  "map_id": "pm-g5-geometry",
+  "quests": [
+    {
+      "id": "pm-g5-geo-n001-explain",
+      "node_id": "pm-g5-geo-n001",
+      "title": "割补面积不变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把一张平行四边形纸沿高剪开，拼成长方形。说明面积为什么没变。",
+      "success_hint": "只是改形状，没有丢掉或添上纸。"
+    },
+    {
+      "id": "pm-g5-geo-n002-practice",
+      "node_id": "pm-g5-geo-n002",
+      "title": "别量斜边当高",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 4 个平行四边形面积，图中斜边、邻边都标了数，必须选用垂直的高。",
+      "success_hint": "高是垂直线段，不是斜腰。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-geo-n003-practice",
+      "node_id": "pm-g5-geo-n003",
+      "title": "换底换高",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对同一个三角形用两组不同的底和高各算一次面积，核对得数。",
+      "success_hint": "底和高必须配对垂直。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-geo-n004-practice",
+      "node_id": "pm-g5-geo-n004",
+      "title": "上底下底加起来",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 4 个梯形面积，先标上底、下底、高，再代入公式。",
+      "success_hint": "高夹在两底之间，要垂直。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-geo-n005-explain",
+      "node_id": "pm-g5-geo-n005",
+      "title": "形状不同面积同",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出图中几个等底等高的三角形，说明它们面积相等的理由。",
+      "success_hint": "公式只看底和高两个数。"
+    },
+    {
+      "id": "pm-g5-geo-n006-practice",
+      "node_id": "pm-g5-geo-n006",
+      "title": "分割或补形",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 3 个组合多边形面积：至少一次分割、一次补成大矩形再减。",
+      "success_hint": "辅助线要让每一块都变成会算的图形。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-geo-n007-practice",
+      "node_id": "pm-g5-geo-n007",
+      "title": "数格估树叶",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在方格纸上估计两片叶子的面积：满格算 1，超过半格算 1，不到半格算 0。",
+      "success_hint": "估面积允许有一两格出入，方法要对。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g5-geo-n008-practice",
+      "node_id": "pm-g5-geo-n008",
+      "title": "多边形闯关练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合：平行四边形、三角形、梯形、组合图形。每题先写公式再算。",
+      "success_hint": "先点名图形，再找底和高。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-geo-n008-quiz",
+      "node_id": "pm-g5-geo-n008",
+      "title": "多边形面积小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "公式选择、组合图形、等底等高判断。夹一道把斜边当高的改错。",
+      "success_hint": "垂直才是高。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-geo-boss-polygon",
+      "node_id": "pm-g5-geo-n008",
+      "title": "关主：多边形面积工程师",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①平行四边形或三角形面积（标底高）②梯形面积 ③一个组合图形 ④说明转化前后面积为什么不变。",
+      "success_hint": "转化是本关的钥匙。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-geo-n009-explain",
+      "node_id": "pm-g5-geo-n009",
+      "title": "圆是一个面",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出钟面、杯口轮廓是圆，并说明圆和球不是同一种图形。",
+      "success_hint": "圆在平面上，球是立体。"
+    },
+    {
+      "id": "pm-g5-geo-n010-explain",
+      "node_id": "pm-g5-geo-n010",
+      "title": "指出半径直径",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在一个圆里画出半径、直径和一条不过圆心的弦，说明直径的两个条件。",
+      "success_hint": "过圆心、两端在圆上，缺一不可。"
+    },
+    {
+      "id": "pm-g5-geo-n011-practice",
+      "node_id": "pm-g5-geo-n011",
+      "title": "r和d换算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知半径求直径、已知直径求半径各 4 题，单位保持一致。",
+      "success_hint": "直径 = 2 × 半径。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-geo-n012-explain",
+      "node_id": "pm-g5-geo-n012",
+      "title": "无数条对称轴",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把圆形纸对折多次，说明每一条折痕（直径）都可以当对称轴。",
+      "success_hint": "圆对任何一条直径两侧都重合。"
+    },
+    {
+      "id": "pm-g5-geo-n013-practice",
+      "node_id": "pm-g5-geo-n013",
+      "title": "圆规开口是半径",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出半径 3 厘米和直径 8 厘米的圆各一个，标出圆心。直径题要先想开口多大。",
+      "success_hint": "圆规两脚的距离是半径。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g5-geo-n014-explain",
+      "node_id": "pm-g5-geo-n014",
+      "title": "滚一圈比直径",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用圆形学具滚一圈，把滚过的线与直径比，说出大约是几倍。",
+      "success_hint": "会得到三倍多一点，为 π 做准备。"
+    },
+    {
+      "id": "pm-g5-geo-n015-explain",
+      "node_id": "pm-g5-geo-n015",
+      "title": "π是一个比值",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话说：π 不是圆的周长，而是周长除以直径得到的那个倍数，计算常用 3.14。",
+      "success_hint": "不同圆的这个比值都一样。"
+    },
+    {
+      "id": "pm-g5-geo-n016-practice",
+      "node_id": "pm-g5-geo-n016",
+      "title": "2πr或πd",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知半径或直径求周长各 3 题，π 取 3.14，并说明为什么两个公式相等。",
+      "success_hint": "d = 2r，所以 πd = 2πr。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-geo-n017-explain",
+      "node_id": "pm-g5-geo-n017",
+      "title": "拼成近似长方形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看圆被切成许多小扇形再拼：长大约是半个周长，宽是半径。由此说出面积公式。",
+      "success_hint": "长 × 宽 ≈ πr × r = πr²。"
+    },
+    {
+      "id": "pm-g5-geo-n018-practice",
+      "node_id": "pm-g5-geo-n018",
+      "title": "πr²求面积",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知半径或直径求圆面积，π 取 3.14。直径题必须先求 r。",
+      "success_hint": "面积公式用的是半径的平方。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-geo-n019-practice",
+      "node_id": "pm-g5-geo-n019",
+      "title": "大圆减小圆",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 3 个圆环面积，图中有的给两个半径，有的给外径和环宽。",
+      "success_hint": "先求出两个半径，再两个面积相减。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-geo-n020-practice",
+      "node_id": "pm-g5-geo-n020",
+      "title": "车轮和花坛",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "三则短故事：车轮滚一圈走多远；圆形花坛占地；环形跑道面积。先判断周长还是面积。",
+      "success_hint": "滚一圈走周长，铺满问面积。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-geo-n021-practice",
+      "node_id": "pm-g5-geo-n021",
+      "title": "圆周长面积闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合：r 与 d、周长、面积、圆环、易混判断。",
+      "success_hint": "看到平方想面积，看到 2πr 想周长。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-geo-n021-quiz",
+      "node_id": "pm-g5-geo-n021",
+      "title": "圆的小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "公式选择、已知直径求面积、圆环、实际问题。夹一道用 πd² 求面积的改错。",
+      "success_hint": "面积是 πr²，不是 πd²。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-geo-boss-circle",
+      "node_id": "pm-g5-geo-n021",
+      "title": "关主：圆的度量师",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①指出半径直径并换算 ②求周长 ③求面积（已知直径）④求一个圆环或判断一题问周长还是面积。",
+      "success_hint": "先找 r，再决定用 2πr 还是 πr²。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-geo-n022-explain",
+      "node_id": "pm-g5-geo-n022",
+      "title": "对应点到轴等距",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在轴对称图形上连对应点，说明连线被对称轴垂直平分。",
+      "success_hint": "到轴的格数相等、左右各一。"
+    },
+    {
+      "id": "pm-g5-geo-n023-practice",
+      "node_id": "pm-g5-geo-n023",
+      "title": "画出另一半",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在方格纸上完成 2 个轴对称作图：一个对称轴竖直，一个倾斜 45°（用格点）。",
+      "success_hint": "逐个点找对称点再连线。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g5-geo-n024-explain",
+      "node_id": "pm-g5-geo-n024",
+      "title": "到中心的距离不变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把一个小旗绕点旋转 90°，说明每个点走的是圆弧，半径不变、转过的角相同。",
+      "success_hint": "旋转中心到对应点的距离相等。"
+    },
+    {
+      "id": "pm-g5-geo-n025-practice",
+      "node_id": "pm-g5-geo-n025",
+      "title": "顺时针逆时针",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "将「L」形绕格点顺时针 90°、逆时针 90°、旋转 180° 各画一次。",
+      "success_hint": "先标旋转中心，再转每一个关键点。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-geo-n026-explain",
+      "node_id": "pm-g5-geo-n026",
+      "title": "方向相同格数相同",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明平移时每个点都向同一方向移动同样格数，对应边平行。",
+      "success_hint": "平移没有翻转，也没有绕点转。"
+    },
+    {
+      "id": "pm-g5-geo-n027-practice",
+      "node_id": "pm-g5-geo-n027",
+      "title": "这是哪种运动",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 6 组运动前后图形，判断平移、轴对称、旋转或需要两步组合。",
+      "success_hint": "看对应点：同向等距是平移；到直线等距是对称；绕点转是旋转。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-geo-n028-practice",
+      "node_id": "pm-g5-geo-n028",
+      "title": "设计一条花边",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用一个基本图案，通过平移或轴对称设计一段花边，或用旋转设计一个风车。",
+      "success_hint": "先规定运动规则，再重复。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g5-geo-n029-explain",
+      "node_id": "pm-g5-geo-n029",
+      "title": "像切西瓜",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出扇形的两条半径和弧。比较圆心角 90° 与 180° 的扇形，谁占的圆更大。软锁节点。",
+      "success_hint": "圆心角决定这块西瓜有多厚。"
+    },
+    {
+      "id": "pm-g5-geo-n030-practice",
+      "node_id": "pm-g5-geo-n030",
+      "title": "看图想块数",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "根据三视图估计小立体用了几块正方体，并试着摆出来。软锁节点。",
+      "success_hint": "上面看占地，前面看高度。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-geo-n031-practice",
+      "node_id": "pm-g5-geo-n031",
+      "title": "多边形与圆合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合：组合图形面积、圆的周长或面积、一种轴对称或旋转作图。",
+      "success_hint": "多边形用底高，圆先找半径。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-geo-n031-quiz",
+      "node_id": "pm-g5-geo-n031",
+      "title": "合练小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "覆盖梯形或组合面积、圆周长面积易混、一种运动判断。",
+      "success_hint": "2πr 与 πr² 不要对调。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-geo-n032-practice",
+      "node_id": "pm-g5-geo-n032",
+      "title": "五年级图形综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：组合面积、已知直径求圆面积、圆环、旋转 90°、判断运动类型。",
+      "success_hint": "对回已点亮的灯。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-geo-boss-map",
+      "node_id": "pm-g5-geo-n032",
+      "title": "关主：五年级图形通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①组合或梯形面积 ②圆的周长 ③圆的面积（已知直径）④判断或完成一种图形运动。全部通过即通关。",
+      "success_hint": "通关后记入已通关列表；圆的周长与面积公式是最常回生的一对。",
+      "items_suggested": 16
+    }
+  ]
+}

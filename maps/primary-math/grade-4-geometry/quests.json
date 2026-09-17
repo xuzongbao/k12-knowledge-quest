@@ -1,0 +1,395 @@
+{
+  "map_id": "pm-g4-geometry",
+  "quests": [
+    {
+      "id": "pm-g4-geo-n001-explain",
+      "node_id": "pm-g4-geo-n001",
+      "title": "三种线比一比",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画出直线、射线、线段，用箭头或端点标清楚，说明哪种可以量长度。",
+      "success_hint": "只有线段两个头都在，长度确定。"
+    },
+    {
+      "id": "pm-g4-geo-n002-explain",
+      "node_id": "pm-g4-geo-n002",
+      "title": "标出顶点和边",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在三个角上标顶点、边，并说明边是射线而不是线段。",
+      "success_hint": "边要够长，但角的大小不靠边的长短。"
+    },
+    {
+      "id": "pm-g4-geo-n003-practice",
+      "node_id": "pm-g4-geo-n003",
+      "title": "中心对顶点",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "量 6 个角（含锐角钝角），写出度数。其中两个角的边对着内外圈容易读反。",
+      "success_hint": "先找 0 刻度靠着哪一条边，再读另一条边。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-geo-n004-practice",
+      "node_id": "pm-g4-geo-n004",
+      "title": "画出指定角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出 45°、90°、120°、180° 的角，用量角器复查，误差不超过 2°。",
+      "success_hint": "先画一条边，再对中心、对 0，找到度数点连起来。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-geo-n005-explain",
+      "node_id": "pm-g4-geo-n005",
+      "title": "平角是一条直线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把两个直角拼成平角，再转一圈说明周角。说出直角、平角、周角的度数关系。",
+      "success_hint": "90、180、360 是三个锚点。"
+    },
+    {
+      "id": "pm-g4-geo-n006-practice",
+      "node_id": "pm-g4-geo-n006",
+      "title": "按度数贴标签",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 8 个角贴上锐角/直角/钝角/平角/周角，并写出一个例子的度数范围。",
+      "success_hint": "锐角小于 90°，钝角在 90° 和 180° 之间。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-geo-n007-practice",
+      "node_id": "pm-g4-geo-n007",
+      "title": "找垂足画垂线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "过直线上一点和直线外一点分别画垂线，标出垂足。",
+      "success_hint": "三角板的直角要贴紧已知直线。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-geo-n008-explain",
+      "node_id": "pm-g4-geo-n008",
+      "title": "不相交才平行",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用两支铅笔演示平行和相交。说明在纸上（同一平面）怎样判断平行。",
+      "success_hint": "延长后仍不相交，并且方向一致。"
+    },
+    {
+      "id": "pm-g4-geo-n009-practice",
+      "node_id": "pm-g4-geo-n009",
+      "title": "过一点作线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "过直线外一点作已知直线的垂线和平行线各一条，简述步骤。",
+      "success_hint": "平行线常用「平移三角板」的方法保持方向。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-geo-n010-practice",
+      "node_id": "pm-g4-geo-n010",
+      "title": "角与线闯关练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合：量角、画 70° 角、判断垂直平行、过一点作垂线。",
+      "success_hint": "量角对中心，作垂线对直角。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-geo-n010-quiz",
+      "node_id": "pm-g4-geo-n010",
+      "title": "角与线小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "读量角器、角的分类、垂直平行判断。夹一道内外圈读反的改错。",
+      "success_hint": "从 0 那一圈读起。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g4-geo-boss-angle",
+      "node_id": "pm-g4-geo-n010",
+      "title": "关主：角的度量师",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①正确量两个角 ②画出一个指定角 ③在图中标出一组垂线和一组平行线。",
+      "success_hint": "工具摆对，度数和位置才对。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-geo-n011-explain",
+      "node_id": "pm-g4-geo-n011",
+      "title": "拉一拉平行四边形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "拉动平行四边形框架，观察对边是否保持平行、角是否改变，说明它容易变形。",
+      "success_hint": "对边平行且相等，角可以变。"
+    },
+    {
+      "id": "pm-g4-geo-n012-explain",
+      "node_id": "pm-g4-geo-n012",
+      "title": "只有一组平行",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出梯形的上底、下底和两腰。翻一个等腰梯形，看看两腰是否相等。",
+      "success_hint": "平行的那一组才叫底。"
+    },
+    {
+      "id": "pm-g4-geo-n013-practice",
+      "node_id": "pm-g4-geo-n013",
+      "title": "一组还是两组平行",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 8 个四边形，判断平行四边形、梯形或其他，说出平行边有几组。",
+      "success_hint": "先找平行边，再计数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-geo-n014-practice",
+      "node_id": "pm-g4-geo-n014",
+      "title": "家族条件表",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "填写：长方形、正方形、平行四边形、梯形各必须满足的边或角条件。",
+      "success_hint": "正方形条件最多，梯形只要一组平行。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-geo-n015-explain",
+      "node_id": "pm-g4-geo-n015",
+      "title": "拉三角形和四边形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用吸管和橡皮泥搭一个三角形和一个四边形，拉动比较谁容易变形。",
+      "success_hint": "三角形三边固定就定形。"
+    },
+    {
+      "id": "pm-g4-geo-n016-practice",
+      "node_id": "pm-g4-geo-n016",
+      "title": "三边能不能围成",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断 8 组长度（如 2,3,5；4,5,6；1,2,8）能否围成三角形，说明理由。",
+      "success_hint": "最短的两边加起来必须大于最长边。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-geo-n017-practice",
+      "node_id": "pm-g4-geo-n017",
+      "title": "按边贴标签",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "给 6 个三角形按边分类，并指出哪个既是等腰又是等边。",
+      "success_hint": "三边相等一定是等腰。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-geo-n018-practice",
+      "node_id": "pm-g4-geo-n018",
+      "title": "按角贴标签",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 6 个三角形按角分类；指出一个等腰直角三角形，说明它同时属于两类。",
+      "success_hint": "看最大的那个角：锐、直还是钝。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-geo-n019-practice",
+      "node_id": "pm-g4-geo-n019",
+      "title": "三个角加起来",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "测量或撕拼验证内角和，再已知两角求第三角，共 6 题。",
+      "success_hint": "未知角 = 180° − 两个已知角。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-geo-n020-practice",
+      "node_id": "pm-g4-geo-n020",
+      "title": "三角形闯关练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合：三边关系、按边按角分类、内角和。夹一道 2+3=5 不能围成的说明。",
+      "success_hint": "等于第三边时三条线会「躺平」，围不成面积。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-geo-n020-quiz",
+      "node_id": "pm-g4-geo-n020",
+      "title": "三角形小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "覆盖稳定性、三边、分类、内角和。夹一道把钝角三角形当成锐角的改错。",
+      "success_hint": "有一个钝角就是钝角三角形。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-geo-boss-triangle",
+      "node_id": "pm-g4-geo-n020",
+      "title": "关主：三角形与四边形鉴定官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断三边能否围成 ②按边和按角各分类一个三角形 ③区分平行四边形与梯形 ④用内角和求一个未知角。",
+      "success_hint": "边看能不能围，角看最大那个，四边形看平行组数。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-geo-n021-explain",
+      "node_id": "pm-g4-geo-n021",
+      "title": "割补成长方形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "沿平行四边形的高剪开，拼成长方形，说明底和高分别对应长方形的谁。",
+      "success_hint": "高要垂直于底，不能斜着量腰。"
+    },
+    {
+      "id": "pm-g4-geo-n021-practice",
+      "node_id": "pm-g4-geo-n021",
+      "title": "底乘高",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 4 个平行四边形面积，图中给出斜边干扰，必须选用垂直的高。",
+      "success_hint": "先标底，再找垂直于它的高。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-geo-n022-explain",
+      "node_id": "pm-g4-geo-n022",
+      "title": "两个拼一个",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用两个完全一样的三角形拼成平行四边形，说明为什么要除以 2。",
+      "success_hint": "一个三角形是拼成后的一半。"
+    },
+    {
+      "id": "pm-g4-geo-n022-practice",
+      "node_id": "pm-g4-geo-n022",
+      "title": "底乘高除以2",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 5 个三角形面积，含直角三角形（两条直角边可当底和高）。",
+      "success_hint": "底和高必须互相垂直。",
+      "items_suggested": 5
+    },
+    {
+      "id": "pm-g4-geo-n023-practice",
+      "node_id": "pm-g4-geo-n023",
+      "title": "上底加下底",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 4 个梯形面积，先标上底、下底和高，再代入公式。",
+      "success_hint": "高是两底之间的垂直距离。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-geo-n024-explain",
+      "node_id": "pm-g4-geo-n024",
+      "title": "形状不同面积同",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在等底等高的几条形如扇骨的三角形里，说明它们面积为什么相等。",
+      "success_hint": "公式只看底和高，不看斜边有多斜。"
+    },
+    {
+      "id": "pm-g4-geo-n025-practice",
+      "node_id": "pm-g4-geo-n025",
+      "title": "割补加减",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 3 个组合图形面积：一个分割、一个补成大长方形再减。",
+      "success_hint": "先画辅助线，把不熟悉的变成熟悉的。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g4-geo-n026-practice",
+      "node_id": "pm-g4-geo-n026",
+      "title": "选公式再计算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给平行四边形、三角形、梯形、组合图形各一，先写公式再求面积。",
+      "success_hint": "公式选错，底和高对了也白算。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-geo-n027-practice",
+      "node_id": "pm-g4-geo-n027",
+      "title": "看三张图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "为两座小积木选出前面、上面、左面的视图。",
+      "success_hint": "上面看层数分布，前面看朝南的面。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-geo-n028-practice",
+      "node_id": "pm-g4-geo-n028",
+      "title": "照图搭积木",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据三视图用 4–8 块正方体搭出立体，核对三个方向。",
+      "success_hint": "先搭上面看到的占地，再加层。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g4-geo-n029-practice",
+      "node_id": "pm-g4-geo-n029",
+      "title": "画出对称图形",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在方格纸上画出三角形和「L」形关于给定直线的轴对称图形。软锁节点，可后做。",
+      "success_hint": "对应点到对称轴的格数相等、在两侧。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g4-geo-n030-practice",
+      "node_id": "pm-g4-geo-n030",
+      "title": "绕点转90度",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "把一个小旗绕格点旋转 90° 和 180° 各一次。软锁节点，可后做。",
+      "success_hint": "每个点绕中心转过相同角度。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g4-geo-n031-practice",
+      "node_id": "pm-g4-geo-n031",
+      "title": "测量与图形合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合：量一个角、判断平行垂直、求三角形或梯形面积、选一张三视图。",
+      "success_hint": "工具题和公式题分开想，不要互相干扰。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g4-geo-n031-quiz",
+      "node_id": "pm-g4-geo-n031",
+      "title": "合练小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "覆盖量角器、四边形分类、三角形内角和、面积公式选对。",
+      "success_hint": "高必须垂直；内角和是 180°。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g4-geo-n032-practice",
+      "node_id": "pm-g4-geo-n032",
+      "title": "四年级图形综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：画角、三边关系、平行四边形与梯形面积、组合图形、三视图。",
+      "success_hint": "对回本图已点亮的灯。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-geo-boss-map",
+      "node_id": "pm-g4-geo-n032",
+      "title": "关主：四年级图形通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①量或画一个角 ②区分平行与垂直 ③三边关系或内角和 ④平行四边形或三角形面积（标底和高）⑤一题三视图。全部通过即通关。",
+      "success_hint": "通关后记入已通关列表；高与底垂直、量角器内外圈是最常回生的两处。",
+      "items_suggested": 16
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "map_id": "pm-g3-geometry",
+  "edges": [
+    {
+      "from": "pm-g3-geo-n001",
+      "to": "pm-g3-geo-n002",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n001 需先于 pm-g3-geo-n002"
+    },
+    {
+      "from": "pm-g3-geo-n002",
+      "to": "pm-g3-geo-n003",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n002 需先于 pm-g3-geo-n003"
+    },
+    {
+      "from": "pm-g3-geo-n001",
+      "to": "pm-g3-geo-n004",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n001 需先于 pm-g3-geo-n004"
+    },
+    {
+      "from": "pm-g3-geo-n003",
+      "to": "pm-g3-geo-n005",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n003 需先于 pm-g3-geo-n005"
+    },
+    {
+      "from": "pm-g3-geo-n004",
+      "to": "pm-g3-geo-n005",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n004 需先于 pm-g3-geo-n005"
+    },
+    {
+      "from": "pm-g3-geo-n005",
+      "to": "pm-g3-geo-n006",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n005 需先于 pm-g3-geo-n006"
+    },
+    {
+      "from": "pm-g3-geo-n006",
+      "to": "pm-g3-geo-n007",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n006 需先于 pm-g3-geo-n007"
+    },
+    {
+      "from": "pm-g3-geo-n007",
+      "to": "pm-g3-geo-n008",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n007 需先于 pm-g3-geo-n008"
+    },
+    {
+      "from": "pm-g3-geo-n002",
+      "to": "pm-g3-geo-n008",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n002 需先于 pm-g3-geo-n008"
+    },
+    {
+      "from": "pm-g3-geo-n008",
+      "to": "pm-g3-geo-n009",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n008 需先于 pm-g3-geo-n009"
+    },
+    {
+      "from": "pm-g3-geo-n003",
+      "to": "pm-g3-geo-n009",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n003 需先于 pm-g3-geo-n009"
+    },
+    {
+      "from": "pm-g3-geo-n009",
+      "to": "pm-g3-geo-n010",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n009 需先于 pm-g3-geo-n010"
+    },
+    {
+      "from": "pm-g3-geo-n010",
+      "to": "pm-g3-geo-n011",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n010 需先于 pm-g3-geo-n011"
+    },
+    {
+      "from": "pm-g3-geo-n011",
+      "to": "pm-g3-geo-n012",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n011 需先于 pm-g3-geo-n012"
+    },
+    {
+      "from": "pm-g3-geo-n012",
+      "to": "pm-g3-geo-n013",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n012 需先于 pm-g3-geo-n013"
+    },
+    {
+      "from": "pm-g3-geo-n013",
+      "to": "pm-g3-geo-n014",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n013 需先于 pm-g3-geo-n014"
+    },
+    {
+      "from": "pm-g3-geo-n014",
+      "to": "pm-g3-geo-n015",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n014 需先于 pm-g3-geo-n015"
+    },
+    {
+      "from": "pm-g3-geo-n015",
+      "to": "pm-g3-geo-n016",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n015 需先于 pm-g3-geo-n016"
+    },
+    {
+      "from": "pm-g3-geo-n016",
+      "to": "pm-g3-geo-n017",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n016 需先于 pm-g3-geo-n017"
+    },
+    {
+      "from": "pm-g3-geo-n017",
+      "to": "pm-g3-geo-n018",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n017 需先于 pm-g3-geo-n018"
+    },
+    {
+      "from": "pm-g3-geo-n018",
+      "to": "pm-g3-geo-n019",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n018 需先于 pm-g3-geo-n019"
+    },
+    {
+      "from": "pm-g3-geo-n019",
+      "to": "pm-g3-geo-n020",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n019 需先于 pm-g3-geo-n020"
+    },
+    {
+      "from": "pm-g3-geo-n013",
+      "to": "pm-g3-geo-n020",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n013 需先于 pm-g3-geo-n020"
+    },
+    {
+      "from": "pm-g3-geo-n020",
+      "to": "pm-g3-geo-n021",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n020 需先于 pm-g3-geo-n021"
+    },
+    {
+      "from": "pm-g3-geo-n021",
+      "to": "pm-g3-geo-n022",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n021 需先于 pm-g3-geo-n022"
+    },
+    {
+      "from": "pm-g3-geo-n005",
+      "to": "pm-g3-geo-n023",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n005 需先于 pm-g3-geo-n023"
+    },
+    {
+      "from": "pm-g3-geo-n023",
+      "to": "pm-g3-geo-n024",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n023 需先于 pm-g3-geo-n024"
+    },
+    {
+      "from": "pm-g3-geo-n023",
+      "to": "pm-g3-geo-n025",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n023 需先于 pm-g3-geo-n025"
+    },
+    {
+      "from": "pm-g3-geo-n005",
+      "to": "pm-g3-geo-n026",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n005 需先于 pm-g3-geo-n026"
+    },
+    {
+      "from": "pm-g3-geo-n024",
+      "to": "pm-g3-geo-n027",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n024 需先于 pm-g3-geo-n027"
+    },
+    {
+      "from": "pm-g3-geo-n025",
+      "to": "pm-g3-geo-n027",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n025 需先于 pm-g3-geo-n027"
+    },
+    {
+      "from": "pm-g3-geo-n026",
+      "to": "pm-g3-geo-n027",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n026 需先于 pm-g3-geo-n027"
+    },
+    {
+      "from": "pm-g3-geo-n005",
+      "to": "pm-g3-geo-n028",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n005 需先于 pm-g3-geo-n028"
+    },
+    {
+      "from": "pm-g3-geo-n020",
+      "to": "pm-g3-geo-n029",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n020 需先于 pm-g3-geo-n029"
+    },
+    {
+      "from": "pm-g3-geo-n022",
+      "to": "pm-g3-geo-n030",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n022 需先于 pm-g3-geo-n030"
+    },
+    {
+      "from": "pm-g3-geo-n027",
+      "to": "pm-g3-geo-n030",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n027 需先于 pm-g3-geo-n030"
+    },
+    {
+      "from": "pm-g3-geo-n030",
+      "to": "pm-g3-geo-n031",
+      "type": "prerequisite",
+      "note": "pm-g3-geo-n030 需先于 pm-g3-geo-n031"
+    },
+    {
+      "from": "pm-g3-geo-n002",
+      "to": "pm-g3-geo-n004",
+      "type": "related",
+      "note": "长方形可以看成角是直角的平行四边形。"
+    },
+    {
+      "from": "pm-g3-geo-n003",
+      "to": "pm-g3-geo-n004",
+      "type": "related",
+      "note": "正方形、长方形、平行四边形同属四边形家族。"
+    },
+    {
+      "from": "pm-g3-geo-n008",
+      "to": "pm-g3-geo-n009",
+      "type": "related",
+      "note": "正方形周长是长方形周长在长=宽时的特例。"
+    },
+    {
+      "from": "pm-g3-geo-n011",
+      "to": "pm-g3-geo-n012",
+      "type": "easily_confused",
+      "note": "围一周只算外轮廓；拼起来的公共边不再走第二遍。"
+    },
+    {
+      "from": "pm-g3-geo-n006",
+      "to": "pm-g3-geo-n014",
+      "type": "easily_confused",
+      "note": "周长走边，面积铺面，一个用长度单位，一个用面积单位。"
+    },
+    {
+      "from": "pm-g3-geo-n018",
+      "to": "pm-g3-geo-n008",
+      "type": "easily_confused",
+      "note": "长×宽是面积；周长是（长+宽）×2。公式里都有长和宽，最容易混。"
+    },
+    {
+      "from": "pm-g3-geo-n015",
+      "to": "pm-g3-geo-n016",
+      "type": "related",
+      "note": "面积单位从平方厘米到平方米，和长度单位厘米到米是配套的。"
+    },
+    {
+      "from": "pm-g3-geo-n023",
+      "to": "pm-g3-geo-n025",
+      "type": "easily_confused",
+      "note": "平移不转向，旋转绕一点转；看起来都在动，规则不同。"
+    },
+    {
+      "from": "pm-g3-geo-n025",
+      "to": "pm-g3-geo-n026",
+      "type": "related",
+      "note": "旋转和轴对称都改变方向感，但轴对称是翻折重合。"
+    },
+    {
+      "from": "pm-g3-geo-n024",
+      "to": "pm-g3-geo-n011",
+      "type": "application",
+      "note": "平移后图形大小不变，周长和面积也不变。"
+    },
+    {
+      "from": "pm-g3-geo-n028",
+      "to": "pm-g3-geo-n005",
+      "type": "related",
+      "note": "从不同方向看，四边形的某个面可能变成一条线段。"
+    },
+    {
+      "from": "pm-g3-geo-n017",
+      "to": "pm-g3-geo-n018",
+      "type": "related",
+      "note": "先数格子，再发现「每行几个×几行」就是长乘宽。"
+    }
+  ]
+}

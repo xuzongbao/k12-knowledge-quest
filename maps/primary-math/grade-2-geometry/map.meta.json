@@ -1,0 +1,26 @@
+{
+  "id": "pm-g2-geometry",
+  "title": "二年级 · 图形与几何",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 2,
+  "strand": "图形与几何",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g2-geo-n001"
+  ],
+  "recommended_path_note": "从「比长短」进入：先打通厘米米及分毫米千米，再角的初步认识、长方形正方形边和角，然后轴对称欣赏与观察物体。东南西北与路线图（n027–n028）、平移欣赏（n029）为软锁支线，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g2-geo-boss-length",
+      "pm-g2-geo-boss-angle",
+      "pm-g2-geo-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：长度测量员、角与观察小能手、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学二年级「图形与几何」地图：长度单位 → 角的初步认识 → 长方形正方形初步 → 轴对称欣赏与观察物体。与一年级地图概念衔接，但各自独立通关。"
+}
