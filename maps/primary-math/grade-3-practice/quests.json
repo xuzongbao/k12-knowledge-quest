@@ -1,0 +1,225 @@
+{
+  "map_id": "pm-g3-practice",
+  "quests": [
+    {
+      "id": "pm-g3-prac-n001-explain",
+      "node_id": "pm-g3-prac-n001",
+      "title": "对不上号的麻烦",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "描述一次「找柜子/找座位」浪费时间的经历，说明缺编号会怎样。",
+      "success_hint": "问题要具体。"
+    },
+    {
+      "id": "pm-g3-prac-n002-explain",
+      "node_id": "pm-g3-prac-n002",
+      "title": "写出规则",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "设计一种编码：至少包含组和序号，举例三个合法编码、一个非法编码。",
+      "success_hint": "规则要能判断对错。"
+    },
+    {
+      "id": "pm-g3-prac-n003-practice",
+      "node_id": "pm-g3-prac-n003",
+      "title": "编十二个号",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 12 个位置编码，检查无重复，并解释其中两个号。",
+      "success_hint": "每个位置恰好一个号。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-prac-n004-practice",
+      "node_id": "pm-g3-prac-n004",
+      "title": "看号找位置",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽 6 个编码反查位置，说每一位代表什么。",
+      "success_hint": "从左到右解码。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-prac-n005-practice",
+      "node_id": "pm-g3-prac-n005",
+      "title": "别人来用",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "只给说明书，让同伴编 4 个新号，看是否冲突。",
+      "success_hint": "说明书含糊，别人就会编重。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-prac-n005-mini-quiz",
+      "node_id": "pm-g3-prac-n005",
+      "title": "编码项目小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "判断编码是否合法、是否冲突、说明书缺了哪一步。",
+      "success_hint": "合法、唯一、可反查。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-prac-boss-code",
+      "node_id": "pm-g3-prac-n005",
+      "title": "关主：编码设计师",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①说明问题 ②写出规则并编码 ③让别人按说明书使用。",
+      "success_hint": "别人能用，规则才算成。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-prac-n006-explain",
+      "node_id": "pm-g3-prac-n006",
+      "title": "提出搭配问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出一个「A 种与 B 种」的搭配问题，并给出 A、B 的清单。",
+      "success_hint": "清单要短，能列完。"
+    },
+    {
+      "id": "pm-g3-prac-n007-explain",
+      "node_id": "pm-g3-prac-n007",
+      "title": "选择列出办法",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在连线、表格、树状图中选一种，说明怎样保证不漏。",
+      "success_hint": "固定一个顺序最不容易漏。"
+    },
+    {
+      "id": "pm-g3-prac-n008-practice",
+      "node_id": "pm-g3-prac-n008",
+      "title": "列全核对",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "列出全部搭配并写出总数，与「每项配每项」的想法核对。",
+      "success_hint": "有序列出。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-prac-n009-practice",
+      "node_id": "pm-g3-prac-n009",
+      "title": "加条件筛选",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "加上一个简单条件，圈出符合的搭配并计数。",
+      "success_hint": "从完整清单里筛，不要重列一套。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-prac-n010-explain",
+      "node_id": "pm-g3-prac-n010",
+      "title": "演示防漏",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "向同伴演示你的顺序列法，请对方找有没有漏。",
+      "success_hint": "能被检查的列表才可信。"
+    },
+    {
+      "id": "pm-g3-prac-n011-explain",
+      "node_id": "pm-g3-prac-n011",
+      "title": "提出估计问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出要估计哪一段路，为什么不方便直接用尺一次量完。",
+      "success_hint": "路太长就要分段或步测。"
+    },
+    {
+      "id": "pm-g3-prac-n012-explain",
+      "node_id": "pm-g3-prac-n012",
+      "title": "约定走法",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写下：怎样的步子、谁数、怎么记录、走直线还是绕。",
+      "success_hint": "约定越清楚，两次越接近。"
+    },
+    {
+      "id": "pm-g3-prac-n013-practice",
+      "node_id": "pm-g3-prac-n013",
+      "title": "步测两遍",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一段路走两遍，记录步数，计算相差。",
+      "success_hint": "相差大就检查是否忽大忽小。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g3-prac-n014-explain",
+      "node_id": "pm-g3-prac-n014",
+      "title": "给出估计",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用两次步数给一个估计，并提出一条改进。",
+      "success_hint": "可以取两次接近的值，不要随意丢掉一次。"
+    },
+    {
+      "id": "pm-g3-prac-n015-explain",
+      "node_id": "pm-g3-prac-n015",
+      "title": "两种规则",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较编码和搭配：都要按规则列清，一种给位置命名，一种把组合数完。",
+      "success_hint": "规则让结果可以检查。"
+    },
+    {
+      "id": "pm-g3-prac-n016-practice",
+      "node_id": "pm-g3-prac-n016",
+      "title": "加一个防错标记",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给编码加一种容易检查的标记（如组和序号奇偶），用 4 个例子演示怎样发现抄错。",
+      "success_hint": "标记要简单能算。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-prac-n017-explain",
+      "node_id": "pm-g3-prac-n017",
+      "title": "写说明书",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用不超过六句话写给新生：如何编码或如何步测。",
+      "success_hint": "不在现场的人也要能做。"
+    },
+    {
+      "id": "pm-g3-prac-n018-practice",
+      "node_id": "pm-g3-prac-n018",
+      "title": "三分钟路演",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "按问题—规则—结果—改进讲完，让听的人能复述规则。",
+      "success_hint": "先讲规则，再讲数字。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-prac-n019-practice",
+      "node_id": "pm-g3-prac-n019",
+      "title": "抽签完整项目",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽编码/搭配/步测之一，走完四步。",
+      "success_hint": "结果必须可检查。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-prac-n020-practice",
+      "node_id": "pm-g3-prac-n020",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成一个规则清晰的小项目并接受提问。",
+      "success_hint": "问不倒规则，才算通。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-prac-boss-map",
+      "node_id": "pm-g3-prac-n020",
+      "title": "关主：三年级实践通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：现场完成编码或搭配或步测项目，规则可让别人执行，结果可核对。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 8
+    }
+  ]
+}

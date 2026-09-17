@@ -1,0 +1,203 @@
+{
+  "map_id": "pm-g6-practice",
+  "edges": [
+    {
+      "from": "pm-g6-prac-n001",
+      "to": "pm-g6-prac-n002",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n001 需先于 pm-g6-prac-n002"
+    },
+    {
+      "from": "pm-g6-prac-n002",
+      "to": "pm-g6-prac-n003",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n002 需先于 pm-g6-prac-n003"
+    },
+    {
+      "from": "pm-g6-prac-n003",
+      "to": "pm-g6-prac-n004",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n003 需先于 pm-g6-prac-n004"
+    },
+    {
+      "from": "pm-g6-prac-n004",
+      "to": "pm-g6-prac-n005",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n004 需先于 pm-g6-prac-n005"
+    },
+    {
+      "from": "pm-g6-prac-n005",
+      "to": "pm-g6-prac-n006",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n005 需先于 pm-g6-prac-n006"
+    },
+    {
+      "from": "pm-g6-prac-n006",
+      "to": "pm-g6-prac-n007",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n006 需先于 pm-g6-prac-n007"
+    },
+    {
+      "from": "pm-g6-prac-n007",
+      "to": "pm-g6-prac-n008",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n007 需先于 pm-g6-prac-n008"
+    },
+    {
+      "from": "pm-g6-prac-n008",
+      "to": "pm-g6-prac-n009",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n008 需先于 pm-g6-prac-n009"
+    },
+    {
+      "from": "pm-g6-prac-n009",
+      "to": "pm-g6-prac-n010",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n009 需先于 pm-g6-prac-n010"
+    },
+    {
+      "from": "pm-g6-prac-n010",
+      "to": "pm-g6-prac-n011",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n010 需先于 pm-g6-prac-n011"
+    },
+    {
+      "from": "pm-g6-prac-n011",
+      "to": "pm-g6-prac-n012",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n011 需先于 pm-g6-prac-n012"
+    },
+    {
+      "from": "pm-g6-prac-n006",
+      "to": "pm-g6-prac-n013",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n006 需先于 pm-g6-prac-n013"
+    },
+    {
+      "from": "pm-g6-prac-n013",
+      "to": "pm-g6-prac-n014",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n013 需先于 pm-g6-prac-n014"
+    },
+    {
+      "from": "pm-g6-prac-n014",
+      "to": "pm-g6-prac-n015",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n014 需先于 pm-g6-prac-n015"
+    },
+    {
+      "from": "pm-g6-prac-n015",
+      "to": "pm-g6-prac-n016",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n015 需先于 pm-g6-prac-n016"
+    },
+    {
+      "from": "pm-g6-prac-n012",
+      "to": "pm-g6-prac-n017",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n012 需先于 pm-g6-prac-n017"
+    },
+    {
+      "from": "pm-g6-prac-n016",
+      "to": "pm-g6-prac-n017",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n016 需先于 pm-g6-prac-n017"
+    },
+    {
+      "from": "pm-g6-prac-n017",
+      "to": "pm-g6-prac-n018",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n017 需先于 pm-g6-prac-n018"
+    },
+    {
+      "from": "pm-g6-prac-n006",
+      "to": "pm-g6-prac-n019",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n006 需先于 pm-g6-prac-n019"
+    },
+    {
+      "from": "pm-g6-prac-n012",
+      "to": "pm-g6-prac-n020",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n012 需先于 pm-g6-prac-n020"
+    },
+    {
+      "from": "pm-g6-prac-n018",
+      "to": "pm-g6-prac-n021",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n018 需先于 pm-g6-prac-n021"
+    },
+    {
+      "from": "pm-g6-prac-n018",
+      "to": "pm-g6-prac-n022",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n018 需先于 pm-g6-prac-n022"
+    },
+    {
+      "from": "pm-g6-prac-n021",
+      "to": "pm-g6-prac-n023",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n021 需先于 pm-g6-prac-n023"
+    },
+    {
+      "from": "pm-g6-prac-n022",
+      "to": "pm-g6-prac-n023",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n022 需先于 pm-g6-prac-n023"
+    },
+    {
+      "from": "pm-g6-prac-n023",
+      "to": "pm-g6-prac-n024",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n023 需先于 pm-g6-prac-n024"
+    },
+    {
+      "from": "pm-g6-prac-n024",
+      "to": "pm-g6-prac-n025",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n024 需先于 pm-g6-prac-n025"
+    },
+    {
+      "from": "pm-g6-prac-n025",
+      "to": "pm-g6-prac-n026",
+      "type": "prerequisite",
+      "note": "pm-g6-prac-n025 需先于 pm-g6-prac-n026"
+    },
+    {
+      "from": "pm-g6-prac-n003",
+      "to": "pm-g6-prac-n004",
+      "type": "related",
+      "note": "保证有 2 个和保证有 3 个，只是「最均匀仍会多出来」的不同程度。"
+    },
+    {
+      "from": "pm-g6-prac-n003",
+      "to": "pm-g6-prac-n019",
+      "type": "easily_confused",
+      "note": "东西不比格子多时，不能保证某一格有两个。"
+    },
+    {
+      "from": "pm-g6-prac-n008",
+      "to": "pm-g6-prac-n010",
+      "type": "application",
+      "note": "说明书里预告的工具，实施时要对着数据真正选一次。"
+    },
+    {
+      "from": "pm-g6-prac-n011",
+      "to": "pm-g6-prac-n020",
+      "type": "application",
+      "note": "写过局限，才容易设想数据变差时结论如何降级。"
+    },
+    {
+      "from": "pm-g6-prac-n015",
+      "to": "pm-g6-prac-n017",
+      "type": "related",
+      "note": "说明卡上的四句，就是口头讲解的骨架。"
+    },
+    {
+      "from": "pm-g6-prac-n006",
+      "to": "pm-g6-prac-n022",
+      "type": "related",
+      "note": "抽屉发现也是一种建模：格子与东西的对应。"
+    }
+  ]
+}

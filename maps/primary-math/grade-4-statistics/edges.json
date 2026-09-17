@@ -1,0 +1,251 @@
+{
+  "map_id": "pm-g4-statistics",
+  "edges": [
+    {
+      "from": "pm-g4-stat-n001",
+      "to": "pm-g4-stat-n002",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n001 需先于 pm-g4-stat-n002"
+    },
+    {
+      "from": "pm-g4-stat-n002",
+      "to": "pm-g4-stat-n003",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n002 需先于 pm-g4-stat-n003"
+    },
+    {
+      "from": "pm-g4-stat-n001",
+      "to": "pm-g4-stat-n004",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n001 需先于 pm-g4-stat-n004"
+    },
+    {
+      "from": "pm-g4-stat-n003",
+      "to": "pm-g4-stat-n005",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n003 需先于 pm-g4-stat-n005"
+    },
+    {
+      "from": "pm-g4-stat-n004",
+      "to": "pm-g4-stat-n005",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n004 需先于 pm-g4-stat-n005"
+    },
+    {
+      "from": "pm-g4-stat-n005",
+      "to": "pm-g4-stat-n006",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n005 需先于 pm-g4-stat-n006"
+    },
+    {
+      "from": "pm-g4-stat-n006",
+      "to": "pm-g4-stat-n007",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n006 需先于 pm-g4-stat-n007"
+    },
+    {
+      "from": "pm-g4-stat-n007",
+      "to": "pm-g4-stat-n008",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n007 需先于 pm-g4-stat-n008"
+    },
+    {
+      "from": "pm-g4-stat-n008",
+      "to": "pm-g4-stat-n009",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n008 需先于 pm-g4-stat-n009"
+    },
+    {
+      "from": "pm-g4-stat-n009",
+      "to": "pm-g4-stat-n010",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n009 需先于 pm-g4-stat-n010"
+    },
+    {
+      "from": "pm-g4-stat-n001",
+      "to": "pm-g4-stat-n011",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n001 需先于 pm-g4-stat-n011"
+    },
+    {
+      "from": "pm-g4-stat-n011",
+      "to": "pm-g4-stat-n012",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n011 需先于 pm-g4-stat-n012"
+    },
+    {
+      "from": "pm-g4-stat-n012",
+      "to": "pm-g4-stat-n013",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n012 需先于 pm-g4-stat-n013"
+    },
+    {
+      "from": "pm-g4-stat-n013",
+      "to": "pm-g4-stat-n014",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n013 需先于 pm-g4-stat-n014"
+    },
+    {
+      "from": "pm-g4-stat-n014",
+      "to": "pm-g4-stat-n015",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n014 需先于 pm-g4-stat-n015"
+    },
+    {
+      "from": "pm-g4-stat-n015",
+      "to": "pm-g4-stat-n016",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n015 需先于 pm-g4-stat-n016"
+    },
+    {
+      "from": "pm-g4-stat-n012",
+      "to": "pm-g4-stat-n017",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n012 需先于 pm-g4-stat-n017"
+    },
+    {
+      "from": "pm-g4-stat-n010",
+      "to": "pm-g4-stat-n018",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n010 需先于 pm-g4-stat-n018"
+    },
+    {
+      "from": "pm-g4-stat-n015",
+      "to": "pm-g4-stat-n018",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n015 需先于 pm-g4-stat-n018"
+    },
+    {
+      "from": "pm-g4-stat-n016",
+      "to": "pm-g4-stat-n019",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n016 需先于 pm-g4-stat-n019"
+    },
+    {
+      "from": "pm-g4-stat-n017",
+      "to": "pm-g4-stat-n019",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n017 需先于 pm-g4-stat-n019"
+    },
+    {
+      "from": "pm-g4-stat-n018",
+      "to": "pm-g4-stat-n020",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n018 需先于 pm-g4-stat-n020"
+    },
+    {
+      "from": "pm-g4-stat-n019",
+      "to": "pm-g4-stat-n020",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n019 需先于 pm-g4-stat-n020"
+    },
+    {
+      "from": "pm-g4-stat-n010",
+      "to": "pm-g4-stat-n021",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n010 需先于 pm-g4-stat-n021"
+    },
+    {
+      "from": "pm-g4-stat-n021",
+      "to": "pm-g4-stat-n022",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n021 需先于 pm-g4-stat-n022"
+    },
+    {
+      "from": "pm-g4-stat-n022",
+      "to": "pm-g4-stat-n023",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n022 需先于 pm-g4-stat-n023"
+    },
+    {
+      "from": "pm-g4-stat-n023",
+      "to": "pm-g4-stat-n024",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n023 需先于 pm-g4-stat-n024"
+    },
+    {
+      "from": "pm-g4-stat-n024",
+      "to": "pm-g4-stat-n025",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n024 需先于 pm-g4-stat-n025"
+    },
+    {
+      "from": "pm-g4-stat-n020",
+      "to": "pm-g4-stat-n026",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n020 需先于 pm-g4-stat-n026"
+    },
+    {
+      "from": "pm-g4-stat-n025",
+      "to": "pm-g4-stat-n026",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n025 需先于 pm-g4-stat-n026"
+    },
+    {
+      "from": "pm-g4-stat-n010",
+      "to": "pm-g4-stat-n027",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n010 需先于 pm-g4-stat-n027"
+    },
+    {
+      "from": "pm-g4-stat-n020",
+      "to": "pm-g4-stat-n028",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n020 需先于 pm-g4-stat-n028"
+    },
+    {
+      "from": "pm-g4-stat-n026",
+      "to": "pm-g4-stat-n029",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n026 需先于 pm-g4-stat-n029"
+    },
+    {
+      "from": "pm-g4-stat-n029",
+      "to": "pm-g4-stat-n030",
+      "type": "prerequisite",
+      "note": "pm-g4-stat-n029 需先于 pm-g4-stat-n030"
+    },
+    {
+      "from": "pm-g4-stat-n004",
+      "to": "pm-g4-stat-n006",
+      "type": "easily_confused",
+      "note": "复式条形图必须先看图例，否则两组直条会读反。"
+    },
+    {
+      "from": "pm-g4-stat-n011",
+      "to": "pm-g4-stat-n012",
+      "type": "related",
+      "note": "移多补少的结果，和总和除以个数，说的是同一件事。"
+    },
+    {
+      "from": "pm-g4-stat-n012",
+      "to": "pm-g4-stat-n014",
+      "type": "easily_confused",
+      "note": "平均数可以是「没有人恰好等于它」的数。"
+    },
+    {
+      "from": "pm-g4-stat-n015",
+      "to": "pm-g4-stat-n016",
+      "type": "easily_confused",
+      "note": "平均数会被极端数据拉开，不能只看平均就断定每个人。"
+    },
+    {
+      "from": "pm-g4-stat-n021",
+      "to": "pm-g4-stat-n022",
+      "type": "easily_confused",
+      "note": "列出四种结果，不等于四种一样可能。"
+    },
+    {
+      "from": "pm-g4-stat-n010",
+      "to": "pm-g4-stat-n018",
+      "type": "application",
+      "note": "条形图的高低可以帮助估计哪一组平均更大。"
+    },
+    {
+      "from": "pm-g4-stat-n002",
+      "to": "pm-g4-stat-n027",
+      "type": "application",
+      "note": "选单位格就是主动决定 1 格代表几。"
+    }
+  ]
+}

@@ -1,0 +1,930 @@
+{
+  "map_id": "pm-g6-statistics",
+  "nodes": [
+    {
+      "id": "pm-g6-stat-n001",
+      "title": "部分占整体",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "pie",
+        "ch-pie"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说出有些问题关心的是「这一块占全部的多少」，而不只是个数本身。"
+    },
+    {
+      "id": "pm-g6-stat-n002",
+      "title": "扇形统计图长什么样",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-stat-n001"
+      ],
+      "tags": [
+        "pie",
+        "ch-pie"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出扇形统计图用整个圆表示总体，用扇形表示各部分。"
+    },
+    {
+      "id": "pm-g6-stat-n003",
+      "title": "读扇区对应的部分",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-stat-n002"
+      ],
+      "tags": [
+        "pie",
+        "ch-pie"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据图例读出某一扇区表示哪一类。"
+    },
+    {
+      "id": "pm-g6-stat-n004",
+      "title": "比较扇区大小",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-stat-n003"
+      ],
+      "tags": [
+        "pie",
+        "ch-pie"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较哪一部分占得最多、最少，并说明依据是扇区大小。"
+    },
+    {
+      "id": "pm-g6-stat-n005",
+      "title": "百分数与扇区",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n004"
+      ],
+      "tags": [
+        "pie",
+        "ch-pie",
+        "percent"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把扇区旁的百分数读成「每一百份里占几份」，并核对各部分百分数是否合起来合理。"
+    },
+    {
+      "id": "pm-g6-stat-n006",
+      "title": "由数据想到扇区",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n005"
+      ],
+      "tags": [
+        "pie",
+        "ch-pie"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据各类占总体的份数，说明哪一类扇区应该最大。"
+    },
+    {
+      "id": "pm-g6-stat-n007",
+      "title": "扇形图不能看变化",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n006"
+      ],
+      "tags": [
+        "pie",
+        "ch-pie",
+        "choose"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明扇形图适合看结构，不适合看随时间的升降。"
+    },
+    {
+      "id": "pm-g6-stat-n008",
+      "title": "读图提问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n007"
+      ],
+      "tags": [
+        "pie",
+        "ch-pie"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据扇形图提出「哪一类最多」「大约占几成」等问题并回答。"
+    },
+    {
+      "id": "pm-g6-stat-n009",
+      "title": "扇形图综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n008"
+      ],
+      "tags": [
+        "pie",
+        "ch-pie",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能读扇形图的图例、大小和百分数，并判断它适不适合该问题。"
+    },
+    {
+      "id": "pm-g6-stat-n010",
+      "title": "把数据排一排队",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-stat-n001"
+      ],
+      "tags": [
+        "median",
+        "ch-median"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把一组数从小到大排列，为找中位数做准备。"
+    },
+    {
+      "id": "pm-g6-stat-n011",
+      "title": "奇数个的中位数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n010"
+      ],
+      "tags": [
+        "median",
+        "ch-median"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "个数是奇数时，能指出最中间的那个数就是中位数。"
+    },
+    {
+      "id": "pm-g6-stat-n012",
+      "title": "偶数个的中位数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n011"
+      ],
+      "tags": [
+        "median",
+        "ch-median"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "个数是偶数时，能取最中间两个数的平均数作为中位数。"
+    },
+    {
+      "id": "pm-g6-stat-n013",
+      "title": "中位数不怕极端值",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n012"
+      ],
+      "tags": [
+        "median",
+        "ch-median"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能发现一个特别大的数会拉动平均数，但不轻易改变中位数。"
+    },
+    {
+      "id": "pm-g6-stat-n014",
+      "title": "中位数适合什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n013"
+      ],
+      "tags": [
+        "median",
+        "ch-median"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举例：成绩或身高这种「中间位置」用中位数常常更稳。"
+    },
+    {
+      "id": "pm-g6-stat-n015",
+      "title": "三种统计量对照",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n009",
+        "pm-g6-stat-n014"
+      ],
+      "tags": [
+        "median",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对同一组数据求平均、中位数、众数（若有），并各用一句话说它们的分工。"
+    },
+    {
+      "id": "pm-g6-stat-n016",
+      "title": "选择合适的统计量",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n015"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据问题选择平均、中位数或众数，并说明理由。"
+    },
+    {
+      "id": "pm-g6-stat-n017",
+      "title": "选择合适的统计图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n016"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat",
+        "choose"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在条形、折线、扇形之间选择：比多少、看变化、看结构。"
+    },
+    {
+      "id": "pm-g6-stat-n018",
+      "title": "一张图一个结论",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n017"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据选定的图写出一句不超过数据范围的结论。"
+    },
+    {
+      "id": "pm-g6-stat-n019",
+      "title": "统计选择综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n018"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能完成「选统计量 + 选统计图 + 写谨慎结论」。"
+    },
+    {
+      "id": "pm-g6-stat-n020",
+      "title": "等可能是什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-stat-n009"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明：每种结果发生的机会一样时，才适合用「几份里占几份」来描述。"
+    },
+    {
+      "id": "pm-g6-stat-n021",
+      "title": "全部结果要列全",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n020"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能列出等可能试验的全部结果，作为计算的分母。"
+    },
+    {
+      "id": "pm-g6-stat-n022",
+      "title": "用几分之几表示可能性",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n021"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用分数表示简单等可能事件的可能性，如公平硬币正面是 1/2。"
+    },
+    {
+      "id": "pm-g6-stat-n023",
+      "title": "复合一点的计数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n022"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在「两个不同转盘」或「摸一颗不放回前先列树」的简单情形里数出有利结果。"
+    },
+    {
+      "id": "pm-g6-stat-n024",
+      "title": "可能性大小用分数比",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n022"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较两个分数形式的可能性谁更大。"
+    },
+    {
+      "id": "pm-g6-stat-n025",
+      "title": "试验频率和分数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n023",
+        "pm-g6-stat-n024"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把试验中的频率和理论上的几分之几对照，说明次数少时会对不齐。"
+    },
+    {
+      "id": "pm-g6-stat-n026",
+      "title": "随机与数据合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n019",
+        "pm-g6-stat-n025"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在同一课题里选图、选统计量，并用分数描述简单等可能事件。"
+    },
+    {
+      "id": "pm-g6-stat-n027",
+      "title": "容易误导的图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n017"
+      ],
+      "tags": [
+        "stat",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出扇区没标清、立体扇形看起来一块更大、纵轴截断等误导手法。"
+    },
+    {
+      "id": "pm-g6-stat-n028",
+      "title": "自己做一张结构图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-stat-n009"
+      ],
+      "tags": [
+        "pie",
+        "ch-pie"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把班级调查的各类占总体情况，整理成扇形图草图并标百分数（可用估算）。"
+    },
+    {
+      "id": "pm-g6-stat-n029",
+      "title": "校园数据小报告",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n026"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "project"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能围绕一个校园问题选择图表与统计量，写出不超过数据的三句话结论。"
+    },
+    {
+      "id": "pm-g6-stat-n030",
+      "title": "小学统计常用工具箱",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-stat-n026"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用一张清单说出：表、条形、折线、扇形、平均、中位、众数、简单概率各解决什么。"
+    },
+    {
+      "id": "pm-g6-stat-n031",
+      "title": "六年级统计合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g6-stat-n030"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合扇形图、中位数与选择、简单概率分数。"
+    },
+    {
+      "id": "pm-g6-stat-n032",
+      "title": "六年级统计通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "统计与概率",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g6-stat-n031"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成小学统计与概率线的收束检查。"
+    }
+  ]
+}

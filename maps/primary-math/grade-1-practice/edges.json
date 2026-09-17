@@ -1,0 +1,149 @@
+{
+  "map_id": "pm-g1-practice",
+  "edges": [
+    {
+      "from": "pm-g1-prac-n001",
+      "to": "pm-g1-prac-n002",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n001 需先于 pm-g1-prac-n002"
+    },
+    {
+      "from": "pm-g1-prac-n002",
+      "to": "pm-g1-prac-n003",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n002 需先于 pm-g1-prac-n003"
+    },
+    {
+      "from": "pm-g1-prac-n003",
+      "to": "pm-g1-prac-n004",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n003 需先于 pm-g1-prac-n004"
+    },
+    {
+      "from": "pm-g1-prac-n004",
+      "to": "pm-g1-prac-n005",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n004 需先于 pm-g1-prac-n005"
+    },
+    {
+      "from": "pm-g1-prac-n005",
+      "to": "pm-g1-prac-n006",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n005 需先于 pm-g1-prac-n006"
+    },
+    {
+      "from": "pm-g1-prac-n006",
+      "to": "pm-g1-prac-n007",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n006 需先于 pm-g1-prac-n007"
+    },
+    {
+      "from": "pm-g1-prac-n007",
+      "to": "pm-g1-prac-n008",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n007 需先于 pm-g1-prac-n008"
+    },
+    {
+      "from": "pm-g1-prac-n008",
+      "to": "pm-g1-prac-n009",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n008 需先于 pm-g1-prac-n009"
+    },
+    {
+      "from": "pm-g1-prac-n009",
+      "to": "pm-g1-prac-n010",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n009 需先于 pm-g1-prac-n010"
+    },
+    {
+      "from": "pm-g1-prac-n010",
+      "to": "pm-g1-prac-n011",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n010 需先于 pm-g1-prac-n011"
+    },
+    {
+      "from": "pm-g1-prac-n007",
+      "to": "pm-g1-prac-n012",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n007 需先于 pm-g1-prac-n012"
+    },
+    {
+      "from": "pm-g1-prac-n012",
+      "to": "pm-g1-prac-n013",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n012 需先于 pm-g1-prac-n013"
+    },
+    {
+      "from": "pm-g1-prac-n013",
+      "to": "pm-g1-prac-n014",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n013 需先于 pm-g1-prac-n014"
+    },
+    {
+      "from": "pm-g1-prac-n014",
+      "to": "pm-g1-prac-n015",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n014 需先于 pm-g1-prac-n015"
+    },
+    {
+      "from": "pm-g1-prac-n011",
+      "to": "pm-g1-prac-n016",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n011 需先于 pm-g1-prac-n016"
+    },
+    {
+      "from": "pm-g1-prac-n015",
+      "to": "pm-g1-prac-n016",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n015 需先于 pm-g1-prac-n016"
+    },
+    {
+      "from": "pm-g1-prac-n011",
+      "to": "pm-g1-prac-n017",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n011 需先于 pm-g1-prac-n017"
+    },
+    {
+      "from": "pm-g1-prac-n015",
+      "to": "pm-g1-prac-n017",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n015 需先于 pm-g1-prac-n017"
+    },
+    {
+      "from": "pm-g1-prac-n017",
+      "to": "pm-g1-prac-n018",
+      "type": "prerequisite",
+      "note": "pm-g1-prac-n017 需先于 pm-g1-prac-n018"
+    },
+    {
+      "from": "pm-g1-prac-n003",
+      "to": "pm-g1-prac-n004",
+      "type": "easily_confused",
+      "note": "标准是事先商量的；实施时改标准，别人就对不上了。"
+    },
+    {
+      "from": "pm-g1-prac-n009",
+      "to": "pm-g1-prac-n010",
+      "type": "easily_confused",
+      "note": "一端没对齐，比出来的高矮不算数。"
+    },
+    {
+      "from": "pm-g1-prac-n008",
+      "to": "pm-g1-prac-n012",
+      "type": "related",
+      "note": "比高低和摆图案都可以在教室里完成，都要先有计划。"
+    },
+    {
+      "from": "pm-g1-prac-n006",
+      "to": "pm-g1-prac-n011",
+      "type": "related",
+      "note": "交流时都要让别人听懂你用了什么办法。"
+    },
+    {
+      "from": "pm-g1-prac-n010",
+      "to": "pm-g1-prac-n016",
+      "type": "application",
+      "note": "搭积木故事时正好用得上谁高谁在上面。"
+    }
+  ]
+}

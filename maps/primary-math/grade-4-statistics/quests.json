@@ -1,0 +1,345 @@
+{
+  "map_id": "pm-g4-statistics",
+  "quests": [
+    {
+      "id": "pm-g4-stat-n001-explain",
+      "node_id": "pm-g4-stat-n001",
+      "title": "读一张条形图",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "读出类别、最多最少，并说明刻度从几开始。",
+      "success_hint": "先看轴，再看直条顶端。"
+    },
+    {
+      "id": "pm-g4-stat-n002-practice",
+      "node_id": "pm-g4-stat-n002",
+      "title": "先找单位格",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 张图的 1 格代表 1、2、5、10 不等，先写下单位再读数。",
+      "success_hint": "没有单位格就不要读数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-stat-n003-practice",
+      "node_id": "pm-g4-stat-n003",
+      "title": "读较大的数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "数据在几十到一百的条形图 4 张，读准高度。",
+      "success_hint": "10 格×每格 10 就是 100。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-stat-n004-explain",
+      "node_id": "pm-g4-stat-n004",
+      "title": "两组直条",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出哪张是复式条形图，说明同一类别为什么有两根直条。",
+      "success_hint": "两根条是为了并排比较两组。"
+    },
+    {
+      "id": "pm-g4-stat-n005-practice",
+      "node_id": "pm-g4-stat-n005",
+      "title": "读两组",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "复式条形图 4 张，读指定类别两组的数量并比较。",
+      "success_hint": "先锁定类别，再读两根条。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-stat-n006-explain",
+      "node_id": "pm-g4-stat-n006",
+      "title": "图例对上号",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把图例颜色和组别连线，再说一句「左边这根表示……」。",
+      "success_hint": "图例是翻译器。"
+    },
+    {
+      "id": "pm-g4-stat-n007-practice",
+      "node_id": "pm-g4-stat-n007",
+      "title": "表画复式条形图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据 3×2 的复式表画复式条形图，补全图例和类别。",
+      "success_hint": "同一类别的两根条要靠在一起。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g4-stat-n008-explain",
+      "node_id": "pm-g4-stat-n008",
+      "title": "两组整体不同",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看着复式条形图，用两句话比较两组：哪一组整体更高，哪一类差别最大。",
+      "success_hint": "不要只看一个类别。"
+    },
+    {
+      "id": "pm-g4-stat-n009-practice",
+      "node_id": "pm-g4-stat-n009",
+      "title": "给图找茬",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "5 张不规范条形图（没图例、刻度不从 0、直条不等宽），指出问题。",
+      "success_hint": "先检查 0 点、图例、直条宽度。",
+      "items_suggested": 5
+    },
+    {
+      "id": "pm-g4-stat-n010-practice",
+      "node_id": "pm-g4-stat-n010",
+      "title": "条形图闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读单式、读复式、改错图各 2 题。",
+      "success_hint": "图例和单位格每次都要先看。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-stat-n010-mini-quiz",
+      "node_id": "pm-g4-stat-n010",
+      "title": "条形图小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合刻度、复式图例、找不规范。",
+      "success_hint": "读图三步：单位、图例、直条。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g4-stat-boss-bar",
+      "node_id": "pm-g4-stat-n010",
+      "title": "关主：条形图测绘员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①按单位格读图 ②读复式条形图 ③指出一张不规范图的问题。",
+      "success_hint": "没有图例不要猜哪一组。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-stat-n011-explain",
+      "node_id": "pm-g4-stat-n011",
+      "title": "移多补少",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 3 根不同长度的纸条，把长的剪一段补给短的，直到一样长，说明这就是「平均」。",
+      "success_hint": "平均是拉齐后的长度，不是最长也不是最短。"
+    },
+    {
+      "id": "pm-g4-stat-n012-practice",
+      "node_id": "pm-g4-stat-n012",
+      "title": "算平均数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组数据（2–6 个数）求平均数，数字控制在可口算或简算范围。",
+      "success_hint": "先求和，再除以个数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-stat-n013-practice",
+      "node_id": "pm-g4-stat-n013",
+      "title": "除不尽怎么办",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 组除不尽的数据，按题目保留整数或一位小数。",
+      "success_hint": "写出「大约」或按要求取近似。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-stat-n014-explain",
+      "node_id": "pm-g4-stat-n014",
+      "title": "平均可以没有人等于它",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举例：4 人分别有 1、1、1、5 支笔，平均 2 支，但没有人恰好 2 支。",
+      "success_hint": "平均数描述这组，不保证是某个人的数。"
+    },
+    {
+      "id": "pm-g4-stat-n015-practice",
+      "node_id": "pm-g4-stat-n015",
+      "title": "两组比平均",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "两组人数相同或不同的数据，先算平均再比较，并写一句注意。",
+      "success_hint": "人数不同时，只比平均，不比总和。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-stat-n016-practice",
+      "node_id": "pm-g4-stat-n016",
+      "title": "拉开的平均数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一组数据去掉一个特别大的数，再算平均，说说变了多少。",
+      "success_hint": "极端数据会把平均拽过去。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g4-stat-n017-practice",
+      "node_id": "pm-g4-stat-n017",
+      "title": "由平均还原",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知平均和个数求总和，或已知总和与平均求个数。共 6 题。",
+      "success_hint": "总和＝平均×个数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-stat-n018-practice",
+      "node_id": "pm-g4-stat-n018",
+      "title": "看条形估平均",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "先估哪一组平均更高，再计算验证，共 3 组图。",
+      "success_hint": "特别高的一根条会把平均抬起来。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g4-stat-n019-practice",
+      "node_id": "pm-g4-stat-n019",
+      "title": "人均情境",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "平均每天、人均本数等 6 个短情境，选择求平均还是还原总和。",
+      "success_hint": "问整体用乘法，问水平用除法。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-stat-n020-practice",
+      "node_id": "pm-g4-stat-n020",
+      "title": "平均数闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算、解释「不是每人恰好」、比较两组、指出极端值影响。",
+      "success_hint": "会算还要会说它的局限。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-stat-n020-mini-quiz",
+      "node_id": "pm-g4-stat-n020",
+      "title": "平均数小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合计算、还原、比较、极端值。",
+      "success_hint": "先看问的是总和、个数还是平均。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g4-stat-boss-average",
+      "node_id": "pm-g4-stat-n020",
+      "title": "关主：平均数调解员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①算平均 ②说明平均可以不是实际有的数 ③比较两组并指出一个极端值的影响。",
+      "success_hint": "平均是拉齐，不是每个人。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-stat-n021-explain",
+      "node_id": "pm-g4-stat-n021",
+      "title": "有序列出",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "摸两颗不同颜色棋子的顺序（先红后黄、先黄后红等），列出全部结果。",
+      "success_hint": "顺序不同算不同结果时，要写全。"
+    },
+    {
+      "id": "pm-g4-stat-n022-explain",
+      "node_id": "pm-g4-stat-n022",
+      "title": "公平和不公平",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "公平硬币与「一边更重的硬币」对比：结果都是正反，可能性却不一定一样。",
+      "success_hint": "有哪些结果，和是否同样可能，要分开说。"
+    },
+    {
+      "id": "pm-g4-stat-n023-practice",
+      "node_id": "pm-g4-stat-n023",
+      "title": "比可能性",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个情境用更大/更小/一样大描述，不写分数。",
+      "success_hint": "先看是否公平，再看数量或扇区。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-stat-n024-practice",
+      "node_id": "pm-g4-stat-n024",
+      "title": "转盘与盒子",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "转盘扇区大小不同、盒子棋子数量不同，各 3 题比较可能性。",
+      "success_hint": "更大的扇区、更多的棋子，通常可能性更大。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-stat-n025-explain",
+      "node_id": "pm-g4-stat-n025",
+      "title": "试两次不够",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "只摸两次都是红，能不能说「一定是红」？用自己的话说明次数少时会晃。",
+      "success_hint": "次数少，偶然性大，不要急着下结论。"
+    },
+    {
+      "id": "pm-g4-stat-n026-practice",
+      "node_id": "pm-g4-stat-n026",
+      "title": "先统计再判断",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "整理 20 次摸棋记录，算每种颜色的次数和平均每 5 次大约几次，再比较可能性。",
+      "success_hint": "记录是数据，可能性判断要对照盒子里实际有什么。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g4-stat-n027-practice",
+      "node_id": "pm-g4-stat-n027",
+      "title": "我来选单位格",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "三组数据范围不同，为每组选择 1 格代表几并说明理由。",
+      "success_hint": "图要画得下，高低还要分得清。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g4-stat-n028-explain",
+      "node_id": "pm-g4-stat-n028",
+      "title": "班均不是每人",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "班均课外书 8 本，用两三句话说清楚：有人更多、有人更少，8 是拉齐后的数。",
+      "success_hint": "平均描述全班，不描述每一个人。"
+    },
+    {
+      "id": "pm-g4-stat-n029-practice",
+      "node_id": "pm-g4-stat-n029",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "复式条形图、平均数、可能性大小。",
+      "success_hint": "三种题型先分类。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-stat-n030-practice",
+      "node_id": "pm-g4-stat-n030",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读复式条形图、算并解释平均数、比较可能性。",
+      "success_hint": "图例、除法、全部结果，三件齐。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-stat-boss-map",
+      "node_id": "pm-g4-stat-n030",
+      "title": "关主：四年级统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①复式条形图 ②平均数计算与意义 ③列出结果并比较可能性大小。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "map_id": "pm-g6-statistics",
+  "edges": [
+    {
+      "from": "pm-g6-stat-n001",
+      "to": "pm-g6-stat-n002",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n001 需先于 pm-g6-stat-n002"
+    },
+    {
+      "from": "pm-g6-stat-n002",
+      "to": "pm-g6-stat-n003",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n002 需先于 pm-g6-stat-n003"
+    },
+    {
+      "from": "pm-g6-stat-n003",
+      "to": "pm-g6-stat-n004",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n003 需先于 pm-g6-stat-n004"
+    },
+    {
+      "from": "pm-g6-stat-n004",
+      "to": "pm-g6-stat-n005",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n004 需先于 pm-g6-stat-n005"
+    },
+    {
+      "from": "pm-g6-stat-n005",
+      "to": "pm-g6-stat-n006",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n005 需先于 pm-g6-stat-n006"
+    },
+    {
+      "from": "pm-g6-stat-n006",
+      "to": "pm-g6-stat-n007",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n006 需先于 pm-g6-stat-n007"
+    },
+    {
+      "from": "pm-g6-stat-n007",
+      "to": "pm-g6-stat-n008",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n007 需先于 pm-g6-stat-n008"
+    },
+    {
+      "from": "pm-g6-stat-n008",
+      "to": "pm-g6-stat-n009",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n008 需先于 pm-g6-stat-n009"
+    },
+    {
+      "from": "pm-g6-stat-n001",
+      "to": "pm-g6-stat-n010",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n001 需先于 pm-g6-stat-n010"
+    },
+    {
+      "from": "pm-g6-stat-n010",
+      "to": "pm-g6-stat-n011",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n010 需先于 pm-g6-stat-n011"
+    },
+    {
+      "from": "pm-g6-stat-n011",
+      "to": "pm-g6-stat-n012",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n011 需先于 pm-g6-stat-n012"
+    },
+    {
+      "from": "pm-g6-stat-n012",
+      "to": "pm-g6-stat-n013",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n012 需先于 pm-g6-stat-n013"
+    },
+    {
+      "from": "pm-g6-stat-n013",
+      "to": "pm-g6-stat-n014",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n013 需先于 pm-g6-stat-n014"
+    },
+    {
+      "from": "pm-g6-stat-n009",
+      "to": "pm-g6-stat-n015",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n009 需先于 pm-g6-stat-n015"
+    },
+    {
+      "from": "pm-g6-stat-n014",
+      "to": "pm-g6-stat-n015",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n014 需先于 pm-g6-stat-n015"
+    },
+    {
+      "from": "pm-g6-stat-n015",
+      "to": "pm-g6-stat-n016",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n015 需先于 pm-g6-stat-n016"
+    },
+    {
+      "from": "pm-g6-stat-n016",
+      "to": "pm-g6-stat-n017",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n016 需先于 pm-g6-stat-n017"
+    },
+    {
+      "from": "pm-g6-stat-n017",
+      "to": "pm-g6-stat-n018",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n017 需先于 pm-g6-stat-n018"
+    },
+    {
+      "from": "pm-g6-stat-n018",
+      "to": "pm-g6-stat-n019",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n018 需先于 pm-g6-stat-n019"
+    },
+    {
+      "from": "pm-g6-stat-n009",
+      "to": "pm-g6-stat-n020",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n009 需先于 pm-g6-stat-n020"
+    },
+    {
+      "from": "pm-g6-stat-n020",
+      "to": "pm-g6-stat-n021",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n020 需先于 pm-g6-stat-n021"
+    },
+    {
+      "from": "pm-g6-stat-n021",
+      "to": "pm-g6-stat-n022",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n021 需先于 pm-g6-stat-n022"
+    },
+    {
+      "from": "pm-g6-stat-n022",
+      "to": "pm-g6-stat-n023",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n022 需先于 pm-g6-stat-n023"
+    },
+    {
+      "from": "pm-g6-stat-n022",
+      "to": "pm-g6-stat-n024",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n022 需先于 pm-g6-stat-n024"
+    },
+    {
+      "from": "pm-g6-stat-n023",
+      "to": "pm-g6-stat-n025",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n023 需先于 pm-g6-stat-n025"
+    },
+    {
+      "from": "pm-g6-stat-n024",
+      "to": "pm-g6-stat-n025",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n024 需先于 pm-g6-stat-n025"
+    },
+    {
+      "from": "pm-g6-stat-n019",
+      "to": "pm-g6-stat-n026",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n019 需先于 pm-g6-stat-n026"
+    },
+    {
+      "from": "pm-g6-stat-n025",
+      "to": "pm-g6-stat-n026",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n025 需先于 pm-g6-stat-n026"
+    },
+    {
+      "from": "pm-g6-stat-n017",
+      "to": "pm-g6-stat-n027",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n017 需先于 pm-g6-stat-n027"
+    },
+    {
+      "from": "pm-g6-stat-n009",
+      "to": "pm-g6-stat-n028",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n009 需先于 pm-g6-stat-n028"
+    },
+    {
+      "from": "pm-g6-stat-n026",
+      "to": "pm-g6-stat-n029",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n026 需先于 pm-g6-stat-n029"
+    },
+    {
+      "from": "pm-g6-stat-n026",
+      "to": "pm-g6-stat-n030",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n026 需先于 pm-g6-stat-n030"
+    },
+    {
+      "from": "pm-g6-stat-n030",
+      "to": "pm-g6-stat-n031",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n030 需先于 pm-g6-stat-n031"
+    },
+    {
+      "from": "pm-g6-stat-n031",
+      "to": "pm-g6-stat-n032",
+      "type": "prerequisite",
+      "note": "pm-g6-stat-n031 需先于 pm-g6-stat-n032"
+    },
+    {
+      "from": "pm-g6-stat-n002",
+      "to": "pm-g6-stat-n007",
+      "type": "easily_confused",
+      "note": "扇形图看结构，折线图看变化，不要拿扇形图描述「越来越高」。"
+    },
+    {
+      "from": "pm-g6-stat-n011",
+      "to": "pm-g6-stat-n012",
+      "type": "easily_confused",
+      "note": "奇数个取正中间；偶数个要再平均一次中间两个。"
+    },
+    {
+      "from": "pm-g6-stat-n012",
+      "to": "pm-g6-stat-n013",
+      "type": "related",
+      "note": "中位数看位置，平均数看总和，极端值对它们的影响不同。"
+    },
+    {
+      "from": "pm-g6-stat-n015",
+      "to": "pm-g6-stat-n016",
+      "type": "easily_confused",
+      "note": "三个统计量可以并存，选用取决于问题，不是谁更高级。"
+    },
+    {
+      "from": "pm-g6-stat-n007",
+      "to": "pm-g6-stat-n017",
+      "type": "application",
+      "note": "会判断扇形图的用途，才能在三种图里做选择。"
+    },
+    {
+      "from": "pm-g6-stat-n020",
+      "to": "pm-g6-stat-n022",
+      "type": "easily_confused",
+      "note": "不是等可能时，不能直接用「结果种数」当分数分母。"
+    },
+    {
+      "from": "pm-g6-stat-n017",
+      "to": "pm-g6-stat-n027",
+      "type": "application",
+      "note": "会选图之后，还要会识破故意画歪的图。"
+    }
+  ]
+}

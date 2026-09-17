@@ -1,0 +1,705 @@
+{
+  "map_id": "pm-g2-statistics",
+  "nodes": [
+    {
+      "id": "pm-g2-stat-n001",
+      "title": "我们想知道什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "collect",
+        "ch-collect"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把好奇写成一个能调查的问题，例如「课间大家最爱玩什么」。"
+    },
+    {
+      "id": "pm-g2-stat-n002",
+      "title": "用正字或画圈记录",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g2-stat-n001"
+      ],
+      "tags": [
+        "collect",
+        "ch-collect",
+        "tally"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用画正字或画圈的办法，边问边记，不错记漏记。"
+    },
+    {
+      "id": "pm-g2-stat-n003",
+      "title": "问一问记下来",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-stat-n002"
+      ],
+      "tags": [
+        "collect",
+        "ch-collect",
+        "survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能向同学收集答案，每人只记一次，并保持类别名称一致。"
+    },
+    {
+      "id": "pm-g2-stat-n004",
+      "title": "整理乱糟糟的记录",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-stat-n003"
+      ],
+      "tags": [
+        "collect",
+        "ch-collect"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把散乱的记号按类别合并，得到每一类的个数。"
+    },
+    {
+      "id": "pm-g2-stat-n005",
+      "title": "单式统计表",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-stat-n004"
+      ],
+      "tags": [
+        "table",
+        "ch-collect"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把类别和个数填进单式统计表，表头写清楚。"
+    },
+    {
+      "id": "pm-g2-stat-n006",
+      "title": "从表里读信息",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-stat-n005"
+      ],
+      "tags": [
+        "table",
+        "ch-collect",
+        "read"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能从表中读出最多、最少、一共，并回答「某一类有几个」。"
+    },
+    {
+      "id": "pm-g2-stat-n007",
+      "title": "收集整理综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n006"
+      ],
+      "tags": [
+        "collect",
+        "ch-collect",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成「提问—记录—填表—读表」这一小圈。"
+    },
+    {
+      "id": "pm-g2-stat-n008",
+      "title": "象形图一图表示1",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-stat-n007"
+      ],
+      "tags": [
+        "pictograph",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能画、能读「一个图代表1」的象形图，图与个数一致。"
+    },
+    {
+      "id": "pm-g2-stat-n009",
+      "title": "象形图一图表示2",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n008"
+      ],
+      "tags": [
+        "pictograph",
+        "ch-chart",
+        "scale"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道有时一个图可以代表2（或几个），半个图代表一半的数量。"
+    },
+    {
+      "id": "pm-g2-stat-n010",
+      "title": "象形图别数错",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n009"
+      ],
+      "tags": [
+        "pictograph",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据图例算出真实数量，不把「图的个数」直接当成人数。"
+    },
+    {
+      "id": "pm-g2-stat-n011",
+      "title": "条形图长什么样",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-stat-n007"
+      ],
+      "tags": [
+        "bar",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出条形统计图：直条的高低表示数量多少。"
+    },
+    {
+      "id": "pm-g2-stat-n012",
+      "title": "横轴类别纵轴数量",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-stat-n011"
+      ],
+      "tags": [
+        "bar",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说出横轴上是类别、纵轴上是数量，并读出一个直条表示的数。"
+    },
+    {
+      "id": "pm-g2-stat-n013",
+      "title": "读条形图比多少",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n012"
+      ],
+      "tags": [
+        "bar",
+        "ch-chart",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据条形图比较两类相差多少，找出最多最少。"
+    },
+    {
+      "id": "pm-g2-stat-n014",
+      "title": "根据表画条形图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n006",
+        "pm-g2-stat-n013"
+      ],
+      "tags": [
+        "bar",
+        "ch-chart",
+        "draw"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据统计表画出简单条形图，直条对齐、高低与数量对应。"
+    },
+    {
+      "id": "pm-g2-stat-n015",
+      "title": "看图提出问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n010",
+        "pm-g2-stat-n013"
+      ],
+      "tags": [
+        "chart",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能看着图表自己提出「谁比谁多几个」「一共多少」等问题。"
+    },
+    {
+      "id": "pm-g2-stat-n016",
+      "title": "图表综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g2-stat-n014",
+        "pm-g2-stat-n015"
+      ],
+      "tags": [
+        "chart",
+        "ch-chart",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在表、象形图、条形图之间翻译同一组数据。"
+    },
+    {
+      "id": "pm-g2-stat-n017",
+      "title": "更可能和更不可能",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-stat-n007"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据哪一类数量更多，口头说「更可能摸到哪一种」。"
+    },
+    {
+      "id": "pm-g2-stat-n018",
+      "title": "同样可能",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-stat-n017"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "当两类一样多时，能说「摸到它们的可能性差不多」。"
+    },
+    {
+      "id": "pm-g2-stat-n019",
+      "title": "用摸棋说可能性",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n018"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能看盒子里的棋子组成，用更可能、同样可能、几乎不可能说话。"
+    },
+    {
+      "id": "pm-g2-stat-n020",
+      "title": "数据帮我判断",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n016",
+        "pm-g2-stat-n019"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能先读调查数据，再对「下一次更可能怎样」做一句有根据的猜测。"
+    },
+    {
+      "id": "pm-g2-stat-n021",
+      "title": "一周天气小记录",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n005"
+      ],
+      "tags": [
+        "collect",
+        "ch-collect",
+        "weather"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能连续记录几天阴晴雨，整理成表，不要求画复杂图。"
+    },
+    {
+      "id": "pm-g2-stat-n022",
+      "title": "调查课间爱玩什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-stat-n016"
+      ],
+      "tags": [
+        "collect",
+        "ch-chart",
+        "project"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能完成一次小型调查：提问、记录、填表、画简单条形图。"
+    },
+    {
+      "id": "pm-g2-stat-n023",
+      "title": "二年级统计合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g2-stat-n020"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合收集、读图、一图表示几个、口头可能性。"
+    },
+    {
+      "id": "pm-g2-stat-n024",
+      "title": "二年级统计通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g2-stat-n023"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成收集整理与读图说话的收束检查。"
+    }
+  ]
+}

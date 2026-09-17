@@ -1,0 +1,291 @@
+{
+  "map_id": "pm-g6-practice",
+  "quests": [
+    {
+      "id": "pm-g6-prac-n001-explain",
+      "node_id": "pm-g6-prac-n001",
+      "title": "说出现象",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用抽屉或袜子举例，说出「多出来的会挤在同一类」的感觉。",
+      "success_hint": "先有感觉，再数格子。"
+    },
+    {
+      "id": "pm-g6-prac-n002-explain",
+      "node_id": "pm-g6-prac-n002",
+      "title": "谁是格子谁是东西",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在自选情境里标明格子和东西各是什么、各有几个。",
+      "success_hint": "两类都要数清。"
+    },
+    {
+      "id": "pm-g6-prac-n003-practice",
+      "node_id": "pm-g6-prac-n003",
+      "title": "最均匀仍多 1",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "若干组「格子 n、东西 n+1」，说明为什么至少一格有 2 个。",
+      "success_hint": "先均匀分，再看多出来的 1。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-prac-n004-practice",
+      "node_id": "pm-g6-prac-n004",
+      "title": "保证有 3 个",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在小数字里计算：要保证至少一格有 3 个，至少要放几件。",
+      "success_hint": "先让每格都有 2 个，再多 1 件。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-prac-n005-explain",
+      "node_id": "pm-g6-prac-n005",
+      "title": "自编例子",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "自编生活例子，写清格子、东西、保证句。",
+      "success_hint": "保证句里要有「至少」。"
+    },
+    {
+      "id": "pm-g6-prac-n006-explain",
+      "node_id": "pm-g6-prac-n006",
+      "title": "不是碰巧",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "解释为什么看「最均匀」的放法就够了。",
+      "success_hint": "最不巧都成立，其他情况更成立。"
+    },
+    {
+      "id": "pm-g6-prac-n006-mini-quiz",
+      "node_id": "pm-g6-prac-n006",
+      "title": "抽屉发现小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "判断保证句对不对，指出格子和东西是否搞反。",
+      "success_hint": "先对齐两类再保证。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-prac-boss-pigeon",
+      "node_id": "pm-g6-prac-n006",
+      "title": "关主：抽屉发现者",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①分清格子与东西 ②说明多 1 件时的保证 ③自编一个生活例子。",
+      "success_hint": "最均匀仍然多，就不是碰巧。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g6-prac-n007-explain",
+      "node_id": "pm-g6-prac-n007",
+      "title": "提出综合问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出一个校园问题，并标明会用到的至少两种办法（量、问、画、编码等）。",
+      "success_hint": "一种办法不够，才叫综合。"
+    },
+    {
+      "id": "pm-g6-prac-n008-explain",
+      "node_id": "pm-g6-prac-n008",
+      "title": "课题说明书",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写问题、数据、步骤、预备工具。",
+      "success_hint": "别人按说明书能开工。"
+    },
+    {
+      "id": "pm-g6-prac-n009-practice",
+      "node_id": "pm-g6-prac-n009",
+      "title": "留下来源",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "收集或测量一组数据，每条注明来源和时间。",
+      "success_hint": "没有来源的数以后答辩会垮。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-prac-n010-practice",
+      "node_id": "pm-g6-prac-n010",
+      "title": "选用两种工具",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对同一批数据用两种工具处理（如表+折线，或平均+中位）。",
+      "success_hint": "说明为什么选它们。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g6-prac-n011-explain",
+      "node_id": "pm-g6-prac-n011",
+      "title": "写结论和局限",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "结论不超过三句，局限至少一句。",
+      "success_hint": "对象范围要写进结论。"
+    },
+    {
+      "id": "pm-g6-prac-n012-practice",
+      "node_id": "pm-g6-prac-n012",
+      "title": "课题答辩",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "回答三个问题：数据从哪来、为何选这个图、结论不能代表谁。",
+      "success_hint": "答不出就回到说明书。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g6-prac-n012-mini-quiz",
+      "node_id": "pm-g6-prac-n012",
+      "title": "课题质量小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "给几份模拟课题找缺：无来源、图选错、结论越界。",
+      "success_hint": "证据链要完整。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-prac-n013-explain",
+      "node_id": "pm-g6-prac-n013",
+      "title": "展览给谁看",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "确定观众（低年级、家长或本班），说明因此要选哪些作品。",
+      "success_hint": "观众不同，讲解深度不同。"
+    },
+    {
+      "id": "pm-g6-prac-n014-explain",
+      "node_id": "pm-g6-prac-n014",
+      "title": "分块",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把展览分成至少三块，每块举一件代表作。",
+      "success_hint": "块的名字要让外行人懂。"
+    },
+    {
+      "id": "pm-g6-prac-n015-practice",
+      "node_id": "pm-g6-prac-n015",
+      "title": "写说明卡",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "为两件作品各写四句说明卡。",
+      "success_hint": "问题、方法、结果、改进。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g6-prac-n016-practice",
+      "node_id": "pm-g6-prac-n016",
+      "title": "设计路线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出参观顺序，把最容易的放在前面。",
+      "success_hint": "路线也是一种优化。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-prac-n017-practice",
+      "node_id": "pm-g6-prac-n017",
+      "title": "两分钟讲解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "讲解一件作品，并准备两个提问的回答。",
+      "success_hint": "超时就删细节，不删来源。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-prac-n018-explain",
+      "node_id": "pm-g6-prac-n018",
+      "title": "打开实践工具箱",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说出四步名称，以及每一步需要留下什么证据。",
+      "success_hint": "没有证据的交流只是讲故事。"
+    },
+    {
+      "id": "pm-g6-prac-n019-explain",
+      "node_id": "pm-g6-prac-n019",
+      "title": "看清边界",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举出格子和东西一样多时的反例，说明此时不能保证。",
+      "success_hint": "边界让保证句更精确。"
+    },
+    {
+      "id": "pm-g6-prac-n020-explain",
+      "node_id": "pm-g6-prac-n020",
+      "title": "数据变差",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "假设漏记一半，说明结论应改成更谨慎的说法。",
+      "success_hint": "证据弱，结论就要降级。"
+    },
+    {
+      "id": "pm-g6-prac-n021-explain",
+      "node_id": "pm-g6-prac-n021",
+      "title": "三句提醒",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "给五年级写最容易漏的三步。",
+      "success_hint": "例如：没约定就动手、没有来源、结论越界。"
+    },
+    {
+      "id": "pm-g6-prac-n022-explain",
+      "node_id": "pm-g6-prac-n022",
+      "title": "用到哪些思想",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "列出本次课题用到的领域思想，不写其他地图的节点 id。",
+      "success_hint": "综合是思想合用，不是把图锁在一起。"
+    },
+    {
+      "id": "pm-g6-prac-n023-practice",
+      "node_id": "pm-g6-prac-n023",
+      "title": "压缩彩排",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把讲解压到规定时长，请同伴计时并提问来源。",
+      "success_hint": "短，但来源还在。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-prac-n024-practice",
+      "node_id": "pm-g6-prac-n024",
+      "title": "抽签走流程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽抽屉发现 / 校园课题 / 说明卡讲解之一完整做完。",
+      "success_hint": "四步和证据都要齐。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-prac-n025-practice",
+      "node_id": "pm-g6-prac-n025",
+      "title": "收束项目",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "自选一个项目证明会走四步，并主动说出一个局限。",
+      "success_hint": "能说局限，才像真做完。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-prac-n026-practice",
+      "node_id": "pm-g6-prac-n026",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成小学综合实践收束：规则或模型、数据或例子、交流与局限。",
+      "success_hint": "发现—计划—实施—交流。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-prac-boss-map",
+      "node_id": "pm-g6-prac-n026",
+      "title": "关主：六年级实践通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①讲清一个「一定有相同」的保证例子 ②展示一个带证据的校园小课题或说明卡 ③说出局限。小学综合与实践线在此收束。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 8
+    }
+  ]
+}

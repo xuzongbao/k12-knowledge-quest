@@ -1,0 +1,243 @@
+{
+  "map_id": "pm-g4-practice",
+  "quests": [
+    {
+      "id": "pm-g4-prac-n001-explain",
+      "node_id": "pm-g4-prac-n001",
+      "title": "互相卡住的要求",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "列出午餐里至少三条会互相限制的要求。",
+      "success_hint": "要求要能检查，不要只说「要营养」。"
+    },
+    {
+      "id": "pm-g4-prac-n002-explain",
+      "node_id": "pm-g4-prac-n002",
+      "title": "写成可打勾的约束",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把要求改成 3–5 条约束清单。",
+      "success_hint": "每条都能用是/否回答。"
+    },
+    {
+      "id": "pm-g4-prac-n003-practice",
+      "node_id": "pm-g4-prac-n003",
+      "title": "配一盘并核对",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给出一盘搭配，用清单逐条打勾。",
+      "success_hint": "有一条不满足就改。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g4-prac-n004-practice",
+      "node_id": "pm-g4-prac-n004",
+      "title": "再给一个方案",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给出第二盘，比较份数或类别是否更均衡。",
+      "success_hint": "两个方案都要先可行。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g4-prac-n005-explain",
+      "node_id": "pm-g4-prac-n005",
+      "title": "放宽一条会怎样",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "假设把总量上限放宽，说明可选方案会变多还是变少。",
+      "success_hint": "约束越松，可行方案通常越多。"
+    },
+    {
+      "id": "pm-g4-prac-n005-mini-quiz",
+      "node_id": "pm-g4-prac-n005",
+      "title": "约束项目小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "判断方案是否可行，指出缺了哪条约束。",
+      "success_hint": "先可行，再谈更好。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-prac-boss-constraint",
+      "node_id": "pm-g4-prac-n005",
+      "title": "关主：约束搭配师",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①写出约束 ②给出两个可行方案并比较 ③说明改一条约束后的影响。",
+      "success_hint": "没有约束就没有优化。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g4-prac-n006-explain",
+      "node_id": "pm-g4-prac-n006",
+      "title": "提出路线问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画出起点终点，指出至少两条路。",
+      "success_hint": "路要真实能走。"
+    },
+    {
+      "id": "pm-g4-prac-n007-explain",
+      "node_id": "pm-g4-prac-n007",
+      "title": "选定指标",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "选定主比的一样（时间/拐弯/门的个数），说明为什么这次不混着比。",
+      "success_hint": "一次主比一样，结论才清楚。"
+    },
+    {
+      "id": "pm-g4-prac-n008-practice",
+      "node_id": "pm-g4-prac-n008",
+      "title": "画路线简图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出两条路并标上准备记录的数的位置。",
+      "success_hint": "图要能让别人按着走。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g4-prac-n009-practice",
+      "node_id": "pm-g4-prac-n009",
+      "title": "实地记录",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "走两条路，记录时间或步数。",
+      "success_hint": "出发条件尽量相同。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g4-prac-n010-explain",
+      "node_id": "pm-g4-prac-n010",
+      "title": "推荐并留余地",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "推荐一条路，并写「如果下雨/人多，另一条可能更好」。",
+      "success_hint": "推荐要绑定指标。"
+    },
+    {
+      "id": "pm-g4-prac-n011-explain",
+      "node_id": "pm-g4-prac-n011",
+      "title": "值日撞车",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个值日冲突的例子，说明只按学号轮的问题。",
+      "success_hint": "冲突要具体到人和天。"
+    },
+    {
+      "id": "pm-g4-prac-n012-explain",
+      "node_id": "pm-g4-prac-n012",
+      "title": "列出值日约束",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出至少四条值日约束。",
+      "success_hint": "包括每天人数和每人次数。"
+    },
+    {
+      "id": "pm-g4-prac-n013-practice",
+      "node_id": "pm-g4-prac-n013",
+      "title": "排出一周草表",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "做一张一周值日表并逐条检查。",
+      "success_hint": "先满足每天人数。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g4-prac-n014-practice",
+      "node_id": "pm-g4-prac-n014",
+      "title": "局部调整",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "假设两人某天不能来，调整表并标明改了哪几格。",
+      "success_hint": "尽量少改。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g4-prac-n015-explain",
+      "node_id": "pm-g4-prac-n015",
+      "title": "用次数谈公平",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "统计每人值日次数，说明是否公平，给一条改进。",
+      "success_hint": "公平要看次数，不只看感觉。"
+    },
+    {
+      "id": "pm-g4-prac-n016-explain",
+      "node_id": "pm-g4-prac-n016",
+      "title": "三种限制",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一句话概括午餐、路线、值日的共同点。",
+      "success_hint": "都是限制条件下的安排。"
+    },
+    {
+      "id": "pm-g4-prac-n017-practice",
+      "node_id": "pm-g4-prac-n017",
+      "title": "画出冲突格",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用星期×时段的格子标出两个人的冲突。",
+      "success_hint": "冲突格不能排值日。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g4-prac-n018-explain",
+      "node_id": "pm-g4-prac-n018",
+      "title": "人数变化",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "假设多一名同学，说明值日表或午餐份数哪一条要改。",
+      "success_hint": "输入变了，方案要重算。"
+    },
+    {
+      "id": "pm-g4-prac-n019-explain",
+      "node_id": "pm-g4-prac-n019",
+      "title": "三条建议",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写成给班级的三条建议，每条都能照着做。",
+      "success_hint": "不要空话。"
+    },
+    {
+      "id": "pm-g4-prac-n020-practice",
+      "node_id": "pm-g4-prac-n020",
+      "title": "答辩一句",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "准备回答「为什么不选另一方案」，用约束或数据。",
+      "success_hint": "不说「我觉得」，说限制和记录。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g4-prac-n021-practice",
+      "node_id": "pm-g4-prac-n021",
+      "title": "抽签走四步",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽午餐/路线/值日之一完整做完。",
+      "success_hint": "方案必须可检查。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g4-prac-n022-practice",
+      "node_id": "pm-g4-prac-n022",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立给出一个受限方案，比较过备选，能答辩。",
+      "success_hint": "可行、可比较、可解释。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g4-prac-boss-map",
+      "node_id": "pm-g4-prac-n022",
+      "title": "关主：四年级实践通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：在给定约束下给出两个方案并推荐一个，说明指标和取舍。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 8
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "map_id": "pm-g5-statistics",
+  "quests": [
+    {
+      "id": "pm-g5-stat-n001-explain",
+      "node_id": "pm-g5-stat-n001",
+      "title": "举一个会变的量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说出两种「过几天再量会不同」的量，并说明只记一个数不够。",
+      "success_hint": "和时间挂钩的量，适合看变化。"
+    },
+    {
+      "id": "pm-g5-stat-n002-explain",
+      "node_id": "pm-g5-stat-n002",
+      "title": "点和线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指着折线图说明：点表示某一天的数量，线表示从这天到那天怎么变。",
+      "success_hint": "没有点就没有线，线不是随便画的弧。"
+    },
+    {
+      "id": "pm-g5-stat-n003-practice",
+      "node_id": "pm-g5-stat-n003",
+      "title": "读点",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个点：读出时间和数量。",
+      "success_hint": "先看横轴再看纵轴。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-stat-n004-practice",
+      "node_id": "pm-g5-stat-n004",
+      "title": "升还是降",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "标出 6 段折线是上升、下降还是走平。",
+      "success_hint": "后一点比前一点高就是上升。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-stat-n005-practice",
+      "node_id": "pm-g5-stat-n005",
+      "title": "最陡的一段",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "3 张图找出上升最陡、下降最陡的一段时间。",
+      "success_hint": "同样时间内，竖着变化越大越陡。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-stat-n006-practice",
+      "node_id": "pm-g5-stat-n006",
+      "title": "峰和谷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "找出最高、最低点及对应时间，共 4 张图。",
+      "success_hint": "最高不一定在最后一天。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-stat-n007-practice",
+      "node_id": "pm-g5-stat-n007",
+      "title": "描点连线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据 7 天的表画折线图，描点、标数、连线。",
+      "success_hint": "点要落在刻度上，线连相邻的点。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g5-stat-n008-explain",
+      "node_id": "pm-g5-stat-n008",
+      "title": "什么时候用折线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "给四个情境，选择条形图或折线图，并说明理由。",
+      "success_hint": "问「哪类多」用条形；问「怎么变」用折线。"
+    },
+    {
+      "id": "pm-g5-stat-n009-explain",
+      "node_id": "pm-g5-stat-n009",
+      "title": "两条线的图例",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把两条折线和图例连起来，读出某一天两组各是多少。",
+      "success_hint": "先看图例颜色或虚实。"
+    },
+    {
+      "id": "pm-g5-stat-n010-practice",
+      "node_id": "pm-g5-stat-n010",
+      "title": "比较两条折线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 张复式折线：同一时间谁高；哪一组波动更大。",
+      "success_hint": "波动看上下晃得厉不厉害。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-stat-n011-explain",
+      "node_id": "pm-g5-stat-n011",
+      "title": "谨慎预测",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "根据近几天上升的折线，写一句预测，并补一句「如果天气突变就不一定」。",
+      "success_hint": "预测要留余地。"
+    },
+    {
+      "id": "pm-g5-stat-n012-practice",
+      "node_id": "pm-g5-stat-n012",
+      "title": "折线闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读趋势、画单式折线、读复式图例。",
+      "success_hint": "点、趋势、图例三件齐。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-stat-n012-mini-quiz",
+      "node_id": "pm-g5-stat-n012",
+      "title": "折线小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合读点、最陡段、选图种、复式比较。",
+      "success_hint": "先判断这张图在问变化还是比多少。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g5-stat-boss-line",
+      "node_id": "pm-g5-stat-n012",
+      "title": "关主：折线气象员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①读上升下降和最值 ②根据表画折线 ③读复式折线并做一句谨慎预测。",
+      "success_hint": "看变化先看相邻两点。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-stat-n013-practice",
+      "node_id": "pm-g5-stat-n013",
+      "title": "找出出现最多的",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组数据找出众数。",
+      "success_hint": "先数每个数出现几次。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-stat-n014-practice",
+      "node_id": "pm-g5-stat-n014",
+      "title": "两个众数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 组有两个众数的数据，把它们都写出来。",
+      "success_hint": "并列第一就要都写。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-stat-n015-explain",
+      "node_id": "pm-g5-stat-n015",
+      "title": "没有明显众数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一组 1–8 各出现一次，说明为什么不宜说众数是几。",
+      "success_hint": "没有「最常见」时不要硬找。"
+    },
+    {
+      "id": "pm-g5-stat-n016-explain",
+      "node_id": "pm-g5-stat-n016",
+      "title": "尺码听谁的",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "订购最常见鞋码，解释为什么看众数而不是把鞋码加起来平均。",
+      "success_hint": "尺码不能做成 36.5 这种「平均码」去订货。"
+    },
+    {
+      "id": "pm-g5-stat-n017-practice",
+      "node_id": "pm-g5-stat-n017",
+      "title": "两个统计量",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一组数据求众数和平均数，各写一句「它适合回答什么」。",
+      "success_hint": "常见用众数，拉齐用平均。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-stat-n018-practice",
+      "node_id": "pm-g5-stat-n018",
+      "title": "选众数还是平均",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个情境选择更合适的统计量。",
+      "success_hint": "问最常见选众数，问整体水平选平均。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-stat-n018-mini-quiz",
+      "node_id": "pm-g5-stat-n018",
+      "title": "众数小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "求众数、双众数、无众数、与平均对照。",
+      "success_hint": "先数次数。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g5-stat-boss-mode",
+      "node_id": "pm-g5-stat-n018",
+      "title": "关主：众数采购员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①求众数 ②处理两个众数或没有众数 ③在订购情境说明为何不用平均。",
+      "success_hint": "最常见，不是拉齐。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-stat-n019-explain",
+      "node_id": "pm-g5-stat-n019",
+      "title": "事先说不准",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举两个随机现象，列出可能结果，说明做之前不知道哪一个会出现。",
+      "success_hint": "随机不是「毫无规律」，而是事先不确定。"
+    },
+    {
+      "id": "pm-g5-stat-n020-explain",
+      "node_id": "pm-g5-stat-n020",
+      "title": "设计一个小试验",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "设计摸棋或转盘：写出盒子里有什么、做多少次、记录表长什么样。",
+      "success_hint": "试验前先写清可能结果。"
+    },
+    {
+      "id": "pm-g5-stat-n021-practice",
+      "node_id": "pm-g5-stat-n021",
+      "title": "做 20 次记录",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "重复试验 20 次，制成次数表，指出出现最多的结果。",
+      "success_hint": "每次条件要一样。",
+      "items_suggested": 20
+    },
+    {
+      "id": "pm-g5-stat-n022-explain",
+      "node_id": "pm-g5-stat-n022",
+      "title": "下一次仍不确定",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "即使记录里红很多，说明为什么下一次仍可能摸到蓝。",
+      "success_hint": "记录描述过去，下一次仍是随机。"
+    },
+    {
+      "id": "pm-g5-stat-n023-practice",
+      "node_id": "pm-g5-stat-n023",
+      "title": "5 次和 40 次",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较两组模拟记录：5 次波动大，40 次更靠近棋子组成。写两句观察。",
+      "success_hint": "数据越多，偶然的晃动相对越小。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g5-stat-n024-practice",
+      "node_id": "pm-g5-stat-n024",
+      "title": "结论越界了吗",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 段根据小调查写出的结论，判断有没有说得太满，并改成谨慎说法。",
+      "success_hint": "数据没覆盖的对象，不要被写进结论。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-stat-n025-explain",
+      "node_id": "pm-g5-stat-n025",
+      "title": "问了谁",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "只调查本班喜欢的运动，能不能说「全国小朋友都喜欢……」？说明理由。",
+      "success_hint": "结论的范围不能大于调查对象。"
+    },
+    {
+      "id": "pm-g5-stat-n026-practice",
+      "node_id": "pm-g5-stat-n026",
+      "title": "意识合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读折线趋势、选众数或平均、评价一句过满的结论。",
+      "success_hint": "先分清：变化、最常见、还是随机。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-stat-n026-mini-quiz",
+      "node_id": "pm-g5-stat-n026",
+      "title": "数据意识小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合折线、众数、小样本、对象范围。",
+      "success_hint": "谨慎比「算对」更难得。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-stat-n027-practice",
+      "node_id": "pm-g5-stat-n027",
+      "title": "画两条折线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "两组 7 天数据，画复式折线图，写清图例。",
+      "success_hint": "两条线用不同线型或颜色。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g5-stat-n028-explain",
+      "node_id": "pm-g5-stat-n028",
+      "title": "纵轴被截断",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "同一组数据，纵轴从 0 和从 80 开始各画示意，说明哪张看起来「跳得更猛」。",
+      "success_hint": "看变化幅度要读刻度，不要只看线条陡。"
+    },
+    {
+      "id": "pm-g5-stat-n029-practice",
+      "node_id": "pm-g5-stat-n029",
+      "title": "按众数订购",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据尺码调查表决定订购哪几个码、大约各多少，避免用平均码。",
+      "success_hint": "先找出现最多的码。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g5-stat-n030-practice",
+      "node_id": "pm-g5-stat-n030",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "折线+众数+随机试验记录。",
+      "success_hint": "三种题型先分类。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-stat-n031-practice",
+      "node_id": "pm-g5-stat-n031",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画或读折线、求众数并对照平均、评价随机试验结论。",
+      "success_hint": "趋势、最常见、别说太满。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-stat-boss-map",
+      "node_id": "pm-g5-stat-n031",
+      "title": "关主：五年级统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①折线读趋势并谨慎预测 ②众数与平均选用 ③根据试验记录作出不超过数据的判断。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    }
+  ]
+}

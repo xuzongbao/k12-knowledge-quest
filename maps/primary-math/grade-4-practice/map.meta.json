@@ -1,0 +1,25 @@
+{
+  "id": "pm-g4-practice",
+  "title": "四年级 · 综合与实践",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 4,
+  "strand": "综合与实践",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g4-prac-n001"
+  ],
+  "recommended_path_note": "午餐盘约束为主线（关主 1）；校园路线与值日表可并行，在 n016 汇合。时间冲突表（n017）为软锁，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g4-prac-boss-constraint",
+      "pm-g4-prac-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败两名关主：约束搭配师、地图通关试炼。"
+  },
+  "content_disclaimer": "活动骨架为课标综合与实践风格的原创设计，不是教材课题或练习页的摘录。",
+  "description": "小学四年级「综合与实践」地图：数量约束搭配、路线比较、值日安排。独立通关，不引用跨图节点。"
+}

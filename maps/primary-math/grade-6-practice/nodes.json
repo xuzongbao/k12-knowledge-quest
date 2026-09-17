@@ -1,0 +1,749 @@
+{
+  "map_id": "pm-g6-practice",
+  "nodes": [
+    {
+      "id": "pm-g6-prac-n001",
+      "title": "发现：多出来的一定挤在一起",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-pigeon"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从「抽屉、袜子、生日月份」等情境感到：东西比格子多时，至少有一格会多于一个。"
+    },
+    {
+      "id": "pm-g6-prac-n002",
+      "title": "计划：格子和东西",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-prac-n001"
+      ],
+      "tags": [
+        "plan",
+        "ch-pigeon"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能明确什么当格子、什么当放进去的东西，先数清两类。"
+    },
+    {
+      "id": "pm-g6-prac-n003",
+      "title": "实施：最均匀也还会多",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n002"
+      ],
+      "tags": [
+        "do",
+        "ch-pigeon"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「尽量放均匀」说明：东西比格子多 1 时，至少一格有 2 个。"
+    },
+    {
+      "id": "pm-g6-prac-n004",
+      "title": "实施：想保证某一格有 3 个",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n003"
+      ],
+      "tags": [
+        "do",
+        "ch-pigeon"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能思考要放多少才能保证至少一格有 3 个（在简单数字里）。"
+    },
+    {
+      "id": "pm-g6-prac-n005",
+      "title": "实施：举生活例子",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n004"
+      ],
+      "tags": [
+        "do",
+        "ch-pigeon"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能自编一个生活例子，并指出格子、东西、保证的那句话。"
+    },
+    {
+      "id": "pm-g6-prac-n006",
+      "title": "交流：这不是碰巧",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n005"
+      ],
+      "tags": [
+        "share",
+        "ch-pigeon",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明结论在「最不巧、最均匀」时仍然成立，所以不是碰巧。"
+    },
+    {
+      "id": "pm-g6-prac-n007",
+      "title": "发现：校园里的综合问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-project"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出一个要用到测量或统计或编码中至少两样的校园问题。"
+    },
+    {
+      "id": "pm-g6-prac-n008",
+      "title": "计划：课题说明书",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-prac-n007"
+      ],
+      "tags": [
+        "plan",
+        "ch-project"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能写课题说明书：问题、需要的数据、步骤、可能用到的图或模型。"
+    },
+    {
+      "id": "pm-g6-prac-n009",
+      "title": "实施：收集与测量",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n008"
+      ],
+      "tags": [
+        "do",
+        "ch-project"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按说明书收集或测量，记录来源和时间。"
+    },
+    {
+      "id": "pm-g6-prac-n010",
+      "title": "实施：选择数学工具",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n009"
+      ],
+      "tags": [
+        "do",
+        "ch-project"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能选择表、图、平均/中位/众数、简单模型中至少两种处理数据。"
+    },
+    {
+      "id": "pm-g6-prac-n011",
+      "title": "实施：得出不超过数据的结论",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n010"
+      ],
+      "tags": [
+        "do",
+        "ch-project"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能写出结论，并写清对象范围和局限。"
+    },
+    {
+      "id": "pm-g6-prac-n012",
+      "title": "交流：课题答辩",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-prac-n011"
+      ],
+      "tags": [
+        "share",
+        "ch-project"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能回答数据从哪来、为什么选这个图或这个统计量。"
+    },
+    {
+      "id": "pm-g6-prac-n013",
+      "title": "发现：六年要留下什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-exhibit"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出为小学数学做一次成果展：选哪些作品、给谁看。"
+    },
+    {
+      "id": "pm-g6-prac-n014",
+      "title": "计划：展览结构",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-prac-n013"
+      ],
+      "tags": [
+        "plan",
+        "ch-exhibit"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把展览分成「会算、会量、会调查、会建模」等几块，每块有代表作。"
+    },
+    {
+      "id": "pm-g6-prac-n015",
+      "title": "实施：整理作品说明卡",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n014"
+      ],
+      "tags": [
+        "do",
+        "ch-exhibit"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能为每件作品写说明卡：问题、方法、结果、我还想改什么。"
+    },
+    {
+      "id": "pm-g6-prac-n016",
+      "title": "实施：参观路线",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n015"
+      ],
+      "tags": [
+        "do",
+        "ch-exhibit"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能设计参观顺序，让没学过的低年级也能先看简单的。"
+    },
+    {
+      "id": "pm-g6-prac-n017",
+      "title": "交流：讲解与提问",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n012",
+        "pm-g6-prac-n016"
+      ],
+      "tags": [
+        "share",
+        "ch-exhibit"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能给参观者讲 2 分钟，并准备两个常问问题的回答。"
+    },
+    {
+      "id": "pm-g6-prac-n018",
+      "title": "小学实践工具箱",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-prac-n017"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出综合与实践常用步骤：发现、计划、实施、交流，以及证据从哪来。"
+    },
+    {
+      "id": "pm-g6-prac-n019",
+      "title": "反例与边界",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n006"
+      ],
+      "tags": [
+        "pigeon",
+        "ch-pigeon"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举出「格子和东西一样多时不能保证有一格有两个」的反例，从而看清边界。"
+    },
+    {
+      "id": "pm-g6-prac-n020",
+      "title": "如果数据不可靠",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n012"
+      ],
+      "tags": [
+        "project",
+        "ch-project"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能假设一批数据漏记或对象不对，说明结论要怎样降级。"
+    },
+    {
+      "id": "pm-g6-prac-n021",
+      "title": "给五年级的一封信",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n018"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能写信告诉低一年级：做一个综合项目最容易漏的三步。"
+    },
+    {
+      "id": "pm-g6-prac-n022",
+      "title": "跨领域对照",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-prac-n018"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出本次课题用了哪些领域的思想（数、图、统计、实践），但不必引用其他地图节点。"
+    },
+    {
+      "id": "pm-g6-prac-n023",
+      "title": "成果展彩排",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-prac-n021",
+        "pm-g6-prac-n022"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按时间把讲解压缩到规定时长，数字来源仍说得清。"
+    },
+    {
+      "id": "pm-g6-prac-n024",
+      "title": "六年级实践合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-prac-n023"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能抽签完成抽屉发现、校园课题或成果展说明卡中的完整流程。"
+    },
+    {
+      "id": "pm-g6-prac-n025",
+      "title": "小学实践收束",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-prac-n024"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用一个项目证明自己会走完四步，并说明局限。"
+    },
+    {
+      "id": "pm-g6-prac-n026",
+      "title": "六年级实践通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "综合与实践",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g6-prac-n025"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成小学综合与实践线的收束检查。"
+    }
+  ]
+}

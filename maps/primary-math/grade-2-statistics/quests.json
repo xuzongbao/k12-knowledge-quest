@@ -1,0 +1,296 @@
+{
+  "map_id": "pm-g2-statistics",
+  "quests": [
+    {
+      "id": "pm-g2-stat-n001-explain",
+      "node_id": "pm-g2-stat-n001",
+      "title": "写出一个问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把「我想知道……」写成一句能问同学的话，并列出准备分的几类。",
+      "success_hint": "问题要能用个数回答，不要问「好不好玩」。"
+    },
+    {
+      "id": "pm-g2-stat-n002-practice",
+      "node_id": "pm-g2-stat-n002",
+      "title": "正字记录",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "听 12 次报类（如苹果/香蕉），用正字记下，核对每类个数。",
+      "success_hint": "五个一横是一个正字，不要写成一串竖线对不齐。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g2-stat-n003-practice",
+      "node_id": "pm-g2-stat-n003",
+      "title": "每人记一次",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "向 8 位同学问同一问题，确保每人只出现一次，类别名称不临时改口。",
+      "success_hint": "先把类别写在纸顶上，再往下打记号。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-stat-n004-practice",
+      "node_id": "pm-g2-stat-n004",
+      "title": "合并记号",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把一张乱序记录按类别圈在一起，写出每类个数。",
+      "success_hint": "先数记号，再填数，不要边数边改类别。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-stat-n005-explain",
+      "node_id": "pm-g2-stat-n005",
+      "title": "填一张单式表",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画出类别、人数两列表头，把整理好的数填进去。",
+      "success_hint": "表头先写，数字对齐。"
+    },
+    {
+      "id": "pm-g2-stat-n006-practice",
+      "node_id": "pm-g2-stat-n006",
+      "title": "读表六问",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给统计表，回答最多、最少、一共、某类有几个、多几个、少几个。",
+      "success_hint": "「一共」是各类相加。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g2-stat-n007-practice",
+      "node_id": "pm-g2-stat-n007",
+      "title": "走完一小圈",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "自定问题，记录 10 人，填表，读出最多的一类。",
+      "success_hint": "步骤不要跳：问→记→合→表。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-stat-n007-mini-quiz",
+      "node_id": "pm-g2-stat-n007",
+      "title": "收集小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "看别人的记录找错：漏记、重复记、类别改名。再补填一张表。",
+      "success_hint": "每人只能进表一次。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-stat-boss-collect",
+      "node_id": "pm-g2-stat-n007",
+      "title": "关主：小调查员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①提出能调查的问题 ②用正字记录 ③填表并读出最多最少。",
+      "success_hint": "记录前先约定类别。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g2-stat-n008-explain",
+      "node_id": "pm-g2-stat-n008",
+      "title": "一图对一人",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把表上的人数画成象形图，一个笑脸代表一人，对齐排列。",
+      "success_hint": "图要一样大，底对齐。"
+    },
+    {
+      "id": "pm-g2-stat-n009-explain",
+      "node_id": "pm-g2-stat-n009",
+      "title": "一图代表两个",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "图例写「一个圆片=2人」。解释 3 个圆片和半个圆片各表示多少人。",
+      "success_hint": "先看图例，再数图、再乘法。"
+    },
+    {
+      "id": "pm-g2-stat-n010-practice",
+      "node_id": "pm-g2-stat-n010",
+      "title": "按图例算人数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 张象形图带不同图例（1 或 2），算出每类真实数量并比较。",
+      "success_hint": "不要数完图就当答案。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g2-stat-n011-explain",
+      "node_id": "pm-g2-stat-n011",
+      "title": "指出条形图",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在几张图里指出哪张是条形统计图，并说明直条高低表示数量。",
+      "success_hint": "条形图用直条，不是用小星星排队。"
+    },
+    {
+      "id": "pm-g2-stat-n012-explain",
+      "node_id": "pm-g2-stat-n012",
+      "title": "两个轴",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指着一张条形图说出：横轴写的是什么，纵轴上的刻度表示什么。",
+      "success_hint": "横轴是「谁」，纵轴是「多少」。"
+    },
+    {
+      "id": "pm-g2-stat-n013-practice",
+      "node_id": "pm-g2-stat-n013",
+      "title": "读条形比多少",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读 4 张条形图，找最多最少，算相差。刻度有 1 格代表 1 或 2。",
+      "success_hint": "先读刻度，再读直条顶到哪。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-stat-n014-practice",
+      "node_id": "pm-g2-stat-n014",
+      "title": "表生条形图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据一张 4 类的表画条形图，标上类别和数量。",
+      "success_hint": "直条等宽，从 0 开始长高。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-stat-n015-explain",
+      "node_id": "pm-g2-stat-n015",
+      "title": "我来提问",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看着一张条形图，提出三个不同的数学问题并自己作答。",
+      "success_hint": "问题要能用图上的数回答。"
+    },
+    {
+      "id": "pm-g2-stat-n016-practice",
+      "node_id": "pm-g2-stat-n016",
+      "title": "三种图互译",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一组数据：表 ↔ 象形图（一图=2）↔ 条形图，互相检查。",
+      "success_hint": "三种样子里每一类的真实数量必须相同。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g2-stat-n016-mini-quiz",
+      "node_id": "pm-g2-stat-n016",
+      "title": "图表小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合读表、按图例读象形图、读条形图。夹「忘看图例」的陷阱。",
+      "success_hint": "看见图先找图例。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g2-stat-boss-chart",
+      "node_id": "pm-g2-stat-n016",
+      "title": "关主：图表翻译官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①按图例读象形图 ②读条形图比多少 ③根据表画出直条。",
+      "success_hint": "翻译时始终核对真实数量。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g2-stat-n017-explain",
+      "node_id": "pm-g2-stat-n017",
+      "title": "哪一种更常摸到",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "盒中 6 红 2 蓝。说明为什么说更可能摸到红，但不能说一定摸到红。",
+      "success_hint": "多只是更常发生，不是每次都发生。"
+    },
+    {
+      "id": "pm-g2-stat-n018-explain",
+      "node_id": "pm-g2-stat-n018",
+      "title": "一样多就差不多",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "盒中 4 红 4 黄。说明为什么说摸到两种的可能性差不多。",
+      "success_hint": "数量一样，没有哪一类占便宜。"
+    },
+    {
+      "id": "pm-g2-stat-n019-practice",
+      "node_id": "pm-g2-stat-n019",
+      "title": "看盒子选词",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个盒子组成不同，选用更可能 / 同样可能 / 几乎不可能。",
+      "success_hint": "先数各类，再选词。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-stat-n020-practice",
+      "node_id": "pm-g2-stat-n020",
+      "title": "有根据的猜测",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "先读一张课间活动调查表，再说「下一次抽查更可能看到谁在玩什么」，并引用表中的数。",
+      "success_hint": "猜测要指着数据说话。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g2-stat-n020-mini-quiz",
+      "node_id": "pm-g2-stat-n020",
+      "title": "数据与可能性小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "读表+选可能性词语。不要把最多的一类说成一定。",
+      "success_hint": "数据支持「更可能」，很少支持「一定」。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-stat-n021-practice",
+      "node_id": "pm-g2-stat-n021",
+      "title": "记五天天气",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "连续记录 5 天阴、晴或雨，填成统计表，说出哪一种最多。",
+      "success_hint": "每天只记一次，类别事先写好。",
+      "items_suggested": 5
+    },
+    {
+      "id": "pm-g2-stat-n022-practice",
+      "node_id": "pm-g2-stat-n022",
+      "title": "课间小调查",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "调查至少 10 人课间爱玩什么，填表并画简单条形图，用一句话汇报。",
+      "success_hint": "类别不要临时增加到没法画。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-stat-n023-practice",
+      "node_id": "pm-g2-stat-n023",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "收集步骤改错、按图例读图、画直条、选可能性词。",
+      "success_hint": "按灯的顺序回想。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g2-stat-n024-practice",
+      "node_id": "pm-g2-stat-n024",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：读表、读两种图、根据数据选更可能。",
+      "success_hint": "先找图例和表头。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g2-stat-boss-map",
+      "node_id": "pm-g2-stat-n024",
+      "title": "关主：二年级统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①正字记录并填表 ②按图例读图 ③根据数据用更可能说话。全部通过即通关。",
+      "success_hint": "通关后记入已通关列表；图例和「更可能≠一定」要常复习。",
+      "items_suggested": 16
+    }
+  ]
+}

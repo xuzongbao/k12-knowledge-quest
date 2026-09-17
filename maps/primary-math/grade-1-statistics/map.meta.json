@@ -1,0 +1,26 @@
+{
+  "id": "pm-g1-statistics",
+  "title": "一年级 · 统计与概率",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 1,
+  "strand": "统计与概率",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g1-stat-n001"
+  ],
+  "recommended_path_note": "从「东西有相同和不同」进入：先打通分类，再简单象形图/条形高低与统计表，最后口头说可能性。做一张我的象形图（n021）为软锁支线，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g1-stat-boss-sort",
+      "pm-g1-stat-boss-chart",
+      "pm-g1-stat-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：分类小能手、读图小侦探、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学一年级「统计与概率」地图：分类 → 简单象形/条形入门 → 可能性口头描述。与其他领域地图各自独立通关，不引用跨图节点。"
+}

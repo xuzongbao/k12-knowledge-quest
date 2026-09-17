@@ -1,0 +1,26 @@
+{
+  "id": "pm-g6-statistics",
+  "title": "六年级 · 统计与概率",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 6,
+  "strand": "统计与概率",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g6-stat-n001"
+  ],
+  "recommended_path_note": "扇形统计图与中位数可并行，在 n015 汇合后选择统计量/统计图；简单等可能概率从扇形关后并行，在 n026 汇合。容易误导的图（n027）、自己做结构图（n028）、校园数据小报告（n029）为软锁，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g6-stat-boss-pie",
+      "pm-g6-stat-boss-choose",
+      "pm-g6-stat-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：扇形结构员、统计工具选配师、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学六年级「统计与概率」地图：扇形统计图、中位数、选择统计工具、简单等可能概率。独立通关，不引用跨图节点。"
+}

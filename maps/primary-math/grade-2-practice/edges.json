@@ -1,0 +1,149 @@
+{
+  "map_id": "pm-g2-practice",
+  "edges": [
+    {
+      "from": "pm-g2-prac-n001",
+      "to": "pm-g2-prac-n002",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n001 需先于 pm-g2-prac-n002"
+    },
+    {
+      "from": "pm-g2-prac-n002",
+      "to": "pm-g2-prac-n003",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n002 需先于 pm-g2-prac-n003"
+    },
+    {
+      "from": "pm-g2-prac-n003",
+      "to": "pm-g2-prac-n004",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n003 需先于 pm-g2-prac-n004"
+    },
+    {
+      "from": "pm-g2-prac-n004",
+      "to": "pm-g2-prac-n005",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n004 需先于 pm-g2-prac-n005"
+    },
+    {
+      "from": "pm-g2-prac-n005",
+      "to": "pm-g2-prac-n006",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n005 需先于 pm-g2-prac-n006"
+    },
+    {
+      "from": "pm-g2-prac-n006",
+      "to": "pm-g2-prac-n007",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n006 需先于 pm-g2-prac-n007"
+    },
+    {
+      "from": "pm-g2-prac-n007",
+      "to": "pm-g2-prac-n008",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n007 需先于 pm-g2-prac-n008"
+    },
+    {
+      "from": "pm-g2-prac-n008",
+      "to": "pm-g2-prac-n009",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n008 需先于 pm-g2-prac-n009"
+    },
+    {
+      "from": "pm-g2-prac-n004",
+      "to": "pm-g2-prac-n010",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n004 需先于 pm-g2-prac-n010"
+    },
+    {
+      "from": "pm-g2-prac-n010",
+      "to": "pm-g2-prac-n011",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n010 需先于 pm-g2-prac-n011"
+    },
+    {
+      "from": "pm-g2-prac-n011",
+      "to": "pm-g2-prac-n012",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n011 需先于 pm-g2-prac-n012"
+    },
+    {
+      "from": "pm-g2-prac-n012",
+      "to": "pm-g2-prac-n013",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n012 需先于 pm-g2-prac-n013"
+    },
+    {
+      "from": "pm-g2-prac-n013",
+      "to": "pm-g2-prac-n014",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n013 需先于 pm-g2-prac-n014"
+    },
+    {
+      "from": "pm-g2-prac-n009",
+      "to": "pm-g2-prac-n015",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n009 需先于 pm-g2-prac-n015"
+    },
+    {
+      "from": "pm-g2-prac-n014",
+      "to": "pm-g2-prac-n015",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n014 需先于 pm-g2-prac-n015"
+    },
+    {
+      "from": "pm-g2-prac-n009",
+      "to": "pm-g2-prac-n016",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n009 需先于 pm-g2-prac-n016"
+    },
+    {
+      "from": "pm-g2-prac-n015",
+      "to": "pm-g2-prac-n017",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n015 需先于 pm-g2-prac-n017"
+    },
+    {
+      "from": "pm-g2-prac-n017",
+      "to": "pm-g2-prac-n018",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n017 需先于 pm-g2-prac-n018"
+    },
+    {
+      "from": "pm-g2-prac-n018",
+      "to": "pm-g2-prac-n019",
+      "type": "prerequisite",
+      "note": "pm-g2-prac-n018 需先于 pm-g2-prac-n019"
+    },
+    {
+      "from": "pm-g2-prac-n002",
+      "to": "pm-g2-prac-n006",
+      "type": "related",
+      "note": "选现成工具和自制尺子，都要先约定「一格有多长」。"
+    },
+    {
+      "from": "pm-g2-prac-n003",
+      "to": "pm-g2-prac-n008",
+      "type": "easily_confused",
+      "note": "两次测量结果不同，可能是工具变了，不一定是课桌变了。"
+    },
+    {
+      "from": "pm-g2-prac-n011",
+      "to": "pm-g2-prac-n012",
+      "type": "easily_confused",
+      "note": "问法中途改口，类别就会乱。"
+    },
+    {
+      "from": "pm-g2-prac-n014",
+      "to": "pm-g2-prac-n017",
+      "type": "application",
+      "note": "交流时说过的注意事项，可以写成给下一组的建议。"
+    },
+    {
+      "from": "pm-g2-prac-n006",
+      "to": "pm-g2-prac-n016",
+      "type": "application",
+      "note": "等分格子和等分转盘，都在追求公平。"
+    }
+  ]
+}

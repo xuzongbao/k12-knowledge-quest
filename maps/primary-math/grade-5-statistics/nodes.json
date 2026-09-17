@@ -1,0 +1,900 @@
+{
+  "map_id": "pm-g5-statistics",
+  "nodes": [
+    {
+      "id": "pm-g5-stat-n001",
+      "title": "数据会随时间变",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举出气温、身高、每日阅读页数等随时间变化的例子，说明需要看变化而不是只看一次。"
+    },
+    {
+      "id": "pm-g5-stat-n002",
+      "title": "折线统计图长什么样",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-stat-n001"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出折线统计图用点表示数量、用线连接表示变化。"
+    },
+    {
+      "id": "pm-g5-stat-n003",
+      "title": "读一个点",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-stat-n002"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能读出折线图上某一点对应的时间和数量。"
+    },
+    {
+      "id": "pm-g5-stat-n004",
+      "title": "读上升下降",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-stat-n003"
+      ],
+      "tags": [
+        "line",
+        "ch-line",
+        "trend"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据折线的上升、下降、走平，说出这段时间数量如何变化。"
+    },
+    {
+      "id": "pm-g5-stat-n005",
+      "title": "读最快变化",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n004"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能找出上升或下降最陡的一段，说明这段变化最大。"
+    },
+    {
+      "id": "pm-g5-stat-n006",
+      "title": "最高点和最低点",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-stat-n003"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能找出折线图的最高点、最低点及其对应时间。"
+    },
+    {
+      "id": "pm-g5-stat-n007",
+      "title": "根据表画折线",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n005",
+        "pm-g5-stat-n006"
+      ],
+      "tags": [
+        "line",
+        "ch-line",
+        "draw"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据按时间排列的表描点、连线，画出折线统计图。"
+    },
+    {
+      "id": "pm-g5-stat-n008",
+      "title": "折线与条形什么时候用",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n007"
+      ],
+      "tags": [
+        "line",
+        "ch-line",
+        "choose"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明：比多少常用条形图，看变化常用折线图。"
+    },
+    {
+      "id": "pm-g5-stat-n009",
+      "title": "复式折线图图例",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n008"
+      ],
+      "tags": [
+        "line",
+        "ch-line",
+        "compound"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据图例区分两条折线代表哪一组。"
+    },
+    {
+      "id": "pm-g5-stat-n010",
+      "title": "读复式折线比较",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n009"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较同一时间两组谁高，以及哪一组变化更明显。"
+    },
+    {
+      "id": "pm-g5-stat-n011",
+      "title": "看折线做简单预测",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n010"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据近期趋势做一句谨慎预测，并说明预测可能不准。"
+    },
+    {
+      "id": "pm-g5-stat-n012",
+      "title": "折线图综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-stat-n011"
+      ],
+      "tags": [
+        "line",
+        "ch-line",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能读、画单式折线，并读复式折线的图例与趋势。"
+    },
+    {
+      "id": "pm-g5-stat-n013",
+      "title": "一组数里谁出现最多",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-stat-n001"
+      ],
+      "tags": [
+        "mode",
+        "ch-mode"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在一组数中找出出现次数最多的数，知道这叫众数。"
+    },
+    {
+      "id": "pm-g5-stat-n014",
+      "title": "众数可以不止一个",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n013"
+      ],
+      "tags": [
+        "mode",
+        "ch-mode"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "当两个数出现次数一样多且最多时，能说出有两个众数。"
+    },
+    {
+      "id": "pm-g5-stat-n015",
+      "title": "没有明显众数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n014"
+      ],
+      "tags": [
+        "mode",
+        "ch-mode"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "当每个数都只出现一次时，能说明这组数据没有明显众数。"
+    },
+    {
+      "id": "pm-g5-stat-n016",
+      "title": "众数解决什么问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n015"
+      ],
+      "tags": [
+        "mode",
+        "ch-mode"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举例：订校服最常见的尺码用众数更合适，不必用平均尺码。"
+    },
+    {
+      "id": "pm-g5-stat-n017",
+      "title": "众数和平均数对照",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-stat-n016"
+      ],
+      "tags": [
+        "mode",
+        "ch-mode",
+        "average"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对同一组数据既求众数也求平均数，并说明它们回答的问题不同。"
+    },
+    {
+      "id": "pm-g5-stat-n018",
+      "title": "众数综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-stat-n012",
+        "pm-g5-stat-n017"
+      ],
+      "tags": [
+        "mode",
+        "ch-mode",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在折线或调查数据中选用众数或平均，并说明理由。"
+    },
+    {
+      "id": "pm-g5-stat-n019",
+      "title": "随机现象是什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-stat-n012"
+      ],
+      "tags": [
+        "random",
+        "ch-random"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举出事先不能确定结果、但可以列出可能结果的现象。"
+    },
+    {
+      "id": "pm-g5-stat-n020",
+      "title": "简单随机试验",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n019"
+      ],
+      "tags": [
+        "random",
+        "ch-random"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能设计摸棋、抛硬币、转盘等小试验，事先写下可能结果。"
+    },
+    {
+      "id": "pm-g5-stat-n021",
+      "title": "重复试验做记录",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n020"
+      ],
+      "tags": [
+        "random",
+        "ch-random"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能重复试验并制成次数表，观察哪一种出现得多。"
+    },
+    {
+      "id": "pm-g5-stat-n022",
+      "title": "次数多不等于下一次一定",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n021"
+      ],
+      "tags": [
+        "random",
+        "ch-random"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明：即使红棋出现得多，下一次仍可能摸到别的颜色。"
+    },
+    {
+      "id": "pm-g5-stat-n023",
+      "title": "样本很小要小心",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-stat-n022"
+      ],
+      "tags": [
+        "random",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能比较「只试 5 次」和「试 40 次」的稳定程度，建立「数据太少不可靠」的意识。"
+    },
+    {
+      "id": "pm-g5-stat-n024",
+      "title": "结论要对应问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n018",
+        "pm-g5-stat-n023"
+      ],
+      "tags": [
+        "data",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能检查别人的结论是否超出了数据能说的范围。"
+    },
+    {
+      "id": "pm-g5-stat-n025",
+      "title": "调查对象是谁",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n024"
+      ],
+      "tags": [
+        "data",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明只问本班，不能直接代表全校；对象变了，结论要改口。"
+    },
+    {
+      "id": "pm-g5-stat-n026",
+      "title": "数据分析意识合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-stat-n025"
+      ],
+      "tags": [
+        "data",
+        "ch-data",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能读折线、选统计量，并对随机试验和小样本作出谨慎判断。"
+    },
+    {
+      "id": "pm-g5-stat-n027",
+      "title": "复式折线自己画",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-stat-n012"
+      ],
+      "tags": [
+        "line",
+        "ch-line",
+        "compound"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据两组按时间排列的数据画出复式折线图，图例和纵轴清楚。"
+    },
+    {
+      "id": "pm-g5-stat-n028",
+      "title": "折线被截断的纵轴",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n012"
+      ],
+      "tags": [
+        "line",
+        "ch-data"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能发现纵轴不从 0 开始时，变化看起来会被放大，读图要看刻度。"
+    },
+    {
+      "id": "pm-g5-stat-n029",
+      "title": "订购与众数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-stat-n018"
+      ],
+      "tags": [
+        "mode",
+        "ch-mode"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在「订多少件某号」的情境中坚持用众数，而不是用平均数凑一个不存在的尺码。"
+    },
+    {
+      "id": "pm-g5-stat-n030",
+      "title": "五年级统计合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-stat-n026"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合折线趋势、众数与平均、简单随机试验。"
+    },
+    {
+      "id": "pm-g5-stat-n031",
+      "title": "五年级统计通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "统计与概率",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g5-stat-n030"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成折线图、众数和随机试验意识的收束检查。"
+    }
+  ]
+}

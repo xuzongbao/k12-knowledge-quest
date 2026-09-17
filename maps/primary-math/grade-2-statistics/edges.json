@@ -1,0 +1,203 @@
+{
+  "map_id": "pm-g2-statistics",
+  "edges": [
+    {
+      "from": "pm-g2-stat-n001",
+      "to": "pm-g2-stat-n002",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n001 需先于 pm-g2-stat-n002"
+    },
+    {
+      "from": "pm-g2-stat-n002",
+      "to": "pm-g2-stat-n003",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n002 需先于 pm-g2-stat-n003"
+    },
+    {
+      "from": "pm-g2-stat-n003",
+      "to": "pm-g2-stat-n004",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n003 需先于 pm-g2-stat-n004"
+    },
+    {
+      "from": "pm-g2-stat-n004",
+      "to": "pm-g2-stat-n005",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n004 需先于 pm-g2-stat-n005"
+    },
+    {
+      "from": "pm-g2-stat-n005",
+      "to": "pm-g2-stat-n006",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n005 需先于 pm-g2-stat-n006"
+    },
+    {
+      "from": "pm-g2-stat-n006",
+      "to": "pm-g2-stat-n007",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n006 需先于 pm-g2-stat-n007"
+    },
+    {
+      "from": "pm-g2-stat-n007",
+      "to": "pm-g2-stat-n008",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n007 需先于 pm-g2-stat-n008"
+    },
+    {
+      "from": "pm-g2-stat-n008",
+      "to": "pm-g2-stat-n009",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n008 需先于 pm-g2-stat-n009"
+    },
+    {
+      "from": "pm-g2-stat-n009",
+      "to": "pm-g2-stat-n010",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n009 需先于 pm-g2-stat-n010"
+    },
+    {
+      "from": "pm-g2-stat-n007",
+      "to": "pm-g2-stat-n011",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n007 需先于 pm-g2-stat-n011"
+    },
+    {
+      "from": "pm-g2-stat-n011",
+      "to": "pm-g2-stat-n012",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n011 需先于 pm-g2-stat-n012"
+    },
+    {
+      "from": "pm-g2-stat-n012",
+      "to": "pm-g2-stat-n013",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n012 需先于 pm-g2-stat-n013"
+    },
+    {
+      "from": "pm-g2-stat-n006",
+      "to": "pm-g2-stat-n014",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n006 需先于 pm-g2-stat-n014"
+    },
+    {
+      "from": "pm-g2-stat-n013",
+      "to": "pm-g2-stat-n014",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n013 需先于 pm-g2-stat-n014"
+    },
+    {
+      "from": "pm-g2-stat-n010",
+      "to": "pm-g2-stat-n015",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n010 需先于 pm-g2-stat-n015"
+    },
+    {
+      "from": "pm-g2-stat-n013",
+      "to": "pm-g2-stat-n015",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n013 需先于 pm-g2-stat-n015"
+    },
+    {
+      "from": "pm-g2-stat-n014",
+      "to": "pm-g2-stat-n016",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n014 需先于 pm-g2-stat-n016"
+    },
+    {
+      "from": "pm-g2-stat-n015",
+      "to": "pm-g2-stat-n016",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n015 需先于 pm-g2-stat-n016"
+    },
+    {
+      "from": "pm-g2-stat-n007",
+      "to": "pm-g2-stat-n017",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n007 需先于 pm-g2-stat-n017"
+    },
+    {
+      "from": "pm-g2-stat-n017",
+      "to": "pm-g2-stat-n018",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n017 需先于 pm-g2-stat-n018"
+    },
+    {
+      "from": "pm-g2-stat-n018",
+      "to": "pm-g2-stat-n019",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n018 需先于 pm-g2-stat-n019"
+    },
+    {
+      "from": "pm-g2-stat-n016",
+      "to": "pm-g2-stat-n020",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n016 需先于 pm-g2-stat-n020"
+    },
+    {
+      "from": "pm-g2-stat-n019",
+      "to": "pm-g2-stat-n020",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n019 需先于 pm-g2-stat-n020"
+    },
+    {
+      "from": "pm-g2-stat-n005",
+      "to": "pm-g2-stat-n021",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n005 需先于 pm-g2-stat-n021"
+    },
+    {
+      "from": "pm-g2-stat-n016",
+      "to": "pm-g2-stat-n022",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n016 需先于 pm-g2-stat-n022"
+    },
+    {
+      "from": "pm-g2-stat-n020",
+      "to": "pm-g2-stat-n023",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n020 需先于 pm-g2-stat-n023"
+    },
+    {
+      "from": "pm-g2-stat-n023",
+      "to": "pm-g2-stat-n024",
+      "type": "prerequisite",
+      "note": "pm-g2-stat-n023 需先于 pm-g2-stat-n024"
+    },
+    {
+      "from": "pm-g2-stat-n008",
+      "to": "pm-g2-stat-n011",
+      "type": "related",
+      "note": "象形图和条形图都在比多少，一个数图、一个看高低。"
+    },
+    {
+      "from": "pm-g2-stat-n008",
+      "to": "pm-g2-stat-n009",
+      "type": "easily_confused",
+      "note": "图的个数不等于数量，要先看图例「一个图代表几」。"
+    },
+    {
+      "from": "pm-g2-stat-n012",
+      "to": "pm-g2-stat-n014",
+      "type": "easily_confused",
+      "note": "直条要一样宽，比的是高矮，不是画得粗不粗。"
+    },
+    {
+      "from": "pm-g2-stat-n006",
+      "to": "pm-g2-stat-n014",
+      "type": "application",
+      "note": "表里的数就是条形图直条的高度。"
+    },
+    {
+      "from": "pm-g2-stat-n017",
+      "to": "pm-g2-stat-n018",
+      "type": "easily_confused",
+      "note": "多的一类更可能，不是一定；一样多才说差不多。"
+    },
+    {
+      "from": "pm-g2-stat-n003",
+      "to": "pm-g2-stat-n022",
+      "type": "application",
+      "note": "课间调查就是把收集步骤用到真实问题。"
+    }
+  ]
+}

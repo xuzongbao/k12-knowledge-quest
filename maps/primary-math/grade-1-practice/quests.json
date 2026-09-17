@@ -1,0 +1,205 @@
+{
+  "map_id": "pm-g1-practice",
+  "quests": [
+    {
+      "id": "pm-g1-prac-n001-explain",
+      "node_id": "pm-g1-prac-n001",
+      "title": "找出一个麻烦",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在教室或书包里指出一样「不好找/堆在一起」的东西，说明为什么这是个问题。",
+      "success_hint": "问题要具体，不要只说「好乱」。"
+    },
+    {
+      "id": "pm-g1-prac-n002-explain",
+      "node_id": "pm-g1-prac-n002",
+      "title": "写成问句",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把麻烦写成一句「我们想知道……」或「我们想把……放好」。",
+      "success_hint": "问句要能用行动回答。"
+    },
+    {
+      "id": "pm-g1-prac-n003-explain",
+      "node_id": "pm-g1-prac-n003",
+      "title": "商量标准",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "和同伴定一个分类标准，各用一句话说给对方听，看是否一样。",
+      "success_hint": "两个人说的标准必须能对上。"
+    },
+    {
+      "id": "pm-g1-prac-n004-practice",
+      "node_id": "pm-g1-prac-n004",
+      "title": "按标准分堆",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "按商定标准把 12 件物品分成至少 3 堆，中途不改口。",
+      "success_hint": "拿起一件先问：它属于哪一堆？",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-prac-n005-practice",
+      "node_id": "pm-g1-prac-n005",
+      "title": "记下每一堆",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "数出每堆个数，用圆圈或数字记在纸上。",
+      "success_hint": "点着数，写完再复核。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g1-prac-n006-explain",
+      "node_id": "pm-g1-prac-n006",
+      "title": "汇报收纳",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "向另一组汇报：标准是什么、分了几堆、每堆几个。",
+      "success_hint": "先说标准，再说数字。"
+    },
+    {
+      "id": "pm-g1-prac-n007-practice",
+      "node_id": "pm-g1-prac-n007",
+      "title": "走完收纳圈",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "换一批物品，自己走完发现—标准—分类—记录—汇报。",
+      "success_hint": "缺一步就补上。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g1-prac-n007-mini-quiz",
+      "node_id": "pm-g1-prac-n007",
+      "title": "收纳项目小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "看别人的活动找缺步：没标准就分、没记录就汇报等。",
+      "success_hint": "四步都要在。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g1-prac-boss-tidy",
+      "node_id": "pm-g1-prac-n007",
+      "title": "关主：收纳小队长",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①找出可分类的麻烦 ②定标准并分类计数 ③向别人说清楚结果。",
+      "success_hint": "没有标准，就没有公平的分堆。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-prac-n008-explain",
+      "node_id": "pm-g1-prac-n008",
+      "title": "提出比较问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "提出一个「谁更高/更长」的问题，指出要比较的两样东西。",
+      "success_hint": "两样东西要能放在一起比。"
+    },
+    {
+      "id": "pm-g1-prac-n009-explain",
+      "node_id": "pm-g1-prac-n009",
+      "title": "选公平的办法",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在手掌、小棒、纸条里选一种，说明为什么两次要用同一种。",
+      "success_hint": "办法中途更换，比出来就不公平。"
+    },
+    {
+      "id": "pm-g1-prac-n010-practice",
+      "node_id": "pm-g1-prac-n010",
+      "title": "对齐再比",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较三样物品的高或长，记录顺序，强调一端对齐。",
+      "success_hint": "先对齐，再看另一端。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g1-prac-n011-explain",
+      "node_id": "pm-g1-prac-n011",
+      "title": "说说比的结果",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "展示记录，并回答：如果改用手掌量，顺序会不会变。",
+      "success_hint": "顺序通常不变，格数可能会变。"
+    },
+    {
+      "id": "pm-g1-prac-n012-explain",
+      "node_id": "pm-g1-prac-n012",
+      "title": "想摆什么",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说出想摆的图案名称，以及打算用的两种形状。",
+      "success_hint": "先有目标，再动手。"
+    },
+    {
+      "id": "pm-g1-prac-n013-explain",
+      "node_id": "pm-g1-prac-n013",
+      "title": "先画草稿",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在纸上画出大约几块、哪块当屋顶或车轮。",
+      "success_hint": "草稿可以很简单，但不能没有。"
+    },
+    {
+      "id": "pm-g1-prac-n014-practice",
+      "node_id": "pm-g1-prac-n014",
+      "title": "按草稿摆",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用学具摆出图案；若摆不下，在草稿上改一笔再摆。",
+      "success_hint": "先改计划，再改作品。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g1-prac-n015-explain",
+      "node_id": "pm-g1-prac-n015",
+      "title": "介绍作品",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "介绍用了哪些形状、哪一步最难、你是怎么改计划的。",
+      "success_hint": "让别人听得见你的想法，不只是看成品。"
+    },
+    {
+      "id": "pm-g1-prac-n016-practice",
+      "node_id": "pm-g1-prac-n016",
+      "title": "积木讲一句",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "搭一个至少三层的小场景，用上、下说一句故事。",
+      "success_hint": "下面先放站得稳的块。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g1-prac-n017-practice",
+      "node_id": "pm-g1-prac-n017",
+      "title": "两项目回顾",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用四步名称，分别给测量和制作各写一行：我们做了什么。",
+      "success_hint": "每行都要有问题、计划、实施、交流。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g1-prac-n018-practice",
+      "node_id": "pm-g1-prac-n018",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽一项：收纳、比较或摆图案，独立走完四步并汇报。",
+      "success_hint": "缺哪一步就回到那盏灯。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g1-prac-boss-map",
+      "node_id": "pm-g1-prac-n018",
+      "title": "关主：一年级实践通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：当场完成一个小项目四步（收纳或比较或摆图案），能让别人听懂你的标准和结果。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 8
+    }
+  ]
+}
