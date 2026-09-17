@@ -1,0 +1,327 @@
+{
+  "map_id": "jm-g7-statistics",
+  "quests": [
+    {
+      "id": "jm-g7-stat-n001-explain",
+      "node_id": "jm-g7-stat-n001",
+      "title": "改写成可调查的问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把「大家是不是很喜欢运动」改成可以计数的问题，并写清调查谁。",
+      "success_hint": "问题要能用数据回答。"
+    },
+    {
+      "id": "jm-g7-stat-n002-explain",
+      "node_id": "jm-g7-stat-n002",
+      "title": "注明来源",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "为三组数各写来源：自己量的、问来的、从公示栏抄的。",
+      "success_hint": "没有来源的数，后面结论站不住。"
+    },
+    {
+      "id": "jm-g7-stat-n003-explain",
+      "node_id": "jm-g7-stat-n003",
+      "title": "问全部还是问一部分",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个适合普查、一个适合抽样的校园例子，并说明抽样要避免只问某一类人。",
+      "success_hint": "样本要尽量像总体。"
+    },
+    {
+      "id": "jm-g7-stat-n004-practice",
+      "node_id": "jm-g7-stat-n004",
+      "title": "设计一张记录表",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "为「课间饮水量」设计表头，至少含项目、单位、时间。",
+      "success_hint": "表头决定你事后还能不能解释这批数。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-stat-n005-practice",
+      "node_id": "jm-g7-stat-n005",
+      "title": "划记分类",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把一段原始名单分类划记，得到各类人数。",
+      "success_hint": "先定类，再计数，类与类不要重叠。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-stat-n006-practice",
+      "node_id": "jm-g7-stat-n006",
+      "title": "读出频数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "从整理表中读出指定类的频数，共 6 题。",
+      "success_hint": "频数对应明确的一类。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-stat-n007-practice",
+      "node_id": "jm-g7-stat-n007",
+      "title": "频数变频率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算频率和百分数，并检查合计。",
+      "success_hint": "频率合计应接近 1。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-stat-n008-practice",
+      "node_id": "jm-g7-stat-n008",
+      "title": "读复式条形图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较两组在同一项目上的高低，读刻度，共 6 题。",
+      "success_hint": "先看图例区分两组。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-stat-n009-explain",
+      "node_id": "jm-g7-stat-n009",
+      "title": "什么时候用折线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明「一周气温」为什么适合折线，不适合扇形。",
+      "success_hint": "折线保留顺序和升降。"
+    },
+    {
+      "id": "jm-g7-stat-n010-practice",
+      "node_id": "jm-g7-stat-n010",
+      "title": "读扇形结构",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读出最多的一类及约占几成，共 4 题。",
+      "success_hint": "整个圆是总体。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g7-stat-n011-practice",
+      "node_id": "jm-g7-stat-n011",
+      "title": "按问题选图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个问题选择条形 / 折线 / 扇形。",
+      "success_hint": "比多少、看变化、看结构。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-stat-n011-mini-quiz",
+      "node_id": "jm-g7-stat-n011",
+      "title": "图表小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合读图与选图，夹一道用扇形表示气温变化的错例。",
+      "success_hint": "先问问题要什么。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-stat-boss-chart",
+      "node_id": "jm-g7-stat-n011",
+      "title": "关主：图表翻译官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①读频数频率 ②读一种统计图 ③为三个情境选对图。",
+      "success_hint": "图是给问题服务的。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-stat-n012-practice",
+      "node_id": "jm-g7-stat-n012",
+      "title": "求平均数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算 6 组数据的平均数。",
+      "success_hint": "总和除以个数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-stat-n013-practice",
+      "node_id": "jm-g7-stat-n013",
+      "title": "找众数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组数据找众数，含没有众数和两个众数。",
+      "success_hint": "出现次数最多的那个（些）。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-stat-n014-practice",
+      "node_id": "jm-g7-stat-n014",
+      "title": "找中位数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "奇数个、偶数个各 4 组。",
+      "success_hint": "先排序；偶数个取中间两个的平均。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-stat-n015-practice",
+      "node_id": "jm-g7-stat-n015",
+      "title": "三个量都算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 组数据分别求平均、众数、中位数，并各写一句用途。",
+      "success_hint": "三种量可以同时存在。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g7-stat-n016-practice",
+      "node_id": "jm-g7-stat-n016",
+      "title": "加入一个极端值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一组数据加入一个特别大的数，观察三个统计量怎么变。",
+      "success_hint": "平均会被拽走。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g7-stat-n017-explain",
+      "node_id": "jm-g7-stat-n017",
+      "title": "一句谨慎结论",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "根据给定图表写结论，划掉「所有」「一定」等越界词。",
+      "success_hint": "结论里的对象要和数据对象一致。"
+    },
+    {
+      "id": "jm-g7-stat-n018-explain",
+      "node_id": "jm-g7-stat-n018",
+      "title": "什么叫随机",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个随机事件、一个必然事件，说明「随机」不是「没原因」，而是事先不能确定哪一种。",
+      "success_hint": "条件相同，结果仍可能不同。"
+    },
+    {
+      "id": "jm-g7-stat-n019-practice",
+      "node_id": "jm-g7-stat-n019",
+      "title": "给事件分类",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 个事件分成必然 / 不可能 / 随机。",
+      "success_hint": "先问：在所说条件下会不会一定发生。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-stat-n020-explain",
+      "node_id": "jm-g7-stat-n020",
+      "title": "公平还是动手脚",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对比公平骰子和被做了手脚的骰子，说明什么叫同样可能。",
+      "success_hint": "没有理由偏袒某一面时，才当等可能。"
+    },
+    {
+      "id": "jm-g7-stat-n021-practice",
+      "node_id": "jm-g7-stat-n021",
+      "title": "列全部分母",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个试验列出全部等可能结果。",
+      "success_hint": "不重复、不遗漏。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g7-stat-n022-practice",
+      "node_id": "jm-g7-stat-n022",
+      "title": "写成分数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个简单等可能事件写成几分之几。",
+      "success_hint": "有利个数 / 全部个数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-stat-n022-mini-quiz",
+      "node_id": "jm-g7-stat-n022",
+      "title": "可能性小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "分类事件、判断等可能、写分数。",
+      "success_hint": "不是等可能就不要硬写分数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-stat-boss-chance",
+      "node_id": "jm-g7-stat-n022",
+      "title": "关主：随机事件讲解员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①给事件分类 ②列出全部结果 ③用分数表示一个等可能事件。",
+      "success_hint": "先列全，再数有利的。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-stat-n023-explain",
+      "node_id": "jm-g7-stat-n023",
+      "title": "频率会对齐吗",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "理论上 1/2，试验 10 次可能 7 次。说明次数少会晃。",
+      "success_hint": "模型是分数，试验是频率。"
+    },
+    {
+      "id": "jm-g7-stat-n024-practice",
+      "node_id": "jm-g7-stat-n024",
+      "title": "课题两手抓",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "整理一组校园数据：选图、选一个统计量、再写一个等可能事件的分数。",
+      "success_hint": "统计描述已有数据，可能性描述尚未发生的结果。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-stat-n025-practice",
+      "node_id": "jm-g7-stat-n025",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "频数频率、选图、三个统计量、简单概率分数。",
+      "success_hint": "先辨：这是在整理数据还是在谈可能性。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-stat-boss-map",
+      "node_id": "jm-g7-stat-n025",
+      "title": "关主：七年级统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①整理频数并选图 ②对照三个统计量 ③描述一个简单随机事件。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 14
+    },
+    {
+      "id": "jm-g7-stat-n026-practice",
+      "node_id": "jm-g7-stat-n026",
+      "title": "改掉诱导问句",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "改写 4 句带暗示的问卷题。",
+      "success_hint": "选项中立，不替对方做判断。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g7-stat-n027-practice",
+      "node_id": "jm-g7-stat-n027",
+      "title": "给截轴图找茬",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "指出 3 张纵轴截断的图会让人产生什么错觉。",
+      "success_hint": "看刻度从几开始。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g7-stat-n028-practice",
+      "node_id": "jm-g7-stat-n028",
+      "title": "四句话报告",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "写对象、图或表、统计量、谨慎结论。",
+      "success_hint": "四句都要指着数据。",
+      "items_suggested": 1
+    }
+  ]
+}

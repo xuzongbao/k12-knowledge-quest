@@ -1,0 +1,781 @@
+{
+  "map_id": "jm-g9-geometry",
+  "nodes": [
+    {
+      "id": "jm-g9-geo-n001",
+      "title": "比例线段",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "sim",
+        "ch-sim"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明两条线段的比，并求简单的比例中项。"
+    },
+    {
+      "id": "jm-g9-geo-n002",
+      "title": "相似图形",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-geo-n001"
+      ],
+      "tags": [
+        "sim",
+        "ch-sim"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明形状相同、大小不一定相等的图形相似，对应角相等、对应边成比例。"
+    },
+    {
+      "id": "jm-g9-geo-n003",
+      "title": "相似三角形的判定",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n002"
+      ],
+      "tags": [
+        "sim",
+        "ch-sim"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用两角对应相等，或两边成比例且夹角相等，或三边成比例判定相似。"
+    },
+    {
+      "id": "jm-g9-geo-n004",
+      "title": "相似三角形的性质",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n003"
+      ],
+      "tags": [
+        "sim",
+        "ch-sim"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能由相似得到对应角相等、对应边成比例，以及对应高的比等于相似比。"
+    },
+    {
+      "id": "jm-g9-geo-n005",
+      "title": "位似入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n004"
+      ],
+      "tags": [
+        "sim",
+        "ch-sim"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明位似是一种特殊的相似，对应点连线过位似中心。"
+    },
+    {
+      "id": "jm-g9-geo-n006",
+      "title": "相似综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n005"
+      ],
+      "tags": [
+        "sim",
+        "ch-sim",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在图形中找出相似三角形并求线段长。"
+    },
+    {
+      "id": "jm-g9-geo-n007",
+      "title": "锐角的正弦",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-geo-n006"
+      ],
+      "tags": [
+        "trig",
+        "ch-trig"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在直角三角形中把锐角的对边比斜边叫做正弦。"
+    },
+    {
+      "id": "jm-g9-geo-n008",
+      "title": "余弦与正切",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n007"
+      ],
+      "tags": [
+        "trig",
+        "ch-trig"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说出余弦是邻边比斜边，正切是对边比邻边。"
+    },
+    {
+      "id": "jm-g9-geo-n009",
+      "title": "特殊角的三角比",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n008"
+      ],
+      "tags": [
+        "trig",
+        "ch-trig"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能熟记 30°、45°、60° 的正弦、余弦、正切。"
+    },
+    {
+      "id": "jm-g9-geo-n010",
+      "title": "解直角三角形",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n009"
+      ],
+      "tags": [
+        "trig",
+        "ch-trig"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在已知一边一锐角或两边时，选用三角比或勾股求其余边角。"
+    },
+    {
+      "id": "jm-g9-geo-n011",
+      "title": "仰角俯角与坡度入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n010"
+      ],
+      "tags": [
+        "trig",
+        "ch-trig",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在简单测量情境中识别仰角、俯角或坡度，并列出三角比。"
+    },
+    {
+      "id": "jm-g9-geo-n012",
+      "title": "圆的有关概念",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-geo-n001"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出圆心、半径、直径、弦、弧，并说明直径是最长的弦。"
+    },
+    {
+      "id": "jm-g9-geo-n013",
+      "title": "垂径定理",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n012"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明垂直于弦的直径平分这条弦，并且平分弦所对的弧。"
+    },
+    {
+      "id": "jm-g9-geo-n014",
+      "title": "圆心角与圆周角",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n013"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明同弧所对圆周角等于圆心角的一半。"
+    },
+    {
+      "id": "jm-g9-geo-n015",
+      "title": "直径所对圆周角",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n014"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明直径所对的圆周角是直角，以及直角所对的弦是直径。"
+    },
+    {
+      "id": "jm-g9-geo-n016",
+      "title": "切线",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n015"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明切线垂直于过切点的半径，并用来求角或半径。"
+    },
+    {
+      "id": "jm-g9-geo-n017",
+      "title": "弧长与扇形面积入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n016"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用圆心角占周角的份数求弧长和扇形面积（公式意识）。"
+    },
+    {
+      "id": "jm-g9-geo-n018",
+      "title": "圆综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n017"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能综合垂径、圆周角、切线求角或线段。"
+    },
+    {
+      "id": "jm-g9-geo-n019",
+      "title": "投影",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-geo-n012"
+      ],
+      "tags": [
+        "view",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分平行投影与中心投影，指出阳光下影子近似平行投影。"
+    },
+    {
+      "id": "jm-g9-geo-n020",
+      "title": "正投影与三视图",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n019"
+      ],
+      "tags": [
+        "view",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据简单组合体画出或识别主视图、左视图、俯视图。"
+    },
+    {
+      "id": "jm-g9-geo-n021",
+      "title": "视图与展开对照",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n020"
+      ],
+      "tags": [
+        "view",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明三视图看「从哪边看」，展开图看「拆开哪面」，二者互补。"
+    },
+    {
+      "id": "jm-g9-geo-n022",
+      "title": "九年级几何合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n011",
+        "jm-g9-geo-n018",
+        "jm-g9-geo-n021"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在相似、三角比、圆、视图之间切换。"
+    },
+    {
+      "id": "jm-g9-geo-n023",
+      "title": "九年级几何通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g9-geo-n022"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成九年级图形与几何线的收束检查。"
+    },
+    {
+      "id": "jm-g9-geo-n024",
+      "title": "相似比与面积比",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-geo-n004"
+      ],
+      "tags": [
+        "sim",
+        "ch-sim"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明相似三角形面积比等于相似比的平方（本图作认识）。"
+    },
+    {
+      "id": "jm-g9-geo-n025",
+      "title": "正弦余弦互相余",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n009"
+      ],
+      "tags": [
+        "trig",
+        "ch-trig"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明互余两角的正弦与余弦互换：sin(90°-α)=cos α。"
+    },
+    {
+      "id": "jm-g9-geo-n026",
+      "title": "圆周角不是圆心角",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n014"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能纠正把圆周角当成圆心角去用「一半」的错误：必须是同弧。"
+    },
+    {
+      "id": "jm-g9-geo-n027",
+      "title": "切线长定理入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-geo-n016"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明从圆外一点引两条切线，切线长相等（认识）。"
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "map_id": "jm-g9-practice",
+  "nodes": [
+    {
+      "id": "jm-g9-prac-n001",
+      "title": "发现：全年级的口味说不清",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从「众说纷纭」感到：要了解全年级偏好，不能只问自己的朋友。"
+    },
+    {
+      "id": "jm-g9-prac-n002",
+      "title": "计划：抽样方案",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-prac-n001"
+      ],
+      "tags": [
+        "plan",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能写出总体、样本容量、如何尽量做到每个同学被抽到的机会相近。"
+    },
+    {
+      "id": "jm-g9-prac-n003",
+      "title": "实施：收集样本",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n002"
+      ],
+      "tags": [
+        "do",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按方案收集样本（可用合理假设数据），注明来源和时间。"
+    },
+    {
+      "id": "jm-g9-prac-n004",
+      "title": "实施：整理与估计",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n003"
+      ],
+      "tags": [
+        "do",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能整理频数，用样本比例估计总体偏好，并写「估计」。"
+    },
+    {
+      "id": "jm-g9-prac-n005",
+      "title": "实施：指出局限",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n004"
+      ],
+      "tags": [
+        "do",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能写出样本可能缺了哪一类人，因而估计可能偏。"
+    },
+    {
+      "id": "jm-g9-prac-n006",
+      "title": "交流：偏好估计答辩",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n005"
+      ],
+      "tags": [
+        "share",
+        "ch-survey",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能讲清方案、估计结果和不能代表谁。"
+    },
+    {
+      "id": "jm-g9-prac-n007",
+      "title": "发现：台阶难上",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-ramp"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出为一级台阶或短高差做无障碍坡道的问题，指出要控制坡度。"
+    },
+    {
+      "id": "jm-g9-prac-n008",
+      "title": "计划：坡度模型",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-prac-n007"
+      ],
+      "tags": [
+        "plan",
+        "ch-ramp"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把坡道抽象成直角三角形：高度、水平长度、坡度（或仰角）。"
+    },
+    {
+      "id": "jm-g9-prac-n009",
+      "title": "实施：测量高度",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n008"
+      ],
+      "tags": [
+        "do",
+        "ch-ramp"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能测量或合理假设高差，并注明单位。"
+    },
+    {
+      "id": "jm-g9-prac-n010",
+      "title": "实施：按限制求长度",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n009"
+      ],
+      "tags": [
+        "do",
+        "ch-ramp"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据给定的最大坡度（或最大仰角）求至少需要多长的水平距离。"
+    },
+    {
+      "id": "jm-g9-prac-n011",
+      "title": "实施：检查场地够不够",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n010"
+      ],
+      "tags": [
+        "do",
+        "ch-ramp"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能对照场地实际长度，判断方案是否放得下，放不下就改折线坡道或说明做不到。"
+    },
+    {
+      "id": "jm-g9-prac-n012",
+      "title": "交流：坡道说明会",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-prac-n011"
+      ],
+      "tags": [
+        "share",
+        "ch-ramp"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能讲解模型、计算和场地限制，回答「为什么不能更陡」。"
+    },
+    {
+      "id": "jm-g9-prac-n013",
+      "title": "发现：调查和坡道能一起做吗",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出一个同时用到抽样估计和坡度计算的问题，例如「多少人需要缓坡」。"
+    },
+    {
+      "id": "jm-g9-prac-n014",
+      "title": "计划：课题说明书",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-prac-n013"
+      ],
+      "tags": [
+        "plan",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能写问题、数据与尺寸来源、步骤、交流展示。"
+    },
+    {
+      "id": "jm-g9-prac-n015",
+      "title": "实施：走完四步",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n012",
+        "jm-g9-prac-n014"
+      ],
+      "tags": [
+        "do",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按说明书完成估计或计算，并写下局限。"
+    },
+    {
+      "id": "jm-g9-prac-n016",
+      "title": "交流：初中实践成果卡",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n015"
+      ],
+      "tags": [
+        "share",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用四句话写成果卡：问题、模型、结果、局限。"
+    },
+    {
+      "id": "jm-g9-prac-n017",
+      "title": "实践工具箱",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n016"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出四步，以及抽样估计与直角三角形模型两种常用工具。"
+    },
+    {
+      "id": "jm-g9-prac-n018",
+      "title": "九年级实践合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-prac-n017"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能抽签完成偏好估计或坡道设计的完整流程。"
+    },
+    {
+      "id": "jm-g9-prac-n019",
+      "title": "九年级实践通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g9-prac-n018"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成九年级综合与实践线的收束检查。"
+    },
+    {
+      "id": "jm-g9-prac-n020",
+      "title": "只问志愿者会怎样",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n006"
+      ],
+      "tags": [
+        "survey",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明只让自愿填表会导致样本偏向爱发表意见的人。"
+    },
+    {
+      "id": "jm-g9-prac-n021",
+      "title": "坡度限制从哪来",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-prac-n012"
+      ],
+      "tags": [
+        "ramp",
+        "ch-ramp"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明最大坡度是外部约定（规范或使用者需求），不是数学推出来的，但数学负责在限制下求长度。"
+    }
+  ]
+}

@@ -1,0 +1,924 @@
+{
+  "map_id": "jm-g7-geometry",
+  "nodes": [
+    {
+      "id": "jm-g7-geo-n001",
+      "title": "点、线、面、体",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "lang",
+        "ch-lang"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从身边物体指出点、线、面、体，并说明几何里把它们当作理想化的模型。"
+    },
+    {
+      "id": "jm-g7-geo-n002",
+      "title": "直线、射线、线段",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-geo-n001"
+      ],
+      "tags": [
+        "lang",
+        "ch-lang"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分直线、射线、线段：两端是否延伸、如何用字母表示。"
+    },
+    {
+      "id": "jm-g7-geo-n003",
+      "title": "两点确定一条直线",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-geo-n002"
+      ],
+      "tags": [
+        "lang",
+        "ch-lang"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明两点确定一条直线，两点之间线段最短。"
+    },
+    {
+      "id": "jm-g7-geo-n004",
+      "title": "角及其表示",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-geo-n003"
+      ],
+      "tags": [
+        "lang",
+        "ch-lang"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用三个字母或数字表示一个角，指出顶点和边。"
+    },
+    {
+      "id": "jm-g7-geo-n005",
+      "title": "几何语句与图形互译",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n004"
+      ],
+      "tags": [
+        "lang",
+        "ch-lang"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把「点在直线上」「两直线相交」等语句画成图，也能看图写成语句。"
+    },
+    {
+      "id": "jm-g7-geo-n006",
+      "title": "相交线与对顶角",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n005"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出两直线相交形成的对顶角，说明对顶角相等。"
+    },
+    {
+      "id": "jm-g7-geo-n007",
+      "title": "邻补角",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n006"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能指出邻补角：有公共顶点、一条公共边，另一边互为反向延长线，和为 180°。"
+    },
+    {
+      "id": "jm-g7-geo-n008",
+      "title": "垂线",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n007"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明两条直线互相垂直，过一点有且只有一条直线与已知直线垂直。"
+    },
+    {
+      "id": "jm-g7-geo-n009",
+      "title": "点到直线的距离",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n008"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明点到直线的距离是垂线段的长度。"
+    },
+    {
+      "id": "jm-g7-geo-n010",
+      "title": "平行线",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-geo-n008"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明在同一平面内不相交的两条直线叫做平行线，过直线外一点有且只有一条平行线。"
+    },
+    {
+      "id": "jm-g7-geo-n011",
+      "title": "三线八角",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n010",
+        "jm-g7-geo-n006"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在「两条直线被第三条直线所截」的图中指出同位角、内错角、同旁内角。"
+    },
+    {
+      "id": "jm-g7-geo-n012",
+      "title": "平行线的判定",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-geo-n011"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用同位角相等、内错角相等、同旁内角互补判定两直线平行。"
+    },
+    {
+      "id": "jm-g7-geo-n013",
+      "title": "平行线的性质",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-geo-n012"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能由两直线平行推出同位角相等、内错角相等、同旁内角互补。"
+    },
+    {
+      "id": "jm-g7-geo-n014",
+      "title": "平行线综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-geo-n013"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在稍复杂的图形里选用判定或性质，说明哪一步用了哪条理由。"
+    },
+    {
+      "id": "jm-g7-geo-n015",
+      "title": "三角形的边",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-geo-n005"
+      ],
+      "tags": [
+        "tri",
+        "ch-tri"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出三角形三边，说明任意两边之和大于第三边。"
+    },
+    {
+      "id": "jm-g7-geo-n016",
+      "title": "三角形内角和",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n015",
+        "jm-g7-geo-n013"
+      ],
+      "tags": [
+        "tri",
+        "ch-tri"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明三角形内角和是 180°，并用来求未知角。"
+    },
+    {
+      "id": "jm-g7-geo-n017",
+      "title": "高、中线、角平分线",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n016"
+      ],
+      "tags": [
+        "tri",
+        "ch-tri"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能画出三角形的高、中线、角平分线，并说明它们的定义。"
+    },
+    {
+      "id": "jm-g7-geo-n018",
+      "title": "等腰三角形",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n017"
+      ],
+      "tags": [
+        "tri",
+        "ch-tri"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说出等腰三角形两底角相等，顶角平分线、底边上的中线、高互相重合。"
+    },
+    {
+      "id": "jm-g7-geo-n019",
+      "title": "等边三角形",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n018"
+      ],
+      "tags": [
+        "tri",
+        "ch-tri"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明等边三角形是特殊的等腰三角形，三个角都是 60°。"
+    },
+    {
+      "id": "jm-g7-geo-n020",
+      "title": "直角三角形初步",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n016"
+      ],
+      "tags": [
+        "tri",
+        "ch-tri"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出直角、直角边、斜边，并说明两锐角互余。"
+    },
+    {
+      "id": "jm-g7-geo-n021",
+      "title": "三角形综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-geo-n019",
+        "jm-g7-geo-n020"
+      ],
+      "tags": [
+        "tri",
+        "ch-tri",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能综合边的关系、内角和、等腰与直角，求边或角并写出理由。"
+    },
+    {
+      "id": "jm-g7-geo-n022",
+      "title": "从不同方向看",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g7-geo-n001"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据从正面、左面、上面看到的形状，想象简单组合体。"
+    },
+    {
+      "id": "jm-g7-geo-n023",
+      "title": "立体图形的展开图",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n022"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能判断哪些平面图形可以折成正方体或长方体，哪些不能。"
+    },
+    {
+      "id": "jm-g7-geo-n024",
+      "title": "棱柱的直观认识",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n023"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出棱柱的底面、侧面、棱，并与椎体、球体直观区分。"
+    },
+    {
+      "id": "jm-g7-geo-n025",
+      "title": "生活中的立体分类",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n024"
+      ],
+      "tags": [
+        "solid",
+        "ch-solid"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能给包装盒、罐、球等分类，并说明为什么有的要画展开图、有的看三视图。"
+    },
+    {
+      "id": "jm-g7-geo-n026",
+      "title": "几何语言收束",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n014",
+        "jm-g7-geo-n021"
+      ],
+      "tags": [
+        "lang",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用规范语句写出「因为…所以…」的短推理，每步对应图形。"
+    },
+    {
+      "id": "jm-g7-geo-n027",
+      "title": "七年级几何合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g7-geo-n026",
+        "jm-g7-geo-n025"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在平行线、三角形、立体直观之间切换，不混用名称。"
+    },
+    {
+      "id": "jm-g7-geo-n028",
+      "title": "七年级几何通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g7-geo-n027"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成七年级图形与几何线的收束检查。"
+    },
+    {
+      "id": "jm-g7-geo-n029",
+      "title": "余角与补角",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n007"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分互余（和 90°）与互补（和 180°），并与邻补角对照：邻补角一定互补，互补不一定相邻。"
+    },
+    {
+      "id": "jm-g7-geo-n030",
+      "title": "作一条垂线",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n008"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用三角尺或尺规从直线上（或外）一点作已知直线的垂线，并说明「唯一」。"
+    },
+    {
+      "id": "jm-g7-geo-n031",
+      "title": "平移与平行",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n010"
+      ],
+      "tags": [
+        "parallel",
+        "ch-parallel"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明把一条直线平移后与原直线平行，生活中的滑轨、栅栏可以这样看。"
+    },
+    {
+      "id": "jm-g7-geo-n032",
+      "title": "三角形分类总表",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 7,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g7-geo-n021"
+      ],
+      "tags": [
+        "tri",
+        "ch-tri"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能按边（不等边、等腰、等边）和按角（锐角、直角、钝角）给三角形分类，并指出交叉。"
+    }
+  ]
+}

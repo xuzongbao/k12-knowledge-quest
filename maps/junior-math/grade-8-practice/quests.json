@@ -1,0 +1,244 @@
+{
+  "map_id": "jm-g8-practice",
+  "quests": [
+    {
+      "id": "jm-g8-prac-n001-explain",
+      "node_id": "jm-g8-prac-n001",
+      "title": "不公的感觉",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "讲述一次分组被嫌不公，指出大家在比什么。",
+      "success_hint": "先感到需要规则。"
+    },
+    {
+      "id": "jm-g8-prac-n002-explain",
+      "node_id": "jm-g8-prac-n002",
+      "title": "写成可计算的目标",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把公平写成至少一条可以算的句子。",
+      "success_hint": "例如两组平均分相差不超过 2。"
+    },
+    {
+      "id": "jm-g8-prac-n003-practice",
+      "node_id": "jm-g8-prac-n003",
+      "title": "整理能力表",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "列出至少 8 人的一项能力数据（可假设）。",
+      "success_hint": "数据要有单位和来源说明。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-n004-practice",
+      "node_id": "jm-g8-prac-n004",
+      "title": "算两组指标",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给出一种分组，计算两组平均与极差。",
+      "success_hint": "先算再评价。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-n005-practice",
+      "node_id": "jm-g8-prac-n005",
+      "title": "交换后再算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "交换两名成员，比较指标是否更接近目标。",
+      "success_hint": "每一次调整都要留下计算。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-n006-explain",
+      "node_id": "jm-g8-prac-n006",
+      "title": "承认不完美",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明方案仍可能被质疑的一点。",
+      "success_hint": "公平定义本身就有取舍。"
+    },
+    {
+      "id": "jm-g8-prac-n006-mini-quiz",
+      "node_id": "jm-g8-prac-n006",
+      "title": "分组质量小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "找三份方案的问题：无目标、无计算、只凭印象。",
+      "success_hint": "不能检查的公平不是方案。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-prac-boss-fair",
+      "node_id": "jm-g8-prac-n006",
+      "title": "关主：公平分组师",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①写出公平的操作定义 ②展示一次调整前后的计算 ③说出局限。",
+      "success_hint": "可计算才能答辩。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-prac-n007-explain",
+      "node_id": "jm-g8-prac-n007",
+      "title": "路径问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话提出取水最短路径，指出三个地点。",
+      "success_hint": "问题要落到图上的点与线。"
+    },
+    {
+      "id": "jm-g8-prac-n008-explain",
+      "node_id": "jm-g8-prac-n008",
+      "title": "抽象成直线和点",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明为什么把河岸看成直线，忽略宽度。",
+      "success_hint": "模型要写清忽略了什么。"
+    },
+    {
+      "id": "jm-g8-prac-n009-practice",
+      "node_id": "jm-g8-prac-n009",
+      "title": "作对称点",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "作出点关于直线的对称点，标出垂线。",
+      "success_hint": "对应点连线被直线垂直平分。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-n010-practice",
+      "node_id": "jm-g8-prac-n010",
+      "title": "找到取水点",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "连接并标出与河岸的交点。",
+      "success_hint": "交点就是取水点。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-n011-explain",
+      "node_id": "jm-g8-prac-n011",
+      "title": "为什么最短",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用对称把折线变成线段，说明两点之间线段最短。",
+      "success_hint": "对称把「到直线的距离」变成相等的另一段。"
+    },
+    {
+      "id": "jm-g8-prac-n012-practice",
+      "node_id": "jm-g8-prac-n012",
+      "title": "回答两侧情形",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "说明两点在直线两侧时应直接相连，不必对称。",
+      "success_hint": "模型假设变了，方法也变。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-n012-mini-quiz",
+      "node_id": "jm-g8-prac-n012",
+      "title": "路径质量小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "找作图缺步骤或把两侧情形用错方法的例子。",
+      "success_hint": "先看两点在同侧还是异侧。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-prac-n013-explain",
+      "node_id": "jm-g8-prac-n013",
+      "title": "提出综合问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出一个同时用到分组数据和路线的问题。",
+      "success_hint": "两种模型都要用到。"
+    },
+    {
+      "id": "jm-g8-prac-n014-explain",
+      "node_id": "jm-g8-prac-n014",
+      "title": "写说明书",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写问题、模型、步骤、展示物。",
+      "success_hint": "别人能按说明书开工。"
+    },
+    {
+      "id": "jm-g8-prac-n015-practice",
+      "node_id": "jm-g8-prac-n015",
+      "title": "留下证据",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成计算或作图，写一句局限。",
+      "success_hint": "局限对应模型假设。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-n016-practice",
+      "node_id": "jm-g8-prac-n016",
+      "title": "四句成果卡",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "问题、模型、结果、局限。",
+      "success_hint": "模型可以是指标，也可以是对称作图。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-n017-explain",
+      "node_id": "jm-g8-prac-n017",
+      "title": "打开工具箱",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说出四步，以及如何把「公平/最短」写成可操作目标。",
+      "success_hint": "目标可检查，方案才能比较。"
+    },
+    {
+      "id": "jm-g8-prac-n018-practice",
+      "node_id": "jm-g8-prac-n018",
+      "title": "抽签走流程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽分组或路径之一完整做完。",
+      "success_hint": "发现—计划—实施—交流。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-n019-practice",
+      "node_id": "jm-g8-prac-n019",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成一个带目标或作图的小项目。",
+      "success_hint": "能说局限。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-prac-boss-map",
+      "node_id": "jm-g8-prac-n019",
+      "title": "关主：八年级实践通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①展示带计算的公平分组或调整 ②展示对称法得到的取水点 ③说出模型局限。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-prac-n020-explain",
+      "node_id": "jm-g8-prac-n020",
+      "title": "两种公平打架",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举「平均接近」和「最强必须分开」冲突的例子，说明要先排优先级。",
+      "success_hint": "多个目标时要说清谁优先。"
+    },
+    {
+      "id": "jm-g8-prac-n021-explain",
+      "node_id": "jm-g8-prac-n021",
+      "title": "弯曲河岸",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明河岸弯曲时对称法只是近似。",
+      "success_hint": "假设不成立，结论要降级。"
+    }
+  ]
+}

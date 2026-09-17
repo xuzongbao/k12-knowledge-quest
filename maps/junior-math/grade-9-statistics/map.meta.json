@@ -1,0 +1,26 @@
+{
+  "id": "jm-g9-statistics",
+  "title": "九年级 · 统计与概率",
+  "subject": "数学",
+  "stage": "初中",
+  "grade": 9,
+  "strand": "统计与概率",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "jm-g9-stat-n001"
+  ],
+  "recommended_path_note": "抽样与用样本估计总体（关主 1）→ 频率估计概率与古典概型深化（关主 2）。方便样本、越界结论、漏枝、样本很散（n021–n024）为软锁。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "jm-g9-stat-boss-sample",
+      "jm-g9-stat-boss-classical",
+      "jm-g9-stat-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：抽样估计员、古典概型绘图员、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "初中九年级「统计与概率」地图：随机抽样、用样本估计总体、频率估计概率、列表树状图与古典概型。独立通关。"
+}

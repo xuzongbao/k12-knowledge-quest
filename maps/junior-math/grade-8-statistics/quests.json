@@ -1,0 +1,324 @@
+{
+  "map_id": "jm-g8-statistics",
+  "quests": [
+    {
+      "id": "jm-g8-stat-n001-explain",
+      "node_id": "jm-g8-stat-n001",
+      "title": "为什么不能再平均一次",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "两个班人数不同、平均分不同，说明直接把两个平均分再平均为什么不公平。",
+      "success_hint": "人数就是权。"
+    },
+    {
+      "id": "jm-g8-stat-n002-explain",
+      "node_id": "jm-g8-stat-n002",
+      "title": "权是份量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举人数、时间、学分三个权的例子。",
+      "success_hint": "权越大，这一组越能拉动结果。"
+    },
+    {
+      "id": "jm-g8-stat-n003-practice",
+      "node_id": "jm-g8-stat-n003",
+      "title": "算加权平均",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组数据计算加权平均数。",
+      "success_hint": "先乘权再加，最后除以权的和。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-stat-n004-practice",
+      "node_id": "jm-g8-stat-n004",
+      "title": "改权看变化",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一组成绩改两组权，比较加权平均。",
+      "success_hint": "权大的那一组更能把结果拽过去。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g8-stat-n005-practice",
+      "node_id": "jm-g8-stat-n005",
+      "title": "选对平均",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个情境判断用算术平均还是加权平均。",
+      "success_hint": "份量不同就要加权。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-stat-n006-explain",
+      "node_id": "jm-g8-stat-n006",
+      "title": "散还是挤",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画两组平均数相近、一散一挤的点，说明只看平均不够。",
+      "success_hint": "波动是另一件事。"
+    },
+    {
+      "id": "jm-g8-stat-n007-practice",
+      "node_id": "jm-g8-stat-n007",
+      "title": "求极差",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组数据求极差。",
+      "success_hint": "最大减最小。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-stat-n008-practice",
+      "node_id": "jm-g8-stat-n008",
+      "title": "体会方差",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对两组小数据计算或比较方差（可用计算器），说出哪一组更整齐。",
+      "success_hint": "差的平方再平均。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-stat-n009-explain",
+      "node_id": "jm-g8-stat-n009",
+      "title": "方差小意味着什么",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在平均数差不多时，解释方差小的一组更整齐。",
+      "success_hint": "不要离开平均数单独谈方差。"
+    },
+    {
+      "id": "jm-g8-stat-n010-practice",
+      "node_id": "jm-g8-stat-n010",
+      "title": "波动量闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求加权平均或平均、极差，并比较方差含义。",
+      "success_hint": "先问问题要的是中心还是波动。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-stat-n010-mini-quiz",
+      "node_id": "jm-g8-stat-n010",
+      "title": "平均与波动小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "加权、极差、方差含义。夹一道「组平均再平均」。",
+      "success_hint": "权是份量。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-stat-boss-spread",
+      "node_id": "jm-g8-stat-n010",
+      "title": "关主：加权与波动分析员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①计算加权平均 ②求极差 ③说明哪一组方差更小、意味着什么。",
+      "success_hint": "中心和波动要分开看。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g8-stat-n011-practice",
+      "node_id": "jm-g8-stat-n011",
+      "title": "分成几组",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给一组数据选择合理组距并分组。",
+      "success_hint": "组不宜过多或过少。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g8-stat-n012-practice",
+      "node_id": "jm-g8-stat-n012",
+      "title": "填频数表",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据分组填写频数（和频率）。",
+      "success_hint": "每条数据只进一组。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g8-stat-n013-explain",
+      "node_id": "jm-g8-stat-n013",
+      "title": "直方图的矩形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明组距相等时，矩形高表示频数，矩形一般紧挨着。",
+      "success_hint": "紧挨着是因为横轴是连续分段。"
+    },
+    {
+      "id": "jm-g8-stat-n014-practice",
+      "node_id": "jm-g8-stat-n014",
+      "title": "读直方图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读最多的一组、大约范围、合计是否合理，共 6 题。",
+      "success_hint": "先看组距和图例。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-stat-n015-practice",
+      "node_id": "jm-g8-stat-n015",
+      "title": "选直方图还是条形图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个问题选择图种。",
+      "success_hint": "数值分段用直方图，名称类别用条形图。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-stat-n016-practice",
+      "node_id": "jm-g8-stat-n016",
+      "title": "图表与统计量",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读一幅直方图并指出用平均还是方差更合适回答给定问题。",
+      "success_hint": "问集中用平均，问整齐用方差。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g8-stat-n017-explain",
+      "node_id": "jm-g8-stat-n017",
+      "title": "指出随机事件",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在校园情境中列出一个随机事件并写清条件。",
+      "success_hint": "条件变了，事件可能不再随机。"
+    },
+    {
+      "id": "jm-g8-stat-n018-explain",
+      "node_id": "jm-g8-stat-n018",
+      "title": "概率是 0 到 1 的数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 0 表示不可能，1 表示必然，越靠近 1 越可能发生。",
+      "success_hint": "概率不是百分数必须，但可以改写成百分数。"
+    },
+    {
+      "id": "jm-g8-stat-n019-practice",
+      "node_id": "jm-g8-stat-n019",
+      "title": "古典概型入门",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个等可能事件求概率。",
+      "success_hint": "有利个数 / 全部个数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-stat-n020-practice",
+      "node_id": "jm-g8-stat-n020",
+      "title": "列表求概率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "两个骰子或两个转盘用表列出再求概率，共 4 题。",
+      "success_hint": "每格是否等可能要先确认。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-stat-n021-practice",
+      "node_id": "jm-g8-stat-n021",
+      "title": "树状图求概率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画 3 个简单树状图并求概率。",
+      "success_hint": "每条完整路径是一个结果。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g8-stat-n022-practice",
+      "node_id": "jm-g8-stat-n022",
+      "title": "选工具求概率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合列表与树状图 4 题，并写是否等可能。",
+      "success_hint": "不等可能就不要硬除。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-stat-n022-mini-quiz",
+      "node_id": "jm-g8-stat-n022",
+      "title": "概率小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "意义、古典概型、列表或树状图。",
+      "success_hint": "先检查等可能。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-stat-boss-probability",
+      "node_id": "jm-g8-stat-n022",
+      "title": "关主：概率绘图员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①说出概率在 0 与 1 之间 ②用列表或树状图求一个概率 ③指出一个不能用古典概型的例子。",
+      "success_hint": "工具服务于等可能假设。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g8-stat-n023-explain",
+      "node_id": "jm-g8-stat-n023",
+      "title": "频率会靠近吗",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话说明大量重复时频率靠近概率。",
+      "success_hint": "靠近不是次次相等。"
+    },
+    {
+      "id": "jm-g8-stat-n024-practice",
+      "node_id": "jm-g8-stat-n024",
+      "title": "课题两手抓",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "一组数据：加权或直方图 + 一个等可能概率。",
+      "success_hint": "已有数据用统计，尚未发生用概率。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g8-stat-n025-practice",
+      "node_id": "jm-g8-stat-n025",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "加权平均、方差含义、读直方图、求简单概率。",
+      "success_hint": "先辨题型。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g8-stat-boss-map",
+      "node_id": "jm-g8-stat-n025",
+      "title": "关主：八年级统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①加权平均 ②说明方差或极差 ③读直方图 ④求一个等可能概率。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 14
+    },
+    {
+      "id": "jm-g8-stat-n026-explain",
+      "node_id": "jm-g8-stat-n026",
+      "title": "权可以是人数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "纠正「权必须写成百分数」的说法。",
+      "success_hint": "人数、次数都可以当权。"
+    },
+    {
+      "id": "jm-g8-stat-n027-explain",
+      "node_id": "jm-g8-stat-n027",
+      "title": "高度不能直接比",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画一个组距不同的示意，说明只比高度会误导。",
+      "success_hint": "面积才对应频数。"
+    },
+    {
+      "id": "jm-g8-stat-n028-explain",
+      "node_id": "jm-g8-stat-n028",
+      "title": "图钉的两面",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明图钉尖朝上与朝下不必等可能，因而不能用 1/2 硬套。",
+      "success_hint": "等可能要有理由。"
+    }
+  ]
+}

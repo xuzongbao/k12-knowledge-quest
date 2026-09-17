@@ -1,0 +1,427 @@
+{
+  "map_id": "jm-g7-algebra",
+  "quests": [
+    {
+      "id": "jm-g7-alg-n001-explain",
+      "node_id": "jm-g7-alg-n001",
+      "title": "相反意义的量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举温度、盈亏、升降各一例，说明用正负怎么记，并指出 0 表示什么。",
+      "success_hint": "0 是分界，不是正也不是负。"
+    },
+    {
+      "id": "jm-g7-alg-n002-explain",
+      "node_id": "jm-g7-alg-n002",
+      "title": "哪些是有理数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "从整数、分数、有限小数、循环小数里指出有理数，并各举一个负数例子。",
+      "success_hint": "能写成两整数之比的是有理数。"
+    },
+    {
+      "id": "jm-g7-alg-n003-practice",
+      "node_id": "jm-g7-alg-n003",
+      "title": "在数轴上描点",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在数轴上标出至少 6 个有理数，含正负分数。",
+      "success_hint": "先找原点，再按单位长度数格。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-alg-n004-practice",
+      "node_id": "jm-g7-alg-n004",
+      "title": "求相反数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 个有理数的相反数，并在数轴上指出对称点。",
+      "success_hint": "互为相反数的两点关于原点对称。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n005-practice",
+      "node_id": "jm-g7-alg-n005",
+      "title": "求绝对值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 个有理数的绝对值，并说明「绝对值相等、符号相反」意味着什么。",
+      "success_hint": "绝对值是到原点的距离，结果≥0。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n006-practice",
+      "node_id": "jm-g7-alg-n006",
+      "title": "比较有理数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较 10 组有理数大小，其中至少 4 组是两个负数。",
+      "success_hint": "在数轴上越靠右越大；两个负数绝对值大的反而更小。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-alg-n007-practice",
+      "node_id": "jm-g7-alg-n007",
+      "title": "有理数加法",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成 10 道有理数加法，写出和的符号从哪来。",
+      "success_hint": "同号相加；异号相减，符号跟绝对值大的走。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-alg-n008-practice",
+      "node_id": "jm-g7-alg-n008",
+      "title": "减法变加法",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 8 道减法改写成加上相反数再计算。",
+      "success_hint": "减去一个数等于加上它的相反数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n009-practice",
+      "node_id": "jm-g7-alg-n009",
+      "title": "加减混合凑整",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道加减混合，用运算律先凑成整十或抵消。",
+      "success_hint": "先找互为相反数的项。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-alg-n010-practice",
+      "node_id": "jm-g7-alg-n010",
+      "title": "有理数乘法",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "12 道乘法，含多个负数相乘，说出负号的个数如何决定符号。",
+      "success_hint": "负号奇数个得负，偶数个得正。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-alg-n011-practice",
+      "node_id": "jm-g7-alg-n011",
+      "title": "有理数除法",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 道除法，含除以负数；另加 2 道指出「除数是 0」不合法。",
+      "success_hint": "除以一个数等于乘它的倒数。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-alg-n012-practice",
+      "node_id": "jm-g7-alg-n012",
+      "title": "计算乘方",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道乘方，对比 (-2)^4 与 -2^4。",
+      "success_hint": "没有括号时，乘方只作用于紧挨着的数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n013-practice",
+      "node_id": "jm-g7-alg-n013",
+      "title": "混合运算闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "按运算顺序完成 8 道有理数混合运算。",
+      "success_hint": "乘方→乘除→加减；括号优先。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n013-mini-quiz",
+      "node_id": "jm-g7-alg-n013",
+      "title": "有理数小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合：比大小、加减乘除、乘方、运算顺序。夹一道 (-3)^2 与 -3^2。",
+      "success_hint": "先符号，再绝对值。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-alg-boss-rational",
+      "node_id": "jm-g7-alg-n013",
+      "title": "关主：有理数运算官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①在数轴上比较并求绝对值 ②完成加减乘除与乘方 ③说明一步混合运算的顺序。",
+      "success_hint": "符号法则和运算顺序两件都要稳。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-alg-n014-explain",
+      "node_id": "jm-g7-alg-n014",
+      "title": "字母能表示什么",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用字母写出「比 a 大 3」「a 的相反数」，并说明 a 可以换成哪些有理数。",
+      "success_hint": "字母是占位符，不是某种神秘新数。"
+    },
+    {
+      "id": "jm-g7-alg-n015-practice",
+      "node_id": "jm-g7-alg-n015",
+      "title": "识别代数式",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "从一列式子里挑出代数式，并指出其中的运算。",
+      "success_hint": "含字母的运算式是代数式；方程有等号。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n016-practice",
+      "node_id": "jm-g7-alg-n016",
+      "title": "求代数式的值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给定字母取值，求 8 个代数式的值，注意负数代入要加括号。",
+      "success_hint": "负号代入先加括号再运算。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n017-practice",
+      "node_id": "jm-g7-alg-n017",
+      "title": "系数和次数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "指出 8 个单项式的系数与次数。",
+      "success_hint": "系数带着前面的符号；次数把各字母指数加起来。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n018-explain",
+      "node_id": "jm-g7-alg-n018",
+      "title": "整式家族",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话区分单项式、多项式、整式，并各举一例。",
+      "success_hint": "整式是单项式与多项式的总称。"
+    },
+    {
+      "id": "jm-g7-alg-n019-practice",
+      "node_id": "jm-g7-alg-n019",
+      "title": "找同类项",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在多项式里圈出同类项，指出哪些只是「长得像」但次数不同。",
+      "success_hint": "字母及相同字母的次数都要相同。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-alg-n020-practice",
+      "node_id": "jm-g7-alg-n020",
+      "title": "合并同类项",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "合并 8 个多项式中的同类项。",
+      "success_hint": "系数相加，字母部分照抄。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n021-practice",
+      "node_id": "jm-g7-alg-n021",
+      "title": "去括号",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成 8 道去括号，其中至少 4 道括号前是负号。",
+      "success_hint": "负号改变括号里每一项的符号。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n022-practice",
+      "node_id": "jm-g7-alg-n022",
+      "title": "整式加减综合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "去括号并合并，完成 6 道整式加减，按字母降幂排列。",
+      "success_hint": "先去括号，再合并，再整理顺序。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-alg-n022-mini-quiz",
+      "node_id": "jm-g7-alg-n022",
+      "title": "整式小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "识别同类项、去括号、合并、求值。夹一道漏变号。",
+      "success_hint": "括号前的负号最容易漏。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g7-alg-boss-poly",
+      "node_id": "jm-g7-alg-n022",
+      "title": "关主：整式整理员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①指出系数次数 ②去括号合并同类项 ③求一个整式的值。",
+      "success_hint": "整理清楚，再代入。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-alg-n023-explain",
+      "node_id": "jm-g7-alg-n023",
+      "title": "等式还能怎样变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用天平或自己的话说明：两边同时加同一个数，或同乘不为 0 的数，仍相等。",
+      "success_hint": "两边要做同样的事。"
+    },
+    {
+      "id": "jm-g7-alg-n024-practice",
+      "node_id": "jm-g7-alg-n024",
+      "title": "检验是不是解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把数代入方程，判断是不是解，共 8 题。",
+      "success_hint": "代入后左右两边相等才是解。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n025-practice",
+      "node_id": "jm-g7-alg-n025",
+      "title": "挑出一元一次方程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "从一列方程里挑出一元一次方程，说明其他为什么不是。",
+      "success_hint": "一个未知数，次数是 1。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n026-practice",
+      "node_id": "jm-g7-alg-n026",
+      "title": "移项练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道方程只要求正确移项，暂不解完。",
+      "success_hint": "过去的项要变号。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n027-practice",
+      "node_id": "jm-g7-alg-n027",
+      "title": "去分母去括号",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道含分母或括号的方程，先写清同乘的数，再去括号。",
+      "success_hint": "每一项都要乘，包括没有分母的项。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-alg-n028-practice",
+      "node_id": "jm-g7-alg-n028",
+      "title": "解方程并检验",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解 8 道一元一次方程，每题代入检验。",
+      "success_hint": "系数化为 1 时，两边同除以系数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n029-practice",
+      "node_id": "jm-g7-alg-n029",
+      "title": "列方程短故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个短情境：设未知数、写等量关系、求解、写答。",
+      "success_hint": "等量关系是列方程的灵魂。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g7-alg-n030-explain",
+      "node_id": "jm-g7-alg-n030",
+      "title": "解是一个范围",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对比 x=3 与 x>3，说明后者有多少个解、怎么描述。",
+      "success_hint": "不等式的解通常是无穷多个数组成的集合。"
+    },
+    {
+      "id": "jm-g7-alg-n031-practice",
+      "node_id": "jm-g7-alg-n031",
+      "title": "变号还是不变",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断 8 组「两边同乘某数」后不等号要不要变向，并各举一例。",
+      "success_hint": "乘正数不变向，乘负数变向。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n032-practice",
+      "node_id": "jm-g7-alg-n032",
+      "title": "解一元一次不等式",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解 8 道一元一次不等式，写出解集。",
+      "success_hint": "最后一步除以负数时记得变号。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-alg-n033-practice",
+      "node_id": "jm-g7-alg-n033",
+      "title": "画在数轴上",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 6 个不等式的解集画在数轴上，分清空心实心。",
+      "success_hint": "≥、≤ 用实心；>、< 用空心。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-alg-n034-explain",
+      "node_id": "jm-g7-alg-n034",
+      "title": "点还是射线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一句话对照方程的解和不等式的解在数轴上长什么样。",
+      "success_hint": "方程常常是一个点，不等式常常是一条射线。"
+    },
+    {
+      "id": "jm-g7-alg-n035-practice",
+      "node_id": "jm-g7-alg-n035",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "有理数运算、整式加减、解方程、解不等式各几题。",
+      "success_hint": "先辨题型，再选法则。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-alg-n036-practice",
+      "node_id": "jm-g7-alg-n036",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：混合运算、整式整理、列方程、解不等式并画数轴。",
+      "success_hint": "符号、括号、变号，三处最容易漏。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g7-alg-boss-map",
+      "node_id": "jm-g7-alg-n036",
+      "title": "关主：七年级代数通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①有理数混合运算 ②整式加减 ③解一元一次方程并解一个不等式、画数轴。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "jm-g7-alg-n037-practice",
+      "node_id": "jm-g7-alg-n037",
+      "title": "写成科学记数法",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 6 个很大或很小的正数写成 a×10^n。",
+      "success_hint": "a 要满足 1≤a<10。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-alg-n038-explain",
+      "node_id": "jm-g7-alg-n038",
+      "title": "何时取近似",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个生活计算，说明精确到哪一位就够用，不必算到很多位小数。",
+      "success_hint": "精确程度要匹配问题需要。"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "map_id": "jm-g7-practice",
+  "quests": [
+    {
+      "id": "jm-g7-prac-n001-explain",
+      "node_id": "jm-g7-prac-n001",
+      "title": "对不上的感觉",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "讲述一次账对不上的经历或假设，指出可能漏记了什么。",
+      "success_hint": "先感到「需要约定」，再谈正负。"
+    },
+    {
+      "id": "jm-g7-prac-n002-explain",
+      "node_id": "jm-g7-prac-n002",
+      "title": "写出记账规则",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用不超过五句话写出正负约定，让没学过的同学也能照做。",
+      "success_hint": "进账、出账、0，三件事都要写到。"
+    },
+    {
+      "id": "jm-g7-prac-n003-practice",
+      "node_id": "jm-g7-prac-n003",
+      "title": "记八笔流水",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "按规则记下 8 笔（可用合理假设），每笔有日期和事由。",
+      "success_hint": "没有事由的数字以后无法答辩。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-prac-n004-practice",
+      "node_id": "jm-g7-prac-n004",
+      "title": "算出结余",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把流水加总，解释结余为负表示什么。",
+      "success_hint": "按有理数加法，不要漏符号。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-prac-n005-practice",
+      "node_id": "jm-g7-prac-n005",
+      "title": "合并类别",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把支出分成至少三类并合并，指出最大去向。",
+      "success_hint": "同类才能合并。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-prac-n006-explain",
+      "node_id": "jm-g7-prac-n006",
+      "title": "讲清裁定",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "选一笔有争议的账，说明记还是不记、记在哪一类。",
+      "success_hint": "规则要能裁定争议。"
+    },
+    {
+      "id": "jm-g7-prac-n006-mini-quiz",
+      "node_id": "jm-g7-prac-n006",
+      "title": "账本质量小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "找三份模拟流水的问题：漏符号、无事由、结余算错。",
+      "success_hint": "证据链要完整。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-prac-boss-ledger",
+      "node_id": "jm-g7-prac-n006",
+      "title": "关主：小账本审计员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①说出正负约定 ②汇总结余 ③裁定一笔争议记录。",
+      "success_hint": "约定先于计算。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-prac-n007-explain",
+      "node_id": "jm-g7-prac-n007",
+      "title": "堵在哪里",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "描述教室里哪一段过道最容易堵，并列出要量的尺寸。",
+      "success_hint": "问题要落到可以量的量。"
+    },
+    {
+      "id": "jm-g7-prac-n008-explain",
+      "node_id": "jm-g7-prac-n008",
+      "title": "约束写成清单",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出至少三条不可破的约束。",
+      "success_hint": "座位数量往往是硬约束。"
+    },
+    {
+      "id": "jm-g7-prac-n009-practice",
+      "node_id": "jm-g7-prac-n009",
+      "title": "画现状草图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用矩形表示桌椅，标出两条主要过道宽度。",
+      "success_hint": "草图要能让别人量出你标的数。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-prac-n010-practice",
+      "node_id": "jm-g7-prac-n010",
+      "title": "两种布置",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出两种方案，各标最窄过道。",
+      "success_hint": "不减少座位。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g7-prac-n011-practice",
+      "node_id": "jm-g7-prac-n011",
+      "title": "比较取舍",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用一张对照表比较两种方案，写出选择理由。",
+      "success_hint": "理由要对应约束。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-prac-n012-practice",
+      "node_id": "jm-g7-prac-n012",
+      "title": "回答质疑",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "准备两个提问：为什么不继续加宽、会不会挡黑板。",
+      "success_hint": "每个回答指回测量或约束。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g7-prac-n012-mini-quiz",
+      "node_id": "jm-g7-prac-n012",
+      "title": "布置质量小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "给几份方案找缺：无尺寸、减少座位、没比过道。",
+      "success_hint": "没有尺寸的方案只是愿望。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g7-prac-n013-explain",
+      "node_id": "jm-g7-prac-n013",
+      "title": "提出综合问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出一个同时用到记账和空间约束的问题。",
+      "success_hint": "两种办法都要用到，才叫综合。"
+    },
+    {
+      "id": "jm-g7-prac-n014-explain",
+      "node_id": "jm-g7-prac-n014",
+      "title": "写说明书",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写问题、数据来源、步骤、交流时展示什么。",
+      "success_hint": "别人按说明书能开工。"
+    },
+    {
+      "id": "jm-g7-prac-n015-practice",
+      "node_id": "jm-g7-prac-n015",
+      "title": "留下证据",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "收集数或尺寸，算出结果，写一句局限。",
+      "success_hint": "局限不是谦虚，是范围。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-prac-n016-practice",
+      "node_id": "jm-g7-prac-n016",
+      "title": "四句成果卡",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "问题、模型、结果、局限各一句。",
+      "success_hint": "模型可以是正负约定，也可以是平面草图。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-prac-n017-explain",
+      "node_id": "jm-g7-prac-n017",
+      "title": "打开工具箱",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说出四步名称，以及每步留下什么证据。",
+      "success_hint": "没有证据的交流只是讲故事。"
+    },
+    {
+      "id": "jm-g7-prac-n018-practice",
+      "node_id": "jm-g7-prac-n018",
+      "title": "抽签走流程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽账本或通道之一完整做完四步。",
+      "success_hint": "发现—计划—实施—交流。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-prac-n019-practice",
+      "node_id": "jm-g7-prac-n019",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成一个带规则或草图的小项目，并主动说局限。",
+      "success_hint": "能说局限，才像真做完。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g7-prac-boss-map",
+      "node_id": "jm-g7-prac-n019",
+      "title": "关主：七年级实践通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①讲清一套正负记账规则并汇总 ②展示一个带尺寸的过道方案或成果卡 ③说出局限。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g7-prac-n020-explain",
+      "node_id": "jm-g7-prac-n020",
+      "title": "修订规则",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "针对垫付再还回，决定记两笔还是抵消，并改规则说明书。",
+      "success_hint": "规则要覆盖新情况。"
+    },
+    {
+      "id": "jm-g7-prac-n021-explain",
+      "node_id": "jm-g7-prac-n021",
+      "title": "误差下的结论",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "假设每条过道可能差 2 厘米，说明结论应怎样改口。",
+      "success_hint": "证据变弱，说法要降级。"
+    }
+  ]
+}

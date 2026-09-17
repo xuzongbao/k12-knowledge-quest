@@ -1,0 +1,927 @@
+{
+  "map_id": "jm-g9-algebra",
+  "nodes": [
+    {
+      "id": "jm-g9-alg-n001",
+      "title": "算术平方根",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "radical",
+        "ch-radical"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明非负数 a 的算术平方根是平方等于 a 的那个非负数，记作 √a。"
+    },
+    {
+      "id": "jm-g9-alg-n002",
+      "title": "平方根",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-alg-n001"
+      ],
+      "tags": [
+        "radical",
+        "ch-radical"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明正数有两个平方根，互为相反数；0 的平方根是 0。"
+    },
+    {
+      "id": "jm-g9-alg-n003",
+      "title": "立方根",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-alg-n002"
+      ],
+      "tags": [
+        "radical",
+        "ch-radical"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能求简单数的立方根，说明负数也有立方根。"
+    },
+    {
+      "id": "jm-g9-alg-n004",
+      "title": "无理数与实数",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n003"
+      ],
+      "tags": [
+        "radical",
+        "ch-radical"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举例说明无限不循环小数是无理数，有理数与无理数合称实数。"
+    },
+    {
+      "id": "jm-g9-alg-n005",
+      "title": "二次根式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-alg-n004"
+      ],
+      "tags": [
+        "radical",
+        "ch-radical"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别二次根式，并指出被开方数必须非负。"
+    },
+    {
+      "id": "jm-g9-alg-n006",
+      "title": "最简二次根式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n005"
+      ],
+      "tags": [
+        "radical",
+        "ch-radical"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把被开方数中能开得尽的因数开出来，写成最简二次根式。"
+    },
+    {
+      "id": "jm-g9-alg-n007",
+      "title": "二次根式的乘除",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n006"
+      ],
+      "tags": [
+        "radical",
+        "ch-radical"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 √a·√b=√(ab)、√a/√b=√(a/b)（a≥0,b>0）计算。"
+    },
+    {
+      "id": "jm-g9-alg-n008",
+      "title": "二次根式的加减",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n007"
+      ],
+      "tags": [
+        "radical",
+        "ch-radical"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能合并同类二次根式，说明被开方数不同不能直接加减。"
+    },
+    {
+      "id": "jm-g9-alg-n009",
+      "title": "二次根式综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n008"
+      ],
+      "tags": [
+        "radical",
+        "ch-radical",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能化简、乘除、加减二次根式，并指出使式子有意义的取值。"
+    },
+    {
+      "id": "jm-g9-alg-n010",
+      "title": "一元二次方程的意义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-alg-n009"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别只含一个未知数且未知数最高次数是 2 的方程，一般形式 ax²+bx+c=0（a≠0）。"
+    },
+    {
+      "id": "jm-g9-alg-n011",
+      "title": "直接开平方法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n010"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把方程化成 (x+p)²=q 的形状后开平方求解（q≥0）。"
+    },
+    {
+      "id": "jm-g9-alg-n012",
+      "title": "配方法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n011"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能给二次项系数为 1 的方程配方，得到完全平方式。"
+    },
+    {
+      "id": "jm-g9-alg-n013",
+      "title": "求根公式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n012"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用公式 x=(-b±√(b²-4ac))/(2a) 求根，并先算判别式。"
+    },
+    {
+      "id": "jm-g9-alg-n014",
+      "title": "因式分解法解方程",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n010"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把方程左边因式分解成两个一次因式相乘等于 0 来求解。"
+    },
+    {
+      "id": "jm-g9-alg-n015",
+      "title": "根的判别式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n013"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用 Δ=b²-4ac 判断根的个数：大于 0 两个不等实根，等于 0 两个相等实根，小于 0 无实根。"
+    },
+    {
+      "id": "jm-g9-alg-n016",
+      "title": "选择解法",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n014",
+        "jm-g9-alg-n015"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据方程特点选择开平方、分解、公式等方法。"
+    },
+    {
+      "id": "jm-g9-alg-n017",
+      "title": "列方程简单应用",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n016"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "word"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在面积、数字关系等情境中列出一元二次方程并取符合题意的根。"
+    },
+    {
+      "id": "jm-g9-alg-n018",
+      "title": "一元二次方程综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n017"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能求解并说明为什么舍去某个根，或说明无实根。"
+    },
+    {
+      "id": "jm-g9-alg-n019",
+      "title": "二次函数的意义",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-alg-n018"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别 y=ax²+bx+c（a≠0），说明它描述的是二次关系。"
+    },
+    {
+      "id": "jm-g9-alg-n020",
+      "title": "y=ax² 的图象",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n019"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明图象是抛物线，a>0 开口向上，a<0 开口向下，|a| 越大开口越窄。"
+    },
+    {
+      "id": "jm-g9-alg-n021",
+      "title": "平移得到的抛物线",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n020"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明 y=a(x-h)²+k 是由 y=ax² 平移得到，顶点是 (h,k)。"
+    },
+    {
+      "id": "jm-g9-alg-n022",
+      "title": "顶点式与一般式",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n021"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在顶点式与一般式之间转换（配方或展开）。"
+    },
+    {
+      "id": "jm-g9-alg-n023",
+      "title": "对称轴与最值",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n022"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能求对称轴 x=-b/(2a) 和顶点，从而求最大值或最小值。"
+    },
+    {
+      "id": "jm-g9-alg-n024",
+      "title": "二次函数与方程",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n023",
+        "jm-g9-alg-n015"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明抛物线与 x 轴交点的横坐标就是对应方程的根，交点个数由判别式决定。"
+    },
+    {
+      "id": "jm-g9-alg-n025",
+      "title": "二次函数简单应用",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n024"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn",
+        "word"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在面积、利润或抛体示意中读出顶点或交点的含义。"
+    },
+    {
+      "id": "jm-g9-alg-n026",
+      "title": "二次函数综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n025"
+      ],
+      "tags": [
+        "fn",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能画出草图：开口、顶点、与坐标轴交点。"
+    },
+    {
+      "id": "jm-g9-alg-n027",
+      "title": "九年级代数合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n026"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能化简根式、解一元二次方程、读二次函数图象。"
+    },
+    {
+      "id": "jm-g9-alg-n028",
+      "title": "九年级代数通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g9-alg-n027"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成九年级数与代数线的收束检查。"
+    },
+    {
+      "id": "jm-g9-alg-n029",
+      "title": "根与系数的关系入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-alg-n018"
+      ],
+      "tags": [
+        "quad",
+        "ch-quad"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能对两根之和、两根之积写出与系数的关系（韦达公式入门），并用来检验。"
+    },
+    {
+      "id": "jm-g9-alg-n030",
+      "title": "判别式与开口对照",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n024"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能对照：Δ>0 穿轴两点，Δ=0 顶点在 x 轴上，Δ<0 与 x 轴不相交。"
+    },
+    {
+      "id": "jm-g9-alg-n031",
+      "title": "二次根式有意义的条件",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n005"
+      ],
+      "tags": [
+        "radical",
+        "ch-radical"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能列出使含字母的二次根式有意义的不等式，并在数轴上表示。"
+    },
+    {
+      "id": "jm-g9-alg-n032",
+      "title": "配方法与顶点",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-alg-n022"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明解方程时的配方，和求二次函数顶点时的配方，是同一件事的两种用法。"
+    }
+  ]
+}

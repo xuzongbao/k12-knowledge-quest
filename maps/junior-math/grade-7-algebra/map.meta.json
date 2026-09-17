@@ -1,0 +1,26 @@
+{
+  "id": "jm-g7-algebra",
+  "title": "七年级 · 数与代数",
+  "subject": "数学",
+  "stage": "初中",
+  "grade": 7,
+  "strand": "数与代数",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "jm-g7-alg-n001"
+  ],
+  "recommended_path_note": "有理数运算（关主 1）→ 整式加减（关主 2）→ 一元一次方程；不等式入门与方程对照后收束。科学记数法（n037）、近似计算（n038）为软锁，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "jm-g7-alg-boss-rational",
+      "jm-g7-alg-boss-poly",
+      "jm-g7-alg-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：有理数运算官、整式整理员、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "初中七年级「数与代数」地图：有理数 → 整式加减 → 一元一次方程 → 不等式入门。独立通关，不引用跨图节点。"
+}

@@ -1,0 +1,215 @@
+{
+  "map_id": "jm-g9-geometry",
+  "edges": [
+    {
+      "from": "jm-g9-geo-n001",
+      "to": "jm-g9-geo-n002",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n001 需先于 jm-g9-geo-n002"
+    },
+    {
+      "from": "jm-g9-geo-n002",
+      "to": "jm-g9-geo-n003",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n002 需先于 jm-g9-geo-n003"
+    },
+    {
+      "from": "jm-g9-geo-n003",
+      "to": "jm-g9-geo-n004",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n003 需先于 jm-g9-geo-n004"
+    },
+    {
+      "from": "jm-g9-geo-n004",
+      "to": "jm-g9-geo-n005",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n004 需先于 jm-g9-geo-n005"
+    },
+    {
+      "from": "jm-g9-geo-n005",
+      "to": "jm-g9-geo-n006",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n005 需先于 jm-g9-geo-n006"
+    },
+    {
+      "from": "jm-g9-geo-n006",
+      "to": "jm-g9-geo-n007",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n006 需先于 jm-g9-geo-n007"
+    },
+    {
+      "from": "jm-g9-geo-n007",
+      "to": "jm-g9-geo-n008",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n007 需先于 jm-g9-geo-n008"
+    },
+    {
+      "from": "jm-g9-geo-n008",
+      "to": "jm-g9-geo-n009",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n008 需先于 jm-g9-geo-n009"
+    },
+    {
+      "from": "jm-g9-geo-n009",
+      "to": "jm-g9-geo-n010",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n009 需先于 jm-g9-geo-n010"
+    },
+    {
+      "from": "jm-g9-geo-n010",
+      "to": "jm-g9-geo-n011",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n010 需先于 jm-g9-geo-n011"
+    },
+    {
+      "from": "jm-g9-geo-n001",
+      "to": "jm-g9-geo-n012",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n001 需先于 jm-g9-geo-n012"
+    },
+    {
+      "from": "jm-g9-geo-n012",
+      "to": "jm-g9-geo-n013",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n012 需先于 jm-g9-geo-n013"
+    },
+    {
+      "from": "jm-g9-geo-n013",
+      "to": "jm-g9-geo-n014",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n013 需先于 jm-g9-geo-n014"
+    },
+    {
+      "from": "jm-g9-geo-n014",
+      "to": "jm-g9-geo-n015",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n014 需先于 jm-g9-geo-n015"
+    },
+    {
+      "from": "jm-g9-geo-n015",
+      "to": "jm-g9-geo-n016",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n015 需先于 jm-g9-geo-n016"
+    },
+    {
+      "from": "jm-g9-geo-n016",
+      "to": "jm-g9-geo-n017",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n016 需先于 jm-g9-geo-n017"
+    },
+    {
+      "from": "jm-g9-geo-n017",
+      "to": "jm-g9-geo-n018",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n017 需先于 jm-g9-geo-n018"
+    },
+    {
+      "from": "jm-g9-geo-n012",
+      "to": "jm-g9-geo-n019",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n012 需先于 jm-g9-geo-n019"
+    },
+    {
+      "from": "jm-g9-geo-n019",
+      "to": "jm-g9-geo-n020",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n019 需先于 jm-g9-geo-n020"
+    },
+    {
+      "from": "jm-g9-geo-n020",
+      "to": "jm-g9-geo-n021",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n020 需先于 jm-g9-geo-n021"
+    },
+    {
+      "from": "jm-g9-geo-n011",
+      "to": "jm-g9-geo-n022",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n011 需先于 jm-g9-geo-n022"
+    },
+    {
+      "from": "jm-g9-geo-n018",
+      "to": "jm-g9-geo-n022",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n018 需先于 jm-g9-geo-n022"
+    },
+    {
+      "from": "jm-g9-geo-n021",
+      "to": "jm-g9-geo-n022",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n021 需先于 jm-g9-geo-n022"
+    },
+    {
+      "from": "jm-g9-geo-n022",
+      "to": "jm-g9-geo-n023",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n022 需先于 jm-g9-geo-n023"
+    },
+    {
+      "from": "jm-g9-geo-n004",
+      "to": "jm-g9-geo-n024",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n004 需先于 jm-g9-geo-n024"
+    },
+    {
+      "from": "jm-g9-geo-n009",
+      "to": "jm-g9-geo-n025",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n009 需先于 jm-g9-geo-n025"
+    },
+    {
+      "from": "jm-g9-geo-n014",
+      "to": "jm-g9-geo-n026",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n014 需先于 jm-g9-geo-n026"
+    },
+    {
+      "from": "jm-g9-geo-n016",
+      "to": "jm-g9-geo-n027",
+      "type": "prerequisite",
+      "note": "jm-g9-geo-n016 需先于 jm-g9-geo-n027"
+    },
+    {
+      "from": "jm-g9-geo-n002",
+      "to": "jm-g9-geo-n003",
+      "type": "related",
+      "note": "相似比全等更松：边成比例即可，不必相等。"
+    },
+    {
+      "from": "jm-g9-geo-n007",
+      "to": "jm-g9-geo-n008",
+      "type": "easily_confused",
+      "note": "正弦对斜，余弦邻斜，正切对邻；分母是谁要想清楚。"
+    },
+    {
+      "from": "jm-g9-geo-n014",
+      "to": "jm-g9-geo-n015",
+      "type": "related",
+      "note": "直径所对弧是半圆，圆心角 180°，圆周角就是 90°。"
+    },
+    {
+      "from": "jm-g9-geo-n014",
+      "to": "jm-g9-geo-n026",
+      "type": "easily_confused",
+      "note": "不是同弧，就不能用「一半」。"
+    },
+    {
+      "from": "jm-g9-geo-n016",
+      "to": "jm-g9-geo-n027",
+      "type": "related",
+      "note": "切线垂直半径之后，两条切线长相等是常用推论。"
+    },
+    {
+      "from": "jm-g9-geo-n019",
+      "to": "jm-g9-geo-n020",
+      "type": "application",
+      "note": "三视图是正投影的应用。"
+    },
+    {
+      "from": "jm-g9-geo-n010",
+      "to": "jm-g9-geo-n006",
+      "type": "application",
+      "note": "测不到的高常常先构成直角三角形，有时也先找相似。"
+    }
+  ]
+}

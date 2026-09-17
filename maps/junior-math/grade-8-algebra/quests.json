@@ -1,0 +1,408 @@
+{
+  "map_id": "jm-g8-algebra",
+  "quests": [
+    {
+      "id": "jm-g8-alg-n001-explain",
+      "node_id": "jm-g8-alg-n001",
+      "title": "两个未知数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个需要两个未知数才能说清的关系，并写出一个二元一次方程。",
+      "success_hint": "一对解是两个数，要同时说。"
+    },
+    {
+      "id": "jm-g8-alg-n002-practice",
+      "node_id": "jm-g8-alg-n002",
+      "title": "检验是不是解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把数对代入方程组，判断是不是解，共 8 题。",
+      "success_hint": "两个方程都要成立。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n003-practice",
+      "node_id": "jm-g8-alg-n003",
+      "title": "代入消元",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解 6 道适合代入的方程组。",
+      "success_hint": "选出容易解出的那个未知数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-alg-n004-practice",
+      "node_id": "jm-g8-alg-n004",
+      "title": "加减消元",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解 6 道系数容易抵消的方程组。",
+      "success_hint": "必要时先把某一方程两边同乘一个数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-alg-n005-practice",
+      "node_id": "jm-g8-alg-n005",
+      "title": "选方法再解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道混合，先写选用代入还是加减，再解。",
+      "success_hint": "有现成「x=…」用代入；系数相反用加减。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n006-practice",
+      "node_id": "jm-g8-alg-n006",
+      "title": "列方程组",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "3 个短情境：设两个未知数、写两个等量关系、求解。",
+      "success_hint": "两个未知数通常需要两个关系。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g8-alg-n007-practice",
+      "node_id": "jm-g8-alg-n007",
+      "title": "方程组闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解 6 道并代入两个方程检验。",
+      "success_hint": "只代一个方程不够。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-alg-n007-mini-quiz",
+      "node_id": "jm-g8-alg-n007",
+      "title": "方程组小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "检验、代入、加减、应用各有。",
+      "success_hint": "消元后得到的是一元方程。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g8-alg-boss-system",
+      "node_id": "jm-g8-alg-n007",
+      "title": "关主：消元指挥官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断数对是不是解 ②用两种方法之一求解 ③列一个简单方程组。",
+      "success_hint": "消元是为了变成熟悉的一元。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g8-alg-n008-practice",
+      "node_id": "jm-g8-alg-n008",
+      "title": "同底数幂相乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 道，夹一道底数不同不能直接加指数。",
+      "success_hint": "底数必须相同。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g8-alg-n009-practice",
+      "node_id": "jm-g8-alg-n009",
+      "title": "乘方法则",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道 (a^m)^n 与 (ab)^n。",
+      "success_hint": "指数相乘；积的乘方是各自乘方。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n010-practice",
+      "node_id": "jm-g8-alg-n010",
+      "title": "同底数幂相除",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道，结果写成正指数或分数。",
+      "success_hint": "指数相减；底数不为 0。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n011-practice",
+      "node_id": "jm-g8-alg-n011",
+      "title": "多项式相乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道单项式乘多项式、多项式乘多项式。",
+      "success_hint": "每一项都要乘到。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-alg-n012-practice",
+      "node_id": "jm-g8-alg-n012",
+      "title": "平方差",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道识别并展开或反过来写。",
+      "success_hint": "一看和与差，二看平方减平方。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n013-practice",
+      "node_id": "jm-g8-alg-n013",
+      "title": "完全平方",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道，专门盯中间项符号和 2 倍。",
+      "success_hint": "中间项是 2ab，不要漏 2。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n014-explain",
+      "node_id": "jm-g8-alg-n014",
+      "title": "分解是反过来",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一个展开式对照说明因式分解在做什么。",
+      "success_hint": "乘开与拆开是一对逆操作。"
+    },
+    {
+      "id": "jm-g8-alg-n015-practice",
+      "node_id": "jm-g8-alg-n015",
+      "title": "提公因式",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道，含数字与字母公因式。",
+      "success_hint": "提出来后括号里应是整式。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n016-practice",
+      "node_id": "jm-g8-alg-n016",
+      "title": "公式法分解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道平方差或完全平方，先提公因式再套公式。",
+      "success_hint": "先看能否提取。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n017-practice",
+      "node_id": "jm-g8-alg-n017",
+      "title": "展开还是分解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合 8 题，先判断方向再计算。",
+      "success_hint": "题目要乘开就展开，要写成积就分解。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n017-mini-quiz",
+      "node_id": "jm-g8-alg-n017",
+      "title": "乘除分解小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "幂的运算、公式、提公因式。夹一道漏中间项。",
+      "success_hint": "完全平方的中间项最容易丢。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g8-alg-boss-factor",
+      "node_id": "jm-g8-alg-n017",
+      "title": "关主：因式分解工匠",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①幂的运算 ②套用一个乘法公式 ③把一个多项式因式分解。",
+      "success_hint": "先提公因式，再套公式。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g8-alg-n018-explain",
+      "node_id": "jm-g8-alg-n018",
+      "title": "分母不能为 0",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个字母取值使分母为 0 的例子，说明此时分式无意义。",
+      "success_hint": "先找使分母为 0 的值并排除。"
+    },
+    {
+      "id": "jm-g8-alg-n019-practice",
+      "node_id": "jm-g8-alg-n019",
+      "title": "约分通分准备",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 6 个分式化成最简或通分到相同分母。",
+      "success_hint": "分子分母同乘同除同一个不为 0 的整式。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-alg-n020-practice",
+      "node_id": "jm-g8-alg-n020",
+      "title": "约分与通分",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "约分 4 题、通分 4 题。",
+      "success_hint": "约分靠公因式，通分靠公分母。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n021-practice",
+      "node_id": "jm-g8-alg-n021",
+      "title": "分式乘除",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道乘除，能约分的先约。",
+      "success_hint": "除以一个分式等于乘它的倒数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g8-alg-n022-practice",
+      "node_id": "jm-g8-alg-n022",
+      "title": "分式加减",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道，先通分再加减，结果最简。",
+      "success_hint": "通分时分子也要乘。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-alg-n023-practice",
+      "node_id": "jm-g8-alg-n023",
+      "title": "解分式方程并检验",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "5 道，写出使分母为 0 的值并检验。",
+      "success_hint": "增根要舍去。",
+      "items_suggested": 5
+    },
+    {
+      "id": "jm-g8-alg-n024-explain",
+      "node_id": "jm-g8-alg-n024",
+      "title": "谁随谁变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个生活中「一个量随另一个量变」的例子，指出自变量和因变量。",
+      "success_hint": "函数描述的是对应关系。"
+    },
+    {
+      "id": "jm-g8-alg-n025-practice",
+      "node_id": "jm-g8-alg-n025",
+      "title": "三种表示互译",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把表格改成解析式或图象草图，共 4 题。",
+      "success_hint": "三种表示说的是同一关系。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-alg-n026-practice",
+      "node_id": "jm-g8-alg-n026",
+      "title": "正比例函数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断哪些是正比例函数，并指出 k 的符号如何影响倾斜。",
+      "success_hint": "必须过原点，且是直线。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-alg-n027-explain",
+      "node_id": "jm-g8-alg-n027",
+      "title": "平移出来的直线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 y=kx+b 相对 y=kx 做了什么，b 的意义是什么。",
+      "success_hint": "b 是与 y 轴交点的纵坐标。"
+    },
+    {
+      "id": "jm-g8-alg-n028-practice",
+      "node_id": "jm-g8-alg-n028",
+      "title": "画一次函数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据 k、b 画出 4 条直线，标出与两轴交点。",
+      "success_hint": "先描两个点再连线。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-alg-n029-practice",
+      "node_id": "jm-g8-alg-n029",
+      "title": "交点与方程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求直线与 x 轴交点，以及两条直线交点，对照解方程/方程组。",
+      "success_hint": "交点的坐标就是方程（组）的解。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-alg-n030-practice",
+      "node_id": "jm-g8-alg-n030",
+      "title": "读图回答",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在计费或行程图象上读出费用、时间或交点含义，共 4 题。",
+      "success_hint": "先看轴的单位。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-alg-n031-practice",
+      "node_id": "jm-g8-alg-n031",
+      "title": "函数与式子合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读一次函数、解一个方程组、化简一个分式。",
+      "success_hint": "先辨题型。",
+      "items_suggested": 6
+    },
+    {
+      "id": "jm-g8-alg-n032-practice",
+      "node_id": "jm-g8-alg-n032",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "方程组、因式分解、分式、一次函数各几题。",
+      "success_hint": "公式和检验两处最容易漏。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g8-alg-n033-practice",
+      "node_id": "jm-g8-alg-n033",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成四块各一题并口头说理由。",
+      "success_hint": "消元、分解、分母、斜率意识。",
+      "items_suggested": 12
+    },
+    {
+      "id": "jm-g8-alg-boss-map",
+      "node_id": "jm-g8-alg-n033",
+      "title": "关主：八年级代数通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①解二元一次方程组 ②因式分解或公式 ③分式化简或分式方程并检验 ④读一次函数图象。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "jm-g8-alg-n034-practice",
+      "node_id": "jm-g8-alg-n034",
+      "title": "试着十字相乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对 4 个简单二次三项式尝试分解，分解不了就写「不能」。",
+      "success_hint": "常数项拆成两数之积、一次项拆成两数之和。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g8-alg-n035-explain",
+      "node_id": "jm-g8-alg-n035",
+      "title": "增根从哪来",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个去分母后多出来的根，说明它为什么不是原方程的解。",
+      "success_hint": "它让原分母变成 0。"
+    },
+    {
+      "id": "jm-g8-alg-n036-explain",
+      "node_id": "jm-g8-alg-n036",
+      "title": "直线还是双曲线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照 y=2x 与 y=2/x 的图象形状和是否过原点。",
+      "success_hint": "反比例函数图象不过原点，也不是直线。"
+    }
+  ]
+}

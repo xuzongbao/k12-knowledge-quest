@@ -1,0 +1,286 @@
+{
+  "map_id": "jm-g9-statistics",
+  "quests": [
+    {
+      "id": "jm-g9-stat-n001-explain",
+      "node_id": "jm-g9-stat-n001",
+      "title": "谁是总体谁是样本",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在「想了解全年级课间运动时间」里指出总体、个体、样本。",
+      "success_hint": "样本是抽出来的那一部分。"
+    },
+    {
+      "id": "jm-g9-stat-n002-explain",
+      "node_id": "jm-g9-stat-n002",
+      "title": "机会相同",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用抽签或随机数说明简单随机抽样。",
+      "success_hint": "事先不能偏向某一个人。"
+    },
+    {
+      "id": "jm-g9-stat-n003-practice",
+      "node_id": "jm-g9-stat-n003",
+      "title": "指出偏了的抽样",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个方案指出缺了哪一类人。",
+      "success_hint": "抽样框要覆盖各类。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-stat-n004-explain",
+      "node_id": "jm-g9-stat-n004",
+      "title": "不是越大就越对",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明样本很大但只来自一个班级，仍然可能偏。",
+      "success_hint": "方法正确比盲目加大更重要。"
+    },
+    {
+      "id": "jm-g9-stat-n005-practice",
+      "node_id": "jm-g9-stat-n005",
+      "title": "用样本平均估计",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据样本数据估计总体平均，并写「估计」。",
+      "success_hint": "不要写成全体确定值。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-stat-n006-practice",
+      "node_id": "jm-g9-stat-n006",
+      "title": "用样本比例估计",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "估计总体中某类所占比例，共 4 题。",
+      "success_hint": "样本频率当作总体比例的估计。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-stat-n007-practice",
+      "node_id": "jm-g9-stat-n007",
+      "title": "改写结论",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 4 句说过头的结论改谨慎。",
+      "success_hint": "对象范围和「估计」都要留下。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-stat-n008-practice",
+      "node_id": "jm-g9-stat-n008",
+      "title": "设计并估计",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "写一个抽样方案并用假设样本做一次估计。",
+      "success_hint": "方案里要写怎么保证机会尽量相同。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g9-stat-n008-mini-quiz",
+      "node_id": "jm-g9-stat-n008",
+      "title": "抽样小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "总体样本、代表性、估计用语。",
+      "success_hint": "估计不是精确普查。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-stat-boss-sample",
+      "node_id": "jm-g9-stat-n008",
+      "title": "关主：抽样估计员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①区分总体与样本 ②指出一个有偏抽样 ③用样本估计总体并写谨慎结论。",
+      "success_hint": "代表性先于计算。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g9-stat-n009-explain",
+      "node_id": "jm-g9-stat-n009",
+      "title": "频率稳定",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话说明大量重复时频率靠近一个数。",
+      "success_hint": "那个数可以当作概率。"
+    },
+    {
+      "id": "jm-g9-stat-n010-practice",
+      "node_id": "jm-g9-stat-n010",
+      "title": "用频率估计概率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据试验表计算频率作为概率估计，共 4 题。",
+      "success_hint": "频率=发生次数/试验次数。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-stat-n011-explain",
+      "node_id": "jm-g9-stat-n011",
+      "title": "次数少会晃",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对比 10 次和 200 次的频率波动。",
+      "success_hint": "次数多更稳，仍不必次次相等。"
+    },
+    {
+      "id": "jm-g9-stat-n012-explain",
+      "node_id": "jm-g9-stat-n012",
+      "title": "古典概型条件",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "重述两个条件：有限、等可能。",
+      "success_hint": "缺一条就不能硬除。"
+    },
+    {
+      "id": "jm-g9-stat-n013-practice",
+      "node_id": "jm-g9-stat-n013",
+      "title": "列表深化",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "列出较完整的结果表并求概率，共 3 题。",
+      "success_hint": "每格是否等可能先确认。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g9-stat-n014-practice",
+      "node_id": "jm-g9-stat-n014",
+      "title": "树状图深化",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画不放回或分步树状图 3 题。",
+      "success_hint": "第二步的个数可能变。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g9-stat-n015-practice",
+      "node_id": "jm-g9-stat-n015",
+      "title": "放回对照",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一摸球问题，放回与不放回各求一次概率。",
+      "success_hint": "不放回会改变后面的分母。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g9-stat-n016-practice",
+      "node_id": "jm-g9-stat-n016",
+      "title": "选工具求概率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "混合列表与树状图 4 题。",
+      "success_hint": "分步不明时优先树状图。",
+      "items_suggested": 4
+    },
+    {
+      "id": "jm-g9-stat-n016-mini-quiz",
+      "node_id": "jm-g9-stat-n016",
+      "title": "概型小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "频率估计、古典条件、放回不放回。",
+      "success_hint": "先问能不能等可能列举。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-stat-boss-classical",
+      "node_id": "jm-g9-stat-n016",
+      "title": "关主：古典概型绘图员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①用频率估计一个概率 ②用列表或树状图求一个古典概率 ③说明放回与不放回的差别。",
+      "success_hint": "工具要匹配假设。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g9-stat-n017-explain",
+      "node_id": "jm-g9-stat-n017",
+      "title": "两种求法何时用",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "各举一例：适合古典概型、适合频率估计。",
+      "success_hint": "能列举且等可能就除；否则做试验。"
+    },
+    {
+      "id": "jm-g9-stat-n018-practice",
+      "node_id": "jm-g9-stat-n018",
+      "title": "给一个谨慎建议",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据估计或概率比较，写一句建议并写局限。",
+      "success_hint": "建议不超过数据所能支撑的范围。",
+      "items_suggested": 1
+    },
+    {
+      "id": "jm-g9-stat-n019-practice",
+      "node_id": "jm-g9-stat-n019",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽样估计 + 树状图或列表求概率。",
+      "success_hint": "先辨：推断总体还是计算模型概率。",
+      "items_suggested": 8
+    },
+    {
+      "id": "jm-g9-stat-n020-practice",
+      "node_id": "jm-g9-stat-n020",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "设计抽样意识、样本估计、古典概型计算。",
+      "success_hint": "代表性、谨慎用语、等可能，三件抓手。",
+      "items_suggested": 10
+    },
+    {
+      "id": "jm-g9-stat-boss-map",
+      "node_id": "jm-g9-stat-n020",
+      "title": "关主：九年级统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①说明样本与总体 ②用样本估计并写谨慎结论 ③用列表或树状图求概率。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 14
+    },
+    {
+      "id": "jm-g9-stat-n021-explain",
+      "node_id": "jm-g9-stat-n021",
+      "title": "方便样本",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出只问朋友或只看自愿填表的问题。",
+      "success_hint": "自愿的人往往更有观点。"
+    },
+    {
+      "id": "jm-g9-stat-n022-practice",
+      "node_id": "jm-g9-stat-n022",
+      "title": "缩小对象",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "改写 3 句把本班说成全市的结论。",
+      "success_hint": "结论对象≤样本能代表的对象。",
+      "items_suggested": 3
+    },
+    {
+      "id": "jm-g9-stat-n023-practice",
+      "node_id": "jm-g9-stat-n023",
+      "title": "给树状图补枝",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "找出漏掉的分支并改正概率。",
+      "success_hint": "所有路径概率和应为 1（在等可能或加权正确时）。",
+      "items_suggested": 2
+    },
+    {
+      "id": "jm-g9-stat-n024-explain",
+      "node_id": "jm-g9-stat-n024",
+      "title": "样本很散时",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明样本方差大时，用平均代表总体要更小心。",
+      "success_hint": "中心和波动仍要一起看。"
+    }
+  ]
+}

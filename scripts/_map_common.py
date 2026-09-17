@@ -1,4 +1,4 @@
-"""Shared helpers for primary-math map builders (statistics, practice, and similar strands)."""
+"""Shared helpers for math map builders (primary and junior; statistics, practice, and similar strands)."""
 
 from __future__ import annotations
 
@@ -44,12 +44,13 @@ def node(
     *,
     unlock: dict | None = None,
     mastery: dict | None = None,
+    stage: str = "小学",
 ) -> dict[str, Any]:
     return {
         "id": nid,
         "title": title,
         "subject": "数学",
-        "stage": "小学",
+        "stage": stage,
         "grade": grade,
         "strand": strand,
         "difficulty": difficulty,

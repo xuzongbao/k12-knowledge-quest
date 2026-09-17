@@ -1,0 +1,31 @@
+{
+  "player_id": "demo-learner",
+  "display_name": "小明",
+  "xp_total": 20,
+  "current_map_id": "jm-g7-geometry",
+  "cleared_map_ids": [],
+  "nodes": {
+    "jm-g7-geo-n001": {
+      "state": "lit",
+      "xp_earned": 10,
+      "cleared_quest_ids": [
+        "jm-g7-geo-n001-explain"
+      ],
+      "updated_at": "2026-09-17T10:00:00Z"
+    },
+    "jm-g7-geo-n002": {
+      "state": "available",
+      "xp_earned": 0,
+      "cleared_quest_ids": [],
+      "updated_at": "2026-09-17T10:00:00Z"
+    },
+    "jm-g7-geo-n003": {
+      "state": "learning",
+      "xp_earned": 10,
+      "cleared_quest_ids": [
+        "jm-g7-geo-n003-explain"
+      ],
+      "updated_at": "2026-09-17T10:08:00Z"
+    }
+  }
+}

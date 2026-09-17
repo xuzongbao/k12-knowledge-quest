@@ -1,0 +1,239 @@
+{
+  "map_id": "jm-g7-statistics",
+  "edges": [
+    {
+      "from": "jm-g7-stat-n001",
+      "to": "jm-g7-stat-n002",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n001 需先于 jm-g7-stat-n002"
+    },
+    {
+      "from": "jm-g7-stat-n002",
+      "to": "jm-g7-stat-n003",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n002 需先于 jm-g7-stat-n003"
+    },
+    {
+      "from": "jm-g7-stat-n003",
+      "to": "jm-g7-stat-n004",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n003 需先于 jm-g7-stat-n004"
+    },
+    {
+      "from": "jm-g7-stat-n004",
+      "to": "jm-g7-stat-n005",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n004 需先于 jm-g7-stat-n005"
+    },
+    {
+      "from": "jm-g7-stat-n005",
+      "to": "jm-g7-stat-n006",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n005 需先于 jm-g7-stat-n006"
+    },
+    {
+      "from": "jm-g7-stat-n006",
+      "to": "jm-g7-stat-n007",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n006 需先于 jm-g7-stat-n007"
+    },
+    {
+      "from": "jm-g7-stat-n007",
+      "to": "jm-g7-stat-n008",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n007 需先于 jm-g7-stat-n008"
+    },
+    {
+      "from": "jm-g7-stat-n008",
+      "to": "jm-g7-stat-n009",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n008 需先于 jm-g7-stat-n009"
+    },
+    {
+      "from": "jm-g7-stat-n007",
+      "to": "jm-g7-stat-n010",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n007 需先于 jm-g7-stat-n010"
+    },
+    {
+      "from": "jm-g7-stat-n009",
+      "to": "jm-g7-stat-n011",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n009 需先于 jm-g7-stat-n011"
+    },
+    {
+      "from": "jm-g7-stat-n010",
+      "to": "jm-g7-stat-n011",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n010 需先于 jm-g7-stat-n011"
+    },
+    {
+      "from": "jm-g7-stat-n005",
+      "to": "jm-g7-stat-n012",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n005 需先于 jm-g7-stat-n012"
+    },
+    {
+      "from": "jm-g7-stat-n005",
+      "to": "jm-g7-stat-n013",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n005 需先于 jm-g7-stat-n013"
+    },
+    {
+      "from": "jm-g7-stat-n012",
+      "to": "jm-g7-stat-n014",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n012 需先于 jm-g7-stat-n014"
+    },
+    {
+      "from": "jm-g7-stat-n013",
+      "to": "jm-g7-stat-n015",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n013 需先于 jm-g7-stat-n015"
+    },
+    {
+      "from": "jm-g7-stat-n014",
+      "to": "jm-g7-stat-n015",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n014 需先于 jm-g7-stat-n015"
+    },
+    {
+      "from": "jm-g7-stat-n015",
+      "to": "jm-g7-stat-n016",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n015 需先于 jm-g7-stat-n016"
+    },
+    {
+      "from": "jm-g7-stat-n011",
+      "to": "jm-g7-stat-n017",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n011 需先于 jm-g7-stat-n017"
+    },
+    {
+      "from": "jm-g7-stat-n016",
+      "to": "jm-g7-stat-n017",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n016 需先于 jm-g7-stat-n017"
+    },
+    {
+      "from": "jm-g7-stat-n011",
+      "to": "jm-g7-stat-n018",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n011 需先于 jm-g7-stat-n018"
+    },
+    {
+      "from": "jm-g7-stat-n018",
+      "to": "jm-g7-stat-n019",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n018 需先于 jm-g7-stat-n019"
+    },
+    {
+      "from": "jm-g7-stat-n019",
+      "to": "jm-g7-stat-n020",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n019 需先于 jm-g7-stat-n020"
+    },
+    {
+      "from": "jm-g7-stat-n020",
+      "to": "jm-g7-stat-n021",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n020 需先于 jm-g7-stat-n021"
+    },
+    {
+      "from": "jm-g7-stat-n021",
+      "to": "jm-g7-stat-n022",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n021 需先于 jm-g7-stat-n022"
+    },
+    {
+      "from": "jm-g7-stat-n007",
+      "to": "jm-g7-stat-n023",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n007 需先于 jm-g7-stat-n023"
+    },
+    {
+      "from": "jm-g7-stat-n022",
+      "to": "jm-g7-stat-n023",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n022 需先于 jm-g7-stat-n023"
+    },
+    {
+      "from": "jm-g7-stat-n017",
+      "to": "jm-g7-stat-n024",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n017 需先于 jm-g7-stat-n024"
+    },
+    {
+      "from": "jm-g7-stat-n023",
+      "to": "jm-g7-stat-n024",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n023 需先于 jm-g7-stat-n024"
+    },
+    {
+      "from": "jm-g7-stat-n024",
+      "to": "jm-g7-stat-n025",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n024 需先于 jm-g7-stat-n025"
+    },
+    {
+      "from": "jm-g7-stat-n004",
+      "to": "jm-g7-stat-n026",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n004 需先于 jm-g7-stat-n026"
+    },
+    {
+      "from": "jm-g7-stat-n008",
+      "to": "jm-g7-stat-n027",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n008 需先于 jm-g7-stat-n027"
+    },
+    {
+      "from": "jm-g7-stat-n024",
+      "to": "jm-g7-stat-n028",
+      "type": "prerequisite",
+      "note": "jm-g7-stat-n024 需先于 jm-g7-stat-n028"
+    },
+    {
+      "from": "jm-g7-stat-n006",
+      "to": "jm-g7-stat-n007",
+      "type": "easily_confused",
+      "note": "频数是次数，频率是占总数的几分之几。"
+    },
+    {
+      "from": "jm-g7-stat-n009",
+      "to": "jm-g7-stat-n010",
+      "type": "easily_confused",
+      "note": "折线看变化，扇形看结构，不要拿错图。"
+    },
+    {
+      "from": "jm-g7-stat-n012",
+      "to": "jm-g7-stat-n013",
+      "type": "related",
+      "note": "平均数拉齐，众数看最常见，回答的问题不同。"
+    },
+    {
+      "from": "jm-g7-stat-n014",
+      "to": "jm-g7-stat-n016",
+      "type": "related",
+      "note": "中位数看位置，所以不太怕极端值。"
+    },
+    {
+      "from": "jm-g7-stat-n020",
+      "to": "jm-g7-stat-n022",
+      "type": "easily_confused",
+      "note": "不是等可能时，不能直接用「结果种数」当分数分母。"
+    },
+    {
+      "from": "jm-g7-stat-n008",
+      "to": "jm-g7-stat-n027",
+      "type": "application",
+      "note": "会读条形图之后，还要会识破截轴。"
+    },
+    {
+      "from": "jm-g7-stat-n004",
+      "to": "jm-g7-stat-n026",
+      "type": "application",
+      "note": "表设计好了，问题本身还不能带暗示。"
+    }
+  ]
+}

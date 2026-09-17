@@ -1,0 +1,695 @@
+{
+  "map_id": "jm-g9-statistics",
+  "nodes": [
+    {
+      "id": "jm-g9-stat-n001",
+      "title": "总体与样本",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "sample",
+        "ch-sample"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分总体、个体、样本，并说明为什么常常不能调查总体里的每一个。"
+    },
+    {
+      "id": "jm-g9-stat-n002",
+      "title": "简单随机抽样",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n001"
+      ],
+      "tags": [
+        "sample",
+        "ch-sample"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明简单随机抽样：总体中每个个体被抽到的机会相同。"
+    },
+    {
+      "id": "jm-g9-stat-n003",
+      "title": "抽样要有代表性",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n002"
+      ],
+      "tags": [
+        "sample",
+        "ch-sample"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能指出只在某一类人里抽样会让样本不像总体。"
+    },
+    {
+      "id": "jm-g9-stat-n004",
+      "title": "样本容量",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n003"
+      ],
+      "tags": [
+        "sample",
+        "ch-sample"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明样本太小会更不稳定，但样本大不等于方法正确。"
+    },
+    {
+      "id": "jm-g9-stat-n005",
+      "title": "用样本平均数估计总体",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n004"
+      ],
+      "tags": [
+        "sample",
+        "ch-est"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用样本平均数作为总体平均数的估计，并说明这是估计不是精确值。"
+    },
+    {
+      "id": "jm-g9-stat-n006",
+      "title": "用样本频率估计总体比例",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n005"
+      ],
+      "tags": [
+        "sample",
+        "ch-est"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用样本中某类所占比例估计总体中该类比例。"
+    },
+    {
+      "id": "jm-g9-stat-n007",
+      "title": "估计要写范围意识",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n006"
+      ],
+      "tags": [
+        "sample",
+        "ch-est"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在结论里写「大约」「估计」，避免把样本结果说成全体确定事实。"
+    },
+    {
+      "id": "jm-g9-stat-n008",
+      "title": "抽样与估计综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-stat-n007"
+      ],
+      "tags": [
+        "sample",
+        "ch-sample",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能设计一个简单抽样方案并用样本估计总体的一个数量。"
+    },
+    {
+      "id": "jm-g9-stat-n009",
+      "title": "频率与概率再对照",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "jm-g9-stat-n008"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明大量重复试验中频率稳定在某一值附近，这个值可以当作概率的估计。"
+    },
+    {
+      "id": "jm-g9-stat-n010",
+      "title": "用频率估计概率",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n009"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据试验记录计算频率，并把它当作概率的估计。"
+    },
+    {
+      "id": "jm-g9-stat-n011",
+      "title": "试验次数的影响",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n010"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较次数少和次数多时频率的波动，说明次数多更稳。"
+    },
+    {
+      "id": "jm-g9-stat-n012",
+      "title": "古典概型再整理",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n010"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能重述古典概型条件：结果有限、等可能，概率=有利数/全部数。"
+    },
+    {
+      "id": "jm-g9-stat-n013",
+      "title": "列表法深化",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n012"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能列出两个或三个简单试验的结果表，注意是否等可能。"
+    },
+    {
+      "id": "jm-g9-stat-n014",
+      "title": "树状图深化",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-stat-n012"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能画分步树状图，包括「不放回」时第二步分支不同。"
+    },
+    {
+      "id": "jm-g9-stat-n015",
+      "title": "放回与不放回",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-stat-n013",
+        "jm-g9-stat-n014"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明放回使各步情况相同，不放回会改变后面的个数。"
+    },
+    {
+      "id": "jm-g9-stat-n016",
+      "title": "古典概型综合",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-stat-n015"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能选择列表或树状图求较规范的古典概型问题。"
+    },
+    {
+      "id": "jm-g9-stat-n017",
+      "title": "估计与古典对照",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n011",
+        "jm-g9-stat-n016"
+      ],
+      "tags": [
+        "prob",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明：能等可能列举时用古典概型，否则可用频率估计。"
+    },
+    {
+      "id": "jm-g9-stat-n018",
+      "title": "统计决策入门",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n008",
+        "jm-g9-stat-n017"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据样本估计或概率比较，做出一个谨慎的选择建议。"
+    },
+    {
+      "id": "jm-g9-stat-n019",
+      "title": "九年级统计合练",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "jm-g9-stat-n018"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能完成抽样估计与概率计算的混合检查。"
+    },
+    {
+      "id": "jm-g9-stat-n020",
+      "title": "九年级统计通关",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 5,
+      "prerequisites": [
+        "jm-g9-stat-n019"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成九年级统计与概率线的收束检查。"
+    },
+    {
+      "id": "jm-g9-stat-n021",
+      "title": "方便样本的陷阱",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n003"
+      ],
+      "tags": [
+        "sample",
+        "ch-sample"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出只问身边朋友、只看自愿填表，会得到方便样本，估计容易偏。"
+    },
+    {
+      "id": "jm-g9-stat-n022",
+      "title": "把估计说过头",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n007"
+      ],
+      "tags": [
+        "sample",
+        "ch-est"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能改写越界结论，例如把「本班样本」说成「全市一定」。"
+    },
+    {
+      "id": "jm-g9-stat-n023",
+      "title": "树状图漏枝",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n014"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能检查树状图是否漏掉某一分支，并说明漏枝会让概率加不起来。"
+    },
+    {
+      "id": "jm-g9-stat-n024",
+      "title": "用样本方差意识",
+      "subject": "数学",
+      "stage": "初中",
+      "grade": 9,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "jm-g9-stat-n005"
+      ],
+      "tags": [
+        "sample",
+        "ch-est"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明样本很散时，用平均数代表总体要更谨慎（不必计算复杂公式）。"
+    }
+  ]
+}
