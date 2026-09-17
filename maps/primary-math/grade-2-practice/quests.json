@@ -1,0 +1,215 @@
+{
+  "map_id": "pm-g2-practice",
+  "quests": [
+    {
+      "id": "pm-g2-prac-n001-explain",
+      "node_id": "pm-g2-prac-n001",
+      "title": "提出测量问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出一个关于长度的问题，指出要比的两样东西。",
+      "success_hint": "问题要能量，不要问「漂不漂亮」。"
+    },
+    {
+      "id": "pm-g2-prac-n002-explain",
+      "node_id": "pm-g2-prac-n002",
+      "title": "选定工具",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "选定一种测量办法，说明从哪一端开始、为什么中途不换工具。",
+      "success_hint": "同一把「尺子」量到底。"
+    },
+    {
+      "id": "pm-g2-prac-n003-practice",
+      "node_id": "pm-g2-prac-n003",
+      "title": "量两次",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "量课桌长两次，记录并计算大约相差多少（用格或脚步）。",
+      "success_hint": "相差很大就重测。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g2-prac-n004-explain",
+      "node_id": "pm-g2-prac-n004",
+      "title": "汇报测量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说出工具、结果、和邻座差多少。",
+      "success_hint": "差异可能来自起点没对齐。"
+    },
+    {
+      "id": "pm-g2-prac-n005-explain",
+      "node_id": "pm-g2-prac-n005",
+      "title": "发现工具不够",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明短尺量长桌时会遇到什么麻烦。",
+      "success_hint": "需要接起来或做更长的尺。"
+    },
+    {
+      "id": "pm-g2-prac-n006-explain",
+      "node_id": "pm-g2-prac-n006",
+      "title": "设计纸条尺",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画出纸条尺草图：每一格差不多长，并写上从 0 开始的记号。",
+      "success_hint": "格子不均，尺就不公平。"
+    },
+    {
+      "id": "pm-g2-prac-n007-practice",
+      "node_id": "pm-g2-prac-n007",
+      "title": "做一把尺",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "制作纸条尺，至少 8 格，目测格子是否均匀。",
+      "success_hint": "先折或先量一段，再复制。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-prac-n008-practice",
+      "node_id": "pm-g2-prac-n008",
+      "title": "再用新尺量",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用自制尺量课桌，和第一次比较，解释可能的差别。",
+      "success_hint": "单位不同，数字不同，长短仍应差不多。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-prac-n009-explain",
+      "node_id": "pm-g2-prac-n009",
+      "title": "怎样更公平",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出自己尺上最不均的一格，提出改进办法。",
+      "success_hint": "公平来自格子一样长。"
+    },
+    {
+      "id": "pm-g2-prac-n009-mini-quiz",
+      "node_id": "pm-g2-prac-n009",
+      "title": "测量项目小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "找测量活动的缺步和不公平做法。",
+      "success_hint": "计划、对齐、记录、重测。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g2-prac-boss-measure",
+      "node_id": "pm-g2-prac-n009",
+      "title": "关主：测量小工匠",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①提出测量问题 ②用自制或选定工具量两次 ③说明怎样让测量更公平。",
+      "success_hint": "对齐和等格是关键。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g2-prac-n010-explain",
+      "node_id": "pm-g2-prac-n010",
+      "title": "提出调查问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出课间调查问句和 3–4 个类别。",
+      "success_hint": "类别要能覆盖大多数人。"
+    },
+    {
+      "id": "pm-g2-prac-n011-explain",
+      "node_id": "pm-g2-prac-n011",
+      "title": "设计记录表",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画出问法+记录表，注明每人只选一类。",
+      "success_hint": "表头先写好。"
+    },
+    {
+      "id": "pm-g2-prac-n012-practice",
+      "node_id": "pm-g2-prac-n012",
+      "title": "调查八人",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "询问至少 8 人并记录。",
+      "success_hint": "不重复、不漏记。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g2-prac-n013-practice",
+      "node_id": "pm-g2-prac-n013",
+      "title": "整理呈现",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "做成简单表或象形图。",
+      "success_hint": "数字要和记录对上。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-prac-n014-explain",
+      "node_id": "pm-g2-prac-n014",
+      "title": "用数据说话",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一句带数字的话汇报，并写明「这是我们问到的同学」。",
+      "success_hint": "不扩大范围。"
+    },
+    {
+      "id": "pm-g2-prac-n015-practice",
+      "node_id": "pm-g2-prac-n015",
+      "title": "对照两种活动",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "列出测量和调查各自的四步，找一个共同点、一个不同点。",
+      "success_hint": "都要先计划；一个对物，一个对人。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-prac-n016-practice",
+      "node_id": "pm-g2-prac-n016",
+      "title": "做转盘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把纸盘分成几块尽量均匀的区域，转 10 次看是否某块特别爱停。",
+      "success_hint": "块太不均匀就不公平。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-prac-n017-explain",
+      "node_id": "pm-g2-prac-n017",
+      "title": "两条建议",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "给下一组写测量建议和调查建议各一条。",
+      "success_hint": "建议要具体能照做。"
+    },
+    {
+      "id": "pm-g2-prac-n018-practice",
+      "node_id": "pm-g2-prac-n018",
+      "title": "抽签走四步",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽测量或调查，完整走四步并展示。",
+      "success_hint": "缺步就补。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-prac-n019-practice",
+      "node_id": "pm-g2-prac-n019",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成一个小项目：问题、计划、数据或测量、交流。",
+      "success_hint": "别人要能听懂你的办法。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g2-prac-boss-map",
+      "node_id": "pm-g2-prac-n019",
+      "title": "关主：二年级实践通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：完整演示测量或调查四步，并回答「怎样才公平」。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 8
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "map_id": "pm-g1-statistics",
+  "nodes": [
+    {
+      "id": "pm-g1-stat-n001",
+      "title": "东西有相同和不同",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "classify",
+        "ch-sort"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出两件物品哪里一样、哪里不一样，为后面按标准分类做准备。"
+    },
+    {
+      "id": "pm-g1-stat-n002",
+      "title": "按颜色分一分",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-stat-n001"
+      ],
+      "tags": [
+        "classify",
+        "ch-sort",
+        "color"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能按颜色把一堆学具分成几堆，并说出每一堆是什么颜色。"
+    },
+    {
+      "id": "pm-g1-stat-n003",
+      "title": "按形状分一分",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-stat-n001"
+      ],
+      "tags": [
+        "classify",
+        "ch-sort",
+        "shape"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能按形状把物品分成几堆，不把颜色不同但形状相同的东西拆开。"
+    },
+    {
+      "id": "pm-g1-stat-n004",
+      "title": "按大小分一分",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-stat-n001"
+      ],
+      "tags": [
+        "classify",
+        "ch-sort",
+        "size"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能按大、中、小把物品分成几堆，并说明自己是怎么比的。"
+    },
+    {
+      "id": "pm-g1-stat-n005",
+      "title": "自己定一个标准",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n002",
+        "pm-g1-stat-n003",
+        "pm-g1-stat-n004"
+      ],
+      "tags": [
+        "classify",
+        "ch-sort",
+        "criterion"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能自己选定一个标准（如能不能滚动）给物品分类，并让别人听懂这个标准。"
+    },
+    {
+      "id": "pm-g1-stat-n006",
+      "title": "每一类有几个",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n005"
+      ],
+      "tags": [
+        "classify",
+        "ch-sort",
+        "count"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "分类之后能数出每一类有几个，并用手指点着数，不多数也不漏数。"
+    },
+    {
+      "id": "pm-g1-stat-n007",
+      "title": "分类结果说一说",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n006"
+      ],
+      "tags": [
+        "classify",
+        "ch-sort",
+        "talk"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「按……分，这一类有……个」把分类结果讲给同伴听。"
+    },
+    {
+      "id": "pm-g1-stat-n008",
+      "title": "分类综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-stat-n007"
+      ],
+      "tags": [
+        "classify",
+        "ch-sort",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能换一个标准重新分类，并比较两次结果有什么不同。"
+    },
+    {
+      "id": "pm-g1-stat-n009",
+      "title": "把同类排成一列",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n008"
+      ],
+      "tags": [
+        "pictograph",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把同一类物品对齐排成一列，方便一眼看出哪一列更长。"
+    },
+    {
+      "id": "pm-g1-stat-n010",
+      "title": "一个图代表一个",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n009"
+      ],
+      "tags": [
+        "pictograph",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道象形统计图里，一个小图通常代表一件东西，图的个数和数量一样多。"
+    },
+    {
+      "id": "pm-g1-stat-n011",
+      "title": "象形图谁多谁少",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n010"
+      ],
+      "tags": [
+        "pictograph",
+        "ch-chart",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能看着象形图说出哪一类最多、哪一类最少，并能指出多几个。"
+    },
+    {
+      "id": "pm-g1-stat-n012",
+      "title": "把象形图补完整",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-stat-n011"
+      ],
+      "tags": [
+        "pictograph",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据「还缺几个图」把象形图补画完整，使图的个数和数量一致。"
+    },
+    {
+      "id": "pm-g1-stat-n013",
+      "title": "用高矮比数量",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n009"
+      ],
+      "tags": [
+        "bar",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用叠方块或涂格子的高低比较数量，知道更高通常表示更多。"
+    },
+    {
+      "id": "pm-g1-stat-n014",
+      "title": "简单统计表",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n011",
+        "pm-g1-stat-n013"
+      ],
+      "tags": [
+        "table",
+        "ch-chart"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能认简单统计表：左边是类别，右边是个数，并从表里读出一个数。"
+    },
+    {
+      "id": "pm-g1-stat-n015",
+      "title": "看图表回答问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-stat-n012",
+        "pm-g1-stat-n014"
+      ],
+      "tags": [
+        "chart",
+        "ch-chart",
+        "read"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据象形图或简单表回答「最多、最少、一共、多几个」这类问题。"
+    },
+    {
+      "id": "pm-g1-stat-n016",
+      "title": "读图综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-stat-n015"
+      ],
+      "tags": [
+        "chart",
+        "ch-chart",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把同一组数据在「排队的实物、象形图、简单表」之间对上号。"
+    },
+    {
+      "id": "pm-g1-stat-n017",
+      "title": "一定、可能、不可能",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n016"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「一定、可能、不可能」口头描述简单事情会不会发生。"
+    },
+    {
+      "id": "pm-g1-stat-n018",
+      "title": "生活里碰碰运气",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-stat-n017"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能对摸棋子、看天气、猜盒子里是什么等事，选用合适的可能性词语。"
+    },
+    {
+      "id": "pm-g1-stat-n019",
+      "title": "把可能性说清楚",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-stat-n018"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明自己为什么说「一定」或「不可能」，不把「还没发生」都说成不可能。"
+    },
+    {
+      "id": "pm-g1-stat-n020",
+      "title": "分类图表和可能性",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-stat-n019"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在同一情境里先分类计数，再读简单图，最后用可能性词语说一句话。"
+    },
+    {
+      "id": "pm-g1-stat-n021",
+      "title": "做一张我的象形图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-stat-n016"
+      ],
+      "tags": [
+        "pictograph",
+        "ch-chart",
+        "make"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能自己调查身边几类物品，画一张「一个图代表一个」的象形图并配上类别名。"
+    },
+    {
+      "id": "pm-g1-stat-n022",
+      "title": "一年级统计通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g1-stat-n020"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合分类、简单图表和口头可能性，能独立完成入门地图的收束检查。"
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "map_id": "pm-g4-practice",
+  "nodes": [
+    {
+      "id": "pm-g4-prac-n001",
+      "title": "发现：盘子装不下",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-lunch"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能发现午餐要同时满足「有主食、有菜、总量别超」这类互相卡住的要求。"
+    },
+    {
+      "id": "pm-g4-prac-n002",
+      "title": "计划：先写下约束",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-prac-n001"
+      ],
+      "tags": [
+        "plan",
+        "ch-lunch"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把要求写成几条可以检查的约束，例如份数上限、必须包含的类别。"
+    },
+    {
+      "id": "pm-g4-prac-n003",
+      "title": "实施：试配一盘",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-prac-n002"
+      ],
+      "tags": [
+        "do",
+        "ch-lunch"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能给出一盘搭配，并逐条核对约束。"
+    },
+    {
+      "id": "pm-g4-prac-n004",
+      "title": "实施：再配一盘更优",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n003"
+      ],
+      "tags": [
+        "do",
+        "ch-lunch"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在同样约束下给出另一种搭配，比较哪一种更均衡或更省。"
+    },
+    {
+      "id": "pm-g4-prac-n005",
+      "title": "交流：约束能不能改",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n004"
+      ],
+      "tags": [
+        "share",
+        "ch-lunch",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能讨论某条约束太严或太松时，可行方案会怎样变。"
+    },
+    {
+      "id": "pm-g4-prac-n006",
+      "title": "发现：走哪条路更省",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-prac-n005"
+      ],
+      "tags": [
+        "find",
+        "ch-route"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出从教室到图书角（或类似地点）有几条路、哪条更省时间或更少拐弯。"
+    },
+    {
+      "id": "pm-g4-prac-n007",
+      "title": "计划：比较什么指标",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-prac-n006"
+      ],
+      "tags": [
+        "plan",
+        "ch-route"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能约定比较步行时间、拐弯次数或经过的门的个数，一次只主比一样。"
+    },
+    {
+      "id": "pm-g4-prac-n008",
+      "title": "实施：把路线画下来",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n007"
+      ],
+      "tags": [
+        "do",
+        "ch-route"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能画出两条以上路线的简图，标出比较用的数。"
+    },
+    {
+      "id": "pm-g4-prac-n009",
+      "title": "实施：走一走计时",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n008"
+      ],
+      "tags": [
+        "do",
+        "ch-route"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能实际走两条路并记录时间或步数，注意同样的出发时刻条件。"
+    },
+    {
+      "id": "pm-g4-prac-n010",
+      "title": "交流：推荐一条路",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n009"
+      ],
+      "tags": [
+        "share",
+        "ch-route"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据指标推荐一条路，并说明另一条在什么情况下更好。"
+    },
+    {
+      "id": "pm-g4-prac-n011",
+      "title": "发现：值日表常撞车",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-prac-n005"
+      ],
+      "tags": [
+        "find",
+        "ch-duty"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能发现值日如果只按学号轮，可能和请假、社团冲突。"
+    },
+    {
+      "id": "pm-g4-prac-n012",
+      "title": "计划：表要满足的条件",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-prac-n011"
+      ],
+      "tags": [
+        "plan",
+        "ch-duty"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出值日表约束：每天人数、每人每周次数、不能连续两天等。"
+    },
+    {
+      "id": "pm-g4-prac-n013",
+      "title": "实施：排出一周",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n012"
+      ],
+      "tags": [
+        "do",
+        "ch-duty"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能排出一张一周值日草表，并逐条检查约束。"
+    },
+    {
+      "id": "pm-g4-prac-n014",
+      "title": "实施：调整冲突",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n013"
+      ],
+      "tags": [
+        "do",
+        "ch-duty"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在有人不能值日时调整，尽量少改动其他天。"
+    },
+    {
+      "id": "pm-g4-prac-n015",
+      "title": "交流：表公不公平",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n014"
+      ],
+      "tags": [
+        "share",
+        "ch-duty"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用每人次数说明表是否公平，并提出一条改进。"
+    },
+    {
+      "id": "pm-g4-prac-n016",
+      "title": "约束思想合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-prac-n010",
+        "pm-g4-prac-n015"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明午餐、路线、值日都是「在限制条件下找更好的安排」。"
+    },
+    {
+      "id": "pm-g4-prac-n017",
+      "title": "时间冲突表",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n015"
+      ],
+      "tags": [
+        "duty",
+        "ch-duty"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用简单的时间格子标出社团与值日冲突，提前避开。"
+    },
+    {
+      "id": "pm-g4-prac-n018",
+      "title": "如果人数变了",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n016"
+      ],
+      "tags": [
+        "plan",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能假设多一人或少一人，说明哪张表或哪盘搭配要重做。"
+    },
+    {
+      "id": "pm-g4-prac-n019",
+      "title": "写成给食堂或班级的建议",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n018"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把项目结论写成三条可执行建议。"
+    },
+    {
+      "id": "pm-g4-prac-n020",
+      "title": "路演与答辩",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-prac-n019"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能回答「为什么不选另一个方案」，用约束和数据说话。"
+    },
+    {
+      "id": "pm-g4-prac-n021",
+      "title": "四年级实践合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-prac-n020"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能抽签完成约束类项目的完整四步。"
+    },
+    {
+      "id": "pm-g4-prac-n022",
+      "title": "四年级实践通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-prac-n021"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立在限制条件下给出可检查的方案并解释取舍。"
+    }
+  ]
+}

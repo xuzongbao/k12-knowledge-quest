@@ -1,0 +1,197 @@
+{
+  "map_id": "pm-g1-statistics",
+  "edges": [
+    {
+      "from": "pm-g1-stat-n001",
+      "to": "pm-g1-stat-n002",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n001 需先于 pm-g1-stat-n002"
+    },
+    {
+      "from": "pm-g1-stat-n001",
+      "to": "pm-g1-stat-n003",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n001 需先于 pm-g1-stat-n003"
+    },
+    {
+      "from": "pm-g1-stat-n001",
+      "to": "pm-g1-stat-n004",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n001 需先于 pm-g1-stat-n004"
+    },
+    {
+      "from": "pm-g1-stat-n002",
+      "to": "pm-g1-stat-n005",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n002 需先于 pm-g1-stat-n005"
+    },
+    {
+      "from": "pm-g1-stat-n003",
+      "to": "pm-g1-stat-n005",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n003 需先于 pm-g1-stat-n005"
+    },
+    {
+      "from": "pm-g1-stat-n004",
+      "to": "pm-g1-stat-n005",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n004 需先于 pm-g1-stat-n005"
+    },
+    {
+      "from": "pm-g1-stat-n005",
+      "to": "pm-g1-stat-n006",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n005 需先于 pm-g1-stat-n006"
+    },
+    {
+      "from": "pm-g1-stat-n006",
+      "to": "pm-g1-stat-n007",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n006 需先于 pm-g1-stat-n007"
+    },
+    {
+      "from": "pm-g1-stat-n007",
+      "to": "pm-g1-stat-n008",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n007 需先于 pm-g1-stat-n008"
+    },
+    {
+      "from": "pm-g1-stat-n008",
+      "to": "pm-g1-stat-n009",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n008 需先于 pm-g1-stat-n009"
+    },
+    {
+      "from": "pm-g1-stat-n009",
+      "to": "pm-g1-stat-n010",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n009 需先于 pm-g1-stat-n010"
+    },
+    {
+      "from": "pm-g1-stat-n010",
+      "to": "pm-g1-stat-n011",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n010 需先于 pm-g1-stat-n011"
+    },
+    {
+      "from": "pm-g1-stat-n011",
+      "to": "pm-g1-stat-n012",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n011 需先于 pm-g1-stat-n012"
+    },
+    {
+      "from": "pm-g1-stat-n009",
+      "to": "pm-g1-stat-n013",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n009 需先于 pm-g1-stat-n013"
+    },
+    {
+      "from": "pm-g1-stat-n011",
+      "to": "pm-g1-stat-n014",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n011 需先于 pm-g1-stat-n014"
+    },
+    {
+      "from": "pm-g1-stat-n013",
+      "to": "pm-g1-stat-n014",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n013 需先于 pm-g1-stat-n014"
+    },
+    {
+      "from": "pm-g1-stat-n012",
+      "to": "pm-g1-stat-n015",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n012 需先于 pm-g1-stat-n015"
+    },
+    {
+      "from": "pm-g1-stat-n014",
+      "to": "pm-g1-stat-n015",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n014 需先于 pm-g1-stat-n015"
+    },
+    {
+      "from": "pm-g1-stat-n015",
+      "to": "pm-g1-stat-n016",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n015 需先于 pm-g1-stat-n016"
+    },
+    {
+      "from": "pm-g1-stat-n016",
+      "to": "pm-g1-stat-n017",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n016 需先于 pm-g1-stat-n017"
+    },
+    {
+      "from": "pm-g1-stat-n017",
+      "to": "pm-g1-stat-n018",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n017 需先于 pm-g1-stat-n018"
+    },
+    {
+      "from": "pm-g1-stat-n018",
+      "to": "pm-g1-stat-n019",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n018 需先于 pm-g1-stat-n019"
+    },
+    {
+      "from": "pm-g1-stat-n019",
+      "to": "pm-g1-stat-n020",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n019 需先于 pm-g1-stat-n020"
+    },
+    {
+      "from": "pm-g1-stat-n016",
+      "to": "pm-g1-stat-n021",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n016 需先于 pm-g1-stat-n021"
+    },
+    {
+      "from": "pm-g1-stat-n020",
+      "to": "pm-g1-stat-n022",
+      "type": "prerequisite",
+      "note": "pm-g1-stat-n020 需先于 pm-g1-stat-n022"
+    },
+    {
+      "from": "pm-g1-stat-n002",
+      "to": "pm-g1-stat-n003",
+      "type": "related",
+      "note": "颜色和形状是两种常见标准，宜对照着用。"
+    },
+    {
+      "from": "pm-g1-stat-n002",
+      "to": "pm-g1-stat-n005",
+      "type": "easily_confused",
+      "note": "标准变了，同一件物品可能换堆；不是物品自己变了。"
+    },
+    {
+      "from": "pm-g1-stat-n010",
+      "to": "pm-g1-stat-n013",
+      "type": "related",
+      "note": "象形图用个数比多少，叠高用高低比多少。"
+    },
+    {
+      "from": "pm-g1-stat-n010",
+      "to": "pm-g1-stat-n013",
+      "type": "easily_confused",
+      "note": "图多不一定画得更大；要比的是个数或格子数，不是图画尺寸。"
+    },
+    {
+      "from": "pm-g1-stat-n006",
+      "to": "pm-g1-stat-n014",
+      "type": "application",
+      "note": "每一类的个数填进表，就是简单统计表。"
+    },
+    {
+      "from": "pm-g1-stat-n017",
+      "to": "pm-g1-stat-n018",
+      "type": "easily_confused",
+      "note": "「可能」不是「一定」，也不是「不可能」；中间那档最容易说滑。"
+    },
+    {
+      "from": "pm-g1-stat-n011",
+      "to": "pm-g1-stat-n021",
+      "type": "application",
+      "note": "会读象形图之后，可以试着自己画一张。"
+    }
+  ]
+}

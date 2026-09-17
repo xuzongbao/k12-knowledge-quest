@@ -1,0 +1,519 @@
+{
+  "map_id": "pm-g1-practice",
+  "nodes": [
+    {
+      "id": "pm-g1-prac-n001",
+      "title": "教室里的小麻烦",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-tidy"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能发现教室或书包里「乱、难找」的现象，并说出这是一个可以用分类解决的问题。"
+    },
+    {
+      "id": "pm-g1-prac-n002",
+      "title": "我们到底想弄清什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-prac-n001"
+      ],
+      "tags": [
+        "find",
+        "ch-tidy"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把麻烦改写成一句清楚的问题，例如「哪些东西应该放在一起」。"
+    },
+    {
+      "id": "pm-g1-prac-n003",
+      "title": "定一个收纳标准",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n002"
+      ],
+      "tags": [
+        "plan",
+        "ch-tidy"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能商量一个分类标准（按用途或按大小），并让同伴重复一遍标准。"
+    },
+    {
+      "id": "pm-g1-prac-n004",
+      "title": "动手分一分",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n003"
+      ],
+      "tags": [
+        "do",
+        "ch-tidy"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按商定标准把物品分成几堆，中途不偷偷换标准。"
+    },
+    {
+      "id": "pm-g1-prac-n005",
+      "title": "数一数记下来",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n004"
+      ],
+      "tags": [
+        "do",
+        "ch-tidy"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能数出每一堆有几个，用图画或数字记在纸上。"
+    },
+    {
+      "id": "pm-g1-prac-n006",
+      "title": "把收纳结果说给别人听",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n005"
+      ],
+      "tags": [
+        "share",
+        "ch-tidy"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「我们按……分，这一堆有……」向别人汇报。"
+    },
+    {
+      "id": "pm-g1-prac-n007",
+      "title": "收纳小项目综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-prac-n006"
+      ],
+      "tags": [
+        "share",
+        "ch-tidy",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把发现、标准、实施、汇报连成一次完整的小项目。"
+    },
+    {
+      "id": "pm-g1-prac-n008",
+      "title": "发现：谁更高更长",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-prac-n007"
+      ],
+      "tags": [
+        "find",
+        "ch-measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出比较桌椅、积木塔、彩带谁更高/更长的问题。"
+    },
+    {
+      "id": "pm-g1-prac-n009",
+      "title": "计划用什么来比",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n008"
+      ],
+      "tags": [
+        "plan",
+        "ch-measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能选择小棒、手掌或同样长的纸条当「尺子」，并说明要同样的办法比才公平。"
+    },
+    {
+      "id": "pm-g1-prac-n010",
+      "title": "实施比一比",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n009"
+      ],
+      "tags": [
+        "do",
+        "ch-measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能对齐一端进行比较，并记录谁高、谁矮、差不多。"
+    },
+    {
+      "id": "pm-g1-prac-n011",
+      "title": "交流比较结果",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n010"
+      ],
+      "tags": [
+        "share",
+        "ch-measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能向同伴展示记录，并讨论「换一种尺子结果会不会变」。"
+    },
+    {
+      "id": "pm-g1-prac-n012",
+      "title": "发现：想摆一个图案",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [
+        "pm-g1-prac-n007"
+      ],
+      "tags": [
+        "find",
+        "ch-make"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出用学具摆小房子、小鱼等图案的愿望，并说要用哪些形状。"
+    },
+    {
+      "id": "pm-g1-prac-n013",
+      "title": "计划图案草稿",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n012"
+      ],
+      "tags": [
+        "plan",
+        "ch-make"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能先在纸上画出要用几块、大概怎么摆，再动手。"
+    },
+    {
+      "id": "pm-g1-prac-n014",
+      "title": "实施摆一摆",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n013"
+      ],
+      "tags": [
+        "do",
+        "ch-make"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按草稿摆出图案，摆不下去时修改计划而不是乱动。"
+    },
+    {
+      "id": "pm-g1-prac-n015",
+      "title": "交流作品",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n014"
+      ],
+      "tags": [
+        "share",
+        "ch-make"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能介绍作品用了哪些图形、哪一部分最难摆。"
+    },
+    {
+      "id": "pm-g1-prac-n016",
+      "title": "积木小故事",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g1-prac-n011",
+        "pm-g1-prac-n015"
+      ],
+      "tags": [
+        "make",
+        "ch-make"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用积木搭一个小场景，并用上下左右讲一句故事。"
+    },
+    {
+      "id": "pm-g1-prac-n017",
+      "title": "两个项目合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-prac-n011",
+        "pm-g1-prac-n015"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在测量和制作里都走完「问题—计划—实施—交流」。"
+    },
+    {
+      "id": "pm-g1-prac-n018",
+      "title": "一年级实践通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 1,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g1-prac-n017"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成一次入门综合活动的收束检查。"
+    }
+  ]
+}

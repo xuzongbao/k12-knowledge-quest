@@ -1,0 +1,663 @@
+{
+  "map_id": "pm-g5-practice",
+  "nodes": [
+    {
+      "id": "pm-g5-prac-n001",
+      "title": "发现：花盆怎么摆才匀",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-space"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出在一段小路旁按差不多的间隔摆花盆，两端要不要放的问题。"
+    },
+    {
+      "id": "pm-g5-prac-n002",
+      "title": "计划：先画线段图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-prac-n001"
+      ],
+      "tags": [
+        "plan",
+        "ch-space"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把路画成线段，标出端点和间隔，先分清「段数」和「盆数」。"
+    },
+    {
+      "id": "pm-g5-prac-n003",
+      "title": "实施：两端都放",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n002"
+      ],
+      "tags": [
+        "do",
+        "ch-space"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在两端都放的情况下，根据路长和间隔算出大约需要几盆。"
+    },
+    {
+      "id": "pm-g5-prac-n004",
+      "title": "实施：一端放或不放",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n003"
+      ],
+      "tags": [
+        "do",
+        "ch-space"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较两端都放、只放一端、两端都不放时盆数的差别。"
+    },
+    {
+      "id": "pm-g5-prac-n005",
+      "title": "实施：间隔改了",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n004"
+      ],
+      "tags": [
+        "do",
+        "ch-space"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在间隔变大或变小时重新估算，并说明盆数如何变。"
+    },
+    {
+      "id": "pm-g5-prac-n006",
+      "title": "交流：图纸和现场",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n005"
+      ],
+      "tags": [
+        "share",
+        "ch-space",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能讨论现场转弯、门口不能摆时，图纸上的数要怎样改。"
+    },
+    {
+      "id": "pm-g5-prac-n007",
+      "title": "发现：通知怎样最快到全班",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-msg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出把一条通知从一人传到全班，怎样比较「轮数」或「总次数」。"
+    },
+    {
+      "id": "pm-g5-prac-n008",
+      "title": "计划：约定传递规则",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-prac-n007"
+      ],
+      "tags": [
+        "plan",
+        "ch-msg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能约定每人每轮最多通知几人、不能重复通知已知道的人。"
+    },
+    {
+      "id": "pm-g5-prac-n009",
+      "title": "实施：画传递图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n008"
+      ],
+      "tags": [
+        "do",
+        "ch-msg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能画出几轮后知道的人数，做成树状或分层图。"
+    },
+    {
+      "id": "pm-g5-prac-n010",
+      "title": "实施：比较两种规则",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n009"
+      ],
+      "tags": [
+        "do",
+        "ch-msg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较「每次只通知一人」和「每次通知两人」谁更快覆盖全班。"
+    },
+    {
+      "id": "pm-g5-prac-n011",
+      "title": "交流：规则的代价",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n010"
+      ],
+      "tags": [
+        "share",
+        "ch-msg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明更快的规则可能让有的人通知次数更多，讨论公不公平。"
+    },
+    {
+      "id": "pm-g5-prac-n012",
+      "title": "发现：浪费藏在哪",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-waste"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出调查校园里一种可计数的浪费（纸巾、水龙头流水、剩余饭菜份数等）。"
+    },
+    {
+      "id": "pm-g5-prac-n013",
+      "title": "计划：调查表与对象",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g5-prac-n012"
+      ],
+      "tags": [
+        "plan",
+        "ch-waste"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能设计调查表：问谁、问几天、怎样计数，并写清不能代表的范围。"
+    },
+    {
+      "id": "pm-g5-prac-n014",
+      "title": "实施：收集几天数据",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n013"
+      ],
+      "tags": [
+        "do",
+        "ch-waste"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能收集不少于 3 个时段或天数的数据并整理成表。"
+    },
+    {
+      "id": "pm-g5-prac-n015",
+      "title": "实施：选一张图呈现",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n014"
+      ],
+      "tags": [
+        "do",
+        "ch-waste"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能选择条形或折线呈现，并写一句不超过数据的结论。"
+    },
+    {
+      "id": "pm-g5-prac-n016",
+      "title": "交流：建议要可执行",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n015"
+      ],
+      "tags": [
+        "share",
+        "ch-waste"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把结论变成一条可以在班里试行的建议，并想怎样检查有没有用。"
+    },
+    {
+      "id": "pm-g5-prac-n017",
+      "title": "模型与调查合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-prac-n011",
+        "pm-g5-prac-n016"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对照间隔模型和通知模型、浪费调查：都要先约定规则再收集或计算。"
+    },
+    {
+      "id": "pm-g5-prac-n018",
+      "title": "模型误差讨论",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n006"
+      ],
+      "tags": [
+        "space",
+        "ch-space"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出间隔模型忽略了花盆本身的宽度或转弯，估计会偏差什么方向。"
+    },
+    {
+      "id": "pm-g5-prac-n019",
+      "title": "如果班额变了",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n017"
+      ],
+      "tags": [
+        "msg",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能假设班级人数增减，说明通知轮数或摆花盆数怎样重算。"
+    },
+    {
+      "id": "pm-g5-prac-n020",
+      "title": "跨项目海报",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n019"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用一张海报同时展示一个模型问题和一个调查问题的要点。"
+    },
+    {
+      "id": "pm-g5-prac-n021",
+      "title": "答辩：数字从哪来",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g5-prac-n020"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能指出海报上每个关键数字的来源：量的、算的，还是问来的。"
+    },
+    {
+      "id": "pm-g5-prac-n022",
+      "title": "五年级实践合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-prac-n021"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能抽签完成间隔、通知或调查中的完整项目。"
+    },
+    {
+      "id": "pm-g5-prac-n023",
+      "title": "五年级实践通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 5,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g5-prac-n022"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成一个带模型或调查的综合项目并答辩来源。"
+    }
+  ]
+}

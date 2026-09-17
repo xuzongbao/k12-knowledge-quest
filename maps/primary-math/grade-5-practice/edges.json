@@ -1,0 +1,173 @@
+{
+  "map_id": "pm-g5-practice",
+  "edges": [
+    {
+      "from": "pm-g5-prac-n001",
+      "to": "pm-g5-prac-n002",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n001 需先于 pm-g5-prac-n002"
+    },
+    {
+      "from": "pm-g5-prac-n002",
+      "to": "pm-g5-prac-n003",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n002 需先于 pm-g5-prac-n003"
+    },
+    {
+      "from": "pm-g5-prac-n003",
+      "to": "pm-g5-prac-n004",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n003 需先于 pm-g5-prac-n004"
+    },
+    {
+      "from": "pm-g5-prac-n004",
+      "to": "pm-g5-prac-n005",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n004 需先于 pm-g5-prac-n005"
+    },
+    {
+      "from": "pm-g5-prac-n005",
+      "to": "pm-g5-prac-n006",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n005 需先于 pm-g5-prac-n006"
+    },
+    {
+      "from": "pm-g5-prac-n006",
+      "to": "pm-g5-prac-n007",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n006 需先于 pm-g5-prac-n007"
+    },
+    {
+      "from": "pm-g5-prac-n007",
+      "to": "pm-g5-prac-n008",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n007 需先于 pm-g5-prac-n008"
+    },
+    {
+      "from": "pm-g5-prac-n008",
+      "to": "pm-g5-prac-n009",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n008 需先于 pm-g5-prac-n009"
+    },
+    {
+      "from": "pm-g5-prac-n009",
+      "to": "pm-g5-prac-n010",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n009 需先于 pm-g5-prac-n010"
+    },
+    {
+      "from": "pm-g5-prac-n010",
+      "to": "pm-g5-prac-n011",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n010 需先于 pm-g5-prac-n011"
+    },
+    {
+      "from": "pm-g5-prac-n006",
+      "to": "pm-g5-prac-n012",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n006 需先于 pm-g5-prac-n012"
+    },
+    {
+      "from": "pm-g5-prac-n012",
+      "to": "pm-g5-prac-n013",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n012 需先于 pm-g5-prac-n013"
+    },
+    {
+      "from": "pm-g5-prac-n013",
+      "to": "pm-g5-prac-n014",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n013 需先于 pm-g5-prac-n014"
+    },
+    {
+      "from": "pm-g5-prac-n014",
+      "to": "pm-g5-prac-n015",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n014 需先于 pm-g5-prac-n015"
+    },
+    {
+      "from": "pm-g5-prac-n015",
+      "to": "pm-g5-prac-n016",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n015 需先于 pm-g5-prac-n016"
+    },
+    {
+      "from": "pm-g5-prac-n011",
+      "to": "pm-g5-prac-n017",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n011 需先于 pm-g5-prac-n017"
+    },
+    {
+      "from": "pm-g5-prac-n016",
+      "to": "pm-g5-prac-n017",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n016 需先于 pm-g5-prac-n017"
+    },
+    {
+      "from": "pm-g5-prac-n006",
+      "to": "pm-g5-prac-n018",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n006 需先于 pm-g5-prac-n018"
+    },
+    {
+      "from": "pm-g5-prac-n017",
+      "to": "pm-g5-prac-n019",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n017 需先于 pm-g5-prac-n019"
+    },
+    {
+      "from": "pm-g5-prac-n019",
+      "to": "pm-g5-prac-n020",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n019 需先于 pm-g5-prac-n020"
+    },
+    {
+      "from": "pm-g5-prac-n020",
+      "to": "pm-g5-prac-n021",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n020 需先于 pm-g5-prac-n021"
+    },
+    {
+      "from": "pm-g5-prac-n021",
+      "to": "pm-g5-prac-n022",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n021 需先于 pm-g5-prac-n022"
+    },
+    {
+      "from": "pm-g5-prac-n022",
+      "to": "pm-g5-prac-n023",
+      "type": "prerequisite",
+      "note": "pm-g5-prac-n022 需先于 pm-g5-prac-n023"
+    },
+    {
+      "from": "pm-g5-prac-n002",
+      "to": "pm-g5-prac-n004",
+      "type": "easily_confused",
+      "note": "段数和盆数不是同一个数，两端放不放会差 1。"
+    },
+    {
+      "from": "pm-g5-prac-n008",
+      "to": "pm-g5-prac-n010",
+      "type": "related",
+      "note": "传递规则不同，覆盖全班的轮数就不同。"
+    },
+    {
+      "from": "pm-g5-prac-n009",
+      "to": "pm-g5-prac-n010",
+      "type": "easily_confused",
+      "note": "图上的人数是「已经知道的」，不是「这一轮新通知的」。"
+    },
+    {
+      "from": "pm-g5-prac-n013",
+      "to": "pm-g5-prac-n016",
+      "type": "application",
+      "note": "调查对象写清了，建议才不会说成全校一定怎样。"
+    },
+    {
+      "from": "pm-g5-prac-n006",
+      "to": "pm-g5-prac-n018",
+      "type": "application",
+      "note": "图纸能用之后，再谈它忽略了什么。"
+    }
+  ]
+}

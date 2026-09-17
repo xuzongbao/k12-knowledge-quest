@@ -1,0 +1,576 @@
+{
+  "map_id": "pm-g3-practice",
+  "nodes": [
+    {
+      "id": "pm-g3-prac-n001",
+      "title": "发现：东西不好对号",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-code"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能发现座位、储物柜、图书如果没有编号，就很难快速对上人。"
+    },
+    {
+      "id": "pm-g3-prac-n002",
+      "title": "计划：编码里要有什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-prac-n001"
+      ],
+      "tags": [
+        "plan",
+        "ch-code"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能设计编码规则：哪几位表示组、哪几位表示序号，并举例。"
+    },
+    {
+      "id": "pm-g3-prac-n003",
+      "title": "实施：给柜子编号",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-prac-n002"
+      ],
+      "tags": [
+        "do",
+        "ch-code"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按规则给 12 个位置编码，保证不重复、能反查。"
+    },
+    {
+      "id": "pm-g3-prac-n004",
+      "title": "实施：看编码找位置",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n003"
+      ],
+      "tags": [
+        "do",
+        "ch-code"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据编码快速找到对应位置，解释每一位的意思。"
+    },
+    {
+      "id": "pm-g3-prac-n005",
+      "title": "交流：规则别人能用吗",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n004"
+      ],
+      "tags": [
+        "share",
+        "ch-code",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能让没参加设计的人按说明书编码，看是否仍不冲突。"
+    },
+    {
+      "id": "pm-g3-prac-n006",
+      "title": "发现：搭配有多少种",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-prac-n005"
+      ],
+      "tags": [
+        "find",
+        "ch-combo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出「上衣和裤子、主食和配菜」有多少种搭配的问题。"
+    },
+    {
+      "id": "pm-g3-prac-n007",
+      "title": "计划：用表或连线",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-prac-n006"
+      ],
+      "tags": [
+        "plan",
+        "ch-combo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能选择用连线、表格或树状图把搭配列全。"
+    },
+    {
+      "id": "pm-g3-prac-n008",
+      "title": "实施：有序列出",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n007"
+      ],
+      "tags": [
+        "do",
+        "ch-combo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能不重复、不遗漏地列出所有搭配，并核对总数。"
+    },
+    {
+      "id": "pm-g3-prac-n009",
+      "title": "实施：加一个条件",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n008"
+      ],
+      "tags": [
+        "do",
+        "ch-combo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能加上「不能同色」等条件，从全部搭配里圈出符合的。"
+    },
+    {
+      "id": "pm-g3-prac-n010",
+      "title": "交流：怎样保证没漏",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n009"
+      ],
+      "tags": [
+        "share",
+        "ch-combo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能向别人演示自己的列出顺序，说明怎样防止遗漏。"
+    },
+    {
+      "id": "pm-g3-prac-n011",
+      "title": "发现：操场有多长",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-prac-n005"
+      ],
+      "tags": [
+        "find",
+        "ch-step"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出用脚步或绳段估计一段路有多长的问题。"
+    },
+    {
+      "id": "pm-g3-prac-n012",
+      "title": "计划：步测怎么走",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-prac-n011"
+      ],
+      "tags": [
+        "plan",
+        "ch-step"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能约定正常步、数步数、走直线，并准备记录表。"
+    },
+    {
+      "id": "pm-g3-prac-n013",
+      "title": "实施：走两遍",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n012"
+      ],
+      "tags": [
+        "do",
+        "ch-step"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能步测同一段路两遍，记录步数并讨论为什么会不同。"
+    },
+    {
+      "id": "pm-g3-prac-n014",
+      "title": "交流：估计与改进",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n013"
+      ],
+      "tags": [
+        "share",
+        "ch-step"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用两次结果给出一个估计，并提出怎样走得更稳。"
+    },
+    {
+      "id": "pm-g3-prac-n015",
+      "title": "编码与搭配合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n010",
+        "pm-g3-prac-n014"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明编码和搭配都在「按规则把情况列清楚」。"
+    },
+    {
+      "id": "pm-g3-prac-n016",
+      "title": "密码规则小改进",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n005"
+      ],
+      "tags": [
+        "code",
+        "ch-code"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能给编码加一位「奇偶校验」或颜色标记，减少抄错。"
+    },
+    {
+      "id": "pm-g3-prac-n017",
+      "title": "给新生的说明书",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g3-prac-n015"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把编码规则或步测办法写成另一班能看懂的短说明书。"
+    },
+    {
+      "id": "pm-g3-prac-n018",
+      "title": "项目路演",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n017"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在三分钟内讲清问题、规则、结果、还想改什么。"
+    },
+    {
+      "id": "pm-g3-prac-n019",
+      "title": "三年级实践合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g3-prac-n018"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能抽签完成编码、搭配、步测中的一个完整项目。"
+    },
+    {
+      "id": "pm-g3-prac-n020",
+      "title": "三年级实践通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 3,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g3-prac-n019"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成一个「规则清晰、结果可检查」的小项目。"
+    }
+  ]
+}

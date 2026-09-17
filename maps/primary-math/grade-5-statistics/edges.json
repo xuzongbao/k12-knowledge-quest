@@ -1,0 +1,245 @@
+{
+  "map_id": "pm-g5-statistics",
+  "edges": [
+    {
+      "from": "pm-g5-stat-n001",
+      "to": "pm-g5-stat-n002",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n001 需先于 pm-g5-stat-n002"
+    },
+    {
+      "from": "pm-g5-stat-n002",
+      "to": "pm-g5-stat-n003",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n002 需先于 pm-g5-stat-n003"
+    },
+    {
+      "from": "pm-g5-stat-n003",
+      "to": "pm-g5-stat-n004",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n003 需先于 pm-g5-stat-n004"
+    },
+    {
+      "from": "pm-g5-stat-n004",
+      "to": "pm-g5-stat-n005",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n004 需先于 pm-g5-stat-n005"
+    },
+    {
+      "from": "pm-g5-stat-n003",
+      "to": "pm-g5-stat-n006",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n003 需先于 pm-g5-stat-n006"
+    },
+    {
+      "from": "pm-g5-stat-n005",
+      "to": "pm-g5-stat-n007",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n005 需先于 pm-g5-stat-n007"
+    },
+    {
+      "from": "pm-g5-stat-n006",
+      "to": "pm-g5-stat-n007",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n006 需先于 pm-g5-stat-n007"
+    },
+    {
+      "from": "pm-g5-stat-n007",
+      "to": "pm-g5-stat-n008",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n007 需先于 pm-g5-stat-n008"
+    },
+    {
+      "from": "pm-g5-stat-n008",
+      "to": "pm-g5-stat-n009",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n008 需先于 pm-g5-stat-n009"
+    },
+    {
+      "from": "pm-g5-stat-n009",
+      "to": "pm-g5-stat-n010",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n009 需先于 pm-g5-stat-n010"
+    },
+    {
+      "from": "pm-g5-stat-n010",
+      "to": "pm-g5-stat-n011",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n010 需先于 pm-g5-stat-n011"
+    },
+    {
+      "from": "pm-g5-stat-n011",
+      "to": "pm-g5-stat-n012",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n011 需先于 pm-g5-stat-n012"
+    },
+    {
+      "from": "pm-g5-stat-n001",
+      "to": "pm-g5-stat-n013",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n001 需先于 pm-g5-stat-n013"
+    },
+    {
+      "from": "pm-g5-stat-n013",
+      "to": "pm-g5-stat-n014",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n013 需先于 pm-g5-stat-n014"
+    },
+    {
+      "from": "pm-g5-stat-n014",
+      "to": "pm-g5-stat-n015",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n014 需先于 pm-g5-stat-n015"
+    },
+    {
+      "from": "pm-g5-stat-n015",
+      "to": "pm-g5-stat-n016",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n015 需先于 pm-g5-stat-n016"
+    },
+    {
+      "from": "pm-g5-stat-n016",
+      "to": "pm-g5-stat-n017",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n016 需先于 pm-g5-stat-n017"
+    },
+    {
+      "from": "pm-g5-stat-n012",
+      "to": "pm-g5-stat-n018",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n012 需先于 pm-g5-stat-n018"
+    },
+    {
+      "from": "pm-g5-stat-n017",
+      "to": "pm-g5-stat-n018",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n017 需先于 pm-g5-stat-n018"
+    },
+    {
+      "from": "pm-g5-stat-n012",
+      "to": "pm-g5-stat-n019",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n012 需先于 pm-g5-stat-n019"
+    },
+    {
+      "from": "pm-g5-stat-n019",
+      "to": "pm-g5-stat-n020",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n019 需先于 pm-g5-stat-n020"
+    },
+    {
+      "from": "pm-g5-stat-n020",
+      "to": "pm-g5-stat-n021",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n020 需先于 pm-g5-stat-n021"
+    },
+    {
+      "from": "pm-g5-stat-n021",
+      "to": "pm-g5-stat-n022",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n021 需先于 pm-g5-stat-n022"
+    },
+    {
+      "from": "pm-g5-stat-n022",
+      "to": "pm-g5-stat-n023",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n022 需先于 pm-g5-stat-n023"
+    },
+    {
+      "from": "pm-g5-stat-n018",
+      "to": "pm-g5-stat-n024",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n018 需先于 pm-g5-stat-n024"
+    },
+    {
+      "from": "pm-g5-stat-n023",
+      "to": "pm-g5-stat-n024",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n023 需先于 pm-g5-stat-n024"
+    },
+    {
+      "from": "pm-g5-stat-n024",
+      "to": "pm-g5-stat-n025",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n024 需先于 pm-g5-stat-n025"
+    },
+    {
+      "from": "pm-g5-stat-n025",
+      "to": "pm-g5-stat-n026",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n025 需先于 pm-g5-stat-n026"
+    },
+    {
+      "from": "pm-g5-stat-n012",
+      "to": "pm-g5-stat-n027",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n012 需先于 pm-g5-stat-n027"
+    },
+    {
+      "from": "pm-g5-stat-n012",
+      "to": "pm-g5-stat-n028",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n012 需先于 pm-g5-stat-n028"
+    },
+    {
+      "from": "pm-g5-stat-n018",
+      "to": "pm-g5-stat-n029",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n018 需先于 pm-g5-stat-n029"
+    },
+    {
+      "from": "pm-g5-stat-n026",
+      "to": "pm-g5-stat-n030",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n026 需先于 pm-g5-stat-n030"
+    },
+    {
+      "from": "pm-g5-stat-n030",
+      "to": "pm-g5-stat-n031",
+      "type": "prerequisite",
+      "note": "pm-g5-stat-n030 需先于 pm-g5-stat-n031"
+    },
+    {
+      "from": "pm-g5-stat-n002",
+      "to": "pm-g5-stat-n008",
+      "type": "easily_confused",
+      "note": "折线强调变化，条形强调比多少；不是谁更高级。"
+    },
+    {
+      "from": "pm-g5-stat-n004",
+      "to": "pm-g5-stat-n011",
+      "type": "easily_confused",
+      "note": "趋势可以提示可能怎样，但不能当成一定会发生。"
+    },
+    {
+      "from": "pm-g5-stat-n013",
+      "to": "pm-g5-stat-n016",
+      "type": "related",
+      "note": "众数回答「哪一个最常见」，平均数回答「拉齐后的水平」。"
+    },
+    {
+      "from": "pm-g5-stat-n013",
+      "to": "pm-g5-stat-n017",
+      "type": "easily_confused",
+      "note": "最常见的数和拉齐后的数常常不是同一个。"
+    },
+    {
+      "from": "pm-g5-stat-n021",
+      "to": "pm-g5-stat-n022",
+      "type": "easily_confused",
+      "note": "过去出现得多，只说明更常见，不保证下一次。"
+    },
+    {
+      "from": "pm-g5-stat-n023",
+      "to": "pm-g5-stat-n025",
+      "type": "related",
+      "note": "次数少和对象不对，都会让结论不稳。"
+    },
+    {
+      "from": "pm-g5-stat-n009",
+      "to": "pm-g5-stat-n027",
+      "type": "application",
+      "note": "会读复式折线之后，可以试着自己画。"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "map_id": "pm-g3-practice",
+  "edges": [
+    {
+      "from": "pm-g3-prac-n001",
+      "to": "pm-g3-prac-n002",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n001 需先于 pm-g3-prac-n002"
+    },
+    {
+      "from": "pm-g3-prac-n002",
+      "to": "pm-g3-prac-n003",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n002 需先于 pm-g3-prac-n003"
+    },
+    {
+      "from": "pm-g3-prac-n003",
+      "to": "pm-g3-prac-n004",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n003 需先于 pm-g3-prac-n004"
+    },
+    {
+      "from": "pm-g3-prac-n004",
+      "to": "pm-g3-prac-n005",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n004 需先于 pm-g3-prac-n005"
+    },
+    {
+      "from": "pm-g3-prac-n005",
+      "to": "pm-g3-prac-n006",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n005 需先于 pm-g3-prac-n006"
+    },
+    {
+      "from": "pm-g3-prac-n006",
+      "to": "pm-g3-prac-n007",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n006 需先于 pm-g3-prac-n007"
+    },
+    {
+      "from": "pm-g3-prac-n007",
+      "to": "pm-g3-prac-n008",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n007 需先于 pm-g3-prac-n008"
+    },
+    {
+      "from": "pm-g3-prac-n008",
+      "to": "pm-g3-prac-n009",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n008 需先于 pm-g3-prac-n009"
+    },
+    {
+      "from": "pm-g3-prac-n009",
+      "to": "pm-g3-prac-n010",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n009 需先于 pm-g3-prac-n010"
+    },
+    {
+      "from": "pm-g3-prac-n005",
+      "to": "pm-g3-prac-n011",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n005 需先于 pm-g3-prac-n011"
+    },
+    {
+      "from": "pm-g3-prac-n011",
+      "to": "pm-g3-prac-n012",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n011 需先于 pm-g3-prac-n012"
+    },
+    {
+      "from": "pm-g3-prac-n012",
+      "to": "pm-g3-prac-n013",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n012 需先于 pm-g3-prac-n013"
+    },
+    {
+      "from": "pm-g3-prac-n013",
+      "to": "pm-g3-prac-n014",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n013 需先于 pm-g3-prac-n014"
+    },
+    {
+      "from": "pm-g3-prac-n010",
+      "to": "pm-g3-prac-n015",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n010 需先于 pm-g3-prac-n015"
+    },
+    {
+      "from": "pm-g3-prac-n014",
+      "to": "pm-g3-prac-n015",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n014 需先于 pm-g3-prac-n015"
+    },
+    {
+      "from": "pm-g3-prac-n005",
+      "to": "pm-g3-prac-n016",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n005 需先于 pm-g3-prac-n016"
+    },
+    {
+      "from": "pm-g3-prac-n015",
+      "to": "pm-g3-prac-n017",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n015 需先于 pm-g3-prac-n017"
+    },
+    {
+      "from": "pm-g3-prac-n017",
+      "to": "pm-g3-prac-n018",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n017 需先于 pm-g3-prac-n018"
+    },
+    {
+      "from": "pm-g3-prac-n018",
+      "to": "pm-g3-prac-n019",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n018 需先于 pm-g3-prac-n019"
+    },
+    {
+      "from": "pm-g3-prac-n019",
+      "to": "pm-g3-prac-n020",
+      "type": "prerequisite",
+      "note": "pm-g3-prac-n019 需先于 pm-g3-prac-n020"
+    },
+    {
+      "from": "pm-g3-prac-n002",
+      "to": "pm-g3-prac-n007",
+      "type": "related",
+      "note": "编码规则和搭配列表都要事先说清符号的意思。"
+    },
+    {
+      "from": "pm-g3-prac-n003",
+      "to": "pm-g3-prac-n004",
+      "type": "easily_confused",
+      "note": "会写编码不等于会读编码；两位要都能练。"
+    },
+    {
+      "from": "pm-g3-prac-n008",
+      "to": "pm-g3-prac-n009",
+      "type": "easily_confused",
+      "note": "先列全，再加条件筛选；不要一开始就漏。"
+    },
+    {
+      "from": "pm-g3-prac-n012",
+      "to": "pm-g3-prac-n013",
+      "type": "easily_confused",
+      "note": "步子忽大忽小，两次步数就会差很多。"
+    },
+    {
+      "from": "pm-g3-prac-n005",
+      "to": "pm-g3-prac-n016",
+      "type": "application",
+      "note": "规则能用之后，才谈得上防抄错的小改进。"
+    }
+  ]
+}

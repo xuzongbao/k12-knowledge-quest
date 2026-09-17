@@ -1,0 +1,548 @@
+{
+  "map_id": "pm-g2-practice",
+  "nodes": [
+    {
+      "id": "pm-g2-prac-n001",
+      "title": "发现：课桌有多长",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出「课桌有多长、和门谁更长」这类需要测量的问题。"
+    },
+    {
+      "id": "pm-g2-prac-n002",
+      "title": "计划：用什么量",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-prac-n001"
+      ],
+      "tags": [
+        "plan",
+        "ch-measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在脚步、铅笔、纸条、尺之间做选择，并说明量的时候要从同一端开始。"
+    },
+    {
+      "id": "pm-g2-prac-n003",
+      "title": "实施：量课桌和门",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-prac-n002"
+      ],
+      "tags": [
+        "do",
+        "ch-measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能量两次并记录，两次相差太大时重测。"
+    },
+    {
+      "id": "pm-g2-prac-n004",
+      "title": "交流：量的结果",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-prac-n003"
+      ],
+      "tags": [
+        "share",
+        "ch-measure"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能汇报用了什么工具、大约多少、和同学结果差多少。"
+    },
+    {
+      "id": "pm-g2-prac-n005",
+      "title": "发现：尺子不够用",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-prac-n004"
+      ],
+      "tags": [
+        "find",
+        "ch-tool"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能发现没有长尺时，需要把短纸条接起来或做一把自己的尺。"
+    },
+    {
+      "id": "pm-g2-prac-n006",
+      "title": "计划：纸条尺怎么做",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-prac-n005"
+      ],
+      "tags": [
+        "plan",
+        "ch-tool"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能设计纸条尺：同样长的一段重复画记号，并约定每一段叫「一格」。"
+    },
+    {
+      "id": "pm-g2-prac-n007",
+      "title": "实施：做出纸条尺",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-prac-n006"
+      ],
+      "tags": [
+        "do",
+        "ch-tool"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能做出带等分记号的纸条尺，格大致一样长。"
+    },
+    {
+      "id": "pm-g2-prac-n008",
+      "title": "用自制尺再量一次",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-prac-n007"
+      ],
+      "tags": [
+        "do",
+        "ch-tool"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用自制尺量课桌，并与第一次结果比较。"
+    },
+    {
+      "id": "pm-g2-prac-n009",
+      "title": "交流：尺公平不公平",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-prac-n008"
+      ],
+      "tags": [
+        "share",
+        "ch-tool",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能讨论格不均会让测量不公平，并提出改进。"
+    },
+    {
+      "id": "pm-g2-prac-n010",
+      "title": "发现：课间大家都在干什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-prac-n004"
+      ],
+      "tags": [
+        "find",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出调查课间活动的问题，并预想几种类别。"
+    },
+    {
+      "id": "pm-g2-prac-n011",
+      "title": "计划：怎么问怎么记",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-prac-n010"
+      ],
+      "tags": [
+        "plan",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能设计简短问法和记录表，约定每人只选一类。"
+    },
+    {
+      "id": "pm-g2-prac-n012",
+      "title": "实施：问一问",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-prac-n011"
+      ],
+      "tags": [
+        "do",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能调查不少于 8 人并记录，不重复问同一个人。"
+    },
+    {
+      "id": "pm-g2-prac-n013",
+      "title": "整理成表或图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-prac-n012"
+      ],
+      "tags": [
+        "do",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把记录整理成简单表或象形图。"
+    },
+    {
+      "id": "pm-g2-prac-n014",
+      "title": "交流：课间发现",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-prac-n013"
+      ],
+      "tags": [
+        "share",
+        "ch-survey"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用数据说一句课间发现，不把「我们班」说成「所有小朋友」。"
+    },
+    {
+      "id": "pm-g2-prac-n015",
+      "title": "测量与调查合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-prac-n009",
+        "pm-g2-prac-n014"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明测量活动和调查活动都要先有计划再动手。"
+    },
+    {
+      "id": "pm-g2-prac-n016",
+      "title": "公平转盘小制作",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-prac-n009"
+      ],
+      "tags": [
+        "make",
+        "ch-tool"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用纸盘画成几块差不多大的扇区，讨论怎样才算转得比较公平。"
+    },
+    {
+      "id": "pm-g2-prac-n017",
+      "title": "给下一组的建议",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g2-prac-n015"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能给下一组同学写出两条建议：测量时注意什么、调查时注意什么。"
+    },
+    {
+      "id": "pm-g2-prac-n018",
+      "title": "二年级实践合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-prac-n017"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能抽签完成测量或调查中的一个完整四步。"
+    },
+    {
+      "id": "pm-g2-prac-n019",
+      "title": "二年级实践通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 2,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g2-prac-n018"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成测量或调查小项目的收束检查。"
+    }
+  ]
+}

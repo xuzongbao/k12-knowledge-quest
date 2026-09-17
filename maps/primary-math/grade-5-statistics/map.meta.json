@@ -1,0 +1,26 @@
+{
+  "id": "pm-g5-statistics",
+  "title": "五年级 · 统计与概率",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 5,
+  "strand": "统计与概率",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g5-stat-n001"
+  ],
+  "recommended_path_note": "折线统计图主线与众数支线可并行，在 n018 汇合；再进入简单随机试验与数据分析意识。复式折线自己画（n027）、截断纵轴（n028）、订购与众数（n029）为软锁，不挡终章关主，通关前仍须点亮。中位数见六年级图。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g5-stat-boss-line",
+      "pm-g5-stat-boss-mode",
+      "pm-g5-stat-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：折线气象员、众数采购员、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学五年级「统计与概率」地图：折线统计图、众数、简单随机与数据分析意识。独立通关，不引用跨图节点。"
+}

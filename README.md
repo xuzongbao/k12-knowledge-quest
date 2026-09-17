@@ -2,7 +2,7 @@
 
 中小学**知识图谱** + 轻量 RPG：**点亮知识点、打关升级**。
 
-现在完成的是 **Phase 0–2（部分）**：把数据格式定下来，并做出十二张可校验、可通关的样例地图——小学一至六年级「数与运算」（一年级题为「数与运算入门」）和一至六年级「图形与几何」。**小学数与运算 1–6 线、图形与几何 1–6 线均已完成。**
+现在完成的是 **Phase 0–2**：把数据格式定下来，并做出二十四张可校验、可通关的样例地图——小学一至六年级「数与运算」（一年级题为「数与运算入门」）、「图形与几何」、「统计与概率」和「综合与实践」。**小学数学四大领域地图线完成。**
 
 > **内容边界（请先读）：**  
 > 知识点是义务教育课标四大领域 + 常见教材**目录/教学脉络**风格的**原创大纲**，用来排学习顺序。  
@@ -31,7 +31,7 @@
 | --- | --- | --- |
 | 0 | 仓库、许可证、模式（schema）、玩法文字 | ✅ 本仓库 |
 | 1 | 小学数学样例：一至六年级数与运算可通关地图 + 1–6 年级标题路书 | ✅ 本仓库（数与运算 1–6 线完成） |
-| 2 | 补全小学数学其余领域地图（图形与几何、统计与概率、综合与实践；仍是大纲，不搬书） | 进行中：图形与几何 1–6 已完成；统计与概率、综合与实践仍占位 |
+| 2 | 补全小学数学其余领域地图（图形与几何、统计与概率、综合与实践；仍是大纲，不搬书） | ✅ 本仓库：**小学数学四大领域地图线完成**（24 张图） |
 | 3 | 语文、英语等学科；英语可挂「单词知识图」 | 未开始 |
 | 4 | 游戏客户端或 Agent Skill：读 JSON、改存档、出题 | 未开始 |
 
@@ -54,10 +54,23 @@ maps/primary-math/grade-3-geometry/  三年级「图形与几何」地图（同�
 maps/primary-math/grade-4-geometry/  四年级「图形与几何」地图（同上）
 maps/primary-math/grade-5-geometry/  五年级「图形与几何」地图（同上）
 maps/primary-math/grade-6-geometry/  六年级「图形与几何」地图（同上）
+maps/primary-math/grade-1-statistics/一年级「统计与概率」地图（同上）
+maps/primary-math/grade-2-statistics/二年级「统计与概率」地图（同上）
+maps/primary-math/grade-3-statistics/三年级「统计与概率」地图（同上）
+maps/primary-math/grade-4-statistics/四年级「统计与概率」地图（同上）
+maps/primary-math/grade-5-statistics/五年级「统计与概率」地图（同上）
+maps/primary-math/grade-6-statistics/六年级「统计与概率」地图（同上）
+maps/primary-math/grade-1-practice/  一年级「综合与实践」地图（同上）
+maps/primary-math/grade-2-practice/  二年级「综合与实践」地图（同上）
+maps/primary-math/grade-3-practice/  三年级「综合与实践」地图（同上）
+maps/primary-math/grade-4-practice/  四年级「综合与实践」地图（同上）
+maps/primary-math/grade-5-practice/  五年级「综合与实践」地图（同上）
+maps/primary-math/grade-6-practice/  六年级「综合与实践」地图（同上）
 docs/gameplay.md                     点亮、经验、关主、软锁/硬前置
 docs/skill-roadmap.md                以后做成 Skill 的接口设想
 scripts/validate_map.py              校验地图合法
 scripts/_geo_common.py               图形地图生成共用函数
+scripts/_map_common.py               统计/实践等地图生成共用函数
 scripts/_build_grade1_numbers.py     重新生成一年级数与运算 JSON
 scripts/_build_grade2_numbers.py     重新生成二年级数与运算 JSON
 scripts/_build_grade3_numbers.py     重新生成三年级数与运算 JSON
@@ -70,6 +83,18 @@ scripts/_build_grade3_geometry.py    重新生成三年级图形与几何 JSON
 scripts/_build_grade4_geometry.py    重新生成四年级图形与几何 JSON
 scripts/_build_grade5_geometry.py    重新生成五年级图形与几何 JSON
 scripts/_build_grade6_geometry.py    重新生成六年级图形与几何 JSON
+scripts/_build_grade1_statistics.py  重新生成一年级统计与概率 JSON
+scripts/_build_grade2_statistics.py  重新生成二年级统计与概率 JSON
+scripts/_build_grade3_statistics.py  重新生成三年级统计与概率 JSON
+scripts/_build_grade4_statistics.py  重新生成四年级统计与概率 JSON
+scripts/_build_grade5_statistics.py  重新生成五年级统计与概率 JSON
+scripts/_build_grade6_statistics.py  重新生成六年级统计与概率 JSON
+scripts/_build_grade1_practice.py    重新生成一年级综合与实践 JSON
+scripts/_build_grade2_practice.py    重新生成二年级综合与实践 JSON
+scripts/_build_grade3_practice.py    重新生成三年级综合与实践 JSON
+scripts/_build_grade4_practice.py    重新生成四年级综合与实践 JSON
+scripts/_build_grade5_practice.py    重新生成五年级综合与实践 JSON
+scripts/_build_grade6_practice.py    重新生成六年级综合与实践 JSON
 LICENSE                              MIT
 ```
 
@@ -87,7 +112,7 @@ LICENSE                              MIT
 约定：
 
 - 给学生看的字用**中文**
-- 程序 id 用英文短横线：数与运算如 `pm-g1-n001` … `pm-g6-n001`；图形与几何如 `pm-g1-geo-n001` … `pm-g6-geo-n001`（关主如 `pm-g1-geo-boss-position`）
+- 程序 id 用英文短横线：数与运算如 `pm-g1-n001` … `pm-g6-n001`；图形与几何如 `pm-g1-geo-n001`；统计与概率如 `pm-g1-stat-n001`（关主如 `pm-g1-stat-boss-sort`）；综合与实践如 `pm-g1-prac-n001`（关主如 `pm-g1-prac-boss-tidy`）
 - `nodes.json` 里的 `prerequisites` 必须和「指向它的 prerequisite 边」一致
 - 只有前置边参与解锁；它们必须构成**有向无环图（DAG）**
 
@@ -96,7 +121,7 @@ LICENSE                              MIT
 
 ## 怎么「玩」这些样例地图
 
-现在没有画面，按数据走即可，和以后客户端规则相同。十二张图各自通关，**还没有**跨地图进度引擎（数与运算图与图形图也不互相前置）。
+现在没有画面，按数据走即可，和以后客户端规则相同。二十四张图各自通关，**还没有**跨地图进度引擎（四大领域图也不互相前置）。
 
 ### 一年级 · 数与运算入门
 
@@ -230,6 +255,126 @@ LICENSE                              MIT
    路线图与方向为**软锁支线**  
    五年级圆与本图圆柱「底面是圆」仅概念衔接；本图从长方体重新讲起，**不**引用 `pm-g5-geo-*`
 
+### 一年级 · 统计与概率
+
+1. 打开 [`maps/primary-math/grade-1-statistics/map.meta.json`](maps/primary-math/grade-1-statistics/map.meta.json)  
+   - 地图名：**一年级 · 统计与概率**  
+   - 起点：`pm-g1-stat-n001` 东西有相同和不同  
+   - 通关：三名关主（分类小能手、读图小侦探、地图通关试炼）
+2. 主线建议：分类 → 关主 1 → 简单象形图/条形高低与统计表 → 关主 2 → 一定/可能/不可能 → 关主 3  
+   「做一张我的象形图」为**软锁支线**  
+   **不**引用数与运算或图形节点
+
+### 二年级 · 统计与概率
+
+1. 打开 [`maps/primary-math/grade-2-statistics/map.meta.json`](maps/primary-math/grade-2-statistics/map.meta.json)  
+   - 地图名：**二年级 · 统计与概率**  
+   - 起点：`pm-g2-stat-n001` 我们想知道什么  
+   - 通关：三名关主（小调查员、图表翻译官、地图通关试炼）
+2. 主线建议：收集整理填表 → 关主 1 → 象形图（含一图表示几个）与条形图（可并行）→ 关主 2 → 更可能/同样可能 → 关主 3  
+   一周天气小记录、课间调查为**软锁支线**  
+   **不**引用 `pm-g1-stat-*`
+
+### 三年级 · 统计与概率
+
+1. 打开 [`maps/primary-math/grade-3-statistics/map.meta.json`](maps/primary-math/grade-3-statistics/map.meta.json)  
+   - 地图名：**三年级 · 统计与概率**  
+   - 起点：`pm-g3-stat-n001` 先把问题问清楚  
+   - 通关：三名关主（有目的的收集、复式表解读员、地图通关试炼）
+2. 主线建议：单式表 → 关主 1 → 复式统计表 → 关主 2；条形图刻度与列出全部可能结果可并行 → 关主 3  
+   两种标准交叉分类为**软锁支线**  
+   **不**引用 `pm-g2-stat-*`
+
+### 四年级 · 统计与概率
+
+1. 打开 [`maps/primary-math/grade-4-statistics/map.meta.json`](maps/primary-math/grade-4-statistics/map.meta.json)  
+   - 地图名：**四年级 · 统计与概率**  
+   - 起点：`pm-g4-stat-n001` 读条形图复习  
+   - 通关：三名关主（条形图测绘员、平均数调解员、地图通关试炼）
+2. 主线建议：复式条形图与平均数可并行 → 关主 1 / 关主 2 → 可能性大小 → 关主 3  
+   选择合适的单位格、人均不是每人为**软锁支线**  
+   **不**引用 `pm-g3-stat-*`
+
+### 五年级 · 统计与概率
+
+1. 打开 [`maps/primary-math/grade-5-statistics/map.meta.json`](maps/primary-math/grade-5-statistics/map.meta.json)  
+   - 地图名：**五年级 · 统计与概率**  
+   - 起点：`pm-g5-stat-n001` 数据会随时间变  
+   - 通关：三名关主（折线气象员、众数采购员、地图通关试炼）
+2. 主线建议：折线统计图与众数可并行 → 关主 1 / 关主 2 → 简单随机试验与数据分析意识 → 关主 3  
+   复式折线自画、截断纵轴、订购与众数为**软锁支线**  
+   中位数见六年级图；**不**引用 `pm-g4-stat-*`
+
+### 六年级 · 统计与概率
+
+1. 打开 [`maps/primary-math/grade-6-statistics/map.meta.json`](maps/primary-math/grade-6-statistics/map.meta.json)  
+   - 地图名：**六年级 · 统计与概率**  
+   - 起点：`pm-g6-stat-n001` 部分占整体  
+   - 通关：三名关主（扇形结构员、统计工具选配师、地图通关试炼）
+2. 主线建议：扇形图与中位数可并行 → 选择统计量/统计图 → 关主 2；简单等可能概率可并行 → 关主 3  
+   容易误导的图、自己做结构图、校园数据小报告为**软锁支线**  
+   **不**引用 `pm-g5-stat-*`
+
+### 一年级 · 综合与实践
+
+1. 打开 [`maps/primary-math/grade-1-practice/map.meta.json`](maps/primary-math/grade-1-practice/map.meta.json)  
+   - 地图名：**一年级 · 综合与实践**  
+   - 起点：`pm-g1-prac-n001` 教室里的小麻烦  
+   - 通关：两名关主（收纳小队长、地图通关试炼）
+2. 主线建议：发现→计划→实施→交流走完收纳项目 → 关主 1；比高低与摆图案并行 → 关主 2  
+   积木小故事为**软锁支线**  
+   活动骨架原创，不抄教材课题原文
+
+### 二年级 · 综合与实践
+
+1. 打开 [`maps/primary-math/grade-2-practice/map.meta.json`](maps/primary-math/grade-2-practice/map.meta.json)  
+   - 地图名：**二年级 · 综合与实践**  
+   - 起点：`pm-g2-prac-n001` 发现：课桌有多长  
+   - 通关：两名关主（测量小工匠、地图通关试炼）
+2. 主线建议：量课桌与自制尺 → 关主 1；课间调查可并行 → 关主 2  
+   公平转盘小制作为**软锁支线**  
+   **不**引用 `pm-g1-prac-*`
+
+### 三年级 · 综合与实践
+
+1. 打开 [`maps/primary-math/grade-3-practice/map.meta.json`](maps/primary-math/grade-3-practice/map.meta.json)  
+   - 地图名：**三年级 · 综合与实践**  
+   - 起点：`pm-g3-prac-n001` 发现：东西不好对号  
+   - 通关：两名关主（编码设计师、地图通关试炼）
+2. 主线建议：储物位置编码 → 关主 1；搭配与步测可并行 → 关主 2  
+   编码防错标记为**软锁支线**  
+   **不**引用 `pm-g2-prac-*`
+
+### 四年级 · 综合与实践
+
+1. 打开 [`maps/primary-math/grade-4-practice/map.meta.json`](maps/primary-math/grade-4-practice/map.meta.json)  
+   - 地图名：**四年级 · 综合与实践**  
+   - 起点：`pm-g4-prac-n001` 发现：盘子装不下  
+   - 通关：两名关主（约束搭配师、地图通关试炼）
+2. 主线建议：午餐盘数量约束 → 关主 1；校园路线与值日表可并行 → 关主 2  
+   时间冲突表为**软锁支线**  
+   **不**引用 `pm-g3-prac-*`
+
+### 五年级 · 综合与实践
+
+1. 打开 [`maps/primary-math/grade-5-practice/map.meta.json`](maps/primary-math/grade-5-practice/map.meta.json)  
+   - 地图名：**五年级 · 综合与实践**  
+   - 起点：`pm-g5-prac-n001` 发现：花盆怎么摆才匀  
+   - 通关：两名关主（间隔规划员、地图通关试炼）
+2. 主线建议：间隔摆花模型 → 关主 1；通知传递与浪费调查可并行 → 关主 2  
+   模型误差讨论为**软锁支线**  
+   **不**引用 `pm-g4-prac-*`
+
+### 六年级 · 综合与实践
+
+1. 打开 [`maps/primary-math/grade-6-practice/map.meta.json`](maps/primary-math/grade-6-practice/map.meta.json)  
+   - 地图名：**六年级 · 综合与实践**  
+   - 起点：`pm-g6-prac-n001` 发现：多出来的一定挤在一起  
+   - 通关：两名关主（抽屉发现者、地图通关试炼）
+2. 主线建议：抽屉保证句 → 关主 1；校园综合课题与成果展可并行 → 关主 2  
+   反例与边界、数据不可靠为**软锁支线**  
+   **不**引用 `pm-g5-prac-*`
+
 打印推荐层（从起点沿前置边展开）：
 
 ```bash
@@ -245,6 +390,18 @@ python3 scripts/validate_map.py maps/primary-math/grade-3-geometry --tree
 python3 scripts/validate_map.py maps/primary-math/grade-4-geometry --tree
 python3 scripts/validate_map.py maps/primary-math/grade-5-geometry --tree
 python3 scripts/validate_map.py maps/primary-math/grade-6-geometry --tree
+python3 scripts/validate_map.py maps/primary-math/grade-1-statistics --tree
+python3 scripts/validate_map.py maps/primary-math/grade-2-statistics --tree
+python3 scripts/validate_map.py maps/primary-math/grade-3-statistics --tree
+python3 scripts/validate_map.py maps/primary-math/grade-4-statistics --tree
+python3 scripts/validate_map.py maps/primary-math/grade-5-statistics --tree
+python3 scripts/validate_map.py maps/primary-math/grade-6-statistics --tree
+python3 scripts/validate_map.py maps/primary-math/grade-1-practice --tree
+python3 scripts/validate_map.py maps/primary-math/grade-2-practice --tree
+python3 scripts/validate_map.py maps/primary-math/grade-3-practice --tree
+python3 scripts/validate_map.py maps/primary-math/grade-4-practice --tree
+python3 scripts/validate_map.py maps/primary-math/grade-5-practice --tree
+python3 scripts/validate_map.py maps/primary-math/grade-6-practice --tree
 ```
 
 ## 校验命令
@@ -265,6 +422,18 @@ python3 scripts/validate_map.py maps/primary-math/grade-3-geometry
 python3 scripts/validate_map.py maps/primary-math/grade-4-geometry
 python3 scripts/validate_map.py maps/primary-math/grade-5-geometry
 python3 scripts/validate_map.py maps/primary-math/grade-6-geometry
+python3 scripts/validate_map.py maps/primary-math/grade-1-statistics
+python3 scripts/validate_map.py maps/primary-math/grade-2-statistics
+python3 scripts/validate_map.py maps/primary-math/grade-3-statistics
+python3 scripts/validate_map.py maps/primary-math/grade-4-statistics
+python3 scripts/validate_map.py maps/primary-math/grade-5-statistics
+python3 scripts/validate_map.py maps/primary-math/grade-6-statistics
+python3 scripts/validate_map.py maps/primary-math/grade-1-practice
+python3 scripts/validate_map.py maps/primary-math/grade-2-practice
+python3 scripts/validate_map.py maps/primary-math/grade-3-practice
+python3 scripts/validate_map.py maps/primary-math/grade-4-practice
+python3 scripts/validate_map.py maps/primary-math/grade-5-practice
+python3 scripts/validate_map.py maps/primary-math/grade-6-practice
 python3 scripts/validate_map.py --all
 ```
 
@@ -285,15 +454,29 @@ python3 scripts/_build_grade3_geometry.py
 python3 scripts/_build_grade4_geometry.py
 python3 scripts/_build_grade5_geometry.py
 python3 scripts/_build_grade6_geometry.py
+python3 scripts/_build_grade1_statistics.py
+python3 scripts/_build_grade2_statistics.py
+python3 scripts/_build_grade3_statistics.py
+python3 scripts/_build_grade4_statistics.py
+python3 scripts/_build_grade5_statistics.py
+python3 scripts/_build_grade6_statistics.py
+python3 scripts/_build_grade1_practice.py
+python3 scripts/_build_grade2_practice.py
+python3 scripts/_build_grade3_practice.py
+python3 scripts/_build_grade4_practice.py
+python3 scripts/_build_grade5_practice.py
+python3 scripts/_build_grade6_practice.py
 python3 scripts/validate_map.py --all --tree
 ```
 
 ## 以后多学科
 
-小学数学 1–6 年级领域标题已经列在 [maps/primary-math/OVERVIEW.md](maps/primary-math/OVERVIEW.md)，**小学数与运算 1–6 线**和**图形与几何 1–6 线**已做成可通关地图，其余领域（统计与概率、综合与实践）仍是**只占题目**。  
+小学数学 1–6 年级领域标题已经列在 [maps/primary-math/OVERVIEW.md](maps/primary-math/OVERVIEW.md)，**小学数学四大领域地图线完成**（数与运算、图形与几何、统计与概率、综合与实践各 1–6，共 24 张可通关地图）。  
 数与运算六张图概念上衔接（一年级 100 以内 → 二年级起点复习；二年级万以内读写与整百整千口算 → 三年级起点数位复习；三年级万以内数位与一位小数初步 → 四年级大数与小数意义；四年级小数加减与乘除入门 → 五年级小数乘除与分数；五年级分数加减与简易方程 → 六年级分数乘除与方程巩固）。  
 图形与几何六张图概念上衔接（一年级立体平面 → 二年级边角与长度；二年级量长度 → 三年级周长面积；三年级面积入门 → 四年级面积公式扩展；四年级多边形面积 → 五年级组合面积与圆；五年级圆 → 六年级圆柱底面）。  
-存档和校验都按图独立，跨地图进度以后再做。数与运算图与图形图之间**不要**互写节点前置。  
+统计与概率六张图概念上衔接（一年级分类象形 → 二年级收集条形；二年级单式表与更可能 → 三年级复式表与列出结果；三年级条形刻度 → 四年级复式条形与平均数；四年级平均与可能性大小 → 五年级折线、众数、随机试验；五年级折线与众数 → 六年级扇形、中位数、简单等可能分数）。  
+综合与实践六张图概念上衔接（一年级收纳比较 → 二年级测量调查；二年级公平测量 → 三年级编码搭配步测；三年级规则可执行 → 四年级约束安排；四年级优化萌芽 → 五年级间隔/传递/调查；五年级模型与证据 → 六年级保证句、跨领域课题、成果展）。  
+存档和校验都按图独立，跨地图进度以后再做。四大领域图之间**不要**互写节点前置。  
 语文、英语将新增 `maps/<学科>/`，复用同一套 schema。英语单词知识图可以和语文语素、数学应用题用语用 `related` 边连起来（见 Skill 路线）。
 
 
@@ -301,7 +484,7 @@ python3 scripts/validate_map.py --all --tree
 
 - 还没有图形界面，状态要靠读 JSON 想象
 - 练习题只有提示语，没有自动出题器
-- 统计与概率、综合与实践等其它领域地图尚未填写节点
+- 小学数学四大领域 1–6 已齐；初中/高中数学以及其他学科地图尚未开始
 - `strand` 枚举目前按数学四大领域；其他学科需要扩展字段
 
-这些不挡 Phase 1：模式、样例 DAG、校验、许可证已经齐。
+这些不挡 Phase 1–2：模式、24 张样例 DAG、校验、许可证已经齐。小学下一阶段是游戏客户端或 Agent Skill，而不是再补小学数学领域图。

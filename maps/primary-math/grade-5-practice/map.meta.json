@@ -1,0 +1,25 @@
+{
+  "id": "pm-g5-practice",
+  "title": "五年级 · 综合与实践",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 5,
+  "strand": "综合与实践",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g5-prac-n001"
+  ],
+  "recommended_path_note": "间隔摆花为主线（关主 1）；通知传递与浪费调查可并行，在 n017 汇合。模型误差讨论（n018）为软锁，不挡终章关主，通关前仍须点亮。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g5-prac-boss-space",
+      "pm-g5-prac-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败两名关主：间隔规划员、地图通关试炼。"
+  },
+  "content_disclaimer": "活动骨架为课标综合与实践风格的原创设计，不是教材课题或练习页的摘录。",
+  "description": "小学五年级「综合与实践」地图：间隔模型、传递方案、校园调查。独立通关，不引用跨图节点。"
+}

@@ -1,0 +1,253 @@
+{
+  "map_id": "pm-g5-practice",
+  "quests": [
+    {
+      "id": "pm-g5-prac-n001-explain",
+      "node_id": "pm-g5-prac-n001",
+      "title": "提出间隔问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "描述一段真实或想象的小路，问花盆怎样摆才看起来匀。",
+      "success_hint": "要提到两端和间隔。"
+    },
+    {
+      "id": "pm-g5-prac-n002-explain",
+      "node_id": "pm-g5-prac-n002",
+      "title": "线段图",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画线段，标出路长、间隔、端点是否放盆，并写出段数、盆数各指什么。",
+      "success_hint": "先分清段和点。"
+    },
+    {
+      "id": "pm-g5-prac-n003-practice",
+      "node_id": "pm-g5-prac-n003",
+      "title": "两端都放",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "3 组路长与间隔，估算两端都放时的盆数。",
+      "success_hint": "盆数常常是段数加 1。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-prac-n004-practice",
+      "node_id": "pm-g5-prac-n004",
+      "title": "三种放法",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一段路比较三种端点放法的盆数。",
+      "success_hint": "差在两端这两个点。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-prac-n005-practice",
+      "node_id": "pm-g5-prac-n005",
+      "title": "改间隔",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "间隔变成原来大约两倍，盆数大约怎样变，用两组数验证。",
+      "success_hint": "间隔变大，盆变少。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g5-prac-n006-explain",
+      "node_id": "pm-g5-prac-n006",
+      "title": "现场要改图",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "假设有一个门口不能摆，说明图纸怎样改、盆数怎样变。",
+      "success_hint": "模型要给现场让路。"
+    },
+    {
+      "id": "pm-g5-prac-n006-mini-quiz",
+      "node_id": "pm-g5-prac-n006",
+      "title": "间隔项目小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "段数盆数、端点放法、现场改图。",
+      "success_hint": "先画线段再算。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-prac-boss-space",
+      "node_id": "pm-g5-prac-n006",
+      "title": "关主：间隔规划员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①画线段区分段与点 ②算不同端点放法 ③说明现场障碍怎么改图。",
+      "success_hint": "点不是段。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g5-prac-n007-explain",
+      "node_id": "pm-g5-prac-n007",
+      "title": "提出传递问题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明要把通知传到全班，可以比轮数或比总说话次数。",
+      "success_hint": "先约定比什么。"
+    },
+    {
+      "id": "pm-g5-prac-n008-explain",
+      "node_id": "pm-g5-prac-n008",
+      "title": "写出规则",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写下每轮每人最多通知几人、已知道的人不再通知。",
+      "success_hint": "规则含糊就没法画图。"
+    },
+    {
+      "id": "pm-g5-prac-n009-practice",
+      "node_id": "pm-g5-prac-n009",
+      "title": "画三轮",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "从 1 人开始，按「每轮每人通知 2 人」画到第 3 轮，写出知道的人数。",
+      "success_hint": "不要把同一人画两次。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g5-prac-n010-practice",
+      "node_id": "pm-g5-prac-n010",
+      "title": "比较两种规则",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较每次通知 1 人和 2 人，覆盖 16 人大约几轮。",
+      "success_hint": "可以用列表模拟。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g5-prac-n011-explain",
+      "node_id": "pm-g5-prac-n011",
+      "title": "快和公平",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明更快的规则是否让少数人通知次数特别多。",
+      "success_hint": "快不等于每个人一样累。"
+    },
+    {
+      "id": "pm-g5-prac-n012-explain",
+      "node_id": "pm-g5-prac-n012",
+      "title": "选定一种浪费",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "选定可计数的一种浪费，说明为什么能数。",
+      "success_hint": "不能数就不要选。"
+    },
+    {
+      "id": "pm-g5-prac-n013-explain",
+      "node_id": "pm-g5-prac-n013",
+      "title": "设计调查",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出对象、天数、计数方法和结论不能代表谁。",
+      "success_hint": "范围先写在表头。"
+    },
+    {
+      "id": "pm-g5-prac-n014-practice",
+      "node_id": "pm-g5-prac-n014",
+      "title": "收集整理",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "收集至少 3 组数据并填表。",
+      "success_hint": "每天同一时刻更可比。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-prac-n015-practice",
+      "node_id": "pm-g5-prac-n015",
+      "title": "选图写结论",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "选条形或折线画出，并写一句不越界结论。",
+      "success_hint": "问变化用折线，问哪天最多用条形。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g5-prac-n016-explain",
+      "node_id": "pm-g5-prac-n016",
+      "title": "可试行的建议",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写一条班内建议，并写怎样检查一周后有没有用。",
+      "success_hint": "建议要带检查办法。"
+    },
+    {
+      "id": "pm-g5-prac-n017-explain",
+      "node_id": "pm-g5-prac-n017",
+      "title": "模型和调查",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照间隔/通知模型和浪费调查的共同点。",
+      "success_hint": "都要先约定，才能算或收。"
+    },
+    {
+      "id": "pm-g5-prac-n018-explain",
+      "node_id": "pm-g5-prac-n018",
+      "title": "模型漏了什么",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出间隔模型至少忽略的一件事，以及盆数可能偏多还是偏少。",
+      "success_hint": "误差要有方向。"
+    },
+    {
+      "id": "pm-g5-prac-n019-explain",
+      "node_id": "pm-g5-prac-n019",
+      "title": "人数变了",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "班额加减 8 人，说明通知轮数或花盆数哪一个要重算。",
+      "success_hint": "输入变，输出变。"
+    },
+    {
+      "id": "pm-g5-prac-n020-practice",
+      "node_id": "pm-g5-prac-n020",
+      "title": "一张海报",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "海报上同时出现模型要点和调查要点，各不超过四句。",
+      "success_hint": "数字旁注明来源。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g5-prac-n021-practice",
+      "node_id": "pm-g5-prac-n021",
+      "title": "来源答辩",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "指着三个数字说：量的、算的还是问的。",
+      "success_hint": "来源说不清的数字不要上海报。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g5-prac-n022-practice",
+      "node_id": "pm-g5-prac-n022",
+      "title": "抽签完整项目",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽间隔/通知/调查之一走完四步。",
+      "success_hint": "规则和数据都要能检查。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g5-prac-n023-practice",
+      "node_id": "pm-g5-prac-n023",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成一个综合项目并回答来源与误差。",
+      "success_hint": "模型让路给现场，结论让路给对象范围。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g5-prac-boss-map",
+      "node_id": "pm-g5-prac-n023",
+      "title": "关主：五年级实践通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：完成一个间隔或传递模型，或一个可计数浪费调查；能画图、能比较方案、能说明局限。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 8
+    }
+  ]
+}

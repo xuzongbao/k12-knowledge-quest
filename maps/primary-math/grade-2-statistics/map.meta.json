@@ -1,0 +1,26 @@
+{
+  "id": "pm-g2-statistics",
+  "title": "二年级 · 统计与概率",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 2,
+  "strand": "统计与概率",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g2-stat-n001"
+  ],
+  "recommended_path_note": "从「我们想知道什么」进入：收集整理与单式表 → 象形图（含一图表示几个）与条形图入门 → 更可能/同样可能。一周天气小记录（n021）与课间调查（n022）为软锁，不挡终章关主，通关前仍须点亮。可能性支线可与图表并行，在 n020 汇合。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g2-stat-boss-collect",
+      "pm-g2-stat-boss-chart",
+      "pm-g2-stat-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：小调查员、图表翻译官、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学二年级「统计与概率」地图：数据收集整理 → 象形图与条形图入门 → 可能性口头比较。独立通关，不引用跨图节点。"
+}

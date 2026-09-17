@@ -1,0 +1,336 @@
+{
+  "map_id": "pm-g3-statistics",
+  "quests": [
+    {
+      "id": "pm-g3-stat-n001-explain",
+      "node_id": "pm-g3-stat-n001",
+      "title": "问句要能调查",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把「同学们的课余爱好」改写成一句能收集个数的问题，并列出 3–4 个类别。",
+      "success_hint": "避免「开不开心」这种没法计数的问法。"
+    },
+    {
+      "id": "pm-g3-stat-n002-explain",
+      "node_id": "pm-g3-stat-n002",
+      "title": "先画格子",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "设计一张记录表：表头、类别、打勾栏。解释为什么不边问边发明新类。",
+      "success_hint": "类别事先约定，收集才不乱。"
+    },
+    {
+      "id": "pm-g3-stat-n003-practice",
+      "node_id": "pm-g3-stat-n003",
+      "title": "收集 12 人",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "按记录表询问 12 人，每人只进一类，完成后核对总人数。",
+      "success_hint": "总人数必须等于 12。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-stat-n004-practice",
+      "node_id": "pm-g3-stat-n004",
+      "title": "整理成单式表",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把记录合并成统计表，写出合计，并检查合计是否等于总人数。",
+      "success_hint": "合计是验算用的。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-stat-n005-practice",
+      "node_id": "pm-g3-stat-n005",
+      "title": "相差多少",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用表计算三类两两相差，共 6 问。",
+      "success_hint": "大的减小的，写明是谁比谁多。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-stat-n006-practice",
+      "node_id": "pm-g3-stat-n006",
+      "title": "只取有用的格",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "问题只涉及表中两列，避免把第三列加进去。做 5 题。",
+      "success_hint": "先圈出问题提到的类别。",
+      "items_suggested": 5
+    },
+    {
+      "id": "pm-g3-stat-n007-practice",
+      "node_id": "pm-g3-stat-n007",
+      "title": "收集小闭环",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "自定问题，收集不少于 10 人，填表并回答三个问题。",
+      "success_hint": "目的、类别、合计三件都要齐。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-stat-n007-mini-quiz",
+      "node_id": "pm-g3-stat-n007",
+      "title": "单式表小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "读表、算相差、找合计错误。",
+      "success_hint": "合计不对，表就不能用。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-stat-boss-table",
+      "node_id": "pm-g3-stat-n007",
+      "title": "关主：有目的的收集",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①写清调查问题 ②填单式表并核对合计 ③只取需要的数据答题。",
+      "success_hint": "先问目的，再动笔。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-stat-n008-explain",
+      "node_id": "pm-g3-stat-n008",
+      "title": "两个问题一张表",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明：只问「爱看什么书」不够，还想比较男生女生时，为什么一张单式表不够用。",
+      "success_hint": "两个标准交叉，格子会变多。"
+    },
+    {
+      "id": "pm-g3-stat-n009-explain",
+      "node_id": "pm-g3-stat-n009",
+      "title": "指表头",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指着复式表说明哪一侧是性别、哪一侧是爱好，交叉格表示什么。",
+      "success_hint": "先读两个方向的表头，再读格子。"
+    },
+    {
+      "id": "pm-g3-stat-n010-practice",
+      "node_id": "pm-g3-stat-n010",
+      "title": "读一格的意思",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 问：读出「某行某列」是什么意思、是多少人。",
+      "success_hint": "用手指划十字定位。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-stat-n011-practice",
+      "node_id": "pm-g3-stat-n011",
+      "title": "核对合计",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给带错误合计的复式表，找出错的行或列并改正。",
+      "success_hint": "行总和应等于列总和。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-stat-n012-practice",
+      "node_id": "pm-g3-stat-n012",
+      "title": "把人填进格",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "20 条原始记录（姓名已隐去，只留两个标准），填进复式表。",
+      "success_hint": "一人只占一格。",
+      "items_suggested": 20
+    },
+    {
+      "id": "pm-g3-stat-n013-explain",
+      "node_id": "pm-g3-stat-n013",
+      "title": "两组有什么不同",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "根据复式表说两句：男生里最多的是什么，女生里最多的是什么，二者是否相同。",
+      "success_hint": "不要把两组加在一起再比「最多」。"
+    },
+    {
+      "id": "pm-g3-stat-n014-practice",
+      "node_id": "pm-g3-stat-n014",
+      "title": "复式表闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读格、改合计、解释差别，共 8 问。",
+      "success_hint": "十字定位 + 合计验算。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-stat-n014-mini-quiz",
+      "node_id": "pm-g3-stat-n014",
+      "title": "复式表小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合读格、填表、合计。夹「把行合计当成一格」的陷阱。",
+      "success_hint": "合计不是交叉格。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-stat-boss-compound",
+      "node_id": "pm-g3-stat-n014",
+      "title": "关主：复式表解读员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①读交叉格 ②核对合计 ③根据表比较两组。",
+      "success_hint": "两个表头都要读到。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-stat-n015-explain",
+      "node_id": "pm-g3-stat-n015",
+      "title": "一格一人",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "根据 1 格代表 1 的条形图读出三类数量。",
+      "success_hint": "从 0 开始数格。"
+    },
+    {
+      "id": "pm-g3-stat-n016-practice",
+      "node_id": "pm-g3-stat-n016",
+      "title": "换刻度读数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "1 格代表 2 或 5 的图各两张，读出数量并比较。",
+      "success_hint": "格数×每格代表的数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g3-stat-n017-practice",
+      "node_id": "pm-g3-stat-n017",
+      "title": "读到半格",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "直条停在两刻度中间时，说出大约数，并说明为什么不是随便猜。",
+      "success_hint": "先看相邻两个刻度，再估计中间。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-stat-n018-practice",
+      "node_id": "pm-g3-stat-n018",
+      "title": "选刻度再画",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "数据在 20 左右，选择 1 格代表 2 或 5，画出条形图。",
+      "success_hint": "刻度太大图太矮，太小画不下。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-stat-n019-practice",
+      "node_id": "pm-g3-stat-n019",
+      "title": "图和表对换",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "图还原成表，表画成图，各一次，核对每个数。",
+      "success_hint": "对换后数量必须一字不差。",
+      "items_suggested": 2
+    },
+    {
+      "id": "pm-g3-stat-n020-explain",
+      "node_id": "pm-g3-stat-n020",
+      "title": "看图出题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "给条形图出三道题并作答，其中一道必须是相差。",
+      "success_hint": "题目要用到图上至少两个数。"
+    },
+    {
+      "id": "pm-g3-stat-n021-practice",
+      "node_id": "pm-g3-stat-n021",
+      "title": "表图联动",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "一张复式表取其中一组画条形图，并回答两组差异。",
+      "success_hint": "先决定画哪一组，再选刻度。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-stat-n021-mini-quiz",
+      "node_id": "pm-g3-stat-n021",
+      "title": "条形图小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "读刻度、画直条、图与表互译。",
+      "success_hint": "先找 1 格代表几。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g3-stat-n022-explain",
+      "node_id": "pm-g3-stat-n022",
+      "title": "列出所有结果",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "硬币正反；袋子里红黄蓝各一颗摸一颗。分别列出所有可能结果。",
+      "success_hint": "不重复、不遗漏，先不管哪一种更容易。"
+    },
+    {
+      "id": "pm-g3-stat-n023-explain",
+      "node_id": "pm-g3-stat-n023",
+      "title": "一样多才同样可能",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "公平硬币两种结果同样可能；盒子 5 红 1 蓝则摸到红更容易。用自己的话说区别。",
+      "success_hint": "结果种类和每类有几个，不是一回事。"
+    },
+    {
+      "id": "pm-g3-stat-n024-practice",
+      "node_id": "pm-g3-stat-n024",
+      "title": "看转盘说话",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个转盘或盒子，选更可能停在哪、摸到哪，并列出全部结果。",
+      "success_hint": "扇区更大或棋子更多，通常更可能。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g3-stat-n025-practice",
+      "node_id": "pm-g3-stat-n025",
+      "title": "先整理再判断",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "先把摸棋记录填表，再说明下一次更可能摸到什么，同时列出所有颜色。",
+      "success_hint": "数据说明「更可能」，列表说明「有哪些可能」。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g3-stat-n026-practice",
+      "node_id": "pm-g3-stat-n026",
+      "title": "交叉分类小调查",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "选两个标准调查至少 12 人，填复式表并核对合计。",
+      "success_hint": "两个标准都要事先写好。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g3-stat-n027-practice",
+      "node_id": "pm-g3-stat-n027",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "复式表+条形刻度+列出可能结果。",
+      "success_hint": "三种题型先分类再做。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-stat-n028-practice",
+      "node_id": "pm-g3-stat-n028",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读复式表、按刻度读条形图、列出摸棋的所有结果并比较可能性。",
+      "success_hint": "表头、刻度、全部结果，三件都要齐。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g3-stat-boss-map",
+      "node_id": "pm-g3-stat-n028",
+      "title": "关主：三年级统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①复式表读格与合计 ②按 1 格代表几读/画条形图 ③列出所有可能结果并比较可能性。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "map_id": "pm-g6-statistics",
+  "quests": [
+    {
+      "id": "pm-g6-stat-n001-explain",
+      "node_id": "pm-g6-stat-n001",
+      "title": "问结构还是问个数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举「喜欢某项运动的人数」和「这项占全班几成」两个问法，说明后者在看部分与整体。",
+      "success_hint": "占整体，才需要扇形这样的图。"
+    },
+    {
+      "id": "pm-g6-stat-n002-explain",
+      "node_id": "pm-g6-stat-n002",
+      "title": "圆是总体",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指着扇形图说明整个圆是全部，某一块扇形是其中一类。",
+      "success_hint": "各块合起来应该是整个圆。"
+    },
+    {
+      "id": "pm-g6-stat-n003-practice",
+      "node_id": "pm-g6-stat-n003",
+      "title": "图例对扇区",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 张扇形图，把类别和图例、扇区对上。",
+      "success_hint": "先看图例，再看哪一块。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-stat-n004-practice",
+      "node_id": "pm-g6-stat-n004",
+      "title": "哪块最大",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "不看百分数，只比较扇区大小，判断最多最少，共 6 题。",
+      "success_hint": "张角更大通常占得更多。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-stat-n005-practice",
+      "node_id": "pm-g6-stat-n005",
+      "title": "读百分数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "核对各部分百分数是否大约合为 100%，并读出指定类占几成。",
+      "success_hint": "百分数合起来应接近一百。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-stat-n006-explain",
+      "node_id": "pm-g6-stat-n006",
+      "title": "数据决定哪块大",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "给出四类人数，说明哪一类扇区最大、哪一类最小，不必精确画角。",
+      "success_hint": "人数多的类，扇区就该更大。"
+    },
+    {
+      "id": "pm-g6-stat-n007-explain",
+      "node_id": "pm-g6-stat-n007",
+      "title": "别用扇形看趋势",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "「一周体温变化」该用什么图？说明为什么扇形图不合适。",
+      "success_hint": "扇形没有时间顺序。"
+    },
+    {
+      "id": "pm-g6-stat-n008-practice",
+      "node_id": "pm-g6-stat-n008",
+      "title": "看图提问作答",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给扇形图提出并回答三问：最多、约占几成、两类合起来约占多少。",
+      "success_hint": "两类合起来要把百分数相加。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g6-stat-n009-practice",
+      "node_id": "pm-g6-stat-n009",
+      "title": "扇形图闯关",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读图例、比大小、核对百分数、判断是否该用扇形图。",
+      "success_hint": "先问：这是在看结构吗？",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-stat-n009-mini-quiz",
+      "node_id": "pm-g6-stat-n009",
+      "title": "扇形图小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合读图与选择图种。夹「用扇形图表示气温变化」的错误例子。",
+      "success_hint": "结构用扇形，变化用折线。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g6-stat-boss-pie",
+      "node_id": "pm-g6-stat-n009",
+      "title": "关主：扇形结构员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①指出总体和部分 ②读百分数并比较 ③判断三个情境该不该用扇形图。",
+      "success_hint": "整个圆是 100%。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-stat-n010-practice",
+      "node_id": "pm-g6-stat-n010",
+      "title": "从小到大排",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组无序数据，排成递增序列。",
+      "success_hint": "先排再找中间，不要跳步。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-stat-n011-practice",
+      "node_id": "pm-g6-stat-n011",
+      "title": "奇数个找中间",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组奇数个数据求中位数。",
+      "success_hint": "排好后左右人数一样多。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-stat-n012-practice",
+      "node_id": "pm-g6-stat-n012",
+      "title": "偶数个取平均",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组偶数个数据求中位数。",
+      "success_hint": "中间两个加起来除以 2。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-stat-n013-practice",
+      "node_id": "pm-g6-stat-n013",
+      "title": "拉开平均但不拉中位",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一组数据加入一个特别大的数，分别看平均和中位数怎么变。",
+      "success_hint": "平均会被拽走，中位数常常还在原处附近。",
+      "items_suggested": 3
+    },
+    {
+      "id": "pm-g6-stat-n014-explain",
+      "node_id": "pm-g6-stat-n014",
+      "title": "什么时候用中位数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在「有一个特别高的分数」的小组成绩里，说明为什么中位数更能代表中间水平。",
+      "success_hint": "中间位置，不受一个极端分数左右。"
+    },
+    {
+      "id": "pm-g6-stat-n015-practice",
+      "node_id": "pm-g6-stat-n015",
+      "title": "三个数各算一遍",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 组数据分别求平均、中位数、众数（没有则写无），并各写一句用途。",
+      "success_hint": "三种量可以同时存在。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-stat-n016-practice",
+      "node_id": "pm-g6-stat-n016",
+      "title": "按问题选量",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个问题选择平均 / 中位数 / 众数。",
+      "success_hint": "最常见→众数；中间位置→中位；拉齐→平均。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-stat-n017-practice",
+      "node_id": "pm-g6-stat-n017",
+      "title": "按问题选图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个问题选择条形 / 折线 / 扇形。",
+      "success_hint": "比多少、看变化、看结构，三把钥匙。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-stat-n018-explain",
+      "node_id": "pm-g6-stat-n018",
+      "title": "一句谨慎结论",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "根据给定图表写一句结论，避免「所有人」「一定」等越界词。",
+      "success_hint": "结论里的对象要和图上的对象一致。"
+    },
+    {
+      "id": "pm-g6-stat-n019-practice",
+      "node_id": "pm-g6-stat-n019",
+      "title": "选择综合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "一个校园情境：选统计量、选图、写结论。",
+      "success_hint": "先问问题要什么，再选工具。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-stat-n019-mini-quiz",
+      "node_id": "pm-g6-stat-n019",
+      "title": "选择小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合选量、选图、改越界结论。",
+      "success_hint": "工具没有高低，只有合适不合适。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g6-stat-boss-choose",
+      "node_id": "pm-g6-stat-n019",
+      "title": "关主：统计工具选配师",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①同一组数据三种统计量 ②三个情境选对图 ③把一句说过头的结论改谨慎。",
+      "success_hint": "先问问题，再选刀。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-stat-n020-explain",
+      "node_id": "pm-g6-stat-n020",
+      "title": "什么叫同样可能",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "公平骰子六点同样可能；被做了手脚的骰子不是。用自己的话区分。",
+      "success_hint": "没有理由偏袒某一面时，才当等可能。"
+    },
+    {
+      "id": "pm-g6-stat-n021-practice",
+      "node_id": "pm-g6-stat-n021",
+      "title": "列全部分母",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个试验列出全部等可能结果，作为分母。",
+      "success_hint": "不重复、不遗漏。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-stat-n022-practice",
+      "node_id": "pm-g6-stat-n022",
+      "title": "写成分数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个简单事件写成几分之几，如「从 1–5 号球摸到偶数」。",
+      "success_hint": "有利结果个数 / 全部结果个数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-stat-n023-practice",
+      "node_id": "pm-g6-stat-n023",
+      "title": "数有利结果",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "两个一步试验（不同颜色棋、两枚公平硬币）列出树状或表，再写分数。",
+      "success_hint": "先列全，再圈有利的。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-stat-n024-practice",
+      "node_id": "pm-g6-stat-n024",
+      "title": "比两个分数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较可能性 1/2 和 1/3 等，共 6 题，可用画图或通分。",
+      "success_hint": "分母不同时先变成一样的整体。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-stat-n025-explain",
+      "node_id": "pm-g6-stat-n025",
+      "title": "频率会对齐吗",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "理论上 1/2，试验 10 次可能 7 次正面。说明次数少时频率会晃，次数多了更靠近。",
+      "success_hint": "分数是模型，频率是试验，二者会越来越近但不保证次次相等。"
+    },
+    {
+      "id": "pm-g6-stat-n026-practice",
+      "node_id": "pm-g6-stat-n026",
+      "title": "课题里两手抓",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给一个小课题：选图描述结构或变化，再用分数说一个等可能事件。",
+      "success_hint": "统计描述已有数据，概率描述尚未发生的等可能结果。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-stat-n027-practice",
+      "node_id": "pm-g6-stat-n027",
+      "title": "给误导图找茬",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 张容易误导的图，指出问题并改写成读图注意事项。",
+      "success_hint": "立体、截轴、无图例是常客。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-stat-n028-practice",
+      "node_id": "pm-g6-stat-n028",
+      "title": "结构草图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用本班四类人数（可假设合理数据）画扇形草图，标百分数，核对合计。",
+      "success_hint": "百分数合计应接近 100%。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-stat-n029-practice",
+      "node_id": "pm-g6-stat-n029",
+      "title": "三句话报告",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "自选校园问题，写：用了什么图、什么统计量、一句不越界的结论。",
+      "success_hint": "三句话都要指着数据。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g6-stat-n030-explain",
+      "node_id": "pm-g6-stat-n030",
+      "title": "打开工具箱",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用清单说出至少六种小学统计工具各解决什么问题。",
+      "success_hint": "对号入座，不堆砌术语。"
+    },
+    {
+      "id": "pm-g6-stat-n031-practice",
+      "node_id": "pm-g6-stat-n031",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "扇形图+中位数+选图选量+简单概率分数。",
+      "success_hint": "先辨题型。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-stat-n032-practice",
+      "node_id": "pm-g6-stat-n032",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读扇形、求中位数并对照平均、选图、写 1/2 这类分数。",
+      "success_hint": "结构、中间位置、等可能，三件齐。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-stat-boss-map",
+      "node_id": "pm-g6-stat-n032",
+      "title": "关主：六年级统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①读扇形图 ②求中位数并选择统计量/统计图 ③用分数表示简单等可能事件。小学统计与概率线在此收束。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    }
+  ]
+}

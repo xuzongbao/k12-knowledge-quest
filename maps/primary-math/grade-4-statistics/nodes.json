@@ -1,0 +1,877 @@
+{
+  "map_id": "pm-g4-statistics",
+  "nodes": [
+    {
+      "id": "pm-g4-stat-n001",
+      "title": "读条形图复习",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "bar",
+        "ch-bar"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能读单式条形图的类别、刻度和直条高度，说出最多最少。"
+    },
+    {
+      "id": "pm-g4-stat-n002",
+      "title": "1格代表几要先看",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-stat-n001"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar",
+        "scale"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "读图前先确认 1 格代表几，避免把格数当成数量。"
+    },
+    {
+      "id": "pm-g4-stat-n003",
+      "title": "较大数据的条形图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-stat-n002"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "当数据到几十、几百时，能选用 1 格代表 5、10 等来读图。"
+    },
+    {
+      "id": "pm-g4-stat-n004",
+      "title": "复式条形图是什么",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-stat-n001"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar",
+        "compound"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能认出复式条形图：同一类别旁有两组直条，便于比较两组。"
+    },
+    {
+      "id": "pm-g4-stat-n005",
+      "title": "读复式条形图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n003",
+        "pm-g4-stat-n004"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar",
+        "compound"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能读出某一类别两组各是多少，并比较同一类别哪组更多。"
+    },
+    {
+      "id": "pm-g4-stat-n006",
+      "title": "复式条形图的图例",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n005"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据图例区分两种直条代表哪一组，不看错颜色或花纹。"
+    },
+    {
+      "id": "pm-g4-stat-n007",
+      "title": "根据复式表画复式条形图",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-stat-n006"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar",
+        "draw"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把复式统计表画成复式条形图，两组直条对齐、图例清楚。"
+    },
+    {
+      "id": "pm-g4-stat-n008",
+      "title": "看图比较两组",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n007"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据复式条形图说出两组整体上有什么不同。"
+    },
+    {
+      "id": "pm-g4-stat-n009",
+      "title": "从图中发现问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n008"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能指出直条对不齐、图例缺失、刻度不是从 0 开始等不规范处。"
+    },
+    {
+      "id": "pm-g4-stat-n010",
+      "title": "条形图综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-stat-n009"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能读、画、评价单式与复式条形图。"
+    },
+    {
+      "id": "pm-g4-stat-n011",
+      "title": "平均是在拉齐",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-stat-n001"
+      ],
+      "tags": [
+        "average",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「移多补少、拉成一样长」说明平均数在讲什么。"
+    },
+    {
+      "id": "pm-g4-stat-n012",
+      "title": "平均数怎么算",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n011"
+      ],
+      "tags": [
+        "average",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「总和÷个数」求出一组简单数据的平均数。"
+    },
+    {
+      "id": "pm-g4-stat-n013",
+      "title": "除不尽的平均数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n012"
+      ],
+      "tags": [
+        "average",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "当除不尽时，能按要求保留整数或一位小数，并说明这是大约拉齐后的数。"
+    },
+    {
+      "id": "pm-g4-stat-n014",
+      "title": "平均数不一定是实际有的数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n013"
+      ],
+      "tags": [
+        "average",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道平均后的数可以不是原来任何一个数据，例如人均不是某一个人的个数。"
+    },
+    {
+      "id": "pm-g4-stat-n015",
+      "title": "用平均数比两组",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n014"
+      ],
+      "tags": [
+        "average",
+        "ch-avg",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用两组的平均数比较整体水平，同时提醒人数不同时要小心。"
+    },
+    {
+      "id": "pm-g4-stat-n016",
+      "title": "一个特别大的数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-stat-n015"
+      ],
+      "tags": [
+        "average",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能发现一个特别大或特别小的数会把平均数拉偏。"
+    },
+    {
+      "id": "pm-g4-stat-n017",
+      "title": "根据总数和平均想个数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n012"
+      ],
+      "tags": [
+        "average",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「平均数×个数=总和」解决简单问题。"
+    },
+    {
+      "id": "pm-g4-stat-n018",
+      "title": "看图估计平均",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n010",
+        "pm-g4-stat-n015"
+      ],
+      "tags": [
+        "average",
+        "ch-avg",
+        "bar"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据条形图估计哪一组平均更高，再计算验证。"
+    },
+    {
+      "id": "pm-g4-stat-n019",
+      "title": "平均数解决问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n016",
+        "pm-g4-stat-n017"
+      ],
+      "tags": [
+        "average",
+        "ch-avg",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在「人均、平均每天」的情境中选择求平均或还原总和。"
+    },
+    {
+      "id": "pm-g4-stat-n020",
+      "title": "平均数综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-stat-n018",
+        "pm-g4-stat-n019"
+      ],
+      "tags": [
+        "average",
+        "ch-avg",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能计算、解释并用平均数比较，同时说出它的局限。"
+    },
+    {
+      "id": "pm-g4-stat-n021",
+      "title": "列出所有可能结果",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-stat-n010"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能有序列出简单随机现象的所有可能结果，不重复不遗漏。"
+    },
+    {
+      "id": "pm-g4-stat-n022",
+      "title": "等可能与不等可能",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n021"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分「结果种类一样多且公平」和「有的结果更常出现」。"
+    },
+    {
+      "id": "pm-g4-stat-n023",
+      "title": "可能性大小比较",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n022"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用更大、更小、一样大描述可能性，不要求写分数。"
+    },
+    {
+      "id": "pm-g4-stat-n024",
+      "title": "转盘扇区与棋子数量",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n023"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据扇区大小或棋子数量比较可能性，并说明依据。"
+    },
+    {
+      "id": "pm-g4-stat-n025",
+      "title": "试验记录与判断",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n024"
+      ],
+      "tags": [
+        "chance",
+        "ch-chance"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能做少量摸棋记录，说明次数少时结果会晃，不能只凭两三次下结论。"
+    },
+    {
+      "id": "pm-g4-stat-n026",
+      "title": "统计与可能性合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-stat-n020",
+        "pm-g4-stat-n025"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能先用表或平均数整理数据，再对随机现象比较可能性。"
+    },
+    {
+      "id": "pm-g4-stat-n027",
+      "title": "选择合适的单位格",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n010"
+      ],
+      "tags": [
+        "bar",
+        "ch-bar",
+        "scale"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能为一组数据选择 1 格代表几，使图既画得下又分得出高低。"
+    },
+    {
+      "id": "pm-g4-stat-n028",
+      "title": "人均不是每人",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-stat-n020"
+      ],
+      "tags": [
+        "average",
+        "ch-avg"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用自己的话解释：班均图书 8 本，不是每个人都恰好有 8 本。"
+    },
+    {
+      "id": "pm-g4-stat-n029",
+      "title": "四年级统计合练",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-stat-n026"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合复式条形图、平均数、可能性大小。"
+    },
+    {
+      "id": "pm-g4-stat-n030",
+      "title": "四年级统计通关",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-stat-n029"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成条形图进阶、平均数与可能性的收束检查。"
+    }
+  ]
+}

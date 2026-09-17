@@ -1,0 +1,293 @@
+{
+  "map_id": "pm-g1-statistics",
+  "quests": [
+    {
+      "id": "pm-g1-stat-n001-explain",
+      "node_id": "pm-g1-stat-n001",
+      "title": "找相同找不同",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "拿出橡皮、铅笔、尺子。说出两件物品的一个相同点和一个不同点。",
+      "success_hint": "先看能摸到的：颜色、长短、能不能写字。"
+    },
+    {
+      "id": "pm-g1-stat-n002-explain",
+      "node_id": "pm-g1-stat-n002",
+      "title": "颜色分家",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 10 件彩色积木按颜色分成几堆，说出每一堆的颜色。",
+      "success_hint": "一次只看颜色，先别管形状。"
+    },
+    {
+      "id": "pm-g1-stat-n002-practice",
+      "node_id": "pm-g1-stat-n002",
+      "title": "再分一次颜色",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "换一袋学具，按颜色分堆，至少分成 3 堆，并核对没有混色。",
+      "success_hint": "拿起一件先问：它是什么颜色？",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-stat-n003-explain",
+      "node_id": "pm-g1-stat-n003",
+      "title": "形状分家",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "按圆形、方形、长条把物品分堆，即使颜色不同也要放在同一形状堆。",
+      "success_hint": "标准是形状，不是颜色。"
+    },
+    {
+      "id": "pm-g1-stat-n004-explain",
+      "node_id": "pm-g1-stat-n004",
+      "title": "大小分家",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把扣子或纸片分成大、小两堆，并说明你是怎么比的。",
+      "success_hint": "并排放在一起比，比轮流拿在手里感觉。"
+    },
+    {
+      "id": "pm-g1-stat-n005-explain",
+      "node_id": "pm-g1-stat-n005",
+      "title": "我的分类标准",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "自己定一个标准给文具分类（如「能放进笔袋」），讲给同伴听，让对方按你的标准再分一次。",
+      "success_hint": "标准要一句话说完，别人才能照做。"
+    },
+    {
+      "id": "pm-g1-stat-n006-practice",
+      "node_id": "pm-g1-stat-n006",
+      "title": "数一数每一类",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "分类后数出每一类的个数，写在纸上。三类都要数对。",
+      "success_hint": "点一个记一个，数完再从头复核一遍。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g1-stat-n007-explain",
+      "node_id": "pm-g1-stat-n007",
+      "title": "汇报分类",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用句式「我按……分，这一类有……个」连说三类。",
+      "success_hint": "先说标准，再说每一类的名称和个数。"
+    },
+    {
+      "id": "pm-g1-stat-n008-practice",
+      "node_id": "pm-g1-stat-n008",
+      "title": "换标准再分",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一堆物品先按颜色分，再按能否滚动分，比较两张结果有什么不同。",
+      "success_hint": "物品没变，标准变了，堆就会变。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-stat-n008-mini-quiz",
+      "node_id": "pm-g1-stat-n008",
+      "title": "分类小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "听口令分类 + 自己定标准 + 数出每类个数。正确率达到掌握标准才过关。",
+      "success_hint": "每一题先确认标准是什么。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-stat-boss-sort",
+      "node_id": "pm-g1-stat-n008",
+      "title": "关主：分类小能手",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①按给定标准分类 ②自己定一个别人能听懂的标准 ③换标准后再数一数。",
+      "success_hint": "先把标准说清楚，再动手。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-stat-n009-explain",
+      "node_id": "pm-g1-stat-n009",
+      "title": "排成一列比长短",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把红黄蓝三类积木各排成一列，对齐底部，指出哪一列最长。",
+      "success_hint": "底对齐，才能用长短比多少。"
+    },
+    {
+      "id": "pm-g1-stat-n010-explain",
+      "node_id": "pm-g1-stat-n010",
+      "title": "一个图就是一个",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看一张用小星星画的图，说明一颗星代表一个人或一件物，不能随便代表好几个。",
+      "success_hint": "现在先约定：一图对一件。"
+    },
+    {
+      "id": "pm-g1-stat-n011-practice",
+      "node_id": "pm-g1-stat-n011",
+      "title": "谁多谁少",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读 4 张象形图，分别说出最多、最少，以及最多比最少多几个。",
+      "success_hint": "先数每一类的图，再相减。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-stat-n012-practice",
+      "node_id": "pm-g1-stat-n012",
+      "title": "补上缺的图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给出「喜欢猫的有 6 人，图上只画了 4 只猫」，把图补完整。再做 3 题类似的。",
+      "success_hint": "缺几个就补几个，不要把图画得更大来充数。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g1-stat-n013-explain",
+      "node_id": "pm-g1-stat-n013",
+      "title": "叠高比多少",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用方块给三类数量叠高，说明更高表示更多，并指出最高的一类。",
+      "success_hint": "每一层一个方块，不要有的层叠两块。"
+    },
+    {
+      "id": "pm-g1-stat-n014-explain",
+      "node_id": "pm-g1-stat-n014",
+      "title": "表上有类别和个数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看一张两列表：类别 | 个数。读出其中一类有几个。",
+      "success_hint": "先找类别名字，再读右边的数。"
+    },
+    {
+      "id": "pm-g1-stat-n014-practice",
+      "node_id": "pm-g1-stat-n014",
+      "title": "从表里读数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 6 张简单表，读出指定类别的个数，并找出最多的一类。",
+      "success_hint": "用手指指着横着读，避免串行。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g1-stat-n015-practice",
+      "node_id": "pm-g1-stat-n015",
+      "title": "看图回答",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据象形图或表回答：最多、最少、一共、多几个。共 8 问。",
+      "success_hint": "问「一共」要把各类加起来。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-stat-n016-practice",
+      "node_id": "pm-g1-stat-n016",
+      "title": "三种样子对对碰",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "同一组数据分别是实物列、象形图、表。把三种表示连起来。",
+      "success_hint": "先核对每一类的个数是否相同。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g1-stat-n016-mini-quiz",
+      "node_id": "pm-g1-stat-n016",
+      "title": "读图小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合：读象形图、读表、比较多少。夹一道「图画得大但个数少」的干扰题。",
+      "success_hint": "比的是个数，不是图的大小。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-stat-boss-chart",
+      "node_id": "pm-g1-stat-n016",
+      "title": "关主：读图小侦探",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①读象形图比多少 ②从表里找数 ③指出「图大不等于数量多」的例子。",
+      "success_hint": "先数个数，再下结论。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-stat-n017-explain",
+      "node_id": "pm-g1-stat-n017",
+      "title": "三个词怎么用",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用「太阳从东边升起」「明天可能下雨」「人用手走路」各配一个：一定 / 可能 / 不可能，并说明理由。",
+      "success_hint": "一定是每次都会；不可能是不会发生；可能是说不准。"
+    },
+    {
+      "id": "pm-g1-stat-n018-practice",
+      "node_id": "pm-g1-stat-n018",
+      "title": "给事情配词",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 件生活小事，选用一定、可能、不可能。包含摸口袋里的棋子、看窗外是否在下雨。",
+      "success_hint": "先想这件事会不会换结果。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g1-stat-n019-explain",
+      "node_id": "pm-g1-stat-n019",
+      "title": "为什么这样说",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "解释：盒子里只有红棋，摸出红棋为什么说「一定」；盒子是空的为什么说「不可能摸出棋」。",
+      "success_hint": "先看盒子里到底有什么，再选词。"
+    },
+    {
+      "id": "pm-g1-stat-n020-practice",
+      "node_id": "pm-g1-stat-n020",
+      "title": "先分类再猜猜",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "先把棋子分类计数，再闭眼摸一颗：根据哪一类更多，用可能/更常摸到来说一句话。",
+      "success_hint": "数量多的一类，更常被摸到，但仍不是「一定」。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g1-stat-n020-mini-quiz",
+      "node_id": "pm-g1-stat-n020",
+      "title": "合练小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合：分类计数、读简单图、选可能性词语。",
+      "success_hint": "分类和读图用数，可能性用词，不要混成一道算术。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g1-stat-n021-practice",
+      "node_id": "pm-g1-stat-n021",
+      "title": "我来画象形图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "调查桌上四类文具的个数，画象形图：一类一行，一个图代表一个，写下标题。",
+      "success_hint": "图要一样大、对齐，类别名称写在旁边。",
+      "items_suggested": 1
+    },
+    {
+      "id": "pm-g1-stat-n022-practice",
+      "node_id": "pm-g1-stat-n022",
+      "title": "入门地图综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "题型混合：换标准分类、读象形图、读表、选一定/可能/不可能。",
+      "success_hint": "不会时回到对应那盏灯再看一眼。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g1-stat-boss-map",
+      "node_id": "pm-g1-stat-n022",
+      "title": "关主：一年级统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①按两种标准分类并计数 ②读图比多少 ③给三件事选可能性词语。全部通过即通关本地图。",
+      "success_hint": "通关后记入已通关列表；分类标准和「图大≠更多」最容易回生。",
+      "items_suggested": 16
+    }
+  ]
+}
