@@ -1,0 +1,1192 @@
+{
+  "map_id": "pm-g4-numbers",
+  "nodes": [
+    {
+      "id": "pm-g4-n001",
+      "title": "计数单位：从万到亿",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "place-value",
+        "ch-large",
+        "review"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说出个、十、百、千、万、十万、百万、千万、亿，并说明相邻两个单位之间是十进关系。"
+    },
+    {
+      "id": "pm-g4-n002",
+      "title": "亿以内数的读法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n001"
+      ],
+      "tags": [
+        "read",
+        "ch-large"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会按级（个级、万级）读亿以内的数，连续的 0 只读一个零，某级末尾的 0 常常不读。"
+    },
+    {
+      "id": "pm-g4-n003",
+      "title": "亿以内数的写法",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n002"
+      ],
+      "tags": [
+        "write",
+        "ch-large"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "听到或看到中文读法后，能按数位写出亿以内的数，某一位一个单位也没有时要写 0 占位。"
+    },
+    {
+      "id": "pm-g4-n004",
+      "title": "亿以内数的组成",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n003"
+      ],
+      "tags": [
+        "compose",
+        "ch-large"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说出一个亿以内的数含有几个亿、几个万、几个一，并用计数单位说明它的组成。"
+    },
+    {
+      "id": "pm-g4-n005",
+      "title": "用万作单位改写",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n004"
+      ],
+      "tags": [
+        "rewrite",
+        "ch-large",
+        "wan"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把整万的数改写成用「万」作单位的数，改写后与原数相等，只是计数单位变了。"
+    },
+    {
+      "id": "pm-g4-n006",
+      "title": "近似数与四舍五入",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n005"
+      ],
+      "tags": [
+        "round",
+        "ch-large",
+        "estimate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "会按「四舍五入」省略万后面的尾数，求出以万作单位的近似数，并说明它只是接近原数。"
+    },
+    {
+      "id": "pm-g4-n007",
+      "title": "亿以上数与用亿改写",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n004"
+      ],
+      "tags": [
+        "rewrite",
+        "ch-large",
+        "yi"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "认识十亿、百亿、千亿，会读写亿以上的数，并能把整亿的数改写成用「亿」作单位。"
+    },
+    {
+      "id": "pm-g4-n008",
+      "title": "大数比较与综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-n006",
+        "pm-g4-n007"
+      ],
+      "tags": [
+        "compare",
+        "ch-large",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "会比较亿以内及更大数的大小，并综合读写、组成、改写和求近似数。"
+    },
+    {
+      "id": "pm-g4-n009",
+      "title": "口算乘数是整十",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n008"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul3x2",
+        "mental"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能口算两位数或三位数乘 10、20、30 等，体会「先乘前面的数字，再按整十补 0」。"
+    },
+    {
+      "id": "pm-g4-n010",
+      "title": "三位数乘两位数（不进位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n009"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul3x2",
+        "no-carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会分两层竖式：用个位乘一遍、用十位乘一遍（积向左错一位），再把两次积加起来。"
+    },
+    {
+      "id": "pm-g4-n011",
+      "title": "三位数乘两位数（进位）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-n010"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul3x2",
+        "carry"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "每一层相乘若满十会进位，进上去的数只加在这一层里；因数中间有 0 时积里的 0 不写丢。"
+    },
+    {
+      "id": "pm-g4-n012",
+      "title": "积的变化规律",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n011"
+      ],
+      "tags": [
+        "multiply",
+        "ch-mul3x2",
+        "pattern"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道一个因数扩大（或缩小）若干倍、另一个不变，积也扩大（或缩小）相同的倍数。"
+    },
+    {
+      "id": "pm-g4-n013",
+      "title": "乘法估算",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n009"
+      ],
+      "tags": [
+        "estimate",
+        "ch-mul3x2"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把三位数或两位数看成接近的整百、整十再相乘，判断积大概落在哪一带。"
+    },
+    {
+      "id": "pm-g4-n014",
+      "title": "用乘法解决问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n011"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-mul3x2",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "在「每份同样多、求一共」或「求几倍」的短故事里，列出三位数乘两位数的算式。"
+    },
+    {
+      "id": "pm-g4-n015",
+      "title": "口算除数是整十",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n009"
+      ],
+      "tags": [
+        "divide",
+        "ch-div2",
+        "mental"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能口算整百、整千除以 10、20、30 等，并用乘法想一想是否合理。"
+    },
+    {
+      "id": "pm-g4-n016",
+      "title": "用整十数除",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n015",
+        "pm-g4-n011"
+      ],
+      "tags": [
+        "divide",
+        "ch-div2"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会用竖式计算除数是 20、30、40 这类整十数的除法，商写在正确的数位上。"
+    },
+    {
+      "id": "pm-g4-n017",
+      "title": "除数是两位数（试商）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n016"
+      ],
+      "tags": [
+        "divide",
+        "ch-div2",
+        "try-quotient"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "除数不是整十时，能把它看成接近的整十来试商，并把商写在被除数相应数位的上面。"
+    },
+    {
+      "id": "pm-g4-n018",
+      "title": "调商",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-n017"
+      ],
+      "tags": [
+        "divide",
+        "ch-div2",
+        "adjust"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "初商偏大（乘积比余下的数大）或偏小（余数比除数还大）时，会把商调小或调大再算。"
+    },
+    {
+      "id": "pm-g4-n019",
+      "title": "商中间或末尾有0",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-n018"
+      ],
+      "tags": [
+        "divide",
+        "ch-div2",
+        "zero"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "某一位不够商 1 时会在商的这一位写 0，不把 0 漏掉或挪到别的数位上。"
+    },
+    {
+      "id": "pm-g4-n020",
+      "title": "商的变化规律",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n012",
+        "pm-g4-n017"
+      ],
+      "tags": [
+        "divide",
+        "ch-div2",
+        "pattern"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道被除数扩大（或缩小）若干倍、除数不变，商也扩大（或缩小）相同倍数；两者同时扩大相同倍数，商不变。"
+    },
+    {
+      "id": "pm-g4-n021",
+      "title": "除法估算",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n013",
+        "pm-g4-n016"
+      ],
+      "tags": [
+        "estimate",
+        "ch-div2"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把被除数、除数看成接近的整百、整十再除，判断商大概是几十还是几百。"
+    },
+    {
+      "id": "pm-g4-n022",
+      "title": "乘除综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-n014",
+        "pm-g4-n019",
+        "pm-g4-n020",
+        "pm-g4-n021"
+      ],
+      "tags": [
+        "fluency",
+        "ch-div2",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合三位数乘两位数、除数是两位数的除法、调商、商里的 0、估算和应用题。"
+    },
+    {
+      "id": "pm-g4-n023",
+      "title": "四则混合运算顺序",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n022"
+      ],
+      "tags": [
+        "order",
+        "ch-laws"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "没有括号时先乘除后加减、从左往右算；有小括号先算括号里，再认识中括号从里往外算。"
+    },
+    {
+      "id": "pm-g4-n024",
+      "title": "加法交换律与结合律",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n023"
+      ],
+      "tags": [
+        "add",
+        "ch-laws",
+        "commutative"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道两个数相加交换位置和不变，三个数相加可以先把其中两个结合起来加，和也不变。"
+    },
+    {
+      "id": "pm-g4-n025",
+      "title": "乘法交换律与结合律",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n023"
+      ],
+      "tags": [
+        "multiply",
+        "ch-laws",
+        "commutative"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道两个数相乘交换位置积不变，三个数相乘可以先把其中两个结合起来乘，积也不变。"
+    },
+    {
+      "id": "pm-g4-n026",
+      "title": "乘法分配律",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n025"
+      ],
+      "tags": [
+        "multiply",
+        "ch-laws",
+        "distributive"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道两个数的和乘一个数，等于把两个加数分别与这个数相乘，再把积加起来。"
+    },
+    {
+      "id": "pm-g4-n027",
+      "title": "简便运算入门",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-n024",
+        "pm-g4-n026"
+      ],
+      "tags": [
+        "mental",
+        "ch-laws",
+        "simplify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据运算律把算式变得更好算，如凑整、先乘能得整百的数、或把接近整百的数拆开再乘。"
+    },
+    {
+      "id": "pm-g4-n028",
+      "title": "运算律综合应用",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-n027"
+      ],
+      "tags": [
+        "fluency",
+        "ch-laws",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "在混合运算和短故事里选择合适的运算律或运算顺序，把计算变得清楚、简便。"
+    },
+    {
+      "id": "pm-g4-n029",
+      "title": "小数的意义",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n028"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "concept"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道把「1」平均分成 10 份、100 份，十分之几、百分之几可以写成小数，小数点右边第一、二位是十分位、百分位。"
+    },
+    {
+      "id": "pm-g4-n030",
+      "title": "小数的读写与数位",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g4-n029"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "place-value"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会读、写一位和两位小数，能指出整数部分、十分位、百分位，并对照米与分米、厘米说一说。"
+    },
+    {
+      "id": "pm-g4-n031",
+      "title": "小数的性质",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n030"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "property"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道小数的末尾添上 0 或去掉 0，小数的大小不变，并能用来把两个小数变得数位同样多。"
+    },
+    {
+      "id": "pm-g4-n032",
+      "title": "小数大小比较",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n031"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "比较小数时先看整数部分，再从十分位往右一位一位看；数位不同时可先补 0 再比。"
+    },
+    {
+      "id": "pm-g4-n033",
+      "title": "小数点移动与大小变化",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n031"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "point-shift"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "小数点向右移动一位、两位，原数就扩大 10 倍、100 倍；向左移动则缩小相同倍数。"
+    },
+    {
+      "id": "pm-g4-n034",
+      "title": "小数加减（对齐小数点）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n032"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "add-sub"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "小数加减要把小数点对齐（相同数位对齐），再按整数加减的办法计算，得数里也要点上小数点。"
+    },
+    {
+      "id": "pm-g4-n035",
+      "title": "小数加减（位数不同）",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-n034"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec",
+        "add-sub"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "两个小数位数不同时，能先对齐小数点（需要时末尾补 0），完成进位加法或退位减法。"
+    },
+    {
+      "id": "pm-g4-n036",
+      "title": "小数加减应用",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n035",
+        "pm-g4-n033"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-dec",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "在购物、测量等短情境里列出小数加减算式，并能先估一估得数是否合理。"
+    },
+    {
+      "id": "pm-g4-n037",
+      "title": "小数乘整数入门",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n035"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec-mul",
+        "multiply"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把小数乘整数看成几个相同小数相加，或先按整数相乘再点上小数点，体会积的小数位数。"
+    },
+    {
+      "id": "pm-g4-n038",
+      "title": "小数除以整数入门",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g4-n037"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec-mul",
+        "divide"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能计算小数除以一位整数（商是小数）的入门题，除的过程中小数点要与被除数对齐。"
+    },
+    {
+      "id": "pm-g4-n039",
+      "title": "积与商里的小数点",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g4-n038"
+      ],
+      "tags": [
+        "decimal",
+        "ch-dec-mul",
+        "point"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据因数或被除数的小数位数，说出积、商的小数点应点在哪里，并检查是否差了十倍。"
+    },
+    {
+      "id": "pm-g4-n040",
+      "title": "四年级数与运算综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 4,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g4-n008",
+        "pm-g4-n022",
+        "pm-g4-n028",
+        "pm-g4-n036"
+      ],
+      "tags": [
+        "synthesis",
+        "ch-final",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合大数读写改写、三位数乘两位数、除数是两位数的除法、运算律简便运算和小数加减。"
+    }
+  ]
+}
