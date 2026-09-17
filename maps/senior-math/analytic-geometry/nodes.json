@@ -1,0 +1,930 @@
+{
+  "map_id": "sm-analytic-geometry",
+  "nodes": [
+    {
+      "id": "sm-ag-n001",
+      "title": "用坐标研究图形",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明解析几何是用方程表示曲线、用代数研究几何。本图从直线讲起。"
+    },
+    {
+      "id": "sm-ag-n002",
+      "title": "倾斜角与斜率",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-ag-n001"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出倾斜角范围，斜率 k=tan α，并说明竖直线没有斜率。"
+    },
+    {
+      "id": "sm-ag-n003",
+      "title": "两点斜率",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-ag-n002"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用两点坐标求斜率，分母为 0 时判定为竖直线。"
+    },
+    {
+      "id": "sm-ag-n004",
+      "title": "点斜式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n003"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能由一点和斜率写出直线方程 y-y0=k(x-x0)。"
+    },
+    {
+      "id": "sm-ag-n005",
+      "title": "斜截式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-ag-n004"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能识别 y=kx+b 中 b 是 y 轴截距。"
+    },
+    {
+      "id": "sm-ag-n006",
+      "title": "两点式与一般式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n004"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在两点式与 Ax+By+C=0 之间互化，并处理竖直线。"
+    },
+    {
+      "id": "sm-ag-n007",
+      "title": "两条直线平行",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n006"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用斜率相等（或一般式系数比例）判断平行，并排除重合。"
+    },
+    {
+      "id": "sm-ag-n008",
+      "title": "两条直线垂直",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n007"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用 k1k2=-1 判断垂直（斜率都存在时），并处理一条竖直的情形。"
+    },
+    {
+      "id": "sm-ag-n009",
+      "title": "点到直线距离",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n006"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用距离公式求点到直线的距离。"
+    },
+    {
+      "id": "sm-ag-n010",
+      "title": "直线综合",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-ag-n008",
+        "sm-ag-n009"
+      ],
+      "tags": [
+        "line",
+        "ch-line",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能求交点、平行垂直、距离，并把几何条件写成方程。"
+    },
+    {
+      "id": "sm-ag-n011",
+      "title": "圆的标准方程",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-ag-n001"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能写出 (x-a)²+(y-b)²=r²，读出圆心和半径。"
+    },
+    {
+      "id": "sm-ag-n012",
+      "title": "圆的一般方程",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n011"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把一般式配方成标准式，并判断是否表示圆。"
+    },
+    {
+      "id": "sm-ag-n013",
+      "title": "直线与圆的位置",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-ag-n012",
+        "sm-ag-n009"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用圆心到直线距离与半径比较，判断相离、相切、相交。"
+    },
+    {
+      "id": "sm-ag-n014",
+      "title": "圆的切线",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n013"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能写出过圆上一点的切线，或已知斜率求切线入门。"
+    },
+    {
+      "id": "sm-ag-n015",
+      "title": "圆与圆位置入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n012"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用圆心距与两半径比较，判断外离、外切、相交、内切、内含。"
+    },
+    {
+      "id": "sm-ag-n016",
+      "title": "直线与圆综合",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-ag-n010",
+        "sm-ag-n014",
+        "sm-ag-n015"
+      ],
+      "tags": [
+        "circle",
+        "ch-circle",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把直线与圆联立或用几何量解决简单问题。"
+    },
+    {
+      "id": "sm-ag-n017",
+      "title": "椭圆的定义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-ag-n011"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明椭圆是到两焦点距离之和为常数（大于焦距）的点的轨迹。"
+    },
+    {
+      "id": "sm-ag-n018",
+      "title": "椭圆标准方程",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-ag-n017"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能写出 x²/a²+y²/b²=1（a>b>0），并求 a、b、c、焦点。"
+    },
+    {
+      "id": "sm-ag-n019",
+      "title": "椭圆简单性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n018"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能指出范围、对称性、顶点，并说明离心率 e=c/a 在 (0,1)。"
+    },
+    {
+      "id": "sm-ag-n020",
+      "title": "双曲线的定义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-ag-n017"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明双曲线是到两焦点距离之差的绝对值为常数（小于焦距）的点的轨迹。"
+    },
+    {
+      "id": "sm-ag-n021",
+      "title": "双曲线标准方程入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-ag-n020",
+        "sm-ag-n018"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能识别 x²/a²-y²/b²=1 的焦点在 x 轴，并求 a、b、c。"
+    },
+    {
+      "id": "sm-ag-n022",
+      "title": "抛物线的定义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-ag-n017"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明抛物线是到定点（焦点）与定直线（准线）距离相等的点的轨迹。"
+    },
+    {
+      "id": "sm-ag-n023",
+      "title": "抛物线标准方程",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n022"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能识别 y²=2px 等四种开口，并读出焦点与准线。"
+    },
+    {
+      "id": "sm-ag-n024",
+      "title": "圆锥曲线对照",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n019",
+        "sm-ag-n021",
+        "sm-ag-n023"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「和、差、等距」对照椭圆、双曲线、抛物线的定义。"
+    },
+    {
+      "id": "sm-ag-n025",
+      "title": "直线与圆锥曲线入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-ag-n016",
+        "sm-ag-n024"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把直线代入圆锥曲线方程，用判别式看交点个数（入门，不深挖弦长技巧）。"
+    },
+    {
+      "id": "sm-ag-n026",
+      "title": "解析几何合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-ag-n025"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在直线、圆、圆锥曲线入门之间切换，先写定义再写方程。"
+    },
+    {
+      "id": "sm-ag-n027",
+      "title": "解析几何通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-ag-n026"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成本图收束检查。"
+    },
+    {
+      "id": "sm-ag-n028",
+      "title": "渐近线直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n021"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明双曲线两条直线「越走越贴但不相交」，并写出标准方程的渐近线。"
+    },
+    {
+      "id": "sm-ag-n029",
+      "title": "离心率比较",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n019"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明椭圆离心率越接近 1 越扁，越接近 0 越圆。"
+    },
+    {
+      "id": "sm-ag-n030",
+      "title": "椭圆参数直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n018"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把椭圆看成圆压扁，用 x=a cos t, y=b sin t 理解点的位置（不要求运算技巧）。"
+    },
+    {
+      "id": "sm-ag-n031",
+      "title": "坐标法证平面几何入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n010"
+      ],
+      "tags": [
+        "line",
+        "ch-line"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把直角三角形放在坐标系里，用斜率或距离证一条简单性质。"
+    },
+    {
+      "id": "sm-ag-n032",
+      "title": "抛物线焦点弦入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-ag-n023"
+      ],
+      "tags": [
+        "conic",
+        "ch-conic"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出过焦点的弦的两端在抛物线上，并说明焦半径与到准线距离相等。"
+    }
+  ]
+}

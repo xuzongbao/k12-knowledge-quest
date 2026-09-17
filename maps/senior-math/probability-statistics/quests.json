@@ -1,0 +1,364 @@
+{
+  "map_id": "sm-probability-statistics",
+  "quests": [
+    {
+      "id": "sm-stat-n001-explain",
+      "node_id": "sm-stat-n001",
+      "title": "先把问题写清",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写一个校园统计问题：想了解什么、向谁、量什么。",
+      "success_hint": "问题含糊，后面全废。"
+    },
+    {
+      "id": "sm-stat-n002-practice",
+      "node_id": "sm-stat-n002",
+      "title": "设计简单随机",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "为 40 人的名单设计抽 8 人的办法，说明每人机会相同。",
+      "success_hint": "抽签或随机数。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-stat-n003-practice",
+      "node_id": "sm-stat-n003",
+      "title": "按层分配",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "两层人数 30 与 70，样本 20，按比例分配并说明为什么分层。",
+      "success_hint": "层内抽简单随机。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-stat-n004-explain",
+      "node_id": "sm-stat-n004",
+      "title": "等距的风险",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明名单若按「男女男女…」排，隔一个抽可能怎样偏。",
+      "success_hint": "周期和间距重合就会偏。"
+    },
+    {
+      "id": "sm-stat-n005-practice",
+      "node_id": "sm-stat-n005",
+      "title": "画一张直方图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给 20 个数分组、求频率、画直方图。",
+      "success_hint": "组距一致，纵轴是频率或频数要标明。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-stat-n006-practice",
+      "node_id": "sm-stat-n006",
+      "title": "平均数与加权",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道求平均数，其中 2 道加权。",
+      "success_hint": "权是份量。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-stat-n007-practice",
+      "node_id": "sm-stat-n007",
+      "title": "求中位数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组求中位数，含偶数个数据。",
+      "success_hint": "先排序。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-stat-n008-explain",
+      "node_id": "sm-stat-n008",
+      "title": "四分位在说什么",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "解释 Q1、Q3 把中间一半数据框起来。",
+      "success_hint": "不是「百分之二十五分」。"
+    },
+    {
+      "id": "sm-stat-n009-practice",
+      "node_id": "sm-stat-n009",
+      "title": "方差直觉",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较 3 组平均数相近但分散不同的数据，指出谁方差更大，并算其中一组。",
+      "success_hint": "离平均数越散越大。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-stat-n010-practice",
+      "node_id": "sm-stat-n010",
+      "title": "用样本说话",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给一个样本，写出对总体平均数或比例的估计，并加一句局限。",
+      "success_hint": "估计要带局限。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-stat-n010-mini-quiz",
+      "node_id": "sm-stat-n010",
+      "title": "抽样与数字特征小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "抽样方法、平均数中位数、方差、估计。夹一道方便样本。",
+      "success_hint": "先问样本怎么来的。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-stat-boss-stat",
+      "node_id": "sm-stat-n010",
+      "title": "关主：抽样估计员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①选一种抽样并说明理由 ②计算一个数字特征 ③用样本估计总体并说局限。",
+      "success_hint": "没有抽样设计就没有估计。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-stat-n011-practice",
+      "node_id": "sm-stat-n011",
+      "title": "画散点图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 8 对数据画成散点。",
+      "success_hint": "每个点是一对观测。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-stat-n012-practice",
+      "node_id": "sm-stat-n012",
+      "title": "判断相关方向",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 张散点（可手绘示意）判断正、负或看不出。",
+      "success_hint": "整体趋势，不要盯一个点。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-stat-n013-explain",
+      "node_id": "sm-stat-n013",
+      "title": "偏差往哪量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明为什么看竖直方向的偏差来配直线。",
+      "success_hint": "我们常用 x 去说 y。"
+    },
+    {
+      "id": "sm-stat-n014-practice",
+      "node_id": "sm-stat-n014",
+      "title": "写案例提纲",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用四段写一份不超过十句的案例提纲。",
+      "success_hint": "结论必须对应问题。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-stat-n015-practice",
+      "node_id": "sm-stat-n015",
+      "title": "列样本空间",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "为 4 个试验列出样本空间（掷币、骰子、抽球简化）。",
+      "success_hint": "不重不漏。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-stat-n016-practice",
+      "node_id": "sm-stat-n016",
+      "title": "事件是子集",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在一个样本空间里用列举法表示 6 个事件。",
+      "success_hint": "事件是一些结果组成的集合。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-stat-n017-practice",
+      "node_id": "sm-stat-n017",
+      "title": "包含还是相等",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组事件判断包含、相等或都不是。",
+      "success_hint": "每个结果都检查。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-stat-n018-practice",
+      "node_id": "sm-stat-n018",
+      "title": "写并与交",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个情境写出并、交的含义与列举。",
+      "success_hint": "并是或，交是且。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-stat-n019-practice",
+      "node_id": "sm-stat-n019",
+      "title": "判断互斥",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组事件是否互斥。",
+      "success_hint": "能不能同时发生。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-stat-n020-practice",
+      "node_id": "sm-stat-n020",
+      "title": "写对立",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "为 4 个事件写出对立，并检查并是否为全集。",
+      "success_hint": "对立要把剩下的结果全收走。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-stat-n021-practice",
+      "node_id": "sm-stat-n021",
+      "title": "古典概型计算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道等可能计数求概率。",
+      "success_hint": "先确认等可能，再数个数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-stat-n022-practice",
+      "node_id": "sm-stat-n022",
+      "title": "互斥相加",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道用互斥加法，夹 1 道指出不能加。",
+      "success_hint": "有重叠不能直接加。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-stat-n023-practice",
+      "node_id": "sm-stat-n023",
+      "title": "性质判断",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个说法判断是否符合概率性质。",
+      "success_hint": "概率不能大于 1。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-stat-n024-explain",
+      "node_id": "sm-stat-n024",
+      "title": "频率会晃",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明为什么做 20 次和做 2000 次，频率表现不同。",
+      "success_hint": "次数少，晃动大。"
+    },
+    {
+      "id": "sm-stat-n024-mini-quiz",
+      "node_id": "sm-stat-n024",
+      "title": "古典概型小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "样本空间、互斥对立、古典概型、频率。夹一道不等可能。",
+      "success_hint": "等可能是前提。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-stat-boss-prob",
+      "node_id": "sm-stat-n024",
+      "title": "关主：古典概型绘图员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①列出样本空间 ②判断互斥或对立 ③求一个古典概率。",
+      "success_hint": "先模型后数字。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-stat-n025-practice",
+      "node_id": "sm-stat-n025",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "抽样估计与古典概型各几题，并有一道「这句话说过头了」。",
+      "success_hint": "统计说估计，概率说模型。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-stat-n026-practice",
+      "node_id": "sm-stat-n026",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：一种抽样+一个数字特征，以及一个古典概型。",
+      "success_hint": "两套语言不要混。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-stat-boss-map",
+      "node_id": "sm-stat-n026",
+      "title": "关主：概率与统计通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①抽样与估计 ②古典概型 ③指出一句不严谨的统计或概率表述。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 14
+    },
+    {
+      "id": "sm-stat-n027-explain",
+      "node_id": "sm-stat-n027",
+      "title": "只问身边的人",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写三句：总体是谁、方便样本是谁、会偏向哪。",
+      "success_hint": "偏的方向要说得具体。"
+    },
+    {
+      "id": "sm-stat-n028-explain",
+      "node_id": "sm-stat-n028",
+      "title": "一起变不是导致",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个共同升降的例子，说明不能直接说因果。",
+      "success_hint": "可能有第三因素。"
+    },
+    {
+      "id": "sm-stat-n029-explain",
+      "node_id": "sm-stat-n029",
+      "title": "组距太大太小",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "同一组数据设想两种组距，说明图形会怎样难看。",
+      "success_hint": "太大只剩一两根柱，太碎看不出趋势。"
+    },
+    {
+      "id": "sm-stat-n030-explain",
+      "node_id": "sm-stat-n030",
+      "title": "什么时候全查",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个该普查和一个该抽样的情境。",
+      "success_hint": "总体很小或必须精确时普查。"
+    },
+    {
+      "id": "sm-stat-n031-explain",
+      "node_id": "sm-stat-n031",
+      "title": "互斥但不是对立",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在掷骰子里举两个互斥事件，说明它们并起来不是全部结果。",
+      "success_hint": "对立必须「补满」。"
+    },
+    {
+      "id": "sm-stat-n032-explain",
+      "node_id": "sm-stat-n032",
+      "title": "能不能用古典",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个表面像骰子其实不等可能的试验。",
+      "success_hint": "模型要符合实际。"
+    }
+  ]
+}

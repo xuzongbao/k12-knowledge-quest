@@ -1,0 +1,27 @@
+{
+  "id": "sm-sequences",
+  "title": "高中 · 数列",
+  "subject": "数学",
+  "stage": "高中",
+  "grade": 11,
+  "strand": "数与代数",
+  "module": "数列",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "sm-seq-n001"
+  ],
+  "recommended_path_note": "数列概念 → 等差（关主 1）→ 等比（关主 2）→ 选模型、由和求项、利息后收束。裂项（n023）、错位入门（n024）、无穷等比（n025）、归纳萌芽（n026）、单利复利（n027）、混合结构（n028）、描点（n029）为软锁。未并入函数图。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "sm-seq-boss-arith",
+      "sm-seq-boss-geo",
+      "sm-seq-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：等差数列测绘员、等比数列航海士、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为普通高中数学课标（2017/2020）目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或高考试题的摘录。",
+  "description": "高中选必「数列」地图：概念 → 等差 → 等比 → 求和与增长模型。独立通关。grade=11。"
+}

@@ -1,0 +1,931 @@
+{
+  "map_id": "sm-trig",
+  "nodes": [
+    {
+      "id": "sm-trig-n001",
+      "title": "任意角",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "angle",
+        "ch-rad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把角理解为射线绕端点旋转，可超过 360°，也可是负角。本图从任意角讲起。"
+    },
+    {
+      "id": "sm-trig-n002",
+      "title": "象限角",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-trig-n001"
+      ],
+      "tags": [
+        "angle",
+        "ch-rad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据终边所在象限给角分类，并指出终边在坐标轴上的角不是象限角。"
+    },
+    {
+      "id": "sm-trig-n003",
+      "title": "终边相同的角",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-trig-n002"
+      ],
+      "tags": [
+        "angle",
+        "ch-rad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能写出与已知角终边相同的角的集合：差为 360° 的整数倍。"
+    },
+    {
+      "id": "sm-trig-n004",
+      "title": "弧度制",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-trig-n001"
+      ],
+      "tags": [
+        "angle",
+        "ch-rad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明 1 弧度是弧长等于半径的圆心角，并知道一周是 2π 弧度。"
+    },
+    {
+      "id": "sm-trig-n005",
+      "title": "弧度与角度换算",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n004"
+      ],
+      "tags": [
+        "angle",
+        "ch-rad"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在度与弧度之间换算，常用 180°=π。"
+    },
+    {
+      "id": "sm-trig-n006",
+      "title": "单位圆上的点",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-trig-n005",
+        "sm-trig-n003"
+      ],
+      "tags": [
+        "tri",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在单位圆上标出终边与圆的交点，为定义三角函数做准备。"
+    },
+    {
+      "id": "sm-trig-n007",
+      "title": "正弦",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n006"
+      ],
+      "tags": [
+        "tri",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用单位圆交点的纵坐标定义 sin θ，并指出其范围在 -1 到 1。"
+    },
+    {
+      "id": "sm-trig-n008",
+      "title": "余弦",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n006"
+      ],
+      "tags": [
+        "tri",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用单位圆交点的横坐标定义 cos θ，范围同样在 -1 到 1。"
+    },
+    {
+      "id": "sm-trig-n009",
+      "title": "正切",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n007",
+        "sm-trig-n008"
+      ],
+      "tags": [
+        "tri",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用 sin/cos 定义 tan θ，并指出余弦为 0 时正切无意义。"
+    },
+    {
+      "id": "sm-trig-n010",
+      "title": "同角关系",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n009"
+      ],
+      "tags": [
+        "tri",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用 sin²θ+cos²θ=1 以及 tan θ=sinθ/cosθ 做简单求值。"
+    },
+    {
+      "id": "sm-trig-n011",
+      "title": "诱导公式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n010"
+      ],
+      "tags": [
+        "tri",
+        "ch-ind"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把 π±θ、2π-θ、负角等化为锐角或第一象限相关角求值，并说明符号看象限。"
+    },
+    {
+      "id": "sm-trig-n012",
+      "title": "正弦函数图象",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n007"
+      ],
+      "tags": [
+        "tri",
+        "ch-graph"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能画出 y=sin x 在一个周期上的图象，指出周期 2π、奇函数、最值 ±1。"
+    },
+    {
+      "id": "sm-trig-n013",
+      "title": "余弦函数图象",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n008",
+        "sm-trig-n012"
+      ],
+      "tags": [
+        "tri",
+        "ch-graph"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能画出 y=cos x，并说明它可由正弦图象平移得到。"
+    },
+    {
+      "id": "sm-trig-n014",
+      "title": "正切函数图象",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n009"
+      ],
+      "tags": [
+        "tri",
+        "ch-graph"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能画出 y=tan x 在 (-π/2,π/2) 的图象，指出渐近线与周期 π。"
+    },
+    {
+      "id": "sm-trig-n015",
+      "title": "周期、振幅、初相",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n012"
+      ],
+      "tags": [
+        "tri",
+        "ch-graph"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从 y=A sin(ωx+φ) 读出振幅 |A|、周期 2π/|ω|、初相 φ。"
+    },
+    {
+      "id": "sm-trig-n016",
+      "title": "正弦型函数图象",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n015",
+        "sm-trig-n013"
+      ],
+      "tags": [
+        "tri",
+        "ch-graph",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能由 A、ω、φ 画出 y=A sin(ωx+φ) 或反过来读参数，并指出平移与伸缩。"
+    },
+    {
+      "id": "sm-trig-n017",
+      "title": "简单三角方程",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n011",
+        "sm-trig-n012"
+      ],
+      "tags": [
+        "tri",
+        "ch-ind"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能解 sin x=a、cos x=a 在一个周期内的解，并写成通解的入门形式。"
+    },
+    {
+      "id": "sm-trig-n018",
+      "title": "两角和与差",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n011"
+      ],
+      "tags": [
+        "tri",
+        "ch-id"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用两角和与差的正弦、余弦公式做展开或求值，不要求默写全部推导。"
+    },
+    {
+      "id": "sm-trig-n019",
+      "title": "二倍角公式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n018"
+      ],
+      "tags": [
+        "tri",
+        "ch-id"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能由和角公式得到 sin 2α、cos 2α 的常用形式并求值。"
+    },
+    {
+      "id": "sm-trig-n020",
+      "title": "三角恒等入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n019",
+        "sm-trig-n010"
+      ],
+      "tags": [
+        "tri",
+        "ch-id",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在同角关系、诱导、和差与二倍角之间选择一条路径化简。"
+    },
+    {
+      "id": "sm-trig-n021",
+      "title": "正弦定理",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n010"
+      ],
+      "tags": [
+        "solve",
+        "ch-solve"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明 a/sin A=b/sin B=c/sin C=2R 的使用场景：已知两角一边或两边一对角。"
+    },
+    {
+      "id": "sm-trig-n022",
+      "title": "余弦定理",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n010"
+      ],
+      "tags": [
+        "solve",
+        "ch-solve"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用 c²=a²+b²-2ab cos C 求边或求角，已知三边或两边夹角时优先。"
+    },
+    {
+      "id": "sm-trig-n023",
+      "title": "解三角形选择定理",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n021",
+        "sm-trig-n022"
+      ],
+      "tags": [
+        "solve",
+        "ch-solve"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据已知元素选择正弦定理或余弦定理，并检查角度是否可能。"
+    },
+    {
+      "id": "sm-trig-n024",
+      "title": "三角形面积",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n021"
+      ],
+      "tags": [
+        "solve",
+        "ch-solve"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 (1/2)ab sin C 求面积，并与海伦公式直觉对照（不要求后者作为考点）。"
+    },
+    {
+      "id": "sm-trig-n025",
+      "title": "解三角形应用",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n023",
+        "sm-trig-n024"
+      ],
+      "tags": [
+        "solve",
+        "ch-solve"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把测高、测距等简化情境画成三角形并求解，标注已知与未知。"
+    },
+    {
+      "id": "sm-trig-n026",
+      "title": "三角函数合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n016",
+        "sm-trig-n020",
+        "sm-trig-n025"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在图象参数、恒等变形、解三角形之间切换。"
+    },
+    {
+      "id": "sm-trig-n027",
+      "title": "三角函数通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-trig-n026"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成本图收束检查。"
+    },
+    {
+      "id": "sm-trig-n028",
+      "title": "扇形弧长与面积",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-trig-n005"
+      ],
+      "tags": [
+        "angle",
+        "ch-rad"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用弧度制写扇形弧长 l=rθ、面积 (1/2)r²θ，作为弧度的应用。"
+    },
+    {
+      "id": "sm-trig-n029",
+      "title": "辅助角公式入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n018"
+      ],
+      "tags": [
+        "tri",
+        "ch-id"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把 a sin x+b cos x 看成一个正弦型函数，读出振幅。"
+    },
+    {
+      "id": "sm-trig-n030",
+      "title": "SSA 解的个数",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-trig-n023"
+      ],
+      "tags": [
+        "solve",
+        "ch-solve"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明只知两边和其中一边的对角时，可能无解、一解或两解。"
+    },
+    {
+      "id": "sm-trig-n031",
+      "title": "诱导公式符号陷阱",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n011"
+      ],
+      "tags": [
+        "tri",
+        "ch-ind"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能专门练习「函数名变不变、符号看象限」，避免口诀用反。"
+    },
+    {
+      "id": "sm-trig-n032",
+      "title": "周期与最小正周期",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-trig-n016"
+      ],
+      "tags": [
+        "tri",
+        "ch-graph"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分「一个周期」和「最小正周期」，例如 sin 2x 的最小正周期是 π。"
+    }
+  ]
+}

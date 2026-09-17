@@ -1,0 +1,27 @@
+{
+  "id": "sm-analytic-geometry",
+  "title": "高中 · 平面解析几何",
+  "subject": "数学",
+  "stage": "高中",
+  "grade": 11,
+  "strand": "图形与几何",
+  "module": "平面解析几何",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "sm-ag-n001"
+  ],
+  "recommended_path_note": "直线（汇入圆）→ 直线与圆（关主 1）→ 圆锥曲线入门（关主 2）后收束。渐近线（n028）、离心率（n029）、椭圆参数（n030）、坐标法证题（n031）、焦点弦（n032）为软锁。grade=11 表示选必学段带。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "sm-ag-boss-line",
+      "sm-ag-boss-conic",
+      "sm-ag-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：直线与圆测绘员、圆锥曲线入门官、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为普通高中数学课标（2017/2020）目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或高考试题的摘录。",
+  "description": "高中选必「平面解析几何」入门地图：直线 → 圆 → 椭圆、双曲线、抛物线。独立通关。grade=11。"
+}

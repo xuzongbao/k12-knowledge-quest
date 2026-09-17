@@ -1,0 +1,27 @@
+{
+  "id": "sm-functions",
+  "title": "高中 · 函数概念与基本初等函数",
+  "subject": "数学",
+  "stage": "高中",
+  "grade": 10,
+  "strand": "数与代数",
+  "module": "函数",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "sm-func-n001"
+  ],
+  "recommended_path_note": "函数概念与性质（关主 1）→ 幂函数与指数对数（关主 2）→ 模型选择与应用后收束。反函数直觉（n032）、二分法（n033）、平移伸缩（n034）、对数不等式（n035）为软锁。三角函数与数列不在本图。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "sm-func-boss-prop",
+      "sm-func-boss-exp",
+      "sm-func-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：函数性质鉴定官、指数对数航海士、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为普通高中数学课标（2017/2020）目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或高考试题的摘录。",
+  "description": "高中必修「函数」地图：概念与性质 → 幂函数 → 指数函数 → 对数函数 → 简单应用。独立通关。grade=10 表示必修学段带。"
+}

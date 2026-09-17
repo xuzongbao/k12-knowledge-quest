@@ -1,0 +1,293 @@
+{
+  "map_id": "sm-trig",
+  "edges": [
+    {
+      "from": "sm-trig-n001",
+      "to": "sm-trig-n002",
+      "type": "prerequisite",
+      "note": "sm-trig-n001 需先于 sm-trig-n002"
+    },
+    {
+      "from": "sm-trig-n002",
+      "to": "sm-trig-n003",
+      "type": "prerequisite",
+      "note": "sm-trig-n002 需先于 sm-trig-n003"
+    },
+    {
+      "from": "sm-trig-n001",
+      "to": "sm-trig-n004",
+      "type": "prerequisite",
+      "note": "sm-trig-n001 需先于 sm-trig-n004"
+    },
+    {
+      "from": "sm-trig-n004",
+      "to": "sm-trig-n005",
+      "type": "prerequisite",
+      "note": "sm-trig-n004 需先于 sm-trig-n005"
+    },
+    {
+      "from": "sm-trig-n005",
+      "to": "sm-trig-n006",
+      "type": "prerequisite",
+      "note": "sm-trig-n005 需先于 sm-trig-n006"
+    },
+    {
+      "from": "sm-trig-n003",
+      "to": "sm-trig-n006",
+      "type": "prerequisite",
+      "note": "sm-trig-n003 需先于 sm-trig-n006"
+    },
+    {
+      "from": "sm-trig-n006",
+      "to": "sm-trig-n007",
+      "type": "prerequisite",
+      "note": "sm-trig-n006 需先于 sm-trig-n007"
+    },
+    {
+      "from": "sm-trig-n006",
+      "to": "sm-trig-n008",
+      "type": "prerequisite",
+      "note": "sm-trig-n006 需先于 sm-trig-n008"
+    },
+    {
+      "from": "sm-trig-n007",
+      "to": "sm-trig-n009",
+      "type": "prerequisite",
+      "note": "sm-trig-n007 需先于 sm-trig-n009"
+    },
+    {
+      "from": "sm-trig-n008",
+      "to": "sm-trig-n009",
+      "type": "prerequisite",
+      "note": "sm-trig-n008 需先于 sm-trig-n009"
+    },
+    {
+      "from": "sm-trig-n009",
+      "to": "sm-trig-n010",
+      "type": "prerequisite",
+      "note": "sm-trig-n009 需先于 sm-trig-n010"
+    },
+    {
+      "from": "sm-trig-n010",
+      "to": "sm-trig-n011",
+      "type": "prerequisite",
+      "note": "sm-trig-n010 需先于 sm-trig-n011"
+    },
+    {
+      "from": "sm-trig-n007",
+      "to": "sm-trig-n012",
+      "type": "prerequisite",
+      "note": "sm-trig-n007 需先于 sm-trig-n012"
+    },
+    {
+      "from": "sm-trig-n008",
+      "to": "sm-trig-n013",
+      "type": "prerequisite",
+      "note": "sm-trig-n008 需先于 sm-trig-n013"
+    },
+    {
+      "from": "sm-trig-n012",
+      "to": "sm-trig-n013",
+      "type": "prerequisite",
+      "note": "sm-trig-n012 需先于 sm-trig-n013"
+    },
+    {
+      "from": "sm-trig-n009",
+      "to": "sm-trig-n014",
+      "type": "prerequisite",
+      "note": "sm-trig-n009 需先于 sm-trig-n014"
+    },
+    {
+      "from": "sm-trig-n012",
+      "to": "sm-trig-n015",
+      "type": "prerequisite",
+      "note": "sm-trig-n012 需先于 sm-trig-n015"
+    },
+    {
+      "from": "sm-trig-n015",
+      "to": "sm-trig-n016",
+      "type": "prerequisite",
+      "note": "sm-trig-n015 需先于 sm-trig-n016"
+    },
+    {
+      "from": "sm-trig-n013",
+      "to": "sm-trig-n016",
+      "type": "prerequisite",
+      "note": "sm-trig-n013 需先于 sm-trig-n016"
+    },
+    {
+      "from": "sm-trig-n011",
+      "to": "sm-trig-n017",
+      "type": "prerequisite",
+      "note": "sm-trig-n011 需先于 sm-trig-n017"
+    },
+    {
+      "from": "sm-trig-n012",
+      "to": "sm-trig-n017",
+      "type": "prerequisite",
+      "note": "sm-trig-n012 需先于 sm-trig-n017"
+    },
+    {
+      "from": "sm-trig-n011",
+      "to": "sm-trig-n018",
+      "type": "prerequisite",
+      "note": "sm-trig-n011 需先于 sm-trig-n018"
+    },
+    {
+      "from": "sm-trig-n018",
+      "to": "sm-trig-n019",
+      "type": "prerequisite",
+      "note": "sm-trig-n018 需先于 sm-trig-n019"
+    },
+    {
+      "from": "sm-trig-n019",
+      "to": "sm-trig-n020",
+      "type": "prerequisite",
+      "note": "sm-trig-n019 需先于 sm-trig-n020"
+    },
+    {
+      "from": "sm-trig-n010",
+      "to": "sm-trig-n020",
+      "type": "prerequisite",
+      "note": "sm-trig-n010 需先于 sm-trig-n020"
+    },
+    {
+      "from": "sm-trig-n010",
+      "to": "sm-trig-n021",
+      "type": "prerequisite",
+      "note": "sm-trig-n010 需先于 sm-trig-n021"
+    },
+    {
+      "from": "sm-trig-n010",
+      "to": "sm-trig-n022",
+      "type": "prerequisite",
+      "note": "sm-trig-n010 需先于 sm-trig-n022"
+    },
+    {
+      "from": "sm-trig-n021",
+      "to": "sm-trig-n023",
+      "type": "prerequisite",
+      "note": "sm-trig-n021 需先于 sm-trig-n023"
+    },
+    {
+      "from": "sm-trig-n022",
+      "to": "sm-trig-n023",
+      "type": "prerequisite",
+      "note": "sm-trig-n022 需先于 sm-trig-n023"
+    },
+    {
+      "from": "sm-trig-n021",
+      "to": "sm-trig-n024",
+      "type": "prerequisite",
+      "note": "sm-trig-n021 需先于 sm-trig-n024"
+    },
+    {
+      "from": "sm-trig-n023",
+      "to": "sm-trig-n025",
+      "type": "prerequisite",
+      "note": "sm-trig-n023 需先于 sm-trig-n025"
+    },
+    {
+      "from": "sm-trig-n024",
+      "to": "sm-trig-n025",
+      "type": "prerequisite",
+      "note": "sm-trig-n024 需先于 sm-trig-n025"
+    },
+    {
+      "from": "sm-trig-n016",
+      "to": "sm-trig-n026",
+      "type": "prerequisite",
+      "note": "sm-trig-n016 需先于 sm-trig-n026"
+    },
+    {
+      "from": "sm-trig-n020",
+      "to": "sm-trig-n026",
+      "type": "prerequisite",
+      "note": "sm-trig-n020 需先于 sm-trig-n026"
+    },
+    {
+      "from": "sm-trig-n025",
+      "to": "sm-trig-n026",
+      "type": "prerequisite",
+      "note": "sm-trig-n025 需先于 sm-trig-n026"
+    },
+    {
+      "from": "sm-trig-n026",
+      "to": "sm-trig-n027",
+      "type": "prerequisite",
+      "note": "sm-trig-n026 需先于 sm-trig-n027"
+    },
+    {
+      "from": "sm-trig-n005",
+      "to": "sm-trig-n028",
+      "type": "prerequisite",
+      "note": "sm-trig-n005 需先于 sm-trig-n028"
+    },
+    {
+      "from": "sm-trig-n018",
+      "to": "sm-trig-n029",
+      "type": "prerequisite",
+      "note": "sm-trig-n018 需先于 sm-trig-n029"
+    },
+    {
+      "from": "sm-trig-n023",
+      "to": "sm-trig-n030",
+      "type": "prerequisite",
+      "note": "sm-trig-n023 需先于 sm-trig-n030"
+    },
+    {
+      "from": "sm-trig-n011",
+      "to": "sm-trig-n031",
+      "type": "prerequisite",
+      "note": "sm-trig-n011 需先于 sm-trig-n031"
+    },
+    {
+      "from": "sm-trig-n016",
+      "to": "sm-trig-n032",
+      "type": "prerequisite",
+      "note": "sm-trig-n016 需先于 sm-trig-n032"
+    },
+    {
+      "from": "sm-trig-n007",
+      "to": "sm-trig-n008",
+      "type": "related",
+      "note": "正弦是纵坐标，余弦是横坐标，同一点的两个坐标。"
+    },
+    {
+      "from": "sm-trig-n012",
+      "to": "sm-trig-n013",
+      "type": "easily_confused",
+      "note": "正弦过原点，余弦过 (0,1)；平移 π/2 可以对上，不要画反。"
+    },
+    {
+      "from": "sm-trig-n021",
+      "to": "sm-trig-n022",
+      "type": "easily_confused",
+      "note": "正弦定理爱用角对边；余弦定理爱用夹角对边。已知种类不同。"
+    },
+    {
+      "from": "sm-trig-n015",
+      "to": "sm-trig-n032",
+      "type": "easily_confused",
+      "note": "ω 越大周期越小；写成 2π/|ω| 后还要确认是不是最小。"
+    },
+    {
+      "from": "sm-trig-n018",
+      "to": "sm-trig-n029",
+      "type": "application",
+      "note": "和差公式是辅助角的代数来源。"
+    },
+    {
+      "from": "sm-trig-n004",
+      "to": "sm-trig-n028",
+      "type": "application",
+      "note": "弧度就是为了让弧长公式不含 180。"
+    },
+    {
+      "from": "sm-trig-n023",
+      "to": "sm-trig-n030",
+      "type": "related",
+      "note": "选对定理之后，还要问这一组已知会不会对应两个三角形。"
+    }
+  ]
+}

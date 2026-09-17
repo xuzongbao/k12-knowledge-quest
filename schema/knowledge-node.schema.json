@@ -55,12 +55,12 @@
       "type": "integer",
       "minimum": 1,
       "maximum": 12,
-      "description": "Grade year. For 小学 use 1–6."
+      "description": "Grade year. 小学 1–6; 初中 7–9; 高中 10–12 as an approximate band (real module name lives in map title / map.meta.module)."
     },
     "strand": {
       "type": "string",
       "enum": ["数与代数", "图形与几何", "统计与概率", "综合与实践"],
-      "description": "Phase 1 math strands from the national curriculum outline. Other subjects will extend this enum later."
+      "description": "Math maps reuse these four buckets. High-school modules (预备知识、函数、几何与代数等) are named in the map title; other subjects will extend this enum later."
     },
     "difficulty": {
       "type": "integer",

@@ -1,0 +1,275 @@
+{
+  "map_id": "sm-probability-statistics",
+  "edges": [
+    {
+      "from": "sm-stat-n001",
+      "to": "sm-stat-n002",
+      "type": "prerequisite",
+      "note": "sm-stat-n001 需先于 sm-stat-n002"
+    },
+    {
+      "from": "sm-stat-n002",
+      "to": "sm-stat-n003",
+      "type": "prerequisite",
+      "note": "sm-stat-n002 需先于 sm-stat-n003"
+    },
+    {
+      "from": "sm-stat-n002",
+      "to": "sm-stat-n004",
+      "type": "prerequisite",
+      "note": "sm-stat-n002 需先于 sm-stat-n004"
+    },
+    {
+      "from": "sm-stat-n002",
+      "to": "sm-stat-n005",
+      "type": "prerequisite",
+      "note": "sm-stat-n002 需先于 sm-stat-n005"
+    },
+    {
+      "from": "sm-stat-n005",
+      "to": "sm-stat-n006",
+      "type": "prerequisite",
+      "note": "sm-stat-n005 需先于 sm-stat-n006"
+    },
+    {
+      "from": "sm-stat-n005",
+      "to": "sm-stat-n007",
+      "type": "prerequisite",
+      "note": "sm-stat-n005 需先于 sm-stat-n007"
+    },
+    {
+      "from": "sm-stat-n007",
+      "to": "sm-stat-n008",
+      "type": "prerequisite",
+      "note": "sm-stat-n007 需先于 sm-stat-n008"
+    },
+    {
+      "from": "sm-stat-n006",
+      "to": "sm-stat-n009",
+      "type": "prerequisite",
+      "note": "sm-stat-n006 需先于 sm-stat-n009"
+    },
+    {
+      "from": "sm-stat-n003",
+      "to": "sm-stat-n010",
+      "type": "prerequisite",
+      "note": "sm-stat-n003 需先于 sm-stat-n010"
+    },
+    {
+      "from": "sm-stat-n009",
+      "to": "sm-stat-n010",
+      "type": "prerequisite",
+      "note": "sm-stat-n009 需先于 sm-stat-n010"
+    },
+    {
+      "from": "sm-stat-n001",
+      "to": "sm-stat-n011",
+      "type": "prerequisite",
+      "note": "sm-stat-n001 需先于 sm-stat-n011"
+    },
+    {
+      "from": "sm-stat-n011",
+      "to": "sm-stat-n012",
+      "type": "prerequisite",
+      "note": "sm-stat-n011 需先于 sm-stat-n012"
+    },
+    {
+      "from": "sm-stat-n012",
+      "to": "sm-stat-n013",
+      "type": "prerequisite",
+      "note": "sm-stat-n012 需先于 sm-stat-n013"
+    },
+    {
+      "from": "sm-stat-n006",
+      "to": "sm-stat-n013",
+      "type": "prerequisite",
+      "note": "sm-stat-n006 需先于 sm-stat-n013"
+    },
+    {
+      "from": "sm-stat-n010",
+      "to": "sm-stat-n014",
+      "type": "prerequisite",
+      "note": "sm-stat-n010 需先于 sm-stat-n014"
+    },
+    {
+      "from": "sm-stat-n013",
+      "to": "sm-stat-n014",
+      "type": "prerequisite",
+      "note": "sm-stat-n013 需先于 sm-stat-n014"
+    },
+    {
+      "from": "sm-stat-n001",
+      "to": "sm-stat-n015",
+      "type": "prerequisite",
+      "note": "sm-stat-n001 需先于 sm-stat-n015"
+    },
+    {
+      "from": "sm-stat-n015",
+      "to": "sm-stat-n016",
+      "type": "prerequisite",
+      "note": "sm-stat-n015 需先于 sm-stat-n016"
+    },
+    {
+      "from": "sm-stat-n016",
+      "to": "sm-stat-n017",
+      "type": "prerequisite",
+      "note": "sm-stat-n016 需先于 sm-stat-n017"
+    },
+    {
+      "from": "sm-stat-n017",
+      "to": "sm-stat-n018",
+      "type": "prerequisite",
+      "note": "sm-stat-n017 需先于 sm-stat-n018"
+    },
+    {
+      "from": "sm-stat-n018",
+      "to": "sm-stat-n019",
+      "type": "prerequisite",
+      "note": "sm-stat-n018 需先于 sm-stat-n019"
+    },
+    {
+      "from": "sm-stat-n019",
+      "to": "sm-stat-n020",
+      "type": "prerequisite",
+      "note": "sm-stat-n019 需先于 sm-stat-n020"
+    },
+    {
+      "from": "sm-stat-n015",
+      "to": "sm-stat-n021",
+      "type": "prerequisite",
+      "note": "sm-stat-n015 需先于 sm-stat-n021"
+    },
+    {
+      "from": "sm-stat-n020",
+      "to": "sm-stat-n021",
+      "type": "prerequisite",
+      "note": "sm-stat-n020 需先于 sm-stat-n021"
+    },
+    {
+      "from": "sm-stat-n021",
+      "to": "sm-stat-n022",
+      "type": "prerequisite",
+      "note": "sm-stat-n021 需先于 sm-stat-n022"
+    },
+    {
+      "from": "sm-stat-n019",
+      "to": "sm-stat-n022",
+      "type": "prerequisite",
+      "note": "sm-stat-n019 需先于 sm-stat-n022"
+    },
+    {
+      "from": "sm-stat-n022",
+      "to": "sm-stat-n023",
+      "type": "prerequisite",
+      "note": "sm-stat-n022 需先于 sm-stat-n023"
+    },
+    {
+      "from": "sm-stat-n021",
+      "to": "sm-stat-n024",
+      "type": "prerequisite",
+      "note": "sm-stat-n021 需先于 sm-stat-n024"
+    },
+    {
+      "from": "sm-stat-n014",
+      "to": "sm-stat-n025",
+      "type": "prerequisite",
+      "note": "sm-stat-n014 需先于 sm-stat-n025"
+    },
+    {
+      "from": "sm-stat-n023",
+      "to": "sm-stat-n025",
+      "type": "prerequisite",
+      "note": "sm-stat-n023 需先于 sm-stat-n025"
+    },
+    {
+      "from": "sm-stat-n024",
+      "to": "sm-stat-n025",
+      "type": "prerequisite",
+      "note": "sm-stat-n024 需先于 sm-stat-n025"
+    },
+    {
+      "from": "sm-stat-n025",
+      "to": "sm-stat-n026",
+      "type": "prerequisite",
+      "note": "sm-stat-n025 需先于 sm-stat-n026"
+    },
+    {
+      "from": "sm-stat-n002",
+      "to": "sm-stat-n027",
+      "type": "prerequisite",
+      "note": "sm-stat-n002 需先于 sm-stat-n027"
+    },
+    {
+      "from": "sm-stat-n013",
+      "to": "sm-stat-n028",
+      "type": "prerequisite",
+      "note": "sm-stat-n013 需先于 sm-stat-n028"
+    },
+    {
+      "from": "sm-stat-n005",
+      "to": "sm-stat-n029",
+      "type": "prerequisite",
+      "note": "sm-stat-n005 需先于 sm-stat-n029"
+    },
+    {
+      "from": "sm-stat-n010",
+      "to": "sm-stat-n030",
+      "type": "prerequisite",
+      "note": "sm-stat-n010 需先于 sm-stat-n030"
+    },
+    {
+      "from": "sm-stat-n020",
+      "to": "sm-stat-n031",
+      "type": "prerequisite",
+      "note": "sm-stat-n020 需先于 sm-stat-n031"
+    },
+    {
+      "from": "sm-stat-n021",
+      "to": "sm-stat-n032",
+      "type": "prerequisite",
+      "note": "sm-stat-n021 需先于 sm-stat-n032"
+    },
+    {
+      "from": "sm-stat-n002",
+      "to": "sm-stat-n003",
+      "type": "related",
+      "note": "分层是在简单随机之前先分组，不是另一种「随便抽」。"
+    },
+    {
+      "from": "sm-stat-n006",
+      "to": "sm-stat-n007",
+      "type": "easily_confused",
+      "note": "平均数会被极端值拉走，中位数更稳。"
+    },
+    {
+      "from": "sm-stat-n019",
+      "to": "sm-stat-n020",
+      "type": "easily_confused",
+      "note": "对立一定互斥；互斥不一定对立。"
+    },
+    {
+      "from": "sm-stat-n021",
+      "to": "sm-stat-n024",
+      "type": "easily_confused",
+      "note": "古典概型是模型里的比；频率是做出来的比。"
+    },
+    {
+      "from": "sm-stat-n013",
+      "to": "sm-stat-n028",
+      "type": "application",
+      "note": "会画回归直线之后，更要防止因果话说过头。"
+    },
+    {
+      "from": "sm-stat-n002",
+      "to": "sm-stat-n027",
+      "type": "related",
+      "note": "对照真正的随机，才看见方便样本的偏。"
+    },
+    {
+      "from": "sm-stat-n005",
+      "to": "sm-stat-n029",
+      "type": "application",
+      "note": "会画直方图之后，再谈组距。"
+    }
+  ]
+}

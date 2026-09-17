@@ -1,0 +1,367 @@
+{
+  "map_id": "sm-analytic-geometry",
+  "quests": [
+    {
+      "id": "sm-ag-n001-explain",
+      "node_id": "sm-ag-n001",
+      "title": "为什么要方程",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用「直线可以写成一次式」说明坐标能把图形变成运算。",
+      "success_hint": "点满足方程就在曲线上。"
+    },
+    {
+      "id": "sm-ag-n002-practice",
+      "node_id": "sm-ag-n002",
+      "title": "读倾斜角与斜率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组由角求斜率或由斜率估计角，含竖直线无斜率。",
+      "success_hint": "正切在 90° 没有意义。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-ag-n003-practice",
+      "node_id": "sm-ag-n003",
+      "title": "两点求斜率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道两点求 k，含竖直线。",
+      "success_hint": "分母为零就是竖直。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-ag-n004-practice",
+      "node_id": "sm-ag-n004",
+      "title": "写点斜式",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道由点与斜率写方程。",
+      "success_hint": "先代入再整理。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n005-practice",
+      "node_id": "sm-ag-n005",
+      "title": "读截距",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个斜截式指出斜率和截距。",
+      "success_hint": "b 是与 y 轴交点的纵坐标。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n006-practice",
+      "node_id": "sm-ag-n006",
+      "title": "方程互化",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组点斜、斜截、一般式互化，含竖直线。",
+      "success_hint": "竖直线写成 x=常数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n007-practice",
+      "node_id": "sm-ag-n007",
+      "title": "判断平行",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 对直线判断平行、重合或相交。",
+      "success_hint": "斜率相等还要检查是不是同一条。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n008-practice",
+      "node_id": "sm-ag-n008",
+      "title": "判断垂直",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 对直线判断垂直。",
+      "success_hint": "一条竖直则另一条要水平。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n009-practice",
+      "node_id": "sm-ag-n009",
+      "title": "点到直线距离",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道套公式，注意一般式要先整理。",
+      "success_hint": "分子取绝对值，分母是系数平方和开方。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n010-practice",
+      "node_id": "sm-ag-n010",
+      "title": "直线综合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 题：交点、过点作平行或垂直、距离。",
+      "success_hint": "先写方程，再运算。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-ag-n010-mini-quiz",
+      "node_id": "sm-ag-n010",
+      "title": "直线小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "斜率、方程、平行垂直、距离。夹一道竖直线。",
+      "success_hint": "没有斜率不等于没有方程。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-ag-n011-practice",
+      "node_id": "sm-ag-n011",
+      "title": "读圆心半径",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个标准方程读圆心、半径。",
+      "success_hint": "注意平方前的符号。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-ag-n012-practice",
+      "node_id": "sm-ag-n012",
+      "title": "配方",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个一般式配方，判断是不是圆。",
+      "success_hint": "半径平方必须为正。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n013-practice",
+      "node_id": "sm-ag-n013",
+      "title": "直线与圆位置",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组用距离与半径比较。",
+      "success_hint": "等于则相切。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n014-practice",
+      "node_id": "sm-ag-n014",
+      "title": "写切线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道过圆上一点写切线。",
+      "success_hint": "半径与切线垂直。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-ag-n015-practice",
+      "node_id": "sm-ag-n015",
+      "title": "两圆位置",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "5 组用圆心距判断。",
+      "success_hint": "比较 d 与 r1+r2、|r1-r2|。",
+      "items_suggested": 5
+    },
+    {
+      "id": "sm-ag-n016-practice",
+      "node_id": "sm-ag-n016",
+      "title": "直线与圆综合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "3 题联立或几何法求交点、切线。",
+      "success_hint": "判别式看个数。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-ag-n016-mini-quiz",
+      "node_id": "sm-ag-n016",
+      "title": "圆小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "标准式一般式、位置、切线。夹一道半径平方为负。",
+      "success_hint": "先配方。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-ag-boss-line",
+      "node_id": "sm-ag-n016",
+      "title": "关主：直线与圆测绘员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①直线平行或垂直 ②圆的方程 ③直线与圆位置。",
+      "success_hint": "距离与半径要会比。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-ag-n017-explain",
+      "node_id": "sm-ag-n017",
+      "title": "绳子定义",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用「两焦点距离之和不变」说明椭圆怎么画出来。",
+      "success_hint": "绳子长度要大于两焦点距离。"
+    },
+    {
+      "id": "sm-ag-n018-practice",
+      "node_id": "sm-ag-n018",
+      "title": "椭圆标准方程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道求 a、b、c、焦点坐标。",
+      "success_hint": "c²=a²-b²。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n019-practice",
+      "node_id": "sm-ag-n019",
+      "title": "椭圆性质卡",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对 3 个椭圆填写范围、顶点、离心率。",
+      "success_hint": "e=c/a 小于 1。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-ag-n020-explain",
+      "node_id": "sm-ag-n020",
+      "title": "差是常数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照椭圆，说明双曲线为什么是「差」而不是「和」。",
+      "success_hint": "差要小于焦距，否则画不出来。"
+    },
+    {
+      "id": "sm-ag-n021-practice",
+      "node_id": "sm-ag-n021",
+      "title": "双曲线入门计算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道识别焦点在哪一轴，求 a、b、c。",
+      "success_hint": "c²=a²+b²。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-ag-n022-explain",
+      "node_id": "sm-ag-n022",
+      "title": "焦点与准线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明抛物线上一点到焦点和到准线一样远。",
+      "success_hint": "一个点、一条线。"
+    },
+    {
+      "id": "sm-ag-n023-practice",
+      "node_id": "sm-ag-n023",
+      "title": "抛物线读写",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个方程读开口、焦点、准线。",
+      "success_hint": "一次项变量决定对称轴。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-ag-n024-explain",
+      "node_id": "sm-ag-n024",
+      "title": "三种定义对照",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一张三列对照：和、差、等距。",
+      "success_hint": "先定义，后方程。"
+    },
+    {
+      "id": "sm-ag-n025-practice",
+      "node_id": "sm-ag-n025",
+      "title": "联立看交点个数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 组直线与椭圆或抛物线，用判别式说个数。",
+      "success_hint": "不要急着求具体点。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-ag-boss-conic",
+      "node_id": "sm-ag-n025",
+      "title": "关主：圆锥曲线入门官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①椭圆或抛物线定义 ②标准方程求焦点 ③说明与直线交点个数怎么看。",
+      "success_hint": "定义优先于套公式。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-ag-n026-practice",
+      "node_id": "sm-ag-n026",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "直线、圆、一种圆锥曲线各几题。",
+      "success_hint": "先命名曲线。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-ag-n027-practice",
+      "node_id": "sm-ag-n027",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：直线垂直、圆的位置、一个椭圆或抛物线方程。",
+      "success_hint": "坐标计算要写清公式名。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-ag-boss-map",
+      "node_id": "sm-ag-n027",
+      "title": "关主：解析几何通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①直线或圆 ②一种圆锥曲线的定义与方程 ③交点个数或简单性质。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "sm-ag-n028-practice",
+      "node_id": "sm-ag-n028",
+      "title": "写渐近线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "为 3 个双曲线写出渐近线方程。",
+      "success_hint": "±(b/a)x 或 ±(a/b)x 看焦点在哪轴。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-ag-n029-explain",
+      "node_id": "sm-ag-n029",
+      "title": "扁还是圆",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较两个椭圆的 e，说明哪个更扁。",
+      "success_hint": "e 越接近 1 越扁。"
+    },
+    {
+      "id": "sm-ag-n030-explain",
+      "node_id": "sm-ag-n030",
+      "title": "圆压扁",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明参数 t 从 0 到 2π 时点如何走完椭圆。",
+      "success_hint": "和圆的参数方程很像，只是轴长不同。"
+    },
+    {
+      "id": "sm-ag-n031-practice",
+      "node_id": "sm-ag-n031",
+      "title": "放进坐标系",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把一个直角三角形放上坐标，用斜率证一次垂直或用距离证一次等长。",
+      "success_hint": "直角顶点放原点往往最省事。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-ag-n032-explain",
+      "node_id": "sm-ag-n032",
+      "title": "焦半径",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在抛物线图上标出焦点、准线、弦的一端，解释等距。",
+      "success_hint": "垂直于准线去量。"
+    }
+  ]
+}

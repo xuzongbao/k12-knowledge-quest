@@ -1,0 +1,27 @@
+{
+  "id": "sm-derivatives",
+  "title": "高中 · 导数及其应用",
+  "subject": "数学",
+  "stage": "高中",
+  "grade": 11,
+  "strand": "数与代数",
+  "module": "导数及其应用",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "sm-der-n001"
+  ],
+  "recommended_path_note": "变化率与求导运算（关主 1）→ 切线、单调与最值（关主 2）后收束。可导连续（n022）、尖点（n023）、极值非最值（n024）、漏乘（n025）、实际定义域（n026）、割线切线（n027）、水平非极值（n028）为软锁。grade=11。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "sm-der-boss-op",
+      "sm-der-boss-app",
+      "sm-der-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：求导运算官、单调最值工程师、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为普通高中数学课标（2017/2020）目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或高考试题的摘录。",
+  "description": "高中选必「导数及其应用」地图：变化率 → 求导 → 切线与单调最值 → 优化入门。独立通关。grade=11。"
+}

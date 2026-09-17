@@ -1,0 +1,251 @@
+{
+  "map_id": "sm-solid-geometry",
+  "edges": [
+    {
+      "from": "sm-solid-n001",
+      "to": "sm-solid-n002",
+      "type": "prerequisite",
+      "note": "sm-solid-n001 需先于 sm-solid-n002"
+    },
+    {
+      "from": "sm-solid-n002",
+      "to": "sm-solid-n003",
+      "type": "prerequisite",
+      "note": "sm-solid-n002 需先于 sm-solid-n003"
+    },
+    {
+      "from": "sm-solid-n001",
+      "to": "sm-solid-n004",
+      "type": "prerequisite",
+      "note": "sm-solid-n001 需先于 sm-solid-n004"
+    },
+    {
+      "from": "sm-solid-n002",
+      "to": "sm-solid-n005",
+      "type": "prerequisite",
+      "note": "sm-solid-n002 需先于 sm-solid-n005"
+    },
+    {
+      "from": "sm-solid-n004",
+      "to": "sm-solid-n005",
+      "type": "prerequisite",
+      "note": "sm-solid-n004 需先于 sm-solid-n005"
+    },
+    {
+      "from": "sm-solid-n005",
+      "to": "sm-solid-n006",
+      "type": "prerequisite",
+      "note": "sm-solid-n005 需先于 sm-solid-n006"
+    },
+    {
+      "from": "sm-solid-n005",
+      "to": "sm-solid-n007",
+      "type": "prerequisite",
+      "note": "sm-solid-n005 需先于 sm-solid-n007"
+    },
+    {
+      "from": "sm-solid-n005",
+      "to": "sm-solid-n008",
+      "type": "prerequisite",
+      "note": "sm-solid-n005 需先于 sm-solid-n008"
+    },
+    {
+      "from": "sm-solid-n008",
+      "to": "sm-solid-n009",
+      "type": "prerequisite",
+      "note": "sm-solid-n008 需先于 sm-solid-n009"
+    },
+    {
+      "from": "sm-solid-n001",
+      "to": "sm-solid-n010",
+      "type": "prerequisite",
+      "note": "sm-solid-n001 需先于 sm-solid-n010"
+    },
+    {
+      "from": "sm-solid-n010",
+      "to": "sm-solid-n011",
+      "type": "prerequisite",
+      "note": "sm-solid-n010 需先于 sm-solid-n011"
+    },
+    {
+      "from": "sm-solid-n011",
+      "to": "sm-solid-n012",
+      "type": "prerequisite",
+      "note": "sm-solid-n011 需先于 sm-solid-n012"
+    },
+    {
+      "from": "sm-solid-n012",
+      "to": "sm-solid-n013",
+      "type": "prerequisite",
+      "note": "sm-solid-n012 需先于 sm-solid-n013"
+    },
+    {
+      "from": "sm-solid-n013",
+      "to": "sm-solid-n014",
+      "type": "prerequisite",
+      "note": "sm-solid-n013 需先于 sm-solid-n014"
+    },
+    {
+      "from": "sm-solid-n012",
+      "to": "sm-solid-n015",
+      "type": "prerequisite",
+      "note": "sm-solid-n012 需先于 sm-solid-n015"
+    },
+    {
+      "from": "sm-solid-n015",
+      "to": "sm-solid-n016",
+      "type": "prerequisite",
+      "note": "sm-solid-n015 需先于 sm-solid-n016"
+    },
+    {
+      "from": "sm-solid-n014",
+      "to": "sm-solid-n017",
+      "type": "prerequisite",
+      "note": "sm-solid-n014 需先于 sm-solid-n017"
+    },
+    {
+      "from": "sm-solid-n016",
+      "to": "sm-solid-n017",
+      "type": "prerequisite",
+      "note": "sm-solid-n016 需先于 sm-solid-n017"
+    },
+    {
+      "from": "sm-solid-n015",
+      "to": "sm-solid-n018",
+      "type": "prerequisite",
+      "note": "sm-solid-n015 需先于 sm-solid-n018"
+    },
+    {
+      "from": "sm-solid-n016",
+      "to": "sm-solid-n019",
+      "type": "prerequisite",
+      "note": "sm-solid-n016 需先于 sm-solid-n019"
+    },
+    {
+      "from": "sm-solid-n015",
+      "to": "sm-solid-n020",
+      "type": "prerequisite",
+      "note": "sm-solid-n015 需先于 sm-solid-n020"
+    },
+    {
+      "from": "sm-solid-n018",
+      "to": "sm-solid-n021",
+      "type": "prerequisite",
+      "note": "sm-solid-n018 需先于 sm-solid-n021"
+    },
+    {
+      "from": "sm-solid-n019",
+      "to": "sm-solid-n021",
+      "type": "prerequisite",
+      "note": "sm-solid-n019 需先于 sm-solid-n021"
+    },
+    {
+      "from": "sm-solid-n020",
+      "to": "sm-solid-n021",
+      "type": "prerequisite",
+      "note": "sm-solid-n020 需先于 sm-solid-n021"
+    },
+    {
+      "from": "sm-solid-n009",
+      "to": "sm-solid-n022",
+      "type": "prerequisite",
+      "note": "sm-solid-n009 需先于 sm-solid-n022"
+    },
+    {
+      "from": "sm-solid-n017",
+      "to": "sm-solid-n022",
+      "type": "prerequisite",
+      "note": "sm-solid-n017 需先于 sm-solid-n022"
+    },
+    {
+      "from": "sm-solid-n021",
+      "to": "sm-solid-n022",
+      "type": "prerequisite",
+      "note": "sm-solid-n021 需先于 sm-solid-n022"
+    },
+    {
+      "from": "sm-solid-n022",
+      "to": "sm-solid-n023",
+      "type": "prerequisite",
+      "note": "sm-solid-n022 需先于 sm-solid-n023"
+    },
+    {
+      "from": "sm-solid-n012",
+      "to": "sm-solid-n024",
+      "type": "prerequisite",
+      "note": "sm-solid-n012 需先于 sm-solid-n024"
+    },
+    {
+      "from": "sm-solid-n018",
+      "to": "sm-solid-n025",
+      "type": "prerequisite",
+      "note": "sm-solid-n018 需先于 sm-solid-n025"
+    },
+    {
+      "from": "sm-solid-n006",
+      "to": "sm-solid-n026",
+      "type": "prerequisite",
+      "note": "sm-solid-n006 需先于 sm-solid-n026"
+    },
+    {
+      "from": "sm-solid-n004",
+      "to": "sm-solid-n027",
+      "type": "prerequisite",
+      "note": "sm-solid-n004 需先于 sm-solid-n027"
+    },
+    {
+      "from": "sm-solid-n009",
+      "to": "sm-solid-n028",
+      "type": "prerequisite",
+      "note": "sm-solid-n009 需先于 sm-solid-n028"
+    },
+    {
+      "from": "sm-solid-n017",
+      "to": "sm-solid-n029",
+      "type": "prerequisite",
+      "note": "sm-solid-n017 需先于 sm-solid-n029"
+    },
+    {
+      "from": "sm-solid-n006",
+      "to": "sm-solid-n007",
+      "type": "related",
+      "note": "三视图是正投影，直观图是斜二测，用途不同。"
+    },
+    {
+      "from": "sm-solid-n013",
+      "to": "sm-solid-n014",
+      "type": "related",
+      "note": "线面平行是面面平行的踏板。"
+    },
+    {
+      "from": "sm-solid-n015",
+      "to": "sm-solid-n016",
+      "type": "related",
+      "note": "线面垂直是面面垂直的踏板。"
+    },
+    {
+      "from": "sm-solid-n012",
+      "to": "sm-solid-n024",
+      "type": "application",
+      "note": "异面定义清楚后，到长方体里找例子。"
+    },
+    {
+      "from": "sm-solid-n015",
+      "to": "sm-solid-n018",
+      "type": "easily_confused",
+      "note": "线面垂直是所成角为 90° 的特殊情形；一般线面角在 0° 到 90°。"
+    },
+    {
+      "from": "sm-solid-n018",
+      "to": "sm-solid-n019",
+      "type": "easily_confused",
+      "note": "线面角用射影；二面角用平面角。不要把棱当成线面角的边。"
+    },
+    {
+      "from": "sm-solid-n009",
+      "to": "sm-solid-n028",
+      "type": "application",
+      "note": "会公式之后才谈割补。"
+    }
+  ]
+}

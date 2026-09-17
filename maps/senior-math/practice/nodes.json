@@ -1,0 +1,691 @@
+{
+  "map_id": "sm-practice",
+  "nodes": [
+    {
+      "id": "sm-prac-n001",
+      "title": "发现：套餐总超支",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "find",
+        "ch-plan"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从「流量总是不够或总是浪费」感到：计费规则可能是分段函数，需要先写清楚。"
+    },
+    {
+      "id": "sm-prac-n002",
+      "title": "计划：用量是自变量",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-prac-n001"
+      ],
+      "tags": [
+        "plan",
+        "ch-plan"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能约定：月用量 x（GB）为自变量，应付费 y 为因变量，并声明单位。"
+    },
+    {
+      "id": "sm-prac-n003",
+      "title": "实施：写出计费规则",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n002"
+      ],
+      "tags": [
+        "do",
+        "ch-plan"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把「套餐内固定费 + 超出部分单价」写成分段解析式（可用合理假设数）。"
+    },
+    {
+      "id": "sm-prac-n004",
+      "title": "实施：算三种用量",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n003"
+      ],
+      "tags": [
+        "do",
+        "ch-plan"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能代入偏少、刚好、偏多三种用量，比较应付费。"
+    },
+    {
+      "id": "sm-prac-n005",
+      "title": "实施：在两档套餐间选",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n004"
+      ],
+      "tags": [
+        "do",
+        "ch-plan"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能画出或列表比较两档套餐，指出用量落在哪一段时换套餐更划算。"
+    },
+    {
+      "id": "sm-prac-n006",
+      "title": "交流：套餐答辩",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-prac-n005"
+      ],
+      "tags": [
+        "share",
+        "ch-plan",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能讲清模型假设、分段点、选择建议，并回答「如果下月用量波动怎么办」。"
+    },
+    {
+      "id": "sm-prac-n007",
+      "title": "发现：后排看不清",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-sight"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出讲座座位视线被前排挡住的问题，并说明要测量哪些高度与距离。"
+    },
+    {
+      "id": "sm-prac-n008",
+      "title": "计划：视线约束清单",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-prac-n007"
+      ],
+      "tags": [
+        "plan",
+        "ch-sight"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出约束：屏幕下沿高度、前排头顶高度、最小仰角或间隙，座椅数量尽量不减。"
+    },
+    {
+      "id": "sm-prac-n009",
+      "title": "实施：画剖面草图",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n008"
+      ],
+      "tags": [
+        "do",
+        "ch-sight"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用简化线段画教室纵向剖面，标出屏幕、前排、后排的关键尺寸。"
+    },
+    {
+      "id": "sm-prac-n010",
+      "title": "实施：两种抬升方案",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n009"
+      ],
+      "tags": [
+        "do",
+        "ch-sight"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能提出两种方案（抬屏幕、抬后排、拉大排距等），并算出后排视线是否越过前排。"
+    },
+    {
+      "id": "sm-prac-n011",
+      "title": "实施：比较与取舍",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n010"
+      ],
+      "tags": [
+        "do",
+        "ch-sight"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「看得见、座位数量、改造成本直觉」比较方案，选出一个并说明放弃另一个的原因。"
+    },
+    {
+      "id": "sm-prac-n012",
+      "title": "交流：座位说明会",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-prac-n011"
+      ],
+      "tags": [
+        "share",
+        "ch-sight",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能向非数学听众讲解剖面图，回答「为什么不把屏幕再挂高一点」。"
+    },
+    {
+      "id": "sm-prac-n013",
+      "title": "发现：两件事能合在一起吗",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-prac-n006"
+      ],
+      "tags": [
+        "find",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能提出一个同时用到分段计费和空间约束的问题，例如活动室租赁时长与座位视线。"
+    },
+    {
+      "id": "sm-prac-n014",
+      "title": "计划：建模说明书",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-prac-n013"
+      ],
+      "tags": [
+        "plan",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能写问题、变量、假设、数据从哪来、准备交流什么。"
+    },
+    {
+      "id": "sm-prac-n015",
+      "title": "实施：走完建模四步",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n012",
+        "sm-prac-n014"
+      ],
+      "tags": [
+        "do",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按说明书收集或合理假设数据，算出一个结果，并写下局限。"
+    },
+    {
+      "id": "sm-prac-n016",
+      "title": "交流：一页成果卡",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n015"
+      ],
+      "tags": [
+        "share",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用问题、模型、结果、局限四句话写成果卡。"
+    },
+    {
+      "id": "sm-prac-n017",
+      "title": "建模工具箱",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n016"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出数学建模四步，以及每一步应留下的证据（式子、图、数据、局限）。"
+    },
+    {
+      "id": "sm-prac-n018",
+      "title": "实践合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-prac-n017"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能抽签完成套餐或视线课题中的完整流程。"
+    },
+    {
+      "id": "sm-prac-n019",
+      "title": "建模实践通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-prac-n018"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成高中数学建模活动线的收束检查。"
+    },
+    {
+      "id": "sm-prac-n020",
+      "title": "套餐隐藏条款",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n006"
+      ],
+      "tags": [
+        "plan",
+        "ch-plan"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能假设「超出后整档跳价」与「只对超出部分计价」两种条款，比较模型要怎么改。"
+    },
+    {
+      "id": "sm-prac-n021",
+      "title": "视线测量误差",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n011"
+      ],
+      "tags": [
+        "sight",
+        "ch-sight"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明高度差 2 厘米时，结论应怎样写得更谨慎。"
+    },
+    {
+      "id": "sm-prac-n022",
+      "title": "模型假设清单",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n014"
+      ],
+      "tags": [
+        "mix",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把「人坐直、屏幕是矩形、用量独立」等假设列成清单，指出哪一条最脆弱。"
+    },
+    {
+      "id": "sm-prac-n023",
+      "title": "向非数学老师讲解",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n016"
+      ],
+      "tags": [
+        "share",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把成果卡改写成不出现符号也能听懂的五句话。"
+    },
+    {
+      "id": "sm-prac-n024",
+      "title": "数据是别人给的",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 12,
+      "strand": "综合与实践",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-prac-n015"
+      ],
+      "tags": [
+        "mix",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明二手数据缺测量过程时，结论要降级为「在该数据下」。"
+    }
+  ]
+}

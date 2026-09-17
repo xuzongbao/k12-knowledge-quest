@@ -1,0 +1,843 @@
+{
+  "map_id": "sm-counting-probability",
+  "nodes": [
+    {
+      "id": "sm-count-n001",
+      "title": "分类加法计数",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "count",
+        "ch-count"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明完成一件事有几类办法、各类互不重叠时，总数是各类相加。本图从计数讲起。"
+    },
+    {
+      "id": "sm-count-n002",
+      "title": "分步乘法计数",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-count-n001"
+      ],
+      "tags": [
+        "count",
+        "ch-count"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明分几步完成、每步有若干选择时，总数是各步相乘。"
+    },
+    {
+      "id": "sm-count-n003",
+      "title": "加还是乘",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n002"
+      ],
+      "tags": [
+        "count",
+        "ch-count"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能判断情境是分类还是分步，避免把「或」乘成「且」。"
+    },
+    {
+      "id": "sm-count-n004",
+      "title": "排列的意义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-count-n002"
+      ],
+      "tags": [
+        "count",
+        "ch-arr"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明从 n 个不同元素中取出 m 个按顺序排，顺序不同算不同。"
+    },
+    {
+      "id": "sm-count-n005",
+      "title": "排列数公式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n004"
+      ],
+      "tags": [
+        "count",
+        "ch-arr"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用 A_n^m=n(n-1)…(n-m+1) 计算，并知道 A_n^n=n!。"
+    },
+    {
+      "id": "sm-count-n006",
+      "title": "组合的意义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-count-n004"
+      ],
+      "tags": [
+        "count",
+        "ch-arr"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明组合只问取出哪些、不问顺序。"
+    },
+    {
+      "id": "sm-count-n007",
+      "title": "组合数公式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n006",
+        "sm-count-n005"
+      ],
+      "tags": [
+        "count",
+        "ch-arr"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用 C_n^m=A_n^m/m! 计算，并理解除以 m! 是因为顺序被消去。"
+    },
+    {
+      "id": "sm-count-n008",
+      "title": "排列还是组合",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-count-n007",
+        "sm-count-n003"
+      ],
+      "tags": [
+        "count",
+        "ch-arr"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据「要不要排队」选择排列或组合，并处理简单混合。"
+    },
+    {
+      "id": "sm-count-n009",
+      "title": "二项式定理入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n007"
+      ],
+      "tags": [
+        "count",
+        "ch-bin"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把 (a+b)^n 展开写成各项 C_n^k a^{n-k} b^k。"
+    },
+    {
+      "id": "sm-count-n010",
+      "title": "二项式系数性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n009"
+      ],
+      "tags": [
+        "count",
+        "ch-bin"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能使用对称性 C_n^k=C_n^{n-k} 以及相邻系数关系的直觉。"
+    },
+    {
+      "id": "sm-count-n011",
+      "title": "计数与二项合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-count-n008",
+        "sm-count-n010"
+      ],
+      "tags": [
+        "count",
+        "ch-count",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能完成分类分步、排列组合与二项展开的综合练习。"
+    },
+    {
+      "id": "sm-count-n012",
+      "title": "离散型随机变量",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-count-n011"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把随机试验的数值结果看成随机变量，列出它可能取的值。"
+    },
+    {
+      "id": "sm-count-n013",
+      "title": "分布列",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n012"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能列出每个取值的概率，检查非负且和为 1。"
+    },
+    {
+      "id": "sm-count-n014",
+      "title": "两点分布",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-count-n013"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别只取 0 和 1 的随机变量，写出 P(X=1)=p。"
+    },
+    {
+      "id": "sm-count-n015",
+      "title": "二项分布",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-count-n014",
+        "sm-count-n009"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明 n 次独立重复、每次成功概率 p 时，成功次数服从二项分布。"
+    },
+    {
+      "id": "sm-count-n016",
+      "title": "超几何分布入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n013",
+        "sm-count-n007"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明不放回抽取中「抽到指定类的个数」用组合比来写概率。"
+    },
+    {
+      "id": "sm-count-n017",
+      "title": "期望",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-count-n013"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用 Σ x_i p_i 求期望，并说明它是加权平均，不一定是某个取值。"
+    },
+    {
+      "id": "sm-count-n018",
+      "title": "方差",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n017"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能理解方差衡量取值相对期望的分散程度，会算简单分布列的方差。"
+    },
+    {
+      "id": "sm-count-n019",
+      "title": "条件概率",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n013"
+      ],
+      "tags": [
+        "rv",
+        "ch-cond"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用 P(A|B)=P(A∩B)/P(B) 计算「已知 B 发生后 A 的概率」。"
+    },
+    {
+      "id": "sm-count-n020",
+      "title": "全概率入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-count-n019"
+      ],
+      "tags": [
+        "rv",
+        "ch-cond"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把样本空间分成几块，用各块上的条件概率拼出事件的概率。"
+    },
+    {
+      "id": "sm-count-n021",
+      "title": "独立事件",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n019"
+      ],
+      "tags": [
+        "rv",
+        "ch-cond"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明独立是「一个发生不改变另一个的概率」，此时 P(A∩B)=P(A)P(B)。"
+    },
+    {
+      "id": "sm-count-n022",
+      "title": "随机变量合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-count-n015",
+        "sm-count-n018",
+        "sm-count-n021",
+        "sm-count-n016"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在分布列、二项、期望、条件概率之间切换。"
+    },
+    {
+      "id": "sm-count-n023",
+      "title": "计数与随机变量通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-count-n022",
+        "sm-count-n020"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成本图收束检查。"
+    },
+    {
+      "id": "sm-count-n024",
+      "title": "放回与不放回",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n016",
+        "sm-count-n015"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能对照放回（二项）与不放回（超几何）何时近似、何时必须分开。"
+    },
+    {
+      "id": "sm-count-n025",
+      "title": "独立不是互斥",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n021"
+      ],
+      "tags": [
+        "rv",
+        "ch-cond"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明互斥时一个发生另一个必不发生，这通常不是独立。"
+    },
+    {
+      "id": "sm-count-n026",
+      "title": "期望不是最可能的值",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n017"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举期望不是任何一个取值的例子（如两点分布 p≠0.5）。"
+    },
+    {
+      "id": "sm-count-n027",
+      "title": "组合恒等式直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n010"
+      ],
+      "tags": [
+        "count",
+        "ch-bin"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「选 k 个等于留下 n-k 个」解释对称性。"
+    },
+    {
+      "id": "sm-count-n028",
+      "title": "正态曲线直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-count-n018"
+      ],
+      "tags": [
+        "rv",
+        "ch-rv"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明大量独立随机因素叠加时，直方图常常中间高两边低（不作计算要求）。"
+    },
+    {
+      "id": "sm-count-n029",
+      "title": "排列组合混合陷阱",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-count-n008"
+      ],
+      "tags": [
+        "count",
+        "ch-arr"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能改一道「有的位置要排队、有的只要选人」的错解。"
+    }
+  ]
+}

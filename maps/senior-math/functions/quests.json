@@ -1,0 +1,397 @@
+{
+  "map_id": "sm-functions",
+  "quests": [
+    {
+      "id": "sm-func-n001-explain",
+      "node_id": "sm-func-n001",
+      "title": "一对一还是多对一",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个「每个 x 一个 y」的例子，再举一个「一个 x 两个 y」说明它不是函数。",
+      "success_hint": "竖直方向不能一对多。"
+    },
+    {
+      "id": "sm-func-n002-practice",
+      "node_id": "sm-func-n002",
+      "title": "求定义域",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 个函数的定义域，含分母、偶次根、对数。",
+      "success_hint": "先找「不合法」的 x。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-func-n003-practice",
+      "node_id": "sm-func-n003",
+      "title": "说值域",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对 6 个简单函数说出值域或范围（可结合图象）。",
+      "success_hint": "值域是 y 实际能取到的。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-func-n004-practice",
+      "node_id": "sm-func-n004",
+      "title": "求函数值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给定解析式求 8 个函数值，含负数代入要加括号。",
+      "success_hint": "代入先加括号。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-func-n005-practice",
+      "node_id": "sm-func-n005",
+      "title": "描点画图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出 3 个简单函数图象，并用竖直直线检验。",
+      "success_hint": "描点—连线—看趋势。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-func-n006-explain",
+      "node_id": "sm-func-n006",
+      "title": "表只能看见一部分",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "同一对应，表格只列出 5 个 x。说明从表能读出什么、读不出什么。",
+      "success_hint": "没列出的 x 不能瞎猜。"
+    },
+    {
+      "id": "sm-func-n007-practice",
+      "node_id": "sm-func-n007",
+      "title": "分段求值画图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 个分段函数：求值、画图、指出分界点取哪一段。",
+      "success_hint": "分界点看属于哪个区间。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-func-n008-practice",
+      "node_id": "sm-func-n008",
+      "title": "判断单调",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个函数（可给图或表）指出增区间、减区间。",
+      "success_hint": "比较两个自变量对应的函数值。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-func-n009-practice",
+      "node_id": "sm-func-n009",
+      "title": "判断奇偶",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个函数判断奇、偶或既非奇又非偶。",
+      "success_hint": "先看定义域是否关于原点对称。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-func-n010-practice",
+      "node_id": "sm-func-n010",
+      "title": "读最值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在给定区间上读 6 个图象或简单解析式的最值。",
+      "success_hint": "闭区间上连续函数必有最值。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-func-n011-practice",
+      "node_id": "sm-func-n011",
+      "title": "找零点",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "由图或解析式指出 6 个函数的零点个数与大致位置。",
+      "success_hint": "零点是交 x 轴的地方。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-func-n012-practice",
+      "node_id": "sm-func-n012",
+      "title": "一张性质卡",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对 2 个函数填写：定义域、单调、奇偶、最值、零点。",
+      "success_hint": "先定义域，再谈其他。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-func-n012-mini-quiz",
+      "node_id": "sm-func-n012",
+      "title": "函数性质小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "定义域、分段、单调奇偶、零点。夹一道定义域不对称却谈奇偶。",
+      "success_hint": "奇偶先看定义域。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-func-boss-prop",
+      "node_id": "sm-func-n012",
+      "title": "关主：函数性质鉴定官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①求定义域 ②判断单调或奇偶 ③读最值或零点。",
+      "success_hint": "性质要挂在定义域上。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-func-n013-explain",
+      "node_id": "sm-func-n013",
+      "title": "幂函数长什么样",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出三个不同 α 的幂函数，指出哪些 x 能代入。",
+      "success_hint": "α 改了，定义域可能改。"
+    },
+    {
+      "id": "sm-func-n014-practice",
+      "node_id": "sm-func-n014",
+      "title": "第一象限比较",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在同一坐标系比较至少 4 种常见幂函数，标公共点。",
+      "success_hint": "第一象限 (1,1) 常常是公共点。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-func-n015-practice",
+      "node_id": "sm-func-n015",
+      "title": "负整数指数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算 8 个负整数指数幂。",
+      "success_hint": "负指数是倒数，底数不能为 0。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-func-n016-practice",
+      "node_id": "sm-func-n016",
+      "title": "根式改写",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组根式与分数指数互写。",
+      "success_hint": "偶次根要注意非负。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-func-n017-practice",
+      "node_id": "sm-func-n017",
+      "title": "有理指数运算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 道同底数幂的乘除乘方。",
+      "success_hint": "指数相加、相减或相乘。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-func-n018-explain",
+      "node_id": "sm-func-n018",
+      "title": "底数限制",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明为什么指数函数要求 a>0 且 a≠1。",
+      "success_hint": "负底数时有的 x 没有实意义；a=1 是常函数。"
+    },
+    {
+      "id": "sm-func-n019-practice",
+      "node_id": "sm-func-n019",
+      "title": "指数函数性质卡",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对 a=2 与 a=1/2 填写单调、定点、图象大致位置。",
+      "success_hint": "底数大于 1 递增。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-func-n020-practice",
+      "node_id": "sm-func-n020",
+      "title": "翻倍与半衰期",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 个情境写成指数函数并求指定时刻的值。",
+      "success_hint": "先确认「每次乘同一个数」。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-func-n021-practice",
+      "node_id": "sm-func-n021",
+      "title": "指数对数互化",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 组 a^b=N 与对数式互写。",
+      "success_hint": "对数是问指数。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-func-n022-practice",
+      "node_id": "sm-func-n022",
+      "title": "对数运算法则",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道化简，夹 2 道指出 log(A+B) 不能拆。",
+      "success_hint": "积商幂才能拆，加减不能。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-func-n023-practice",
+      "node_id": "sm-func-n023",
+      "title": "换底比较",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用换底比较 6 组不同底对数的大小。",
+      "success_hint": "换到同一底再比。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-func-n024-explain",
+      "node_id": "sm-func-n024",
+      "title": "真数必须为正",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明对数函数为什么定义域是 x>0。",
+      "success_hint": "正底数的任何次方都是正的。"
+    },
+    {
+      "id": "sm-func-n025-practice",
+      "node_id": "sm-func-n025",
+      "title": "对数函数性质卡",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对底数 2 与 1/2 填写单调、定点 (1,0)。",
+      "success_hint": "底数大于 1 时递增。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-func-n026-explain",
+      "node_id": "sm-func-n026",
+      "title": "互为逆运算",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一对数说明：先指数再对数（同底）回到原数，并提到 y=x 对称。",
+      "success_hint": "定义域值域对调。"
+    },
+    {
+      "id": "sm-func-n027-practice",
+      "node_id": "sm-func-n027",
+      "title": "解简单方程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解 8 道指数或对数方程，并检查是否在定义域内。",
+      "success_hint": "真数、底数限制不能忘。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-func-n027-mini-quiz",
+      "node_id": "sm-func-n027",
+      "title": "指数对数小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "互化、运算法则、性质、简单方程。夹一道真数不大于 0。",
+      "success_hint": "先定义域后运算。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-func-boss-exp",
+      "node_id": "sm-func-n027",
+      "title": "关主：指数对数航海士",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①指数或对数性质 ②运算法则化简 ③解一个方程并检查定义域。",
+      "success_hint": "底数和真数的限制最容易漏。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-func-n028-explain",
+      "node_id": "sm-func-n028",
+      "title": "选哪种增长",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "给三组「随时间变化」的描述，判断更像一次、二次还是指数。",
+      "success_hint": "看是加一个数、乘一个数还是加速弯曲。"
+    },
+    {
+      "id": "sm-func-n029-practice",
+      "node_id": "sm-func-n029",
+      "title": "写成函数再算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 个短情境：分段计费或增长率，写出函数并求值比较。",
+      "success_hint": "先写对应规则，再代入。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-func-n030-practice",
+      "node_id": "sm-func-n030",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "性质、幂函数、指数对数、简单应用各几题。",
+      "success_hint": "先辨是哪一类函数。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-func-n031-practice",
+      "node_id": "sm-func-n031",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：定义域与奇偶、指数对数互化、一个应用短题。",
+      "success_hint": "限制条件写在答案前面。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-func-boss-map",
+      "node_id": "sm-func-n031",
+      "title": "关主：函数通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①函数性质卡 ②指数与对数互化并化简 ③选一个模型或解一个方程。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "sm-func-n032-explain",
+      "node_id": "sm-func-n032",
+      "title": "反过来还是不是函数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个可以反过来的对应和一个不可以的，说明反函数需要什么。",
+      "success_hint": "先要一对一。"
+    },
+    {
+      "id": "sm-func-n033-practice",
+      "node_id": "sm-func-n033",
+      "title": "二分两次",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在一个变号区间上做两次二分，写下近似零点。",
+      "success_hint": "每次取中点，看哪半边变号。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-func-n034-practice",
+      "node_id": "sm-func-n034",
+      "title": "说出怎么移",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组：由解析式说出平移或伸缩，或反过来。",
+      "success_hint": "x 里面减 h 是向右。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-func-n035-practice",
+      "node_id": "sm-func-n035",
+      "title": "简单对数不等式",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解 4 道，先写 x>0 和底数情形。",
+      "success_hint": "底数在 (0,1) 时不等号方向与化成同底后可能相反。",
+      "items_suggested": 4
+    }
+  ]
+}

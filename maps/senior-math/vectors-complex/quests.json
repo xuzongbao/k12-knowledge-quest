@@ -1,0 +1,377 @@
+{
+  "map_id": "sm-vectors-complex",
+  "quests": [
+    {
+      "id": "sm-vec-n001-explain",
+      "node_id": "sm-vec-n001",
+      "title": "有方向的量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举位移、力各一例说明向量，再举温度说明数量。",
+      "success_hint": "有方向才能叫向量。"
+    },
+    {
+      "id": "sm-vec-n002-practice",
+      "node_id": "sm-vec-n002",
+      "title": "画出有向线段",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出 4 个向量，其中两个相等但位置不同。",
+      "success_hint": "平移不改变向量。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-vec-n003-practice",
+      "node_id": "sm-vec-n003",
+      "title": "相等还是共线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组判断相等、共线或都不是。",
+      "success_hint": "共线不一定等长。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-n004-practice",
+      "node_id": "sm-vec-n004",
+      "title": "加法作图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用三角形或平行四边形法则作 4 组加法。",
+      "success_hint": "首尾相接。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-vec-n005-practice",
+      "node_id": "sm-vec-n005",
+      "title": "减法作图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "作 4 组 a-b，写成 a+(-b)。",
+      "success_hint": "减 b 就是加相反。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-vec-n006-practice",
+      "node_id": "sm-vec-n006",
+      "title": "数乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算并画出 6 个数乘，含负倍数。",
+      "success_hint": "负号先反向。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-vec-n007-practice",
+      "node_id": "sm-vec-n007",
+      "title": "线性组合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算 6 个 2a-3b+c 一类，可先几何或先坐标（若已给）。",
+      "success_hint": "先同类运算再合并。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-vec-n008-explain",
+      "node_id": "sm-vec-n008",
+      "title": "为什么要两个不共线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明一个向量不能当平面基底，两个共线的也不行。",
+      "success_hint": "要能张成整个平面。"
+    },
+    {
+      "id": "sm-vec-n009-practice",
+      "node_id": "sm-vec-n009",
+      "title": "读写坐标",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个向量与坐标互写。",
+      "success_hint": "横分量、纵分量。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-n010-practice",
+      "node_id": "sm-vec-n010",
+      "title": "坐标加减数乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 道坐标运算。",
+      "success_hint": "分量分别算。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-vec-n011-practice",
+      "node_id": "sm-vec-n011",
+      "title": "求模",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 个向量的模。",
+      "success_hint": "平方和再开方。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-n012-explain",
+      "node_id": "sm-vec-n012",
+      "title": "结果是数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话区分数量积与向量加法：一个得到数，一个得到向量。",
+      "success_hint": "名称里的「数」要当真。"
+    },
+    {
+      "id": "sm-vec-n013-practice",
+      "node_id": "sm-vec-n013",
+      "title": "坐标求数量积",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道用分量求数量积。",
+      "success_hint": "x1x2+y1y2。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-n014-practice",
+      "node_id": "sm-vec-n014",
+      "title": "夹角垂直平行",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道求夹角或判断垂直平行。",
+      "success_hint": "垂直：积为 0；平行：坐标成比例。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-vec-n015-practice",
+      "node_id": "sm-vec-n015",
+      "title": "投影长度",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道求投影的数量。",
+      "success_hint": "数量积除以对方的模。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-vec-n016-practice",
+      "node_id": "sm-vec-n016",
+      "title": "向量短证明",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 道：中点或垂直，用向量等式写出骨架。",
+      "success_hint": "先设向量，再运算，再翻译回几何。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-vec-n016-mini-quiz",
+      "node_id": "sm-vec-n016",
+      "title": "向量小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "线性运算、坐标、数量积、垂直平行。夹一道把数量积当成向量。",
+      "success_hint": "看结果是数还是箭头。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-vec-boss-vec",
+      "node_id": "sm-vec-n016",
+      "title": "关主：平面向量调度员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①线性运算或坐标 ②数量积 ③判断垂直或平行。",
+      "success_hint": "坐标和几何两种语言要能切换。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-vec-n017-explain",
+      "node_id": "sm-vec-n017",
+      "title": "为什么需要 i",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明实数里哪一件事做不成，因而引进 i。",
+      "success_hint": "负数没有实的平方根。"
+    },
+    {
+      "id": "sm-vec-n018-practice",
+      "node_id": "sm-vec-n018",
+      "title": "指出实部虚部",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个复数指出实部、虚部，含纯虚数与实数。",
+      "success_hint": "bi 的虚部是 b，不是 bi。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-n019-practice",
+      "node_id": "sm-vec-n019",
+      "title": "复数相等",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组由相等列出关于实部虚部的方程。",
+      "success_hint": "两个实数方程。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-vec-n020-practice",
+      "node_id": "sm-vec-n020",
+      "title": "画在复平面",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在复平面标出 6 个复数。",
+      "success_hint": "横实纵虚。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-vec-n021-practice",
+      "node_id": "sm-vec-n021",
+      "title": "复数加减",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道加减，并在图上表示其中 2 道。",
+      "success_hint": "实部与虚部分开。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-n022-practice",
+      "node_id": "sm-vec-n022",
+      "title": "写共轭",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 个共轭，指出对称轴。",
+      "success_hint": "虚部变号。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-n023-practice",
+      "node_id": "sm-vec-n023",
+      "title": "求模",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 个复数的模。",
+      "success_hint": "与向量模相同。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-n024-practice",
+      "node_id": "sm-vec-n024",
+      "title": "复数乘法",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道乘法，整理成 a+bi。",
+      "success_hint": "i²=-1。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-n025-practice",
+      "node_id": "sm-vec-n025",
+      "title": "复数除法",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道除法：分子分母同乘分母的共轭。",
+      "success_hint": "分母变成模的平方。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-vec-n025-mini-quiz",
+      "node_id": "sm-vec-n025",
+      "title": "复数小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "实部虚部、加减乘除、模。夹一道把虚部写成 bi。",
+      "success_hint": "虚部是实数 b。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-vec-boss-cx",
+      "node_id": "sm-vec-n025",
+      "title": "关主：复数运算官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①指出实部虚部并画在复平面 ②完成乘或除 ③求模。",
+      "success_hint": "乘除不要做成分量分别运算。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-vec-n026-explain",
+      "node_id": "sm-vec-n026",
+      "title": "像在哪不像在哪",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照向量与复数：哪些运算一样，乘法多了什么。",
+      "success_hint": "加减一样；乘法带来旋转缩放。"
+    },
+    {
+      "id": "sm-vec-n027-practice",
+      "node_id": "sm-vec-n027",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "向量数量积、复数乘除、复平面各几题。",
+      "success_hint": "先看是箭头问题还是 a+bi 问题。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-vec-n028-practice",
+      "node_id": "sm-vec-n028",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：向量垂直判定、复数除法、复平面表示。",
+      "success_hint": "两种坐标语言不要混公式。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-vec-boss-map",
+      "node_id": "sm-vec-n028",
+      "title": "关主：向量与复数通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①向量数量积或夹角 ②复数乘或除 ③在图上表示一个向量或复数。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "sm-vec-n029-practice",
+      "node_id": "sm-vec-n029",
+      "title": "写成单位向量",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 4 个非零向量写成模乘单位向量。",
+      "success_hint": "除以模。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-vec-n030-explain",
+      "node_id": "sm-vec-n030",
+      "title": "功为什么是数量积",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用「只算沿位移方向的力」说明为什么出现余弦。",
+      "success_hint": "垂直的力不做功。"
+    },
+    {
+      "id": "sm-vec-n031-explain",
+      "node_id": "sm-vec-n031",
+      "title": "乘 i 转直角",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "计算 i、i²、i³、i⁴ 并在复平面上标出，说明每次转 90°。",
+      "success_hint": "乘 i 逆时针转直角。"
+    },
+    {
+      "id": "sm-vec-n032-explain",
+      "node_id": "sm-vec-n032",
+      "title": "零向量怎么说方向",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明为什么「与零向量平行」要单独约定。",
+      "success_hint": "没有确定方向，只能靠定义。"
+    },
+    {
+      "id": "sm-vec-n033-practice",
+      "node_id": "sm-vec-n033",
+      "title": "中点向量式",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用向量写出 2 条线段中点，并验证一组坐标。",
+      "success_hint": "两端点向量相加除以 2。",
+      "items_suggested": 2
+    }
+  ]
+}

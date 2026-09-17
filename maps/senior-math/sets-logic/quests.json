@@ -1,0 +1,386 @@
+{
+  "map_id": "sm-sets-logic",
+  "quests": [
+    {
+      "id": "sm-set-n001-explain",
+      "node_id": "sm-set-n001",
+      "title": "什么是集合",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话说明集合是什么，并举一个「是集合」和一个「不宜称作集合」的例子。",
+      "success_hint": "属性要能判断谁在里面、谁不在。"
+    },
+    {
+      "id": "sm-set-n002-practice",
+      "node_id": "sm-set-n002",
+      "title": "属于还是不属于",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对 8 个「对象与集合」判断 ∈ 或 ∉。",
+      "success_hint": "先看集合是用什么属性规定的。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-set-n003-practice",
+      "node_id": "sm-set-n003",
+      "title": "用列举法写",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 6 个集合用列举法写出，检查有没有重复或漏元。",
+      "success_hint": "顺序可变，元素不能重复。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n004-practice",
+      "node_id": "sm-set-n004",
+      "title": "列举与描述互译",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组：列举改描述，或描述改列举。",
+      "success_hint": "描述法要写清代表元和条件。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n005-explain",
+      "node_id": "sm-set-n005",
+      "title": "有限还是无限",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "各举两个有限集、无限集，说明你怎么判断。",
+      "success_hint": "数不清个数就是无限，不是「很大」。"
+    },
+    {
+      "id": "sm-set-n006-practice",
+      "node_id": "sm-set-n006",
+      "title": "空集辨认",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "从 8 个写法里挑出空集，指出哪些只是看起来像空。",
+      "success_hint": "∅ 没有元素；{∅} 有一个元素。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-set-n007-practice",
+      "node_id": "sm-set-n007",
+      "title": "判断子集",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组判断 A⊆B 是否成立，含空集。",
+      "success_hint": "逐个检查 A 的元素是否都在 B 里。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-set-n008-practice",
+      "node_id": "sm-set-n008",
+      "title": "真子集对照",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组区分 ⊆ 与 ⊂，指出相等的那对为什么不是真子集。",
+      "success_hint": "相等时仍是子集，但不是真子集。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n009-practice",
+      "node_id": "sm-set-n009",
+      "title": "集合是否相等",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组用互相包含判断相等，含写法不同但元素相同。",
+      "success_hint": "元素一样就相等，与列出顺序无关。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n010-explain",
+      "node_id": "sm-set-n010",
+      "title": "先声明全集",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "给一个「补集」问题，先写出你选定的全集，并说明为什么必须先写。",
+      "success_hint": "全集变了，补集就变了。"
+    },
+    {
+      "id": "sm-set-n011-practice",
+      "node_id": "sm-set-n011",
+      "title": "求补集",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在给定全集下求 6 个集合的补集。",
+      "success_hint": "补集是全集里去掉该集合。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n012-practice",
+      "node_id": "sm-set-n012",
+      "title": "求交集",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 对集合的交集，含不相交得到空集。",
+      "success_hint": "两个都要属于才进交集。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-set-n013-practice",
+      "node_id": "sm-set-n013",
+      "title": "求并集",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 对集合的并集，注意不要把交当成并。",
+      "success_hint": "来自任何一方的元素都算。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-set-n014-practice",
+      "node_id": "sm-set-n014",
+      "title": "交并补混合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道混合运算，可画文氏图辅助。",
+      "success_hint": "由内层括号向外，补集相对谁要看清。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n014-mini-quiz",
+      "node_id": "sm-set-n014",
+      "title": "集合小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "子集、交并补、空集与 {∅} 对照。夹一道把并画成交。",
+      "success_hint": "先元素，再符号。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-set-boss-set",
+      "node_id": "sm-set-n014",
+      "title": "关主：集合运算官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断属于与子集 ②完成交并补 ③用文氏图解释一步混合运算。",
+      "success_hint": "符号和区域要能对上。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-set-n015-explain",
+      "node_id": "sm-set-n015",
+      "title": "这是不是命题",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "从若干句子里挑出命题，并判断真假；指出疑问句为什么不是。",
+      "success_hint": "命题必须能判真假。"
+    },
+    {
+      "id": "sm-set-n016-practice",
+      "node_id": "sm-set-n016",
+      "title": "且或非真值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组复合命题判断真假，含「非」只作用一部分。",
+      "success_hint": "且要全真；或要有一真；非是翻转。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-set-n017-practice",
+      "node_id": "sm-set-n017",
+      "title": "否定全称",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个全称命题，写出否定，并各给一个反例或说明找不到。",
+      "success_hint": "否定「所有」只要存在一个反例。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n018-practice",
+      "node_id": "sm-set-n018",
+      "title": "否定存在",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个存在命题，写出否定。",
+      "success_hint": "否定「存在」等于「全部都没有」。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n019-practice",
+      "node_id": "sm-set-n019",
+      "title": "谁是充分",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组「若 p 则 q」，指出谁是谁的充分条件。",
+      "success_hint": "箭头尾巴是充分。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-set-n020-practice",
+      "node_id": "sm-set-n020",
+      "title": "谁是必要",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 组指出必要条件，并与上一节点对照方向。",
+      "success_hint": "没有它就不行，是必要。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-set-n021-practice",
+      "node_id": "sm-set-n021",
+      "title": "充要判断",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组判断是否充要，把单向的改成正确说法。",
+      "success_hint": "两个方向都要成立才叫充要。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n022-practice",
+      "node_id": "sm-set-n022",
+      "title": "写出四种命题",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个原命题，写出逆、否、逆否，并标真假（可给简单数例）。",
+      "success_hint": "换位是逆，两边都非是否。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-set-n023-explain",
+      "node_id": "sm-set-n023",
+      "title": "为什么看逆否",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话说明：证明原命题有时改证逆否，因为它们同真同假。",
+      "success_hint": "等价才能换着证。"
+    },
+    {
+      "id": "sm-set-n024-practice",
+      "node_id": "sm-set-n024",
+      "title": "逻辑套集合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道把「所有交于…」「存在属于…」改成符号或反过来。",
+      "success_hint": "量词管的是元素，不是集合名称本身。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n024-mini-quiz",
+      "node_id": "sm-set-n024",
+      "title": "逻辑用语小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "且或非、量词否定、充分必要、逆否。夹一道把充分说反。",
+      "success_hint": "先画箭头，再开口。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-set-boss-logic",
+      "node_id": "sm-set-n024",
+      "title": "关主：逻辑用语审查员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断复合命题真假 ②否定一个全称或存在 ③指出充分/必要/充要。",
+      "success_hint": "方向和量词两处最容易反。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-set-n025-explain",
+      "node_id": "sm-set-n025",
+      "title": "变向还是不变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对照等式与不等式：两边同乘 -2 之后，等号、不等号各怎样。",
+      "success_hint": "不等式乘负数要变向。"
+    },
+    {
+      "id": "sm-set-n026-explain",
+      "node_id": "sm-set-n026",
+      "title": "方程就是交点",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用二次函数草图说明 x²-1=0 的解是图象与 x 轴的交点。",
+      "success_hint": "解方程可以看成看图象。"
+    },
+    {
+      "id": "sm-set-n027-practice",
+      "node_id": "sm-set-n027",
+      "title": "解一元二次不等式",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "解 8 道一元二次不等式，先开口后零点。",
+      "success_hint": "大于 0 看图象在 x 轴上方的部分。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-set-n028-practice",
+      "node_id": "sm-set-n028",
+      "title": "写成集合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 6 个解集写成集合，并在数轴上标出来。",
+      "success_hint": "端点取不取得到看原不等号。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-set-n029-practice",
+      "node_id": "sm-set-n029",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "集合运算、逻辑用语、二次不等式解集各几题。",
+      "success_hint": "先辨题型，再选符号。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-set-n030-practice",
+      "node_id": "sm-set-n030",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：交并补、量词否定、充要判断、二次不等式解集。",
+      "success_hint": "符号、方向、开口，三处最容易漏。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-set-boss-map",
+      "node_id": "sm-set-n030",
+      "title": "关主：预备知识通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①集合交并补 ②充分必要与量词否定 ③用函数观点解一个二次不等式。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "sm-set-n031-practice",
+      "node_id": "sm-set-n031",
+      "title": "三种写法互译",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "不等式、区间、数轴各 4 组互译。",
+      "success_hint": "圆括号不含端点，方括号含端点。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-set-n032-explain",
+      "node_id": "sm-set-n032",
+      "title": "非且变或",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用两个圈说明：不在重叠里，等于在某个圈外面。",
+      "success_hint": "非(且)变成(或)，圈要画对。"
+    },
+    {
+      "id": "sm-set-n033-practice",
+      "node_id": "sm-set-n033",
+      "title": "三个圈",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在三个集合的文氏图上标出指定区域，如「恰属于两个」。",
+      "success_hint": "先数属于几个集合。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-set-n034-explain",
+      "node_id": "sm-set-n034",
+      "title": "先假设反面",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "选一个简单全称句，假设存在反例，推出与已知矛盾。",
+      "success_hint": "矛盾来自与已知事实冲突，不是空骂一句。"
+    }
+  ]
+}

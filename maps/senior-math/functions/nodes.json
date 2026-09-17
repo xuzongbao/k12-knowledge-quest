@@ -1,0 +1,1017 @@
+{
+  "map_id": "sm-functions",
+  "nodes": [
+    {
+      "id": "sm-func-n001",
+      "title": "对应关系与函数",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明函数是一种对应：每个允许的 x 都对应唯一的 y。本图从概念重新讲起。"
+    },
+    {
+      "id": "sm-func-n002",
+      "title": "定义域",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n001"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据解析式求定义域：分母不为 0、偶次根下非负、对数真数为正等。"
+    },
+    {
+      "id": "sm-func-n003",
+      "title": "值域入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n002"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能对简单函数说出值域或值的范围，并说明它依赖于定义域。"
+    },
+    {
+      "id": "sm-func-n004",
+      "title": "解析式表示",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n001"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从对应规则写出 y=f(x)，并求指定自变量的函数值。"
+    },
+    {
+      "id": "sm-func-n005",
+      "title": "图象表示",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n004"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在坐标平面上描点连线表示函数，并说明竖直直线至多交图象一次。"
+    },
+    {
+      "id": "sm-func-n006",
+      "title": "表格表示",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n004"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能从表格读对应，并说明表格往往只给出部分点。"
+    },
+    {
+      "id": "sm-func-n007",
+      "title": "分段函数",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n002",
+        "sm-func-n005"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能按自变量所在区间选用不同对应规则，求值和画折线型图象。"
+    },
+    {
+      "id": "sm-func-n008",
+      "title": "单调性",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n005"
+      ],
+      "tags": [
+        "fn",
+        "ch-prop"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「随 x 增大，f(x) 增大或减小」描述单调，并用定义比较 f(x1) 与 f(x2)。"
+    },
+    {
+      "id": "sm-func-n009",
+      "title": "奇偶性",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n005"
+      ],
+      "tags": [
+        "fn",
+        "ch-prop"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用 f(-x)=f(x) 或 -f(x) 判断偶函数、奇函数，并联系图象对称。"
+    },
+    {
+      "id": "sm-func-n010",
+      "title": "最大最小值",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n008"
+      ],
+      "tags": [
+        "fn",
+        "ch-prop"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在给定区间上读出或求出函数的最大、最小值，并说明端点也可能取到。"
+    },
+    {
+      "id": "sm-func-n011",
+      "title": "函数的零点",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n005",
+        "sm-func-n008"
+      ],
+      "tags": [
+        "fn",
+        "ch-prop"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明 f(x)=0 的根就是图象与 x 轴交点的横坐标，叫做零点。"
+    },
+    {
+      "id": "sm-func-n012",
+      "title": "性质综合",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-func-n007",
+        "sm-func-n009",
+        "sm-func-n010",
+        "sm-func-n011"
+      ],
+      "tags": [
+        "fn",
+        "ch-prop",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对同一个函数同时讨论定义域、单调、奇偶、最值与零点。"
+    },
+    {
+      "id": "sm-func-n013",
+      "title": "幂函数概念",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n012"
+      ],
+      "tags": [
+        "power",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别 y=x^α（α 为给定实数）叫做幂函数，并指出定义域随 α 变化。"
+    },
+    {
+      "id": "sm-func-n014",
+      "title": "常见幂函数图象",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n013"
+      ],
+      "tags": [
+        "power",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能比较 y=x, x², x³, √x, 1/x 在第一象限的升降快慢与公共点。"
+    },
+    {
+      "id": "sm-func-n015",
+      "title": "整数指数幂回顾",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n013"
+      ],
+      "tags": [
+        "exp",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能计算负整数指数幂，并说明 a^{-n}=1/a^n（a≠0）。"
+    },
+    {
+      "id": "sm-func-n016",
+      "title": "根式与分数指数",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n015"
+      ],
+      "tags": [
+        "exp",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把根式写成分数指数幂，并注意偶次根下非负。"
+    },
+    {
+      "id": "sm-func-n017",
+      "title": "有理指数幂运算",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n016"
+      ],
+      "tags": [
+        "exp",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用同底数幂法则完成有理指数的乘除与乘方。"
+    },
+    {
+      "id": "sm-func-n018",
+      "title": "指数函数定义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n017"
+      ],
+      "tags": [
+        "exp",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别 y=a^x（a>0, a≠1），说明定义域为 R、值域为正。"
+    },
+    {
+      "id": "sm-func-n019",
+      "title": "指数函数性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-func-n018",
+        "sm-func-n008"
+      ],
+      "tags": [
+        "exp",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据 a>1 或 0<a<1 说出单调性，并指出过定点 (0,1)。"
+    },
+    {
+      "id": "sm-func-n020",
+      "title": "指数增长与衰减",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n019"
+      ],
+      "tags": [
+        "exp",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用指数函数描述翻倍、半衰期一类变化，并说明底数含义。"
+    },
+    {
+      "id": "sm-func-n021",
+      "title": "对数的定义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n018"
+      ],
+      "tags": [
+        "log",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明 log_a N 是「a 的多少次方等于 N」，并写出指数对数互化。"
+    },
+    {
+      "id": "sm-func-n022",
+      "title": "对数运算性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n021"
+      ],
+      "tags": [
+        "log",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用积商幂的对数法则化简，并指出真数必须为正。"
+    },
+    {
+      "id": "sm-func-n023",
+      "title": "换底公式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n022"
+      ],
+      "tags": [
+        "log",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把对数换到底数 10 或 e 以便计算，并用来比较不同底的对数值。"
+    },
+    {
+      "id": "sm-func-n024",
+      "title": "对数函数定义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-func-n021"
+      ],
+      "tags": [
+        "log",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别 y=log_a x（a>0, a≠1），定义域 x>0。"
+    },
+    {
+      "id": "sm-func-n025",
+      "title": "对数函数性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-func-n024",
+        "sm-func-n019"
+      ],
+      "tags": [
+        "log",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据底数大于 1 或在 0 与 1 之间说出单调性，并指出过定点 (1,0)。"
+    },
+    {
+      "id": "sm-func-n026",
+      "title": "指数与对数互逆",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n025"
+      ],
+      "tags": [
+        "log",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明指数函数与对数函数（同底）图象关于 y=x 对称，运算上互为逆运算。"
+    },
+    {
+      "id": "sm-func-n027",
+      "title": "指数对数方程入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-func-n022",
+        "sm-func-n026"
+      ],
+      "tags": [
+        "log",
+        "ch-elem",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能解简单指数方程、对数方程：化为同底或利用互逆，并检查定义域。"
+    },
+    {
+      "id": "sm-func-n028",
+      "title": "函数模型选择",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n020",
+        "sm-func-n014"
+      ],
+      "tags": [
+        "app",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能根据「线性、多项式、指数」增长形态选择简单模型，不要求精确拟合。"
+    },
+    {
+      "id": "sm-func-n029",
+      "title": "函数应用短题",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-func-n028",
+        "sm-func-n027"
+      ],
+      "tags": [
+        "app",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把增长率、衰减、分段计费写成函数并求值、比较。"
+    },
+    {
+      "id": "sm-func-n030",
+      "title": "基本初等函数合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-func-n029",
+        "sm-func-n012"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在幂、指、对与一般性质之间切换，不把底数限制说错。"
+    },
+    {
+      "id": "sm-func-n031",
+      "title": "函数通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-func-n030"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成函数概念、性质与指数对数的收束检查。"
+    },
+    {
+      "id": "sm-func-n032",
+      "title": "反函数直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n026"
+      ],
+      "tags": [
+        "fn",
+        "ch-fn"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明反函数是把对应反过来，并指出要先一一对应才谈得上。"
+    },
+    {
+      "id": "sm-func-n033",
+      "title": "用二分法求零点",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n011"
+      ],
+      "tags": [
+        "fn",
+        "ch-prop"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在连续变号区间上用中点逐步逼近零点，说明得到的是近似。"
+    },
+    {
+      "id": "sm-func-n034",
+      "title": "图象平移与伸缩",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-func-n019"
+      ],
+      "tags": [
+        "fn",
+        "ch-prop"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明 f(x)+k、f(x-h)、af(x) 对图象的上下、左右、伸缩作用。"
+    },
+    {
+      "id": "sm-func-n035",
+      "title": "对数不等式入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-func-n027"
+      ],
+      "tags": [
+        "log",
+        "ch-elem"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能解简单对数不等式，并强调先写定义域、再看底数是否大于 1。"
+    }
+  ]
+}

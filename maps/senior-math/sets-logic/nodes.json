@@ -1,0 +1,986 @@
+{
+  "map_id": "sm-sets-logic",
+  "nodes": [
+    {
+      "id": "sm-set-n001",
+      "title": "集合的含义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把具有共同属性的对象看成一个整体，并说明集合由元素确定。本图从这里进入预备知识。"
+    },
+    {
+      "id": "sm-set-n002",
+      "title": "元素与属于",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-set-n001"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能判断对象是否属于给定集合，并用 ∈、∉ 书写。"
+    },
+    {
+      "id": "sm-set-n003",
+      "title": "列举法",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-set-n002"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用花括号把有限个元素一一列出，注意不重复、不遗漏、与顺序无关。"
+    },
+    {
+      "id": "sm-set-n004",
+      "title": "描述法",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-set-n002"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「满足某条件的对象」描述集合，并与列举法互译简单例子。"
+    },
+    {
+      "id": "sm-set-n005",
+      "title": "有限集与无限集",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-set-n003",
+        "sm-set-n004"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能区分元素个数有限与无限，并各举一例（如小于 5 的正整数、全体整数）。"
+    },
+    {
+      "id": "sm-set-n006",
+      "title": "空集",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-set-n005"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明没有元素的集合叫做空集，记作 ∅，它是任何集合的子集。"
+    },
+    {
+      "id": "sm-set-n007",
+      "title": "子集",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n006"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用 ⊆ 判断 A 是否为 B 的子集：A 的每个元素都属于 B。"
+    },
+    {
+      "id": "sm-set-n008",
+      "title": "真子集",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n007"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能区分 ⊂ 与 ⊆：真子集是子集但不相等。"
+    },
+    {
+      "id": "sm-set-n009",
+      "title": "集合相等",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n008"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用「互相包含」判断两集合相等，而不只看写法是否一样。"
+    },
+    {
+      "id": "sm-set-n010",
+      "title": "全集",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-set-n007"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在讨论补集之前先声明全集：当前问题里所有对象构成的集合。"
+    },
+    {
+      "id": "sm-set-n011",
+      "title": "补集",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n010"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能求集合在全集中的补集：属于全集但不属于该集合的元素。"
+    },
+    {
+      "id": "sm-set-n012",
+      "title": "交集",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n007"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能求两集合的交集：同时属于两者的元素。"
+    },
+    {
+      "id": "sm-set-n013",
+      "title": "并集",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n012"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能求两集合的并集：至少属于其中之一的元素。"
+    },
+    {
+      "id": "sm-set-n014",
+      "title": "集合运算综合",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-set-n009",
+        "sm-set-n011",
+        "sm-set-n013"
+      ],
+      "tags": [
+        "set",
+        "ch-set",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在文氏图或符号式里完成交、并、补的混合，并说明空集、全集的角色。"
+    },
+    {
+      "id": "sm-set-n015",
+      "title": "命题与真假",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-set-n014"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能识别可以判断真假的陈述叫做命题，并各举一真一假。"
+    },
+    {
+      "id": "sm-set-n016",
+      "title": "且、或、非",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n015"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用且、或、非连接命题，并说明何时为真：且要都真，或要有一真，非要反过来。"
+    },
+    {
+      "id": "sm-set-n017",
+      "title": "全称量词",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n016"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能读写「任意 / 所有」语句，并知道举一个反例就能否定全称命题。"
+    },
+    {
+      "id": "sm-set-n018",
+      "title": "存在量词",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n017"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能读写「存在 / 至少有一个」语句，并知道要否定它需要说明一个都没有。"
+    },
+    {
+      "id": "sm-set-n019",
+      "title": "充分条件",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n016"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明「若 p 则 q」中 p 是 q 的充分条件：有 p 就一定有 q。"
+    },
+    {
+      "id": "sm-set-n020",
+      "title": "必要条件",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n019"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明 q 是 p 的必要条件：没有 q 就没有 p；可与充分对照。"
+    },
+    {
+      "id": "sm-set-n021",
+      "title": "充要条件",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n020"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能判断 p 与 q 是否等价：既充分又必要，可写成当且仅当。"
+    },
+    {
+      "id": "sm-set-n022",
+      "title": "四种命题",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n019"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能由原命题写出逆、否、逆否，并说明它们真假不必相同。"
+    },
+    {
+      "id": "sm-set-n023",
+      "title": "逆否命题",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-set-n022",
+        "sm-set-n021"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明原命题与逆否命题等价，逆命题与否命题等价。"
+    },
+    {
+      "id": "sm-set-n024",
+      "title": "逻辑用语综合",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-set-n018",
+        "sm-set-n023"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在集合语句里正确使用量词、且或非、充分必要，不把「有一个」说成「所有」。"
+    },
+    {
+      "id": "sm-set-n025",
+      "title": "等式与不等式性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n014"
+      ],
+      "tags": [
+        "ineq",
+        "ch-ineq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能回顾等式两边同做一件事仍相等；不等式两边同乘负数要变向。"
+    },
+    {
+      "id": "sm-set-n026",
+      "title": "从函数观点看方程",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n025"
+      ],
+      "tags": [
+        "ineq",
+        "ch-ineq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把方程 f(x)=0 看成函数图象与 x 轴交点，而不是另一套孤立技巧。"
+    },
+    {
+      "id": "sm-set-n027",
+      "title": "一元二次不等式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-set-n026"
+      ],
+      "tags": [
+        "ineq",
+        "ch-ineq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能结合二次函数开口与零点，写出一元二次不等式的解集。"
+    },
+    {
+      "id": "sm-set-n028",
+      "title": "解集写成集合",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n027",
+        "sm-set-n013"
+      ],
+      "tags": [
+        "ineq",
+        "ch-ineq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把不等式解集写成集合或简单区间形式，并与数轴对照。"
+    },
+    {
+      "id": "sm-set-n029",
+      "title": "预备知识合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-set-n024",
+        "sm-set-n028"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在集合运算、逻辑用语、不等式解集之间切换，不混用符号。"
+    },
+    {
+      "id": "sm-set-n030",
+      "title": "预备知识通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-set-n029"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成集合、逻辑用语、从函数观点看不等关系的收束检查。"
+    },
+    {
+      "id": "sm-set-n031",
+      "title": "区间表示",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n028"
+      ],
+      "tags": [
+        "set",
+        "ch-ineq"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在数轴、不等式、区间三种写法之间互译，注意端点开闭。"
+    },
+    {
+      "id": "sm-set-n032",
+      "title": "德摩根律直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n016",
+        "sm-set-n011"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用文氏图说明「补集的交并会翻转」：非(A 且 B) 相当于 非A 或 非B。"
+    },
+    {
+      "id": "sm-set-n033",
+      "title": "文氏图复杂情形",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n014"
+      ],
+      "tags": [
+        "set",
+        "ch-set"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能画出三个集合的文氏图，标出「只在两个里出现」的区域。"
+    },
+    {
+      "id": "sm-set-n034",
+      "title": "反证法萌芽",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-set-n023"
+      ],
+      "tags": [
+        "logic",
+        "ch-logic"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「先假设结论反面，推出矛盾」说明一个简单全称命题，不要求完整格式证明。"
+    }
+  ]
+}

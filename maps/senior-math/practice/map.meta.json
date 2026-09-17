@@ -1,0 +1,27 @@
+{
+  "id": "sm-practice",
+  "title": "高中 · 数学建模与综合实践",
+  "subject": "数学",
+  "stage": "高中",
+  "grade": 12,
+  "strand": "综合与实践",
+  "module": "数学建模活动与数学探究活动",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "sm-prac-n001"
+  ],
+  "recommended_path_note": "流量套餐分段模型（关主 1）；讲座视线约束在套餐交流后展开（关主 2）；综合课题与成果卡收束。隐藏条款（n020）、测量误差（n021）、假设清单（n022）、白话讲解（n023）、二手数据（n024）为软锁。课题骨架原创，不抄教材长文。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "sm-prac-boss-plan",
+      "sm-prac-boss-sight",
+      "sm-prac-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：套餐建模师、视线规划员、地图通关试炼。"
+  },
+  "content_disclaimer": "活动骨架为课标数学建模活动风格的原创设计，不是教材课题或练习页的摘录。",
+  "description": "高中「数学建模活动」地图：套餐分段计费、讲座视线约束、综合报告。独立通关。grade=12 为综合收束学段带。"
+}

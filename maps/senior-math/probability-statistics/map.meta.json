@@ -1,0 +1,27 @@
+{
+  "id": "sm-probability-statistics",
+  "title": "高中 · 概率与统计（必修）",
+  "subject": "数学",
+  "stage": "高中",
+  "grade": 10,
+  "strand": "统计与概率",
+  "module": "概率与统计（必修）",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "sm-stat-n001"
+  ],
+  "recommended_path_note": "抽样与数字特征（关主 1）；散点回归可并行；古典概型（关主 2）后收束。方便样本（n027）、回归非因果（n028）、组距（n029）、普查（n030）、互斥非对立（n031）、等可能检查（n032）为软锁。计数原理与随机变量不在本图。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "sm-stat-boss-stat",
+      "sm-stat-boss-prob",
+      "sm-stat-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：抽样估计员、古典概型绘图员、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为普通高中数学课标（2017/2020）目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或高考试题的摘录。",
+  "description": "高中必修「概率与统计」地图：抽样与数字特征 → 相关与回归直觉 → 随机事件与古典概型。独立通关。grade=10。"
+}

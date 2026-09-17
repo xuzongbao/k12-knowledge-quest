@@ -1,0 +1,27 @@
+{
+  "id": "sm-counting-probability",
+  "title": "高中 · 计数原理与随机变量",
+  "subject": "数学",
+  "stage": "高中",
+  "grade": 11,
+  "strand": "统计与概率",
+  "module": "计数原理与随机变量",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "sm-count-n001"
+  ],
+  "recommended_path_note": "分类分步与排列组合（关主 1）→ 分布列、二项与期望（关主 2）→ 条件概率后收束。放回对照（n024）、独立非互斥（n025）、期望非众数（n026）、组合对称（n027）、正态直觉（n028）、混合陷阱（n029）为软锁。grade=11。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "sm-count-boss-count",
+      "sm-count-boss-rv",
+      "sm-count-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：计数原理调度员、随机变量分析官、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为普通高中数学课标（2017/2020）目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或高考试题的摘录。",
+  "description": "高中选必「计数原理、随机变量」地图。独立通关。grade=11。"
+}

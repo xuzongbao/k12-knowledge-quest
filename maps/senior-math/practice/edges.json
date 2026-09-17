@@ -1,0 +1,185 @@
+{
+  "map_id": "sm-practice",
+  "edges": [
+    {
+      "from": "sm-prac-n001",
+      "to": "sm-prac-n002",
+      "type": "prerequisite",
+      "note": "sm-prac-n001 需先于 sm-prac-n002"
+    },
+    {
+      "from": "sm-prac-n002",
+      "to": "sm-prac-n003",
+      "type": "prerequisite",
+      "note": "sm-prac-n002 需先于 sm-prac-n003"
+    },
+    {
+      "from": "sm-prac-n003",
+      "to": "sm-prac-n004",
+      "type": "prerequisite",
+      "note": "sm-prac-n003 需先于 sm-prac-n004"
+    },
+    {
+      "from": "sm-prac-n004",
+      "to": "sm-prac-n005",
+      "type": "prerequisite",
+      "note": "sm-prac-n004 需先于 sm-prac-n005"
+    },
+    {
+      "from": "sm-prac-n005",
+      "to": "sm-prac-n006",
+      "type": "prerequisite",
+      "note": "sm-prac-n005 需先于 sm-prac-n006"
+    },
+    {
+      "from": "sm-prac-n006",
+      "to": "sm-prac-n007",
+      "type": "prerequisite",
+      "note": "sm-prac-n006 需先于 sm-prac-n007"
+    },
+    {
+      "from": "sm-prac-n007",
+      "to": "sm-prac-n008",
+      "type": "prerequisite",
+      "note": "sm-prac-n007 需先于 sm-prac-n008"
+    },
+    {
+      "from": "sm-prac-n008",
+      "to": "sm-prac-n009",
+      "type": "prerequisite",
+      "note": "sm-prac-n008 需先于 sm-prac-n009"
+    },
+    {
+      "from": "sm-prac-n009",
+      "to": "sm-prac-n010",
+      "type": "prerequisite",
+      "note": "sm-prac-n009 需先于 sm-prac-n010"
+    },
+    {
+      "from": "sm-prac-n010",
+      "to": "sm-prac-n011",
+      "type": "prerequisite",
+      "note": "sm-prac-n010 需先于 sm-prac-n011"
+    },
+    {
+      "from": "sm-prac-n011",
+      "to": "sm-prac-n012",
+      "type": "prerequisite",
+      "note": "sm-prac-n011 需先于 sm-prac-n012"
+    },
+    {
+      "from": "sm-prac-n006",
+      "to": "sm-prac-n013",
+      "type": "prerequisite",
+      "note": "sm-prac-n006 需先于 sm-prac-n013"
+    },
+    {
+      "from": "sm-prac-n013",
+      "to": "sm-prac-n014",
+      "type": "prerequisite",
+      "note": "sm-prac-n013 需先于 sm-prac-n014"
+    },
+    {
+      "from": "sm-prac-n012",
+      "to": "sm-prac-n015",
+      "type": "prerequisite",
+      "note": "sm-prac-n012 需先于 sm-prac-n015"
+    },
+    {
+      "from": "sm-prac-n014",
+      "to": "sm-prac-n015",
+      "type": "prerequisite",
+      "note": "sm-prac-n014 需先于 sm-prac-n015"
+    },
+    {
+      "from": "sm-prac-n015",
+      "to": "sm-prac-n016",
+      "type": "prerequisite",
+      "note": "sm-prac-n015 需先于 sm-prac-n016"
+    },
+    {
+      "from": "sm-prac-n016",
+      "to": "sm-prac-n017",
+      "type": "prerequisite",
+      "note": "sm-prac-n016 需先于 sm-prac-n017"
+    },
+    {
+      "from": "sm-prac-n017",
+      "to": "sm-prac-n018",
+      "type": "prerequisite",
+      "note": "sm-prac-n017 需先于 sm-prac-n018"
+    },
+    {
+      "from": "sm-prac-n018",
+      "to": "sm-prac-n019",
+      "type": "prerequisite",
+      "note": "sm-prac-n018 需先于 sm-prac-n019"
+    },
+    {
+      "from": "sm-prac-n006",
+      "to": "sm-prac-n020",
+      "type": "prerequisite",
+      "note": "sm-prac-n006 需先于 sm-prac-n020"
+    },
+    {
+      "from": "sm-prac-n011",
+      "to": "sm-prac-n021",
+      "type": "prerequisite",
+      "note": "sm-prac-n011 需先于 sm-prac-n021"
+    },
+    {
+      "from": "sm-prac-n014",
+      "to": "sm-prac-n022",
+      "type": "prerequisite",
+      "note": "sm-prac-n014 需先于 sm-prac-n022"
+    },
+    {
+      "from": "sm-prac-n016",
+      "to": "sm-prac-n023",
+      "type": "prerequisite",
+      "note": "sm-prac-n016 需先于 sm-prac-n023"
+    },
+    {
+      "from": "sm-prac-n015",
+      "to": "sm-prac-n024",
+      "type": "prerequisite",
+      "note": "sm-prac-n015 需先于 sm-prac-n024"
+    },
+    {
+      "from": "sm-prac-n003",
+      "to": "sm-prac-n005",
+      "type": "application",
+      "note": "分段点写错，比较两档套餐的交叉点就会错。"
+    },
+    {
+      "from": "sm-prac-n008",
+      "to": "sm-prac-n011",
+      "type": "application",
+      "note": "比较方案时要回到约束清单，不能只看「看起来高一点」。"
+    },
+    {
+      "from": "sm-prac-n009",
+      "to": "sm-prac-n010",
+      "type": "related",
+      "note": "剖面图是模型，两种方案是对模型的两次求解。"
+    },
+    {
+      "from": "sm-prac-n006",
+      "to": "sm-prac-n020",
+      "type": "related",
+      "note": "条款一改，分段函数的表达式就要改。"
+    },
+    {
+      "from": "sm-prac-n011",
+      "to": "sm-prac-n021",
+      "type": "application",
+      "note": "选完方案，还要承认尺子和目测都不完美。"
+    },
+    {
+      "from": "sm-prac-n014",
+      "to": "sm-prac-n022",
+      "type": "related",
+      "note": "说明书里的假设应能被单独挑出来攻击。"
+    }
+  ]
+}

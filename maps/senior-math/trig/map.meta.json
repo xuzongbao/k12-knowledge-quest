@@ -1,0 +1,27 @@
+{
+  "id": "sm-trig",
+  "title": "高中 · 三角函数与解三角形",
+  "subject": "数学",
+  "stage": "高中",
+  "grade": 10,
+  "strand": "数与代数",
+  "module": "函数 / 解三角形",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "sm-trig-n001"
+  ],
+  "recommended_path_note": "任意角与三角函数（关主 1：图象）→ 恒等变形入门（关主 2）→ 正弦/余弦定理解三角形后收束。扇形（n028）、辅助角（n029）、SSA 两解（n030）、诱导符号（n031）、最小正周期（n032）为软锁。解三角形不引用向量图节点。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "sm-trig-boss-graph",
+      "sm-trig-boss-id",
+      "sm-trig-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：周期波动测绘员、三角恒等化简官、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为普通高中数学课标（2017/2020）目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或高考试题的摘录。",
+  "description": "高中「三角函数与解三角形」地图：任意角与弧度 → 三角函数 → 图象与恒等入门 → 解三角形。独立通关。grade=10。"
+}
