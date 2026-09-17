@@ -1,0 +1,765 @@
+{
+  "map_id": "pm-g4-numbers",
+  "quests": [
+    {
+      "id": "pm-g4-n001-explain",
+      "node_id": "pm-g4-n001",
+      "title": "相邻单位是十进",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "从个位说到亿：每相邻两个计数单位之间是什么关系？举「10 个万是 1 个十万」说明十进。",
+      "success_hint": "从右边起每四位是一级：个级、万级，再往左是亿级。"
+    },
+    {
+      "id": "pm-g4-n001-practice",
+      "node_id": "pm-g4-n001",
+      "title": "数位顺序表填空",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在数位顺序表里填出个、十、百、千、万、十万、百万、千万、亿，并指出万级包括哪几位。",
+      "success_hint": "万级是：万、十万、百万、千万。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n002-explain",
+      "node_id": "pm-g4-n002",
+      "title": "按级来读",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "读 30507000：先看万级是 3050 万，个级是 7000。说明连续的 0 怎样读，万级末尾的 0 读不读。",
+      "success_hint": "先分级，再读每一级；连续的 0 只读一个零。"
+    },
+    {
+      "id": "pm-g4-n002-practice",
+      "node_id": "pm-g4-n002",
+      "title": "亿以内数读一读",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读出若干亿以内的数，夹带中间有 0、末尾有 0、万级和个级都有 0 的情况。",
+      "success_hint": "哪一级一个计数单位也没有，这一级就不必读。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n003-practice",
+      "node_id": "pm-g4-n003",
+      "title": "听到读法写下来",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据读法写出亿以内的数，如「三千零六万零四十」「二百零八万」。空位用 0 占住。",
+      "success_hint": "先想好有几位，再从高级写起，空位补 0。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n004-explain",
+      "node_id": "pm-g4-n004",
+      "title": "几个亿几个万几个一",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说出 40608000 由 4 个千万、6 个十万和 8 个千组成，并换一种方式用「万」来说明组成。",
+      "success_hint": "同一级里也可以改用较大的计数单位来说组成。"
+    },
+    {
+      "id": "pm-g4-n004-practice",
+      "node_id": "pm-g4-n004",
+      "title": "组成填空",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成如 25060000＝□个万□个一；也能根据「3 个千万和 5 个百」写出这个数。",
+      "success_hint": "哪一位上是 0，就表示这一位一个单位也没有。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n005-explain",
+      "node_id": "pm-g4-n005",
+      "title": "改写成多少万",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 380000 改写成 38 万，说明「万」是新的计数单位，这个数和原来一样大。",
+      "success_hint": "整万的数，末尾四个 0 可以收成「万」。"
+    },
+    {
+      "id": "pm-g4-n005-practice",
+      "node_id": "pm-g4-n005",
+      "title": "用万作单位练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把整万的数改写成用「万」作单位；也能把「72 万」改回原来的数。",
+      "success_hint": "改写是相等的，不要四舍五入。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n006-explain",
+      "node_id": "pm-g4-n006",
+      "title": "四舍五入省略尾数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 384600 看成约多少万：看万后面第一位是 4，不到 5 就舍去，约是 38 万。说明近似数和原数的差别。",
+      "success_hint": "看要省略的那一位的前一位（从右边数），满 5 向前入，不满 5 舍去。"
+    },
+    {
+      "id": "pm-g4-n006-practice",
+      "node_id": "pm-g4-n006",
+      "title": "求近似数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把若干数省略万后面的尾数，求出以万作单位的近似数；夹两道改写（不是近似）作对比。",
+      "success_hint": "题目若说「约是多少万」，才用四舍五入。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n007-practice",
+      "node_id": "pm-g4-n007",
+      "title": "亿以上读写与改写",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读写含十亿、百亿的数，并把整亿的数改写成用「亿」作单位，如 300000000＝3 亿。",
+      "success_hint": "亿级也按四位一级来读；整亿末尾八个 0 可收成「亿」。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n008-practice",
+      "node_id": "pm-g4-n008",
+      "title": "大数综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合：读法写法、组成、用万或亿改写、求近似数、比较两个大数的大小。",
+      "success_hint": "比较大小时先看数位多少，数位同样多再从最高位比起。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-n008-quiz",
+      "node_id": "pm-g4-n008",
+      "title": "大数认识小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "限时混合检测：读、写、改写、近似数、比大小各至少一题，正确率达到掌握标准才过关。",
+      "success_hint": "先分清题目要的是相等改写，还是大约多少。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g4-boss-large",
+      "node_id": "pm-g4-n008",
+      "title": "关主：大数认识大闯关",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主条件：①按级正确读、写一个含 0 的大数 ②说出组成 ③用万或亿作单位改写一题 ④四舍五入求一个以万作单位的近似数 ⑤比较两个大数的大小并说明理由。",
+      "success_hint": "这一关之后，亿以内和亿以上的读写改写就打通了。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g4-n009-explain",
+      "node_id": "pm-g4-n009",
+      "title": "乘整十先乘再补0",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 24×30 看成 24×3 再在末尾补一个 0，把 120×40 看成 12×4 再补两个 0，说明 0 从哪里来。",
+      "success_hint": "先乘没有 0 的那几位，原来有几个 0 积的末尾就先记下几个 0。"
+    },
+    {
+      "id": "pm-g4-n009-practice",
+      "node_id": "pm-g4-n009",
+      "title": "整十口算乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算 15×20、36×40、120×30、250×20 等，写出分步或补 0 的过程。",
+      "success_hint": "可以先把整十看成几个十，再乘。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n010-practice",
+      "node_id": "pm-g4-n010",
+      "title": "两层相乘不进位",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算三位数乘两位数（两层暂不进位），检查第二层是否从十位写起。",
+      "success_hint": "个位乘的积从个位写起，十位乘的积从十位写起。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-n011-explain",
+      "node_id": "pm-g4-n011",
+      "title": "每一层自己进位",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 216×34 说明：先用 4 去乘 216，再用 3 去乘 216；每一层满十只进在这一层，最后两层再相加。",
+      "success_hint": "不要把第一层进上去的数加到第二层里。"
+    },
+    {
+      "id": "pm-g4-n011-practice",
+      "node_id": "pm-g4-n011",
+      "title": "三位数乘两位数进位练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "竖式计算三位数乘两位数（含进位），夹一题因数中间有 0，积里的 0 不要写丢。",
+      "success_hint": "两层分别进位，最后再把两层积相加。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n011-quiz",
+      "node_id": "pm-g4-n011",
+      "title": "乘两位数进位小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合不进位与进位、因数有 0 的三位数乘两位数，先标出两层再计算。",
+      "success_hint": "第二层末尾空出个位（或写 0），表示这是若干个十。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n012-explain",
+      "node_id": "pm-g4-n012",
+      "title": "一个因数变积也变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较 12×4 和 12×40：乘数扩大 10 倍，积也扩大 10 倍。再说说如果乘数缩小 10 倍，积怎样变。",
+      "success_hint": "另一个因数不变时，积和变化的那个因数「同步」扩大或缩小。"
+    },
+    {
+      "id": "pm-g4-n012-practice",
+      "node_id": "pm-g4-n012",
+      "title": "积怎样变",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知一题乘法，说出一个因数扩大或缩小 10 倍、100 倍后积是多少，不必每次都重算竖式。",
+      "success_hint": "积末尾的 0 会跟着增多或减少。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n013-explain",
+      "node_id": "pm-g4-n013",
+      "title": "先看成整十整百再乘",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 198×32 看成 200×30，说明积大约是 6000，用来判断精确计算有没有算飞。",
+      "success_hint": "估算先看高位，两边都可以看成接近的整十或整百。"
+    },
+    {
+      "id": "pm-g4-n013-practice",
+      "node_id": "pm-g4-n013",
+      "title": "乘法估一估",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给几道三位数乘两位数，先估后算，或判断别人的积是否合理（如 210×48 不可能只有 800）。",
+      "success_hint": "210×50＝10500，得数应在一万左右。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-n014-explain",
+      "node_id": "pm-g4-n014",
+      "title": "每份同样多求一共",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "每箱 125 本练习本，有 36 箱。用「几个几」说明为什么用乘法，并列出算式。",
+      "success_hint": "每份同样多，求一共，就用乘法。"
+    },
+    {
+      "id": "pm-g4-n014-practice",
+      "node_id": "pm-g4-n014",
+      "title": "乘法故事练习",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成「每份同样多求一共」和「求几倍」短故事，数量需要三位数乘两位数。",
+      "success_hint": "先找出「每份几个」和「有几份」。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-n015-explain",
+      "node_id": "pm-g4-n015",
+      "title": "除以整十可以先除再看0",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 800÷20 说成 80 个十除以 2 个十，或看成 800÷2÷10。说明两种想法人一样。",
+      "success_hint": "先算前面的数字，0 再跟上；可用乘法验算。"
+    },
+    {
+      "id": "pm-g4-n015-practice",
+      "node_id": "pm-g4-n015",
+      "title": "整十口算除",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "口算 600÷30、900÷30、1200÷40、2400÷20 等，并用乘法验算两题。",
+      "success_hint": "商乘除数应当回到被除数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n016-explain",
+      "node_id": "pm-g4-n016",
+      "title": "除数是整十时怎样试商",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用竖式说明 96÷30：把 30 看成 3 个十，看 9 个十里面有几个 3 个十，商写在个位上。",
+      "success_hint": "除到哪一位，商就写在哪一位的上面。"
+    },
+    {
+      "id": "pm-g4-n016-practice",
+      "node_id": "pm-g4-n016",
+      "title": "用整十数除练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算除数是整十的除法，商的数位要对齐，有余数时余数必须比除数小。",
+      "success_hint": "不够除就看下一位，不要把商写错位。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n017-explain",
+      "node_id": "pm-g4-n017",
+      "title": "看成接近的整十来试",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "计算 192÷32：把 32 看成 30 来试商，用 19 个十里面有几个 30 想初商，再乘一乘看准不准。",
+      "success_hint": "试商是「先估一个」，乘完再检查。"
+    },
+    {
+      "id": "pm-g4-n017-practice",
+      "node_id": "pm-g4-n017",
+      "title": "两位数除法试商练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "竖式计算除数是两位数（先选初商比较顺利）的除法，写出看成哪个整十。",
+      "success_hint": "除数的个位是 1、2、3、4，常看成小一些的整十；是 5 到 9，常看成大一些的整十。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n018-explain",
+      "node_id": "pm-g4-n018",
+      "title": "偏了就把商调一调",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明初商偏大：乘积比余下的数还大，要调小；初商偏小：余数比除数还大，还能再商 1，要调大。",
+      "success_hint": "乘完立刻比一比：太大就减商，太小就加商。"
+    },
+    {
+      "id": "pm-g4-n018-practice",
+      "node_id": "pm-g4-n018",
+      "title": "调商练习",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算需要调商的两位数除法，至少各有一题偏大和偏小；用「商×除数+余数」验算。",
+      "success_hint": "余数一定要比除数小，否则初商偏小。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n018-quiz",
+      "node_id": "pm-g4-n018",
+      "title": "试商与调商小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合一次试准、需要调大、需要调小的题，正确率达到掌握标准才过关。",
+      "success_hint": "先看成整十试，乘完再决定调不调。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n019-explain",
+      "node_id": "pm-g4-n019",
+      "title": "这一位不够商就写0",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 8120÷4 的伙伴题 2412÷12：某一位余下的数不够商 1 时，这一位必须写 0，再落下一位继续除。",
+      "success_hint": "不够商 1 的那一位必须写 0，占住数位。"
+    },
+    {
+      "id": "pm-g4-n019-practice",
+      "node_id": "pm-g4-n019",
+      "title": "商里的0",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算商的中间或末尾有 0 的两位数除法，检查 0 有没有写丢。",
+      "success_hint": "商少写一个 0，得数会差十倍。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n020-explain",
+      "node_id": "pm-g4-n020",
+      "title": "商什么时候变、什么时候不变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较 24÷8、240÷8 和 240÷80：被除数扩大 10 倍商怎样变；被除数和除数同时扩大 10 倍，商为什么不变。",
+      "success_hint": "只动被除数，商跟着变；两个一起扩大同样倍数，商不变。"
+    },
+    {
+      "id": "pm-g4-n020-practice",
+      "node_id": "pm-g4-n020",
+      "title": "商怎样变",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据一道除法，说出被除数或除数扩大、缩小 10 倍后商是多少；夹两道「两个同时变」的题。",
+      "success_hint": "想一想：是只变一边，还是两边一起变。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n021-explain",
+      "node_id": "pm-g4-n021",
+      "title": "先看成整十再除",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 594÷28 看成 600÷30，说明商大约是 20，用来判断精确计算有没有算飞。",
+      "success_hint": "估算先看高位，除数、被除数都可以看成接近的整十、整百。"
+    },
+    {
+      "id": "pm-g4-n021-practice",
+      "node_id": "pm-g4-n021",
+      "title": "除法估一估",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给几道除数是两位数的除法，先估后算，或判断别人的商是否合理。",
+      "success_hint": "594÷28 接近 600÷30＝20，不可能商 2，也不可能商 200。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-n022-practice",
+      "node_id": "pm-g4-n022",
+      "title": "乘除综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合三位数乘两位数、除数是两位数、调商、商里有 0、估算和一则应用题。",
+      "success_hint": "先判断是求一共、求每份，还是分不完。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-n022-quiz",
+      "node_id": "pm-g4-n022",
+      "title": "乘除综合小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "乘除混排加 1 道调商、1 道商有 0、1 道估算、1 则应用题，正确率达到掌握标准才过关。",
+      "success_hint": "可以用乘除互逆当场验算。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-boss-muldiv",
+      "node_id": "pm-g4-n022",
+      "title": "关主：乘除大闯关",
+      "type": "boss",
+      "xp": 90,
+      "prompt": "击败关主条件：①三位数乘两位数 2 题（含一题进位）②除数是两位数 2 题（含一题调商）③一道商中间或末尾有 0 ④先估再算或判断一题是否合理 ⑤一则用乘或除的短故事。",
+      "success_hint": "竖式对齐数位，调商和商里的 0 最容易出错。",
+      "items_suggested": 14
+    },
+    {
+      "id": "pm-g4-n023-explain",
+      "node_id": "pm-g4-n023",
+      "title": "先乘除后加减",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 12+8×5 和 (12+8)×5 说明：没有括号时先算乘，有小括号先算括号里。再指出中括号要从里面一层算起。",
+      "success_hint": "有括号先算括号；同级运算从左往右。"
+    },
+    {
+      "id": "pm-g4-n023-practice",
+      "node_id": "pm-g4-n023",
+      "title": "混合运算顺序练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算含乘除加减、小括号，以及一题带中括号的四则混合运算，写出每一步的中间得数。",
+      "success_hint": "可以在第一步下面标出小得数，避免跳步。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n024-explain",
+      "node_id": "pm-g4-n024",
+      "title": "加数换位置和不变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 25+37+75 说明：可以把 25 和 75 先加得 100，再加 37。指出这是结合律，交换位置则是交换律。",
+      "success_hint": "交换是换两个加数的位置；结合是先加其中两个。"
+    },
+    {
+      "id": "pm-g4-n024-practice",
+      "node_id": "pm-g4-n024",
+      "title": "加法运算律练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断或填写交换律、结合律，并用它们把几道连加变得更好算。",
+      "success_hint": "看看哪两个加数凑在一起能得到整十、整百。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n025-explain",
+      "node_id": "pm-g4-n025",
+      "title": "因数换位置积不变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 25×17×4 说明：可以把 25 和 4 先乘得 100，再乘 17。指出交换律和结合律在乘法里同样成立。",
+      "success_hint": "先乘能得到整百的那两个因数。"
+    },
+    {
+      "id": "pm-g4-n025-practice",
+      "node_id": "pm-g4-n025",
+      "title": "乘法交换结合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断或填写乘法交换律、结合律，并用它们计算 125×8×125 一类可以凑整的题（自编同类即可）。",
+      "success_hint": "125×8＝1000，常常是凑整的好帮手。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n026-explain",
+      "node_id": "pm-g4-n026",
+      "title": "和乘一个数可以拆开乘",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 102×7＝(100+2)×7＝100×7+2×7 说明分配律：把接近整百的数拆开，分别乘再加起来。",
+      "success_hint": "两个数的和乘一个数＝两个加数分别乘这个数，再相加。"
+    },
+    {
+      "id": "pm-g4-n026-practice",
+      "node_id": "pm-g4-n026",
+      "title": "分配律练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用分配律计算如 101×23、98×6（看成 100×6−2×6）等，并指出哪一步在拆、哪一步在合。",
+      "success_hint": "接近整十、整百时，拆成「整的加减差一点」。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n027-explain",
+      "node_id": "pm-g4-n027",
+      "title": "怎样变得更好算",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "各举一道用结合律凑整、一道用分配律拆开的题，说出为什么这样算更快，而不是乱换运算顺序。",
+      "success_hint": "简便运算仍然要遵守四则顺序，只是用定律换一种写法。"
+    },
+    {
+      "id": "pm-g4-n027-practice",
+      "node_id": "pm-g4-n027",
+      "title": "简便运算入门练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合使用交换、结合、分配使计算简便；夹一道不能乱换顺序的干扰题（如 12÷3×2）。",
+      "success_hint": "除法、减法一般不能随便换位置。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n027-quiz",
+      "node_id": "pm-g4-n027",
+      "title": "运算律小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "判断该用哪一条运算律，并完成简便计算，正确率达到掌握标准才过关。",
+      "success_hint": "先看能不能凑成整十、整百，再决定用结合还是分配。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n028-practice",
+      "node_id": "pm-g4-n028",
+      "title": "运算律综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在混合运算和一则短故事里选择运算顺序或运算律，列出算式并算对。",
+      "success_hint": "先问：这题是在考顺序，还是在考怎样凑整。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-n029-explain",
+      "node_id": "pm-g4-n029",
+      "title": "十分之几写成小数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 1 平均分成 10 份，3 份是 3/10，写成 0.3；再分成 100 份，说明 0.07 是百分之七。指出十分位、百分位。",
+      "success_hint": "小数点右边第一位是十分位，第二位是百分位。本图从这里系统学习小数，不依赖其他地图的节点。"
+    },
+    {
+      "id": "pm-g4-n029-practice",
+      "node_id": "pm-g4-n029",
+      "title": "分数和小数互相对照",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在 1/10 与 0.1、7/100 与 0.07、3/10 与 0.3 之间来回改写，并指出各位上的数表示什么。",
+      "success_hint": "十分位上是几就是十分之几；百分位上是几就是百分之几。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n030-practice",
+      "node_id": "pm-g4-n030",
+      "title": "小数读读写写",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "读、写一位和两位小数，夹「3.05」「0.4」「10.08」；对照 3 米 5 分米写成 3.5 米。",
+      "success_hint": "整数部分是 0 时，小数点左边仍要写 0。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g4-n031-explain",
+      "node_id": "pm-g4-n031",
+      "title": "末尾的0可以添也可以去掉",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 0.5＝0.50：十分之五和百分之五十同样大。添 0 或去 0 只发生在小数末尾，不能删中间的 0。",
+      "success_hint": "3.05 中间的 0 表示十分位一个也没有，不能去掉。"
+    },
+    {
+      "id": "pm-g4-n031-practice",
+      "node_id": "pm-g4-n031",
+      "title": "小数性质练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断哪些小数相等（末尾添 0 去 0），哪些不相等；把 0.7 和 0.70、0.07 放在一起比较。",
+      "success_hint": "只有末尾的 0 可以添或去；位置不同，大小就不同。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n032-explain",
+      "node_id": "pm-g4-n032",
+      "title": "谁更大先看整数部分",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较 1.2 和 0.98、0.36 和 0.4。说明先比整数部分，再比十分位；位数不同时可以先补 0。",
+      "success_hint": "0.4＝0.40，再和 0.36 比十分位、百分位。"
+    },
+    {
+      "id": "pm-g4-n032-practice",
+      "node_id": "pm-g4-n032",
+      "title": "小数比大小",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较一位、两位小数的大小，填＞＜＝，夹两道位数不同的题。",
+      "success_hint": "不要只看「谁的数字多」，要按数位对齐来比。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n033-explain",
+      "node_id": "pm-g4-n033",
+      "title": "小数点一移大小就变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 3.6 的小数点向右移一位变成 36，说明扩大 10 倍；向左移一位变成 0.36，说明缩小 10 倍。",
+      "success_hint": "向右移扩大，向左移缩小；移几位就是 10 的几次方倍。"
+    },
+    {
+      "id": "pm-g4-n033-practice",
+      "node_id": "pm-g4-n033",
+      "title": "移动小数点",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "按要求把小数点向左或向右移动，写出新的数，并说出扩大或缩小了多少倍。",
+      "success_hint": "整数部分不够时，要在小数点左边补 0，如 3.6 向左移两位是 0.036。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n034-explain",
+      "node_id": "pm-g4-n034",
+      "title": "小数点对齐再加减",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 3.5+1.2、4.8−1.3 说明：小数点对齐就是十分位对十分位，再按整数加减的办法算。",
+      "success_hint": "小数点对齐后，从最低位算起；得数的小数点也要对齐。"
+    },
+    {
+      "id": "pm-g4-n034-practice",
+      "node_id": "pm-g4-n034",
+      "title": "小数加减对齐练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算位数相同的小数加减，检查小数点有没有对齐、得数的小数点有没有丢。",
+      "success_hint": "得数末尾的 0 可以按性质去掉，但小数点不能丢。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n035-practice",
+      "node_id": "pm-g4-n035",
+      "title": "位数不同的小数加减",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算位数不同的小数加减，含进位和退位，如 3.6+0.85、5−1.28。需要对齐小数点。",
+      "success_hint": "整数加减小数时，整数可以看成小数点在末尾。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n035-quiz",
+      "node_id": "pm-g4-n035",
+      "title": "小数加减小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合位数相同、位数不同、进位、退位的小数加减，正确率达到掌握标准才过关。",
+      "success_hint": "先点齐小数点，再决定要不要末尾补 0。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n036-explain",
+      "node_id": "pm-g4-n036",
+      "title": "故事里的小数加减",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一本书 12.5 元，一枝笔 3.8 元。说明「一共」和「还差多少」各用加还是减，并先估一估大约多少元。",
+      "success_hint": "先找到已知的那个数，再看是合起来还是去掉、比较。"
+    },
+    {
+      "id": "pm-g4-n036-practice",
+      "node_id": "pm-g4-n036",
+      "title": "小数加减故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成「一共、还剩、比多」的小数短情境各一则，并列式计算；其中一则先估再算。",
+      "success_hint": "估算时可以把小数看成接近的整数或一位小数。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g4-n037-explain",
+      "node_id": "pm-g4-n037",
+      "title": "几个相同的小数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 1.2×3 看成 1.2+1.2+1.2，或先算 12×3 再点上小数点。说明积里为什么有一位小数。",
+      "success_hint": "小数乘整数：可以先当整数乘，再看因数一共有几位小数。这是入门，系统学习多在五年级。"
+    },
+    {
+      "id": "pm-g4-n037-practice",
+      "node_id": "pm-g4-n037",
+      "title": "小数乘整数入门练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算一位小数乘一位整数，如 0.4×5、1.3×4、2.5×6，并说出积的小数点点在哪里。",
+      "success_hint": "因数里一共有几位小数，积里通常也先点几位，末尾的 0 可以再去掉。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g4-n038-explain",
+      "node_id": "pm-g4-n038",
+      "title": "平均分成几份",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 1.2 平均分成 3 份，说明 1.2÷3＝0.4。竖式里商的小数点要和被除数的小数点对齐。",
+      "success_hint": "除到小数部分，先在商上点好小数点，再继续往下除。"
+    },
+    {
+      "id": "pm-g4-n038-practice",
+      "node_id": "pm-g4-n038",
+      "title": "小数除以整数入门练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算小数除以一位整数的入门题，如 2.8÷4、0.9÷3、6.4÷2，检查商的小数点。",
+      "success_hint": "整数部分不够除时，商的整数部分写 0，再除小数部分。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-n039-practice",
+      "node_id": "pm-g4-n039",
+      "title": "小数点点在哪里",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给几道小数乘整数、小数除以整数，先说出积或商的小数点应在哪，再计算并检查是否差了十倍。",
+      "success_hint": "点错一位，得数就会差十倍；可以用估算先看数量级。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g4-n040-practice",
+      "node_id": "pm-g4-n040",
+      "title": "地图综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：大数读写或改写、三位数乘两位数、除数是两位数（可含调商）、简便运算、小数加减、一则估算。",
+      "success_hint": "先判断这题在考哪一盏已点亮的灯。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g4-boss-map",
+      "node_id": "pm-g4-n040",
+      "title": "关主：四年级数与运算通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①读或改写一个大数 ②三位数乘两位数 1 题 ③除数是两位数 1 题（可含调商）④用运算律做一道简便运算 ⑤小数加减 1 题 ⑥用估算判断一道计算是否合理。全部通过即通关本地图。",
+      "success_hint": "通关后这张地图记入已通关列表。三年级地图的万以内数位与一位小数初步，和本地图起点、小数意义在概念上衔接，但存档仍按图分别计算，暂无跨地图引擎。",
+      "items_suggested": 18
+    }
+  ]
+}
