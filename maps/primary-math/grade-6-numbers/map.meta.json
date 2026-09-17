@@ -1,0 +1,26 @@
+{
+  "id": "pm-g6-numbers",
+  "title": "六年级 · 数与运算",
+  "subject": "数学",
+  "stage": "小学",
+  "grade": 6,
+  "strand": "数与代数",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "pm-g6-n001"
+  ],
+  "recommended_path_note": "从「分数乘法的意义」进入：先打通分数乘除，再比与按比分配、百分数，然后比例与正反比例入门，并用方程巩固分数/百分数问题。认识负数（n033）为软锁支线，不挡终章关主，通关前仍须点亮。圆与几何大块不在本图。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "pm-g6-boss-fracops",
+      "pm-g6-boss-ratio",
+      "pm-g6-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：分数乘除、比百分数比例、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为课标/教材目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或习题的摘录。",
+  "description": "小学六年级「数与代数」地图：分数乘除 → 比 → 百分数 → 比例与正反比例；负数初步为软锁支线。与五年级地图概念衔接，但各自独立通关。"
+}

@@ -1,0 +1,764 @@
+{
+  "map_id": "pm-g5-numbers",
+  "quests": [
+    {
+      "id": "pm-g5-n001-explain",
+      "node_id": "pm-g5-n001",
+      "title": "几个相同的小数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 1.2×3 看成 1.2+1.2+1.2，或先算 12×3 再点上小数点。说明积里为什么有一位小数。本图从这里系统学习，不依赖其他地图节点。",
+      "success_hint": "小数乘整数：可以先当整数乘，再看因数一共有几位小数。"
+    },
+    {
+      "id": "pm-g5-n001-practice",
+      "node_id": "pm-g5-n001",
+      "title": "小数乘整数练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算一位或两位小数乘一位整数，如 0.4×5、1.3×4、2.05×6，并说出积的小数点点在哪里。",
+      "success_hint": "因数里一共有几位小数，积里通常也先点几位，末尾的 0 可以再去掉。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n002-explain",
+      "node_id": "pm-g5-n002",
+      "title": "因数有几位积就先点几位",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 0.12×5 说明：0.12 有两位小数，5 没有小数，积先点两位得到 0.60，再去掉末尾 0 写成 0.6。",
+      "success_hint": "点完小数点后，末尾的 0 可以按小数性质去掉，中间的 0 不能去。"
+    },
+    {
+      "id": "pm-g5-n002-practice",
+      "node_id": "pm-g5-n002",
+      "title": "先点小数点再化简",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给几道小数乘整数，先说出积应有几位小数，再计算；夹两道积末尾有 0 的题。",
+      "success_hint": "先点位，再看末尾 0 能不能去掉。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n003-explain",
+      "node_id": "pm-g5-n003",
+      "title": "两个小数相乘",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 1.2×0.4 说明：先算 12×4＝48，因数一共有两位小数，积是 0.48。积比两个因数都小，是因为都小于 1。",
+      "success_hint": "小于 1 的小数相乘，积会更小，这是正常的。"
+    },
+    {
+      "id": "pm-g5-n003-practice",
+      "node_id": "pm-g5-n003",
+      "title": "小数乘小数练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算小数乘小数，含一位乘一位、一位乘两位，检查积的小数位数和末尾 0。",
+      "success_hint": "先当整数乘，再按因数小数位数的和点小数点。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n003-quiz",
+      "node_id": "pm-g5-n003",
+      "title": "小数乘法小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合小数乘整数、小数乘小数，夹积末尾有 0、积比因数小的情况，正确率达到掌握标准才过关。",
+      "success_hint": "积比因数小，常常是因为有一个因数小于 1。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n004-explain",
+      "node_id": "pm-g5-n004",
+      "title": "小数也能用运算律",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 0.25×3.6×4 说明：可以先算 0.25×4＝1，再乘 3.6。指出交换律、结合律对小数同样成立。",
+      "success_hint": "先乘能得到整数或整十的那两个因数。"
+    },
+    {
+      "id": "pm-g5-n004-practice",
+      "node_id": "pm-g5-n004",
+      "title": "小数运算律练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用交换、结合或分配使小数乘法更好算，如 0.125×8×2.4、(1.2+0.8)×3.5。",
+      "success_hint": "分配律：和乘一个数，可以拆开分别乘再加。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n005-explain",
+      "node_id": "pm-g5-n005",
+      "title": "积保留到哪一位",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "计算 3.14×2.6 后，说明怎样保留到十分位、百分位。指出「约」是近似值，和精确积不一定相等。",
+      "success_hint": "看要保留的那一位的下一位，满 5 向前入，不满 5 舍去。"
+    },
+    {
+      "id": "pm-g5-n005-practice",
+      "node_id": "pm-g5-n005",
+      "title": "求积的近似值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "先算出小数乘法的积，再按要求保留到整数位、十分位或百分位；夹一道只要精确积的对比题。",
+      "success_hint": "题目没说「约」或「保留」，就不要四舍五入。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n006-explain",
+      "node_id": "pm-g5-n006",
+      "title": "每份是小数求一共",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "每千克 12.5 元，买 3.2 千克。用「每份同样多、求一共」说明为什么用乘法，并先估大约多少元。",
+      "success_hint": "先找出「每份是多少」和「有几份」，两数都可以是小数。"
+    },
+    {
+      "id": "pm-g5-n006-practice",
+      "node_id": "pm-g5-n006",
+      "title": "小数乘法故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成「每份同样多求一共」和「求一个数的几倍」小数短故事，并列式计算；其中一则先估再算。",
+      "success_hint": "估算时可把小数看成接近的整数或一位小数。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-n007-explain",
+      "node_id": "pm-g5-n007",
+      "title": "商的小数点对齐",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 1.2÷3＝0.4 说明：竖式里商的小数点要和被除数的小数点对齐。整数部分不够除时先商 0。",
+      "success_hint": "除到小数部分，先在商上点好小数点，再继续往下除。"
+    },
+    {
+      "id": "pm-g5-n007-practice",
+      "node_id": "pm-g5-n007",
+      "title": "小数除以整数练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算小数除以整数，如 2.8÷4、0.9÷3、6.45÷5，检查商的小数点；夹一道整数部分不够除的题。",
+      "success_hint": "不够除就商 0，不要把小数点丢掉。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n008-explain",
+      "node_id": "pm-g5-n008",
+      "title": "同时扩大变成除以整数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 3.6÷0.4 看成 36÷4：除数、被除数的小数点都向右移一位。说明两边扩大相同倍数，商不变。",
+      "success_hint": "除数变成整数后，再按小数除以整数来算。"
+    },
+    {
+      "id": "pm-g5-n008-practice",
+      "node_id": "pm-g5-n008",
+      "title": "除数是小数练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算一个数除以小数，含被除数位数不够要补 0 的情况，如 2.4÷0.12、1.8÷0.5。",
+      "success_hint": "移动位数以除数为准，被除数位数不够就在末尾补 0。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n008-quiz",
+      "node_id": "pm-g5-n008",
+      "title": "小数除法小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合小数除以整数、除数是小数，正确率达到掌握标准才过关。",
+      "success_hint": "先问：除数是不是整数？不是就先同时移动小数点。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n009-explain",
+      "node_id": "pm-g5-n009",
+      "title": "除不尽就多除一位",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "计算 2÷3，说明要保留到百分位时须除到千分位再四舍五入。指出这是近似商。",
+      "success_hint": "想保留到哪一位，就多除出下一位来决定入还是舍。"
+    },
+    {
+      "id": "pm-g5-n009-practice",
+      "node_id": "pm-g5-n009",
+      "title": "求商的近似值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给几道除不尽的小数除法，按要求保留到十分位或百分位；夹一道除得尽的对比题。",
+      "success_hint": "除得尽就写精确商，不要硬四舍五入。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n010-explain",
+      "node_id": "pm-g5-n010",
+      "title": "循环节上面加点",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 1÷3＝0.333… 说明循环小数，并写成 0.3 上面加一点。再指出 0.25 是有限小数，除得尽。",
+      "success_hint": "从哪几位开始循环，就在循环节的首尾数字上加小圆点。"
+    },
+    {
+      "id": "pm-g5-n010-practice",
+      "node_id": "pm-g5-n010",
+      "title": "认出循环小数",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "判断几道除法的商是有限小数还是循环小数，并把循环小数用循环节表示。",
+      "success_hint": "同一数字或同一组数字不断重复，就是循环。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n011-practice",
+      "node_id": "pm-g5-n011",
+      "title": "小数混合运算练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算含小数加减乘除、小括号的混合运算，写出每一步的中间得数；可选用运算律简便的一题。",
+      "success_hint": "没有括号先乘除后加减；同级从左往右。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n012-practice",
+      "node_id": "pm-g5-n012",
+      "title": "小数乘除综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合小数乘小数、除数是小数、积或商的近似值、循环小数、一则混合运算和一则应用题。",
+      "success_hint": "先判断这题要精确得数，还是近似值，还是在讲循环。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-n012-quiz",
+      "node_id": "pm-g5-n012",
+      "title": "小数乘除小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "乘除混排加 1 道近似值、1 道除数是小数、1 道混合运算，正确率达到掌握标准才过关。",
+      "success_hint": "点错一位小数点，得数会差十倍，可先估数量级。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g5-boss-decimal",
+      "node_id": "pm-g5-n012",
+      "title": "关主：小数乘除大闯关",
+      "type": "boss",
+      "xp": 90,
+      "prompt": "击败关主条件：①小数乘小数 1 题 ②小数除以整数 1 题 ③除数是小数 1 题 ④求积或商的近似值 1 题 ⑤一道小数四则混合 ⑥一则用乘或除的短故事。",
+      "success_hint": "先对齐小数点或按位数点积，除数是小数要两边一起扩大。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-n013-explain",
+      "node_id": "pm-g5-n013",
+      "title": "谁乘谁得到它",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "因为 3×4＝12，所以 3 和 4 都是 12 的因数。说出 12 的全部因数，并说明 1 和它本身一定是因数。",
+      "success_hint": "成对出现：1 和 12、2 和 6、3 和 4。"
+    },
+    {
+      "id": "pm-g5-n013-practice",
+      "node_id": "pm-g5-n013",
+      "title": "找出全部因数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "写出若干数（如 18、20、7、1）的全部因数，并指出哪个数的因数只有两个。",
+      "success_hint": "从小到大试除，试到平方根附近就可以成对写完。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n014-explain",
+      "node_id": "pm-g5-n014",
+      "title": "它是谁的几倍",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "因为 3×4＝12，所以 12 是 3 的倍数，也是 4 的倍数。说出 3 的前几个倍数，并说明倍数有无数个。",
+      "success_hint": "0 是任何自然数的倍数；一个数的倍数里最小的非 0 倍数是它本身。"
+    },
+    {
+      "id": "pm-g5-n014-practice",
+      "node_id": "pm-g5-n014",
+      "title": "写出若干倍数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "写出 4、5、8 的前几个倍数；判断 36 是不是 6 的倍数、是不是 8 的倍数。",
+      "success_hint": "看能不能整除：能整除就是倍数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n015-explain",
+      "node_id": "pm-g5-n015",
+      "title": "看个位、看各位之和",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明：个位是偶数就是 2 的倍数；个位是 0 或 5 就是 5 的倍数；各位数字加起来是 3 的倍数，它就是 3 的倍数。",
+      "success_hint": "2 和 5 看个位就够；3 要看各位数字的和。"
+    },
+    {
+      "id": "pm-g5-n015-practice",
+      "node_id": "pm-g5-n015",
+      "title": "判断倍数特征",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断一些数是不是 2、5、3 的倍数，夹「既是 2 又是 5 的倍数」和「只是 3 的倍数」。",
+      "success_hint": "既是 2 又是 5 的倍数，个位一定是 0。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g5-n016-explain",
+      "node_id": "pm-g5-n016",
+      "title": "因数只有两个还是更多",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较 7 和 8：7 只有 1 和 7 两个因数，是质数；8 还有 2、4，是合数。特别说明 1 为什么两个都不是。",
+      "success_hint": "质数：两个因数；合数：两个以上因数；1：只有一个因数。"
+    },
+    {
+      "id": "pm-g5-n016-practice",
+      "node_id": "pm-g5-n016",
+      "title": "圈出质数合数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在 1 到 20 里区分质数、合数和 1；再判断 21、29、1、9 各是什么。",
+      "success_hint": "先看 2、3、5、7 能不能整除，能整除且不是它本身就是合数。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g5-n017-explain",
+      "node_id": "pm-g5-n017",
+      "title": "拆成质数相乘",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用短除法把 12 写成 2×2×3，把 18 写成 2×3×3。说明每一层除以的都是质数。",
+      "success_hint": "每次都用最小的质数去除，直到商是质数。"
+    },
+    {
+      "id": "pm-g5-n017-practice",
+      "node_id": "pm-g5-n017",
+      "title": "分解质因数练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把若干合数分解质因数，写成相乘的形式；夹一个质数说明它本身已经是质因数。",
+      "success_hint": "质数不必再分解。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n018-explain",
+      "node_id": "pm-g5-n018",
+      "title": "公共的因数里最大的",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "找出 12 和 18 的全部公因数，指出最大公因数是 6。再用短除法验一次。",
+      "success_hint": "公因数是两边都有的因数；最大的那一个叫最大公因数。"
+    },
+    {
+      "id": "pm-g5-n018-practice",
+      "node_id": "pm-g5-n018",
+      "title": "求最大公因数",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "求几组数的最大公因数，含互质（最大公因数是 1）的一组。",
+      "success_hint": "互质不一定都是质数，只要没有 1 以外的公因数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n019-explain",
+      "node_id": "pm-g5-n019",
+      "title": "公共的倍数里最小的",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出 4 和 6 的若干公倍数，指出最小公倍数是 12。再用短除法验一次。",
+      "success_hint": "公倍数有无数个；其中最小的那个叫最小公倍数。"
+    },
+    {
+      "id": "pm-g5-n019-practice",
+      "node_id": "pm-g5-n019",
+      "title": "求最小公倍数",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "求几组数的最小公倍数，含两个数互质（最小公倍数等于两数之积）的一组。",
+      "success_hint": "互质时，最小公倍数就是两数相乘。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n020-practice",
+      "node_id": "pm-g5-n020",
+      "title": "因数倍数综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合：写出因数、判断倍数特征、圈质数合数、求最大公因数和最小公倍数。",
+      "success_hint": "先分清题目要的是因数、倍数、质数，还是公因数/公倍数。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g5-n020-quiz",
+      "node_id": "pm-g5-n020",
+      "title": "因数倍数小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "特征判断、质数合数、最大公因数、最小公倍数各至少一题，正确率达到掌握标准才过关。",
+      "success_hint": "1 既不是质数也不是合数，不要漏看。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n021-explain",
+      "node_id": "pm-g5-n021",
+      "title": "平均分也可以写成除法",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把一张纸平均分成 5 份取 2 份，是 2/5；也可以说 2÷5＝2/5。指出分数线和除号是一家。",
+      "success_hint": "分母是平均分的份数，分子是取的份数；也等于分子除以分母。"
+    },
+    {
+      "id": "pm-g5-n021-practice",
+      "node_id": "pm-g5-n021",
+      "title": "分数和除法对照",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在「平均分取几份」的图和「两个整数相除」之间来回写分数，如 3÷4＝3/4。",
+      "success_hint": "除号可以写成分数线。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n022-explain",
+      "node_id": "pm-g5-n022",
+      "title": "分子分母谁大谁小",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明真分数小于 1，假分数大于或等于 1。把 7/4 写成 1 又 3/4，把 2 又 1/3 写成 7/3。",
+      "success_hint": "带分数＝整数部分 + 真分数部分；假分数分子≥分母。"
+    },
+    {
+      "id": "pm-g5-n022-practice",
+      "node_id": "pm-g5-n022",
+      "title": "真假带分数改写",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断真分数、假分数，并完成假分数与带分数、整数的互相改写。",
+      "success_hint": "假分数化带分数：分子除以分母，商是整数部分，余数是新分子。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n023-explain",
+      "node_id": "pm-g5-n023",
+      "title": "同时乘除大小不变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用涂色图说明 1/2＝2/4＝3/6：分子分母同时乘 2 或 3，大小不变。再说明不能乘 0。",
+      "success_hint": "0 不能做除数，也不能让分母变成 0。"
+    },
+    {
+      "id": "pm-g5-n023-practice",
+      "node_id": "pm-g5-n023",
+      "title": "写出相等的分数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据分数的基本性质填空，写出与 2/3、3/4 相等的分数；判断哪一步乘错或除错。",
+      "success_hint": "分子分母必须乘（或除以）同一个不为 0 的数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n024-explain",
+      "node_id": "pm-g5-n024",
+      "title": "化成最简分数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 12/18 的分子分母同时除以最大公因数 6，得到 2/3。说明最简分数的分子分母互质。",
+      "success_hint": "能一次除以最大公因数，就不必一次次约。"
+    },
+    {
+      "id": "pm-g5-n024-practice",
+      "node_id": "pm-g5-n024",
+      "title": "约分练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把若干分数约成最简分数，含已经是最简的一题作对比。",
+      "success_hint": "约完后检查分子分母还能不能再同时除以同一个数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n025-explain",
+      "node_id": "pm-g5-n025",
+      "title": "分母变得相同",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较 1/2 和 1/3：取 2 和 3 的最小公倍数 6 作公分母，写成 3/6 和 2/6。说明通分后大小不变。",
+      "success_hint": "公分母通常取分母的最小公倍数，分子要跟着扩大同样倍数。"
+    },
+    {
+      "id": "pm-g5-n025-practice",
+      "node_id": "pm-g5-n025",
+      "title": "通分再比大小",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "把几组异分母分数通分，并比较大小；夹一道已经同分母的对比题。",
+      "success_hint": "先求分母的最小公倍数，再把每个分数化成这个分母。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n025-quiz",
+      "node_id": "pm-g5-n025",
+      "title": "约分通分小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "约分、通分、用通分比大小各至少两题，正确率达到掌握标准才过关。",
+      "success_hint": "约分是除，通分是乘，方向不要反。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n026-explain",
+      "node_id": "pm-g5-n026",
+      "title": "十分之几就是一位小数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 3/10＝0.3、7/100＝0.07；再把 0.25 写成 25/100 并约成 1/4。分母不是 10、100 时可以先通分或去除。",
+      "success_hint": "有限小数都能写成分母是 10、100、1000… 的分数。"
+    },
+    {
+      "id": "pm-g5-n026-practice",
+      "node_id": "pm-g5-n026",
+      "title": "分数小数互化练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "分数改小数、小数改分数并约分；夹一道分母是 4、5、8 的分数。",
+      "success_hint": "分母是 4、5、8 时，可先化成 10、100 再写小数，或直接除。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n027-explain",
+      "node_id": "pm-g5-n027",
+      "title": "分母不变分子加减",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 2/5+1/5＝3/5 说明：同样大的一份，取 2 份再取 1 份就是 3 份。3/5−1/5 同理。",
+      "success_hint": "同分母：只加减分子，分母照抄；能约分要约。"
+    },
+    {
+      "id": "pm-g5-n027-practice",
+      "node_id": "pm-g5-n027",
+      "title": "同分母加减练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算同分母分数加减，含得数需要约分、得数是假分数要化带分数的情况。",
+      "success_hint": "最后看一眼：能不能约分，是不是大于 1。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n028-explain",
+      "node_id": "pm-g5-n028",
+      "title": "先通分再加减",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "计算 1/2+1/3：先通分成 3/6+2/6＝5/6。强调不能把分母相加当新分母。",
+      "success_hint": "异分母必须先变成同样大的一份，才能把份数加起来。"
+    },
+    {
+      "id": "pm-g5-n028-practice",
+      "node_id": "pm-g5-n028",
+      "title": "异分母加减练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算异分母分数加减，含带分数入门一题；得数要约分成最简。",
+      "success_hint": "带分数可先化成假分数，或整数部分与分数部分分开算。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n028-quiz",
+      "node_id": "pm-g5-n028",
+      "title": "分数加减小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合同分母、异分母、需要约分的加减，正确率达到掌握标准才过关。",
+      "success_hint": "先看分母是否相同，不同就先通分。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n029-practice",
+      "node_id": "pm-g5-n029",
+      "title": "分数加减混合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算含真分数、带分数的加减混合，从左往右或先算括号，最后约分。",
+      "success_hint": "带分数化假分数后，分母不同仍要通分。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n030-explain",
+      "node_id": "pm-g5-n030",
+      "title": "故事里的分数加减",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一段路先走了 1/3，又走了 1/6。说明「一共走了几分之几」用加法，还剩几分之几用减法（把这段路看作单位 1）。",
+      "success_hint": "先找到单位 1，再看是合起来还是去掉、比较。"
+    },
+    {
+      "id": "pm-g5-n030-practice",
+      "node_id": "pm-g5-n030",
+      "title": "分数加减故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成「一共、还剩、比多」的分数短情境各一则，并列式求出最简结果。",
+      "success_hint": "结果是假分数时，看题目要不要写成带分数。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-n031-practice",
+      "node_id": "pm-g5-n031",
+      "title": "分数加减综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合：真假带分数改写、约分通分、异分母加减、分数小数互化、一则应用题。",
+      "success_hint": "先判断这题在考哪一盏已点亮的灯。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-n031-quiz",
+      "node_id": "pm-g5-n031",
+      "title": "分数加减综合小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "约分或通分、异分母加减、互化、应用题各至少一题，正确率达到掌握标准才过关。",
+      "success_hint": "得数记得约分；互化时分母要对准 10、100。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g5-boss-fraction",
+      "node_id": "pm-g5-n031",
+      "title": "关主：分数加减大闯关",
+      "type": "boss",
+      "xp": 90,
+      "prompt": "击败关主条件：①假分数与带分数互化 1 题 ②约分 1 题 ③通分后比较或计算 1 题 ④异分母加减 2 题 ⑤分数与小数互化 1 题 ⑥一则分数加减短故事。",
+      "success_hint": "通分用最小公倍数，算完要约成最简。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-n032-explain",
+      "node_id": "pm-g5-n032",
+      "title": "字母可以代表许多数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 a+b＝b+a 表示加法交换律；用 3x 表示 3 个 x 相加。说明字母在不同问题里可以代表不同的数。",
+      "success_hint": "字母表示数，数字和字母相乘常常把数字写在前面，乘号可省略。"
+    },
+    {
+      "id": "pm-g5-n032-practice",
+      "node_id": "pm-g5-n032",
+      "title": "用字母写一写",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "用字母表示运算律、正方形周长、或「比某个数多 5」；并指出 2a 表示什么。",
+      "success_hint": "2a 就是 2×a；a×a 可以写成 a²，本图入门阶段会读即可。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n033-explain",
+      "node_id": "pm-g5-n033",
+      "title": "含未知数的等式",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "判断 3+5＝8、x+5＝8、x+5 哪个是方程：必须既是等式，又含有未知数。",
+      "success_hint": "算式没有等号，不是方程；等式里没有未知数，也不是方程。"
+    },
+    {
+      "id": "pm-g5-n033-practice",
+      "node_id": "pm-g5-n033",
+      "title": "哪些是方程",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "从一组式子里挑出方程，并说明其余为什么不是。",
+      "success_hint": "看两样：有没有等号，有没有未知数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n034-explain",
+      "node_id": "pm-g5-n034",
+      "title": "两边同时变等式仍成立",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "天平两边同样重，两边同时加 2 或同时乘 3，仍然平衡。对应到等式：两边同时加、减、乘、除（除数不为 0），等式仍成立。",
+      "success_hint": "只能两边做同样的运算；除数、乘数都不能是 0。"
+    },
+    {
+      "id": "pm-g5-n034-practice",
+      "node_id": "pm-g5-n034",
+      "title": "等式性质练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据等式的性质填空或判断对错，如 从 a＝b 得到 a+3＝b+3、a÷2＝b÷2。",
+      "success_hint": "两边必须同时、同样地变。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g5-n035-explain",
+      "node_id": "pm-g5-n035",
+      "title": "让未知数单独在一边",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "解 x+8＝20：两边减 8，得 x＝12。解 3x＝12：两边除以 3。解 2x+5＝13：先两边减 5，再除以 2。最后代回去检验。",
+      "success_hint": "目标是把未知数单独留在等号一边。"
+    },
+    {
+      "id": "pm-g5-n035-practice",
+      "node_id": "pm-g5-n035",
+      "title": "解简易方程练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "解 x±a＝b、ax＝b、ax±b＝c 各若干题，并至少检验两题。",
+      "success_hint": "有加减先去掉加减，再去掉未知数前面的乘数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n035-quiz",
+      "node_id": "pm-g5-n035",
+      "title": "解方程小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合三类简易方程，正确率达到掌握标准才过关；其中至少一题要写出检验。",
+      "success_hint": "把得数代入原方程，左右两边要相等。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g5-n036-explain",
+      "node_id": "pm-g5-n036",
+      "title": "设未知数列方程",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一个数的 3 倍少 4 等于 11。设这个数是 x，列出 3x−4＝11，解出后再用原话检查。",
+      "success_hint": "先用一句话写出数量关系，再换成带 x 的等式。"
+    },
+    {
+      "id": "pm-g5-n036-practice",
+      "node_id": "pm-g5-n036",
+      "title": "列方程入门故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成「比一个数多、少」「一个数的几倍」短故事，设未知数、列方程、求解并回看题意。",
+      "success_hint": "求出来的数要符合题目里的单位和实际情况。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g5-n037-practice",
+      "node_id": "pm-g5-n037",
+      "title": "地图综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：小数乘除、积或商的近似值、因数或倍数特征、最大公因数或最小公倍数、约分通分、异分母加减。",
+      "success_hint": "先判断这题在考哪一盏已点亮的灯。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g5-boss-map",
+      "node_id": "pm-g5-n037",
+      "title": "关主：五年级数与运算通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①小数乘或除 1 题 ②求近似值或识别循环小数 1 题 ③因数倍数或质数合数 1 题 ④最大公因数或最小公倍数 1 题 ⑤约分或通分 1 题 ⑥异分母加减 1 题。全部通过即通关本地图。",
+      "success_hint": "通关后这张地图记入已通关列表。四年级的小数加减与乘除入门和本地图起点在概念上衔接，但存档仍按图分别计算，暂无跨地图引擎。",
+      "items_suggested": 16
+    }
+  ]
+}
