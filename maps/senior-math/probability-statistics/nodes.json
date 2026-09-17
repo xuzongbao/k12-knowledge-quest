@@ -1,0 +1,924 @@
+{
+  "map_id": "sm-probability-statistics",
+  "nodes": [
+    {
+      "id": "sm-stat-n001",
+      "title": "问题先于数据",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把统计问题写成「想了解什么、向谁收集、收集什么量」。本图从问题开始。"
+    },
+    {
+      "id": "sm-stat-n002",
+      "title": "简单随机抽样",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-stat-n001"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明总体中每个个体被抽到的机会相同，并描述抽签或随机数的做法。"
+    },
+    {
+      "id": "sm-stat-n003",
+      "title": "分层抽样",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n002"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能按层的比例分配样本量，说明层内差异小、层间差异大时更合适。"
+    },
+    {
+      "id": "sm-stat-n004",
+      "title": "系统抽样入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-stat-n002"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明等距抽取，并指出名单若有周期可能偏。"
+    },
+    {
+      "id": "sm-stat-n005",
+      "title": "频率分布与直方图",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n002"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能编制频率分布表并画直方图，说明组距影响形状。"
+    },
+    {
+      "id": "sm-stat-n006",
+      "title": "平均数与加权",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n005"
+      ],
+      "tags": [
+        "stat",
+        "ch-num"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能计算平均数，并用权表示「占的份量不同」。"
+    },
+    {
+      "id": "sm-stat-n007",
+      "title": "中位数",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-stat-n005"
+      ],
+      "tags": [
+        "stat",
+        "ch-num"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能求中位数，并说明它比平均数更不怕极端值。"
+    },
+    {
+      "id": "sm-stat-n008",
+      "title": "百分位数入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n007"
+      ],
+      "tags": [
+        "stat",
+        "ch-num"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能解释第 25、75 百分位数把数据切成四段的直觉。"
+    },
+    {
+      "id": "sm-stat-n009",
+      "title": "方差与标准差",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n006"
+      ],
+      "tags": [
+        "stat",
+        "ch-num"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明方差衡量偏离平均数的程度，标准差与原数据同单位。"
+    },
+    {
+      "id": "sm-stat-n010",
+      "title": "用样本估计总体",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-stat-n003",
+        "sm-stat-n009"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用样本平均数、比例、标准差去估计总体对应量，并说明这是估计不是普查。"
+    },
+    {
+      "id": "sm-stat-n011",
+      "title": "散点图",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-stat-n001"
+      ],
+      "tags": [
+        "stat",
+        "ch-reg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把成对数据画成散点，观察是否有趋势。"
+    },
+    {
+      "id": "sm-stat-n012",
+      "title": "正相关与负相关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n011"
+      ],
+      "tags": [
+        "stat",
+        "ch-reg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能判断正相关、负相关或看不出线性相关。"
+    },
+    {
+      "id": "sm-stat-n013",
+      "title": "线性回归直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-stat-n012",
+        "sm-stat-n006"
+      ],
+      "tags": [
+        "stat",
+        "ch-reg"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明回归直线是让「竖直偏差」整体变小的一条线，不要求推导公式。"
+    },
+    {
+      "id": "sm-stat-n014",
+      "title": "统计案例分析骨架",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n010",
+        "sm-stat-n013"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按「问题—抽样—图表与数字特征—结论与局限」写一份短案例提纲。"
+    },
+    {
+      "id": "sm-stat-n015",
+      "title": "有限样本空间",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-stat-n001"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出一次随机试验的全部可能结果，构成样本空间。"
+    },
+    {
+      "id": "sm-stat-n016",
+      "title": "随机事件",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-stat-n015"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把事件看成样本空间的子集，含不可能事件与必然事件。"
+    },
+    {
+      "id": "sm-stat-n017",
+      "title": "事件的包含与相等",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n016"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能判断事件包含、相等，并用集合语言书写。"
+    },
+    {
+      "id": "sm-stat-n018",
+      "title": "并与交",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n017"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用并表示「至少一个发生」，用交表示「同时发生」。"
+    },
+    {
+      "id": "sm-stat-n019",
+      "title": "互斥事件",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n018"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明互斥是不能同时发生，交为空。"
+    },
+    {
+      "id": "sm-stat-n020",
+      "title": "对立事件",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n019"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明对立是互斥且并起来是全集，概率和为 1。"
+    },
+    {
+      "id": "sm-stat-n021",
+      "title": "古典概型",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-stat-n015",
+        "sm-stat-n020"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在等可能的有限样本空间中用「有利结果数 / 总结果数」求概率。"
+    },
+    {
+      "id": "sm-stat-n022",
+      "title": "概率加法",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n021",
+        "sm-stat-n019"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对互斥事件使用 P(A∪B)=P(A)+P(B)。"
+    },
+    {
+      "id": "sm-stat-n023",
+      "title": "概率的基本性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n022"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能使用 0≤P≤1、必然事件为 1、不可能事件为 0。"
+    },
+    {
+      "id": "sm-stat-n024",
+      "title": "频率与概率",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n021"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明大量重复试验下频率稳定在概率附近，但有限次会波动。"
+    },
+    {
+      "id": "sm-stat-n025",
+      "title": "概率统计合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-stat-n014",
+        "sm-stat-n023",
+        "sm-stat-n024"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能区分「用数据估计」和「在模型里计算概率」，不把频率直接叫成概率而不加说明。"
+    },
+    {
+      "id": "sm-stat-n026",
+      "title": "概率与统计通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-stat-n025"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成本图收束检查。"
+    },
+    {
+      "id": "sm-stat-n027",
+      "title": "方便样本偏差",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n002"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出只调查「身边的人」为什么不能代表总体。"
+    },
+    {
+      "id": "sm-stat-n028",
+      "title": "回归不是因果",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n013"
+      ],
+      "tags": [
+        "stat",
+        "ch-reg"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举「一起升降但不一定谁导致谁」的例子。"
+    },
+    {
+      "id": "sm-stat-n029",
+      "title": "直方图组距",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-stat-n005"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明组距过大过小都会让形状难读。"
+    },
+    {
+      "id": "sm-stat-n030",
+      "title": "普查不是抽样",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-stat-n010"
+      ],
+      "tags": [
+        "stat",
+        "ch-stat"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能区分普查与抽样：总体不大时可以全查，否则才抽样。"
+    },
+    {
+      "id": "sm-stat-n031",
+      "title": "互斥不是对立",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n020"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举两个互斥但不是对立的事件（并起来还不是全集）。"
+    },
+    {
+      "id": "sm-stat-n032",
+      "title": "等可能要检查",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "统计与概率",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-stat-n021"
+      ],
+      "tags": [
+        "prob",
+        "ch-prob"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出「硬币弯曲」「骰子不匀」时不能直接用古典概型。"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "map_id": "sm-trig",
+  "quests": [
+    {
+      "id": "sm-trig-n001-explain",
+      "node_id": "sm-trig-n001",
+      "title": "旋转出来的角",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画出一个大于 360° 的角和一个负角，说明终边怎么得到。",
+      "success_hint": "角是旋转量，不只是几何里那一瞥。"
+    },
+    {
+      "id": "sm-trig-n002-practice",
+      "node_id": "sm-trig-n002",
+      "title": "判断象限",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 个角判断终边象限或是否在轴上。",
+      "success_hint": "先化到 0° 到 360° 再看。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-trig-n003-practice",
+      "node_id": "sm-trig-n003",
+      "title": "终边相同集合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "写出 4 个角的终边相同角的集合。",
+      "success_hint": "加上 360° 的整数倍。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-trig-n004-explain",
+      "node_id": "sm-trig-n004",
+      "title": "一弧度有多大",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话说明 1 弧度，并估计它大约多少度。",
+      "success_hint": "弧长等于半径时的圆心角。"
+    },
+    {
+      "id": "sm-trig-n005-practice",
+      "node_id": "sm-trig-n005",
+      "title": "度与弧度互化",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "12 组换算，含 π/6、π/4、π/3、π/2。",
+      "success_hint": "180°=π。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-trig-n006-practice",
+      "node_id": "sm-trig-n006",
+      "title": "在单位圆上标点",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "标出至少 6 个常见角终边与单位圆的交点。",
+      "success_hint": "半径是 1，坐标就是余弦、正弦。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-trig-n007-practice",
+      "node_id": "sm-trig-n007",
+      "title": "求正弦值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 个角的正弦，含象限符号。",
+      "success_hint": "纵坐标；上正下负。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-trig-n008-practice",
+      "node_id": "sm-trig-n008",
+      "title": "求余弦值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求 8 个角的余弦，含象限符号。",
+      "success_hint": "横坐标；右正左负。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-trig-n009-practice",
+      "node_id": "sm-trig-n009",
+      "title": "求正切并指出无意义",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道正切，另加 2 道指出何处无意义。",
+      "success_hint": "余弦为 0 时不能做商。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-trig-n010-practice",
+      "node_id": "sm-trig-n010",
+      "title": "同角关系求值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知正弦或余弦求其余，6 题，注意象限决定符号。",
+      "success_hint": "平方和为 1，符号另判。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-trig-n011-practice",
+      "node_id": "sm-trig-n011",
+      "title": "诱导化简求值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 道诱导公式，写出化到哪一象限、符号怎么来。",
+      "success_hint": "函数名与符号分开想。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-trig-n012-practice",
+      "node_id": "sm-trig-n012",
+      "title": "画正弦一周期",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出 y=sin x 从 0 到 2π，标零点、最值。",
+      "success_hint": "0、π/2、π、3π/2、2π 五个关键点。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-trig-n013-practice",
+      "node_id": "sm-trig-n013",
+      "title": "画余弦并对照",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出 y=cos x，说明与正弦差一个平移。",
+      "success_hint": "余弦在 0 处取 1。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-trig-n014-practice",
+      "node_id": "sm-trig-n014",
+      "title": "画正切主支",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出 (-π/2,π/2) 上的正切，标渐近线。",
+      "success_hint": "中间过原点，两边竖线挡着。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-trig-n015-practice",
+      "node_id": "sm-trig-n015",
+      "title": "读 A、ω、φ",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "从 6 个解析式读振幅、周期、初相。",
+      "success_hint": "周期是 2π 除以 |ω|。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-trig-n016-practice",
+      "node_id": "sm-trig-n016",
+      "title": "画正弦型函数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据参数画 2 个 y=A sin(ωx+φ)，或由图读参数。",
+      "success_hint": "先周期，再左右移，再上下伸缩。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-trig-n016-mini-quiz",
+      "node_id": "sm-trig-n016",
+      "title": "图象小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "正弦余弦对照、参数读写、一点平移。夹一道把 ω 当成周期。",
+      "success_hint": "周期=2π/|ω|。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-trig-boss-graph",
+      "node_id": "sm-trig-n016",
+      "title": "关主：周期波动测绘员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①度弧度换算 ②诱导求值 ③读出或画出一个正弦型函数。",
+      "success_hint": "符号和周期两处最容易混。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-trig-n017-practice",
+      "node_id": "sm-trig-n017",
+      "title": "简单三角方程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在 0 到 2π 内解 6 道 sin x=a 或 cos x=a。",
+      "success_hint": "先找一象限的解，再对称。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-trig-n018-practice",
+      "node_id": "sm-trig-n018",
+      "title": "和差公式求值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道化开或求值，如 75°、15° 一类。",
+      "success_hint": "写成两个熟悉角的和或差。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-trig-n019-practice",
+      "node_id": "sm-trig-n019",
+      "title": "二倍角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道用二倍角求值或化简。",
+      "success_hint": "cos 2α 有三种常用写法，按已知选。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-trig-n020-practice",
+      "node_id": "sm-trig-n020",
+      "title": "选路化简",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道恒等化简，写下你用的是同角、诱导还是和差。",
+      "success_hint": "先看角的关系，再选公式。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-trig-n020-mini-quiz",
+      "node_id": "sm-trig-n020",
+      "title": "恒等小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "同角、诱导、和差、二倍角。夹一道符号看错象限。",
+      "success_hint": "公式对了还要看象限。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-trig-boss-id",
+      "node_id": "sm-trig-n020",
+      "title": "关主：三角恒等化简官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①同角关系 ②一道和差或二倍角 ③说明为什么不能乱拆。",
+      "success_hint": "每一等号后面要有名字。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-trig-n021-practice",
+      "node_id": "sm-trig-n021",
+      "title": "用正弦定理",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个三角形：已知两角一边或两边一对角（暂避开两解）。",
+      "success_hint": "角与对边成对出现。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-trig-n022-practice",
+      "node_id": "sm-trig-n022",
+      "title": "用余弦定理",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个：已知两边夹角求第三边，或三边求一角。",
+      "success_hint": "夹角对着要求的边。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-trig-n023-practice",
+      "node_id": "sm-trig-n023",
+      "title": "先选定理再解",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个三角形先写「用正弦还是余弦」，再解。",
+      "success_hint": "有夹角用余弦；有对角用正弦。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-trig-n024-practice",
+      "node_id": "sm-trig-n024",
+      "title": "求面积",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 题用两边及其夹角正弦求面积。",
+      "success_hint": "夹角必须是那两边的夹角。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-trig-n025-practice",
+      "node_id": "sm-trig-n025",
+      "title": "测高测距短题",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 个简化情境：画出三角形、标已知、求解、写答。",
+      "success_hint": "先图后式。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-trig-n026-practice",
+      "node_id": "sm-trig-n026",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "图象参数、化简求值、解三角形各几题。",
+      "success_hint": "先辨题型。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-trig-n027-practice",
+      "node_id": "sm-trig-n027",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：诱导或和差求值、画或读正弦型、解一个三角形。",
+      "success_hint": "单位圆、公式、三角形，三条线要能接通。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-trig-boss-map",
+      "node_id": "sm-trig-n027",
+      "title": "关主：三角函数通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①正弦型参数 ②一道恒等或诱导 ③解一个三角形。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "sm-trig-n028-practice",
+      "node_id": "sm-trig-n028",
+      "title": "扇形计算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道弧长或面积，角用弧度。",
+      "success_hint": "公式里的 θ 必须是弧度。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-trig-n029-practice",
+      "node_id": "sm-trig-n029",
+      "title": "合成一个正弦",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 3 个 a sin x+b cos x 写成振幅形式。",
+      "success_hint": "振幅是根号下 a²+b²。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-trig-n030-explain",
+      "node_id": "sm-trig-n030",
+      "title": "会不会有两个三角形",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "画草图说明 SSA 何时出现两解，何时无解。",
+      "success_hint": "作图看另一边能不能碰上。"
+    },
+    {
+      "id": "sm-trig-n031-practice",
+      "node_id": "sm-trig-n031",
+      "title": "只练符号",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道只要求写出诱导后的符号与函数名，不必算出数值。",
+      "success_hint": "奇变偶不变是口诀，象限才是理由。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-trig-n032-practice",
+      "node_id": "sm-trig-n032",
+      "title": "最小正周期",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个函数求最小正周期。",
+      "success_hint": "先写成标准型再 2π/|ω|。",
+      "items_suggested": 6
+    }
+  ]
+}

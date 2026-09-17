@@ -2,16 +2,17 @@
 
 中小学**知识图谱** + 轻量 RPG：**点亮知识点、打关升级**。
 
-现在完成的是 **Phase 0–2 以及初中数学 7–9**：把数据格式定下来，并做出可校验、可通关的样例地图——
+现在完成的是 **Phase 0–2c：小初高数学数据层**——把数据格式定下来，并做出可校验、可通关的样例地图——
 
 - **小学**一至六年级四大领域，共 **24** 张（`maps/primary-math/`）
 - **初中**七至九年级四大领域，共 **12** 张（`maps/junior-math/`）
+- **高中**必修 + 选择性必修核心模块，共 **11** 张（`maps/senior-math/`，按课标主题分图，不是假的高一/高二/高三文件夹）
 
-小学与初中共用同一套 JSON Schema。**小学数学四大领域地图线完成；初中数学 7–9 四大领域地图线完成。**
+小学、初中、高中共用同一套 JSON Schema。**小初高数学数据层完成**（小学 24 + 初中 12 + 高中核心 11）。
 
 > **内容边界（请先读）：**  
-> 知识点是义务教育课标四大领域 + 常见教材**目录/教学脉络**风格的**原创大纲**，用来排学习顺序。  
-> **不是**人教版或其他版本教科书 PDF 的摘录，也不是练习册扫描。仓库里不会放、也不会去爬教材正文。
+> 知识点是义务教育课标四大领域 + 普通高中数学课标（2017/2020）必修与选必核心 + 常见教材**目录/教学脉络**风格的**原创大纲**，用来排学习顺序。  
+> **不是**人教版或其他版本教科书 PDF 的摘录，也不是练习册扫描或高考原题整题。仓库里不会放、也不会去爬教材正文。
 
 许可证：[MIT](LICENSE)
 
@@ -38,15 +39,16 @@
 | 1 | 小学数学样例：一至六年级数与运算可通关地图 + 1–6 年级标题路书 | ✅ 本仓库（数与运算 1–6 线完成） |
 | 2 | 补全小学数学其余领域地图（图形与几何、统计与概率、综合与实践；仍是大纲，不搬书） | ✅ 本仓库：**小学数学四大领域地图线完成**（24 张图） |
 | 2b | 初中数学 7–9 四大领域（数与代数、图形与几何、统计与概率、综合与实践；schema 与小学相同） | ✅ 本仓库：**初中数学 7–9 四大领域地图线完成**（12 张图） |
+| 2c | 高中数学必修 + 选必核心模块（按课标主题分图；`stage: 高中`，`grade` 用 10–12 学段带） | ✅ 本仓库：**高中数学核心模块地图线完成**（11 张图） |
 | 3 | 语文、英语等学科；英语可挂「单词知识图」 | 未开始 |
 | 4 | 游戏客户端或 Agent Skill：读 JSON、改存档、出题 | 未开始 |
 
-**Phase 1–2 做小学数学，2b 做初中数学。** 其它学科先在模式里留好 `subject` 枚举。小学 / 初中数学地图 **schema 仍共用**，只是 `stage`、`grade` 和节点 id 前缀不同。
+**Phase 1–2 做小学数学，2b 做初中数学，2c 做高中数学核心。** 其它学科先在模式里留好 `subject` 枚举。小 / 初 / 高中数学地图 **schema 仍共用**，只是 `stage`、`grade` 和节点 id 前缀不同。
 
 ## 目录
 
 ```
-schema/                              四种 JSON Schema + 短说明（小学/初中共用）
+schema/                              四种 JSON Schema + 短说明（小学/初中/高中共用）
 maps/primary-math/OVERVIEW.md        小学数学 1–6 年级领域标题（路书）
 maps/primary-math/grade-*-numbers/   一至六年级「数与运算」地图（四个 JSON + 演示存档）
 maps/primary-math/grade-*-geometry/  一至六年级「图形与几何」地图（同上）
@@ -65,12 +67,25 @@ maps/junior-math/grade-9-algebra/    九年级「数与代数」地图（同上�
 maps/junior-math/grade-9-geometry/   九年级「图形与几何」地图（同上）
 maps/junior-math/grade-9-statistics/ 九年级「统计与概率」地图（同上）
 maps/junior-math/grade-9-practice/   九年级「综合与实践」地图（同上）
+maps/senior-math/OVERVIEW.md         高中数学必修+选必核心模块路书
+maps/senior-math/sets-logic/         集合与常用逻辑用语（预备知识）
+maps/senior-math/functions/          函数概念与基本初等函数
+maps/senior-math/trig/               三角函数与解三角形
+maps/senior-math/vectors-complex/    平面向量与复数
+maps/senior-math/solid-geometry/     立体几何初步
+maps/senior-math/analytic-geometry/  平面解析几何
+maps/senior-math/probability-statistics/ 概率与统计（必修）
+maps/senior-math/derivatives/        导数及其应用
+maps/senior-math/counting-probability/ 计数原理与随机变量
+maps/senior-math/sequences/          数列
+maps/senior-math/practice/           数学建模与综合实践
 docs/gameplay.md                     点亮、经验、关主、软锁/硬前置
 docs/skill-roadmap.md                以后做成 Skill 的接口设想
 scripts/validate_map.py              校验地图合法（`--all` 会扫描 maps/ 下所有含 map.meta.json 的目录）
 scripts/_geo_common.py               图形地图生成共用函数
-scripts/_map_common.py               统计/实践等地图生成共用函数（`stage` 可设小学或初中）
+scripts/_map_common.py               统计/实践等地图生成共用函数（`stage` 可设小学、初中或高中）
 scripts/_junior_common.py            初中地图生成：默认 `stage=初中`
+scripts/_senior_common.py            高中地图生成：默认 `stage=高中`
 scripts/_build_grade*_*.py           重新生成小学各图 JSON
 scripts/_build_jm_g7_algebra.py      重新生成七年级数与代数 JSON
 scripts/_build_jm_g7_geometry.py     重新生成七年级图形与几何 JSON
@@ -85,6 +100,8 @@ scripts/_build_jm_g9_geometry.py     重新生成九年级图形与几何 JSON
 scripts/_build_jm_g9_statistics.py   重新生成九年级统计与概率 JSON
 scripts/_build_jm_g9_practice.py     重新生成九年级综合与实践 JSON
 scripts/_build_junior_math.py        一次重新生成全部 12 张初中图
+scripts/_build_sm_*.py               重新生成各张高中模块图 JSON
+scripts/_build_senior_math.py        一次重新生成全部 11 张高中图
 LICENSE                              MIT
 ```
 
@@ -94,7 +111,7 @@ LICENSE                              MIT
 
 | 对象 | 文件 | 关键字段 |
 | --- | --- | --- |
-| 知识点 | `knowledge-node.schema.json` | `id` `title` `subject` `stage`（小学 / 初中）`grade`（小学 1–6；初中 7–9）`strand`（数与代数 / 图形与几何 / 统计与概率 / 综合与实践）`difficulty`（1–5）`prerequisites` `tags` `unlock_rule` `mastery_criteria` `description` |
+| 知识点 | `knowledge-node.schema.json` | `id` `title` `subject` `stage`（小学 / 初中 / 高中）`grade`（小学 1–6；初中 7–9；高中 10–12 学段带）`strand`（数与代数 / 图形与几何 / 统计与概率 / 综合与实践）`difficulty`（1–5）`prerequisites` `tags` `unlock_rule` `mastery_criteria` `description` |
 | 边 | `knowledge-edge.schema.json` | `from` `to` `type`：`prerequisite` / `related` / `easily_confused` / `application` |
 | 任务 | `quest.schema.json` | 绑在一个节点上：`explain` / `practice` / `mini_quiz` / `boss` |
 | 进度 | `player-progress.schema.json` | 每盏灯：`locked` / `available` / `learning` / `lit` / `needs_review`；还有 `xp_total`、`cleared_map_ids` |
@@ -102,7 +119,7 @@ LICENSE                              MIT
 约定：
 
 - 给学生看的字用**中文**
-- 程序 id 用英文短横线：小学数与运算如 `pm-g1-n001` … `pm-g6-n001`；图形与几何如 `pm-g1-geo-n001`；统计与概率如 `pm-g1-stat-n001`（关主如 `pm-g1-stat-boss-sort`）；综合与实践如 `pm-g1-prac-n001`。初中如 `jm-g7-alg-n001`、`jm-g7-geo-n001`、`jm-g7-stat-n001`、`jm-g7-prac-n001`（关主如 `jm-g7-alg-boss-rational`）
+- 程序 id 用英文短横线：小学数与运算如 `pm-g1-n001` … `pm-g6-n001`；图形与几何如 `pm-g1-geo-n001`；统计与概率如 `pm-g1-stat-n001`（关主如 `pm-g1-stat-boss-sort`）；综合与实践如 `pm-g1-prac-n001`。初中如 `jm-g7-alg-n001`、`jm-g7-geo-n001`、`jm-g7-stat-n001`、`jm-g7-prac-n001`（关主如 `jm-g7-alg-boss-rational`）。高中如 `sm-func-n001`、`sm-trig-n001`、`sm-vec-n001`（关主如 `sm-func-boss-exp`）
 - `nodes.json` 里的 `prerequisites` 必须和「指向它的 prerequisite 边」一致
 - 只有前置边参与解锁；它们必须构成**有向无环图（DAG）**
 
@@ -111,7 +128,7 @@ LICENSE                              MIT
 
 ## 怎么「玩」这些样例地图
 
-现在没有画面，按数据走即可，和以后客户端规则相同。小学二十四张图、初中十二张图各自通关，**还没有**跨地图进度引擎（四大领域图也不互相前置；初中图不引用 `pm-*`）。
+现在没有画面，按数据走即可，和以后客户端规则相同。小学二十四张图、初中十二张图、高中十一张图各自通关，**还没有**跨地图进度引擎（四大领域图也不互相前置；初中图不引用 `pm-*`；高中图不引用 `pm-*` / `jm-*`，高中模块之间也不互写前置）。
 
 ### 一年级 · 数与运算入门
 
@@ -457,6 +474,89 @@ LICENSE                              MIT
    - 通关：两名关主（偏好估计员、地图通关试炼）
 2. 主线建议：用样本估计偏好 → 关主 1；无障碍坡道坡度 → 关主 2
 
+### 高中 · 集合与常用逻辑用语
+
+1. 打开 [`maps/senior-math/sets-logic/map.meta.json`](maps/senior-math/sets-logic/map.meta.json)  
+   - 地图名：**高中 · 集合与常用逻辑用语**　起点：`sm-set-n001` 集合的含义　`module`: 预备知识　`grade`: 10  
+   - 通关：三名关主（集合运算官、逻辑用语审查员、地图通关试炼）
+2. 主线建议：集合运算 → 关主 1 → 常用逻辑用语 → 关主 2 → 从函数观点看方程与二次不等式  
+   区间、德摩根律、三圈文氏图、反证法萌芽为**软锁支线**
+
+### 高中 · 函数概念与基本初等函数
+
+1. 打开 [`maps/senior-math/functions/map.meta.json`](maps/senior-math/functions/map.meta.json)  
+   - 地图名：**高中 · 函数概念与基本初等函数**　起点：`sm-func-n001` 对应关系与函数  
+   - 通关：三名关主（函数性质鉴定官、指数对数航海士、地图通关试炼）
+2. 主线建议：概念与性质 → 关主 1 → 幂函数与指数对数 → 关主 2 → 模型选择  
+   三角函数见 trig 图，数列见 sequences 图
+
+### 高中 · 三角函数与解三角形
+
+1. 打开 [`maps/senior-math/trig/map.meta.json`](maps/senior-math/trig/map.meta.json)  
+   - 地图名：**高中 · 三角函数与解三角形**　起点：`sm-trig-n001` 任意角  
+   - 通关：三名关主（周期波动测绘员、三角恒等化简官、地图通关试炼）
+2. 主线建议：任意角与图象 → 关主 1 → 恒等入门 → 关主 2 → 正弦/余弦定理解三角形  
+   课标把解三角形写在向量应用里，本仓库并入本图，**不**引用 `sm-vec-*`
+
+### 高中 · 平面向量与复数
+
+1. 打开 [`maps/senior-math/vectors-complex/map.meta.json`](maps/senior-math/vectors-complex/map.meta.json)  
+   - 地图名：**高中 · 平面向量与复数**　起点：`sm-vec-n001` 向量的概念  
+   - 通关：三名关主（平面向量调度员、复数运算官、地图通关试炼）
+2. 主线建议：向量运算与数量积 → 关主 1 → 复数四则 → 关主 2
+
+### 高中 · 立体几何初步
+
+1. 打开 [`maps/senior-math/solid-geometry/map.meta.json`](maps/senior-math/solid-geometry/map.meta.json)  
+   - 地图名：**高中 · 立体几何初步**　起点：`sm-solid-n001` 空间几何体直观  
+   - 通关：三名关主（几何体还原师、空间位置裁判、地图通关试炼）
+2. 主线建议：几何体与三视图 → 关主 1 → 点线面平行垂直 → 关主 2 → 简单度量  
+   空间向量不在本图
+
+### 高中 · 平面解析几何
+
+1. 打开 [`maps/senior-math/analytic-geometry/map.meta.json`](maps/senior-math/analytic-geometry/map.meta.json)  
+   - 地图名：**高中 · 平面解析几何**　起点：`sm-ag-n001` 用坐标研究图形　`grade`: 11  
+   - 通关：三名关主（直线与圆测绘员、圆锥曲线入门官、地图通关试炼）
+2. 主线建议：直线 → 圆 → 关主 1 → 椭圆/双曲线/抛物线入门 → 关主 2
+
+### 高中 · 概率与统计（必修）
+
+1. 打开 [`maps/senior-math/probability-statistics/map.meta.json`](maps/senior-math/probability-statistics/map.meta.json)  
+   - 地图名：**高中 · 概率与统计（必修）**　起点：`sm-stat-n001` 问题先于数据  
+   - 通关：三名关主（抽样估计员、古典概型绘图员、地图通关试炼）
+2. 主线建议：抽样与数字特征 → 关主 1；散点回归可并行；古典概型 → 关主 2  
+   计数原理与随机变量见 counting-probability 图
+
+### 高中 · 导数及其应用
+
+1. 打开 [`maps/senior-math/derivatives/map.meta.json`](maps/senior-math/derivatives/map.meta.json)  
+   - 地图名：**高中 · 导数及其应用**　起点：`sm-der-n001` 平均变化率　`grade`: 11  
+   - 通关：三名关主（求导运算官、单调最值工程师、地图通关试炼）
+2. 主线建议：变化率与求导 → 关主 1 → 切线、单调与最值 → 关主 2
+
+### 高中 · 计数原理与随机变量
+
+1. 打开 [`maps/senior-math/counting-probability/map.meta.json`](maps/senior-math/counting-probability/map.meta.json)  
+   - 地图名：**高中 · 计数原理与随机变量**　起点：`sm-count-n001` 分类加法计数　`grade`: 11  
+   - 通关：三名关主（计数原理调度员、随机变量分析官、地图通关试炼）
+2. 主线建议：排列组合 → 关主 1 → 分布列、二项与期望 → 关主 2 → 条件概率
+
+### 高中 · 数列
+
+1. 打开 [`maps/senior-math/sequences/map.meta.json`](maps/senior-math/sequences/map.meta.json)  
+   - 地图名：**高中 · 数列**　起点：`sm-seq-n001` 数列的概念　`grade`: 11  
+   - 通关：三名关主（等差数列测绘员、等比数列航海士、地图通关试炼）
+2. 主线建议：等差 → 关主 1 → 等比 → 关主 2 → 选模型、利息  
+   未并入函数图
+
+### 高中 · 数学建模与综合实践
+
+1. 打开 [`maps/senior-math/practice/map.meta.json`](maps/senior-math/practice/map.meta.json)  
+   - 地图名：**高中 · 数学建模与综合实践**　起点：`sm-prac-n001` 发现：套餐总超支　`grade`: 12  
+   - 通关：三名关主（套餐建模师、视线规划员、地图通关试炼）
+2. 主线建议：流量套餐分段模型 → 关主 1；讲座视线约束 → 关主 2。课题骨架原创，不抄教材长文
+
 打印推荐层（从起点沿前置边展开）：
 
 ```bash
@@ -496,6 +596,17 @@ python3 scripts/validate_map.py maps/junior-math/grade-9-algebra --tree
 python3 scripts/validate_map.py maps/junior-math/grade-9-geometry --tree
 python3 scripts/validate_map.py maps/junior-math/grade-9-statistics --tree
 python3 scripts/validate_map.py maps/junior-math/grade-9-practice --tree
+python3 scripts/validate_map.py maps/senior-math/sets-logic --tree
+python3 scripts/validate_map.py maps/senior-math/functions --tree
+python3 scripts/validate_map.py maps/senior-math/trig --tree
+python3 scripts/validate_map.py maps/senior-math/vectors-complex --tree
+python3 scripts/validate_map.py maps/senior-math/solid-geometry --tree
+python3 scripts/validate_map.py maps/senior-math/analytic-geometry --tree
+python3 scripts/validate_map.py maps/senior-math/probability-statistics --tree
+python3 scripts/validate_map.py maps/senior-math/derivatives --tree
+python3 scripts/validate_map.py maps/senior-math/counting-probability --tree
+python3 scripts/validate_map.py maps/senior-math/sequences --tree
+python3 scripts/validate_map.py maps/senior-math/practice --tree
 ```
 
 ## 校验命令
@@ -540,6 +651,17 @@ python3 scripts/validate_map.py maps/junior-math/grade-9-algebra
 python3 scripts/validate_map.py maps/junior-math/grade-9-geometry
 python3 scripts/validate_map.py maps/junior-math/grade-9-statistics
 python3 scripts/validate_map.py maps/junior-math/grade-9-practice
+python3 scripts/validate_map.py maps/senior-math/sets-logic
+python3 scripts/validate_map.py maps/senior-math/functions
+python3 scripts/validate_map.py maps/senior-math/trig
+python3 scripts/validate_map.py maps/senior-math/vectors-complex
+python3 scripts/validate_map.py maps/senior-math/solid-geometry
+python3 scripts/validate_map.py maps/senior-math/analytic-geometry
+python3 scripts/validate_map.py maps/senior-math/probability-statistics
+python3 scripts/validate_map.py maps/senior-math/derivatives
+python3 scripts/validate_map.py maps/senior-math/counting-probability
+python3 scripts/validate_map.py maps/senior-math/sequences
+python3 scripts/validate_map.py maps/senior-math/practice
 python3 scripts/validate_map.py --all
 ```
 
@@ -573,15 +695,18 @@ python3 scripts/_build_grade4_practice.py
 python3 scripts/_build_grade5_practice.py
 python3 scripts/_build_grade6_practice.py
 python3 scripts/_build_junior_math.py
+python3 scripts/_build_senior_math.py
 python3 scripts/validate_map.py --all --tree
 ```
 
 ## 以后多学科
 
 小学数学 1–6 年级领域标题已经列在 [maps/primary-math/OVERVIEW.md](maps/primary-math/OVERVIEW.md)，**小学数学四大领域地图线完成**（数与运算、图形与几何、统计与概率、综合与实践各 1–6，共 24 张可通关地图）。  
-初中数学 7–9 年级领域标题列在 [maps/junior-math/OVERVIEW.md](maps/junior-math/OVERVIEW.md)，**初中数学四大领域地图线完成**（数与代数、图形与几何、统计与概率、综合与实践各 7–9，共 12 张可通关地图）。小学与初中 **schema 仍共用**。  
+初中数学 7–9 年级领域标题列在 [maps/junior-math/OVERVIEW.md](maps/junior-math/OVERVIEW.md)，**初中数学四大领域地图线完成**（数与代数、图形与几何、统计与概率、综合与实践各 7–9，共 12 张可通关地图）。  
+高中数学核心模块列在 [maps/senior-math/OVERVIEW.md](maps/senior-math/OVERVIEW.md)，**高中数学必修 + 选必核心地图线完成**（11 张可通关地图）。小 / 初 / 高中 **schema 仍共用**。  
 小学数与运算 / 图形 / 统计 / 实践各六张图概念上衔接，但节点 id 不跨图引用（详见小学 OVERVIEW）。  
 初中数与代数 / 图形 / 统计 / 实践各三张图同样只在 OVERVIEW 里写概念衔接：**不要**在 `prerequisites` 里写 `pm-*` 或其他 `jm-*` 地图的节点。  
+高中各模块同样只在 OVERVIEW 里写概念衔接：**不要**在 `prerequisites` 里写 `pm-*`、`jm-*` 或其他 `sm-*` 地图的节点。  
 存档和校验都按图独立，跨地图进度以后再做。四大领域图之间**不要**互写节点前置。  
 语文、英语将新增 `maps/<学科>/`，复用同一套 schema。英语单词知识图可以和语文语素、数学应用题用语用 `related` 边连起来（见 Skill 路线）。
 
@@ -590,7 +715,7 @@ python3 scripts/validate_map.py --all --tree
 
 - 还没有图形界面，状态要靠读 JSON 想象
 - 练习题只有提示语，没有自动出题器
-- 小学数学四大领域 1–6、初中数学四大领域 7–9 已齐；高中数学以及其他学科地图尚未开始
+- 小学、初中、高中数学核心模块已齐；高中选修（如不等式选讲、空间向量深化、正态计算）以及其他学科地图尚未开始
 - `strand` 枚举目前按数学四大领域；其他学科需要扩展字段
 
-这些不挡 Phase 1–2b：模式、36 张样例 DAG、校验、许可证已经齐。下一阶段是游戏客户端或 Agent Skill，或高中数学 / 其他学科地图。
+这些不挡 Phase 1–2c：模式、47 张样例 DAG、校验、许可证已经齐。下一阶段是游戏客户端或 Agent Skill，或其他学科地图。

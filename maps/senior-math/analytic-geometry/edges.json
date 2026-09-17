@@ -1,0 +1,281 @@
+{
+  "map_id": "sm-analytic-geometry",
+  "edges": [
+    {
+      "from": "sm-ag-n001",
+      "to": "sm-ag-n002",
+      "type": "prerequisite",
+      "note": "sm-ag-n001 需先于 sm-ag-n002"
+    },
+    {
+      "from": "sm-ag-n002",
+      "to": "sm-ag-n003",
+      "type": "prerequisite",
+      "note": "sm-ag-n002 需先于 sm-ag-n003"
+    },
+    {
+      "from": "sm-ag-n003",
+      "to": "sm-ag-n004",
+      "type": "prerequisite",
+      "note": "sm-ag-n003 需先于 sm-ag-n004"
+    },
+    {
+      "from": "sm-ag-n004",
+      "to": "sm-ag-n005",
+      "type": "prerequisite",
+      "note": "sm-ag-n004 需先于 sm-ag-n005"
+    },
+    {
+      "from": "sm-ag-n004",
+      "to": "sm-ag-n006",
+      "type": "prerequisite",
+      "note": "sm-ag-n004 需先于 sm-ag-n006"
+    },
+    {
+      "from": "sm-ag-n006",
+      "to": "sm-ag-n007",
+      "type": "prerequisite",
+      "note": "sm-ag-n006 需先于 sm-ag-n007"
+    },
+    {
+      "from": "sm-ag-n007",
+      "to": "sm-ag-n008",
+      "type": "prerequisite",
+      "note": "sm-ag-n007 需先于 sm-ag-n008"
+    },
+    {
+      "from": "sm-ag-n006",
+      "to": "sm-ag-n009",
+      "type": "prerequisite",
+      "note": "sm-ag-n006 需先于 sm-ag-n009"
+    },
+    {
+      "from": "sm-ag-n008",
+      "to": "sm-ag-n010",
+      "type": "prerequisite",
+      "note": "sm-ag-n008 需先于 sm-ag-n010"
+    },
+    {
+      "from": "sm-ag-n009",
+      "to": "sm-ag-n010",
+      "type": "prerequisite",
+      "note": "sm-ag-n009 需先于 sm-ag-n010"
+    },
+    {
+      "from": "sm-ag-n001",
+      "to": "sm-ag-n011",
+      "type": "prerequisite",
+      "note": "sm-ag-n001 需先于 sm-ag-n011"
+    },
+    {
+      "from": "sm-ag-n011",
+      "to": "sm-ag-n012",
+      "type": "prerequisite",
+      "note": "sm-ag-n011 需先于 sm-ag-n012"
+    },
+    {
+      "from": "sm-ag-n012",
+      "to": "sm-ag-n013",
+      "type": "prerequisite",
+      "note": "sm-ag-n012 需先于 sm-ag-n013"
+    },
+    {
+      "from": "sm-ag-n009",
+      "to": "sm-ag-n013",
+      "type": "prerequisite",
+      "note": "sm-ag-n009 需先于 sm-ag-n013"
+    },
+    {
+      "from": "sm-ag-n013",
+      "to": "sm-ag-n014",
+      "type": "prerequisite",
+      "note": "sm-ag-n013 需先于 sm-ag-n014"
+    },
+    {
+      "from": "sm-ag-n012",
+      "to": "sm-ag-n015",
+      "type": "prerequisite",
+      "note": "sm-ag-n012 需先于 sm-ag-n015"
+    },
+    {
+      "from": "sm-ag-n010",
+      "to": "sm-ag-n016",
+      "type": "prerequisite",
+      "note": "sm-ag-n010 需先于 sm-ag-n016"
+    },
+    {
+      "from": "sm-ag-n014",
+      "to": "sm-ag-n016",
+      "type": "prerequisite",
+      "note": "sm-ag-n014 需先于 sm-ag-n016"
+    },
+    {
+      "from": "sm-ag-n015",
+      "to": "sm-ag-n016",
+      "type": "prerequisite",
+      "note": "sm-ag-n015 需先于 sm-ag-n016"
+    },
+    {
+      "from": "sm-ag-n011",
+      "to": "sm-ag-n017",
+      "type": "prerequisite",
+      "note": "sm-ag-n011 需先于 sm-ag-n017"
+    },
+    {
+      "from": "sm-ag-n017",
+      "to": "sm-ag-n018",
+      "type": "prerequisite",
+      "note": "sm-ag-n017 需先于 sm-ag-n018"
+    },
+    {
+      "from": "sm-ag-n018",
+      "to": "sm-ag-n019",
+      "type": "prerequisite",
+      "note": "sm-ag-n018 需先于 sm-ag-n019"
+    },
+    {
+      "from": "sm-ag-n017",
+      "to": "sm-ag-n020",
+      "type": "prerequisite",
+      "note": "sm-ag-n017 需先于 sm-ag-n020"
+    },
+    {
+      "from": "sm-ag-n020",
+      "to": "sm-ag-n021",
+      "type": "prerequisite",
+      "note": "sm-ag-n020 需先于 sm-ag-n021"
+    },
+    {
+      "from": "sm-ag-n018",
+      "to": "sm-ag-n021",
+      "type": "prerequisite",
+      "note": "sm-ag-n018 需先于 sm-ag-n021"
+    },
+    {
+      "from": "sm-ag-n017",
+      "to": "sm-ag-n022",
+      "type": "prerequisite",
+      "note": "sm-ag-n017 需先于 sm-ag-n022"
+    },
+    {
+      "from": "sm-ag-n022",
+      "to": "sm-ag-n023",
+      "type": "prerequisite",
+      "note": "sm-ag-n022 需先于 sm-ag-n023"
+    },
+    {
+      "from": "sm-ag-n019",
+      "to": "sm-ag-n024",
+      "type": "prerequisite",
+      "note": "sm-ag-n019 需先于 sm-ag-n024"
+    },
+    {
+      "from": "sm-ag-n021",
+      "to": "sm-ag-n024",
+      "type": "prerequisite",
+      "note": "sm-ag-n021 需先于 sm-ag-n024"
+    },
+    {
+      "from": "sm-ag-n023",
+      "to": "sm-ag-n024",
+      "type": "prerequisite",
+      "note": "sm-ag-n023 需先于 sm-ag-n024"
+    },
+    {
+      "from": "sm-ag-n016",
+      "to": "sm-ag-n025",
+      "type": "prerequisite",
+      "note": "sm-ag-n016 需先于 sm-ag-n025"
+    },
+    {
+      "from": "sm-ag-n024",
+      "to": "sm-ag-n025",
+      "type": "prerequisite",
+      "note": "sm-ag-n024 需先于 sm-ag-n025"
+    },
+    {
+      "from": "sm-ag-n025",
+      "to": "sm-ag-n026",
+      "type": "prerequisite",
+      "note": "sm-ag-n025 需先于 sm-ag-n026"
+    },
+    {
+      "from": "sm-ag-n026",
+      "to": "sm-ag-n027",
+      "type": "prerequisite",
+      "note": "sm-ag-n026 需先于 sm-ag-n027"
+    },
+    {
+      "from": "sm-ag-n021",
+      "to": "sm-ag-n028",
+      "type": "prerequisite",
+      "note": "sm-ag-n021 需先于 sm-ag-n028"
+    },
+    {
+      "from": "sm-ag-n019",
+      "to": "sm-ag-n029",
+      "type": "prerequisite",
+      "note": "sm-ag-n019 需先于 sm-ag-n029"
+    },
+    {
+      "from": "sm-ag-n018",
+      "to": "sm-ag-n030",
+      "type": "prerequisite",
+      "note": "sm-ag-n018 需先于 sm-ag-n030"
+    },
+    {
+      "from": "sm-ag-n010",
+      "to": "sm-ag-n031",
+      "type": "prerequisite",
+      "note": "sm-ag-n010 需先于 sm-ag-n031"
+    },
+    {
+      "from": "sm-ag-n023",
+      "to": "sm-ag-n032",
+      "type": "prerequisite",
+      "note": "sm-ag-n023 需先于 sm-ag-n032"
+    },
+    {
+      "from": "sm-ag-n004",
+      "to": "sm-ag-n006",
+      "type": "related",
+      "note": "点斜式方便写，一般式能覆盖竖直线。"
+    },
+    {
+      "from": "sm-ag-n007",
+      "to": "sm-ag-n008",
+      "type": "easily_confused",
+      "note": "平行是斜率相等，垂直是乘积为 -1，不要记反。"
+    },
+    {
+      "from": "sm-ag-n013",
+      "to": "sm-ag-n015",
+      "type": "related",
+      "note": "都是比较距离与半径，一个对直线，一个对另一圆。"
+    },
+    {
+      "from": "sm-ag-n017",
+      "to": "sm-ag-n020",
+      "type": "easily_confused",
+      "note": "椭圆是距离之和为常数，双曲线是差的绝对值为常数。"
+    },
+    {
+      "from": "sm-ag-n017",
+      "to": "sm-ag-n022",
+      "type": "related",
+      "note": "抛物线只有一个焦点和一条准线，是「和/差」退化成「相等」。"
+    },
+    {
+      "from": "sm-ag-n021",
+      "to": "sm-ag-n028",
+      "type": "application",
+      "note": "先有标准方程，再写渐近线。"
+    },
+    {
+      "from": "sm-ag-n019",
+      "to": "sm-ag-n029",
+      "type": "related",
+      "note": "e=c/a 已经出现，再谈扁与圆。"
+    }
+  ]
+}

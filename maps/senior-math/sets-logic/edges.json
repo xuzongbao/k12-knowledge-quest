@@ -1,0 +1,299 @@
+{
+  "map_id": "sm-sets-logic",
+  "edges": [
+    {
+      "from": "sm-set-n001",
+      "to": "sm-set-n002",
+      "type": "prerequisite",
+      "note": "sm-set-n001 需先于 sm-set-n002"
+    },
+    {
+      "from": "sm-set-n002",
+      "to": "sm-set-n003",
+      "type": "prerequisite",
+      "note": "sm-set-n002 需先于 sm-set-n003"
+    },
+    {
+      "from": "sm-set-n002",
+      "to": "sm-set-n004",
+      "type": "prerequisite",
+      "note": "sm-set-n002 需先于 sm-set-n004"
+    },
+    {
+      "from": "sm-set-n003",
+      "to": "sm-set-n005",
+      "type": "prerequisite",
+      "note": "sm-set-n003 需先于 sm-set-n005"
+    },
+    {
+      "from": "sm-set-n004",
+      "to": "sm-set-n005",
+      "type": "prerequisite",
+      "note": "sm-set-n004 需先于 sm-set-n005"
+    },
+    {
+      "from": "sm-set-n005",
+      "to": "sm-set-n006",
+      "type": "prerequisite",
+      "note": "sm-set-n005 需先于 sm-set-n006"
+    },
+    {
+      "from": "sm-set-n006",
+      "to": "sm-set-n007",
+      "type": "prerequisite",
+      "note": "sm-set-n006 需先于 sm-set-n007"
+    },
+    {
+      "from": "sm-set-n007",
+      "to": "sm-set-n008",
+      "type": "prerequisite",
+      "note": "sm-set-n007 需先于 sm-set-n008"
+    },
+    {
+      "from": "sm-set-n008",
+      "to": "sm-set-n009",
+      "type": "prerequisite",
+      "note": "sm-set-n008 需先于 sm-set-n009"
+    },
+    {
+      "from": "sm-set-n007",
+      "to": "sm-set-n010",
+      "type": "prerequisite",
+      "note": "sm-set-n007 需先于 sm-set-n010"
+    },
+    {
+      "from": "sm-set-n010",
+      "to": "sm-set-n011",
+      "type": "prerequisite",
+      "note": "sm-set-n010 需先于 sm-set-n011"
+    },
+    {
+      "from": "sm-set-n007",
+      "to": "sm-set-n012",
+      "type": "prerequisite",
+      "note": "sm-set-n007 需先于 sm-set-n012"
+    },
+    {
+      "from": "sm-set-n012",
+      "to": "sm-set-n013",
+      "type": "prerequisite",
+      "note": "sm-set-n012 需先于 sm-set-n013"
+    },
+    {
+      "from": "sm-set-n009",
+      "to": "sm-set-n014",
+      "type": "prerequisite",
+      "note": "sm-set-n009 需先于 sm-set-n014"
+    },
+    {
+      "from": "sm-set-n011",
+      "to": "sm-set-n014",
+      "type": "prerequisite",
+      "note": "sm-set-n011 需先于 sm-set-n014"
+    },
+    {
+      "from": "sm-set-n013",
+      "to": "sm-set-n014",
+      "type": "prerequisite",
+      "note": "sm-set-n013 需先于 sm-set-n014"
+    },
+    {
+      "from": "sm-set-n014",
+      "to": "sm-set-n015",
+      "type": "prerequisite",
+      "note": "sm-set-n014 需先于 sm-set-n015"
+    },
+    {
+      "from": "sm-set-n015",
+      "to": "sm-set-n016",
+      "type": "prerequisite",
+      "note": "sm-set-n015 需先于 sm-set-n016"
+    },
+    {
+      "from": "sm-set-n016",
+      "to": "sm-set-n017",
+      "type": "prerequisite",
+      "note": "sm-set-n016 需先于 sm-set-n017"
+    },
+    {
+      "from": "sm-set-n017",
+      "to": "sm-set-n018",
+      "type": "prerequisite",
+      "note": "sm-set-n017 需先于 sm-set-n018"
+    },
+    {
+      "from": "sm-set-n016",
+      "to": "sm-set-n019",
+      "type": "prerequisite",
+      "note": "sm-set-n016 需先于 sm-set-n019"
+    },
+    {
+      "from": "sm-set-n019",
+      "to": "sm-set-n020",
+      "type": "prerequisite",
+      "note": "sm-set-n019 需先于 sm-set-n020"
+    },
+    {
+      "from": "sm-set-n020",
+      "to": "sm-set-n021",
+      "type": "prerequisite",
+      "note": "sm-set-n020 需先于 sm-set-n021"
+    },
+    {
+      "from": "sm-set-n019",
+      "to": "sm-set-n022",
+      "type": "prerequisite",
+      "note": "sm-set-n019 需先于 sm-set-n022"
+    },
+    {
+      "from": "sm-set-n022",
+      "to": "sm-set-n023",
+      "type": "prerequisite",
+      "note": "sm-set-n022 需先于 sm-set-n023"
+    },
+    {
+      "from": "sm-set-n021",
+      "to": "sm-set-n023",
+      "type": "prerequisite",
+      "note": "sm-set-n021 需先于 sm-set-n023"
+    },
+    {
+      "from": "sm-set-n018",
+      "to": "sm-set-n024",
+      "type": "prerequisite",
+      "note": "sm-set-n018 需先于 sm-set-n024"
+    },
+    {
+      "from": "sm-set-n023",
+      "to": "sm-set-n024",
+      "type": "prerequisite",
+      "note": "sm-set-n023 需先于 sm-set-n024"
+    },
+    {
+      "from": "sm-set-n014",
+      "to": "sm-set-n025",
+      "type": "prerequisite",
+      "note": "sm-set-n014 需先于 sm-set-n025"
+    },
+    {
+      "from": "sm-set-n025",
+      "to": "sm-set-n026",
+      "type": "prerequisite",
+      "note": "sm-set-n025 需先于 sm-set-n026"
+    },
+    {
+      "from": "sm-set-n026",
+      "to": "sm-set-n027",
+      "type": "prerequisite",
+      "note": "sm-set-n026 需先于 sm-set-n027"
+    },
+    {
+      "from": "sm-set-n027",
+      "to": "sm-set-n028",
+      "type": "prerequisite",
+      "note": "sm-set-n027 需先于 sm-set-n028"
+    },
+    {
+      "from": "sm-set-n013",
+      "to": "sm-set-n028",
+      "type": "prerequisite",
+      "note": "sm-set-n013 需先于 sm-set-n028"
+    },
+    {
+      "from": "sm-set-n024",
+      "to": "sm-set-n029",
+      "type": "prerequisite",
+      "note": "sm-set-n024 需先于 sm-set-n029"
+    },
+    {
+      "from": "sm-set-n028",
+      "to": "sm-set-n029",
+      "type": "prerequisite",
+      "note": "sm-set-n028 需先于 sm-set-n029"
+    },
+    {
+      "from": "sm-set-n029",
+      "to": "sm-set-n030",
+      "type": "prerequisite",
+      "note": "sm-set-n029 需先于 sm-set-n030"
+    },
+    {
+      "from": "sm-set-n028",
+      "to": "sm-set-n031",
+      "type": "prerequisite",
+      "note": "sm-set-n028 需先于 sm-set-n031"
+    },
+    {
+      "from": "sm-set-n016",
+      "to": "sm-set-n032",
+      "type": "prerequisite",
+      "note": "sm-set-n016 需先于 sm-set-n032"
+    },
+    {
+      "from": "sm-set-n011",
+      "to": "sm-set-n032",
+      "type": "prerequisite",
+      "note": "sm-set-n011 需先于 sm-set-n032"
+    },
+    {
+      "from": "sm-set-n014",
+      "to": "sm-set-n033",
+      "type": "prerequisite",
+      "note": "sm-set-n014 需先于 sm-set-n033"
+    },
+    {
+      "from": "sm-set-n023",
+      "to": "sm-set-n034",
+      "type": "prerequisite",
+      "note": "sm-set-n023 需先于 sm-set-n034"
+    },
+    {
+      "from": "sm-set-n007",
+      "to": "sm-set-n009",
+      "type": "easily_confused",
+      "note": "子集允许相等；真子集不允许。写法多一个等号，意思差一层。"
+    },
+    {
+      "from": "sm-set-n012",
+      "to": "sm-set-n013",
+      "type": "easily_confused",
+      "note": "交是重叠部分，并是合在一起；口头「和」容易说成并却画成交。"
+    },
+    {
+      "from": "sm-set-n017",
+      "to": "sm-set-n018",
+      "type": "easily_confused",
+      "note": "否定全称用存在反例；否定存在要用「一个都没有」。"
+    },
+    {
+      "from": "sm-set-n019",
+      "to": "sm-set-n020",
+      "type": "easily_confused",
+      "note": "充分是「有它就够」；必要是「缺它不行」。方向说反最常见。"
+    },
+    {
+      "from": "sm-set-n022",
+      "to": "sm-set-n023",
+      "type": "related",
+      "note": "四种命题里，只有逆否与原命题永远同真同假。"
+    },
+    {
+      "from": "sm-set-n026",
+      "to": "sm-set-n027",
+      "type": "application",
+      "note": "先看二次函数图象过不过 x 轴，再写不等式解集。"
+    },
+    {
+      "from": "sm-set-n011",
+      "to": "sm-set-n032",
+      "type": "related",
+      "note": "补集是德摩根律的几何直觉来源。"
+    },
+    {
+      "from": "sm-set-n014",
+      "to": "sm-set-n033",
+      "type": "application",
+      "note": "运算综合之后，三个圈的区域才能对上符号。"
+    }
+  ]
+}

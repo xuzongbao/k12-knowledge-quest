@@ -23,6 +23,8 @@
 > - [七年级 · 综合与实践](grade-7-practice/)  
 > - [八年级 · 综合与实践](grade-8-practice/)  
 > - [九年级 · 综合与实践](grade-9-practice/)  
+>
+> **高中数学核心模块见** [../senior-math/OVERVIEW.md](../senior-math/OVERVIEW.md)。  
 
 知识点来自义务教育数学课标第四学段（7–9 年级）的**公开教学脉络**，**不是**某版教科书正文或练习题的转载。  
 JSON 形状与小学地图相同，共用 `schema/` 与 `scripts/validate_map.py`。

@@ -1,0 +1,239 @@
+{
+  "map_id": "sm-derivatives",
+  "edges": [
+    {
+      "from": "sm-der-n001",
+      "to": "sm-der-n002",
+      "type": "prerequisite",
+      "note": "sm-der-n001 需先于 sm-der-n002"
+    },
+    {
+      "from": "sm-der-n002",
+      "to": "sm-der-n003",
+      "type": "prerequisite",
+      "note": "sm-der-n002 需先于 sm-der-n003"
+    },
+    {
+      "from": "sm-der-n003",
+      "to": "sm-der-n004",
+      "type": "prerequisite",
+      "note": "sm-der-n003 需先于 sm-der-n004"
+    },
+    {
+      "from": "sm-der-n003",
+      "to": "sm-der-n005",
+      "type": "prerequisite",
+      "note": "sm-der-n003 需先于 sm-der-n005"
+    },
+    {
+      "from": "sm-der-n003",
+      "to": "sm-der-n006",
+      "type": "prerequisite",
+      "note": "sm-der-n003 需先于 sm-der-n006"
+    },
+    {
+      "from": "sm-der-n004",
+      "to": "sm-der-n007",
+      "type": "prerequisite",
+      "note": "sm-der-n004 需先于 sm-der-n007"
+    },
+    {
+      "from": "sm-der-n007",
+      "to": "sm-der-n008",
+      "type": "prerequisite",
+      "note": "sm-der-n007 需先于 sm-der-n008"
+    },
+    {
+      "from": "sm-der-n007",
+      "to": "sm-der-n009",
+      "type": "prerequisite",
+      "note": "sm-der-n007 需先于 sm-der-n009"
+    },
+    {
+      "from": "sm-der-n007",
+      "to": "sm-der-n010",
+      "type": "prerequisite",
+      "note": "sm-der-n007 需先于 sm-der-n010"
+    },
+    {
+      "from": "sm-der-n010",
+      "to": "sm-der-n011",
+      "type": "prerequisite",
+      "note": "sm-der-n010 需先于 sm-der-n011"
+    },
+    {
+      "from": "sm-der-n011",
+      "to": "sm-der-n012",
+      "type": "prerequisite",
+      "note": "sm-der-n011 需先于 sm-der-n012"
+    },
+    {
+      "from": "sm-der-n008",
+      "to": "sm-der-n012",
+      "type": "prerequisite",
+      "note": "sm-der-n008 需先于 sm-der-n012"
+    },
+    {
+      "from": "sm-der-n005",
+      "to": "sm-der-n013",
+      "type": "prerequisite",
+      "note": "sm-der-n005 需先于 sm-der-n013"
+    },
+    {
+      "from": "sm-der-n007",
+      "to": "sm-der-n013",
+      "type": "prerequisite",
+      "note": "sm-der-n007 需先于 sm-der-n013"
+    },
+    {
+      "from": "sm-der-n012",
+      "to": "sm-der-n014",
+      "type": "prerequisite",
+      "note": "sm-der-n012 需先于 sm-der-n014"
+    },
+    {
+      "from": "sm-der-n014",
+      "to": "sm-der-n015",
+      "type": "prerequisite",
+      "note": "sm-der-n014 需先于 sm-der-n015"
+    },
+    {
+      "from": "sm-der-n015",
+      "to": "sm-der-n016",
+      "type": "prerequisite",
+      "note": "sm-der-n015 需先于 sm-der-n016"
+    },
+    {
+      "from": "sm-der-n016",
+      "to": "sm-der-n017",
+      "type": "prerequisite",
+      "note": "sm-der-n016 需先于 sm-der-n017"
+    },
+    {
+      "from": "sm-der-n016",
+      "to": "sm-der-n018",
+      "type": "prerequisite",
+      "note": "sm-der-n016 需先于 sm-der-n018"
+    },
+    {
+      "from": "sm-der-n014",
+      "to": "sm-der-n019",
+      "type": "prerequisite",
+      "note": "sm-der-n014 需先于 sm-der-n019"
+    },
+    {
+      "from": "sm-der-n013",
+      "to": "sm-der-n020",
+      "type": "prerequisite",
+      "note": "sm-der-n013 需先于 sm-der-n020"
+    },
+    {
+      "from": "sm-der-n017",
+      "to": "sm-der-n020",
+      "type": "prerequisite",
+      "note": "sm-der-n017 需先于 sm-der-n020"
+    },
+    {
+      "from": "sm-der-n018",
+      "to": "sm-der-n020",
+      "type": "prerequisite",
+      "note": "sm-der-n018 需先于 sm-der-n020"
+    },
+    {
+      "from": "sm-der-n020",
+      "to": "sm-der-n021",
+      "type": "prerequisite",
+      "note": "sm-der-n020 需先于 sm-der-n021"
+    },
+    {
+      "from": "sm-der-n019",
+      "to": "sm-der-n021",
+      "type": "prerequisite",
+      "note": "sm-der-n019 需先于 sm-der-n021"
+    },
+    {
+      "from": "sm-der-n005",
+      "to": "sm-der-n022",
+      "type": "prerequisite",
+      "note": "sm-der-n005 需先于 sm-der-n022"
+    },
+    {
+      "from": "sm-der-n022",
+      "to": "sm-der-n023",
+      "type": "prerequisite",
+      "note": "sm-der-n022 需先于 sm-der-n023"
+    },
+    {
+      "from": "sm-der-n016",
+      "to": "sm-der-n024",
+      "type": "prerequisite",
+      "note": "sm-der-n016 需先于 sm-der-n024"
+    },
+    {
+      "from": "sm-der-n012",
+      "to": "sm-der-n025",
+      "type": "prerequisite",
+      "note": "sm-der-n012 需先于 sm-der-n025"
+    },
+    {
+      "from": "sm-der-n017",
+      "to": "sm-der-n026",
+      "type": "prerequisite",
+      "note": "sm-der-n017 需先于 sm-der-n026"
+    },
+    {
+      "from": "sm-der-n013",
+      "to": "sm-der-n027",
+      "type": "prerequisite",
+      "note": "sm-der-n013 需先于 sm-der-n027"
+    },
+    {
+      "from": "sm-der-n015",
+      "to": "sm-der-n028",
+      "type": "prerequisite",
+      "note": "sm-der-n015 需先于 sm-der-n028"
+    },
+    {
+      "from": "sm-der-n001",
+      "to": "sm-der-n005",
+      "type": "related",
+      "note": "割线变切线，平均变瞬时。"
+    },
+    {
+      "from": "sm-der-n011",
+      "to": "sm-der-n012",
+      "type": "easily_confused",
+      "note": "积法则是两项相加；链式是两层相乘。"
+    },
+    {
+      "from": "sm-der-n014",
+      "to": "sm-der-n015",
+      "type": "related",
+      "note": "先会判断升降，再在变号处谈极值。"
+    },
+    {
+      "from": "sm-der-n015",
+      "to": "sm-der-n016",
+      "type": "easily_confused",
+      "note": "极值看附近，最值看整个给定区间。"
+    },
+    {
+      "from": "sm-der-n012",
+      "to": "sm-der-n025",
+      "type": "application",
+      "note": "会链式之后，专门抓漏乘。"
+    },
+    {
+      "from": "sm-der-n017",
+      "to": "sm-der-n026",
+      "type": "application",
+      "note": "优化题的坑往往在定义域，不在求导。"
+    },
+    {
+      "from": "sm-der-n005",
+      "to": "sm-der-n022",
+      "type": "related",
+      "note": "切线存在与图象是否「尖」连在一起。"
+    }
+  ]
+}

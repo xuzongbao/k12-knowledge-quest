@@ -1,0 +1,346 @@
+{
+  "map_id": "sm-counting-probability",
+  "quests": [
+    {
+      "id": "sm-count-n001-explain",
+      "node_id": "sm-count-n001",
+      "title": "什么时候该加",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话说明：完成一件事有几类互不重叠的办法时，为什么把各类办法数加起来。",
+      "success_hint": "分类是「或」，用加法。"
+    },
+    {
+      "id": "sm-count-n001-practice",
+      "node_id": "sm-count-n001",
+      "title": "分类相加",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个「两类办法」情境求总数，检查有没有重叠。",
+      "success_hint": "重叠了要减去或重新分类。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-count-n002-practice",
+      "node_id": "sm-count-n002",
+      "title": "分步相乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个「先…再…」情境求总数。",
+      "success_hint": "每一步的选择数相乘。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-count-n003-practice",
+      "node_id": "sm-count-n003",
+      "title": "判断加或乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 个短句只要求判断用加还是乘，再选 4 个算出数。",
+      "success_hint": "看到「或」先想加。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-count-n004-explain",
+      "node_id": "sm-count-n004",
+      "title": "顺序算不算",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个排队和一个只选人不排队的例子。",
+      "success_hint": "站位不同就是不同排列。"
+    },
+    {
+      "id": "sm-count-n005-practice",
+      "node_id": "sm-count-n005",
+      "title": "算排列数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道 A_n^m，含阶乘。",
+      "success_hint": "从 n 往下乘 m 个。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-count-n006-explain",
+      "node_id": "sm-count-n006",
+      "title": "为什么除顺序",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明同一组人的不同排法在组合里只算一次。",
+      "success_hint": "组合是一堆，不是一列。"
+    },
+    {
+      "id": "sm-count-n007-practice",
+      "node_id": "sm-count-n007",
+      "title": "算组合数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道 C_n^m。",
+      "success_hint": "先排后除以顺序数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-count-n008-practice",
+      "node_id": "sm-count-n008",
+      "title": "先判断再计算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 题先写排列或组合，再计算。",
+      "success_hint": "问顺序就排。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-count-n009-practice",
+      "node_id": "sm-count-n009",
+      "title": "二项展开",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "展开 3 个 (a+b)^n（n 较小），写出通项。",
+      "success_hint": "指数和为 n。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-count-n010-practice",
+      "node_id": "sm-count-n010",
+      "title": "用对称性",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道用 C_n^k=C_n^{n-k} 简化计算。",
+      "success_hint": "靠近两端的更好算。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-count-n011-practice",
+      "node_id": "sm-count-n011",
+      "title": "计数综合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道混合，含简单二项系数。",
+      "success_hint": "先画步骤再写公式。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-count-n011-mini-quiz",
+      "node_id": "sm-count-n011",
+      "title": "计数小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "分类分步、排列组合、二项系数。夹一道把组合当排列。",
+      "success_hint": "先问要不要顺序。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-count-boss-count",
+      "node_id": "sm-count-n011",
+      "title": "关主：计数原理调度员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断加或乘 ②一道排列或组合 ③写出一个二项展开项。",
+      "success_hint": "分类与顺序两处最容易混。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-count-n012-explain",
+      "node_id": "sm-count-n012",
+      "title": "结果变成数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把「掷两枚骰子的点数和」说成随机变量，列出可能取值。",
+      "success_hint": "随机变量是函数，值是数。"
+    },
+    {
+      "id": "sm-count-n013-practice",
+      "node_id": "sm-count-n013",
+      "title": "写分布列",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "3 个简单试验写出分布列并检查和为 1。",
+      "success_hint": "每个概率 ≥0，总和 1。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-count-n014-practice",
+      "node_id": "sm-count-n014",
+      "title": "两点分布",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道识别或写出 0-1 分布。",
+      "success_hint": "成功记 1，失败记 0。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-count-n015-practice",
+      "node_id": "sm-count-n015",
+      "title": "二项概率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道求恰好 k 次成功的概率。",
+      "success_hint": "C_n^k p^k (1-p)^{n-k}。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-count-n016-practice",
+      "node_id": "sm-count-n016",
+      "title": "不放回计数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "3 道用组合写超几何概率。",
+      "success_hint": "分子分母都是组合。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-count-n017-practice",
+      "node_id": "sm-count-n017",
+      "title": "求期望",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个分布列求期望。",
+      "success_hint": "取值乘概率再相加。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-count-n018-practice",
+      "node_id": "sm-count-n018",
+      "title": "求方差",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "3 个分布列求方差。",
+      "success_hint": "先期望，再偏差平方的期望。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-count-n019-practice",
+      "node_id": "sm-count-n019",
+      "title": "条件概率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道用定义计算 P(A|B)。",
+      "success_hint": "分母是 B 的概率，不能为 0。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-count-n020-practice",
+      "node_id": "sm-count-n020",
+      "title": "分块相加",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 道全概率：画出两三个互斥条件再拼。",
+      "success_hint": "条件要铺满样本空间。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-count-n021-practice",
+      "node_id": "sm-count-n021",
+      "title": "判断独立",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 组事件判断是否独立，并验证乘法公式。",
+      "success_hint": "独立才能把交拆成乘积。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-count-n022-practice",
+      "node_id": "sm-count-n022",
+      "title": "随机变量综合",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "分布列、二项、期望、条件概率各一题。",
+      "success_hint": "先写取值再写概率。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-count-n022-mini-quiz",
+      "node_id": "sm-count-n022",
+      "title": "随机变量小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "分布列、期望、二项或条件概率。夹一道期望不是取值。",
+      "success_hint": "先检查分布列是否合法。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-count-boss-rv",
+      "node_id": "sm-count-n022",
+      "title": "关主：随机变量分析官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①写一个分布列 ②求期望 ③一道二项或条件概率。",
+      "success_hint": "概率和必须为 1。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-count-n023-practice",
+      "node_id": "sm-count-n023",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：一道排列组合、一个分布列与期望、一道条件概率。",
+      "success_hint": "计数为概率服务。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-count-boss-map",
+      "node_id": "sm-count-n023",
+      "title": "关主：计数与随机变量通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①计数 ②分布列或二项 ③条件概率或独立。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 14
+    },
+    {
+      "id": "sm-count-n024-explain",
+      "node_id": "sm-count-n024",
+      "title": "放回还是不放回",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "同一个罐子，对照两次抽取的模型选择。",
+      "success_hint": "总体很大时两者接近。"
+    },
+    {
+      "id": "sm-count-n025-explain",
+      "node_id": "sm-count-n025",
+      "title": "互斥很依赖",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明互斥时 P(A|B)=0，通常不等于 P(A)。",
+      "success_hint": "互斥是强烈依赖。"
+    },
+    {
+      "id": "sm-count-n026-explain",
+      "node_id": "sm-count-n026",
+      "title": "期望可以「不在名单上」",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个期望为 1.5 但取值只有 1 和 2 的例子。",
+      "success_hint": "期望是中心，不是必须取到的值。"
+    },
+    {
+      "id": "sm-count-n027-explain",
+      "node_id": "sm-count-n027",
+      "title": "选 k 等于留 n-k",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用选代表的故事解释组合数对称。",
+      "success_hint": "选中的和留下的是同一件事的两面。"
+    },
+    {
+      "id": "sm-count-n028-explain",
+      "node_id": "sm-count-n028",
+      "title": "中间高两边低",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明为什么很多测量误差看起来像钟形。",
+      "success_hint": "只要求形状直觉，不要求积分。"
+    },
+    {
+      "id": "sm-count-n029-practice",
+      "node_id": "sm-count-n029",
+      "title": "改一道混合题",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "改 2 道把「先选后排」顺序做反的解。",
+      "success_hint": "先选人再排队，或反过来要想清。",
+      "items_suggested": 2
+    }
+  ]
+}

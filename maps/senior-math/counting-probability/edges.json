@@ -1,0 +1,275 @@
+{
+  "map_id": "sm-counting-probability",
+  "edges": [
+    {
+      "from": "sm-count-n001",
+      "to": "sm-count-n002",
+      "type": "prerequisite",
+      "note": "sm-count-n001 需先于 sm-count-n002"
+    },
+    {
+      "from": "sm-count-n002",
+      "to": "sm-count-n003",
+      "type": "prerequisite",
+      "note": "sm-count-n002 需先于 sm-count-n003"
+    },
+    {
+      "from": "sm-count-n002",
+      "to": "sm-count-n004",
+      "type": "prerequisite",
+      "note": "sm-count-n002 需先于 sm-count-n004"
+    },
+    {
+      "from": "sm-count-n004",
+      "to": "sm-count-n005",
+      "type": "prerequisite",
+      "note": "sm-count-n004 需先于 sm-count-n005"
+    },
+    {
+      "from": "sm-count-n004",
+      "to": "sm-count-n006",
+      "type": "prerequisite",
+      "note": "sm-count-n004 需先于 sm-count-n006"
+    },
+    {
+      "from": "sm-count-n006",
+      "to": "sm-count-n007",
+      "type": "prerequisite",
+      "note": "sm-count-n006 需先于 sm-count-n007"
+    },
+    {
+      "from": "sm-count-n005",
+      "to": "sm-count-n007",
+      "type": "prerequisite",
+      "note": "sm-count-n005 需先于 sm-count-n007"
+    },
+    {
+      "from": "sm-count-n007",
+      "to": "sm-count-n008",
+      "type": "prerequisite",
+      "note": "sm-count-n007 需先于 sm-count-n008"
+    },
+    {
+      "from": "sm-count-n003",
+      "to": "sm-count-n008",
+      "type": "prerequisite",
+      "note": "sm-count-n003 需先于 sm-count-n008"
+    },
+    {
+      "from": "sm-count-n007",
+      "to": "sm-count-n009",
+      "type": "prerequisite",
+      "note": "sm-count-n007 需先于 sm-count-n009"
+    },
+    {
+      "from": "sm-count-n009",
+      "to": "sm-count-n010",
+      "type": "prerequisite",
+      "note": "sm-count-n009 需先于 sm-count-n010"
+    },
+    {
+      "from": "sm-count-n008",
+      "to": "sm-count-n011",
+      "type": "prerequisite",
+      "note": "sm-count-n008 需先于 sm-count-n011"
+    },
+    {
+      "from": "sm-count-n010",
+      "to": "sm-count-n011",
+      "type": "prerequisite",
+      "note": "sm-count-n010 需先于 sm-count-n011"
+    },
+    {
+      "from": "sm-count-n011",
+      "to": "sm-count-n012",
+      "type": "prerequisite",
+      "note": "sm-count-n011 需先于 sm-count-n012"
+    },
+    {
+      "from": "sm-count-n012",
+      "to": "sm-count-n013",
+      "type": "prerequisite",
+      "note": "sm-count-n012 需先于 sm-count-n013"
+    },
+    {
+      "from": "sm-count-n013",
+      "to": "sm-count-n014",
+      "type": "prerequisite",
+      "note": "sm-count-n013 需先于 sm-count-n014"
+    },
+    {
+      "from": "sm-count-n014",
+      "to": "sm-count-n015",
+      "type": "prerequisite",
+      "note": "sm-count-n014 需先于 sm-count-n015"
+    },
+    {
+      "from": "sm-count-n009",
+      "to": "sm-count-n015",
+      "type": "prerequisite",
+      "note": "sm-count-n009 需先于 sm-count-n015"
+    },
+    {
+      "from": "sm-count-n013",
+      "to": "sm-count-n016",
+      "type": "prerequisite",
+      "note": "sm-count-n013 需先于 sm-count-n016"
+    },
+    {
+      "from": "sm-count-n007",
+      "to": "sm-count-n016",
+      "type": "prerequisite",
+      "note": "sm-count-n007 需先于 sm-count-n016"
+    },
+    {
+      "from": "sm-count-n013",
+      "to": "sm-count-n017",
+      "type": "prerequisite",
+      "note": "sm-count-n013 需先于 sm-count-n017"
+    },
+    {
+      "from": "sm-count-n017",
+      "to": "sm-count-n018",
+      "type": "prerequisite",
+      "note": "sm-count-n017 需先于 sm-count-n018"
+    },
+    {
+      "from": "sm-count-n013",
+      "to": "sm-count-n019",
+      "type": "prerequisite",
+      "note": "sm-count-n013 需先于 sm-count-n019"
+    },
+    {
+      "from": "sm-count-n019",
+      "to": "sm-count-n020",
+      "type": "prerequisite",
+      "note": "sm-count-n019 需先于 sm-count-n020"
+    },
+    {
+      "from": "sm-count-n019",
+      "to": "sm-count-n021",
+      "type": "prerequisite",
+      "note": "sm-count-n019 需先于 sm-count-n021"
+    },
+    {
+      "from": "sm-count-n015",
+      "to": "sm-count-n022",
+      "type": "prerequisite",
+      "note": "sm-count-n015 需先于 sm-count-n022"
+    },
+    {
+      "from": "sm-count-n018",
+      "to": "sm-count-n022",
+      "type": "prerequisite",
+      "note": "sm-count-n018 需先于 sm-count-n022"
+    },
+    {
+      "from": "sm-count-n021",
+      "to": "sm-count-n022",
+      "type": "prerequisite",
+      "note": "sm-count-n021 需先于 sm-count-n022"
+    },
+    {
+      "from": "sm-count-n016",
+      "to": "sm-count-n022",
+      "type": "prerequisite",
+      "note": "sm-count-n016 需先于 sm-count-n022"
+    },
+    {
+      "from": "sm-count-n022",
+      "to": "sm-count-n023",
+      "type": "prerequisite",
+      "note": "sm-count-n022 需先于 sm-count-n023"
+    },
+    {
+      "from": "sm-count-n020",
+      "to": "sm-count-n023",
+      "type": "prerequisite",
+      "note": "sm-count-n020 需先于 sm-count-n023"
+    },
+    {
+      "from": "sm-count-n016",
+      "to": "sm-count-n024",
+      "type": "prerequisite",
+      "note": "sm-count-n016 需先于 sm-count-n024"
+    },
+    {
+      "from": "sm-count-n015",
+      "to": "sm-count-n024",
+      "type": "prerequisite",
+      "note": "sm-count-n015 需先于 sm-count-n024"
+    },
+    {
+      "from": "sm-count-n021",
+      "to": "sm-count-n025",
+      "type": "prerequisite",
+      "note": "sm-count-n021 需先于 sm-count-n025"
+    },
+    {
+      "from": "sm-count-n017",
+      "to": "sm-count-n026",
+      "type": "prerequisite",
+      "note": "sm-count-n017 需先于 sm-count-n026"
+    },
+    {
+      "from": "sm-count-n010",
+      "to": "sm-count-n027",
+      "type": "prerequisite",
+      "note": "sm-count-n010 需先于 sm-count-n027"
+    },
+    {
+      "from": "sm-count-n018",
+      "to": "sm-count-n028",
+      "type": "prerequisite",
+      "note": "sm-count-n018 需先于 sm-count-n028"
+    },
+    {
+      "from": "sm-count-n008",
+      "to": "sm-count-n029",
+      "type": "prerequisite",
+      "note": "sm-count-n008 需先于 sm-count-n029"
+    },
+    {
+      "from": "sm-count-n001",
+      "to": "sm-count-n002",
+      "type": "easily_confused",
+      "note": "分类用加，分步用乘；「或」与「且」说反最常见。"
+    },
+    {
+      "from": "sm-count-n004",
+      "to": "sm-count-n006",
+      "type": "easily_confused",
+      "note": "排列管顺序，组合不管顺序。"
+    },
+    {
+      "from": "sm-count-n015",
+      "to": "sm-count-n016",
+      "type": "easily_confused",
+      "note": "二项每次独立（可放回或恢复）；超几何不放回。"
+    },
+    {
+      "from": "sm-count-n019",
+      "to": "sm-count-n021",
+      "type": "related",
+      "note": "独立是条件概率等于原来的概率。"
+    },
+    {
+      "from": "sm-count-n021",
+      "to": "sm-count-n025",
+      "type": "application",
+      "note": "会独立之后，专门和互斥对照。"
+    },
+    {
+      "from": "sm-count-n017",
+      "to": "sm-count-n026",
+      "type": "related",
+      "note": "期望是加权中心，不是众数。"
+    },
+    {
+      "from": "sm-count-n009",
+      "to": "sm-count-n015",
+      "type": "application",
+      "note": "二项概率里的组合数来自二项式系数。"
+    }
+  ]
+}

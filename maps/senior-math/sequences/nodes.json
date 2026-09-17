@@ -1,0 +1,843 @@
+{
+  "map_id": "sm-sequences",
+  "nodes": [
+    {
+      "id": "sm-seq-n001",
+      "title": "数列的概念",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "seq",
+        "ch-seq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明数列是按正整数顺序排成的一列数，每一项有编号。本图从数列讲起。"
+    },
+    {
+      "id": "sm-seq-n002",
+      "title": "通项公式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-seq-n001"
+      ],
+      "tags": [
+        "seq",
+        "ch-seq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能由通项求指定项，也能由若干项猜测简单通项。"
+    },
+    {
+      "id": "sm-seq-n003",
+      "title": "递推关系入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n002"
+      ],
+      "tags": [
+        "seq",
+        "ch-seq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能由 a_{n+1} 与 a_n 的关系及首项，逐步算出前几项。"
+    },
+    {
+      "id": "sm-seq-n004",
+      "title": "数列与函数对照",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-seq-n002"
+      ],
+      "tags": [
+        "seq",
+        "ch-seq"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明数列可看成定义在正整数上的函数，图象是孤立点。"
+    },
+    {
+      "id": "sm-seq-n005",
+      "title": "等差数列定义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-seq-n003"
+      ],
+      "tags": [
+        "arith",
+        "ch-arith"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明从第二项起每一项与前一项的差为同一个常数，叫做公差。"
+    },
+    {
+      "id": "sm-seq-n006",
+      "title": "等差通项",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n005"
+      ],
+      "tags": [
+        "arith",
+        "ch-arith"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用 a_n=a_1+(n-1)d 求项、求 n、求 d。"
+    },
+    {
+      "id": "sm-seq-n007",
+      "title": "等差中项",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n006"
+      ],
+      "tags": [
+        "arith",
+        "ch-arith"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 2b=a+c 判断 a、b、c 成等差。"
+    },
+    {
+      "id": "sm-seq-n008",
+      "title": "等差求和推导",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n006"
+      ],
+      "tags": [
+        "arith",
+        "ch-arith"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明倒序相加：首尾配对，每一对和相等。"
+    },
+    {
+      "id": "sm-seq-n009",
+      "title": "等差求和公式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-seq-n008",
+        "sm-seq-n007"
+      ],
+      "tags": [
+        "arith",
+        "ch-arith"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用 S_n=n(a_1+a_n)/2 或 S_n=n a_1+n(n-1)d/2。"
+    },
+    {
+      "id": "sm-seq-n010",
+      "title": "等差性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n009"
+      ],
+      "tags": [
+        "arith",
+        "ch-arith",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用下标和相等则项和相等一类性质，解决简单问题。"
+    },
+    {
+      "id": "sm-seq-n011",
+      "title": "等比数列定义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-seq-n005"
+      ],
+      "tags": [
+        "geo",
+        "ch-geo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明从第二项起每一项与前一项的比为同一个非零常数，叫做公比。"
+    },
+    {
+      "id": "sm-seq-n012",
+      "title": "等比通项",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n011",
+        "sm-seq-n006"
+      ],
+      "tags": [
+        "geo",
+        "ch-geo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用 a_n=a_1 q^{n-1}（a_1≠0, q≠0）。"
+    },
+    {
+      "id": "sm-seq-n013",
+      "title": "等比中项",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n012"
+      ],
+      "tags": [
+        "geo",
+        "ch-geo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 b²=ac（同号）判断等比中项。"
+    },
+    {
+      "id": "sm-seq-n014",
+      "title": "公比为 1",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-seq-n012"
+      ],
+      "tags": [
+        "geo",
+        "ch-geo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能指出 q=1 时等比数列是常数列，求和就是 n 倍首项。"
+    },
+    {
+      "id": "sm-seq-n015",
+      "title": "等比求和推导",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n012"
+      ],
+      "tags": [
+        "geo",
+        "ch-geo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明用 q S_n 错位减去 S_n 得到求和公式的思路。"
+    },
+    {
+      "id": "sm-seq-n016",
+      "title": "等比求和公式",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-seq-n015",
+        "sm-seq-n014",
+        "sm-seq-n013"
+      ],
+      "tags": [
+        "geo",
+        "ch-geo"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能分 q=1 与 q≠1 使用公式求前 n 项和。"
+    },
+    {
+      "id": "sm-seq-n017",
+      "title": "等比性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n016"
+      ],
+      "tags": [
+        "geo",
+        "ch-geo",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用下标和相等则积相等一类性质（各项为正时更稳妥）。"
+    },
+    {
+      "id": "sm-seq-n018",
+      "title": "等差还是等比",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n010",
+        "sm-seq-n017"
+      ],
+      "tags": [
+        "seq",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据差为常数还是比为常数选择模型，并处理简单实际数据。"
+    },
+    {
+      "id": "sm-seq-n019",
+      "title": "由 S_n 求 a_n",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n009",
+        "sm-seq-n016"
+      ],
+      "tags": [
+        "seq",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用 a_n=S_n-S_{n-1}（n≥2）以及 a_1=S_1 还原通项。"
+    },
+    {
+      "id": "sm-seq-n020",
+      "title": "利息与增长率",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-seq-n018"
+      ],
+      "tags": [
+        "seq",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把单利近似看成等差、复利看成等比，并计算几年后的本利。"
+    },
+    {
+      "id": "sm-seq-n021",
+      "title": "数列合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-seq-n019",
+        "sm-seq-n020",
+        "sm-seq-n004"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在等差等比、通项与和、实际增长之间切换。"
+    },
+    {
+      "id": "sm-seq-n022",
+      "title": "数列通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-seq-n021"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成本图收束检查。"
+    },
+    {
+      "id": "sm-seq-n023",
+      "title": "裂项相消入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n009"
+      ],
+      "tags": [
+        "seq",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把 1/(n(n+1)) 拆成差，使中间项抵消。"
+    },
+    {
+      "id": "sm-seq-n024",
+      "title": "错位相减入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-seq-n016"
+      ],
+      "tags": [
+        "geo",
+        "ch-geo"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能对「等差×等比」型简单求和模仿错位一步（入门）。"
+    },
+    {
+      "id": "sm-seq-n025",
+      "title": "无穷等比直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n016"
+      ],
+      "tags": [
+        "geo",
+        "ch-geo"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明 |q|<1 时前 n 项和会靠近一个数，|q|≥1 时一般不收敛。"
+    },
+    {
+      "id": "sm-seq-n026",
+      "title": "数学归纳法萌芽",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n003"
+      ],
+      "tags": [
+        "seq",
+        "ch-seq"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能对一个简单通项命题走「验证 n=1，假设 n=k 推 n=k+1」的两步骨架。"
+    },
+    {
+      "id": "sm-seq-n027",
+      "title": "单利复利对照",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-seq-n020"
+      ],
+      "tags": [
+        "seq",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用同一本金对照只加固定利息与「利滚利」的差别。"
+    },
+    {
+      "id": "sm-seq-n028",
+      "title": "等和等比混合",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-seq-n018"
+      ],
+      "tags": [
+        "seq",
+        "ch-mix"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能处理「奇数项成等差、偶数项成等比」一类结构的入门题。"
+    },
+    {
+      "id": "sm-seq-n029",
+      "title": "数列图象是点",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-seq-n004"
+      ],
+      "tags": [
+        "seq",
+        "ch-seq"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在坐标系里描出前若干项，强调不要连成连续曲线当真。"
+    }
+  ]
+}

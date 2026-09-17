@@ -1,0 +1,27 @@
+{
+  "id": "sm-solid-geometry",
+  "title": "高中 · 立体几何初步",
+  "subject": "数学",
+  "stage": "高中",
+  "grade": 10,
+  "strand": "图形与几何",
+  "module": "立体几何初步",
+  "version": "0.1.0",
+  "locale": "zh-CN",
+  "start_node_ids": [
+    "sm-solid-n001"
+  ],
+  "recommended_path_note": "空间几何体与三视图（关主 1）→ 点线面平行垂直（关主 2）→ 简单度量后收束。异面棱（n024）、三垂线直觉（n025）、作图误差（n026）、球截面（n027）、割补（n028）、传递陷阱（n029）为软锁。空间向量不在本图。",
+  "win_condition": {
+    "type": "light_all_nodes_and_bosses",
+    "required_node_ids": "all",
+    "required_boss_quest_ids": [
+      "sm-solid-boss-body",
+      "sm-solid-boss-pos",
+      "sm-solid-boss-map"
+    ],
+    "summary": "点亮全部知识点，并击败三名关主：几何体还原师、空间位置裁判、地图通关试炼。"
+  },
+  "content_disclaimer": "知识点与任务为普通高中数学课标（2017/2020）目录风格的原创教学大纲与自编提示语，不是任何版本教科书正文或高考试题的摘录。",
+  "description": "高中必修「立体几何初步」地图：几何体与视图 → 位置关系 → 简单度量。独立通关。grade=10。"
+}

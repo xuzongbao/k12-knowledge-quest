@@ -1,0 +1,338 @@
+{
+  "map_id": "sm-sequences",
+  "quests": [
+    {
+      "id": "sm-seq-n001-explain",
+      "node_id": "sm-seq-n001",
+      "title": "什么是数列",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个有穷数列和一个无穷数列，指出第 3 项是哪个。",
+      "success_hint": "有顺序，可以重复。"
+    },
+    {
+      "id": "sm-seq-n002-practice",
+      "node_id": "sm-seq-n002",
+      "title": "用通项求项",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给定通项求 8 个指定项，或由项猜 2 个简单通项。",
+      "success_hint": "把 n 换成编号。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-seq-n003-practice",
+      "node_id": "sm-seq-n003",
+      "title": "按递推往下写",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "给定首项和递推，写出前 6 项，共 2 组。",
+      "success_hint": "一项一项往下。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-seq-n004-explain",
+      "node_id": "sm-seq-n004",
+      "title": "像函数又不连续",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明为什么数列图象不该随便连成线。",
+      "success_hint": "自变量只取正整数。"
+    },
+    {
+      "id": "sm-seq-n005-practice",
+      "node_id": "sm-seq-n005",
+      "title": "判断等差",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 列数判断是否等差，并求出公差。",
+      "success_hint": "每一差都要相等。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-seq-n006-practice",
+      "node_id": "sm-seq-n006",
+      "title": "等差通项计算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道求 a_n、n 或 d。",
+      "success_hint": "a_n=a_1+(n-1)d。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-seq-n007-practice",
+      "node_id": "sm-seq-n007",
+      "title": "等差中项",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道用 2b=a+c 判断或求未知数。",
+      "success_hint": "中间一项的两倍等于两边之和。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-seq-n008-explain",
+      "node_id": "sm-seq-n008",
+      "title": "倒序相加",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话说明为什么首尾配对后每一对和相等。",
+      "success_hint": "公差一正一负抵消。"
+    },
+    {
+      "id": "sm-seq-n009-practice",
+      "node_id": "sm-seq-n009",
+      "title": "等差求和",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道求 S_n。",
+      "success_hint": "项数乘以首尾和的一半。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-seq-n010-practice",
+      "node_id": "sm-seq-n010",
+      "title": "等差性质",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道用下标和相等。",
+      "success_hint": "下标和一样，项和一样。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-seq-n010-mini-quiz",
+      "node_id": "sm-seq-n010",
+      "title": "等差小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "定义、通项、中项、求和。夹一道项数算错。",
+      "success_hint": "n 是项数不是末项。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-seq-boss-arith",
+      "node_id": "sm-seq-n010",
+      "title": "关主：等差数列测绘员",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断等差 ②通项 ③求和。",
+      "success_hint": "公差和项数两处最容易漏。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-seq-n011-practice",
+      "node_id": "sm-seq-n011",
+      "title": "判断等比",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 列数判断是否等比，并求出公比，含出现 0 的警示。",
+      "success_hint": "公比不能为 0；中间不能冒出 0 除非全是 0（通常不讨论）。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-seq-n012-practice",
+      "node_id": "sm-seq-n012",
+      "title": "等比通项计算",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道求 a_n、n 或 q。",
+      "success_hint": "指数是 n-1。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-seq-n013-practice",
+      "node_id": "sm-seq-n013",
+      "title": "等比中项",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道用 b²=ac。",
+      "success_hint": "注意符号：平方会丢负号信息。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-seq-n014-explain",
+      "node_id": "sm-seq-n014",
+      "title": "q=1 为什么要分开",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明套 q≠1 的求和公式时分母为 0。",
+      "success_hint": "常数列单独加。"
+    },
+    {
+      "id": "sm-seq-n015-explain",
+      "node_id": "sm-seq-n015",
+      "title": "错位减去",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "写出 S 与 qS，说明大部分项能消掉。",
+      "success_hint": "只留下首项和最后多出来的项。"
+    },
+    {
+      "id": "sm-seq-n016-practice",
+      "node_id": "sm-seq-n016",
+      "title": "等比求和",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道，含 q=1 至少 1 道。",
+      "success_hint": "先看 q 是不是 1。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-seq-n017-practice",
+      "node_id": "sm-seq-n017",
+      "title": "等比性质",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道下标和相等则积相等（各项为正）。",
+      "success_hint": "对应等差的「和」。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-seq-n017-mini-quiz",
+      "node_id": "sm-seq-n017",
+      "title": "等比小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "定义、通项、求和、q=1。夹一道公比为负。",
+      "success_hint": "公比为负会正负交错。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-seq-boss-geo",
+      "node_id": "sm-seq-n017",
+      "title": "关主：等比数列航海士",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断等比 ②通项 ③求和（含说明 q=1）。",
+      "success_hint": "公比和指数两处最容易错。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-seq-n018-practice",
+      "node_id": "sm-seq-n018",
+      "title": "选模型",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 组数据或文字判断等差、等比或都不是。",
+      "success_hint": "先看差，再看比。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-seq-n019-practice",
+      "node_id": "sm-seq-n019",
+      "title": "由和求项",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道已知 S_n 求 a_n。",
+      "success_hint": "n=1 单独，后面做差。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-seq-n020-practice",
+      "node_id": "sm-seq-n020",
+      "title": "利息短题",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 个：一年一结的复利，求几年后本利和。",
+      "success_hint": "本金乘 (1+r)^n。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-seq-n021-practice",
+      "node_id": "sm-seq-n021",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "等差、等比、由和求项、利息各几题。",
+      "success_hint": "先辨等差还是等比。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-seq-n022-practice",
+      "node_id": "sm-seq-n022",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：等差求和、等比通项、一个实际增长。",
+      "success_hint": "公式要对应模型。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-seq-boss-map",
+      "node_id": "sm-seq-n022",
+      "title": "关主：数列通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①等差 ②等比 ③由 S_n 求 a_n 或一个利息问题。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "sm-seq-n023-practice",
+      "node_id": "sm-seq-n023",
+      "title": "拆成差再加",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 3 个简单分数项拆差分并求和。",
+      "success_hint": "中间项消掉。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-seq-n024-explain",
+      "node_id": "sm-seq-n024",
+      "title": "再错位一次",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对 1+2q+3q² 这类写出错位的第一步（不必算完）。",
+      "success_hint": "乘 q 后对齐项。"
+    },
+    {
+      "id": "sm-seq-n025-explain",
+      "node_id": "sm-seq-n025",
+      "title": "越加越靠近吗",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 |q|<1 和 |q|>1 各举一个和的变化趋势。",
+      "success_hint": "公比绝对值小于 1 才会「加不动了」。"
+    },
+    {
+      "id": "sm-seq-n026-practice",
+      "node_id": "sm-seq-n026",
+      "title": "走两步骨架",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "对一个简单命题写 n=1 验证和 k→k+1 的递推。",
+      "success_hint": "两步都要写，缺一不可。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-seq-n027-practice",
+      "node_id": "sm-seq-n027",
+      "title": "同一本金对照",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "本金与年利率相同，算单利 5 年与复利 5 年。",
+      "success_hint": "复利每次把利息并入本金。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-seq-n028-practice",
+      "node_id": "sm-seq-n028",
+      "title": "两种规律夹杂",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "1 道：奇数项等差、偶数项等比，求指定项。",
+      "success_hint": "先拆成两个数列。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-seq-n029-practice",
+      "node_id": "sm-seq-n029",
+      "title": "描点不连线",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "描出一个等差或等比的前 6 项，并写一句「为什么不连成曲线」。",
+      "success_hint": "点才是数列。",
+      "items_suggested": 1
+    }
+  ]
+}

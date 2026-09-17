@@ -1,0 +1,317 @@
+{
+  "map_id": "sm-functions",
+  "edges": [
+    {
+      "from": "sm-func-n001",
+      "to": "sm-func-n002",
+      "type": "prerequisite",
+      "note": "sm-func-n001 需先于 sm-func-n002"
+    },
+    {
+      "from": "sm-func-n002",
+      "to": "sm-func-n003",
+      "type": "prerequisite",
+      "note": "sm-func-n002 需先于 sm-func-n003"
+    },
+    {
+      "from": "sm-func-n001",
+      "to": "sm-func-n004",
+      "type": "prerequisite",
+      "note": "sm-func-n001 需先于 sm-func-n004"
+    },
+    {
+      "from": "sm-func-n004",
+      "to": "sm-func-n005",
+      "type": "prerequisite",
+      "note": "sm-func-n004 需先于 sm-func-n005"
+    },
+    {
+      "from": "sm-func-n004",
+      "to": "sm-func-n006",
+      "type": "prerequisite",
+      "note": "sm-func-n004 需先于 sm-func-n006"
+    },
+    {
+      "from": "sm-func-n002",
+      "to": "sm-func-n007",
+      "type": "prerequisite",
+      "note": "sm-func-n002 需先于 sm-func-n007"
+    },
+    {
+      "from": "sm-func-n005",
+      "to": "sm-func-n007",
+      "type": "prerequisite",
+      "note": "sm-func-n005 需先于 sm-func-n007"
+    },
+    {
+      "from": "sm-func-n005",
+      "to": "sm-func-n008",
+      "type": "prerequisite",
+      "note": "sm-func-n005 需先于 sm-func-n008"
+    },
+    {
+      "from": "sm-func-n005",
+      "to": "sm-func-n009",
+      "type": "prerequisite",
+      "note": "sm-func-n005 需先于 sm-func-n009"
+    },
+    {
+      "from": "sm-func-n008",
+      "to": "sm-func-n010",
+      "type": "prerequisite",
+      "note": "sm-func-n008 需先于 sm-func-n010"
+    },
+    {
+      "from": "sm-func-n005",
+      "to": "sm-func-n011",
+      "type": "prerequisite",
+      "note": "sm-func-n005 需先于 sm-func-n011"
+    },
+    {
+      "from": "sm-func-n008",
+      "to": "sm-func-n011",
+      "type": "prerequisite",
+      "note": "sm-func-n008 需先于 sm-func-n011"
+    },
+    {
+      "from": "sm-func-n007",
+      "to": "sm-func-n012",
+      "type": "prerequisite",
+      "note": "sm-func-n007 需先于 sm-func-n012"
+    },
+    {
+      "from": "sm-func-n009",
+      "to": "sm-func-n012",
+      "type": "prerequisite",
+      "note": "sm-func-n009 需先于 sm-func-n012"
+    },
+    {
+      "from": "sm-func-n010",
+      "to": "sm-func-n012",
+      "type": "prerequisite",
+      "note": "sm-func-n010 需先于 sm-func-n012"
+    },
+    {
+      "from": "sm-func-n011",
+      "to": "sm-func-n012",
+      "type": "prerequisite",
+      "note": "sm-func-n011 需先于 sm-func-n012"
+    },
+    {
+      "from": "sm-func-n012",
+      "to": "sm-func-n013",
+      "type": "prerequisite",
+      "note": "sm-func-n012 需先于 sm-func-n013"
+    },
+    {
+      "from": "sm-func-n013",
+      "to": "sm-func-n014",
+      "type": "prerequisite",
+      "note": "sm-func-n013 需先于 sm-func-n014"
+    },
+    {
+      "from": "sm-func-n013",
+      "to": "sm-func-n015",
+      "type": "prerequisite",
+      "note": "sm-func-n013 需先于 sm-func-n015"
+    },
+    {
+      "from": "sm-func-n015",
+      "to": "sm-func-n016",
+      "type": "prerequisite",
+      "note": "sm-func-n015 需先于 sm-func-n016"
+    },
+    {
+      "from": "sm-func-n016",
+      "to": "sm-func-n017",
+      "type": "prerequisite",
+      "note": "sm-func-n016 需先于 sm-func-n017"
+    },
+    {
+      "from": "sm-func-n017",
+      "to": "sm-func-n018",
+      "type": "prerequisite",
+      "note": "sm-func-n017 需先于 sm-func-n018"
+    },
+    {
+      "from": "sm-func-n018",
+      "to": "sm-func-n019",
+      "type": "prerequisite",
+      "note": "sm-func-n018 需先于 sm-func-n019"
+    },
+    {
+      "from": "sm-func-n008",
+      "to": "sm-func-n019",
+      "type": "prerequisite",
+      "note": "sm-func-n008 需先于 sm-func-n019"
+    },
+    {
+      "from": "sm-func-n019",
+      "to": "sm-func-n020",
+      "type": "prerequisite",
+      "note": "sm-func-n019 需先于 sm-func-n020"
+    },
+    {
+      "from": "sm-func-n018",
+      "to": "sm-func-n021",
+      "type": "prerequisite",
+      "note": "sm-func-n018 需先于 sm-func-n021"
+    },
+    {
+      "from": "sm-func-n021",
+      "to": "sm-func-n022",
+      "type": "prerequisite",
+      "note": "sm-func-n021 需先于 sm-func-n022"
+    },
+    {
+      "from": "sm-func-n022",
+      "to": "sm-func-n023",
+      "type": "prerequisite",
+      "note": "sm-func-n022 需先于 sm-func-n023"
+    },
+    {
+      "from": "sm-func-n021",
+      "to": "sm-func-n024",
+      "type": "prerequisite",
+      "note": "sm-func-n021 需先于 sm-func-n024"
+    },
+    {
+      "from": "sm-func-n024",
+      "to": "sm-func-n025",
+      "type": "prerequisite",
+      "note": "sm-func-n024 需先于 sm-func-n025"
+    },
+    {
+      "from": "sm-func-n019",
+      "to": "sm-func-n025",
+      "type": "prerequisite",
+      "note": "sm-func-n019 需先于 sm-func-n025"
+    },
+    {
+      "from": "sm-func-n025",
+      "to": "sm-func-n026",
+      "type": "prerequisite",
+      "note": "sm-func-n025 需先于 sm-func-n026"
+    },
+    {
+      "from": "sm-func-n022",
+      "to": "sm-func-n027",
+      "type": "prerequisite",
+      "note": "sm-func-n022 需先于 sm-func-n027"
+    },
+    {
+      "from": "sm-func-n026",
+      "to": "sm-func-n027",
+      "type": "prerequisite",
+      "note": "sm-func-n026 需先于 sm-func-n027"
+    },
+    {
+      "from": "sm-func-n020",
+      "to": "sm-func-n028",
+      "type": "prerequisite",
+      "note": "sm-func-n020 需先于 sm-func-n028"
+    },
+    {
+      "from": "sm-func-n014",
+      "to": "sm-func-n028",
+      "type": "prerequisite",
+      "note": "sm-func-n014 需先于 sm-func-n028"
+    },
+    {
+      "from": "sm-func-n028",
+      "to": "sm-func-n029",
+      "type": "prerequisite",
+      "note": "sm-func-n028 需先于 sm-func-n029"
+    },
+    {
+      "from": "sm-func-n027",
+      "to": "sm-func-n029",
+      "type": "prerequisite",
+      "note": "sm-func-n027 需先于 sm-func-n029"
+    },
+    {
+      "from": "sm-func-n029",
+      "to": "sm-func-n030",
+      "type": "prerequisite",
+      "note": "sm-func-n029 需先于 sm-func-n030"
+    },
+    {
+      "from": "sm-func-n012",
+      "to": "sm-func-n030",
+      "type": "prerequisite",
+      "note": "sm-func-n012 需先于 sm-func-n030"
+    },
+    {
+      "from": "sm-func-n030",
+      "to": "sm-func-n031",
+      "type": "prerequisite",
+      "note": "sm-func-n030 需先于 sm-func-n031"
+    },
+    {
+      "from": "sm-func-n026",
+      "to": "sm-func-n032",
+      "type": "prerequisite",
+      "note": "sm-func-n026 需先于 sm-func-n032"
+    },
+    {
+      "from": "sm-func-n011",
+      "to": "sm-func-n033",
+      "type": "prerequisite",
+      "note": "sm-func-n011 需先于 sm-func-n033"
+    },
+    {
+      "from": "sm-func-n019",
+      "to": "sm-func-n034",
+      "type": "prerequisite",
+      "note": "sm-func-n019 需先于 sm-func-n034"
+    },
+    {
+      "from": "sm-func-n027",
+      "to": "sm-func-n035",
+      "type": "prerequisite",
+      "note": "sm-func-n027 需先于 sm-func-n035"
+    },
+    {
+      "from": "sm-func-n008",
+      "to": "sm-func-n009",
+      "type": "related",
+      "note": "单调看升降，奇偶看对称，可以同时成立也可以只居其一。"
+    },
+    {
+      "from": "sm-func-n018",
+      "to": "sm-func-n024",
+      "type": "easily_confused",
+      "note": "指数函数底数在幂的位置固定、自变量在指数；对数函数自变量在真数。"
+    },
+    {
+      "from": "sm-func-n019",
+      "to": "sm-func-n025",
+      "type": "easily_confused",
+      "note": "底数在 (0,1) 时，指数函数与对数函数都递减，但定义域完全不同。"
+    },
+    {
+      "from": "sm-func-n021",
+      "to": "sm-func-n022",
+      "type": "easily_confused",
+      "note": "log(A+B) 不能拆成 log A + log B；那是积的对数。"
+    },
+    {
+      "from": "sm-func-n011",
+      "to": "sm-func-n033",
+      "type": "application",
+      "note": "先确认变号，再用二分逼近。"
+    },
+    {
+      "from": "sm-func-n020",
+      "to": "sm-func-n028",
+      "type": "application",
+      "note": "会描述指数变化之后，才谈在几种模型里怎么选。"
+    },
+    {
+      "from": "sm-func-n005",
+      "to": "sm-func-n034",
+      "type": "related",
+      "note": "先会画原图，再谈平移伸缩。"
+    }
+  ]
+}

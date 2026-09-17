@@ -1,6 +1,7 @@
 # 小学数学地图总览
 
 > 这里列 **年级 × 领域** 的题目级路线，并链到已做成的可通关地图。  
+> 初中见 [../junior-math/OVERVIEW.md](../junior-math/OVERVIEW.md)，高中核心模块见 [../senior-math/OVERVIEW.md](../senior-math/OVERVIEW.md)。  
 > 现在已做完、可校验的是：  
 >
 > **数与运算 1–6（已完成）**  

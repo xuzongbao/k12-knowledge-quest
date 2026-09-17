@@ -1,0 +1,328 @@
+{
+  "map_id": "sm-derivatives",
+  "quests": [
+    {
+      "id": "sm-der-n001-practice",
+      "node_id": "sm-der-n001",
+      "title": "算平均变化率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道求两点间平均变化率，并在图上标出割线。",
+      "success_hint": "差商：纵坐标差比横坐标差。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-der-n002-explain",
+      "node_id": "sm-der-n002",
+      "title": "间隔越来越小",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一张表让 Δx 缩小，观察差商往哪靠近。",
+      "success_hint": "逼近的是那一点的瞬时。"
+    },
+    {
+      "id": "sm-der-n003-explain",
+      "node_id": "sm-der-n003",
+      "title": "导数是什么",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话写两句：变化率、切线斜率。",
+      "success_hint": "一个数，不是又一条曲线（那是导函数）。"
+    },
+    {
+      "id": "sm-der-n004-practice",
+      "node_id": "sm-der-n004",
+      "title": "导函数与一点的导数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "区分「f'(2)」和「f'(x)」各 4 例。",
+      "success_hint": "一个是数，一个是函数。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-der-n005-practice",
+      "node_id": "sm-der-n005",
+      "title": "读切线斜率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "由图或已知导数指出 6 个点的切线斜率，含水平切线。",
+      "success_hint": "斜率为 0 则水平。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-der-n006-explain",
+      "node_id": "sm-der-n006",
+      "title": "速度是导数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用位移函数说明某一时刻的速度为什么不是平均速度。",
+      "success_hint": "平均速度对应一段时间。"
+    },
+    {
+      "id": "sm-der-n007-practice",
+      "node_id": "sm-der-n007",
+      "title": "多项式求导",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "10 道多项式求导。",
+      "success_hint": "x^n 变成 n x^{n-1}。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-der-n008-practice",
+      "node_id": "sm-der-n008",
+      "title": "指数对数求导",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道套公式。",
+      "success_hint": "e^x 的导数还是 e^x。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-der-n009-practice",
+      "node_id": "sm-der-n009",
+      "title": "正弦余弦求导",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道，注意 cos 的导数带负号。",
+      "success_hint": "sin'=cos，cos'=-sin。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-der-n010-practice",
+      "node_id": "sm-der-n010",
+      "title": "和差数乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道。",
+      "success_hint": "常数提到外面。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-der-n011-practice",
+      "node_id": "sm-der-n011",
+      "title": "积与商",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道写下法则再算。",
+      "success_hint": "积：前导后 + 前导后；商：记住分子那一行。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-der-n012-practice",
+      "node_id": "sm-der-n012",
+      "title": "链式法则",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 道复合求导，圈出内层。",
+      "success_hint": "外层导数乘内层导数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-der-n012-mini-quiz",
+      "node_id": "sm-der-n012",
+      "title": "求导运算小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "多项式、积商、复合。夹一道漏乘内层。",
+      "success_hint": "先认结构再动笔。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-der-boss-op",
+      "node_id": "sm-der-n012",
+      "title": "关主：求导运算官",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①多项式 ②积或商 ③一个复合函数。",
+      "success_hint": "结构认错，法则再熟也错。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-der-n013-practice",
+      "node_id": "sm-der-n013",
+      "title": "写切线方程",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道：先求该点导数，再点斜式。",
+      "success_hint": "点在曲线上，斜率是导数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-der-n014-practice",
+      "node_id": "sm-der-n014",
+      "title": "用导数判断单调",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个函数求单调区间。",
+      "success_hint": "先求 f'，再看正负。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-der-n015-practice",
+      "node_id": "sm-der-n015",
+      "title": "求极值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个函数求极值点与极值。",
+      "success_hint": "看 f' 是否变号。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-der-n016-practice",
+      "node_id": "sm-der-n016",
+      "title": "闭区间最值",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道比较端点与极值。",
+      "success_hint": "三个地方都要算：端点、驻点。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-der-n017-practice",
+      "node_id": "sm-der-n017",
+      "title": "一道优化",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 个短情境：设未知数、写函数、求定义域、求最值、写答。",
+      "success_hint": "实际范围先写出来。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-der-n018-practice",
+      "node_id": "sm-der-n018",
+      "title": "画草图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据单调与极值画 2 个三次函数草图。",
+      "success_hint": "升降对了，形状就对了。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-der-n019-practice",
+      "node_id": "sm-der-n019",
+      "title": "构造函数看单调",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用导数说明 2 个简单不等式在某区间成立。",
+      "success_hint": "作差，再看导数符号。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-der-n020-practice",
+      "node_id": "sm-der-n020",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "切线、单调、最值、优化各几题。",
+      "success_hint": "先问要斜率还是要最值。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-der-n020-mini-quiz",
+      "node_id": "sm-der-n020",
+      "title": "应用小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "切线、极值最值、一道应用。夹一道把极值当最值。",
+      "success_hint": "看清区间。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-der-boss-app",
+      "node_id": "sm-der-n020",
+      "title": "关主：单调最值工程师",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①判断单调 ②求闭区间最值 ③一个优化或切线。",
+      "success_hint": "端点不要忘。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-der-n021-practice",
+      "node_id": "sm-der-n021",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：复合求导、切线、闭区间最值。",
+      "success_hint": "运算和应用各一刀。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-der-boss-map",
+      "node_id": "sm-der-n021",
+      "title": "关主：导数通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①求导 ②切线或单调 ③最值或优化。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 16
+    },
+    {
+      "id": "sm-der-n022-explain",
+      "node_id": "sm-der-n022",
+      "title": "连续但可能尖",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明可导比连续要求更「光滑」。",
+      "success_hint": "尖了就没有唯一切线。"
+    },
+    {
+      "id": "sm-der-n023-practice",
+      "node_id": "sm-der-n023",
+      "title": "看 |x|",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "画出 y=|x|，说明原点左右平均变化率不同。",
+      "success_hint": "一边 1，一边 -1。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-der-n024-explain",
+      "node_id": "sm-der-n024",
+      "title": "附近最高不是全程最高",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个端点比极更大的闭区间例子。",
+      "success_hint": "极值只管附近。"
+    },
+    {
+      "id": "sm-der-n025-practice",
+      "node_id": "sm-der-n025",
+      "title": "改漏乘",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "改 4 道复合求导错解。",
+      "success_hint": "内层导数常是常数或一次项。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-der-n026-practice",
+      "node_id": "sm-der-n026",
+      "title": "先写定义域",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 道应用题只要求写出自变量范围并说明理由。",
+      "success_hint": "长度不能为负。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-der-n027-explain",
+      "node_id": "sm-der-n027",
+      "title": "割线变切线",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在同一图上画割线与切线，说明导数对应哪一条。",
+      "success_hint": "切线是极限位置。"
+    },
+    {
+      "id": "sm-der-n028-explain",
+      "node_id": "sm-der-n028",
+      "title": "水平但不拐",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 y=x³ 说明导数为 0 只是水平切线，不一定是峰或谷。",
+      "success_hint": "还要看是否变号。"
+    }
+  ]
+}

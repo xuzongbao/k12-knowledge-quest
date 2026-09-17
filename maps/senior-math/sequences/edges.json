@@ -1,0 +1,263 @@
+{
+  "map_id": "sm-sequences",
+  "edges": [
+    {
+      "from": "sm-seq-n001",
+      "to": "sm-seq-n002",
+      "type": "prerequisite",
+      "note": "sm-seq-n001 需先于 sm-seq-n002"
+    },
+    {
+      "from": "sm-seq-n002",
+      "to": "sm-seq-n003",
+      "type": "prerequisite",
+      "note": "sm-seq-n002 需先于 sm-seq-n003"
+    },
+    {
+      "from": "sm-seq-n002",
+      "to": "sm-seq-n004",
+      "type": "prerequisite",
+      "note": "sm-seq-n002 需先于 sm-seq-n004"
+    },
+    {
+      "from": "sm-seq-n003",
+      "to": "sm-seq-n005",
+      "type": "prerequisite",
+      "note": "sm-seq-n003 需先于 sm-seq-n005"
+    },
+    {
+      "from": "sm-seq-n005",
+      "to": "sm-seq-n006",
+      "type": "prerequisite",
+      "note": "sm-seq-n005 需先于 sm-seq-n006"
+    },
+    {
+      "from": "sm-seq-n006",
+      "to": "sm-seq-n007",
+      "type": "prerequisite",
+      "note": "sm-seq-n006 需先于 sm-seq-n007"
+    },
+    {
+      "from": "sm-seq-n006",
+      "to": "sm-seq-n008",
+      "type": "prerequisite",
+      "note": "sm-seq-n006 需先于 sm-seq-n008"
+    },
+    {
+      "from": "sm-seq-n008",
+      "to": "sm-seq-n009",
+      "type": "prerequisite",
+      "note": "sm-seq-n008 需先于 sm-seq-n009"
+    },
+    {
+      "from": "sm-seq-n007",
+      "to": "sm-seq-n009",
+      "type": "prerequisite",
+      "note": "sm-seq-n007 需先于 sm-seq-n009"
+    },
+    {
+      "from": "sm-seq-n009",
+      "to": "sm-seq-n010",
+      "type": "prerequisite",
+      "note": "sm-seq-n009 需先于 sm-seq-n010"
+    },
+    {
+      "from": "sm-seq-n005",
+      "to": "sm-seq-n011",
+      "type": "prerequisite",
+      "note": "sm-seq-n005 需先于 sm-seq-n011"
+    },
+    {
+      "from": "sm-seq-n011",
+      "to": "sm-seq-n012",
+      "type": "prerequisite",
+      "note": "sm-seq-n011 需先于 sm-seq-n012"
+    },
+    {
+      "from": "sm-seq-n006",
+      "to": "sm-seq-n012",
+      "type": "prerequisite",
+      "note": "sm-seq-n006 需先于 sm-seq-n012"
+    },
+    {
+      "from": "sm-seq-n012",
+      "to": "sm-seq-n013",
+      "type": "prerequisite",
+      "note": "sm-seq-n012 需先于 sm-seq-n013"
+    },
+    {
+      "from": "sm-seq-n012",
+      "to": "sm-seq-n014",
+      "type": "prerequisite",
+      "note": "sm-seq-n012 需先于 sm-seq-n014"
+    },
+    {
+      "from": "sm-seq-n012",
+      "to": "sm-seq-n015",
+      "type": "prerequisite",
+      "note": "sm-seq-n012 需先于 sm-seq-n015"
+    },
+    {
+      "from": "sm-seq-n015",
+      "to": "sm-seq-n016",
+      "type": "prerequisite",
+      "note": "sm-seq-n015 需先于 sm-seq-n016"
+    },
+    {
+      "from": "sm-seq-n014",
+      "to": "sm-seq-n016",
+      "type": "prerequisite",
+      "note": "sm-seq-n014 需先于 sm-seq-n016"
+    },
+    {
+      "from": "sm-seq-n013",
+      "to": "sm-seq-n016",
+      "type": "prerequisite",
+      "note": "sm-seq-n013 需先于 sm-seq-n016"
+    },
+    {
+      "from": "sm-seq-n016",
+      "to": "sm-seq-n017",
+      "type": "prerequisite",
+      "note": "sm-seq-n016 需先于 sm-seq-n017"
+    },
+    {
+      "from": "sm-seq-n010",
+      "to": "sm-seq-n018",
+      "type": "prerequisite",
+      "note": "sm-seq-n010 需先于 sm-seq-n018"
+    },
+    {
+      "from": "sm-seq-n017",
+      "to": "sm-seq-n018",
+      "type": "prerequisite",
+      "note": "sm-seq-n017 需先于 sm-seq-n018"
+    },
+    {
+      "from": "sm-seq-n009",
+      "to": "sm-seq-n019",
+      "type": "prerequisite",
+      "note": "sm-seq-n009 需先于 sm-seq-n019"
+    },
+    {
+      "from": "sm-seq-n016",
+      "to": "sm-seq-n019",
+      "type": "prerequisite",
+      "note": "sm-seq-n016 需先于 sm-seq-n019"
+    },
+    {
+      "from": "sm-seq-n018",
+      "to": "sm-seq-n020",
+      "type": "prerequisite",
+      "note": "sm-seq-n018 需先于 sm-seq-n020"
+    },
+    {
+      "from": "sm-seq-n019",
+      "to": "sm-seq-n021",
+      "type": "prerequisite",
+      "note": "sm-seq-n019 需先于 sm-seq-n021"
+    },
+    {
+      "from": "sm-seq-n020",
+      "to": "sm-seq-n021",
+      "type": "prerequisite",
+      "note": "sm-seq-n020 需先于 sm-seq-n021"
+    },
+    {
+      "from": "sm-seq-n004",
+      "to": "sm-seq-n021",
+      "type": "prerequisite",
+      "note": "sm-seq-n004 需先于 sm-seq-n021"
+    },
+    {
+      "from": "sm-seq-n021",
+      "to": "sm-seq-n022",
+      "type": "prerequisite",
+      "note": "sm-seq-n021 需先于 sm-seq-n022"
+    },
+    {
+      "from": "sm-seq-n009",
+      "to": "sm-seq-n023",
+      "type": "prerequisite",
+      "note": "sm-seq-n009 需先于 sm-seq-n023"
+    },
+    {
+      "from": "sm-seq-n016",
+      "to": "sm-seq-n024",
+      "type": "prerequisite",
+      "note": "sm-seq-n016 需先于 sm-seq-n024"
+    },
+    {
+      "from": "sm-seq-n016",
+      "to": "sm-seq-n025",
+      "type": "prerequisite",
+      "note": "sm-seq-n016 需先于 sm-seq-n025"
+    },
+    {
+      "from": "sm-seq-n003",
+      "to": "sm-seq-n026",
+      "type": "prerequisite",
+      "note": "sm-seq-n003 需先于 sm-seq-n026"
+    },
+    {
+      "from": "sm-seq-n020",
+      "to": "sm-seq-n027",
+      "type": "prerequisite",
+      "note": "sm-seq-n020 需先于 sm-seq-n027"
+    },
+    {
+      "from": "sm-seq-n018",
+      "to": "sm-seq-n028",
+      "type": "prerequisite",
+      "note": "sm-seq-n018 需先于 sm-seq-n028"
+    },
+    {
+      "from": "sm-seq-n004",
+      "to": "sm-seq-n029",
+      "type": "prerequisite",
+      "note": "sm-seq-n004 需先于 sm-seq-n029"
+    },
+    {
+      "from": "sm-seq-n005",
+      "to": "sm-seq-n011",
+      "type": "easily_confused",
+      "note": "等差看差，等比看比；公比不能为 0。"
+    },
+    {
+      "from": "sm-seq-n006",
+      "to": "sm-seq-n012",
+      "type": "related",
+      "note": "通项都是首项加（乘）若干个公差（公比）。"
+    },
+    {
+      "from": "sm-seq-n009",
+      "to": "sm-seq-n016",
+      "type": "easily_confused",
+      "note": "等差求和常配对；等比求和常错位，还要单独处理 q=1。"
+    },
+    {
+      "from": "sm-seq-n008",
+      "to": "sm-seq-n015",
+      "type": "related",
+      "note": "两种求和推导都是「再写一次，换个顺序减或加」。"
+    },
+    {
+      "from": "sm-seq-n020",
+      "to": "sm-seq-n027",
+      "type": "application",
+      "note": "会套公式之后，对照单利复利的实际差别。"
+    },
+    {
+      "from": "sm-seq-n004",
+      "to": "sm-seq-n029",
+      "type": "application",
+      "note": "对照函数之后，更要强调图象是点。"
+    },
+    {
+      "from": "sm-seq-n003",
+      "to": "sm-seq-n026",
+      "type": "related",
+      "note": "递推是「下一项怎么来」，归纳法把这种步骤写成证明骨架。"
+    }
+  ]
+}

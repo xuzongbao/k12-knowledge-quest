@@ -1,0 +1,338 @@
+{
+  "map_id": "sm-solid-geometry",
+  "quests": [
+    {
+      "id": "sm-solid-n001-explain",
+      "node_id": "sm-solid-n001",
+      "title": "从实物到几何体",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出教室里三种可以看成柱、锥或球的物体，并说明忽略了什么细节。",
+      "success_hint": "几何体是模型。"
+    },
+    {
+      "id": "sm-solid-n002-practice",
+      "node_id": "sm-solid-n002",
+      "title": "标出名称",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在棱柱、棱锥图上标底面、侧棱、顶点，共 4 图。",
+      "success_hint": "棱锥有一个公共顶点。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-solid-n003-explain",
+      "node_id": "sm-solid-n003",
+      "title": "台是怎样截出来的",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用一句话说明棱台和棱锥的关系。",
+      "success_hint": "平行于底面去一截。"
+    },
+    {
+      "id": "sm-solid-n004-practice",
+      "node_id": "sm-solid-n004",
+      "title": "旋转体辨认",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个物体或图判断更接近柱、锥还是球。",
+      "success_hint": "看母线是否平行或交于一点。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-solid-n005-practice",
+      "node_id": "sm-solid-n005",
+      "title": "拆组合体",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把 3 个组合体拆成已知几何体并命名。",
+      "success_hint": "先找明显的柱或锥。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-solid-n006-practice",
+      "node_id": "sm-solid-n006",
+      "title": "画三视图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "为 2 个简单几何体画三视图，检查长对正高平齐宽相等。",
+      "success_hint": "三个图要能对上尺寸。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-solid-n007-practice",
+      "node_id": "sm-solid-n007",
+      "title": "画水平面直观图",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "把一个水平矩形画成斜二测。",
+      "success_hint": "横不变，另一方向 45° 且减半。",
+      "items_suggested": 1
+    },
+    {
+      "id": "sm-solid-n008-practice",
+      "node_id": "sm-solid-n008",
+      "title": "求表面积",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个柱或简单组合求表面积。",
+      "success_hint": "展开侧面，别漏底。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-solid-n009-practice",
+      "node_id": "sm-solid-n009",
+      "title": "求体积",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 个柱锥球或组合求体积。",
+      "success_hint": "锥体记得三分之一。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-solid-n009-mini-quiz",
+      "node_id": "sm-solid-n009",
+      "title": "几何体小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "三视图、表面积、体积。夹一道把锥当柱。",
+      "success_hint": "先辨柱还是锥。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-solid-boss-body",
+      "node_id": "sm-solid-n009",
+      "title": "关主：几何体还原师",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①由三视图想象几何体 ②求一个表面积或体积 ③指出组合体怎么拆。",
+      "success_hint": "视图和公式都要会。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-solid-n010-explain",
+      "node_id": "sm-solid-n010",
+      "title": "平面能延展",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明为什么画出来的平行四边形只是平面的一部分。",
+      "success_hint": "平面没有边界。"
+    },
+    {
+      "id": "sm-solid-n011-practice",
+      "node_id": "sm-solid-n011",
+      "title": "用公理判断",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 个「能否确定平面 / 直线是否在面内」判断。",
+      "success_hint": "不共线三点才能确定平面。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-solid-n012-practice",
+      "node_id": "sm-solid-n012",
+      "title": "三分类",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "8 对直线判断相交、平行、异面（可在正方体中）。",
+      "success_hint": "异面既不交也不平行。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-solid-n013-practice",
+      "node_id": "sm-solid-n013",
+      "title": "线面平行",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道判定或性质：指出用了哪一条。",
+      "success_hint": "面内要有一条直线与它平行。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-solid-n014-practice",
+      "node_id": "sm-solid-n014",
+      "title": "面面平行",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道判定：写出面内那两条相交直线。",
+      "success_hint": "两条必须相交。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-solid-n015-practice",
+      "node_id": "sm-solid-n015",
+      "title": "线面垂直",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道判定：写出面内两条相交直线。",
+      "success_hint": "两条都要与已知直线垂直。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-solid-n016-practice",
+      "node_id": "sm-solid-n016",
+      "title": "面面垂直",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "4 道：找出一个平面里的垂线。",
+      "success_hint": "垂线要落在其中一个面内。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-solid-n017-practice",
+      "node_id": "sm-solid-n017",
+      "title": "先选判定还是性质",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 道短推理，每步标注判定或性质。",
+      "success_hint": "要证平行垂直先找判定；已知平行垂直才能用性质。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-solid-n017-mini-quiz",
+      "node_id": "sm-solid-n017",
+      "title": "位置关系小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "异面、线面平行垂直、面面平行垂直。夹一道把异面当平行。",
+      "success_hint": "先问是否共面。",
+      "items_suggested": 8
+    },
+    {
+      "id": "sm-solid-boss-pos",
+      "node_id": "sm-solid-n017",
+      "title": "关主：空间位置裁判",
+      "type": "boss",
+      "xp": 80,
+      "prompt": "击败关主：①区分三线关系 ②线面或面面平行 ③线面或面面垂直。",
+      "success_hint": "判定条件要写全。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-solid-n018-explain",
+      "node_id": "sm-solid-n018",
+      "title": "射影在哪里",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在长方体中指出一条体对角线在底面上的射影，并说出线面角。",
+      "success_hint": "垂足连出来才是射影。"
+    },
+    {
+      "id": "sm-solid-n019-practice",
+      "node_id": "sm-solid-n019",
+      "title": "指出二面角的平面角",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在 3 个图中标出棱和平面角。",
+      "success_hint": "平面角的两边分别在两个半平面内且垂直于棱。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-solid-n020-practice",
+      "node_id": "sm-solid-n020",
+      "title": "点面距离",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在长方体中求 4 个点到指定面的距离。",
+      "success_hint": "往往就是一条棱长。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-solid-n021-practice",
+      "node_id": "sm-solid-n021",
+      "title": "这是哪种量",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "6 题先判断求角还是距离，再在长方体中计算简单情形。",
+      "success_hint": "先命名，再动尺子。",
+      "items_suggested": 6
+    },
+    {
+      "id": "sm-solid-n022-practice",
+      "node_id": "sm-solid-n022",
+      "title": "合练卷",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "三视图或体积、位置关系、简单距离各几题。",
+      "success_hint": "先看问的是体、关系还是度量。",
+      "items_suggested": 12
+    },
+    {
+      "id": "sm-solid-n023-practice",
+      "node_id": "sm-solid-n023",
+      "title": "通关综合练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "独立完成：一个视图或体积、一段平行或垂直推理、一个距离。",
+      "success_hint": "语言要规范：因为所以。",
+      "items_suggested": 10
+    },
+    {
+      "id": "sm-solid-boss-map",
+      "node_id": "sm-solid-n023",
+      "title": "关主：立体几何通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①几何体或三视图 ②一段位置关系推理 ③一个简单角或距离。",
+      "success_hint": "通关后记入已通关列表。",
+      "items_suggested": 14
+    },
+    {
+      "id": "sm-solid-n024-practice",
+      "node_id": "sm-solid-n024",
+      "title": "找出异面棱",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在长方体中找出至少 4 对异面棱。",
+      "success_hint": "既不交于一点，也不平行。",
+      "items_suggested": 4
+    },
+    {
+      "id": "sm-solid-n025-explain",
+      "node_id": "sm-solid-n025",
+      "title": "斜线的射影",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用自己的话说明：斜线垂直于面内一条直线时，它的射影也往往垂直于那条直线。",
+      "success_hint": "先有面的垂线，再谈斜线。"
+    },
+    {
+      "id": "sm-solid-n026-explain",
+      "node_id": "sm-solid-n026",
+      "title": "图画歪了会怎样",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "举一个三视图尺寸含糊导致两种还原的例子。",
+      "success_hint": "缺尺寸就不能唯一确定。"
+    },
+    {
+      "id": "sm-solid-n027-practice",
+      "node_id": "sm-solid-n027",
+      "title": "截面圆半径",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知球半径和截面到球心距离，求 3 个截面圆半径。",
+      "success_hint": "直角三角形：半径、距离、截面半径。",
+      "items_suggested": 3
+    },
+    {
+      "id": "sm-solid-n028-practice",
+      "node_id": "sm-solid-n028",
+      "title": "割或补",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "2 个组合体选择割还是补并求体积。",
+      "success_hint": "缺一块就补，多一块就减。",
+      "items_suggested": 2
+    },
+    {
+      "id": "sm-solid-n029-explain",
+      "node_id": "sm-solid-n029",
+      "title": "哪一步不能传",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "指出「两条直线都垂直于第三条，它们就平行」在空间中为什么不一定。",
+      "success_hint": "空间里可以是异面或相交。"
+    }
+  ]
+}

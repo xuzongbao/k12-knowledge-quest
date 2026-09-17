@@ -1,0 +1,275 @@
+{
+  "map_id": "sm-vectors-complex",
+  "edges": [
+    {
+      "from": "sm-vec-n001",
+      "to": "sm-vec-n002",
+      "type": "prerequisite",
+      "note": "sm-vec-n001 需先于 sm-vec-n002"
+    },
+    {
+      "from": "sm-vec-n002",
+      "to": "sm-vec-n003",
+      "type": "prerequisite",
+      "note": "sm-vec-n002 需先于 sm-vec-n003"
+    },
+    {
+      "from": "sm-vec-n003",
+      "to": "sm-vec-n004",
+      "type": "prerequisite",
+      "note": "sm-vec-n003 需先于 sm-vec-n004"
+    },
+    {
+      "from": "sm-vec-n004",
+      "to": "sm-vec-n005",
+      "type": "prerequisite",
+      "note": "sm-vec-n004 需先于 sm-vec-n005"
+    },
+    {
+      "from": "sm-vec-n003",
+      "to": "sm-vec-n006",
+      "type": "prerequisite",
+      "note": "sm-vec-n003 需先于 sm-vec-n006"
+    },
+    {
+      "from": "sm-vec-n005",
+      "to": "sm-vec-n007",
+      "type": "prerequisite",
+      "note": "sm-vec-n005 需先于 sm-vec-n007"
+    },
+    {
+      "from": "sm-vec-n006",
+      "to": "sm-vec-n007",
+      "type": "prerequisite",
+      "note": "sm-vec-n006 需先于 sm-vec-n007"
+    },
+    {
+      "from": "sm-vec-n007",
+      "to": "sm-vec-n008",
+      "type": "prerequisite",
+      "note": "sm-vec-n007 需先于 sm-vec-n008"
+    },
+    {
+      "from": "sm-vec-n008",
+      "to": "sm-vec-n009",
+      "type": "prerequisite",
+      "note": "sm-vec-n008 需先于 sm-vec-n009"
+    },
+    {
+      "from": "sm-vec-n009",
+      "to": "sm-vec-n010",
+      "type": "prerequisite",
+      "note": "sm-vec-n009 需先于 sm-vec-n010"
+    },
+    {
+      "from": "sm-vec-n010",
+      "to": "sm-vec-n011",
+      "type": "prerequisite",
+      "note": "sm-vec-n010 需先于 sm-vec-n011"
+    },
+    {
+      "from": "sm-vec-n011",
+      "to": "sm-vec-n012",
+      "type": "prerequisite",
+      "note": "sm-vec-n011 需先于 sm-vec-n012"
+    },
+    {
+      "from": "sm-vec-n012",
+      "to": "sm-vec-n013",
+      "type": "prerequisite",
+      "note": "sm-vec-n012 需先于 sm-vec-n013"
+    },
+    {
+      "from": "sm-vec-n013",
+      "to": "sm-vec-n014",
+      "type": "prerequisite",
+      "note": "sm-vec-n013 需先于 sm-vec-n014"
+    },
+    {
+      "from": "sm-vec-n014",
+      "to": "sm-vec-n015",
+      "type": "prerequisite",
+      "note": "sm-vec-n014 需先于 sm-vec-n015"
+    },
+    {
+      "from": "sm-vec-n010",
+      "to": "sm-vec-n016",
+      "type": "prerequisite",
+      "note": "sm-vec-n010 需先于 sm-vec-n016"
+    },
+    {
+      "from": "sm-vec-n014",
+      "to": "sm-vec-n016",
+      "type": "prerequisite",
+      "note": "sm-vec-n014 需先于 sm-vec-n016"
+    },
+    {
+      "from": "sm-vec-n016",
+      "to": "sm-vec-n017",
+      "type": "prerequisite",
+      "note": "sm-vec-n016 需先于 sm-vec-n017"
+    },
+    {
+      "from": "sm-vec-n017",
+      "to": "sm-vec-n018",
+      "type": "prerequisite",
+      "note": "sm-vec-n017 需先于 sm-vec-n018"
+    },
+    {
+      "from": "sm-vec-n018",
+      "to": "sm-vec-n019",
+      "type": "prerequisite",
+      "note": "sm-vec-n018 需先于 sm-vec-n019"
+    },
+    {
+      "from": "sm-vec-n019",
+      "to": "sm-vec-n020",
+      "type": "prerequisite",
+      "note": "sm-vec-n019 需先于 sm-vec-n020"
+    },
+    {
+      "from": "sm-vec-n009",
+      "to": "sm-vec-n020",
+      "type": "prerequisite",
+      "note": "sm-vec-n009 需先于 sm-vec-n020"
+    },
+    {
+      "from": "sm-vec-n020",
+      "to": "sm-vec-n021",
+      "type": "prerequisite",
+      "note": "sm-vec-n020 需先于 sm-vec-n021"
+    },
+    {
+      "from": "sm-vec-n021",
+      "to": "sm-vec-n022",
+      "type": "prerequisite",
+      "note": "sm-vec-n021 需先于 sm-vec-n022"
+    },
+    {
+      "from": "sm-vec-n022",
+      "to": "sm-vec-n023",
+      "type": "prerequisite",
+      "note": "sm-vec-n022 需先于 sm-vec-n023"
+    },
+    {
+      "from": "sm-vec-n011",
+      "to": "sm-vec-n023",
+      "type": "prerequisite",
+      "note": "sm-vec-n011 需先于 sm-vec-n023"
+    },
+    {
+      "from": "sm-vec-n023",
+      "to": "sm-vec-n024",
+      "type": "prerequisite",
+      "note": "sm-vec-n023 需先于 sm-vec-n024"
+    },
+    {
+      "from": "sm-vec-n024",
+      "to": "sm-vec-n025",
+      "type": "prerequisite",
+      "note": "sm-vec-n024 需先于 sm-vec-n025"
+    },
+    {
+      "from": "sm-vec-n022",
+      "to": "sm-vec-n025",
+      "type": "prerequisite",
+      "note": "sm-vec-n022 需先于 sm-vec-n025"
+    },
+    {
+      "from": "sm-vec-n025",
+      "to": "sm-vec-n026",
+      "type": "prerequisite",
+      "note": "sm-vec-n025 需先于 sm-vec-n026"
+    },
+    {
+      "from": "sm-vec-n014",
+      "to": "sm-vec-n026",
+      "type": "prerequisite",
+      "note": "sm-vec-n014 需先于 sm-vec-n026"
+    },
+    {
+      "from": "sm-vec-n026",
+      "to": "sm-vec-n027",
+      "type": "prerequisite",
+      "note": "sm-vec-n026 需先于 sm-vec-n027"
+    },
+    {
+      "from": "sm-vec-n027",
+      "to": "sm-vec-n028",
+      "type": "prerequisite",
+      "note": "sm-vec-n027 需先于 sm-vec-n028"
+    },
+    {
+      "from": "sm-vec-n011",
+      "to": "sm-vec-n029",
+      "type": "prerequisite",
+      "note": "sm-vec-n011 需先于 sm-vec-n029"
+    },
+    {
+      "from": "sm-vec-n012",
+      "to": "sm-vec-n030",
+      "type": "prerequisite",
+      "note": "sm-vec-n012 需先于 sm-vec-n030"
+    },
+    {
+      "from": "sm-vec-n024",
+      "to": "sm-vec-n031",
+      "type": "prerequisite",
+      "note": "sm-vec-n024 需先于 sm-vec-n031"
+    },
+    {
+      "from": "sm-vec-n006",
+      "to": "sm-vec-n032",
+      "type": "prerequisite",
+      "note": "sm-vec-n006 需先于 sm-vec-n032"
+    },
+    {
+      "from": "sm-vec-n016",
+      "to": "sm-vec-n033",
+      "type": "prerequisite",
+      "note": "sm-vec-n016 需先于 sm-vec-n033"
+    },
+    {
+      "from": "sm-vec-n004",
+      "to": "sm-vec-n005",
+      "type": "related",
+      "note": "加法用三角形接龙，减法是接到相反方向。"
+    },
+    {
+      "from": "sm-vec-n012",
+      "to": "sm-vec-n013",
+      "type": "easily_confused",
+      "note": "定义里有夹角余弦；坐标公式是分量乘积和，两者要能互相推导直觉。"
+    },
+    {
+      "from": "sm-vec-n014",
+      "to": "sm-vec-n003",
+      "type": "easily_confused",
+      "note": "垂直看数量积是否为 0；平行看坐标是否成比例，不要用反。"
+    },
+    {
+      "from": "sm-vec-n021",
+      "to": "sm-vec-n024",
+      "type": "easily_confused",
+      "note": "加减像向量；乘法不是分量分别相乘。"
+    },
+    {
+      "from": "sm-vec-n011",
+      "to": "sm-vec-n023",
+      "type": "related",
+      "note": "向量模与复数模公式长得一样，因为复平面就是坐标平面。"
+    },
+    {
+      "from": "sm-vec-n024",
+      "to": "sm-vec-n031",
+      "type": "application",
+      "note": "算出 i·i=-1 之后，再谈转 90°。"
+    },
+    {
+      "from": "sm-vec-n016",
+      "to": "sm-vec-n033",
+      "type": "application",
+      "note": "会线性表示之后，中点是最常用的一刀。"
+    }
+  ]
+}

@@ -1,0 +1,812 @@
+{
+  "map_id": "sm-derivatives",
+  "nodes": [
+    {
+      "id": "sm-der-n001",
+      "title": "平均变化率",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "der",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能计算 [f(x2)-f(x1)]/(x2-x1)，并说明它是割线的斜率。本图从变化率讲起。"
+    },
+    {
+      "id": "sm-der-n002",
+      "title": "瞬时变化率直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-der-n001"
+      ],
+      "tags": [
+        "der",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明让间隔越来越小，平均变化率可以逼近某一点的瞬时变化率。"
+    },
+    {
+      "id": "sm-der-n003",
+      "title": "导数的定义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n002"
+      ],
+      "tags": [
+        "der",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把导数理解为极限意义下的瞬时变化率，并读出 f'(x0) 的符号含义。"
+    },
+    {
+      "id": "sm-der-n004",
+      "title": "导函数",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n003"
+      ],
+      "tags": [
+        "der",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明对每个 x 求导数得到新函数 f'，叫做导函数。"
+    },
+    {
+      "id": "sm-der-n005",
+      "title": "导数的几何意义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n003"
+      ],
+      "tags": [
+        "der",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能说明 f'(x0) 是曲线在该点切线的斜率。"
+    },
+    {
+      "id": "sm-der-n006",
+      "title": "导数的物理意义",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-der-n003"
+      ],
+      "tags": [
+        "der",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能把位移对时间的导数说成瞬时速度（入门）。"
+    },
+    {
+      "id": "sm-der-n007",
+      "title": "多项式求导",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n004"
+      ],
+      "tags": [
+        "der",
+        "ch-op"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对幂函数 x^n 与多项式逐项求导。"
+    },
+    {
+      "id": "sm-der-n008",
+      "title": "指数与对数求导",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n007"
+      ],
+      "tags": [
+        "der",
+        "ch-op"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能使用 e^x、(a^x)、ln x 的导数公式做计算（公式可作为已知）。"
+    },
+    {
+      "id": "sm-der-n009",
+      "title": "三角函数求导",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n007"
+      ],
+      "tags": [
+        "der",
+        "ch-op"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能使用 sin x、cos x 的导数公式，并注意符号。"
+    },
+    {
+      "id": "sm-der-n010",
+      "title": "加减与数乘法则",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n007"
+      ],
+      "tags": [
+        "der",
+        "ch-op"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能对函数的和、差、常数倍求导。"
+    },
+    {
+      "id": "sm-der-n011",
+      "title": "积商法则入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-der-n010"
+      ],
+      "tags": [
+        "der",
+        "ch-op"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对简单乘积、商求导，写下法则再代入。"
+    },
+    {
+      "id": "sm-der-n012",
+      "title": "复合函数导数入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-der-n011",
+        "sm-der-n008"
+      ],
+      "tags": [
+        "der",
+        "ch-op",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能对 f(g(x)) 使用链式法则：先外后内相乘。"
+    },
+    {
+      "id": "sm-der-n013",
+      "title": "切线方程",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-der-n005",
+        "sm-der-n007"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能由一点处的导数写出切线：过该点、斜率为导数。"
+    },
+    {
+      "id": "sm-der-n014",
+      "title": "单调性与导数",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-der-n012"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用 f'>0、f'<0 判断增、减（在区间上），并说明等于 0 的点要单独看。"
+    },
+    {
+      "id": "sm-der-n015",
+      "title": "极值",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-der-n014"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用导数变号判断极大、极小，并指出导数为 0 不一定是极值。"
+    },
+    {
+      "id": "sm-der-n016",
+      "title": "闭区间最值",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-der-n015"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能比较区间端点与极值，得到闭区间上的最大、最小值。"
+    },
+    {
+      "id": "sm-der-n017",
+      "title": "生活中的优化",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-der-n016"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把「围栏最大面积」「用料最省」写成函数，求定义域内最值。"
+    },
+    {
+      "id": "sm-der-n018",
+      "title": "作函数草图",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n016"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能根据单调区间和极值画出多项式一类函数的草图。"
+    },
+    {
+      "id": "sm-der-n019",
+      "title": "导数法证不等式入门",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-der-n014"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能通过构造函数、看单调，说明一个简单不等式（入门）。"
+    },
+    {
+      "id": "sm-der-n020",
+      "title": "导数应用合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-der-n013",
+        "sm-der-n017",
+        "sm-der-n018"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在切线、单调、最值、优化之间切换。"
+    },
+    {
+      "id": "sm-der-n021",
+      "title": "导数通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-der-n020",
+        "sm-der-n019"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成本图收束检查。"
+    },
+    {
+      "id": "sm-der-n022",
+      "title": "可导与连续直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n005"
+      ],
+      "tags": [
+        "der",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明可导通常连续，但连续不一定可导（尖点）。"
+    },
+    {
+      "id": "sm-der-n023",
+      "title": "尖点不可导",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n022"
+      ],
+      "tags": [
+        "der",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能指出 |x| 在原点连续但左右变化率不同，因而不可导。"
+    },
+    {
+      "id": "sm-der-n024",
+      "title": "极值不是最值",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n016"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举开区间或端点更大的例子，说明极值只是附近最高/最低。"
+    },
+    {
+      "id": "sm-der-n025",
+      "title": "复合漏乘内层",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n012"
+      ],
+      "tags": [
+        "der",
+        "ch-op"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能专门改错：对外层求导后忘记乘内层导数。"
+    },
+    {
+      "id": "sm-der-n026",
+      "title": "实际问题的定义域",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n017"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在优化题里先写自变量的实际范围，再求最值。"
+    },
+    {
+      "id": "sm-der-n027",
+      "title": "切线与割线",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-der-n013"
+      ],
+      "tags": [
+        "der",
+        "ch-def"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能对照割线斜率（平均）与切线斜率（瞬时）。"
+    },
+    {
+      "id": "sm-der-n028",
+      "title": "导数为零不一定极值",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 11,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-der-n015"
+      ],
+      "tags": [
+        "der",
+        "ch-app"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能举 y=x³ 在原点：导数为 0 但单调仍过。"
+    }
+  ]
+}

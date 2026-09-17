@@ -391,7 +391,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--all",
         action="store_true",
-        help="Validate every map under maps/ (any folder that contains map.meta.json, e.g. primary-math and junior-math)",
+        help="Validate every map under maps/ (any folder that contains map.meta.json, e.g. primary-math, junior-math, senior-math)",
     )
     parser.add_argument("--tree", action="store_true", help="Print unlock layers after a successful check")
     args = parser.parse_args(argv)

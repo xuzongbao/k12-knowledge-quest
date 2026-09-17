@@ -1,0 +1,842 @@
+{
+  "map_id": "sm-solid-geometry",
+  "nodes": [
+    {
+      "id": "sm-solid-n001",
+      "title": "空间几何体直观",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 1,
+      "prerequisites": [],
+      "tags": [
+        "solid",
+        "ch-body"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能从实物抽象出柱、锥、台、球，并说明立体几何研究的是理想化的空间图形。"
+    },
+    {
+      "id": "sm-solid-n002",
+      "title": "棱柱与棱锥",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-solid-n001"
+      ],
+      "tags": [
+        "solid",
+        "ch-body"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出棱柱、棱锥的底面、侧面、顶点，并比较侧棱是否垂直底面。"
+    },
+    {
+      "id": "sm-solid-n003",
+      "title": "棱台",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-solid-n002"
+      ],
+      "tags": [
+        "solid",
+        "ch-body"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明棱台由棱锥被平行于底面的平面所截得到，上下底平行。"
+    },
+    {
+      "id": "sm-solid-n004",
+      "title": "圆柱圆锥球",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-solid-n001"
+      ],
+      "tags": [
+        "solid",
+        "ch-body"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能指出圆柱、圆锥、球的母线、轴、半径，并与棱柱棱锥对照。"
+    },
+    {
+      "id": "sm-solid-n005",
+      "title": "简单组合体",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n002",
+        "sm-solid-n004"
+      ],
+      "tags": [
+        "solid",
+        "ch-body"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把组合体拆成已知几何体，说明交界处如何衔接。"
+    },
+    {
+      "id": "sm-solid-n006",
+      "title": "三视图",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n005"
+      ],
+      "tags": [
+        "solid",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能由几何体画出正视图、侧视图、俯视图，并说明长对正、高平齐、宽相等。"
+    },
+    {
+      "id": "sm-solid-n007",
+      "title": "直观图",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n005"
+      ],
+      "tags": [
+        "solid",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用斜二测画水平面的直观图：横轴不变，纵轴 45° 且长度为原来一半。"
+    },
+    {
+      "id": "sm-solid-n008",
+      "title": "表面积回顾",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n005"
+      ],
+      "tags": [
+        "solid",
+        "ch-body"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能求棱柱、圆柱等的表面积：把侧面展开再加底。"
+    },
+    {
+      "id": "sm-solid-n009",
+      "title": "体积回顾",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n008"
+      ],
+      "tags": [
+        "solid",
+        "ch-body",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能使用柱体 V=Sh、锥体 V=(1/3)Sh、球体公式求简单体积，组合体用加减。"
+    },
+    {
+      "id": "sm-solid-n010",
+      "title": "空间点线面",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 2,
+      "prerequisites": [
+        "sm-solid-n001"
+      ],
+      "tags": [
+        "pos",
+        "ch-pos"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明点、直线、平面是立体几何的基本元素，平面可无限延展。"
+    },
+    {
+      "id": "sm-solid-n011",
+      "title": "平面的基本性质",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n010"
+      ],
+      "tags": [
+        "pos",
+        "ch-pos"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能使用公理：不共线三点确定平面；直线上两点在平面内则直线在平面内等。"
+    },
+    {
+      "id": "sm-solid-n012",
+      "title": "空间两直线",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n011"
+      ],
+      "tags": [
+        "pos",
+        "ch-pos"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能区分相交、平行、异面三种位置，并说明异面既不相交也不平行。"
+    },
+    {
+      "id": "sm-solid-n013",
+      "title": "直线与平面平行",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n012"
+      ],
+      "tags": [
+        "pos",
+        "ch-par"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能叙述线面平行的判定（直线平行于面内一条直线）与性质。"
+    },
+    {
+      "id": "sm-solid-n014",
+      "title": "平面与平面平行",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n013"
+      ],
+      "tags": [
+        "pos",
+        "ch-par"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用「一个平面内两条相交直线都平行于另一平面」判定面面平行。"
+    },
+    {
+      "id": "sm-solid-n015",
+      "title": "直线与平面垂直",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-solid-n012"
+      ],
+      "tags": [
+        "pos",
+        "ch-perp"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用「垂直于面内两条相交直线」判定线面垂直，并说明过一点垂线唯一。"
+    },
+    {
+      "id": "sm-solid-n016",
+      "title": "平面与平面垂直",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-solid-n015"
+      ],
+      "tags": [
+        "pos",
+        "ch-perp"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能用「一个平面过另一平面的垂线」判定面面垂直。"
+    },
+    {
+      "id": "sm-solid-n017",
+      "title": "判定与性质对照",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-solid-n014",
+        "sm-solid-n016"
+      ],
+      "tags": [
+        "pos",
+        "ch-pos",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在平行、垂直两类问题里先选判定还是性质，并写出简短推理。"
+    },
+    {
+      "id": "sm-solid-n018",
+      "title": "线面角",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n015"
+      ],
+      "tags": [
+        "metric",
+        "ch-met"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明直线与平面所成角是直线和它在平面上的射影所成的角。"
+    },
+    {
+      "id": "sm-solid-n019",
+      "title": "二面角直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n016"
+      ],
+      "tags": [
+        "metric",
+        "ch-met"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能指出二面角的平面角：棱的垂面与两个半平面的交线所成的角。"
+    },
+    {
+      "id": "sm-solid-n020",
+      "title": "点到平面距离",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n015"
+      ],
+      "tags": [
+        "metric",
+        "ch-met"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能说明点到平面距离是垂线段长，并在长方体中求出简单距离。"
+    },
+    {
+      "id": "sm-solid-n021",
+      "title": "空间角与距离综合",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-solid-n018",
+        "sm-solid-n019",
+        "sm-solid-n020"
+      ],
+      "tags": [
+        "metric",
+        "ch-met"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在长方体或正方体中指出所求的是哪种角或距离，再计算。"
+    },
+    {
+      "id": "sm-solid-n022",
+      "title": "立体几何合练",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-solid-n009",
+        "sm-solid-n017",
+        "sm-solid-n021"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在几何体视图、位置关系、简单度量之间切换。"
+    },
+    {
+      "id": "sm-solid-n023",
+      "title": "立体几何通关",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 5,
+      "prerequisites": [
+        "sm-solid-n022"
+      ],
+      "tags": [
+        "mixed",
+        "ch-end",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能独立完成本图收束检查。"
+    },
+    {
+      "id": "sm-solid-n024",
+      "title": "长方体中的异面直线",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n012"
+      ],
+      "tags": [
+        "pos",
+        "ch-pos"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在长方体中找出异面的棱，并说明怎样证明它们不共面。"
+    },
+    {
+      "id": "sm-solid-n025",
+      "title": "三垂线定理直觉",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 4,
+      "prerequisites": [
+        "sm-solid-n018"
+      ],
+      "tags": [
+        "metric",
+        "ch-met"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能用「平面的垂线、斜线、射影」关系判断何时一条线垂直于面内直线。"
+    },
+    {
+      "id": "sm-solid-n026",
+      "title": "展开图与作图误差",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n006"
+      ],
+      "tags": [
+        "solid",
+        "ch-view"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明三视图或展开图尺寸画不准时，还原几何体可能有多种理解。"
+    },
+    {
+      "id": "sm-solid-n027",
+      "title": "球的截面",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n004"
+      ],
+      "tags": [
+        "solid",
+        "ch-body"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能说明平面截球得圆，截面离球心越远圆越小。"
+    },
+    {
+      "id": "sm-solid-n028",
+      "title": "体积割补",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n009"
+      ],
+      "tags": [
+        "solid",
+        "ch-body"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把不规则组合体补成柱或拆成锥再求体积。"
+    },
+    {
+      "id": "sm-solid-n029",
+      "title": "平行垂直口诀陷阱",
+      "subject": "数学",
+      "stage": "高中",
+      "grade": 10,
+      "strand": "图形与几何",
+      "difficulty": 3,
+      "prerequisites": [
+        "sm-solid-n017"
+      ],
+      "tags": [
+        "pos",
+        "ch-pos"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能列出「线线、线面、面面」平行垂直的传递，指出哪一步不能想当然。"
+    }
+  ]
+}
