@@ -2,7 +2,7 @@
 
 中小学**知识图谱** + 轻量 RPG：**点亮知识点、打关升级**。
 
-现在完成的是 **Phase 0–1**：把数据格式定下来，并做出四张可校验、可通关的样例地图——**小学一年级「数与运算入门」**、**二年级「数与运算」**、**三年级「数与运算」**和**四年级「数与运算」**。
+现在完成的是 **Phase 0–1**：把数据格式定下来，并做出六张可校验、可通关的样例地图——小学一至六年级「数与运算」（一年级题为「数与运算入门」）。**小学数与运算 1–6 线已完成。**
 
 > **内容边界（请先读）：**  
 > 知识点是义务教育课标四大领域 + 常见教材**目录/教学脉络**风格的**原创大纲**，用来排学习顺序。  
@@ -30,8 +30,8 @@
 | 阶段 | 内容 | 状态 |
 | --- | --- | --- |
 | 0 | 仓库、许可证、模式（schema）、玩法文字 | ✅ 本仓库 |
-| 1 | 小学数学样例：一至四年级数与运算可通关地图 + 1–6 年级标题路书 | ✅ 本仓库 |
-| 2 | 补全小学数学其余年级/领域地图（仍是大纲，不搬书） | 未开始 |
+| 1 | 小学数学样例：一至六年级数与运算可通关地图 + 1–6 年级标题路书 | ✅ 本仓库（数与运算 1–6 线完成） |
+| 2 | 补全小学数学其余领域地图（图形与几何、统计与概率、综合与实践；仍是大纲，不搬书） | 未开始 |
 | 3 | 语文、英语等学科；英语可挂「单词知识图」 | 未开始 |
 | 4 | 游戏客户端或 Agent Skill：读 JSON、改存档、出题 | 未开始 |
 
@@ -46,6 +46,8 @@ maps/primary-math/grade-1-numbers/   一年级「数与运算」地图（四个 
 maps/primary-math/grade-2-numbers/   二年级「数与运算」地图（同上）
 maps/primary-math/grade-3-numbers/   三年级「数与运算」地图（同上）
 maps/primary-math/grade-4-numbers/   四年级「数与运算」地图（同上）
+maps/primary-math/grade-5-numbers/   五年级「数与运算」地图（同上）
+maps/primary-math/grade-6-numbers/   六年级「数与运算」地图（同上）
 docs/gameplay.md                     点亮、经验、关主、软锁/硬前置
 docs/skill-roadmap.md                以后做成 Skill 的接口设想
 scripts/validate_map.py              校验地图合法
@@ -53,6 +55,8 @@ scripts/_build_grade1_numbers.py     重新生成一年级 JSON
 scripts/_build_grade2_numbers.py     重新生成二年级 JSON
 scripts/_build_grade3_numbers.py     重新生成三年级 JSON
 scripts/_build_grade4_numbers.py     重新生成四年级 JSON
+scripts/_build_grade5_numbers.py     重新生成五年级 JSON
+scripts/_build_grade6_numbers.py     重新生成六年级 JSON
 LICENSE                              MIT
 ```
 
@@ -70,7 +74,7 @@ LICENSE                              MIT
 约定：
 
 - 给学生看的字用**中文**
-- 程序 id 用英文短横线，如 `pm-g1-n001`、`pm-g2-n001`、`pm-g3-n001`、`pm-g4-n001`（primary math，年级，第几号节点）
+- 程序 id 用英文短横线，如 `pm-g1-n001` … `pm-g6-n001`（primary math，年级，第几号节点）
 - `nodes.json` 里的 `prerequisites` 必须和「指向它的 prerequisite 边」一致
 - 只有前置边参与解锁；它们必须构成**有向无环图（DAG）**
 
@@ -79,7 +83,7 @@ LICENSE                              MIT
 
 ## 怎么「玩」这些样例地图
 
-现在没有画面，按数据走即可，和以后客户端规则相同。四张图各自通关，**还没有**跨地图进度引擎。
+现在没有画面，按数据走即可，和以后客户端规则相同。六张图各自通关，**还没有**跨地图进度引擎。
 
 ### 一年级 · 数与运算入门
 
@@ -128,6 +132,30 @@ LICENSE                              MIT
    「小数乘除入门」是**软锁支线**（人教版系统学习多在五年级），不挡终章关主，但通关前仍要点亮  
    三年级图的一位小数软锁支线与本图「小数的意义」在概念上衔接；本图从计数单位与小数意义重新讲起，**不**引用 `pm-g3-*` 节点
 
+### 五年级 · 数与运算
+
+1. 打开 [`maps/primary-math/grade-5-numbers/map.meta.json`](maps/primary-math/grade-5-numbers/map.meta.json)  
+   - 地图名：**五年级 · 数与运算**  
+   - 起点：`pm-g5-n001` 小数乘整数  
+   - 通关：点亮全部节点，并打过三名关主（小数乘除、分数加减、地图通关试炼）
+2. 演示存档里，起点已亮，`积的小数位数` 学到一半
+3. 主线建议：小数乘除系统化（含积与商的近似值、循环小数、混合运算）→ 关主 1 → 因数倍数与质数合数 → 分数意义、约分通分 → 分数加减 → 关主 2 → 关主 3  
+   运算律推广、积的近似值、乘法应用可与除法主线并行，在「小数乘除综合」处汇合  
+   「简易方程」是**软锁支线**（人教版五年级上常见），不挡终章关主，但通关前仍要点亮  
+   四年级图的小数乘除入门与本图「小数乘整数」在概念上衔接；本图从小数乘整数重新讲起，**不**引用 `pm-g4-*` 节点
+
+### 六年级 · 数与运算
+
+1. 打开 [`maps/primary-math/grade-6-numbers/map.meta.json`](maps/primary-math/grade-6-numbers/map.meta.json)  
+   - 地图名：**六年级 · 数与运算**  
+   - 起点：`pm-g6-n001` 分数乘法的意义  
+   - 通关：点亮全部节点，并打过三名关主（分数乘除、比百分数比例、地图通关试炼）
+2. 演示存档里，起点已亮，`分数乘整数` 学到一半
+3. 主线建议：分数乘除 → 关主 1 → 比与按比分配、百分数（可并行）→ 比例与正反比例入门 → 关主 2 → 列方程巩固分数/百分数问题 → 关主 3  
+   「认识负数」是**软锁支线**，不挡终章关主，但通关前仍要点亮  
+   圆、圆柱圆锥等几何大块不在本图  
+   五年级图的分数加减与简易方程与本图起点、方程巩固在概念上衔接；本图从分数乘法重新讲起，**不**引用 `pm-g5-*` 节点
+
 打印推荐层（从起点沿前置边展开）：
 
 ```bash
@@ -135,6 +163,8 @@ python3 scripts/validate_map.py maps/primary-math/grade-1-numbers --tree
 python3 scripts/validate_map.py maps/primary-math/grade-2-numbers --tree
 python3 scripts/validate_map.py maps/primary-math/grade-3-numbers --tree
 python3 scripts/validate_map.py maps/primary-math/grade-4-numbers --tree
+python3 scripts/validate_map.py maps/primary-math/grade-5-numbers --tree
+python3 scripts/validate_map.py maps/primary-math/grade-6-numbers --tree
 ```
 
 ## 校验命令
@@ -147,6 +177,8 @@ python3 scripts/validate_map.py maps/primary-math/grade-1-numbers
 python3 scripts/validate_map.py maps/primary-math/grade-2-numbers
 python3 scripts/validate_map.py maps/primary-math/grade-3-numbers
 python3 scripts/validate_map.py maps/primary-math/grade-4-numbers
+python3 scripts/validate_map.py maps/primary-math/grade-5-numbers
+python3 scripts/validate_map.py maps/primary-math/grade-6-numbers
 python3 scripts/validate_map.py --all
 ```
 
@@ -159,13 +191,15 @@ python3 scripts/_build_grade1_numbers.py
 python3 scripts/_build_grade2_numbers.py
 python3 scripts/_build_grade3_numbers.py
 python3 scripts/_build_grade4_numbers.py
+python3 scripts/_build_grade5_numbers.py
+python3 scripts/_build_grade6_numbers.py
 python3 scripts/validate_map.py --all --tree
 ```
 
 ## 以后多学科
 
-小学数学 1–6 年级领域标题已经列在 [maps/primary-math/OVERVIEW.md](maps/primary-math/OVERVIEW.md)，目前一至四年级「数与运算」已做成可通关地图，其余年级/领域仍是**只占题目**。  
-四张地图概念上衔接（一年级 100 以内 → 二年级起点复习；二年级万以内读写与整百整千口算 → 三年级起点数位复习；三年级万以内数位与一位小数初步 → 四年级大数与小数意义），但存档和校验都按图独立，跨地图进度以后再做。  
+小学数学 1–6 年级领域标题已经列在 [maps/primary-math/OVERVIEW.md](maps/primary-math/OVERVIEW.md)，**小学数与运算 1–6 线**已做成可通关地图，其余领域（图形与几何、统计与概率、综合与实践）仍是**只占题目**。  
+六张地图概念上衔接（一年级 100 以内 → 二年级起点复习；二年级万以内读写与整百整千口算 → 三年级起点数位复习；三年级万以内数位与一位小数初步 → 四年级大数与小数意义；四年级小数加减与乘除入门 → 五年级小数乘除与分数；五年级分数加减与简易方程 → 六年级分数乘除与方程巩固），但存档和校验都按图独立，跨地图进度以后再做。  
 语文、英语将新增 `maps/<学科>/`，复用同一套 schema。英语单词知识图可以和语文语素、数学应用题用语用 `related` 边连起来（见 Skill 路线）。
 
 
@@ -173,7 +207,7 @@ python3 scripts/validate_map.py --all --tree
 
 - 还没有图形界面，状态要靠读 JSON 想象
 - 练习题只有提示语，没有自动出题器
-- 五年级及以后、以及图形与几何等其它领域地图尚未填写节点
+- 图形与几何、统计与概率、综合与实践等其它领域地图尚未填写节点
 - `strand` 枚举目前按数学四大领域；其他学科需要扩展字段
 
 这些不挡 Phase 1：模式、样例 DAG、校验、许可证已经齐。

@@ -1,0 +1,1141 @@
+{
+  "map_id": "pm-g6-numbers",
+  "nodes": [
+    {
+      "id": "pm-g6-n001",
+      "title": "分数乘法的意义",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [],
+      "tags": [
+        "fraction",
+        "ch-frac-mul",
+        "concept"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道分数乘分数可以表示「求一个数的几分之几」，也能看成「几份里的几份」。本图从这里系统学习分数乘除。"
+    },
+    {
+      "id": "pm-g6-n002",
+      "title": "分数乘整数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-n001"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac-mul",
+        "multiply"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "会计算分数乘整数：分子与整数相乘、分母不变，能约分的先约再乘或乘完再约。"
+    },
+    {
+      "id": "pm-g6-n003",
+      "title": "分数乘分数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n002"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac-mul",
+        "multiply"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "会计算分数乘分数：分子相乘作分子、分母相乘作分母；能交叉约分的先约再乘。"
+    },
+    {
+      "id": "pm-g6-n004",
+      "title": "求一个数的几分之几",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n003"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac-mul",
+        "of"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "已知一个数，求它的几分之几是多少，会用乘法计算，并能在线段图上指出对应的一份。"
+    },
+    {
+      "id": "pm-g6-n005",
+      "title": "分数乘法解决问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n004"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-frac-mul",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "在「求一个数的几分之几」的短故事里列出乘法算式，注意单位 1 是哪一个量。"
+    },
+    {
+      "id": "pm-g6-n006",
+      "title": "倒数的认识",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-n003"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac-div",
+        "reciprocal"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道乘积是 1 的两个数互为倒数；会求整数、分数、小数的倒数（0 没有倒数）。"
+    },
+    {
+      "id": "pm-g6-n007",
+      "title": "分数除以整数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n006"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac-div",
+        "divide"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "分数除以整数，等于乘这个整数的倒数；平均分时也能看成分母乘整数。"
+    },
+    {
+      "id": "pm-g6-n008",
+      "title": "一个数除以分数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n007"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac-div",
+        "divide"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "一个数除以分数，等于乘这个分数的倒数。能说明「里面有几个这样的几分之几」。"
+    },
+    {
+      "id": "pm-g6-n009",
+      "title": "已知几分之几求这个数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n004",
+        "pm-g6-n008"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac-div",
+        "of"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "已知一个数的几分之几是多少，求这个数，会用除法（或乘倒数）计算。"
+    },
+    {
+      "id": "pm-g6-n010",
+      "title": "分数四则混合运算",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n005",
+        "pm-g6-n008"
+      ],
+      "tags": [
+        "fraction",
+        "ch-frac-div",
+        "mixed"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能按先乘除后加减、有括号先算括号的顺序，完成含分数的四则混合运算，得数要约分。"
+    },
+    {
+      "id": "pm-g6-n011",
+      "title": "分数乘除解决问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n009"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-frac-div",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能区分「求一个数的几分之几」和「已知几分之几求原数」，列出乘或除的算式。"
+    },
+    {
+      "id": "pm-g6-n012",
+      "title": "分数乘除综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n010",
+        "pm-g6-n011"
+      ],
+      "tags": [
+        "fluency",
+        "ch-frac-div",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合分数乘分数、倒数、除以分数、求原数、混合运算和应用题。"
+    },
+    {
+      "id": "pm-g6-n013",
+      "title": "比的意义",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-n012"
+      ],
+      "tags": [
+        "ratio",
+        "ch-ratio",
+        "concept"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道两个数相除又可以写成比，读作「比」；比的后项不能是 0。本图只谈数的比。"
+    },
+    {
+      "id": "pm-g6-n014",
+      "title": "比的基本性质",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n013"
+      ],
+      "tags": [
+        "ratio",
+        "ch-ratio",
+        "property"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道比的前项和后项同时乘或除以一个不为 0 的数，比值不变。"
+    },
+    {
+      "id": "pm-g6-n015",
+      "title": "化简比",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n014"
+      ],
+      "tags": [
+        "ratio",
+        "ch-ratio",
+        "simplify"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能把整数比、小数比、分数比化成最简整数比。"
+    },
+    {
+      "id": "pm-g6-n016",
+      "title": "求比值",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-n014"
+      ],
+      "tags": [
+        "ratio",
+        "ch-ratio",
+        "value"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能用前项除以后项求出比值，并用分数或小数表示。"
+    },
+    {
+      "id": "pm-g6-n017",
+      "title": "按比分配",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n015"
+      ],
+      "tags": [
+        "ratio",
+        "ch-ratio",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能把一个数量按照给定的比分成几部分，先求总份数再求每一部分。"
+    },
+    {
+      "id": "pm-g6-n018",
+      "title": "比例尺入门",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n016"
+      ],
+      "tags": [
+        "ratio",
+        "ch-ratio",
+        "scale"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道图上距离∶实际距离＝比例尺，能在数值比例尺和简单换算之间来回（几何作图留给以后）。"
+    },
+    {
+      "id": "pm-g6-n019",
+      "title": "百分数的意义",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-n013"
+      ],
+      "tags": [
+        "percent",
+        "ch-percent",
+        "concept"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道百分数表示一个数是另一个数的百分之几，用百分号「%」书写，便于比较。"
+    },
+    {
+      "id": "pm-g6-n020",
+      "title": "百分数与分数小数互化",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n019"
+      ],
+      "tags": [
+        "percent",
+        "ch-percent",
+        "convert"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在百分数、分数、小数之间互相改写，如 1/4＝0.25＝25%。"
+    },
+    {
+      "id": "pm-g6-n021",
+      "title": "求一个数的百分之几",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n020"
+      ],
+      "tags": [
+        "percent",
+        "ch-percent",
+        "of"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "已知一个数，求它的百分之几是多少，会把百分数化成分数或小数再乘。"
+    },
+    {
+      "id": "pm-g6-n022",
+      "title": "已知百分之几求这个数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n021"
+      ],
+      "tags": [
+        "percent",
+        "ch-percent",
+        "of"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "已知一个数的百分之几是多少，求这个数，会用除法计算。"
+    },
+    {
+      "id": "pm-g6-n023",
+      "title": "百分率",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n021"
+      ],
+      "tags": [
+        "percent",
+        "ch-percent",
+        "rate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能求发芽率、合格率、出勤率等：这部分数量÷总数量，再写成百分数。"
+    },
+    {
+      "id": "pm-g6-n024",
+      "title": "折扣税率利率入门",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n021"
+      ],
+      "tags": [
+        "percent",
+        "ch-percent",
+        "life"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在折扣、税率、利率的简单情境里，把「几折、百分之几」转化成求一个数的百分之几。"
+    },
+    {
+      "id": "pm-g6-n025",
+      "title": "百分数解决问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n022",
+        "pm-g6-n023",
+        "pm-g6-n024"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-percent",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能在百分数短故事里分清单位 1，选择「求百分之几是多少」或「已知百分之几求原数」。"
+    },
+    {
+      "id": "pm-g6-n026",
+      "title": "比例的意义",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n015",
+        "pm-g6-n016"
+      ],
+      "tags": [
+        "proportion",
+        "ch-prop",
+        "concept"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道表示两个比相等的式子叫做比例，能判断四个数能不能组成比例。"
+    },
+    {
+      "id": "pm-g6-n027",
+      "title": "解比例",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n026"
+      ],
+      "tags": [
+        "proportion",
+        "ch-prop",
+        "solve"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "知道比例的基本性质（内项之积等于外项之积），并能据此求出比例中的未知项。"
+    },
+    {
+      "id": "pm-g6-n028",
+      "title": "正比例的意义",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n027"
+      ],
+      "tags": [
+        "proportion",
+        "ch-prop",
+        "direct"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道两种相关联的量，一种量扩大（缩小）若干倍，另一种量也扩大（缩小）相同倍数，比值一定，成正比例。"
+    },
+    {
+      "id": "pm-g6-n029",
+      "title": "反比例的意义",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n027"
+      ],
+      "tags": [
+        "proportion",
+        "ch-prop",
+        "inverse"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道两种相关联的量，一种量扩大（缩小）若干倍，另一种量反而缩小（扩大）相同倍数，积一定，成反比例。"
+    },
+    {
+      "id": "pm-g6-n030",
+      "title": "成正比例与成反比例",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n028",
+        "pm-g6-n029"
+      ],
+      "tags": [
+        "proportion",
+        "ch-prop",
+        "judge"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "能根据「比值一定」或「积一定」判断两种量成正比例、成反比例，还是不成比例。"
+    },
+    {
+      "id": "pm-g6-n031",
+      "title": "正反比例解决问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n030"
+      ],
+      "tags": [
+        "word-problem",
+        "ch-prop",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在简单生活量里列出正比例或反比例关系，并用解比例的办法求未知量。"
+    },
+    {
+      "id": "pm-g6-n032",
+      "title": "比百分数比例综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n017",
+        "pm-g6-n018",
+        "pm-g6-n025",
+        "pm-g6-n031"
+      ],
+      "tags": [
+        "fluency",
+        "ch-prop",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合化简比、按比分配、百分数应用、解比例和正反比例判断。"
+    },
+    {
+      "id": "pm-g6-n033",
+      "title": "认识负数",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-n012"
+      ],
+      "tags": [
+        "negative",
+        "ch-neg",
+        "concept"
+      ],
+      "unlock_rule": {
+        "type": "soft_recommended",
+        "allow_teacher_override": true
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在气温、收支、海拔等情境里认识负数，知道正号、负号表示相反意义的量。"
+    },
+    {
+      "id": "pm-g6-n034",
+      "title": "正数负数和0",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 2,
+      "prerequisites": [
+        "pm-g6-n033"
+      ],
+      "tags": [
+        "negative",
+        "ch-neg",
+        "concept"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "知道正数、负数和 0：0 既不是正数也不是负数，是正负数的分界。"
+    },
+    {
+      "id": "pm-g6-n035",
+      "title": "负数的大小比较",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n034"
+      ],
+      "tags": [
+        "negative",
+        "ch-neg",
+        "compare"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能比较两个负数、负数与 0、负数与正数的大小：负得越多反而越小。"
+    },
+    {
+      "id": "pm-g6-n036",
+      "title": "列方程解决分数问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 3,
+      "prerequisites": [
+        "pm-g6-n012"
+      ],
+      "tags": [
+        "algebra",
+        "ch-eq",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "require_quest_types": [
+          "explain"
+        ],
+        "review_after_days": 10
+      },
+      "description": "能在分数乘除故事里设未知数、列方程。方程是含未知数的等式；本图从这里巩固，不依赖其他地图。"
+    },
+    {
+      "id": "pm-g6-n037",
+      "title": "列方程解决百分数问题",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 4,
+      "prerequisites": [
+        "pm-g6-n025",
+        "pm-g6-n036"
+      ],
+      "tags": [
+        "algebra",
+        "ch-eq",
+        "application"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 1,
+        "min_quiz_accuracy": 0.8,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 7
+      },
+      "description": "能在百分数故事里设单位 1 为未知数，列出方程并求解、检验。"
+    },
+    {
+      "id": "pm-g6-n038",
+      "title": "六年级数与运算综合",
+      "subject": "数学",
+      "stage": "小学",
+      "grade": 6,
+      "strand": "数与代数",
+      "difficulty": 5,
+      "prerequisites": [
+        "pm-g6-n012",
+        "pm-g6-n032",
+        "pm-g6-n037"
+      ],
+      "tags": [
+        "synthesis",
+        "ch-final",
+        "boss-gate"
+      ],
+      "unlock_rule": {
+        "type": "hard_all_prereqs",
+        "allow_teacher_override": false
+      },
+      "mastery_criteria": {
+        "min_quests_cleared": 2,
+        "min_quiz_accuracy": 0.85,
+        "require_quest_types": [
+          "practice"
+        ],
+        "review_after_days": 5
+      },
+      "description": "综合分数乘除、比与按比分配、百分数、比例与正反比例、列方程。负数支线不挡本关，通关前仍须点亮。"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "player_id": "demo-learner",
+  "display_name": "小明",
+  "xp_total": 20,
+  "current_map_id": "pm-g6-numbers",
+  "cleared_map_ids": [],
+  "nodes": {
+    "pm-g6-n001": {
+      "state": "lit",
+      "xp_earned": 10,
+      "cleared_quest_ids": [
+        "pm-g6-n001-explain"
+      ],
+      "updated_at": "2026-09-17T10:00:00Z"
+    },
+    "pm-g6-n002": {
+      "state": "learning",
+      "xp_earned": 10,
+      "cleared_quest_ids": [
+        "pm-g6-n002-explain"
+      ],
+      "updated_at": "2026-09-17T10:08:00Z"
+    }
+  }
+}

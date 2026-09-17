@@ -1,0 +1,792 @@
+{
+  "map_id": "pm-g6-numbers",
+  "quests": [
+    {
+      "id": "pm-g6-n001-explain",
+      "node_id": "pm-g6-n001",
+      "title": "几份里再取几份",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把一张长方形看成单位 1，先取 1/2，再取其中的 1/3。说明这是 1/2×1/3，也是「求 1/2 的 1/3」。本图从这里系统学习，不依赖其他地图节点。",
+      "success_hint": "分数乘分数：求一个数的几分之几。"
+    },
+    {
+      "id": "pm-g6-n001-practice",
+      "node_id": "pm-g6-n001",
+      "title": "画出几分之几",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在纸条或圆上先表示一个分数，再表示它的几分之几，并写出对应的乘法算式。",
+      "success_hint": "先确定单位 1，再看「取了其中的几分之几」。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n002-explain",
+      "node_id": "pm-g6-n002",
+      "title": "几个几分之几",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 2/5×3 看成 3 个 2/5 相加，或分子 2 乘 3、分母不变。说明能和 3 约分时可以先约。",
+      "success_hint": "整数与分子相乘；能和分母约分的先约，计算更简单。"
+    },
+    {
+      "id": "pm-g6-n002-practice",
+      "node_id": "pm-g6-n002",
+      "title": "分数乘整数练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算分数乘整数，含可以先约分的题，得数写成最简分数或带分数。",
+      "success_hint": "先看整数和分母有没有公因数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n003-explain",
+      "node_id": "pm-g6-n003",
+      "title": "分子乘分子分母乘分母",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "用 2/3×3/4 说明：分子 2×3、分母 3×4，其中 3 可以交叉约分，得 1/2。指出约分要在不同分数的分子分母之间做。",
+      "success_hint": "能约分先约，积的分子分母会更小。"
+    },
+    {
+      "id": "pm-g6-n003-practice",
+      "node_id": "pm-g6-n003",
+      "title": "分数乘分数练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算分数乘分数，含带分数先化假分数、能交叉约分的情况。",
+      "success_hint": "带分数先化成假分数再乘。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n003-quiz",
+      "node_id": "pm-g6-n003",
+      "title": "分数乘法小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合分数乘整数、分数乘分数，夹先约分和带分数，正确率达到掌握标准才过关。",
+      "success_hint": "得数要约成最简；大于 1 可写成带分数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n004-explain",
+      "node_id": "pm-g6-n004",
+      "title": "单位1的几分之几",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一瓶水 12 升，喝了 1/4。说明「12 的 1/4」用 12×1/4，并在线段图上标出单位 1 和 1/4。",
+      "success_hint": "求一个数的几分之几，用乘法。"
+    },
+    {
+      "id": "pm-g6-n004-practice",
+      "node_id": "pm-g6-n004",
+      "title": "求几分之几是多少",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知总量，求它的几分之几；数量可以是整数或分数。",
+      "success_hint": "先找到单位 1，再乘对应的分数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n005-explain",
+      "node_id": "pm-g6-n005",
+      "title": "谁是单位1",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一本书 80 页，已经看了 3/5。说明单位 1 是这本书的页数，求看了多少页用乘法。再改口「还剩几分之几」该怎样想。",
+      "success_hint": "单位 1 通常是「谁的几分之几」里的「谁」。"
+    },
+    {
+      "id": "pm-g6-n005-practice",
+      "node_id": "pm-g6-n005",
+      "title": "分数乘法故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成「求一个数的几分之几」短故事，夹一则「先求几分之几再求剩下」。",
+      "success_hint": "剩下的几分之几＝1−已经取的几分之几。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-n006-explain",
+      "node_id": "pm-g6-n006",
+      "title": "乘积是1的两个数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "因为 2/3×3/2＝1，所以 2/3 和 3/2 互为倒数。说出 5、1/8、0.25 的倒数，并说明 0 为什么没有倒数。",
+      "success_hint": "整数 a 的倒数是 1/a；分数 a/b 的倒数是 b/a（a、b 都不为 0）。"
+    },
+    {
+      "id": "pm-g6-n006-practice",
+      "node_id": "pm-g6-n006",
+      "title": "求倒数",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求整数、真分数、假分数、带分数和一位小数的倒数；判断 0 有没有倒数。",
+      "success_hint": "小数可先写成分数再颠倒分子分母。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n007-explain",
+      "node_id": "pm-g6-n007",
+      "title": "平均分成几份",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 3/4 平均分成 2 份，是 3/4÷2＝3/4×1/2。说明除以整数等于乘它的倒数。",
+      "success_hint": "平均分几份，就是乘 1/几。"
+    },
+    {
+      "id": "pm-g6-n007-practice",
+      "node_id": "pm-g6-n007",
+      "title": "分数除以整数练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "计算分数除以整数，得数写成最简分数。",
+      "success_hint": "整数和分子能约分时可以先约。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n008-explain",
+      "node_id": "pm-g6-n008",
+      "title": "里面有几个几分之几",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "1 里面有几个 1/4？1÷1/4＝1×4＝4。再用 2/3÷1/6＝2/3×6＝4 说明「除以分数＝乘倒数」。",
+      "success_hint": "问「有几个这样的几分之几」，就是除法。"
+    },
+    {
+      "id": "pm-g6-n008-practice",
+      "node_id": "pm-g6-n008",
+      "title": "除以分数练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算整数或分数除以分数，含带分数先化假分数；得数要约分。",
+      "success_hint": "除号后面的那个分数，分子分母颠倒后改成乘。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n008-quiz",
+      "node_id": "pm-g6-n008",
+      "title": "分数除法小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "混合除以整数、除以分数、求倒数，正确率达到掌握标准才过关。",
+      "success_hint": "先写出倒数再乘，不要只颠倒被除数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n009-explain",
+      "node_id": "pm-g6-n009",
+      "title": "已知部分求单位1",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一瓶水喝了 1/4，正好是 3 升。说明 3 升是单位 1 的 1/4，求这瓶水用 3÷1/4，或设 x 满足 x×1/4＝3。",
+      "success_hint": "已知一个数的几分之几是多少，求这个数，用除法。"
+    },
+    {
+      "id": "pm-g6-n009-practice",
+      "node_id": "pm-g6-n009",
+      "title": "求原数练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知一个数的几分之几是多少，求这个数；夹两道「求几分之几是多少」作对比。",
+      "success_hint": "先问：单位 1 已知还是未知？",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n010-practice",
+      "node_id": "pm-g6-n010",
+      "title": "分数混合运算练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "计算含分数加减乘除、小括号的混合运算，写出中间得数，最后约分。",
+      "success_hint": "没有括号先乘除后加减；同级从左往右。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n011-explain",
+      "node_id": "pm-g6-n011",
+      "title": "乘还是除先看单位1",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对比两则短故事：①已知总量求几分之几 ②已知几分之几对应的数量求总量。说明一个用乘、一个用除。",
+      "success_hint": "单位 1 已知用乘，单位 1 未知用除。"
+    },
+    {
+      "id": "pm-g6-n011-practice",
+      "node_id": "pm-g6-n011",
+      "title": "分数乘除故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成乘、除方向各两则短故事，其中一则先求剩下的几分之几。",
+      "success_hint": "可以用线段图标出单位 1 和已知的那一段。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-n012-practice",
+      "node_id": "pm-g6-n012",
+      "title": "分数乘除综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合分数乘分数、倒数、除以分数、求原数、一则混合运算和一则应用题。",
+      "success_hint": "先判断单位 1 在不在，再决定乘还是除。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-n012-quiz",
+      "node_id": "pm-g6-n012",
+      "title": "分数乘除小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "乘、除、求倒数、求原数、混合运算各至少一题，正确率达到掌握标准才过关。",
+      "success_hint": "除以分数先写成乘倒数；得数要约分。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g6-boss-fracops",
+      "node_id": "pm-g6-n012",
+      "title": "关主：分数乘除大闯关",
+      "type": "boss",
+      "xp": 90,
+      "prompt": "击败关主条件：①分数乘分数 1 题 ②求一个数的几分之几 1 题 ③求倒数 1 题 ④一个数除以分数 1 题 ⑤已知几分之几求原数 1 题 ⑥一道分数四则混合。",
+      "success_hint": "乘是「取其中几份」，除是「有几个这样的几份」或「求单位 1」。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-n013-explain",
+      "node_id": "pm-g6-n013",
+      "title": "两个数相除也可以说比",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "班级里男生 18 人、女生 16 人，男生人数比女生人数是 18∶16。指出前项、后项，并说明后项不能是 0。",
+      "success_hint": "比号写成「∶」，读作「比」；顺序不能随便换。"
+    },
+    {
+      "id": "pm-g6-n013-practice",
+      "node_id": "pm-g6-n013",
+      "title": "写出两个量的比",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "根据数量写出比，并指出前项、后项；夹一道「后项是 0 能不能写比」的判断。",
+      "success_hint": "谁比谁，谁就是前项。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n014-explain",
+      "node_id": "pm-g6-n014",
+      "title": "同时乘除比值不变",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 2∶4 和 1∶2 的比值相同：前项后项同时除以 2。再说明不能乘 0 或除以 0。",
+      "success_hint": "和分数的基本性质同一种想法：上下同时乘除同一个不为 0 的数。"
+    },
+    {
+      "id": "pm-g6-n014-practice",
+      "node_id": "pm-g6-n014",
+      "title": "写出相等的比",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据比的基本性质填空，写出与 3∶5、2∶8 相等的比；判断哪一步乘错。",
+      "success_hint": "前项后项必须乘（或除以）同一个不为 0 的数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n015-explain",
+      "node_id": "pm-g6-n015",
+      "title": "化成最简整数比",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 0.4∶0.6 先写成 4∶6 再化成 2∶3；把 1/2∶1/3 先通分再化简。说明最简整数比的前后项互质。",
+      "success_hint": "有小数先化整数，有分数先化同分母或先求比值再写。"
+    },
+    {
+      "id": "pm-g6-n015-practice",
+      "node_id": "pm-g6-n015",
+      "title": "化简比练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "化简整数比、小数比、分数比，写成最简整数比。",
+      "success_hint": "最后前后项的最大公因数应是 1。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n016-explain",
+      "node_id": "pm-g6-n016",
+      "title": "前项除以后项",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "求 3∶4 的比值：3÷4＝3/4＝0.75。说明比值是一个数，比是一种关系。",
+      "success_hint": "比值可以是分数、小数或整数。"
+    },
+    {
+      "id": "pm-g6-n016-practice",
+      "node_id": "pm-g6-n016",
+      "title": "求比值练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "求若干比的比值，用分数或小数表示；夹两道化简比（不是求比值）作对比。",
+      "success_hint": "题目问比值，就要算出那个商；问化简比，要写成 a∶b。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n017-explain",
+      "node_id": "pm-g6-n017",
+      "title": "先求总份数再分配",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "把 30 枝铅笔按 2∶3 分给甲、乙。说明总份数是 5 份，每份 6 枝，甲 12 枝、乙 18 枝。",
+      "success_hint": "按比分配：总数量÷总份数＝每份，再乘各自分数。"
+    },
+    {
+      "id": "pm-g6-n017-practice",
+      "node_id": "pm-g6-n017",
+      "title": "按比分配练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "把一个数量按给定的比分成两部分或三部分；夹一道比未化简的题。",
+      "success_hint": "先化简比，再算总份数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n017-quiz",
+      "node_id": "pm-g6-n017",
+      "title": "比与分配小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "化简比、求比值、按比分配各至少一题，正确率达到掌握标准才过关。",
+      "success_hint": "分清题目要的是 a∶b，还是那个商，还是分得的数量。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n018-explain",
+      "node_id": "pm-g6-n018",
+      "title": "图上1厘米代表实际多少",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比例尺 1∶5000 表示图上 1 厘米相当于实际 5000 厘米。说明已知图上距离求实际距离用乘法，反过来用除法。画圆、作图留给图形地图。",
+      "success_hint": "图上距离∶实际距离＝比例尺，单位要先统一。"
+    },
+    {
+      "id": "pm-g6-n018-practice",
+      "node_id": "pm-g6-n018",
+      "title": "比例尺换算练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据数值比例尺，在图上距离和实际距离之间换算；单位先化成同样的。",
+      "success_hint": "实际距离＝图上距离÷比例尺的比值，或按 1∶n 乘 n。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n019-explain",
+      "node_id": "pm-g6-n019",
+      "title": "百分之几便于比较",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "两班及格人数不同、总人数也不同时，用及格率（百分之几）来比。说明 37% 读作百分之三十七，百分数后面一般不带单位。",
+      "success_hint": "百分数表示两个数量的倍比关系，不是一个具体的数量。"
+    },
+    {
+      "id": "pm-g6-n019-practice",
+      "node_id": "pm-g6-n019",
+      "title": "读百分数说意义",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "读、写百分数，并说出「合格率 96%」表示合格数量是总数量的百分之九十六。",
+      "success_hint": "百分号前面的数表示有百分之几。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n020-explain",
+      "node_id": "pm-g6-n020",
+      "title": "百分之几就是百分之几",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 25%＝25/100＝1/4＝0.25；1/5＝0.2＝20%。百分数改分数要约分，改小数看百分号相当于除以 100。",
+      "success_hint": "百分号往左移两位小数点（除以 100）就变成小数。"
+    },
+    {
+      "id": "pm-g6-n020-practice",
+      "node_id": "pm-g6-n020",
+      "title": "百分数分数小数互化",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "在百分数、分数、小数之间来回改写，含 1/8、0.07、125%。",
+      "success_hint": "大于 100% 的百分数对应大于 1 的分数或小数。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g6-n021-explain",
+      "node_id": "pm-g6-n021",
+      "title": "求百分之几是多少",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一本书 80 页，看了 30%。说明 80×30%＝80×0.3。指出这和「求一个数的几分之几」同类。",
+      "success_hint": "把百分数化成小数或分数，再与单位 1 相乘。"
+    },
+    {
+      "id": "pm-g6-n021-practice",
+      "node_id": "pm-g6-n021",
+      "title": "求百分之几是多少练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "已知总量，求它的百分之几是多少；夹一道百分数大于 100% 的题。",
+      "success_hint": "超过 100% 表示比单位 1 还多。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n021-quiz",
+      "node_id": "pm-g6-n021",
+      "title": "百分数乘法小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "互化与「求一个数的百分之几」混合，正确率达到掌握标准才过关。",
+      "success_hint": "先改写成小数或分数，再乘。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n022-explain",
+      "node_id": "pm-g6-n022",
+      "title": "已知百分之几求单位1",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一本书看了 30%，正好是 24 页。说明 24 是单位 1 的 30%，求全书页数用 24÷30%。",
+      "success_hint": "已知一个数的百分之几是多少，求这个数，用除法。"
+    },
+    {
+      "id": "pm-g6-n022-practice",
+      "node_id": "pm-g6-n022",
+      "title": "求原数（百分数）",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "已知一个数的百分之几是多少，求这个数；夹两道「求百分之几是多少」作对比。",
+      "success_hint": "先问：单位 1 已知还是未知？",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n023-explain",
+      "node_id": "pm-g6-n023",
+      "title": "部分除以总数",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "播种 200 粒，发芽 186 粒。发芽率＝186÷200＝93%。说明百分率要先除再写成百分数。",
+      "success_hint": "百分率＝这部分数量÷总数量。"
+    },
+    {
+      "id": "pm-g6-n023-practice",
+      "node_id": "pm-g6-n023",
+      "title": "求百分率",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "根据部分和总数求发芽率、合格率或出勤率，写成百分数；可保留到百分号前一位小数。",
+      "success_hint": "除不尽时按题目要求保留近似百分数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n024-explain",
+      "node_id": "pm-g6-n024",
+      "title": "几折就是百分之几十",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明 8 折是现价为原价的 80%；税率 5% 是纳税额为营业额的 5%。本图只练把它们化成「求一个数的百分之几」。",
+      "success_hint": "几折＝百分之几十；不要把「减价百分之几」和「现价是原价的百分之几」混在一起。"
+    },
+    {
+      "id": "pm-g6-n024-practice",
+      "node_id": "pm-g6-n024",
+      "title": "折扣税率利率练",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成折扣、税率或利率的简单计算各一则：已知原价求现价，或已知本金求利息。",
+      "success_hint": "现价＝原价×折扣对应的百分数；利息＝本金×利率。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-n025-practice",
+      "node_id": "pm-g6-n025",
+      "title": "百分数故事综合",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合：求百分之几是多少、已知百分之几求原数、求百分率、一则折扣或税率。先标出单位 1。",
+      "success_hint": "单位 1 已知用乘，未知用除；百分率是部分÷总数。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n025-quiz",
+      "node_id": "pm-g6-n025",
+      "title": "百分数应用小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "四类百分数问题混排，正确率达到掌握标准才过关。",
+      "success_hint": "先用一句话写出「谁是谁的百分之几」。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n026-explain",
+      "node_id": "pm-g6-n026",
+      "title": "两个比相等就是比例",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "因为 2∶3 的比值和 4∶6 的比值相等，所以 2∶3＝4∶6 是比例。判断 1、2、3、6 四个数能不能组成比例。",
+      "success_hint": "比例必须是两个比用等号连起来。"
+    },
+    {
+      "id": "pm-g6-n026-practice",
+      "node_id": "pm-g6-n026",
+      "title": "哪些能组成比例",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断几组比或四个数能不能组成比例，能组成的写出一种比例。",
+      "success_hint": "比值相等就能组成比例；也可以看交叉相乘是否相等。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n027-explain",
+      "node_id": "pm-g6-n027",
+      "title": "内项之积等于外项之积",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "在 2∶3＝4∶6 里，3 和 4 是内项，2 和 6 是外项，3×4＝2×6。用这个性质求 x∶5＝6∶10 里的 x。",
+      "success_hint": "未知项＝另外两个已知项的积 ÷ 剩下那个已知项。"
+    },
+    {
+      "id": "pm-g6-n027-practice",
+      "node_id": "pm-g6-n027",
+      "title": "解比例练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "解若干比例，未知项在前项、后项、内项、外项都要见到；解完用交叉相乘检验。",
+      "success_hint": "先写出内项积＝外项积，再求未知项。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n027-quiz",
+      "node_id": "pm-g6-n027",
+      "title": "解比例小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "判断能否组成比例、解比例各若干题，正确率达到掌握标准才过关。",
+      "success_hint": "检验：两个内项的积要等于两个外项的积。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n028-explain",
+      "node_id": "pm-g6-n028",
+      "title": "比值一定成正比例",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "路程＝速度×时间，速度一定时，路程和时间的比值（就是速度）一定，所以路程和时间成正比例。指出两种量要相关联。",
+      "success_hint": "一种量变，另一种量跟着变，比值一定，才成正比例。"
+    },
+    {
+      "id": "pm-g6-n028-practice",
+      "node_id": "pm-g6-n028",
+      "title": "判断正比例",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断几组相关联的量是否成正比例，并说明比值是什么；夹一组不成比例的。",
+      "success_hint": "先写出对应的比，看比值变不变。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n029-explain",
+      "node_id": "pm-g6-n029",
+      "title": "积一定成反比例",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "总价一定，单价和数量的积一定，单价扩大几倍数量就缩小几倍，成反比例。再举「每天做的页数与天数」。",
+      "success_hint": "一种量变，另一种量反而变，积一定，才成反比例。"
+    },
+    {
+      "id": "pm-g6-n029-practice",
+      "node_id": "pm-g6-n029",
+      "title": "判断反比例",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "判断几组量是否成反比例，并说明积是什么；夹一组成正比例的作对比。",
+      "success_hint": "先写出对应的积，看积变不变。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n030-explain",
+      "node_id": "pm-g6-n030",
+      "title": "正、反还是不成比例",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "对比三组量：正方形边长与周长（正比例）、边长与面积（不成比例）、工作总量一定时工作效率与时间（反比例）。说明判断步骤。",
+      "success_hint": "先问相不相关，再问是比值一定还是积一定，还是都不定。"
+    },
+    {
+      "id": "pm-g6-n030-practice",
+      "node_id": "pm-g6-n030",
+      "title": "正反比例辨析",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "判断若干组量成正比例、成反比例还是不成比例，各写一句理由。",
+      "success_hint": "边长与面积：边长扩大 2 倍，面积扩大 4 倍，比值、积都不定。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n031-explain",
+      "node_id": "pm-g6-n031",
+      "title": "列出比例求未知量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一辆车 3 小时走 180 千米，照这样 5 小时走多少千米？说明路程和时间成正比例，列出 180∶3＝x∶5 再解。",
+      "success_hint": "先判断正还是反，再按对应量列出比例。"
+    },
+    {
+      "id": "pm-g6-n031-practice",
+      "node_id": "pm-g6-n031",
+      "title": "正反比例故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "完成正比例、反比例短故事各一则，列出比例并求出未知量。",
+      "success_hint": "反比例时，对应项的位置要让积保持相等。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-n032-practice",
+      "node_id": "pm-g6-n032",
+      "title": "比百分数比例综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "混合：化简比或按比分配、百分数应用、解比例、判断正反比例、一则比例尺换算。",
+      "success_hint": "先判断这题在考比、百分数还是比例。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-n032-quiz",
+      "node_id": "pm-g6-n032",
+      "title": "比与比例百分数小测",
+      "type": "mini_quiz",
+      "xp": 30,
+      "prompt": "按比分配、百分数、解比例、正反比例判断各至少一题，正确率达到掌握标准才过关。",
+      "success_hint": "百分数看单位 1；比例看比值或积是否一定。",
+      "items_suggested": 10
+    },
+    {
+      "id": "pm-g6-boss-ratio",
+      "node_id": "pm-g6-n032",
+      "title": "关主：比百分数比例大闯关",
+      "type": "boss",
+      "xp": 90,
+      "prompt": "击败关主条件：①化简比或求比值 1 题 ②按比分配 1 题 ③百分数应用 2 题（含一题求原数或百分率）④解比例 1 题 ⑤判断正比例或反比例 1 题。",
+      "success_hint": "比要化最简；百分数先找单位 1；比例用内项积等于外项积。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-n033-explain",
+      "node_id": "pm-g6-n033",
+      "title": "相反意义的量",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "零上 5 摄氏度和零下 3 摄氏度，写成 +5℃ 和 −3℃。说明负号表示与正方向相反的量。本支线为软锁，不挡终章关主。",
+      "success_hint": "先约定哪个方向为正，相反方向就用负号。"
+    },
+    {
+      "id": "pm-g6-n033-practice",
+      "node_id": "pm-g6-n033",
+      "title": "用正负数记录",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "在气温、收入与支出、高于或低于海平面等情境里，用正数或负数记录数量。",
+      "success_hint": "收入、高于、零上常用正；支出、低于、零下常用负。",
+      "items_suggested": 6
+    },
+    {
+      "id": "pm-g6-n034-explain",
+      "node_id": "pm-g6-n034",
+      "title": "0是分界",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "说明正数都大于 0，负数都小于 0，0 既不是正数也不是负数。+5 和 5 表示同一个数。",
+      "success_hint": "正号可以省略，负号不能省略。"
+    },
+    {
+      "id": "pm-g6-n034-practice",
+      "node_id": "pm-g6-n034",
+      "title": "分一分正负数和0",
+      "type": "practice",
+      "xp": 15,
+      "prompt": "把一组数分成正数、负数和 0；指出哪些写法表示同一个数。",
+      "success_hint": "0 单独一类，不要放进正数或负数。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n035-explain",
+      "node_id": "pm-g6-n035",
+      "title": "负得越多越小",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "比较 −3 和 −8、−2 和 0、−1 和 4。说明在一条向右增大的线上，越往左越小。",
+      "success_hint": "两个负数，绝对值大的反而小；负数一定小于 0，小于任何正数。"
+    },
+    {
+      "id": "pm-g6-n035-practice",
+      "node_id": "pm-g6-n035",
+      "title": "正负数比大小",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "比较正数、负数和 0 的大小，填＞＜＝；能按从小到大排列几个数。",
+      "success_hint": "先看符号，再看离 0 有多远。",
+      "items_suggested": 8
+    },
+    {
+      "id": "pm-g6-n036-explain",
+      "node_id": "pm-g6-n036",
+      "title": "分数故事也可以列方程",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "一瓶水喝了 1/4 正好 3 升。设这瓶水是 x 升，列出 x×1/4＝3。说明方程是含未知数的等式，本图自己巩固，不引用其他地图节点。",
+      "success_hint": "设单位 1 为 x，再按「一个数的几分之几」列等式。"
+    },
+    {
+      "id": "pm-g6-n036-practice",
+      "node_id": "pm-g6-n036",
+      "title": "列方程解分数故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用方程解「求一个数的几分之几」或「已知几分之几求原数」短故事各一则，并检验。",
+      "success_hint": "解方程：两边同时除以（或乘）同一个不为 0 的数。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-n037-explain",
+      "node_id": "pm-g6-n037",
+      "title": "百分数里设单位1",
+      "type": "explain",
+      "xp": 10,
+      "prompt": "看了 30% 正好 24 页。设全书是 x 页，列出 x×30%＝24。解出后再用「是不是 30%」检查。",
+      "success_hint": "单位 1 未知时，设它为 x 往往比先想「用除法」更清楚。"
+    },
+    {
+      "id": "pm-g6-n037-practice",
+      "node_id": "pm-g6-n037",
+      "title": "列方程解百分数故事",
+      "type": "practice",
+      "xp": 20,
+      "prompt": "用方程解百分数短故事：含求百分之几是多少、已知百分之几求原数各一则。",
+      "success_hint": "百分数先化成小数或分数，再与 x 相乘。",
+      "items_suggested": 4
+    },
+    {
+      "id": "pm-g6-n038-practice",
+      "node_id": "pm-g6-n038",
+      "title": "地图综合练",
+      "type": "practice",
+      "xp": 25,
+      "prompt": "题型混合：分数乘除、已知几分之几求原数、化简比或按比分配、百分数、解比例或正反比例、一则列方程。",
+      "success_hint": "先判断这题在考哪一盏已点亮的灯。",
+      "items_suggested": 12
+    },
+    {
+      "id": "pm-g6-boss-map",
+      "node_id": "pm-g6-n038",
+      "title": "关主：六年级数与运算通关试炼",
+      "type": "boss",
+      "xp": 100,
+      "prompt": "最终关主：①分数乘或除 1 题 ②已知几分之几或百分之几求原数 1 题 ③化简比或按比分配 1 题 ④百分数应用 1 题 ⑤解比例或判断正反比例 1 题 ⑥列一道方程。全部通过即通关本地图。",
+      "success_hint": "通关后这张地图记入已通关列表。五年级的分数加减与简易方程和本地图起点、方程巩固在概念上衔接，但存档仍按图分别计算，暂无跨地图引擎。",
+      "items_suggested": 16
+    }
+  ]
+}
